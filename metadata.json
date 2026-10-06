@@ -1,0 +1,6 @@
+{
+  "name": "NMCN Exam Preparation Platform — ASCONS Yola",
+  "description": "Timed 150-question MCQ nursing examination practice platform for students of Adamawa State College of Nursing Sciences, Yola.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
