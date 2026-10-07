@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 import { AppScreen, OptionKey, Question, ActiveExamSession } from './types';
 import { QUESTION_TYPES } from './data/questionBank';
+import { NMCN_COLLEGE_LOGO_DATA_URI } from './data/logoAsset';
 import { generateResultPdf, getOptionText } from './utils/pdfExport';
 
 const EXAM_DURATION_SECONDS = 4500; // 150 questions × 30 seconds = 4,500 seconds = 75 minutes (1 hr 15 mins)
@@ -370,7 +371,7 @@ export default function App() {
             </button>
 
             <img
-              src="/nmcn-logo-2.png"
+              src={NMCN_COLLEGE_LOGO_DATA_URI}
               alt="College & NMCN Official Emblem"
               className="h-10 w-auto object-contain rounded-md bg-white p-0.5 border border-slate-200 dark:border-slate-700 shrink-0"
             />
@@ -400,7 +401,7 @@ export default function App() {
                   Adamawa State College of Nursing Sciences, Yola
                 </p>
                 <img
-                  src="/nmcn-logo-2.png"
+                  src={NMCN_COLLEGE_LOGO_DATA_URI}
                   alt="College & NMCN Official Emblem"
                   className="h-14 sm:h-16 w-auto object-contain rounded-lg bg-white p-1 border border-slate-200 dark:border-slate-700 shrink-0 shadow-2xs"
                 />
@@ -786,69 +787,7 @@ export default function App() {
               </div>
             </section>
 
-            {/* Section 12: Incorrectly Answered Questions */}
-            <section
-              aria-labelledby="incorrect-questions-heading"
-              className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 sm:p-8 shadow-xs"
-            >
-              <div className="mb-6">
-                <h2
-                  id="incorrect-questions-heading"
-                  className="font-display text-xl sm:text-2xl font-bold text-slate-900 dark:text-white mb-1"
-                >
-                  Incorrectly Answered Questions ({incorrectQuestions.length})
-                </h2>
-                <p className="text-sm text-slate-600 dark:text-slate-400">
-                  Questions answered wrongly or left unanswered requiring revision.
-                </p>
-              </div>
-
-              {incorrectQuestions.length === 0 ? (
-                <div className="p-6 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 text-emerald-800 dark:text-emerald-300 font-medium text-sm">
-                  Excellent performance! You answered all 150 questions correctly.
-                </div>
-              ) : (
-                <div className="divide-y divide-slate-200 dark:divide-slate-800">
-                  {incorrectQuestions.map((q) => {
-                    const studentAns = answers[q.number];
-                    return (
-                      <div key={q.number} className="py-5 first:pt-0 last:pb-0">
-                        <div className="flex items-center gap-2 mb-2">
-                          <XCircle className="w-4 h-4 text-red-600 dark:text-red-400 shrink-0" />
-                          <span className="font-mono-tabular font-bold text-sm text-slate-900 dark:text-white">
-                            Question {q.number}
-                          </span>
-                        </div>
-                        <p className="text-base font-medium text-slate-900 dark:text-slate-100 mb-3">
-                          {q.question}
-                        </p>
-                        <div className="space-y-1.5 text-sm">
-                          <div className="text-red-700 dark:text-red-400 font-medium">
-                            Your answer:{' '}
-                            {studentAns
-                              ? `${studentAns}. ${getOptionText(q, studentAns)}`
-                              : 'Unanswered'}
-                          </div>
-                          <div className="text-emerald-700 dark:text-emerald-400 font-semibold">
-                            Correct answer: {q.correctAnswer}. {getOptionText(q, q.correctAnswer)}
-                          </div>
-                          {q.explanation && (
-                            <div className="pt-1 text-slate-600 dark:text-slate-300 leading-relaxed">
-                              <span className="font-semibold text-slate-800 dark:text-slate-200">
-                                Explanation:{' '}
-                              </span>
-                              {q.explanation}
-                            </div>
-                          )}
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-              )}
-            </section>
-
-            {/* Section 11: Full 150-Question Review */}
+            {/* Full 150-Question Examination Review & Corrections (Shown Immediately) */}
             <section
               aria-labelledby="full-review-heading"
               className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 sm:p-8 shadow-xs"
@@ -858,10 +797,10 @@ export default function App() {
                   id="full-review-heading"
                   className="font-display text-xl sm:text-2xl font-bold text-slate-900 dark:text-white mb-1"
                 >
-                  Full 150-Question Examination Review
+                  All 150 Questions, Answers & Corrections
                 </h2>
                 <p className="text-sm text-slate-600 dark:text-slate-400">
-                  Complete review of all 150 questions showing your answer and the correct answer.
+                  Complete review of all 150 questions showing every option, your selected answer, and the correct answer.
                 </p>
               </div>
 
@@ -869,6 +808,12 @@ export default function App() {
                 {questions.map((q) => {
                   const studentAns = answers[q.number];
                   const isCorrect = studentAns === q.correctAnswer;
+                  const options: { key: OptionKey; text: string }[] = [
+                    { key: 'A', text: q.optionA },
+                    { key: 'B', text: q.optionB },
+                    { key: 'C', text: q.optionC },
+                    { key: 'D', text: q.optionD },
+                  ];
 
                   return (
                     <div key={q.number} className="py-6 first:pt-0 last:pb-0">
@@ -895,11 +840,70 @@ export default function App() {
                         </span>
                       </div>
 
-                      <p className="text-base font-medium text-slate-900 dark:text-slate-100 mb-3 leading-relaxed">
+                      <p className="text-base font-medium text-slate-900 dark:text-slate-100 mb-3.5 leading-relaxed">
                         {q.question}
                       </p>
 
-                      <div className="space-y-1.5 text-sm">
+                      {/* All Options A, B, C, D with clear visual correction */}
+                      <div className="space-y-2 mb-4">
+                        {options.map((opt) => {
+                          const isOptionCorrect = opt.key === q.correctAnswer;
+                          const isStudentPicked = opt.key === studentAns;
+
+                          let boxClass =
+                            'bg-slate-50/70 border-slate-200/80 text-slate-700 dark:bg-slate-800/40 dark:border-slate-800 dark:text-slate-300';
+                          let badgeClass =
+                            'bg-white border-slate-300 text-slate-700 dark:bg-slate-900 dark:border-slate-700 dark:text-slate-300';
+
+                          if (isOptionCorrect) {
+                            boxClass =
+                              'bg-emerald-50/90 border-emerald-600 text-slate-900 dark:bg-emerald-950/50 dark:border-emerald-500 dark:text-white font-medium';
+                            badgeClass =
+                              'bg-emerald-700 border-emerald-700 text-white dark:bg-emerald-500 dark:border-emerald-500 dark:text-slate-950';
+                          } else if (isStudentPicked && !isOptionCorrect) {
+                            boxClass =
+                              'bg-red-50/90 border-red-500 text-slate-900 dark:bg-red-950/50 dark:border-red-500 dark:text-white';
+                            badgeClass =
+                              'bg-red-600 border-red-600 text-white dark:bg-red-500 dark:border-red-500 dark:text-white';
+                          }
+
+                          return (
+                            <div
+                              key={opt.key}
+                              className={`p-3 rounded-lg border flex items-start justify-between gap-3 text-sm sm:text-base ${boxClass}`}
+                            >
+                              <div className="flex items-start gap-3">
+                                <span
+                                  className={`w-6 h-6 rounded-md font-mono-tabular text-xs font-bold flex items-center justify-center shrink-0 mt-0.5 border ${badgeClass}`}
+                                >
+                                  {opt.key}
+                                </span>
+                                <span className="leading-snug">{opt.text}</span>
+                              </div>
+
+                              <div className="flex items-center gap-1.5 shrink-0 text-xs font-semibold">
+                                {isOptionCorrect && (
+                                  <span className="px-2 py-0.5 rounded-md bg-emerald-100 text-emerald-800 dark:bg-emerald-900/70 dark:text-emerald-200">
+                                    Correct Answer
+                                  </span>
+                                )}
+                                {isStudentPicked && !isOptionCorrect && (
+                                  <span className="px-2 py-0.5 rounded-md bg-red-100 text-red-800 dark:bg-red-900/70 dark:text-red-200">
+                                    Your Choice
+                                  </span>
+                                )}
+                                {isStudentPicked && isOptionCorrect && (
+                                  <span className="px-2 py-0.5 rounded-md bg-emerald-200/80 text-emerald-900 dark:bg-emerald-800 dark:text-emerald-100">
+                                    Your Choice
+                                  </span>
+                                )}
+                              </div>
+                            </div>
+                          );
+                        })}
+                      </div>
+
+                      <div className="space-y-1.5 text-sm bg-slate-50 dark:bg-slate-800/50 p-3.5 rounded-xl border border-slate-200/70 dark:border-slate-800">
                         <div
                           className={`font-medium ${
                             isCorrect
@@ -910,11 +914,11 @@ export default function App() {
                           Your answer:{' '}
                           {studentAns
                             ? `${studentAns}. ${getOptionText(q, studentAns)}`
-                            : 'Unanswered'}
+                            : 'Unanswered (No option selected)'}
                         </div>
 
                         <div className="text-emerald-700 dark:text-emerald-400 font-semibold">
-                          Correct answer: {q.correctAnswer}. {getOptionText(q, q.correctAnswer)}
+                          Correction (Correct Answer): {q.correctAnswer}. {getOptionText(q, q.correctAnswer)}
                         </div>
 
                         {q.explanation && (
@@ -960,6 +964,68 @@ export default function App() {
                   <span>RETRY</span>
                 </button>
               </div>
+            </section>
+
+            {/* Summary of Incorrectly Answered Questions for Quick Revision */}
+            <section
+              aria-labelledby="incorrect-questions-heading"
+              className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 sm:p-8 shadow-xs"
+            >
+              <div className="mb-6">
+                <h2
+                  id="incorrect-questions-heading"
+                  className="font-display text-xl sm:text-2xl font-bold text-slate-900 dark:text-white mb-1"
+                >
+                  Incorrectly Answered Questions ({incorrectQuestions.length})
+                </h2>
+                <p className="text-sm text-slate-600 dark:text-slate-400">
+                  Questions answered wrongly or left unanswered requiring revision.
+                </p>
+              </div>
+
+              {incorrectQuestions.length === 0 ? (
+                <div className="p-6 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 text-emerald-800 dark:text-emerald-300 font-medium text-sm">
+                  Excellent performance! You answered all 150 questions correctly.
+                </div>
+              ) : (
+                <div className="divide-y divide-slate-200 dark:divide-slate-800">
+                  {incorrectQuestions.map((q) => {
+                    const studentAns = answers[q.number];
+                    return (
+                      <div key={q.number} className="py-5 first:pt-0 last:pb-0">
+                        <div className="flex items-center gap-2 mb-2">
+                          <XCircle className="w-4 h-4 text-red-600 dark:text-red-400 shrink-0" />
+                          <span className="font-mono-tabular font-bold text-sm text-slate-900 dark:text-white">
+                            Question {q.number}
+                          </span>
+                        </div>
+                        <p className="text-base font-medium text-slate-900 dark:text-slate-100 mb-3">
+                          {q.question}
+                        </p>
+                        <div className="space-y-1.5 text-sm">
+                          <div className="text-red-700 dark:text-red-400 font-medium">
+                            Your answer:{' '}
+                            {studentAns
+                              ? `${studentAns}. ${getOptionText(q, studentAns)}`
+                              : 'Unanswered'}
+                          </div>
+                          <div className="text-emerald-700 dark:text-emerald-400 font-semibold">
+                            Correction (Correct Answer): {q.correctAnswer}. {getOptionText(q, q.correctAnswer)}
+                          </div>
+                          {q.explanation && (
+                            <div className="pt-1 text-slate-600 dark:text-slate-300 leading-relaxed">
+                              <span className="font-semibold text-slate-800 dark:text-slate-200">
+                                Explanation:{' '}
+                              </span>
+                              {q.explanation}
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
             </section>
           </div>
         )}

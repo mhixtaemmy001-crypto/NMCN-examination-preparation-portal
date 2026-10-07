@@ -94,92 +94,109 @@ export function generateResultPdf({
 
   y += 42;
 
-  // Incorrectly Answered Questions Section
-  const incorrectQuestions = questions.filter(
-    (q) => answers[q.number] !== q.correctAnswer
-  );
-
+  // All 150 Questions, Answers & Corrections Section
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(12);
   doc.setTextColor(15, 23, 42);
-  doc.text(
-    `INCORRECTLY ANSWERED QUESTIONS (${incorrectQuestions.length})`,
-    margin,
-    y
-  );
+  doc.text('ALL 150 QUESTIONS, ANSWERS & CORRECTIONS', margin, y);
   y += 7;
 
-  if (incorrectQuestions.length === 0) {
-    doc.setFont('helvetica', 'normal');
+  questions.forEach((q) => {
+    const studentChoice = answers[q.number];
+    const isCorrect = studentChoice === q.correctAnswer;
+    const statusText = isCorrect
+      ? 'CORRECT'
+      : studentChoice
+        ? 'WRONG'
+        : 'UNANSWERED (WRONG)';
+
+    const studentAnswerText = studentChoice
+      ? `${studentChoice}. ${getOptionText(q, studentChoice)}`
+      : 'Unanswered';
+    const correctAnswerText = `${q.correctAnswer}. ${getOptionText(q, q.correctAnswer)}`;
+
+    const questionLines = doc.splitTextToSize(
+      `Q${q.number} [${statusText}]: ${q.question}`,
+      maxWidth
+    );
+    const optALines = doc.splitTextToSize(`A. ${q.optionA}`, maxWidth - 6);
+    const optBLines = doc.splitTextToSize(`B. ${q.optionB}`, maxWidth - 6);
+    const optCLines = doc.splitTextToSize(`C. ${q.optionC}`, maxWidth - 6);
+    const optDLines = doc.splitTextToSize(`D. ${q.optionD}`, maxWidth - 6);
+
+    const yourAnsLines = doc.splitTextToSize(
+      `Your answer: ${studentAnswerText}`,
+      maxWidth - 4
+    );
+    const correctAnsLines = doc.splitTextToSize(
+      `Correction (Correct Answer): ${correctAnswerText}`,
+      maxWidth - 4
+    );
+    const explanationLines = q.explanation
+      ? doc.splitTextToSize(`Explanation: ${q.explanation}`, maxWidth - 4)
+      : [];
+
+    const totalLines =
+      questionLines.length +
+      optALines.length +
+      optBLines.length +
+      optCLines.length +
+      optDLines.length +
+      yourAnsLines.length +
+      correctAnsLines.length +
+      explanationLines.length;
+
+    const blockHeight = totalLines * 4.3 + 12;
+
+    ensureSpace(blockHeight);
+
+    doc.setFont('helvetica', 'bold');
     doc.setFontSize(10);
-    doc.setTextColor(5, 150, 105);
-    doc.text('Congratulations! You answered all 150 questions correctly.', margin, y);
-  } else {
-    incorrectQuestions.forEach((q) => {
-      const studentChoice = answers[q.number];
-      const studentAnswerText = studentChoice
-        ? `${studentChoice}. ${getOptionText(q, studentChoice)}`
-        : 'Unanswered';
-      const correctAnswerText = `${q.correctAnswer}. ${getOptionText(q, q.correctAnswer)}`;
+    doc.setTextColor(15, 23, 42);
+    doc.text(questionLines, margin, y);
+    y += questionLines.length * 4.3 + 1;
 
-      const questionLines = doc.splitTextToSize(
-        `Q${q.number}. ${q.question}`,
-        maxWidth
-      );
-      const yourAnsLines = doc.splitTextToSize(
-        `Your answer: ${studentAnswerText}`,
-        maxWidth - 4
-      );
-      const correctAnsLines = doc.splitTextToSize(
-        `Correct answer: ${correctAnswerText}`,
-        maxWidth - 4
-      );
-      const explanationLines = q.explanation
-        ? doc.splitTextToSize(`Explanation: ${q.explanation}`, maxWidth - 4)
-        : [];
+    doc.setFont('helvetica', 'normal');
+    doc.setFontSize(9);
+    doc.setTextColor(51, 65, 85);
+    doc.text(optALines, margin + 4, y);
+    y += optALines.length * 4.2;
+    doc.text(optBLines, margin + 4, y);
+    y += optBLines.length * 4.2;
+    doc.text(optCLines, margin + 4, y);
+    y += optCLines.length * 4.2;
+    doc.text(optDLines, margin + 4, y);
+    y += optDLines.length * 4.2 + 1;
 
-      const blockHeight =
-        (questionLines.length +
-          yourAnsLines.length +
-          correctAnsLines.length +
-          explanationLines.length) *
-          4.5 +
-        10;
-
-      ensureSpace(blockHeight);
-
-      doc.setFont('helvetica', 'bold');
-      doc.setFontSize(10);
-      doc.setTextColor(15, 23, 42);
-      doc.text(questionLines, margin, y);
-      y += questionLines.length * 4.5 + 1;
-
-      doc.setFont('helvetica', 'normal');
-      doc.setFontSize(9.5);
-      doc.setTextColor(185, 28, 28);
-      doc.text(yourAnsLines, margin + 3, y);
-      y += yourAnsLines.length * 4.5 + 1;
-
-      doc.setFont('helvetica', 'bold');
+    doc.setFont('helvetica', 'normal');
+    doc.setFontSize(9.5);
+    if (isCorrect) {
       doc.setTextColor(4, 120, 87);
-      doc.text(correctAnsLines, margin + 3, y);
-      y += correctAnsLines.length * 4.5 + 1;
+    } else {
+      doc.setTextColor(185, 28, 28);
+    }
+    doc.text(yourAnsLines, margin + 3, y);
+    y += yourAnsLines.length * 4.3 + 1;
 
-      if (explanationLines.length > 0) {
-        doc.setFont('helvetica', 'normal');
-        doc.setTextColor(71, 85, 105);
-        doc.text(explanationLines, margin + 3, y);
-        y += explanationLines.length * 4.5 + 4;
-      } else {
-        y += 3;
-      }
+    doc.setFont('helvetica', 'bold');
+    doc.setTextColor(4, 120, 87);
+    doc.text(correctAnsLines, margin + 3, y);
+    y += correctAnsLines.length * 4.3 + 1;
 
-      doc.setDrawColor(226, 232, 240);
-      doc.setLineWidth(0.2);
-      doc.line(margin, y - 2, pageWidth - margin, y - 2);
+    if (explanationLines.length > 0) {
+      doc.setFont('helvetica', 'normal');
+      doc.setTextColor(71, 85, 105);
+      doc.text(explanationLines, margin + 3, y);
+      y += explanationLines.length * 4.3 + 3;
+    } else {
       y += 2;
-    });
-  }
+    }
+
+    doc.setDrawColor(226, 232, 240);
+    doc.setLineWidth(0.2);
+    doc.line(margin, y - 1, pageWidth - margin, y - 1);
+    y += 3;
+  });
 
   doc.save(`NMCN_Exam_Result_${correctCount}_of_150.pdf`);
 }
