@@ -11,9 +11,12 @@ export interface Question {
   explanation: string;
 }
 
+export type QuestionSection = 'Section A' | 'Section B' | 'Section C';
+
 export interface QuestionType {
   id: string;
   name: string;
+  section: QuestionSection;
   questions: Question[]; // Always 150 questions
 }
 

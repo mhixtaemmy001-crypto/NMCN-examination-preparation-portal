@@ -1,2 +1,118 @@
-export const NMCN_COLLEGE_LOGO_DATA_URI =
-  'data:image/png;base64,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';
+// Official Emblem of Adamawa State College of Nursing and Midwifery, P.M.B 2044, Yola
+// Motto: IN THE LIGHT OF KNOWLEDGE AND UNDERSTANDING
+
+const ASCONS_YOLA_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 560" width="500" height="560">
+  <rect width="500" height="560" fill="#ffffff" rx="24"/>
+  <defs>
+    <!-- Top outer arc for ADAMAWA STATE COLLEGE OF NURSING AND MIDWIFERY (clockwise) -->
+    <path id="collegeNameArc" d="M 96,348 A 192,192 0 1,1 404,348" fill="none" />
+    <!-- Bottom inner arc for P.M.B 2044, YOLA (counter-clockwise) -->
+    <path id="pmbArc" d="M 118,368 A 196,196 0 0,0 382,368" fill="none" />
+    <!-- Bottom motto line 1: IN THE LIGHT OF -->
+    <path id="mottoInnerArc" d="M 90,455 A 255,255 0 0,0 410,455" fill="none" />
+    <!-- Bottom motto line 2: KNOWLEDGE AND UNDERSTANDING -->
+    <path id="mottoOuterArc" d="M 28,452 A 285,285 0 0,0 472,452" fill="none" />
+  </defs>
+
+  <!-- Outer Seal Ring -->
+  <circle cx="250" cy="235" r="222" fill="#ffffff" stroke="#181838" stroke-width="5.5" />
+  <circle cx="250" cy="235" r="215" fill="none" stroke="#181838" stroke-width="1.5" />
+
+  <!-- Inner Seal Ring -->
+  <circle cx="250" cy="235" r="156" fill="#ffffff" stroke="#181838" stroke-width="4.5" />
+
+  <!-- Circular Text: ADAMAWA STATE COLLEGE OF NURSING AND MIDWIFERY -->
+  <text fill="#1e1b4b" font-family="Arial, Helvetica, sans-serif" font-size="25.5" font-weight="900" letter-spacing="1.2">
+    <textPath href="#collegeNameArc" startOffset="50%" text-anchor="middle">
+      ADAMAWA STATE COLLEGE OF NURSING AND MIDWIFERY
+    </textPath>
+  </text>
+
+  <!-- Left and Right Separator Dots -->
+  <circle cx="107" cy="360" r="10.5" fill="#27245e" />
+  <circle cx="393" cy="360" r="10.5" fill="#27245e" />
+
+  <!-- Bottom Ring Text: P.M.B 2044, YOLA -->
+  <text fill="#1e1b4b" font-family="Arial, Helvetica, sans-serif" font-size="26.5" font-weight="900" letter-spacing="1.5">
+    <textPath href="#pmbArc" startOffset="50%" text-anchor="middle">
+      P.M.B 2044, YOLA
+    </textPath>
+  </text>
+
+  <!-- Central Emblem: Open Book of Knowledge (Top Center) -->
+  <g transform="translate(0, 4)">
+    <!-- Outer Dark Book Cover -->
+    <path d="M 164,126 L 164,218 L 243,218 Q 250,223 257,218 L 336,218 L 336,126 L 325,126 L 325,208 L 175,208 L 175,126 Z" fill="#ffffff" stroke="#181838" stroke-width="4.5" stroke-linejoin="round" />
+    <!-- Left Page Stack -->
+    <path d="M 173,120 L 173,205 Q 212,197 250,210 L 250,118 Q 212,102 173,120 Z" fill="#ffffff" stroke="#181838" stroke-width="4" stroke-linejoin="round" />
+    <!-- Right Page Stack -->
+    <path d="M 327,120 L 327,205 Q 288,197 250,210 L 250,118 Q 288,102 327,120 Z" fill="#ffffff" stroke="#181838" stroke-width="4" stroke-linejoin="round" />
+    <!-- Inner Open Left Page -->
+    <path d="M 182,115 L 182,196 Q 215,186 250,202 L 250,116 Q 215,100 182,115 Z" fill="#ffffff" stroke="#181838" stroke-width="3.5" stroke-linejoin="round" />
+    <!-- Inner Open Right Page -->
+    <path d="M 318,115 L 318,196 Q 285,186 250,202 L 250,116 Q 285,100 318,115 Z" fill="#ffffff" stroke="#181838" stroke-width="3.5" stroke-linejoin="round" />
+
+    <!-- Dashed Text Lines on Left Page -->
+    <g stroke="#27245e" stroke-width="2.2" stroke-dasharray="9,4" fill="none">
+      <path d="M 192,126 Q 218,118 242,126" />
+      <path d="M 192,138 Q 218,130 242,138" />
+      <path d="M 192,150 Q 218,142 242,150" />
+      <path d="M 192,162 Q 218,154 242,162" />
+      <path d="M 192,174 Q 218,166 242,174" />
+      <path d="M 192,186 Q 218,178 242,186" />
+    </g>
+    <!-- Dashed Text Lines on Right Page -->
+    <g stroke="#27245e" stroke-width="2.2" stroke-dasharray="9,4" fill="none">
+      <path d="M 258,126 Q 282,118 308,126" />
+      <path d="M 258,138 Q 282,130 308,138" />
+      <path d="M 258,150 Q 282,142 308,150" />
+      <path d="M 258,162 Q 282,154 308,162" />
+      <path d="M 258,174 Q 282,166 308,174" />
+      <path d="M 258,186 Q 282,178 308,186" />
+    </g>
+  </g>
+
+  <!-- Central Emblem: Florence Nightingale Nursing Lamp (Below Book) -->
+  <g transform="translate(0, 4)">
+    <!-- Flame at Left Spout Tip -->
+    <path d="M 106,192 C 97,183 100,168 106,158 C 112,168 115,183 106,192 Z" fill="#ffffff" stroke="#181838" stroke-width="2.8" />
+    <!-- Spout Rim Collar -->
+    <path d="M 98,197 L 116,197 L 114,205 L 102,205 Z" fill="#ffffff" stroke="#181838" stroke-width="2.5" />
+
+    <!-- Lamp Body & Long Left Spout & Right Loop Handle -->
+    <path d="M 102,205
+             Q 138,265 182,306
+             Q 212,332 248,334
+             Q 290,334 322,316
+             C 348,302 350,270 318,266
+             L 212,266
+             Q 162,248 114,205 Z"
+          fill="#ffffff" stroke="#181838" stroke-width="2.8" stroke-linejoin="round" />
+
+    <!-- Inner Handle Cutout on Right -->
+    <path d="M 304,276 C 326,276 326,298 302,305 L 292,305 L 302,276 Z" fill="#ffffff" stroke="#181838" stroke-width="2.5" stroke-linejoin="round" />
+
+    <!-- Lamp Dome Lid & Finial Knob -->
+    <path d="M 214,266 Q 258,236 302,266 Z" fill="#ffffff" stroke="#181838" stroke-width="2.5" />
+    <rect x="251" y="239" width="16" height="11" rx="4" fill="#ffffff" stroke="#181838" stroke-width="2.5" />
+
+    <!-- Deep Indigo/Navy Pedestal Base of Lamp -->
+    <path d="M 222,333 L 274,333 L 306,360 L 190,360 Z" fill="#2c256b" stroke="#181838" stroke-width="2.8" stroke-linejoin="round" />
+  </g>
+
+  <!-- Curved Motto Below Seal: IN THE LIGHT OF -->
+  <text fill="#1e1b4b" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="900" letter-spacing="1.4">
+    <textPath href="#mottoInnerArc" startOffset="50%" text-anchor="middle">
+      IN THE LIGHT OF
+    </textPath>
+  </text>
+
+  <!-- Curved Motto Below Seal: KNOWLEDGE AND UNDERSTANDING -->
+  <text fill="#1e1b4b" font-family="Arial, Helvetica, sans-serif" font-size="25.5" font-weight="900" letter-spacing="1.1">
+    <textPath href="#mottoOuterArc" startOffset="50%" text-anchor="middle">
+      KNOWLEDGE AND UNDERSTANDING
+    </textPath>
+  </text>
+</svg>`;
+
+export const NMCN_COLLEGE_LOGO_DATA_URI = `data:image/svg+xml;utf8,${encodeURIComponent(ASCONS_YOLA_SVG)}`;

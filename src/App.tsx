@@ -12,10 +12,13 @@ import {
   X,
   ArrowRight,
   Check,
+  ChevronDown,
+  ChevronUp,
 } from 'lucide-react';
-import { AppScreen, OptionKey, Question, ActiveExamSession } from './types';
+import { AppScreen, OptionKey, Question, ActiveExamSession, QuestionSection } from './types';
 import { QUESTION_TYPES } from './data/questionBank';
 import { NMCN_COLLEGE_LOGO_DATA_URI } from './data/logoAsset';
+import { PROVOST_LANDSCAPE_DATA_URI } from './data/provostAsset';
 import { generateResultPdf, getOptionText } from './utils/pdfExport';
 
 const EXAM_DURATION_SECONDS = 4500; // 150 questions × 30 seconds = 4,500 seconds = 75 minutes (1 hr 15 mins)
@@ -64,6 +67,7 @@ export default function App() {
   // Active exam restoration or initial state
   const [screen, setScreen] = useState<AppScreen>('welcome');
   const [selectedTypeId, setSelectedTypeId] = useState<string>(QUESTION_TYPES[0].id);
+  const [openSection, setOpenSection] = useState<QuestionSection | null>(null);
   const [answers, setAnswers] = useState<Record<number, OptionKey>>({});
   const [currentQuestion, setCurrentQuestion] = useState<number>(1);
   const [startedAt, setStartedAt] = useState<number | null>(null);
@@ -372,7 +376,7 @@ export default function App() {
 
             <img
               src={NMCN_COLLEGE_LOGO_DATA_URI}
-              alt="College & NMCN Official Emblem"
+              alt="Adamawa State College of Nursing and Midwifery Yola Logo"
               className="h-10 w-auto object-contain rounded-md bg-white p-0.5 border border-slate-200 dark:border-slate-700 shrink-0"
             />
           </div>
@@ -394,29 +398,40 @@ export default function App() {
       <main className="flex-1 flex flex-col">
         {/* SCREEN 1: WELCOME HOMEPAGE */}
         {screen === 'welcome' && (
-          <section className="flex-1 flex items-center justify-center px-4 py-12 sm:py-20">
-            <div className="max-w-2xl w-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 sm:p-12 shadow-xs">
-              <div className="flex items-start justify-between gap-4 mb-4">
-                <p className="text-xs sm:text-sm font-semibold text-emerald-700 dark:text-emerald-400 tracking-wide pt-1">
+          <section className="relative flex-1 flex items-center justify-center px-4 sm:px-8 py-12 sm:py-20 overflow-hidden">
+            {/* Full-Viewport Background: Adamawa State College of Nursing Sciences, Yola */}
+            <div className="absolute inset-0 z-0">
+              <img
+                src={PROVOST_LANDSCAPE_DATA_URI}
+                alt="Adamawa State College of Nursing Sciences, Yola"
+                className="w-full h-full object-cover object-center"
+              />
+              {/* Dark gradient overlay so the text sits directly on the background image with clear legibility */}
+              <div className="absolute inset-0 bg-gradient-to-b from-slate-950/70 via-slate-950/65 to-slate-950/80" />
+            </div>
+
+            <div className="relative z-10 max-w-3xl w-full py-6 sm:py-10">
+              <div className="flex items-start justify-between gap-4 mb-6">
+                <p className="text-sm sm:text-base font-bold text-emerald-400 tracking-wide pt-1 drop-shadow-md">
                   Adamawa State College of Nursing Sciences, Yola
                 </p>
                 <img
                   src={NMCN_COLLEGE_LOGO_DATA_URI}
-                  alt="College & NMCN Official Emblem"
-                  className="h-14 sm:h-16 w-auto object-contain rounded-lg bg-white p-1 border border-slate-200 dark:border-slate-700 shrink-0 shadow-2xs"
+                  alt="Adamawa State College of Nursing and Midwifery Yola Logo"
+                  className="h-16 sm:h-20 w-auto object-contain rounded-xl bg-white p-1.5 shadow-lg shrink-0"
                 />
               </div>
 
-              <h1 className="font-display text-2xl sm:text-4xl font-bold text-slate-900 dark:text-white tracking-tight leading-tight mb-5 text-balance">
+              <h1 className="font-display text-3xl sm:text-5xl font-bold text-white tracking-tight leading-tight mb-6 text-balance drop-shadow-lg">
                 Welcome to NMCN professional examination preparation portal.
               </h1>
 
-              <p className="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed mb-8">
+              <p className="text-lg sm:text-xl text-white/95 font-medium leading-relaxed mb-10 drop-shadow-md">
                 This portal contains various past questions which has been designed and timed to guide you through your preparatory studies. The college wishes you best of luck.
               </p>
 
-              <div className="pt-2 border-t border-slate-100 dark:border-slate-800/80 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-                <div className="text-xs sm:text-sm text-slate-500 dark:text-slate-400">
+              <div className="pt-5 border-t border-white/25 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                <div className="text-xs sm:text-sm font-semibold text-white/90 drop-shadow-xs">
                   <span>150 Multiple-Choice Questions</span>
                   <span className="mx-2" aria-hidden="true">·</span>
                   <span>1 Hour 15 Minutes (75 Mins)</span>
@@ -424,8 +439,11 @@ export default function App() {
 
                 <button
                   type="button"
-                  onClick={() => setScreen('select-type')}
-                  className="w-full sm:w-auto min-h-[48px] px-8 py-3.5 rounded-xl bg-emerald-700 hover:bg-emerald-800 active:bg-emerald-900 text-white font-semibold text-base tracking-wide flex items-center justify-center gap-2 transition-colors cursor-pointer shadow-xs"
+                  onClick={() => {
+                    setOpenSection(null);
+                    setScreen('select-type');
+                  }}
+                  className="w-full sm:w-auto min-h-[50px] px-8 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 text-white font-bold text-base tracking-wide flex items-center justify-center gap-2 transition-colors cursor-pointer shadow-lg"
                 >
                   <span>CONTINUE</span>
                   <ArrowRight className="w-4 h-4" />
@@ -438,43 +456,100 @@ export default function App() {
         {/* SCREEN 2: QUESTION-TYPE SELECTION */}
         {screen === 'select-type' && (
           <section className="flex-1 flex items-center justify-center px-4 py-10 sm:py-16">
-            <div className="max-w-xl w-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 sm:p-10 shadow-xs">
+            <div className="max-w-2xl w-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 sm:p-10 shadow-xs">
               <h1 className="font-display text-xl sm:text-2xl font-bold text-slate-900 dark:text-white mb-2">
                 Select Question Type
               </h1>
               <p className="text-sm text-slate-600 dark:text-slate-400 mb-6">
-                Choose a question type below and click Start to begin your 150-question timed examination (1 hour 15 minutes).
+                Click on a section below (Section A, Section B, or Section C) to view its question types, select one, and click Start.
               </p>
 
-              <div role="radiogroup" aria-label="Question Type" className="space-y-3 mb-8">
-                {QUESTION_TYPES.map((qType) => {
-                  const isSelected = qType.id === selectedTypeId;
+              <div role="radiogroup" aria-label="Question Type" className="space-y-4 mb-8">
+                {(['Section A', 'Section B', 'Section C'] as const).map((sectionName) => {
+                  const sectionTypes = QUESTION_TYPES.filter((qType) => qType.section === sectionName);
+                  const isExpanded = openSection === sectionName;
+                  const selectedInThisSection = sectionTypes.find((qType) => qType.id === selectedTypeId);
+
                   return (
-                    <button
-                      key={qType.id}
-                      type="button"
-                      role="radio"
-                      aria-checked={isSelected}
-                      onClick={() => setSelectedTypeId(qType.id)}
-                      className={`w-full min-h-[56px] p-4 rounded-xl border text-left flex items-center justify-between gap-3 transition-colors cursor-pointer ${
-                        isSelected
-                          ? 'bg-emerald-50/80 border-emerald-600 text-slate-900 dark:bg-emerald-950/40 dark:border-emerald-500 dark:text-white'
-                          : 'bg-slate-50/60 border-slate-200 text-slate-700 hover:bg-slate-100 dark:bg-slate-800/40 dark:border-slate-800 dark:text-slate-300 dark:hover:bg-slate-800'
-                      }`}
+                    <div
+                      key={sectionName}
+                      className="rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50/40 dark:bg-slate-950/30 overflow-hidden transition-colors"
                     >
-                      <span className="font-semibold text-sm sm:text-base leading-snug">
-                        {qType.name}
-                      </span>
-                      <span
-                        className={`w-5 h-5 rounded-full border flex items-center justify-center shrink-0 ${
-                          isSelected
-                            ? 'border-emerald-600 bg-emerald-600 text-white dark:border-emerald-400 dark:bg-emerald-500'
-                            : 'border-slate-300 dark:border-slate-600'
-                        }`}
+                      <button
+                        type="button"
+                        aria-expanded={isExpanded}
+                        onClick={() =>
+                          setOpenSection((prev) => (prev === sectionName ? null : sectionName))
+                        }
+                        className="w-full p-4 sm:p-5 flex items-center justify-between gap-3 text-left hover:bg-slate-100/70 dark:hover:bg-slate-800/50 transition-colors cursor-pointer"
                       >
-                        {isSelected && <Check className="w-3.5 h-3.5 stroke-[3]" />}
-                      </span>
-                    </button>
+                        <div>
+                          <div className="flex items-center gap-2.5">
+                            <h2 className="font-display text-base sm:text-lg font-bold text-emerald-800 dark:text-emerald-400 tracking-tight">
+                              {sectionName}
+                            </h2>
+                            {selectedInThisSection && (
+                              <span className="text-xs font-semibold px-2.5 py-0.5 rounded-md bg-emerald-100 text-emerald-800 dark:bg-emerald-900/60 dark:text-emerald-300">
+                                Selected: {selectedInThisSection.name}
+                              </span>
+                            )}
+                          </div>
+                          <span className="text-xs font-medium text-slate-500 dark:text-slate-400 block mt-0.5">
+                            {isExpanded
+                              ? `Showing ${sectionTypes.length} question types`
+                              : `Click to view ${sectionTypes.length} question types`}
+                          </span>
+                        </div>
+
+                        <div className="w-9 h-9 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-300 shrink-0">
+                          {isExpanded ? (
+                            <ChevronUp className="w-4 h-4" />
+                          ) : (
+                            <ChevronDown className="w-4 h-4" />
+                          )}
+                        </div>
+                      </button>
+
+                      {isExpanded && (
+                        <div className="px-4 pb-4 sm:px-5 sm:pb-5 pt-2 border-t border-slate-200/80 dark:border-slate-800 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                          {sectionTypes.map((qType) => {
+                            const isSelected = qType.id === selectedTypeId;
+                            return (
+                              <button
+                                key={qType.id}
+                                type="button"
+                                role="radio"
+                                aria-checked={isSelected}
+                                onClick={() => setSelectedTypeId(qType.id)}
+                                className={`w-full min-h-[54px] px-4 py-3.5 rounded-xl border text-left flex items-center justify-between gap-3 transition-colors cursor-pointer ${
+                                  isSelected
+                                    ? 'bg-emerald-50/90 border-emerald-600 text-slate-900 dark:bg-emerald-950/50 dark:border-emerald-500 dark:text-white shadow-2xs'
+                                    : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-100/80 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-300 dark:hover:bg-slate-800'
+                                }`}
+                              >
+                                <div>
+                                  <span className="font-semibold text-sm sm:text-base leading-snug block">
+                                    {qType.name}
+                                  </span>
+                                  <span className="text-[11px] text-slate-500 dark:text-slate-400">
+                                    {qType.section} · 150 Questions
+                                  </span>
+                                </div>
+                                <span
+                                  className={`w-5 h-5 rounded-full border flex items-center justify-center shrink-0 ${
+                                    isSelected
+                                      ? 'border-emerald-600 bg-emerald-600 text-white dark:border-emerald-400 dark:bg-emerald-500'
+                                      : 'border-slate-300 dark:border-slate-600'
+                                  }`}
+                                >
+                                  {isSelected && <Check className="w-3.5 h-3.5 stroke-[3]" />}
+                                </span>
+                              </button>
+                            );
+                          })}
+                        </div>
+                      )}
+                    </div>
                   );
                 })}
               </div>
@@ -484,7 +559,7 @@ export default function App() {
                 onClick={() => startFreshExam(selectedTypeId)}
                 className="w-full min-h-[52px] py-3.5 px-6 rounded-xl bg-emerald-700 hover:bg-emerald-800 active:bg-emerald-900 text-white font-bold text-base tracking-wide transition-colors cursor-pointer shadow-xs"
               >
-                START
+                START ({currentQuestionType.section} — {currentQuestionType.name})
               </button>
             </div>
           </section>
@@ -498,7 +573,7 @@ export default function App() {
               <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 sm:p-5 flex flex-wrap items-center justify-between gap-2">
                 <div>
                   <h1 className="font-display text-base sm:text-lg font-bold text-slate-900 dark:text-white">
-                    {currentQuestionType.name}
+                    {currentQuestionType.section} — {currentQuestionType.name}
                   </h1>
                   <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400">
                     Answer all 150 multiple-choice questions. Unanswered questions count as wrong upon submission.
@@ -696,7 +771,7 @@ export default function App() {
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-6 border-b border-slate-200 dark:border-slate-800">
                 <div>
                   <p className="text-xs font-semibold text-emerald-700 dark:text-emerald-400 mb-1">
-                    {currentQuestionType.name}
+                    {currentQuestionType.section} — {currentQuestionType.name}
                   </p>
                   <h1
                     id="result-heading"
