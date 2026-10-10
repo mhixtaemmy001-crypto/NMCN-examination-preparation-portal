@@ -15,6 +15,7 @@ import {
   ChevronDown,
   ChevronUp,
   Home,
+  Calendar,
 } from 'lucide-react';
 import { AppScreen, OptionKey, Question, ActiveExamSession, QuestionSection } from './types';
 import { QUESTION_TYPES } from './data/questionBank';
@@ -25,6 +26,41 @@ import { generateResultPdf, getOptionText } from './utils/pdfExport';
 const EXAM_DURATION_SECONDS = 4500; // 150 questions × 30 seconds = 4,500 seconds = 75 minutes (1 hr 15 mins)
 const STORAGE_KEY_SESSION = 'ascons_nmcn_active_exam_v1';
 const STORAGE_KEY_THEME = 'ascons_nmcn_theme_v1';
+
+interface Nov3Countdown {
+  days: number;
+  hours: number;
+  minutes: number;
+  seconds: number;
+  hasCommenced: boolean;
+}
+
+function getNov3ExamCountdown(): Nov3Countdown {
+  const now = new Date();
+  let targetYear = now.getFullYear();
+  // November is month index 10 (0-based)
+  const targetDate = new Date(targetYear, 10, 3, 0, 0, 0, 0);
+
+  // If November 3rd of this year has already passed by more than 7 days, count down to next year's Nov 3
+  if (now.getTime() > targetDate.getTime() + 7 * 24 * 60 * 60 * 1000) {
+    targetYear += 1;
+  }
+
+  const finalTarget = new Date(targetYear, 10, 3, 0, 0, 0, 0);
+  const diffMs = finalTarget.getTime() - now.getTime();
+
+  if (diffMs <= 0) {
+    return { days: 0, hours: 0, minutes: 0, seconds: 0, hasCommenced: true };
+  }
+
+  const totalSeconds = Math.floor(diffMs / 1000);
+  const days = Math.floor(totalSeconds / 86400);
+  const hours = Math.floor((totalSeconds % 86400) / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
+  const seconds = totalSeconds % 60;
+
+  return { days, hours, minutes, seconds, hasCommenced: false };
+}
 
 function formatCountdown(totalSeconds: number): string {
   const clamped = Math.max(0, Math.floor(totalSeconds));
@@ -77,6 +113,14 @@ export default function App() {
   const [fiveMinBannerVisible, setFiveMinBannerVisible] = useState<boolean>(false);
   const [showSubmitConfirmModal, setShowSubmitConfirmModal] = useState<boolean>(false);
   const [mobileNavOpen, setMobileNavOpen] = useState<boolean>(false);
+  const [examCountdown, setExamCountdown] = useState<Nov3Countdown>(() => getNov3ExamCountdown());
+
+  useEffect(() => {
+    const timer = window.setInterval(() => {
+      setExamCountdown(getNov3ExamCountdown());
+    }, 1000);
+    return () => window.clearInterval(timer);
+  }, []);
 
   const isScrollingFromClick = useRef<boolean>(false);
 
@@ -349,8 +393,8 @@ export default function App() {
             </button>
           </div>
 
-          {/* Zone 2: Exam Live Timer & Progress (Visible during Exam) */}
-          {screen === 'exam' && (
+          {/* Zone 2: Exam Live Timer & Progress (Visible during Exam) OR Nov 3rd Countdown */}
+          {screen === 'exam' ? (
             <div className="flex items-center gap-2 sm:gap-4">
               <div
                 aria-live="polite"
@@ -368,6 +412,23 @@ export default function App() {
               <span className="hidden md:inline-block text-xs font-medium text-slate-600 dark:text-slate-400 font-mono-tabular">
                 Answered: {answeredCount}/150
               </span>
+            </div>
+          ) : (
+            <div className="hidden md:flex items-center gap-2 px-3 py-1.5 rounded-lg border border-emerald-200 dark:border-emerald-800/80 bg-emerald-50/90 dark:bg-emerald-950/50 text-emerald-800 dark:text-emerald-300 text-xs sm:text-sm font-semibold">
+              <Calendar className="w-4 h-4 shrink-0" />
+              {examCountdown.hasCommenced ? (
+                <span>NMCN Exam Commenced (3rd Nov)</span>
+              ) : (
+                <span className="font-mono-tabular">
+                  Exam Commences 3rd Nov:{' '}
+                  <strong>
+                    {examCountdown.days} {examCountdown.days === 1 ? 'Day' : 'Days'}
+                  </strong>{' '}
+                  ({String(examCountdown.hours).padStart(2, '0')}h :{' '}
+                  {String(examCountdown.minutes).padStart(2, '0')}m :{' '}
+                  {String(examCountdown.seconds).padStart(2, '0')}s)
+                </span>
+              )}
             </div>
           )}
 
@@ -456,9 +517,61 @@ export default function App() {
                 Welcome to NMCN professional examination preparation portal.
               </h1>
 
-              <p className="text-lg sm:text-xl text-white/95 font-medium leading-relaxed mb-10 drop-shadow-md">
+              <p className="text-lg sm:text-xl text-white/95 font-medium leading-relaxed mb-8 drop-shadow-md">
                 This portal contains various past questions which has been designed and timed to guide you through your preparatory studies. The college wishes you best of luck.
               </p>
+
+              {/* Daily Examination Countdown (3rd November) directly on background */}
+              <div className="mb-8 p-4 sm:p-5 rounded-2xl bg-slate-950/55 backdrop-blur-xs border border-white/25">
+                <div className="flex items-center gap-2 text-emerald-400 text-xs sm:text-sm font-bold tracking-wider uppercase mb-3">
+                  <Calendar className="w-4 h-4 shrink-0" />
+                  <span>Official Examination Commences: 3rd November</span>
+                </div>
+
+                {examCountdown.hasCommenced ? (
+                  <p className="text-lg sm:text-xl font-bold text-white">
+                    The NMCN Professional Examination has commenced. Best of luck!
+                  </p>
+                ) : (
+                  <div className="grid grid-cols-4 gap-2.5 sm:gap-4 max-w-lg">
+                    <div className="rounded-xl bg-white/10 border border-white/20 px-3 py-2.5 text-center">
+                      <div className="font-mono-tabular text-2xl sm:text-4xl font-extrabold text-white leading-none">
+                        {examCountdown.days}
+                      </div>
+                      <div className="text-[11px] sm:text-xs font-semibold text-emerald-300 uppercase tracking-wider mt-1">
+                        {examCountdown.days === 1 ? 'Day' : 'Days'}
+                      </div>
+                    </div>
+
+                    <div className="rounded-xl bg-white/10 border border-white/20 px-3 py-2.5 text-center">
+                      <div className="font-mono-tabular text-2xl sm:text-4xl font-extrabold text-white leading-none">
+                        {String(examCountdown.hours).padStart(2, '0')}
+                      </div>
+                      <div className="text-[11px] sm:text-xs font-semibold text-white/80 uppercase tracking-wider mt-1">
+                        Hours
+                      </div>
+                    </div>
+
+                    <div className="rounded-xl bg-white/10 border border-white/20 px-3 py-2.5 text-center">
+                      <div className="font-mono-tabular text-2xl sm:text-4xl font-extrabold text-white leading-none">
+                        {String(examCountdown.minutes).padStart(2, '0')}
+                      </div>
+                      <div className="text-[11px] sm:text-xs font-semibold text-white/80 uppercase tracking-wider mt-1">
+                        Minutes
+                      </div>
+                    </div>
+
+                    <div className="rounded-xl bg-white/10 border border-white/20 px-3 py-2.5 text-center">
+                      <div className="font-mono-tabular text-2xl sm:text-4xl font-extrabold text-emerald-400 leading-none">
+                        {String(examCountdown.seconds).padStart(2, '0')}
+                      </div>
+                      <div className="text-[11px] sm:text-xs font-semibold text-emerald-300 uppercase tracking-wider mt-1">
+                        Seconds
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
 
               <div className="pt-5 border-t border-white/25 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                 <div className="text-xs sm:text-sm font-semibold text-white/90 drop-shadow-xs">
