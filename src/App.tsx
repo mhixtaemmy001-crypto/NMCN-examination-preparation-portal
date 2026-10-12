@@ -19,8 +19,8 @@ import {
 } from 'lucide-react';
 import { AppScreen, OptionKey, Question, ActiveExamSession, QuestionSection } from './types';
 import { QUESTION_TYPES } from './data/questionBank';
-import { NMCN_COLLEGE_LOGO_DATA_URI } from './data/logoAsset';
-import { PROVOST_LANDSCAPE_DATA_URI } from './data/provostAsset';
+import { NMCN_COLLEGE_LOGO_DATA_URI, NMCN_OFFICIAL_LOGO_DATA_URI } from './data/logoAsset';
+import { PROVOST_LANDSCAPE_DATA_URI, PROVOST_PORTRAIT_DATA_URI } from './data/provostAsset';
 import { generateResultPdf, getOptionText } from './utils/pdfExport';
 
 const EXAM_DURATION_SECONDS = 4500; // 150 questions × 30 seconds = 4,500 seconds = 75 minutes (1 hr 15 mins)
@@ -114,6 +114,8 @@ export default function App() {
   const [showSubmitConfirmModal, setShowSubmitConfirmModal] = useState<boolean>(false);
   const [mobileNavOpen, setMobileNavOpen] = useState<boolean>(false);
   const [examCountdown, setExamCountdown] = useState<Nov3Countdown>(() => getNov3ExamCountdown());
+  const [bgSlideIndex, setBgSlideIndex] = useState<number>(0);
+  const slideDirRef = useRef<1 | -1>(1);
 
   useEffect(() => {
     const timer = window.setInterval(() => {
@@ -121,6 +123,25 @@ export default function App() {
     }, 1000);
     return () => window.clearInterval(timer);
   }, []);
+
+  // Automatic background slideshow on Welcome screen (slides from both right and left: 0 -> 1 -> 2 -> 1 -> 0)
+  useEffect(() => {
+    if (screen !== 'welcome') return;
+    const slideInterval = window.setInterval(() => {
+      setBgSlideIndex((prev) => {
+        if (prev >= 2) {
+          slideDirRef.current = -1;
+          return 1;
+        }
+        if (prev <= 0) {
+          slideDirRef.current = 1;
+          return 1;
+        }
+        return prev + slideDirRef.current;
+      });
+    }, 4500);
+    return () => window.clearInterval(slideInterval);
+  }, [screen]);
 
   const isScrollingFromClick = useRef<boolean>(false);
 
@@ -490,15 +511,45 @@ export default function App() {
         {/* SCREEN 1: WELCOME HOMEPAGE */}
         {screen === 'welcome' && (
           <section className="relative flex-1 flex items-center justify-center px-4 sm:px-8 py-12 sm:py-20 overflow-hidden">
-            {/* Full-Viewport Background: Adamawa State College of Nursing Sciences, Yola */}
-            <div className="absolute inset-0 z-0">
-              <img
-                src={PROVOST_LANDSCAPE_DATA_URI}
-                alt="Adamawa State College of Nursing Sciences, Yola"
-                className="w-full h-full object-cover object-center"
-              />
-              {/* Dark gradient overlay so the text sits directly on the background image with clear legibility */}
-              <div className="absolute inset-0 bg-gradient-to-b from-slate-950/70 via-slate-950/65 to-slate-950/80" />
+            {/* Full-Viewport Background Slideshow (Sliding from both Left and Right):
+                Slide 0: Current Provost / College Photograph
+                Slide 1: Adamawa State College of Nursing and Midwifery Yola Logo (Full Screen)
+                Slide 2: Official Nursing and Midwifery Council of Nigeria (NMCN) Logo (Full Screen) */}
+            <div className="absolute inset-0 z-0 overflow-hidden bg-slate-950">
+              <div
+                className="flex w-[300%] h-full transition-transform duration-1000 ease-in-out"
+                style={{ transform: `translateX(-${(bgSlideIndex * 100) / 3}%)` }}
+              >
+                {/* Slide 0: Provost / College Photo Extended Full Screen */}
+                <div className="w-1/3 h-full relative shrink-0 overflow-hidden">
+                  <img
+                    src={PROVOST_LANDSCAPE_DATA_URI}
+                    alt="Adamawa State College of Nursing Sciences, Yola"
+                    className="w-full h-full object-cover object-center"
+                  />
+                </div>
+
+                {/* Slide 1: School Logo Extended to Fit Whole Screen */}
+                <div className="w-1/3 h-full relative shrink-0 overflow-hidden bg-white">
+                  <img
+                    src={NMCN_COLLEGE_LOGO_DATA_URI}
+                    alt="Adamawa State College of Nursing and Midwifery Yola Logo"
+                    className="w-full h-full object-fill"
+                  />
+                </div>
+
+                {/* Slide 2: Real NMCN Logo Extended to Fit Whole Screen */}
+                <div className="w-1/3 h-full relative shrink-0 overflow-hidden bg-white">
+                  <img
+                    src={NMCN_OFFICIAL_LOGO_DATA_URI}
+                    alt="Nursing and Midwifery Council of Nigeria (NMCN) Official Logo"
+                    className="w-full h-full object-fill"
+                  />
+                </div>
+              </div>
+
+              {/* Dark gradient overlay so the text sits directly on the sliding background images with clear legibility */}
+              <div className="absolute inset-0 bg-gradient-to-b from-slate-950/75 via-slate-950/65 to-slate-950/85 pointer-events-none" />
             </div>
 
             <div className="relative z-10 max-w-3xl w-full py-6 sm:py-10">
@@ -574,10 +625,33 @@ export default function App() {
               </div>
 
               <div className="pt-5 border-t border-white/25 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-                <div className="text-xs sm:text-sm font-semibold text-white/90 drop-shadow-xs">
-                  <span>150 Multiple-Choice Questions</span>
-                  <span className="mx-2" aria-hidden="true">·</span>
-                  <span>1 Hour 15 Minutes (75 Mins)</span>
+                <div className="flex flex-col sm:flex-row sm:items-center gap-3">
+                  <div className="text-xs sm:text-sm font-semibold text-white/90 drop-shadow-xs">
+                    <span>150 Multiple-Choice Questions</span>
+                    <span className="mx-2" aria-hidden="true">·</span>
+                    <span>1 Hour 15 Minutes (75 Mins)</span>
+                  </div>
+
+                  {/* Background Slideshow Indicator Dots */}
+                  <div className="flex items-center gap-2" role="tablist" aria-label="Background Slideshow">
+                    {[
+                      { idx: 0, label: 'College Photo' },
+                      { idx: 1, label: 'School Logo' },
+                      { idx: 2, label: 'NMCN Logo' },
+                    ].map((slide) => (
+                      <button
+                        key={slide.idx}
+                        type="button"
+                        onClick={() => setBgSlideIndex(slide.idx)}
+                        aria-label={`Show ${slide.label} background`}
+                        className={`h-2 rounded-full transition-all cursor-pointer ${
+                          bgSlideIndex === slide.idx
+                            ? 'w-6 bg-emerald-400'
+                            : 'w-2 bg-white/40 hover:bg-white/70'
+                        }`}
+                      />
+                    ))}
+                  </div>
                 </div>
 
                 <button
