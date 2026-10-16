@@ -1,0 +1,227 @@
+[
+  {
+    "question": "A rough, elevated projection or prominence on a bone serving for muscle attachment is anatomically called a:",
+    "optionA": "Foramen",
+    "optionB": "Fossa",
+    "optionC": "Tubercle or Tuberosity",
+    "optionD": "Meatus",
+    "correctAnswer": "C",
+    "explanation": "A tubercle or tuberosity is a rounded bony nodule or rough elevation providing attachment for tendons and ligaments."
+  },
+  {
+    "question": "A shallow depression or sunken concavity on the surface of a bone is termed a:",
+    "optionA": "Foramen",
+    "optionB": "Fossa",
+    "optionC": "Meatus",
+    "optionD": "Process",
+    "correctAnswer": "B",
+    "explanation": "A fossa is a shallow anatomical hollow or depression on a bone, such as the mandibular fossa or glenoid fossa."
+  },
+  {
+    "question": "A small, smooth, flat articulating surface on a bone is designated in osteology as a:",
+    "optionA": "Facet",
+    "optionB": "Fissure",
+    "optionC": "Sinus",
+    "optionD": "Condyle",
+    "correctAnswer": "A",
+    "explanation": "Articular facets are flat, smooth cartilage-covered joint surfaces found prominently on vertebral articulating processes."
+  },
+  {
+    "question": "The only freely movable, articulating bone of the adult human skull is the:",
+    "optionA": "Maxilla",
+    "optionB": "Mandible",
+    "optionC": "Zygomatic bone",
+    "optionD": "Sphenoid bone",
+    "correctAnswer": "B",
+    "explanation": "The mandible forms the bilateral synovial temporomandibular joints with the temporal bones, enabling mastication and speech."
+  },
+  {
+    "question": "The cranial bone that forms the forehead and the superior orbital margins (supraorbital ridges) is the:",
+    "optionA": "Frontal bone",
+    "optionB": "Occipital bone",
+    "optionC": "Parietal bone",
+    "optionD": "Temporal bone",
+    "correctAnswer": "A",
+    "explanation": "The frontal bone forms the anterior cranium, forehead, and roof of each eye orbit."
+  },
+  {
+    "question": "Regarding the normal physiological curvatures of the adult human vertebral column, which statement is correct?",
+    "optionA": "The cervical curve is convex anteriorly (secondary lordotic curve)",
+    "optionB": "The thoracic curve is convex anteriorly",
+    "optionC": "The lumbar curve is convex posteriorly",
+    "optionD": "The sacral curve appears at three months of age",
+    "correctAnswer": "A",
+    "explanation": "Cervical and lumbar lordotic curves are secondary curves convex anteriorly that develop with holding the head up and walking."
+  },
+  {
+    "question": "In anatomical classification, the 12 pairs of thoracic ribs are categorized by shape as:",
+    "optionA": "Short bones",
+    "optionB": "Flat bones",
+    "optionC": "Pneumatic bones",
+    "optionD": "Irregular bones",
+    "correctAnswer": "B",
+    "explanation": "Ribs are classified morphologically as flat bones consisting of two layers of compact bone enclosing vascular cancellous diplo\u00eb."
+  },
+  {
+    "question": "The prominent bony olecranon process that forms the point of the elbow is an anatomical feature of the:",
+    "optionA": "Humerus",
+    "optionB": "Radius",
+    "optionC": "Ulna",
+    "optionD": "Scapula",
+    "correctAnswer": "C",
+    "explanation": "The olecranon is the proximal posterior hook-like projection of the ulna that fits into the olecranon fossa of the humerus."
+  },
+  {
+    "question": "In anatomical position, the head of the ulna is located at the:",
+    "optionA": "Lateral side of the elbow",
+    "optionB": "Medial side of the wrist (distal ulna)",
+    "optionC": "Lateral side of the wrist",
+    "optionD": "Medial side of the elbow",
+    "correctAnswer": "B",
+    "explanation": "Unlike the radius whose head is proximal at the elbow, the head of the ulna is at the distal wrist joint medially."
+  },
+  {
+    "question": "Cranial sutures connecting the flat bones of the skull vault are classified structurally as:",
+    "optionA": "Synovial hinge joints",
+    "optionB": "Fibrous synarthrodial joints",
+    "optionC": "Cartilaginous amphiarthrodial joints",
+    "optionD": "Pivot joints",
+    "correctAnswer": "B",
+    "explanation": "Sutures are immovable fibrous joints where adjacent bone margins are held tightly by dense fibrous sutural ligaments."
+  },
+  {
+    "question": "The humeroulnar joint of the elbow is structurally and functionally classified as a:",
+    "optionA": "Synovial ball-and-socket joint",
+    "optionB": "Synovial hinge (ginglymus) joint permitting flexion and extension",
+    "optionC": "Condyloid joint",
+    "optionD": "Saddle joint",
+    "correctAnswer": "B",
+    "explanation": "The trochlea of the humerus articulates with the trochlear notch of the ulna to form a uniaxial hinge joint."
+  },
+  {
+    "question": "The proximal and distal radioulnar joints are functionally classified as which type of synovial joint?",
+    "optionA": "Ball and socket",
+    "optionB": "Pivot (trochoid) joint permitting pronation and supination",
+    "optionC": "Gliding plane joint",
+    "optionD": "Suture",
+    "correctAnswer": "B",
+    "explanation": "Pivot joints permit uniaxial rotation around a central longitudinal axis, facilitating forearm pronation and supination."
+  },
+  {
+    "question": "The radiocarpal wrist joint is capable of all of the following physiological movements EXCEPT:",
+    "optionA": "Flexion and extension",
+    "optionB": "Radial and ulnar deviation (abduction and adduction)",
+    "optionC": "Circumduction",
+    "optionD": "Active axial rotation of the carpus on the radius",
+    "correctAnswer": "D",
+    "explanation": "The wrist is a biaxial condyloid joint; axial rotation belongs to the radioulnar joint (pronation/supination), not the wrist joint."
+  },
+  {
+    "question": "Under conditions of rigorous anaerobic muscle contraction, the primary metabolic byproduct that accumulates is:",
+    "optionA": "Lactic acid (lactate)",
+    "optionB": "Carbon monoxide",
+    "optionC": "Excessive urea",
+    "optionD": "Glycogen granules",
+    "correctAnswer": "A",
+    "explanation": "When oxygen demand outstrips supply, pyruvate is reduced by lactate dehydrogenase into lactic acid, contributing to muscle fatigue."
+  },
+  {
+    "question": "The primary skeletal muscle that flexes the elbow when the forearm is in mid-pronation (neutral position) is the:",
+    "optionA": "Brachioradialis",
+    "optionB": "Triceps brachii",
+    "optionC": "Anconeus",
+    "optionD": "Supinator",
+    "correctAnswer": "A",
+    "explanation": "The brachioradialis muscle flexes the forearm strongest when the hand is semi-pronated in the 'thumbs-up' position."
+  },
+  {
+    "question": "The quadriceps femoris muscle group inserts via the patellar tendon into the tibial tuberosity. Its primary action is:",
+    "optionA": "Flexion of the knee joint",
+    "optionB": "Extension of the knee joint",
+    "optionC": "Adduction of the hip",
+    "optionD": "Plantarflexion of the foot",
+    "correctAnswer": "B",
+    "explanation": "The four heads of the quadriceps (rectus femoris, vastus lateralis, medialis, intermedius) powerfully extend the knee."
+  },
+  {
+    "question": "The gluteus medius and gluteus minimus muscles are innervated by the superior gluteal nerve and function primarily to:",
+    "optionA": "Flex the knee",
+    "optionB": "Abduct the hip and stabilize the pelvis during single-leg stance",
+    "optionC": "Adduct the thigh across the midline",
+    "optionD": "Extend the toes",
+    "correctAnswer": "B",
+    "explanation": "During walking, the gluteus medius prevents the unsupported contralateral pelvis from sagging (Trendelenburg mechanism)."
+  },
+  {
+    "question": "The hamstring muscle group located on the posterior compartment of the thigh acts to:",
+    "optionA": "Extend the knee and flex the hip",
+    "optionB": "Flex the knee and extend the hip joint",
+    "optionC": "Abduct the leg",
+    "optionD": "Dorsiflex the ankle",
+    "correctAnswer": "B",
+    "explanation": "Biceps femoris, semitendinosus, and semimembranosus cross both hip and knee joints to extend the hip and flex the knee."
+  },
+  {
+    "question": "The calf muscle group that unites into the calcaneal (Achilles) tendon to powerfully plantarflex the foot is the:",
+    "optionA": "Tibialis anterior",
+    "optionB": "Gastrocnemius and soleus",
+    "optionC": "Peroneus longus",
+    "optionD": "Extensor digitorum longus",
+    "correctAnswer": "B",
+    "explanation": "The triceps surae (gastrocnemius and soleus) plantarflexes the ankle, providing primary propulsion in walking and jumping."
+  },
+  {
+    "question": "A complete non-displaced fracture that cracks through both cortices of a long bone without external skin penetration is:",
+    "optionA": "An open compound fracture",
+    "optionB": "A closed simple fracture",
+    "optionC": "A greenstick fracture",
+    "optionD": "A pathological avulsion",
+    "correctAnswer": "B",
+    "explanation": "A closed fracture maintains intact skin overlying the fracture site, minimizing the risk of osteomyelitis."
+  },
+  {
+    "question": "In bone healing, the soft fibrocartilaginous procallus is gradually converted into mineralized woven bone by the activity of:",
+    "optionA": "Chondroclasts",
+    "optionB": "Osteoblasts",
+    "optionC": "Erythroblasts",
+    "optionD": "Fibroblasts only",
+    "correctAnswer": "B",
+    "explanation": "Osteoblasts synthesize collagenous osteoid and deposit calcium phosphate crystals to form a hard bony callus."
+  },
+  {
+    "question": "The multi-axial synovial joint permitting the greatest range of motion in the entire human body is the:",
+    "optionA": "Hip joint",
+    "optionB": "Glenohumeral (shoulder) joint",
+    "optionC": "Knee joint",
+    "optionD": "Elbow joint",
+    "correctAnswer": "B",
+    "explanation": "The shallow glenoid cavity accommodating the large humeral head permits flexion, extension, abduction, adduction, circumduction, and rotation."
+  },
+  {
+    "question": "The strong, C-shaped fibrocartilaginous discs situated within the knee joint that deepen articular surfaces and absorb shock are the:",
+    "optionA": "Cruciate ligaments",
+    "optionB": "Medial and lateral menisci",
+    "optionC": "Collateral ligaments",
+    "optionD": "Patellar retinacula",
+    "correctAnswer": "B",
+    "explanation": "The medial and lateral menisci distribute weight, cushion compressive loads, and stabilize femoral-tibial articulation."
+  },
+  {
+    "question": "The pelvic girdle (bony pelvis) is formed anteriorly by the symphysis pubis and posteriorly by articulation with the:",
+    "optionA": "Lumbar vertebrae L1-L4",
+    "optionB": "Sacrum (sacroiliac joints)",
+    "optionC": "Femoral head",
+    "optionD": "Coccyx only",
+    "correctAnswer": "B",
+    "explanation": "The ilium articulates bilaterally with the alae of the sacrum at the robust synovial sacroiliac joints."
+  },
+  {
+    "question": "The thickest, strongest, and heaviest vertebra in the mobile spine adapted for bearing axial body weight is the:",
+    "optionA": "Atlas (C1)",
+    "optionB": "Seventh cervical vertebra (C7)",
+    "optionC": "Fifth lumbar vertebra (L5)",
+    "optionD": "Twelfth thoracic vertebra (T12)",
+    "correctAnswer": "C",
+    "explanation": "Lumbar vertebrae feature massive kidney-shaped vertebral bodies, with L5 bearing the maximal upper body gravitational load."
+  }
+]

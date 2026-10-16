@@ -23,7 +23,21 @@ import { NMCN_COLLEGE_LOGO_DATA_URI, NMCN_OFFICIAL_LOGO_DATA_URI } from './data/
 import { PROVOST_LANDSCAPE_DATA_URI, PROVOST_PORTRAIT_DATA_URI } from './data/provostAsset';
 import { generateResultPdf, getOptionText } from './utils/pdfExport';
 
-const EXAM_DURATION_SECONDS = 4500; // 150 questions × 30 seconds = 4,500 seconds = 75 minutes (1 hr 15 mins)
+// Dynamic exam duration: 30 seconds per question (NMCN standard timing)
+export function getExamDurationSeconds(questionCount: number): number {
+  return Math.max(600, questionCount * 30);
+}
+
+export function formatExamDurationText(seconds: number): string {
+  const mins = Math.ceil(seconds / 60);
+  if (mins >= 60) {
+    const hrs = Math.floor(mins / 60);
+    const remMins = mins % 60;
+    return remMins > 0 ? `${hrs} Hr ${remMins} Mins` : `${hrs} Hour${hrs > 1 ? 's' : ''}`;
+  }
+  return `${mins} Minutes`;
+}
+
 const STORAGE_KEY_SESSION = 'ascons_nmcn_active_exam_v1';
 const STORAGE_KEY_THEME = 'ascons_nmcn_theme_v1';
 
@@ -108,7 +122,9 @@ export default function App() {
   const [answers, setAnswers] = useState<Record<number, OptionKey>>({});
   const [currentQuestion, setCurrentQuestion] = useState<number>(1);
   const [startedAt, setStartedAt] = useState<number | null>(null);
-  const [remainingSeconds, setRemainingSeconds] = useState<number>(EXAM_DURATION_SECONDS);
+  const [remainingSeconds, setRemainingSeconds] = useState<number>(() =>
+    getExamDurationSeconds(QUESTION_TYPES[0].questions.length)
+  );
   const [fiveMinWarningShown, setFiveMinWarningShown] = useState<boolean>(false);
   const [fiveMinBannerVisible, setFiveMinBannerVisible] = useState<boolean>(false);
   const [showSubmitConfirmModal, setShowSubmitConfirmModal] = useState<boolean>(false);
@@ -148,6 +164,8 @@ export default function App() {
   const currentQuestionType =
     QUESTION_TYPES.find((qt) => qt.id === selectedTypeId) || QUESTION_TYPES[0];
   const questions: Question[] = currentQuestionType.questions;
+  const totalQuestions = questions.length;
+  const totalExamDuration = getExamDurationSeconds(totalQuestions);
 
   // Restore active exam session on mount if student refreshed or reopened browser
   useEffect(() => {
@@ -161,8 +179,10 @@ export default function App() {
         typeof saved.startedAt === 'number' &&
         QUESTION_TYPES.some((qt) => qt.id === saved.questionTypeId)
       ) {
+        const qType = QUESTION_TYPES.find((qt) => qt.id === saved.questionTypeId) || QUESTION_TYPES[0];
+        const examDuration = saved.durationSeconds || getExamDurationSeconds(qType.questions.length);
         const elapsed = Math.floor((Date.now() - saved.startedAt) / 1000);
-        const left = Math.max(0, EXAM_DURATION_SECONDS - elapsed);
+        const left = Math.max(0, examDuration - elapsed);
 
         setSelectedTypeId(saved.questionTypeId);
         setAnswers(saved.answers || {});
@@ -200,7 +220,7 @@ export default function App() {
       const session: ActiveExamSession = {
         questionTypeId: selectedTypeId,
         startedAt,
-        durationSeconds: EXAM_DURATION_SECONDS,
+        durationSeconds: totalExamDuration,
         answers,
         currentQuestion,
       };
@@ -210,7 +230,7 @@ export default function App() {
         // ignore storage quota errors
       }
     }
-  }, [screen, selectedTypeId, startedAt, answers, currentQuestion]);
+  }, [screen, selectedTypeId, startedAt, answers, currentQuestion, totalExamDuration]);
 
   // Navigate back to the Welcome homepage at any point
   const goToWelcomePage = useCallback(() => {
@@ -244,10 +264,11 @@ export default function App() {
   // Continuous unpausable countdown timer during exam
   useEffect(() => {
     if (screen !== 'exam' || startedAt === null) return;
+    const examDuration = getExamDurationSeconds(questions.length);
 
     const tick = () => {
       const elapsed = Math.floor((Date.now() - startedAt) / 1000);
-      const left = Math.max(0, EXAM_DURATION_SECONDS - elapsed);
+      const left = Math.max(0, examDuration - elapsed);
       setRemainingSeconds(left);
 
       // 5-minute warning trigger (at 300 seconds or below)
@@ -265,7 +286,7 @@ export default function App() {
     tick();
     const intervalId = window.setInterval(tick, 250);
     return () => window.clearInterval(intervalId);
-  }, [screen, startedAt, fiveMinWarningShown, finalizeSubmission]);
+  }, [screen, startedAt, fiveMinWarningShown, finalizeSubmission, questions.length]);
 
   // Track which question is currently in view when scrolling on the exam page
   useEffect(() => {
@@ -277,7 +298,7 @@ export default function App() {
       let closestNum = 1;
       let minDistance = Infinity;
 
-      for (let i = 1; i <= 150; i++) {
+      for (let i = 1; i <= totalQuestions; i++) {
         const el = document.getElementById(`question-block-${i}`);
         if (el) {
           const rect = el.getBoundingClientRect();
@@ -293,16 +314,18 @@ export default function App() {
 
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [screen]);
+  }, [screen, totalQuestions]);
 
   // Start a new exam attempt
   const startFreshExam = (typeId: string) => {
+    const qType = QUESTION_TYPES.find((qt) => qt.id === typeId) || QUESTION_TYPES[0];
+    const duration = getExamDurationSeconds(qType.questions.length);
     const now = Date.now();
     setSelectedTypeId(typeId);
     setAnswers({});
     setCurrentQuestion(1);
     setStartedAt(now);
-    setRemainingSeconds(EXAM_DURATION_SECONDS);
+    setRemainingSeconds(duration);
     setFiveMinWarningShown(false);
     setFiveMinBannerVisible(false);
     setShowSubmitConfirmModal(false);
@@ -311,7 +334,7 @@ export default function App() {
     const session: ActiveExamSession = {
       questionTypeId: typeId,
       startedAt: now,
-      durationSeconds: EXAM_DURATION_SECONDS,
+      durationSeconds: duration,
       answers: {},
       currentQuestion: 1,
     };
@@ -344,7 +367,7 @@ export default function App() {
     setCurrentQuestion(questionNumber);
   };
 
-  // Jump to a specific question number (1..150)
+  // Jump to a specific question number (1..totalQuestions)
   const jumpToQuestion = (questionNumber: number) => {
     setCurrentQuestion(questionNumber);
     setMobileNavOpen(false);
@@ -369,7 +392,7 @@ export default function App() {
   // Handle Submit Exam button click
   const handleSubmitExamClick = () => {
     const answeredCount = Object.keys(answers).length;
-    if (answeredCount >= 150) {
+    if (answeredCount >= totalQuestions) {
       finalizeSubmission();
     } else {
       setShowSubmitConfirmModal(true);
@@ -378,14 +401,14 @@ export default function App() {
 
   // Calculate score metrics
   const answeredCount = Object.keys(answers).length;
-  const unansweredCount = 150 - answeredCount;
+  const unansweredCount = Math.max(0, totalQuestions - answeredCount);
 
   const correctCount = questions.reduce((acc, q) => {
     return answers[q.number] === q.correctAnswer ? acc + 1 : acc;
   }, 0);
 
-  const wrongCount = 150 - correctCount; // Unanswered questions count as wrong
-  const percentage = Math.round((correctCount / 150) * 100 * 10) / 10;
+  const wrongCount = totalQuestions - correctCount; // Unanswered questions count as wrong
+  const percentage = totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100 * 10) / 10 : 0;
   const incorrectQuestions = questions.filter((q) => answers[q.number] !== q.correctAnswer);
 
   return (
@@ -431,7 +454,7 @@ export default function App() {
               </div>
 
               <span className="hidden md:inline-block text-xs font-medium text-slate-600 dark:text-slate-400 font-mono-tabular">
-                Answered: {answeredCount}/150
+                Answered: {answeredCount}/{totalQuestions}
               </span>
             </div>
           ) : (
@@ -464,7 +487,7 @@ export default function App() {
                   className="lg:hidden min-h-[44px] px-3 py-2 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 text-xs font-semibold flex items-center gap-1.5 hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors cursor-pointer"
                 >
                   <Grid className="w-4 h-4" />
-                  <span className="font-mono-tabular">{answeredCount}/150</span>
+                  <span className="font-mono-tabular">{answeredCount}/{totalQuestions}</span>
                 </button>
 
                 <button
@@ -627,9 +650,9 @@ export default function App() {
               <div className="pt-5 border-t border-white/25 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                 <div className="flex flex-col sm:flex-row sm:items-center gap-3">
                   <div className="text-xs sm:text-sm font-semibold text-white/90 drop-shadow-xs">
-                    <span>150 Multiple-Choice Questions</span>
+                    <span>1,373 Unique NMCN Questions</span>
                     <span className="mx-2" aria-hidden="true">·</span>
-                    <span>1 Hour 15 Minutes (75 Mins)</span>
+                    <span>{QUESTION_TYPES.length} Practice Types (Section A & Section B)</span>
                   </div>
 
                   {/* Background Slideshow Indicator Dots */}
@@ -666,6 +689,13 @@ export default function App() {
                   <ArrowRight className="w-4 h-4" />
                 </button>
               </div>
+
+              {/* Powered by smack tech enterprise attribution */}
+              <div className="mt-6 text-center">
+                <span className="text-[11px] sm:text-xs text-white/75 font-medium tracking-wide drop-shadow-xs">
+                  powered by <span className="font-semibold text-white">smach tech enterprise</span>
+                </span>
+              </div>
             </div>
           </section>
         )}
@@ -688,12 +718,13 @@ export default function App() {
                 </button>
               </div>
               <p className="text-sm text-slate-600 dark:text-slate-400 mb-6">
-                Click on a section below (Section A, Section B, or Section C) to view its question types, select one, and click Start.
+                Click on a section below to view its question types, select one, and click Start.
               </p>
 
               <div role="radiogroup" aria-label="Question Type" className="space-y-4 mb-8">
                 {(['Section A', 'Section B', 'Section C'] as const).map((sectionName) => {
                   const sectionTypes = QUESTION_TYPES.filter((qType) => qType.section === sectionName);
+                  if (sectionTypes.length === 0) return null;
                   const isExpanded = openSection === sectionName;
                   const selectedInThisSection = sectionTypes.find((qType) => qType.id === selectedTypeId);
 
@@ -723,8 +754,8 @@ export default function App() {
                           </div>
                           <span className="text-xs font-medium text-slate-500 dark:text-slate-400 block mt-0.5">
                             {isExpanded
-                              ? `Showing ${sectionTypes.length} question types`
-                              : `Click to view ${sectionTypes.length} question types`}
+                              ? `Showing ${sectionTypes.length} question types (${sectionTypes.reduce((acc, t) => acc + t.questions.length, 0)} questions)`
+                              : `Click to view ${sectionTypes.length} question types (${sectionTypes.reduce((acc, t) => acc + t.questions.length, 0)} questions)`}
                           </span>
                         </div>
 
@@ -759,7 +790,7 @@ export default function App() {
                                     {qType.name}
                                   </span>
                                   <span className="text-[11px] text-slate-500 dark:text-slate-400">
-                                    {qType.section} · 150 Questions
+                                    {qType.section} · {qType.questions.length} Questions
                                   </span>
                                 </div>
                                 <span
@@ -786,7 +817,7 @@ export default function App() {
                 onClick={() => startFreshExam(selectedTypeId)}
                 className="w-full min-h-[52px] py-3.5 px-6 rounded-xl bg-emerald-700 hover:bg-emerald-800 active:bg-emerald-900 text-white font-bold text-base tracking-wide transition-colors cursor-pointer shadow-xs"
               >
-                START ({currentQuestionType.section} — {currentQuestionType.name})
+                START ({currentQuestionType.section} — {currentQuestionType.name} · {currentQuestionType.questions.length} Questions)
               </button>
             </div>
           </section>
@@ -795,7 +826,7 @@ export default function App() {
         {/* SCREEN 3: 150-QUESTION TIMED EXAMINATION */}
         {screen === 'exam' && (
           <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 py-6 sm:py-8 flex flex-col lg:flex-row gap-8 items-start">
-            {/* Left / Main Column: All 150 Questions on one page */}
+            {/* Left / Main Column: All Questions on one page */}
             <div className="w-full lg:flex-1 space-y-6">
               <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 sm:p-5 flex flex-wrap items-center justify-between gap-3">
                 <div>
@@ -803,12 +834,12 @@ export default function App() {
                     {currentQuestionType.section} — {currentQuestionType.name}
                   </h1>
                   <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400">
-                    Answer all 150 multiple-choice questions. Unanswered questions count as wrong upon submission.
+                    Answer all {totalQuestions} multiple-choice questions. Unanswered questions count as wrong upon submission.
                   </p>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="text-xs font-mono-tabular text-slate-600 dark:text-slate-400">
-                    Total Time: 01:15:00 · 150 Marks
+                    Total: {totalQuestions} Questions · Time: {formatCountdown(totalExamDuration)} ({Math.ceil(totalExamDuration / 60)} Mins)
                   </div>
                   <button
                     type="button"
@@ -821,7 +852,7 @@ export default function App() {
                 </div>
               </div>
 
-              {/* Questions 1 to 150 */}
+              {/* Questions 1 to totalQuestions */}
               <div className="space-y-5">
                 {questions.map((q) => {
                   const selectedOption = answers[q.number];
@@ -926,7 +957,7 @@ export default function App() {
                   <span className="font-mono-tabular font-bold text-slate-900 dark:text-white">
                     {answeredCount}
                   </span>{' '}
-                  of 150 questions ({unansweredCount} unanswered).
+                  of {totalQuestions} questions ({unansweredCount} unanswered).
                 </div>
                 <button
                   type="button"
@@ -938,17 +969,17 @@ export default function App() {
               </div>
             </div>
 
-            {/* Right Column: Desktop Sticky Question Navigation Panel (1 - 150) */}
+            {/* Right Column: Desktop Sticky Question Navigation Panel (1 - totalQuestions) */}
             <aside
               aria-label="Question Navigation Panel"
               className="hidden lg:block w-80 shrink-0 sticky top-24 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4"
             >
               <div className="flex items-center justify-between mb-3">
                 <h2 className="font-display text-sm font-bold text-slate-900 dark:text-white">
-                  Question Navigation (1–150)
+                  Question Navigation (1–{totalQuestions})
                 </h2>
                 <span className="text-xs font-mono-tabular text-slate-500 dark:text-slate-400">
-                  {answeredCount}/150
+                  {answeredCount}/{totalQuestions}
                 </span>
               </div>
 
@@ -1025,7 +1056,7 @@ export default function App() {
                     Score
                   </div>
                   <div className="font-mono-tabular text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white">
-                    {correctCount}/150
+                    {correctCount}/{totalQuestions}
                   </div>
                 </div>
 
@@ -1118,10 +1149,10 @@ export default function App() {
                   id="full-review-heading"
                   className="font-display text-xl sm:text-2xl font-bold text-slate-900 dark:text-white mb-1"
                 >
-                  All 150 Questions, Answers & Corrections
+                  All {totalQuestions} Questions, Answers & Corrections
                 </h2>
                 <p className="text-sm text-slate-600 dark:text-slate-400">
-                  Complete review of all 150 questions showing every option, your selected answer, and the correct answer.
+                  Complete review of all {totalQuestions} questions showing every option, your selected answer, and the correct answer.
                 </p>
               </div>
 
@@ -1306,7 +1337,7 @@ export default function App() {
 
               {incorrectQuestions.length === 0 ? (
                 <div className="p-6 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 text-emerald-800 dark:text-emerald-300 font-medium text-sm">
-                  Excellent performance! You answered all 150 questions correctly.
+                  Excellent performance! You answered all {totalQuestions} questions correctly.
                 </div>
               ) : (
                 <div className="divide-y divide-slate-200 dark:divide-slate-800">
@@ -1352,6 +1383,13 @@ export default function App() {
         )}
       </main>
 
+      {/* Bottom Footer */}
+      <footer className="relative z-10 py-3.5 px-4 text-center border-t border-slate-200/60 dark:border-slate-800/80 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md text-xs text-slate-500 dark:text-slate-400">
+        <p className="tracking-wide text-xs">
+          powered by <span className="font-semibold text-slate-700 dark:text-slate-200">smach tech enterprise</span>
+        </p>
+      </footer>
+
       {/* Mobile Question Navigation Drawer (1 - 150) */}
       {screen === 'exam' && mobileNavOpen && (
         <div
@@ -1364,7 +1402,7 @@ export default function App() {
             <div className="flex items-center justify-between pb-3 border-b border-slate-200 dark:border-slate-800">
               <div>
                 <h2 className="font-display text-base font-bold text-slate-900 dark:text-white">
-                  Question Navigation (1–150)
+                  Question Navigation (1–{totalQuestions})
                 </h2>
                 <p className="text-xs text-slate-500 dark:text-slate-400">
                   Answered: {answeredCount} · Unanswered: {unansweredCount}

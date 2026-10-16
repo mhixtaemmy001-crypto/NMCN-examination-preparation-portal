@@ -87,18 +87,18 @@ export function generateResultPdf({
 
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(11);
-  doc.text(`Score: ${correctCount}/150`, margin + 6, y + 18);
+  doc.text(`Score: ${correctCount}/${questions.length}`, margin + 6, y + 18);
   doc.text(`Percentage: ${percentage}%`, margin + 62, y + 18);
   doc.text(`Correct: ${correctCount}`, margin + 6, y + 26);
   doc.text(`Wrong: ${wrongCount}`, margin + 62, y + 26);
 
   y += 42;
 
-  // All 150 Questions, Answers & Corrections Section
+  // All Questions, Answers & Corrections Section
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(12);
   doc.setTextColor(15, 23, 42);
-  doc.text('ALL 150 QUESTIONS, ANSWERS & CORRECTIONS', margin, y);
+  doc.text(`ALL ${questions.length} QUESTIONS, ANSWERS & CORRECTIONS`, margin, y);
   y += 7;
 
   questions.forEach((q) => {
@@ -198,5 +198,5 @@ export function generateResultPdf({
     y += 3;
   });
 
-  doc.save(`NMCN_Exam_Result_${correctCount}_of_150.pdf`);
+  doc.save(`NMCN_Exam_Result_${correctCount}_of_${questions.length}.pdf`);
 }
