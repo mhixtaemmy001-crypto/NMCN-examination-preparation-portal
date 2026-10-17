@@ -1,0 +1,362 @@
+[
+  {
+    "question": "The photosensitive receptor cells of the human eye (rods and cones) are located within the:",
+    "optionA": "Choroid",
+    "optionB": "Cornea",
+    "optionC": "Sclera",
+    "optionD": "Retina",
+    "correctAnswer": "D",
+    "explanation": "The neural retina contains photoreceptor rods and cones that transduce photons of light into electrical action potentials."
+  },
+  {
+    "question": "Which of the following transparent structures of the eye is completely avascular and receives oxygen directly from ambient air and tears?",
+    "optionA": "Iris",
+    "optionB": "Sclera",
+    "optionC": "Cornea",
+    "optionD": "Ciliary body",
+    "correctAnswer": "C",
+    "explanation": "The cornea lacks blood vessels to maintain optical transparency, deriving its oxygen from the tear film and nutrients from aqueous humor."
+  },
+  {
+    "question": "The uveal tract (middle vascular tunic) of the eyeball consists of the:",
+    "optionA": "Ciliary body, pupil, and lens",
+    "optionB": "Iris, ciliary body, and choroid",
+    "optionC": "Lens, pupil, and aqueous humor",
+    "optionD": "Cornea, iris, and trabecular meshwork",
+    "correctAnswer": "B",
+    "explanation": "The vascular uvea comprises the anterior iris, intermediate ciliary body, and posterior choroid coat."
+  },
+  {
+    "question": "Normal visual acuity in a healthy human eye assessed using the standard Snellen chart is expressed as:",
+    "optionA": "6/6 (metric) or 20/20 (imperial)",
+    "optionB": "6/12",
+    "optionC": "6/60",
+    "optionD": "20/200",
+    "correctAnswer": "A",
+    "explanation": "Visual acuity of 6/6 means the subject can read at 6 meters what a standard eye can distinguish at 6 meters."
+  },
+  {
+    "question": "An infant diagnosed with congenital cretinism (severe congenital hypothyroidism) will develop which permanent disability if hormone replacement is delayed?",
+    "optionA": "Thyrotoxicosis",
+    "optionB": "Severe cognitive impairment and mental retardation with stunted physical growth",
+    "optionC": "Hyperactivity",
+    "optionD": "Exophthalmos",
+    "correctAnswer": "B",
+    "explanation": "Thyroid hormone is essential for cerebral neurogenesis and myelination during early infancy; absence causes irreversible cretinism."
+  },
+  {
+    "question": "Wheezing, a high-pitched whistling musical adventitious sound heard on expiration, is characteristic of:",
+    "optionA": "Lobar pneumonia",
+    "optionB": "Bronchial asthma",
+    "optionC": "Pleural effusion",
+    "optionD": "Common cold",
+    "correctAnswer": "B",
+    "explanation": "Wheezing results from turbulent airflow passing through narrowed, bronchospastic, or inflamed lower airways."
+  },
+  {
+    "question": "Which nursing intervention is appropriate when managing acute anterior epistaxis (nosebleed)?",
+    "optionA": "Having the casualty lie flat with the head tilted backward",
+    "optionB": "Sitting the casualty upright, leaning the head slightly forward, and pinching the soft cartilaginous part of the nose for 10 to 15 minutes",
+    "optionC": "Instructing the casualty to blow their nose vigorously",
+    "optionD": "Applying hot compresses across the nose",
+    "correctAnswer": "B",
+    "explanation": "Sitting forward prevents blood from draining down the pharynx into the stomach or larynx, while digital pressure compresses Kiesselbach's plexus."
+  },
+  {
+    "question": "In poliomyelitis, the enterovirus selectively targets and destroys which specific anatomical structures in the central nervous system?",
+    "optionA": "Sensory dorsal root ganglia",
+    "optionB": "Anterior horn motor neurons of the spinal cord and motor nuclei of the brainstem",
+    "optionC": "The limbic system and hippocampus",
+    "optionD": "Cerebellar Purkinje cells",
+    "correctAnswer": "B",
+    "explanation": "Poliovirus replication in anterior horn alpha motor neurons produces flaccid, asymmetric lower motor neuron paralysis without sensory loss."
+  },
+  {
+    "question": "Herpes zoster (shingles) is an acute viral infection that primarily affects the:",
+    "optionA": "Cardiovascular endothelium",
+    "optionB": "Sensory cranial and spinal dorsal root ganglia and corresponding dermatomal skin",
+    "optionC": "Digestive mucosa",
+    "optionD": "Reproductive organs",
+    "correctAnswer": "B",
+    "explanation": "Varicella-zoster virus lies dormant in cranial nerve and spinal dorsal root ganglia following chickenpox, reactivating in a unilateral dermatome."
+  },
+  {
+    "question": "Cellulitis is best defined in clinical pathology as a:",
+    "optionA": "Chronic granulomatous inflammation of the epidermis",
+    "optionB": "Diffuse, spreading acute bacterial infection and inflammation of the dermis and deep subcutaneous tissues",
+    "optionC": "Benign localized viral neoplasm of the nail bed",
+    "optionD": "Superficial fungal infection of the stratum corneum",
+    "correctAnswer": "B",
+    "explanation": "Cellulitis is typically caused by Streptococcus pyogenes or Staphylococcus aureus entering through broken skin, causing spreading erythema, warmth, and edema."
+  },
+  {
+    "question": "Which clinical characteristic distinguishes the severe chest pain of an acute myocardial infarction from that of stable angina pectoris?",
+    "optionA": "Pain is mild and relieved within 2 minutes by resting",
+    "optionB": "Pain is crushing, severe, prolonged (>20-30 minutes), radiates to left arm or jaw, and is NOT relieved by rest or sublingual nitroglycerin",
+    "optionC": "Pain is sharp and worsens only with deep inspiration",
+    "optionD": "Pain disappears when lying flat",
+    "correctAnswer": "B",
+    "explanation": "Myocardial infarction involves irreversible ischemic necrosis; pain is persistent, severe, and unresponsive to nitrates, accompanied by elevated troponin levels."
+  },
+  {
+    "question": "An anal fissure is anatomically and clinically defined as a:",
+    "optionA": "Purulent fistula connecting the rectum to the perianal skin",
+    "optionB": "Small, painful longitudinal tear, crack, or ulceration in the stratified squamous lining of the lower anal canal",
+    "optionC": "Dilated varicose vein in the hemorrhoidal plexus",
+    "optionD": "Malignant polyp of the rectal mucosa",
+    "correctAnswer": "B",
+    "explanation": "Anal fissures typically occur in the posterior midline of the anal verge from passage of hard, dry stools, causing sharp tearing pain during defecation."
+  },
+  {
+    "question": "Tetanus (lockjaw) is an acute bacterial infection of the central nervous system caused by Clostridium tetani, characterized clinically by:",
+    "optionA": "Flaccid paralysis and hypotonia",
+    "optionB": "Painful stiffness of the masseter muscles (trismus), severe muscle spasms, and hyperextension of the spine (opisthotonos)",
+    "optionC": "Chorea and tremors",
+    "optionD": "Unilateral hemiplegia",
+    "correctAnswer": "B",
+    "explanation": "Tetanospasmin blocks inhibitory neurotransmitters (glycine and GABA), causing uninhibited, agonizing reflex muscle contractions and opisthotonos."
+  },
+  {
+    "question": "In a client with cardiogenic shock following extensive myocardial infarction, which clinical assessment finding confirms inadequate vital organ perfusion?",
+    "optionA": "Bounding pulse and high urinary output",
+    "optionB": "Oliguria (urine output <20 to 30 mL/hr), cold clammy cyanotic skin, altered mental status, and systolic BP <90 mmHg",
+    "optionC": "Warm flushed extremities with bounding radial pulses",
+    "optionD": "Polyuria with hyperactive bowel sounds",
+    "correctAnswer": "B",
+    "explanation": "Cardiogenic shock is characterized by severe pump failure, low cardiac output, profound tissue hypoperfusion, and compensatory renal vasoconstriction."
+  },
+  {
+    "question": "Addison's disease refers to which endocrine disorder?",
+    "optionA": "Primary adrenocortical insufficiency (destruction of all zones of the adrenal cortex)",
+    "optionB": "Pituitary gigantism",
+    "optionC": "Hyperthyroidism",
+    "optionD": "Pancreatic islet beta-cell failure",
+    "correctAnswer": "A",
+    "explanation": "Addison's disease involves autoimmune or infectious destruction of the adrenal cortex, depleting cortisol, aldosterone, and adrenal androgens."
+  },
+  {
+    "question": "Which diagnostic procedure provides definitive confirmation of chronic obstructive pulmonary disease (COPD) and grades its severity?",
+    "optionA": "Chest X-ray",
+    "optionB": "Pulmonary function testing (Spirometry showing post-bronchodilator FEV1/FVC ratio <0.70)",
+    "optionC": "Arterial blood gas alone",
+    "optionD": "Sputum culture",
+    "correctAnswer": "B",
+    "explanation": "Spirometry demonstrating persistent airflow limitation (post-bronchodilator FEV1/FVC <0.70) is mandatory to establish the clinical diagnosis of COPD."
+  },
+  {
+    "question": "The most common progressive neurodegenerative cause of dementia in older adults is:",
+    "optionA": "Vascular multi-infarct dementia",
+    "optionB": "Alzheimer's disease",
+    "optionC": "Parkinson's disease dementia",
+    "optionD": "Creutzfeldt-Jakob disease",
+    "correctAnswer": "B",
+    "explanation": "Alzheimer's disease accounts for approximately 60% to 80% of all clinical dementia cases, characterized by amyloid plaques and neurofibrillary tangles."
+  },
+  {
+    "question": "A cystocele is defined in female pelvic medicine as the:",
+    "optionA": "Herniation of the rectum into the posterior vaginal wall",
+    "optionB": "Prolapse or downward displacement of the urinary bladder into the anterior vaginal wall",
+    "optionC": "Prolapse of loops of small bowel into the cul-de-sac",
+    "optionD": "Inversion of the uterine fundus",
+    "correctAnswer": "B",
+    "explanation": "Weakness of the pubocervical fascia and pelvic floor musculature allows the posterior bladder wall to bulge into the anterior vaginal canal."
+  },
+  {
+    "question": "Diabetic nephropathy refers to:",
+    "optionA": "Infection of the renal pelvis by E. coli in diabetics",
+    "optionB": "Progressive microvascular damage and nodular glomerulosclerosis of the kidneys caused by chronic hyperglycemia",
+    "optionC": "Calculus formation in the ureters",
+    "optionD": "Acute bladder atony",
+    "correctAnswer": "B",
+    "explanation": "Chronic hyperglycemia causes glomerular basement membrane thickening, mesangial expansion (Kimmelstiel-Wilson lesions), and progressive proteinuria."
+  },
+  {
+    "question": "Which of the following clinical manifestations is typical of acute cystitis (lower urinary tract infection) EXCEPT:",
+    "optionA": "Urinary frequency and urgency",
+    "optionB": "Dysuria (burning pain on micturition)",
+    "optionC": "Suprapubic aching or fullness",
+    "optionD": "Massive polyuria exceeding 5 liters per day",
+    "correctAnswer": "D",
+    "explanation": "Cystitis causes frequency (frequent small-volume voids), dysuria, and urgency; massive polyuria is characteristic of diabetes mellitus or insipidus."
+  },
+  {
+    "question": "Atopic bronchial asthma is immunologically mediated by which class of circulating antibodies?",
+    "optionA": "Immunoglobulin G (IgG)",
+    "optionB": "Immunoglobulin E (IgE)",
+    "optionC": "Immunoglobulin M (IgM)",
+    "optionD": "Immunoglobulin A (IgA)",
+    "correctAnswer": "B",
+    "explanation": "Allergen exposure cross-links antigen-specific IgE bound to high-affinity Fc receptors on airway mast cells, triggering histamine and leukotriene release."
+  },
+  {
+    "question": "The complete temporary or permanent cessation of spontaneous breathing is termed:",
+    "optionA": "Dyspnea",
+    "optionB": "Orthopnea",
+    "optionC": "Apnea",
+    "optionD": "Eupnea",
+    "correctAnswer": "C",
+    "explanation": "Apnea is the total absence of respiratory airflow, which leads rapidly to severe hypoxemia, hypercapnia, and cardiac arrest unless reversed."
+  },
+  {
+    "question": "Which maneuver is the standard first-line technique to open the airway of an unconscious victim without suspected cervical spinal trauma?",
+    "optionA": "Jaw-thrust without head extension",
+    "optionB": "Head tilt-chin lift maneuver",
+    "optionC": "Turning the head sharply to the left side",
+    "optionD": "Placing a thick pillow under the head",
+    "correctAnswer": "B",
+    "explanation": "The head tilt-chin lift maneuver lifts the tongue and epiglottis anteriorly away from the posterior pharyngeal wall, restoring airway patency."
+  },
+  {
+    "question": "During the tonic-clonic phase of an epileptic seizure, which nursing intervention is contraindicated and dangerous?",
+    "optionA": "Protecting the client's head with a soft pad",
+    "optionB": "Attempting to force a padded tongue depressor or spoon between the client's clenched teeth",
+    "optionC": "Loosening tight clothing around the neck",
+    "optionD": "Turning the client to the lateral recovery position after convulsions cease",
+    "correctAnswer": "B",
+    "explanation": "Forcing objects into the mouth of a seizing patient can shatter teeth, cause severe soft-tissue lacerations, and precipitate complete laryngospasm."
+  },
+  {
+    "question": "In a child who has accidentally swallowed a strong corrosive chemical (such as caustic lye or acid battery fluid), the nurse must strictly avoid:",
+    "optionA": "Administering cold milk or water as a demulcent",
+    "optionB": "Inducing vomiting (emesis)",
+    "optionC": "Keeping the child calm",
+    "optionD": "Immediately transporting to an emergency center",
+    "correctAnswer": "B",
+    "explanation": "Inducing emesis re-exposes the esophagus, pharynx, and mouth to the corrosive agent, dramatically increasing the risk of esophageal perforation."
+  },
+  {
+    "question": "Which symptom is characteristic of hypoglycemia (blood glucose <70 mg/dL) but is NOT typically seen in acute hyperglycemia?",
+    "optionA": "Diaphoresis (cool, clammy perspiration), tremor, and palpitations",
+    "optionB": "Extreme thirst (polydipsia)",
+    "optionC": "Polyuria",
+    "optionD": "Fruity acetone breath odor",
+    "correctAnswer": "A",
+    "explanation": "Hypoglycemia triggers an acute sympathoadrenal discharge of epinephrine, causing profuse cold sweats, shakiness, anxiety, and tachycardia."
+  },
+  {
+    "question": "A client presents with severe burning pain and swelling following an acute honeybee sting. When removing the barbed sting, the nurse should:",
+    "optionA": "Grasp the venom sac firmly with tweezers and pull",
+    "optionB": "Gently scrape the stinger off using a fingernail or the dull edge of a plastic card without squeezing the venom sac",
+    "optionC": "Squeeze the stinger between two fingers to crush it",
+    "optionD": "Leave the stinger in place for 24 hours",
+    "correctAnswer": "B",
+    "explanation": "Squeezing the stinger with tweezers or fingers injects the remaining venom into the tissue; scraping removes it without releasing venom."
+  },
+  {
+    "question": "A client with chronic liver cirrhosis midcourse develops severe portal hypertension. Which clinical manifestation reflects dangerous portosystemic collateral circulation?",
+    "optionA": "Hyperthyroidism",
+    "optionB": "Bleeding esophageal varices, caput medusae, and internal hemorrhoids",
+    "optionC": "Increased hair growth",
+    "optionD": "Hypertension in the lower extremities",
+    "correctAnswer": "B",
+    "explanation": "High portal pressure diverts blood into thin-walled submucosal veins of the distal esophagus, stomach, and rectum, predisposing to catastrophic hemorrhage."
+  },
+  {
+    "question": "Keratitis is defined in ophthalmology as an acute or chronic inflammation of the:",
+    "optionA": "Iris",
+    "optionB": "Cornea",
+    "optionC": "Retina",
+    "optionD": "Eyelids",
+    "correctAnswer": "B",
+    "explanation": "Keratitis is corneal inflammation caused by bacterial, viral (herpes simplex), fungal, or acanthamoebic infection or corneal abrasions."
+  },
+  {
+    "question": "Following the surgical creation of an end ileostomy, the nurse understands that the fecal drainage will be:",
+    "optionA": "Solid, formed stool passed once daily",
+    "optionB": "Continuous liquid or semi-liquid drainage containing active proteolytic digestive enzymes",
+    "optionC": "Dark green hard pellets",
+    "optionD": "Mucus only",
+    "correctAnswer": "B",
+    "explanation": "Because the entire colon is removed or bypassed, ileostomy effluent is watery, continuous, and rich in enzymes that rapidly excoriate peristomal skin."
+  },
+  {
+    "question": "Total parenteral nutrition (TPN) solutions containing hypertonic dextrose, amino acids, and micronutrients must be infused through:",
+    "optionA": "A small superficial dorsal hand vein",
+    "optionB": "A central venous catheter with the tip positioned in the superior vena cava",
+    "optionC": "An enteral feeding tube",
+    "optionD": "Intramuscular injection",
+    "correctAnswer": "B",
+    "explanation": "High osmolarity TPN (>900 mOsm/L) causes severe chemical phlebitis and thrombosis if infused peripherally; rapid dilution in the superior vena cava is mandatory."
+  },
+  {
+    "question": "According to the Gate Control Theory of pain modulation proposed by Melzack and Wall, pain transmission in the dorsal horn can be inhibited by:",
+    "optionA": "Stimulating large-diameter A-beta cutaneous sensory fibers through massage, heat, cold, or TENS",
+    "optionB": "Cutting motor nerves",
+    "optionC": "Increasing emotional stress",
+    "optionD": "Withholding all tactile stimuli",
+    "correctAnswer": "A",
+    "explanation": "Non-painful tactile sensory inputs conducted by myelinated A-beta fibers close the neural 'gate' in the substantia gelatinosa, blocking transmission of C-fiber pain."
+  },
+  {
+    "question": "In the dietary management of a client with recurrent uric acid nephrolithiasis, which dietary restriction is prescribed?",
+    "optionA": "Low calcium diet",
+    "optionB": "Low purine diet (restricting organ meats, anchovies, sardines, and beer)",
+    "optionC": "High protein diet",
+    "optionD": "Low potassium diet",
+    "correctAnswer": "B",
+    "explanation": "Uric acid is the end-product of purine metabolism; limiting dietary purines reduces urinary uric acid excretion and prevents stone recurrence."
+  },
+  {
+    "question": "Hemodialysis is an extracorporeal life-saving therapy indicated for which clinical conditions EXCEPT:",
+    "optionA": "End-stage renal failure with severe uremia",
+    "optionB": "Refractory hyperkalemia unresponsive to medical therapy",
+    "optionC": "Severe fluid overload and pulmonary edema resistant to diuretics",
+    "optionD": "Mild iron-deficiency anemia in an otherwise healthy adult",
+    "correctAnswer": "D",
+    "explanation": "Hemodialysis clears nitrogenous wastes, electrolytes, and excess fluid in renal failure; it is not indicated for uncomplicated iron-deficiency anemia."
+  },
+  {
+    "question": "Which laboratory test finding confirms that a patient has chronic active infection with Hepatitis B virus (HBV)?",
+    "optionA": "Presence of anti-Hepatitis A IgM antibodies",
+    "optionB": "Persistence of Hepatitis B surface antigen (HBsAg) in serum for greater than 6 months",
+    "optionC": "Elevated serum lipase level",
+    "optionD": "Negative HBsAg with positive anti-HBs",
+    "correctAnswer": "B",
+    "explanation": "HBsAg is the primary surface marker of Hepatitis B; persistence beyond 6 months defines chronic HBV infection."
+  },
+  {
+    "question": "The clinical hallmark that defines Nephrotic Syndrome in adults and children is:",
+    "optionA": "Gross hematuria with red cell casts and normal protein",
+    "optionB": "Heavy proteinuria (>3.5 g/24hr), marked hypoalbuminemia, severe generalized edema (anasarca), and hyperlipidemia",
+    "optionC": "Isolated low serum creatinine",
+    "optionD": "Polyuria with low specific gravity",
+    "correctAnswer": "B",
+    "explanation": "Glomerular podocyte effacement or immune damage causes heavy proteinuria, leading to low plasma oncotic pressure and massive third-space fluid retention."
+  },
+  {
+    "question": "Which anatomical segment of the aorta is the most common site for the development of atherosclerotic arterial aneurysms?",
+    "optionA": "Ascending thoracic aorta",
+    "optionB": "Abdominal aorta (infrarenal segment below the renal arteries)",
+    "optionC": "Aortic arch",
+    "optionD": "Descending thoracic aorta",
+    "correctAnswer": "B",
+    "explanation": "Atherosclerotic plaque accumulation and wall shear stress most frequently compromise the media of the infrarenal abdominal aorta."
+  },
+  {
+    "question": "Why is periconceptional supplementation with Folic acid (Vitamin B9) universally recommended for all women planning pregnancy?",
+    "optionA": "To build fetal bone calcium",
+    "optionB": "To prevent neural tube defects (such as spina bifida and anencephaly) in the developing embryo",
+    "optionC": "To increase birth weight beyond 4 kg",
+    "optionD": "To prevent maternal morning sickness",
+    "correctAnswer": "B",
+    "explanation": "Folic acid is essential for embryonic neural tube closure, which occurs within the first 28 days of gestation (often before a missed period)."
+  },
+  {
+    "question": "The collarbone that connects the upper limb to the axial skeleton at the manubrium of the sternum is the:",
+    "optionA": "Scapula",
+    "optionB": "Clavicle",
+    "optionC": "Humerus",
+    "optionD": "First rib",
+    "correctAnswer": "B",
+    "explanation": "The S-shaped clavicle acts as a strut holding the shoulder joint away from the thoracic cage, transmitting forces from the arm to the axial skeleton."
+  },
+  {
+    "question": "Sensorineural hearing loss occurs due to pathological dysfunction or damage located in which part of the auditory pathway?",
+    "optionA": "External acoustic meatus or tympanic membrane",
+    "optionB": "Hair cells of the organ of Corti in the cochlea, the vestibulocochlear nerve (CN VIII), or central auditory pathways",
+    "optionC": "Auditory ossicles in the middle ear",
+    "optionD": "Eustachian tube",
+    "correctAnswer": "B",
+    "explanation": "Sensorineural hearing loss involves the sensorineural apparatus of the inner ear or cochlear nerve, contrasting with mechanical conductive lesions."
+  }
+]

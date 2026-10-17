@@ -1,0 +1,272 @@
+[
+  {
+    "question": "An unusual, unpredictable, and genetically determined abnormal individual reaction to a drug is pharmacologically termed:",
+    "optionA": "Drug allergy",
+    "optionB": "Idiosyncrasy (idiosyncratic drug reaction)",
+    "optionC": "Drug tolerance",
+    "optionD": "Side effect",
+    "correctAnswer": "B",
+    "explanation": "Drug idiosyncrasy is an abnormal, unexpected reaction independent of drug dose, mediated by individual pharmacogenetic variations (e.g., G6PD hemolysis)."
+  },
+  {
+    "question": "Which penicillinase-resistant semisynthetic penicillin is indicated for treating infections caused by beta-lactamase-producing Staphylococcus aureus?",
+    "optionA": "Amoxicillin",
+    "optionB": "Cloxacillin",
+    "optionC": "Ampicillin",
+    "optionD": "Penicillin V",
+    "correctAnswer": "B",
+    "explanation": "Cloxacillin possesses a bulky acyl side-chain that sterically hinders staphylococcal beta-lactamase enzymes, preserving antibacterial activity."
+  },
+  {
+    "question": "Acute opioid intoxication and overdose is clinically characterized by which hallmark physical assessment triad?",
+    "optionA": "Hypertension, hyperthermia, and dilated pupils",
+    "optionB": "Pinpoint pupils (miosis), respiratory depression, and decreased level of consciousness (coma)",
+    "optionC": "Agitation, hyperreflexia, and diarrhea",
+    "optionD": "Tachycardia with flushed skin",
+    "correctAnswer": "B",
+    "explanation": "The opioid overdose triad consists of central nervous system depression, profound bradypnea/hypoventilation, and bilateral symmetric pinpoint pupils."
+  },
+  {
+    "question": "Why does intramuscular (IM) medication administration provide significantly faster vascular absorption than subcutaneous (SC) injection?",
+    "optionA": "Subcutaneous fat has no nerve fibers",
+    "optionB": "Skeletal muscle tissue possesses a vastly greater capillary blood supply and vascular perfusion",
+    "optionC": "The muscle tissue has a higher pH",
+    "optionD": "Subcutaneous tissue destroys the drug molecules",
+    "correctAnswer": "B",
+    "explanation": "Rich skeletal muscular microvascular networks ensure rapid, predictable drug absorption compared to poorly vascularized adipose tissue."
+  },
+  {
+    "question": "A pharmacologically inert chemical substance (such as saline or lactose) administered with therapeutic suggestion is known as a:",
+    "optionA": "Prodrug",
+    "optionB": "Placebo",
+    "optionC": "Toxoid",
+    "optionD": "Carrier",
+    "correctAnswer": "B",
+    "explanation": "A placebo produces clinical changes based on patient expectation, conditioning, and psychological factors rather than intrinsic pharmacological activity."
+  },
+  {
+    "question": "In psychiatric nursing, the co-existence of a substance use disorder alongside an independent major psychiatric disorder is diagnosed as:",
+    "optionA": "Secondary psychosis",
+    "optionB": "Dual diagnosis (co-occurring disorders)",
+    "optionC": "Primary addiction",
+    "optionD": "Malingering",
+    "correctAnswer": "B",
+    "explanation": "Dual diagnosis describes individuals affected simultaneously by a mental health condition (e.g., schizophrenia, bipolar) and a substance dependence."
+  },
+  {
+    "question": "Systemic arterial blood pressure is physiologically determined by the product of:",
+    "optionA": "Heart rate multiplied by stroke volume exclusively",
+    "optionB": "Cardiac Output (CO) multiplied by Systemic Vascular Resistance (SVR)",
+    "optionC": "Blood volume divided by body weight",
+    "optionD": "Venous pressure alone",
+    "correctAnswer": "B",
+    "explanation": "Mean arterial pressure is the product of cardiac flow (cardiac output) and peripheral arteriolar resistance (systemic vascular resistance)."
+  },
+  {
+    "question": "A client diagnosed with schizophrenia repeatedly claims that she is the Queen of England and commands hospital staff as royal attendants. This illustrates:",
+    "optionA": "A persecutory delusion",
+    "optionB": "A grandiose delusion (delusion of grandeur)",
+    "optionC": "A somatic delusion",
+    "optionD": "An idea of reference",
+    "correctAnswer": "B",
+    "explanation": "Delusions of grandeur are fixed false beliefs of inflated power, divine identity, exceptional wealth, or supreme authority."
+  },
+  {
+    "question": "In Freudian psychoanalytic theory, when an individual who feels intellectually inadequate compensates by becoming an aggressive, domineering boss, the defense mechanism is:",
+    "optionA": "Rationalization",
+    "optionB": "Compensation",
+    "optionC": "Regression",
+    "optionD": "Projection",
+    "correctAnswer": "B",
+    "explanation": "Compensation is an unconscious mechanism where a person overemphasizes strengths in one area to counterbalance real or perceived deficiencies in another."
+  },
+  {
+    "question": "The defense mechanism of 'Rationalization' involves:",
+    "optionA": "Transforming unacceptable urges into productive work",
+    "optionB": "Formulating plausible, socially acceptable false justifications to explain away behaviors motivated by unacceptable impulses",
+    "optionC": "Reverting to an earlier childhood developmental stage",
+    "optionD": "Attributing one's own feelings to someone else",
+    "correctAnswer": "B",
+    "explanation": "Rationalization protects self-esteem by fabricating logical, self-serving excuses to justify irrational actions or painful failures."
+  },
+  {
+    "question": "In psychiatric terminology, the word 'SOMA' is derived from Greek and signifies the:",
+    "optionA": "Mind",
+    "optionB": "Physical body",
+    "optionC": "Soul",
+    "optionD": "Heart",
+    "correctAnswer": "B",
+    "explanation": "Soma refers to the physical anatomical body; psychosomatic disorders involve physical bodily symptoms influenced by psychological distress."
+  },
+  {
+    "question": "In caring for a client with catatonic schizophrenia exhibiting extreme psychomotor underactivity and stupor, the nurse's priority care is:",
+    "optionA": "Leaving the client alone in the dark",
+    "optionB": "Preventing physical complications by providing passive range-of-motion, repositioning, skin care, and assisted nutrition/hydration",
+    "optionC": "Insisting the client participate in competitive sports",
+    "optionD": "Withholding all oral fluids",
+    "correctAnswer": "B",
+    "explanation": "Immobile catatonic clients cannot meet basic somatic needs, risking fatal venous thromboembolism, pressure ulcers, dehydration, and contractures."
+  },
+  {
+    "question": "Delirium is clinically distinguished from dementia by which cardinal features?",
+    "optionA": "Slow, insidious cognitive decline over several years with stable alertness",
+    "optionB": "Acute rapid onset (hours to days), fluctuating course, clouding of consciousness, and impaired attention, usually secondary to an acute medical illness",
+    "optionC": "Permanent irreversible brain tissue loss",
+    "optionD": "Absence of any physiological cause",
+    "correctAnswer": "B",
+    "explanation": "Delirium is an acute reversible medical emergency characterized by fluctuating attention and disorganized thinking caused by underlying systemic etiologies."
+  },
+  {
+    "question": "According to Frederick Herzberg's Dual-Factor theory of motivation, 'Hygiene factors' in the work environment (e.g., salary, working conditions):",
+    "optionA": "Directly produce deep long-term job satisfaction",
+    "optionB": "Prevent job dissatisfaction and workplace unhappiness, but do not inherently motivate superior performance",
+    "optionC": "Cause employee burnout",
+    "optionD": "Eliminate the need for management",
+    "correctAnswer": "B",
+    "explanation": "Hygiene factors (extrinsic maintenance needs) eliminate dissatisfaction; intrinsic 'motivators' (achievement, recognition, growth) inspire motivation."
+  },
+  {
+    "question": "In historical medicine, Hippocrates categorized mental disorders into three primary diagnostic entities: Mania, Melancholia, and:",
+    "optionA": "Hysteria",
+    "optionB": "Phrenitis (acute mental inflammation with fever)",
+    "optionC": "Schizophrenia",
+    "optionD": "Neurosis",
+    "correctAnswer": "B",
+    "explanation": "Hippocrates attributed mental illness to biological humoral imbalances (blood, phlegm, yellow bile, black bile), classifying conditions into mania, melancholia, and phrenitis."
+  },
+  {
+    "question": "A client in the psychiatric unit expresses intense dread that enemy soldiers have planted listening devices in his bedroom and are waiting outside to execute him. This is:",
+    "optionA": "Delusion of persecution (paranoid delusion)",
+    "optionB": "Delusion of grandeur",
+    "optionC": "Somatic delusion",
+    "optionD": "Nihilistic delusion",
+    "correctAnswer": "A",
+    "explanation": "Persecutory delusions are fixed false convictions that one is being harassed, plotted against, poisoned, or targeted for harm."
+  },
+  {
+    "question": "A client reports feeling as though the surrounding physical environment has suddenly become completely flat, unfamiliar, dream-like, and lifeless. This perceptual alteration is:",
+    "optionA": "Depersonalization",
+    "optionB": "Derealization",
+    "optionC": "Hallucination",
+    "optionD": "Illusory distortion",
+    "correctAnswer": "B",
+    "explanation": "Derealization is an alteration in external perception where familiar physical surroundings feel strange, artificial, two-dimensional, or dreamlike."
+  },
+  {
+    "question": "A middle-aged client experiences sudden unexpected surges of intense terror, accompanied by palpitations, smothering sensations, trembling, and fear of impending death. This is:",
+    "optionA": "Generalized anxiety disorder",
+    "optionB": "Panic attack (panic disorder)",
+    "optionC": "Major depression",
+    "optionD": "Malingering",
+    "correctAnswer": "B",
+    "explanation": "Panic attacks are discrete episodes of abrupt intense autonomic fear that peak within minutes, producing severe cardiopulmonary symptoms."
+  },
+  {
+    "question": "In psychiatric rehabilitation, the neurological symptom of 'Echopraxia' is characterized by:",
+    "optionA": "Involuntary repetition or mimicking of the speech of another person",
+    "optionB": "Involuntary mechanical imitation or mimicking of the physical movements and gestures of another person",
+    "optionC": "Inability to swallow food",
+    "optionD": "Loss of voluntary muscle tone",
+    "correctAnswer": "B",
+    "explanation": "Echopraxia is the pathological automatic copying of another person's bodily movements, frequently observed in catatonic schizophrenia."
+  },
+  {
+    "question": "Electroconvulsive Therapy (ECT) demonstrates the highest clinical efficacy and most rapid therapeutic response in which psychiatric condition?",
+    "optionA": "Obsessive-compulsive disorder",
+    "optionB": "Severe, treatment-resistant major depression with high acute suicide risk or catatonic exhaustion",
+    "optionC": "Borderline personality disorder",
+    "optionD": "Chronic generalized anxiety",
+    "correctAnswer": "B",
+    "explanation": "ECT produces rapid remission in up to 80-90% of severe medication-refractory depressive episodes, making it life-saving for actively suicidal patients."
+  },
+  {
+    "question": "Which somatic symptom disorder is characterized by a persistent, distressing preoccupation with the unfounded belief that one has a serious undiagnosed medical illness?",
+    "optionA": "Conversion disorder",
+    "optionB": "Hypochondriasis (Illness Anxiety Disorder)",
+    "optionC": "Factitious disorder",
+    "optionD": "Body dysmorphic disorder",
+    "correctAnswer": "B",
+    "explanation": "Illness anxiety disorder involves excessive anxiety and hypervigilance regarding personal health despite reassuring physical and laboratory evaluations."
+  },
+  {
+    "question": "A combat veteran experiences recurrent intrusive flashbacks, distressing nightmares, hypervigilance, and exaggerated startle responses following a traumatic ambush. This is:",
+    "optionA": "Adjustment disorder",
+    "optionB": "Post-Traumatic Stress Disorder (PTSD)",
+    "optionC": "Bipolar affective disorder",
+    "optionD": "Panic disorder",
+    "correctAnswer": "B",
+    "explanation": "PTSD develops after exposure to actual or threatened death, characterized by intrusive memories, avoidance of trauma cues, negative mood, and autonomic hyperarousal."
+  },
+  {
+    "question": "In Elisabeth K\u00fcbler-Ross's stages of grieving, the stage characterized by intense resentment, irritability, and envious questioning of 'Why me?' is:",
+    "optionA": "Denial",
+    "optionB": "Anger",
+    "optionC": "Bargaining",
+    "optionD": "Depression",
+    "correctAnswer": "B",
+    "explanation": "The anger stage projects feelings of helplessness onto family, nursing staff, or God as the individual confronts the reality of loss."
+  },
+  {
+    "question": "Somnambulism is a parasomnia disorder occurring during non-REM slow-wave sleep, commonly known as:",
+    "optionA": "Night terrors",
+    "optionB": "Sleep walking",
+    "optionC": "Sleep talking",
+    "optionD": "Restless legs",
+    "correctAnswer": "B",
+    "explanation": "Somnambulism involves complex motor behaviors initiated during stage N3 deep sleep, classically manifesting as ambulating while asleep with amnesia for the event."
+  },
+  {
+    "question": "In a client with severe atrial fibrillation, the peripheral pulse is classically documented as:",
+    "optionA": "Slow and regular",
+    "optionB": "Irregularly irregular in rhythm with variable pulse volume",
+    "optionC": "Bounding and water-hammer",
+    "optionD": "Pulsus alternans",
+    "correctAnswer": "B",
+    "explanation": "Disorganized atrial electrical activity bombards the AV node unpredictably, producing chaotic ventricular depolarization and an irregularly irregular pulse."
+  },
+  {
+    "question": "Unidirectional valves that prevent retrograde pooling of blood under hydrostatic pressure are structurally present in:",
+    "optionA": "Arteries and arterioles",
+    "optionB": "Veins and lymphatics",
+    "optionC": "Capillaries",
+    "optionD": "Capillary beds",
+    "correctAnswer": "B",
+    "explanation": "Veins (particularly in the lower extremities) and lymphatic collecting vessels possess bicuspid semilunar valves to support centripetal fluid return."
+  },
+  {
+    "question": "Which cell surface receptor on human CD4+ T-helper lymphocytes is targeted by the gp120 glycoprotein of the Human Immunodeficiency Virus (HIV)?",
+    "optionA": "CD8 receptor",
+    "optionB": "CD4 receptor (along with CCR5 or CXCR4 co-receptors)",
+    "optionC": "CD19 receptor",
+    "optionD": "CD56 receptor",
+    "correctAnswer": "B",
+    "explanation": "HIV binds specifically to the CD4 molecule on helper T-cells and macrophages, mediating viral entry, fusion, and progressive immune depletion."
+  },
+  {
+    "question": "The leading infectious cause of retinal necrosis and opportunistic blindness in AIDS clients with CD4 counts below 50 cells/uL is:",
+    "optionA": "Toxoplasma gondii",
+    "optionB": "Cytomegalovirus (CMV) retinitis",
+    "optionC": "Herpes simplex type 1",
+    "optionD": "Candida albicans",
+    "correctAnswer": "B",
+    "explanation": "CMV retinitis presents with painless visual loss, floaters, and full-thickness necrotizing retinal whitening with hemorrhages in advanced immunosuppression."
+  },
+  {
+    "question": "Which immunoglobulin isotype exists predominantly as a pentamer linked by a J-chain, functioning efficiently in complement activation?",
+    "optionA": "Immunoglobulin G (IgG)",
+    "optionB": "Immunoglobulin M (IgM)",
+    "optionC": "Immunoglobulin A (IgA)",
+    "optionD": "Immunoglobulin E (IgE)",
+    "correctAnswer": "B",
+    "explanation": "IgM has a high molecular weight pentameric structure that provides 10 antigen-binding sites, making it potent at agglutinating microbes."
+  },
+  {
+    "question": "Which of the following is considered an innate physiological barrier preventing microbial invasion through the digestive tract?",
+    "optionA": "Circulating plasma IgG",
+    "optionB": "Gastric hydrochloric acid (pH 1.5 to 2.0)",
+    "optionC": "Memory T-lymphocytes",
+    "optionD": "Antibiotics",
+    "correctAnswer": "B",
+    "explanation": "Gastric acid is a non-specific chemical barrier that sterilizes swallowed food by denaturing and destroying ingested bacteria."
+  }
+]

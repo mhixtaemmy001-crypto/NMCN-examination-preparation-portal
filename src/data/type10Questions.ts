@@ -1,187 +1,1347 @@
 import { RawDocQuestion } from './docPart1';
 
 export const TYPE10_QUESTIONS: RawDocQuestion[] = [
-  // 1 (Q1)
   {
-    question: "A doctor prescribes 500 mg of a drug. Tablets available are 250 mg. How many tablets will the nurse give?",
-    optionA: "1",
-    optionB: "2",
-    optionC: "3",
-    optionD: "4",
+    question: "The total volume of blood in a normal healthy adult weighing 70 kg is approximately:",
+    optionA: "2 to 3 liters",
+    optionB: "5 to 6 liters",
+    optionC: "8 to 9 liters",
+    optionD: "10 to 12 liters",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "Normal adult blood volume constitutes approximately 7% to 8% of total body weight, which corresponds to roughly 5 liters (5000 mL) in a 70 kg individual.",
   },
-  // 2 (Q2)
   {
-    question: "A patient receiving insulin becomes sweaty and confused. What is the priority action?",
-    optionA: "Check blood glucose and treat hypoglycemia",
-    optionB: "Give more insulin",
-    optionC: "Encourage sleep",
-    optionD: "Restrict fluids",
+    question: "The average lifespan of a mature circulating human erythrocyte is approximately:",
+    optionA: "30 days",
+    optionB: "60 days",
+    optionC: "90 days",
+    optionD: "120 days",
+    correctAnswer: "D",
+    explanation: "Because mature red blood cells lack a nucleus and ribosomes, their functional metabolic lifespan is approximately 120 days before being destroyed in the spleen and liver.",
+  },
+  {
+    question: "The vocal cords are anatomically situated within which respiratory structure?",
+    optionA: "Pharynx",
+    optionB: "Larynx (voice box)",
+    optionC: "Trachea",
+    optionD: "Bronchial carina",
+    correctAnswer: "B",
+    explanation: "The larynx houses the true and false vocal cords (vocal folds) spanning the glottis to produce phonation and guard the lower respiratory tract.",
+  },
+  {
+    question: "Which segment of the gastrointestinal tract is the principal site for enzymatic digestion and nutrient absorption?",
+    optionA: "Stomach",
+    optionB: "Duodenum, jejunum, and ileum (small intestine)",
+    optionC: "Ascending colon",
+    optionD: "Cecum",
+    correctAnswer: "B",
+    explanation: "The small intestine (duodenum, jejunum, ileum), with its vast microvillous brush border surface area, performs virtually all chemical digestion and nutrient absorption.",
+  },
+  {
+    question: "The triangular smooth muscle area located on the posterior floor of the urinary bladder between the ureteral orifices and urethral internal orifice is the:",
+    optionA: "Detrusor muscle",
+    optionB: "Trigone",
+    optionC: "Urachus",
+    optionD: "Prostatic fossa",
+    correctAnswer: "B",
+    explanation: "The bladder trigone is a sensitive triangular mucous area bounded by the two ureteral openings superiorly and the internal urethral orifice inferiorly.",
+  },
+  {
+    question: "Which photoreceptor cells in the retina are primarily responsible for daylight color vision and high visual acuity?",
+    optionA: "Rods",
+    optionB: "Cones",
+    optionC: "Bipolar cells",
+    optionD: "Ganglion cells",
+    correctAnswer: "B",
+    explanation: "Cones (concentrated densely in the fovea centralis) mediate photopic vision, high spatial resolution, and color discrimination via red, green, and blue photopsins.",
+  },
+  {
+    question: "A client with chronic heart failure is prescribed furosemide 40 mg daily and spironolactone 25 mg daily. The nurse explains that spironolactone is given concurrently because it:",
+    optionA: "Potentiates the rapid onset of furosemide diuresis",
+    optionB: "Promotes potassium retention while antagonizing aldosterone",
+    optionC: "Directly strengthens myocardial contractile force",
+    optionD: "Increases glomerular filtration rate directly",
+    correctAnswer: "B",
+    explanation: "Spironolactone is an aldosterone antagonist potassium-sparing diuretic that counteracts potassium wasting induced by loop diuretics like furosemide.",
+  },
+  {
+    question: "In caring for a patient after a total thyroidectomy, the nurse notes involuntary carpopedal spasm when inflating the blood pressure cuff. This sign indicates:",
+    optionA: "Hyperthyroid storm (thyrotoxicosis)",
+    optionB: "Hypocalcemia due to accidental parathyroid resection (Trousseau sign)",
+    optionC: "Recurrent laryngeal nerve severed during excision",
+    optionD: "Airway obstruction secondary to tracheal edema",
+    correctAnswer: "B",
+    explanation: "Trousseau's sign (carpopedal spasm induced by occluding arterial blood flow in the arm) is a hallmark sign of latent tetany caused by post-surgical hypocalcemia.",
+  },
+  {
+    question: "A patient with acute oliguric renal failure presents with a potassium level of 6.8 mEq/L. Which electrocardiographic change is earliest observed in hyperkalemia?",
+    optionA: "Prominent U waves",
+    optionB: "Tall, peaked, tent-shaped T waves",
+    optionC: "ST segment depression",
+    optionD: "Shortened PR interval",
+    correctAnswer: "B",
+    explanation: "Tall, peaked, symmetrical T waves with a narrow base are the earliest electrocardiographic hallmark of elevated serum potassium levels.",
+  },
+  {
+    question: "In a post-operative client who underwent open cholecystectomy with a T-tube in place, which drainage characteristic is expected during the first 24 hours?",
+    optionA: "Dark red bloody drainage greater than 1000 mL",
+    optionB: "Greenish-brown to golden-yellow bile drainage of 300 to 500 mL",
+    optionC: "Milky, purulent drainage with thick mucous plugs",
+    optionD: "Clear serous fluid of less than 20 mL",
+    correctAnswer: "B",
+    explanation: "A T-tube inserted into the common bile duct typically drains 300 to 500 mL of dark green-brown bile during the initial 24 hours post-operatively.",
+  },
+  {
+    question: "What is the primary pathophysiological defect in Graves' disease?",
+    optionA: "Destruction of thyroid follicular cells by cytotoxic T lymphocytes",
+    optionB: "Autoantibodies (thyroid-stimulating immunoglobulins) binding to and stimulating TSH receptors",
+    optionC: "Benign adenoma producing excess calcitonin",
+    optionD: "Dietary iodine deficiency preventing thyroxine synthesis",
+    correctAnswer: "B",
+    explanation: "Graves' disease is an autoimmune disorder where thyroid-stimulating immunoglobulins (TSI) bind to TSH receptors, causing autonomous hypersecretion of thyroid hormones.",
+  },
+  {
+    question: "The normal average duration of human pregnancy calculated from the first day of the last normal menstrual period (LMP) using Naegele's rule is:",
+    optionA: "260 days (37 weeks)",
+    optionB: "280 days (40 completed weeks)",
+    optionC: "300 days (42 weeks)",
+    optionD: "250 days (35 weeks)",
+    correctAnswer: "B",
+    explanation: "Human gestation averages 280 days (40 weeks or 10 lunar months, 9 calendar months) from the first day of the last menstrual period.",
+  },
+  {
+    question: "Which clinical assessment finding is the most critical early warning sign of magnesium sulfate toxicity in a pregnant client treated for severe pre-eclampsia?",
+    optionA: "Absence or depression of deep tendon (patellar) reflexes",
+    optionB: "Fetal tachycardia greater than 160 bpm",
+    optionC: "Transient maternal facial flushing",
+    optionD: "Increased urinary output exceeding 100 mL/hr",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "Loss of deep tendon reflexes occurs at serum magnesium concentrations of 8 to 10 mg/dL and heralds respiratory depression (12-15 mg/dL) and cardiac arrest (>15 mg/dL).",
   },
-  // 3 (Q3)
   {
-    question: "Which route provides the fastest systemic effect?",
-    optionA: "Oral",
-    optionB: "Subcutaneous",
-    optionC: "Intravenous",
-    optionD: "Topical",
+    question: "The thick, dark-green to black, sticky odorless stool normally passed by a newborn within the first 24 to 48 hours of life is called:",
+    optionA: "Transitional stool",
+    optionB: "Meconium",
+    optionC: "Milk stool",
+    optionD: "Acholic stool",
+    correctAnswer: "B",
+    explanation: "Meconium is composed of amniotic fluid, intestinal secretions, epithelial cells, mucus, and bile pigments, and its passage confirms patency of the lower gastrointestinal tract.",
+  },
+  {
+    question: "Which childhood nutritional deficiency disorder is characterized by generalized pitting edema, pot belly, moon face, depigmented reddish hair (flag sign), and apathy due to severe dietary protein deficiency despite adequate calories?",
+    optionA: "Marasmus",
+    optionB: "Kwashiorkor",
+    optionC: "Scurvy",
+    optionD: "Rickets",
+    correctAnswer: "B",
+    explanation: "Kwashiorkor results from severe protein deficiency with adequate caloric intake; hypoalbuminemia causes fluid extravasation, bilateral pedal and ascites edema, and hair depigmentation.",
+  },
+  {
+    question: "In managing a child with acute epiglottitis who is leaning forward in a tripod position with drooling and stridor, the nurse must strictly avoid:",
+    optionA: "Administering humidified oxygen",
+    optionB: "Inspecting the throat with a tongue depressor or attempting an oral exam",
+    optionC: "Keeping the parent close to calm the child",
+    optionD: "Preparing equipment for emergency endotracheal intubation",
+    correctAnswer: "B",
+    explanation: "Placing any instrument or tongue depressor in the pharynx of a child with suspected epiglottitis can precipitate complete, fatal laryngospasm and immediate airway obstruction.",
+  },
+  {
+    question: "A client with schizophrenia states, 'The FBI is monitoring my brain waves through the electrical outlets in the wall.' The nurse recognizes this symptom as a:",
+    optionA: "Visual hallucination",
+    optionB: "Persecutory (paranoid) delusion",
+    optionC: "Depersonalization reaction",
+    optionD: "Flight of ideas",
+    correctAnswer: "B",
+    explanation: "A persecution delusion is a fixed, false unshakeable belief that one is being targeted, harassed, spied upon, or harmed by external forces despite contrary evidence.",
+  },
+  {
+    question: "Which life-threatening, idiosyncratic complication of antipsychotic pharmacotherapy is characterized by hyperthermia, extreme muscle rigidity ('lead-pipe'), autonomic instability, and elevated creatine kinase (CK)?",
+    optionA: "Serotonin syndrome",
+    optionB: "Neuroleptic Malignant Syndrome (NMS)",
+    optionC: "Malignant hyperthermia of anesthesia",
+    optionD: "Tardive dyskinesia",
+    correctAnswer: "B",
+    explanation: "NMS is a medical emergency caused by severe dopamine receptor blockade, resulting in hyperthermia (temp >40C), profound muscular rigidity, labile blood pressure, tachycardia, and rhabdomyolysis.",
+  },
+  {
+    question: "The landmark International Conference on Primary Health Care that produced the Declaration of 'Health for All' was convened at Alma-Ata in:",
+    optionA: "1960",
+    optionB: "1978",
+    optionC: "1988",
+    optionD: "2000",
+    correctAnswer: "B",
+    explanation: "The Alma-Ata Declaration was adopted in September 1978, establishing Primary Health Care (PHC) as the key global strategy to achieve Health for All.",
+  },
+  {
+    question: "Rehabilitation, physical therapy for stroke patients, and cardiac rehabilitation following myocardial infarction fall under which level of prevention?",
+    optionA: "Primary prevention",
+    optionB: "Secondary prevention",
+    optionC: "Tertiary prevention",
+    optionD: "Primordial prevention",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "Tertiary prevention seeks to minimize disability, reduce long-term impairment, and maximize functional recovery in individuals with established chronic disease.",
   },
-  // 4 (Q4)
   {
-    question: "Before administering digoxin, the nurse should assess the",
-    optionA: "Apical pulse",
-    optionB: "Respiratory rate",
-    optionC: "Temperature",
-    optionD: "Urine color",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 5 (Q5)
-  {
-    question: "A patient on warfarin develops bleeding gums. What should the nurse do?",
-    optionA: "Report immediately and assess bleeding",
-    optionB: "Give aspirin",
-    optionC: "Increase dose",
-    optionD: "Ignore the finding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 6 (Q6)
-  {
-    question: "Which electrolyte is most associated with cardiac rhythm disturbances?",
-    optionA: "Sodium",
-    optionB: "Potassium",
-    optionC: "Calcium",
-    optionD: "Magnesium",
+    question: "The chemical disinfectant added to municipal public drinking water supplies to destroy pathogenic enteric micro-organisms and provide residual antimicrobial protection is:",
+    optionA: "Hydrogen peroxide",
+    optionB: "Chlorine (chlorination)",
+    optionC: "Formaldehyde",
+    optionD: "Phenol",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "Chlorination effectively kills waterborne bacteria, viruses, and amoebae, while leaving a measurable free residual chlorine concentration to protect against recontamination.",
   },
-  // 7 (Q7)
   {
-    question: "A prescription reads 1 g. How many milligrams is this?",
-    optionA: "100 mg",
-    optionB: "500 mg",
-    optionC: "1000 mg",
-    optionD: "10,000 mg",
+    question: "A physician prescribes 500 mg of ampicillin oral suspension every 6 hours. The pharmacy dispenses ampicillin suspension labeled 250 mg per 5 mL. How many milliliters should the nurse administer per dose?",
+    optionA: "5 mL",
+    optionB: "10 mL",
+    optionC: "15 mL",
+    optionD: "20 mL",
+    correctAnswer: "B",
+    explanation: "Formula: (Desired dose / Available dose) x Quantity = (500 mg / 250 mg) x 5 mL = 2 x 5 mL = 10 mL.",
+  },
+  {
+    question: "For an intradermal injection (such as a Mantoux tuberculin skin test), the needle is inserted at what angle with the bevel facing upward?",
+    optionA: "5 to 15 degrees",
+    optionB: "30 to 45 degrees",
+    optionC: "60 degrees",
+    optionD: "90 degrees",
+    correctAnswer: "A",
+    explanation: "An intradermal injection is placed into the dermis at a shallow 5 to 15 degree angle with bevel upward until resistance is felt, producing a distinct cutaneous wheal (bleb).",
+  },
+  {
+    question: "If the nurse subsequently proceeds to physically restrain the patient and force the tube into the patient's nose against their explicit refusal, the tort committed is:",
+    optionA: "Assault",
+    optionB: "Battery (actual intentional harmful or offensive bodily contact)",
+    optionC: "Breach of contract",
+    optionD: "Fraud",
+    correctAnswer: "B",
+    explanation: "Battery is the intentional, unconsented physical contact with a person or their belongings that is harmful or offensive.",
+  },
+  {
+    question: "Sister Callista Roy's Adaptation Model conceptualizes the human recipient of nursing care as an adaptive system interacting with stimuli across how many adaptive modes?",
+    optionA: "Two modes",
+    optionB: "Four modes (Physiological-physical, Self-concept, Role function, Interdependence)",
+    optionC: "Six modes",
+    optionD: "Ten modes",
+    correctAnswer: "B",
+    explanation: "Roy's Adaptation Model identifies four adaptive modes: physiological-physical, self-concept-group identity, role function, and interdependence.",
+  },
+  {
+    question: "The primary objective of performing hand hygiene according to WHO Five Moments in healthcare settings is to:",
+    optionA: "Sterilize the nurse's hands completely for 24 hours",
+    optionB: "Interrupt the chain of transmission of healthcare-associated (nosocomial) pathogens between patients",
+    optionC: "Replace the requirement for donning gloves during clean procedures",
+    optionD: "Prevent chemical dermatitis from topical antiseptic creams",
+    correctAnswer: "B",
+    explanation: "Hand hygiene is universally recognized as the single most effective, fundamental measure to reduce the spread of antimicrobial-resistant organisms and nosocomial infections.",
+  },
+  {
+    question: "What is the normal cardiac output in a healthy resting adult with a heart rate of 70 beats/min and stroke volume of 70 mL?",
+    optionA: "3.5 L/min",
+    optionB: "4.9 L/min",
+    optionC: "6.2 L/min",
+    optionD: "7.5 L/min",
+    correctAnswer: "B",
+    explanation: "Cardiac output equals stroke volume multiplied by heart rate: 70 mL x 70 beats/min = 4,900 mL/min or 4.9 L/min.",
+  },
+  {
+    question: "Which hormone produced by the juxtaglomerular apparatus converts angiotensinogen to angiotensin I?",
+    optionA: "Erythropoietin",
+    optionB: "Renin",
+    optionC: "Aldosterone",
+    optionD: "Antidiuretic hormone",
+    correctAnswer: "B",
+    explanation: "Renin is an enzymatic hormone synthesized and secreted by juxtaglomerular cells in response to decreased renal arterial perfusion or low sodium chloride.",
+  },
+  {
+    question: "In the human nervous system, the gap across which an electrical action potential triggers chemical neurotransmitter transmission is called the:",
+    optionA: "Nodes of Ranvier",
+    optionB: "Synaptic cleft",
+    optionC: "Axon hillock",
+    optionD: "Myelin sheath",
+    correctAnswer: "B",
+    explanation: "The synaptic cleft is the narrow microscopic extracellular space separating the presynaptic membrane from the postsynaptic target cell.",
+  },
+  {
+    question: "Glucagon acts primarily on which target organ to stimulate glycogenolysis and gluconeogenesis during hypoglycemia?",
+    optionA: "Skeletal muscle",
+    optionB: "Liver",
+    optionC: "Adipose tissue",
+    optionD: "Kidneys",
+    correctAnswer: "B",
+    explanation: "Glucagon binds hepatic receptors to activate glycogen phosphorylase and gluconeogenic enzymes, releasing glucose into the systemic circulation.",
+  },
+  {
+    question: "Which type of connective tissue attaches skeletal muscles securely to bone periosteum?",
+    optionA: "Ligament",
+    optionB: "Tendon",
+    optionC: "Aponeurosis",
+    optionD: "Elastic cartilage",
+    correctAnswer: "B",
+    explanation: "Tendons are tough, non-elastic cords of dense regular collagenous connective tissue that transmit muscle contractile tension to bones.",
+  },
+  {
+    question: "Before administering oral digoxin to an adult patient, the nurse must assess which clinical parameter for one full minute?",
+    optionA: "Radial pulse rhythm",
+    optionB: "Apical pulse rate",
+    optionC: "Respiratory rate",
+    optionD: "Blood pressure",
+    correctAnswer: "B",
+    explanation: "The apical pulse must be auscultated for 60 seconds; digoxin must be withheld and the provider notified if the pulse is below 60 beats/min in adults.",
+  },
+  {
+    question: "A client with end-stage renal disease (ESRD) has a serum potassium of 6.2 mEq/L. Which food item should the nurse instruct the client to strictly avoid?",
+    optionA: "Applesauce",
+    optionB: "Bananas and oranges",
+    optionC: "White rice",
+    optionD: "Cabbage",
+    correctAnswer: "B",
+    explanation: "Bananas, oranges, potatoes, tomatoes, and melons are rich dietary sources of potassium and must be restricted in renal failure to prevent lethal cardiotoxicity.",
+  },
+  {
+    question: "A client with acute coronary syndrome has persistent chest pain. The nurse obtains an ECG that shows ST-segment elevation in leads II, III, and aVF. Which myocardial wall is affected?",
+    optionA: "Anterior wall",
+    optionB: "Inferior wall",
+    optionC: "Lateral wall",
+    optionD: "Posterior wall",
+    correctAnswer: "B",
+    explanation: "ST elevation in leads II, III, and aVF indicates an acute inferior wall myocardial infarction, typically caused by occlusion of the right coronary artery (RCA).",
+  },
+  {
+    question: "A client with acute severe asthma exacerbation is receiving nebulized salbutamol (albuterol). The nurse recognizes that salbutamol works by:",
+    optionA: "Blocking muscarinic cholinergic receptors",
+    optionB: "Stimulating beta-2 adrenergic receptors to relax bronchial smooth muscle",
+    optionC: "Inhibiting phosphodiesterase enzyme in mast cells",
+    optionD: "Antagonizing leukotriene D4 receptors",
+    correctAnswer: "B",
+    explanation: "Salbutamol is a selective short-acting beta-2 agonist (SABA) that increases intracellular cyclic AMP, resulting in rapid relaxation of bronchial smooth muscle and bronchodilation.",
+  },
+  {
+    question: "Which diagnostic blood test provides the most accurate and specific marker for the diagnosis of acute pancreatitis?",
+    optionA: "Serum bilirubin",
+    optionB: "Serum lipase",
+    optionC: "Serum alkaline phosphatase",
+    optionD: "Blood urea nitrogen",
+    correctAnswer: "B",
+    explanation: "Serum lipase remains elevated longer (up to 14 days) and has greater clinical sensitivity and pancreatic specificity than serum amylase.",
+  },
+  {
+    question: "A client with a closed head injury has an intracranial pressure (ICP) monitoring bolt. The nurse knows that normal resting ICP in adults ranges between:",
+    optionA: "0 to 5 mmHg",
+    optionB: "5 to 15 mmHg",
+    optionC: "20 to 30 mmHg",
+    optionD: "35 to 50 mmHg",
+    correctAnswer: "B",
+    explanation: "Normal physiological intracranial pressure in a supine resting adult is 5 to 15 mmHg; sustained pressures exceeding 20 mmHg warrant active clinical intervention.",
+  },
+  {
+    question: "Which maternal pelvic shape is anatomically the most favorable and common for spontaneous vertex vaginal delivery?",
+    optionA: "Android pelvis",
+    optionB: "Gynecoid pelvis",
+    optionC: "Anthropoid pelvis",
+    optionD: "Platypelloid pelvis",
+    correctAnswer: "B",
+    explanation: "The gynecoid pelvis has a rounded inlet, wide transverse diameter, blunt ischial spines, and a wide subpubic arch, making it optimal for fetal head engagement and descent.",
+  },
+  {
+    question: "In an infant with suspected Hirschsprung's disease (congenital aganglionic megacolon), which clinical manifestation is typically observed during the neonatal period?",
+    optionA: "Passage of copious frothy stools within 6 hours",
+    optionB: "Failure to pass meconium within the first 24 to 48 hours of life, accompanied by abdominal distention and bilious vomiting",
+    optionC: "Currant jelly stools with sausage-shaped abdominal mass",
+    optionD: "Projectile non-bilious vomiting immediately after feedings",
+    correctAnswer: "B",
+    explanation: "Absence of autonomic ganglion cells in the distal colon prevents peristaltic relaxation, causing functional mechanical bowel obstruction and failure to pass meconium.",
+  },
+  {
+    question: "A client diagnosed with major depressive disorder is prescribed a selective serotonin reuptake inhibitor (SSRI), sertraline. The nurse educates the client that therapeutic antidepressant effects typically require:",
+    optionA: "24 to 48 hours",
+    optionB: "2 to 4 weeks of consistent administration",
+    optionC: "3 to 6 months",
+    optionD: "Immediate relief after the first dose",
+    correctAnswer: "B",
+    explanation: "Although synaptic reuptake inhibition occurs quickly, adaptive neuroreceptor remodeling and therapeutic clinical improvement in mood require 2 to 4 weeks.",
+  },
+  {
+    question: "The transmission of Vibrio cholerae in epidemic cholera outbreaks occurs primarily through which route?",
+    optionA: "Inhalation of respiratory aerosols",
+    optionB: "Ingestion of water or food contaminated with feces of an infected person (fecal-oral route)",
+    optionC: "Bite of infected female sandflies",
+    optionD: "Direct penetration through intact skin while walking barefoot",
+    correctAnswer: "B",
+    explanation: "Cholera is an acute diarrheal illness caused by infection of the intestine with Vibrio cholerae through the consumption of contaminated water or food in poor sanitation settings.",
+  },
+  {
+    question: "Which drug classification does lisinopril belong to, and what is a prominent class-effect adverse reaction mediated by bradykinin accumulation?",
+    optionA: "Beta-blocker; causes bronchospasm",
+    optionB: "Angiotensin-Converting Enzyme (ACE) inhibitor; causes dry, persistent nonproductive cough and angioedema",
+    optionC: "Calcium channel blocker; causes gingival hyperplasia",
+    optionD: "Thiazide diuretic; causes hyperkalemia",
+    correctAnswer: "B",
+    explanation: "ACE inhibitors prevent the breakdown of bradykinin and substance P in the respiratory tract, causing a persistent dry cough in 10-20% of patients and potential angioedema.",
+  },
+  {
+    question: "What is the normal blood volume in an adult human?",
+    optionA: "2 litres",
+    optionB: "5 litres",
+    optionC: "8 litres",
+    optionD: "10 litres",
+    correctAnswer: "B",
+    explanation: "In an average adult weighing approximately 70 kg, the total circulating blood volume is approximately 5 litres (approx. 70-75 mL/kg).",
+  },
+  {
+    question: "Deoxygenated venous blood leaves the right ventricle and travels directly to the lungs via the:",
+    optionA: "Aorta",
+    optionB: "Pulmonary artery",
+    optionC: "Superior vena cava",
+    optionD: "Pulmonary veins",
+    correctAnswer: "B",
+    explanation: "The right ventricle ejects deoxygenated blood through the pulmonic valve into the pulmonary trunk and pulmonary arteries to reach the pulmonary capillary beds.",
+  },
+  {
+    question: "Which of the following major arteries provides direct arterial blood supply to the brain?",
+    optionA: "Facial artery",
+    optionB: "Internal carotid artery (and vertebral artery)",
+    optionC: "Left subclavian artery",
+    optionD: "Superficial temporal artery",
+    correctAnswer: "B",
+    explanation: "Cerebral arterial perfusion is supplied primarily by the paired internal carotid arteries anteriorly and the vertebral arteries posteriorly.",
+  },
+  {
+    question: "The vocal folds (true vocal cords) are housed within the:",
+    optionA: "Larynx",
+    optionB: "Pharynx",
+    optionC: "Trachea",
+    optionD: "Bronchial tree",
+    correctAnswer: "A",
+    explanation: "The larynx contains the vocal folds spanning across the glottis, which vibrate to generate phonation.",
+  },
+  {
+    question: "The gray matter of the central nervous system is composed predominantly of:",
+    optionA: "Myelinated axon tracts",
+    optionB: "Neuronal cell bodies, dendrites, and unmyelinated synapses",
+    optionC: "Collagen fibers",
+    optionD: "Adipose tissue",
+    correctAnswer: "B",
+    explanation: "Gray matter contains abundant neuronal soma, dendrites, synaptic junctions, and capillary networks where neural processing occurs.",
+  },
+  {
+    question: "The total number of pairs of cranial nerves originating from the brain and brainstem is:",
+    optionA: "10 pairs",
+    optionB: "12 pairs",
+    optionC: "14 pairs",
+    optionD: "31 pairs",
+    correctAnswer: "B",
+    explanation: "There are 12 pairs of cranial nerves (CN I to XII) that innervate the head, neck, sensory organs, and thoracic/abdominal viscera.",
+  },
+  {
+    question: "The largest and longest nerve in the human body, arising from the sacral plexus, is the:",
+    optionA: "Femoral nerve",
+    optionB: "Sciatic nerve",
+    optionC: "Obturator nerve",
+    optionD: "Radial nerve",
+    correctAnswer: "B",
+    explanation: "The sciatic nerve (formed by L4-S3 nerve roots) courses through the greater sciatic notch down the posterior thigh, dividing into the tibial and common fibular nerves.",
+  },
+  {
+    question: "Which large serous membrane covers the abdominal organs and lines the abdominal wall?",
+    optionA: "Pleura",
+    optionB: "Pericardium",
+    optionC: "Peritoneum",
+    optionD: "Meninges",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "The peritoneum is the largest serous membrane, consisting of parietal and visceral layers separated by peritoneal lubricating fluid.",
   },
-  // 8 (Q8)
   {
-    question: "A patient receiving IV fluids has swelling at the cannula site. What is the nurse’s first action?",
-    optionA: "Stop the infusion",
-    optionB: "Increase the rate",
-    optionC: "Massage the area",
-    optionD: "Apply heat immediately",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 9 (Q9)
-  {
-    question: "The antidote for opioid overdose is",
-    optionA: "Atropine",
-    optionB: "Naloxone",
-    optionC: "Insulin",
-    optionD: "Vitamin K",
+    question: "The only freely movable bone in the human facial skull is the:",
+    optionA: "Maxilla",
+    optionB: "Mandible (lower jaw)",
+    optionC: "Zygomatic bone",
+    optionD: "Palatine bone",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "The mandible articulates with the temporal bone at the synovial temporomandibular joint (TMJ), allowing mastication and speech movements.",
   },
-  // 10 (Q10)
   {
-    question: "A patient receiving furosemide should be monitored for",
-    optionA: "Hypokalemia",
-    optionB: "Hyperglycemia",
-    optionC: "Bradycardia",
-    optionD: "Constipation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 11 (Q11)
-  {
-    question: "A patient is allergic to penicillin. What should the nurse do before administering a cephalosporin?",
-    optionA: "Assess for cross-sensitivity and report if necessary",
-    optionB: "Give it routinely",
-    optionC: "Double the dose",
-    optionD: "Ignore the allergy",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 12 (Q12)
-  {
-    question: "A prescription reads 5 mL. The syringe available is 10 mL. What volume should be drawn up?",
-    optionA: "2.5 mL",
-    optionB: "5 mL",
-    optionC: "7.5 mL",
-    optionD: "10 mL",
+    question: "The total normal number of chromosomes present in a human somatic diploid cell is:",
+    optionA: "23",
+    optionB: "46 (23 pairs)",
+    optionC: "48",
+    optionD: "92",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "Human somatic cells contain 46 chromosomes (22 pairs of autosomes and 1 pair of sex chromosomes, XX or XY).",
   },
-  // 13 (Q13)
   {
-    question: "Which medication is considered a high-alert drug?",
-    optionA: "Insulin",
-    optionB: "Paracetamol",
-    optionC: "Vitamin C",
-    optionD: "Antacid",
-    correctAnswer: "A",
-    explanation: ""
+    question: "According to the Wallace Rule of Nines for assessing the extent of burns in an adult, what percentage of the total body surface area (TBSA) is assigned to the entire anterior trunk (chest and abdomen)?",
+    optionA: "9%",
+    optionB: "18%",
+    optionC: "27%",
+    optionD: "36%",
+    correctAnswer: "B",
+    explanation: "In an adult, the anterior trunk represents 18% of TBSA (anterior chest 9% + anterior abdomen 9%), and the posterior trunk represents 18%.",
   },
-  // 14 (Q14)
   {
-    question: "A patient on heparin develops blood in urine. What is the priority action?",
-    optionA: "Stop infusion if prescribed protocol and report immediately",
-    optionB: "Encourage fluids only",
-    optionC: "Give vitamin C",
-    optionD: "Document later",
+    question: "A patient with a traumatic brain injury has an intracranial pressure (ICP) monitoring catheter placed. What is the normal physiological range for intracranial pressure in a supine adult?",
+    optionA: "5 to 15 mmHg",
+    optionB: "20 to 30 mmHg",
+    optionC: "35 to 45 mmHg",
+    optionD: "50 to 60 mmHg",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "Normal resting intracranial pressure in a supine adult ranges from 5 to 15 mmHg. Sustained pressures above 20 mmHg warrant prompt medical intervention.",
   },
-  // 15 (Q15)
   {
-    question: "The nurse should check compatibility before administering",
-    optionA: "IV medications together",
-    optionB: "Oral tablets",
-    optionC: "Eye drops",
-    optionD: "Topical cream",
-    correctAnswer: "A",
-    explanation: ""
+    question: "A client receiving IV vancomycin suddenly develops erythematous flushing, pruritus, and a macular rash across the face, neck, and upper torso. What is the most appropriate initial nursing action?",
+    optionA: "Increase the infusion rate to finish the antibiotic faster",
+    optionB: "Slow down or temporarily halt the infusion rate and assess vital signs for hypotension",
+    optionC: "Immediately discharge the client and recommend oral analgesics",
+    optionD: "Administer intravenous adrenaline bolus without stopping the infusion",
+    correctAnswer: "B",
+    explanation: "This reaction is 'Red Man Syndrome' (vancomycin flushing reaction), caused by rapid rate-dependent histamine release. Slowing or temporarily stopping the infusion resolves the symptoms.",
   },
-  // 16 (Q16)
   {
-    question: "A patient with severe pain receives morphine. What is the most important assessment after administration?",
-    optionA: "Respiratory rate",
-    optionB: "Hair growth",
-    optionC: "Vision",
-    optionD: "Bowel sounds",
+    question: "A nurse is evaluating an arterial blood gas (ABG) result: pH 7.28, PaCO2 56 mmHg, HCO3- 25 mEq/L. Which acid-base disturbance is represented?",
+    optionA: "Uncompensated respiratory acidosis",
+    optionB: "Compensated metabolic acidosis",
+    optionC: "Uncompensated respiratory alkalosis",
+    optionD: "Compensated metabolic alkalosis",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "pH < 7.35 indicates acidosis; elevated PaCO2 (>45 mmHg) indicates respiratory origin; HCO3- is within normal limits (22-26 mEq/L), indicating no renal compensation yet.",
   },
-  // 17 (Q17)
   {
-    question: "A drug ordered every 8 hours will be given",
-    optionA: "Three times daily",
-    optionB: "Twice daily",
-    optionC: "Four times daily",
-    optionD: "Once daily",
-    correctAnswer: "A",
-    explanation: ""
+    question: "Which endocrine gland secretes calcitonin, the hormone that lowers blood calcium levels by inhibiting osteoclastic bone resorption?",
+    optionA: "Parathyroid glands",
+    optionB: "Parafollicular C-cells of the thyroid gland",
+    optionC: "Adrenal cortex",
+    optionD: "Anterior pituitary gland",
+    correctAnswer: "B",
+    explanation: "Calcitonin is produced by the parafollicular cells (C cells) of the thyroid gland to lower serum calcium, acting as an antagonist to parathyroid hormone (PTH).",
   },
-  // 18 (Q18)
   {
-    question: "Which site is commonly used for intradermal injection?",
-    optionA: "Forearm",
-    optionB: "Gluteal muscle",
-    optionC: "Abdomen",
-    optionD: "Thigh",
-    correctAnswer: "A",
-    explanation: ""
+    question: "The anatomical hypophyseal portal system connects the primary capillary plexus of the median eminence with the:",
+    optionA: "Posterior lobe of the pituitary (neurohypophysis)",
+    optionB: "Anterior lobe of the pituitary (adenohypophysis)",
+    optionC: "Pineal gland",
+    optionD: "Adrenal cortex",
+    correctAnswer: "B",
+    explanation: "The hypophyseal portal system transports hypothalamic releasing and inhibiting hormones to anterior pituitary troph cells.",
   },
-  // 19 (Q19)
+  {
+    question: "Which gastrointestinal hormone is released by duodenal S-cells in response to acidic chyme, stimulating copious pancreatic bicarbonate secretion?",
+    optionA: "Gastrin",
+    optionB: "Secretin",
+    optionC: "Cholecystokinin (CCK)",
+    optionD: "Motilin",
+    correctAnswer: "B",
+    explanation: "Secretin neutralizes acidic gastric chyme entering the duodenum by stimulating pancreatic ductal cells to secrete watery, bicarbonate-rich fluid.",
+  },
+  {
+    question: "In performing high-quality cardiopulmonary resuscitation (CPR) on an adult in cardiac arrest, the recommended rate of chest compressions is:",
+    optionA: "60 to 80 compressions per minute",
+    optionB: "100 to 120 compressions per minute",
+    optionC: "140 to 160 compressions per minute",
+    optionD: "50 compressions per minute",
+    correctAnswer: "B",
+    explanation: "AHA and international guidelines require an optimal chest compression rate between 100 and 120 compressions/minute to maximize coronary and cerebral perfusion.",
+  },
+  {
+    question: "In a conscious choking adult with severe foreign body airway obstruction who cannot speak or cough, the nurse immediately performs:",
+    optionA: "Blind finger sweeps in the pharynx",
+    optionB: "Subdiaphragmatic abdominal thrusts (Heimlich maneuver)",
+    optionC: "Immediate needle thoracostomy",
+    optionD: "Administration of oral syrup of ipecac",
+    correctAnswer: "B",
+    explanation: "Upward inward abdominal thrusts elevate the diaphragm, compressing the lungs to generate artificial residual cough pressure that dislodges the foreign object.",
+  },
+  {
+    question: "A client with diabetes mellitus experiences hypoglycemia (blood glucose 48 mg/dL) but remains conscious and alert. The nurse's immediate action is to administer:",
+    optionA: "15 to 20 grams of fast-acting simple carbohydrate orally (e.g., 4 ounces of fruit juice)",
+    optionB: "Intramuscular glucagon injection",
+    optionC: "Subcutaneous regular insulin",
+    optionD: "Intravenous 50% dextrose bolus",
+    correctAnswer: "A",
+    explanation: "The 'Rule of 15' prescribes 15 grams of rapidly absorbed oral carbohydrate (juice, glucose tablets) followed by rechecking blood glucose in 15 minutes.",
+  },
+  {
+    question: "The hallmark clinical manifestation of acute epiglottitis in a young child that requires emergency airway precautions is:",
+    optionA: "Barking seal-like cough",
+    optionB: "High fever, drooling, dysphagia, and inspiratory stridor in a sitting tripod posture",
+    optionC: "Diffuse expiratory wheezing with hives",
+    optionD: "Hemoptysis with chest pain",
+    correctAnswer: "B",
+    explanation: "Swelling of the supraglottic epiglottis causes painful swallowing (drooling) and upper airway obstruction, with the child leaning forward to optimize airflow.",
+  },
+  {
+    question: "The sphenoid bone is often referred to as the keystone of the cranium because it:",
+    optionA: "Is the hardest bone in the skull",
+    optionB: "Articulates with every other cranial bone",
+    optionC: "Contains the teeth",
+    optionD: "Forms the bridge of the nose",
+    correctAnswer: "B",
+    explanation: "The butterfly-shaped sphenoid bone articulates with all seven other cranial bones, binding them into a cohesive neurocranium.",
+  },
+  {
+    question: "The pulmonary surfactant that reduces alveolar surface tension and prevents alveolar collapse on expiration is secreted by:",
+    optionA: "Type I alveolar pneumocytes",
+    optionB: "Type II alveolar pneumocytes (septal cells)",
+    optionC: "Alveolar macrophages (dust cells)",
+    optionD: "Goblet cells",
+    correctAnswer: "B",
+    explanation: "Type II pneumocytes are cuboidal cells that synthesize dipalmitoylphosphatidylcholine (surfactant), which decreases surface tension.",
+  },
+  {
+    question: "The T wave on an electrocardiogram represents:",
+    optionA: "Ventricular depolarization",
+    optionB: "Ventricular repolarization",
+    optionC: "Atrial depolarization",
+    optionD: "SA nodal discharge",
+    correctAnswer: "B",
+    explanation: "The T wave reflects the phase of rapid electrical repolarization of the ventricular myocardium returning to its resting negative membrane potential.",
+  },
+  {
+    question: "The valve that guards the opening between the right atrium and right ventricle is the:",
+    optionA: "Mitral (bicuspid) valve",
+    optionB: "Tricuspid valve (having three cusps)",
+    optionC: "Aortic valve",
+    optionD: "Pulmonic valve",
+    correctAnswer: "B",
+    explanation: "The tricuspid atrioventricular valve prevents regurgitation of blood from the right ventricle into the right atrium during right ventricular systole.",
+  },
+  {
+    question: "The fibrous band connecting the pulmonary trunk to the aortic arch, which represents the obliterated fetal ductus arteriosus, is the:",
+    optionA: "Ligamentum venosum",
+    optionB: "Ligamentum arteriosum",
+    optionC: "Ligamentum teres",
+    optionD: "Urachus",
+    correctAnswer: "B",
+    explanation: "The ligamentum arteriosum is the postnatal fibrous cord remnant of the ductus arteriosus that shunted blood from pulmonary trunk to aorta in utero.",
+  },
+  {
+    question: "Which segment of the small intestine is C-shaped, retroperitoneal, and approximately 25 cm (10 inches) in length?",
+    optionA: "Duodenum",
+    optionB: "Jejunum",
+    optionC: "Ileum",
+    optionD: "Cecum",
+    correctAnswer: "A",
+    explanation: "The duodenum curves around the head of the pancreas and receives bile and pancreatic juice at the major duodenal papilla.",
+  },
+  {
+    question: "A client presents with acute hoarseness, 'brassy' cough, and stridor following smoke inhalation. The nurse recognizes this as an indicator of:",
+    optionA: "Thermal and chemical injury to the upper airway causing impending acute laryngeal edema",
+    optionB: "Mild pharyngeal dryness",
+    optionC: "Normal recovery response",
+    optionD: "Hyperventilation syndrome",
+    correctAnswer: "A",
+    explanation: "Inhalation of heated gases and toxic combustion particles causes rapid progressive edema of the vocal cords and larynx, requiring immediate early intubation.",
+  },
+  {
+    question: "Which nursing intervention is crucial during the insertion of a central venous line into the subclavian vein to prevent air embolism?",
+    optionA: "Having the client cough continuously",
+    optionB: "Placing the client in Trendelenburg position and instructing them to perform the Valsalva maneuver during insertion",
+    optionC: "Keeping the head of the bed elevated 90 degrees",
+    optionD: "Having the client hyperventilate rapidly",
+    correctAnswer: "B",
+    explanation: "Trendelenburg position elevates intrathoracic venous pressure above atmospheric pressure, preventing ambient air from being sucked into the severed central vein.",
+  },
+  {
+    question: "Which antimicrobial classification does Ciprofloxacin belong to, and what serious musculoskeletal complication carries an FDA black-box warning?",
+    optionA: "Macrolide; causes hearing loss",
+    optionB: "Fluoroquinolone; causes tendonitis and spontaneous Achilles tendon rupture",
+    optionC: "Cephalosporin; causes bone marrow suppression",
+    optionD: "Sulfonamide; causes kidney stones",
+    correctAnswer: "B",
+    explanation: "Fluoroquinolones (ciprofloxacin, levofloxacin) inhibit bacterial DNA gyrase and topoisomerase IV, but can induce tendinopathy and tendon rupture.",
+  },
+  {
+    question: "The drug of choice for treating oral or esophageal candidiasis (thrush) in an immunocompromised client is:",
+    optionA: "Nystatin oral suspension (swish and swallow) or Fluconazole",
+    optionB: "Oral Penicillin V",
+    optionC: "Metronidazole",
+    optionD: "Acyclovir",
+    correctAnswer: "A",
+    explanation: "Nystatin is a polyene antifungal that binds ergosterol in Candida cell membranes, providing effective topical and gastrointestinal antifungal activity.",
+  },
+  {
+    question: "In evaluating newborn hip stability for developmental dysplasia of the hip (DDH), which maneuver abducts the flexed thigh while lifting the greater trochanter to feel for a palpable 'clunk' of reduction?",
+    optionA: "Barlow test",
+    optionB: "Ortolani maneuver",
+    optionC: "Babinski reflex",
+    optionD: "Moro maneuver",
+    correctAnswer: "B",
+    explanation: "The Ortolani test detects relocation of a dislocated femoral head back into the acetabulum (producing a palpable 'clunk').",
+  },
+  {
+    question: "Bluish-gray, slate-colored macular hyperpigmented patches commonly found over the lumbosacral region in infants of African or Asian descent are:",
+    optionA: "Ecchymoses from birth trauma",
+    optionB: "Congenital dermal melanocytosis (Mongolian spots)",
+    optionC: "Nevus flammeus",
+    optionD: "Melanoma",
+    correctAnswer: "B",
+    explanation: "Mongolian spots represent dermal melanocytes trapped in the deep dermis during embryonic migration; they are completely benign and fade during early childhood.",
+  },
+  {
+    question: "In a neonate presenting with excessive oral frothy salivation, coughing, choking, and cyanosis during the very first attempt at feeding, the nurse suspects:",
+    optionA: "Gastroesophageal reflux",
+    optionB: "Esophageal atresia with tracheoesophageal fistula (TEF)",
+    optionC: "Pyloric stenosis",
+    optionD: "Cleft palate alone",
+    correctAnswer: "B",
+    explanation: "Congenital esophageal atresia prevents swallowed saliva from entering the stomach; overflow into the trachea triggers the classic triad of coughing, choking, and cyanosis.",
+  },
+  {
+    question: "Which infectious disease characterized by severe muscle spasms of the masticatory muscles, causing trismus ('lockjaw') and risus sardonicus, is prevented by toxoid immunization?",
+    optionA: "Rabies",
+    optionB: "Tetanus",
+    optionC: "Botulism",
+    optionD: "Diphtheria",
+    correctAnswer: "B",
+    explanation: "Clostridium tetani infection causes painful sustained contraction of the masseter muscles (trismus), producing the classic sneering facial spasm (risus sardonicus).",
+  },
+  {
+    question: "Which of the following bones of the skull does NOT contribute to the formation of the orbital cavity?",
+    optionA: "Frontal bone",
+    optionB: "Mandible (lower jaw)",
+    optionC: "Ethmoid bone",
+    optionD: "Zygomatic bone",
+    correctAnswer: "B",
+    explanation: "The orbit is formed by 7 bones: frontal, zygomatic, maxilla, sphenoid, ethmoid, lacrimal, and palatine; the mandible does not enter the orbit.",
+  },
+  {
+    question: "If fertilization does not occur, the corpus luteum in the ovary regresses and degenerates into a white fibrous scar called the:",
+    optionA: "Corpus luteum of pregnancy",
+    optionB: "Corpus albicans",
+    optionC: "Graafian follicle",
+    optionD: "Theca interna",
+    correctAnswer: "B",
+    explanation: "Luteolysis causes apoptosis of luteal cells, forming an inactive fibrous connective tissue scar known as the corpus albicans.",
+  },
+  {
+    question: "The normal life expectancy of platelets (thrombocytes) in the circulating blood is approximately:",
+    optionA: "1 to 2 days",
+    optionB: "7 to 10 days",
+    optionC: "30 days",
+    optionD: "120 days",
+    correctAnswer: "B",
+    explanation: "Platelets circulate for approximately 7 to 10 days before being removed from the bloodstream by tissue macrophages in the spleen.",
+  },
+  {
+    question: "The anatomical landmark where the manubrium articulates with the body of the sternum, locating the 2nd costal cartilage, is the:",
+    optionA: "Xiphoid process",
+    optionB: "Sternal angle (Angle of Louis)",
+    optionC: "Suprasternal notch",
+    optionD: "Clavicular notch",
+    correctAnswer: "B",
+    explanation: "The sternal angle of Louis is a palpable transverse ridge at the level of the T4-T5 intervertebral disc and the articulation of the 2nd costal cartilage.",
+  },
+  {
+    question: "The outermost protective fibrous capsule enclosing the kidney is the:",
+    optionA: "Renal fascia",
+    optionB: "Renal capsule (fibrous capsule)",
+    optionC: "Adipose capsule",
+    optionD: "Peritoneum",
+    correctAnswer: "B",
+    explanation: "The smooth, transparent fibrous renal capsule adheres directly to the kidney surface, shielding it from trauma and infection.",
+  },
+  {
+    question: "The longitudinal anatomical plane that divides the human body into symmetrical right and left halves is the:",
+    optionA: "Parasagittal plane",
+    optionB: "Median or midsagittal plane",
+    optionC: "Coronal (frontal) plane",
+    optionD: "Transverse (horizontal) plane",
+    correctAnswer: "B",
+    explanation: "The median or midsagittal plane passes vertically through the midline of the body, dividing it into equal right and left halves.",
+  },
+  {
+    question: "Postoperative deep vein thrombosis (DVT) is most effectively prevented by:",
+    optionA: "Prolonged immobilization in bed",
+    optionB: "Strict fluid restriction",
+    optionC: "Early ambulation, leg exercises, and hydration",
+    optionD: "Avoiding all active muscle movement",
+    correctAnswer: "C",
+    explanation: "Early ambulation activates the calf muscle venous pump, maintaining venous blood velocity and preventing circulatory stasis in deep veins.",
+  },
+  {
+    question: "At 24 months of age, a healthy child normally has how many deciduous primary (milk) teeth erupted?",
+    optionA: "12 teeth",
+    optionB: "16 teeth",
+    optionC: "20 teeth (complete deciduous dentition)",
+    optionD: "24 teeth",
+    correctAnswer: "C",
+    explanation: "The complete primary deciduous dentition consists of 20 teeth (8 incisors, 4 canines, 8 molars), which are usually fully erupted by 2 to 2.5 years of age.",
+  },
+  {
+    question: "The cerebral hemispheres account for approximately what percentage of the total mass of the human brain?",
+    optionA: "50%",
+    optionB: "83%",
+    optionC: "95%",
+    optionD: "35%",
+    correctAnswer: "B",
+    explanation: "The cerebrum comprises about 83% of total adult brain weight, overlying the diencephalon and brainstem.",
+  },
+  {
+    question: "If a male with hemophilia (X-linked recessive) marries a female with normal homozygous alleles, what is the probability that their male offspring will have hemophilia?",
+    optionA: "100%",
+    optionB: "50%",
+    optionC: "25%",
+    optionD: "0% (sons receive the father's normal Y chromosome)",
+    correctAnswer: "D",
+    explanation: "Sons inherit the father's unaffected Y chromosome and maternal healthy X chromosome; all daughters will be obligate carriers (XHXh).",
+  },
+  {
+    question: "Which gaseous pollutant emitted by motor vehicle exhaust binds to hemoglobin with an affinity over 200 times greater than oxygen, forming carboxyhemoglobin?",
+    optionA: "Carbon dioxide (CO2)",
+    optionB: "Carbon monoxide (CO)",
+    optionC: "Sulfur dioxide (SO2)",
+    optionD: "Nitrogen dioxide (NO2)",
+    correctAnswer: "B",
+    explanation: "Carbon monoxide competitively binds to ferrous iron in hemoglobin with high affinity, shifting the oxygen dissociation curve left and preventing cellular oxygen release.",
+  },
+  {
+    question: "In Nigeria, the National Primary Health Care Development Agency (NPHCDA) was formally established by federal decree in the year:",
+    optionA: "1978",
+    optionB: "1988",
+    optionC: "1992",
+    optionD: "2000",
+    correctAnswer: "C",
+    explanation: "The NPHCDA was established in 1992 to support the implementation, technical supervision, and resource mobilization for the national primary healthcare policy.",
+  },
+  {
+    question: "Urinalysis finding of significant protein (proteinuria >= 30 mg/dL or 1+) on consecutive routine dipstick screenings in an adult indicates:",
+    optionA: "Normal urinary concentrating ability",
+    optionB: "Increased glomerular capillary permeability or renal tubular pathology",
+    optionC: "Excessive intake of dietary carbohydrates",
+    optionD: "Normal shedding of transitional bladder urothelium",
+    correctAnswer: "B",
+    explanation: "Under intact glomerular basement membrane charge and pore filtration barriers, large plasma proteins like albumin do not pass into urine; proteinuria signals glomerular damage.",
+  },
+  {
+    question: "The solid waste management strategy where organic biodegradable domestic waste is biologically decomposed into nutrient-rich soil humus is known as:",
+    optionA: "Incineration",
+    optionB: "Composting",
+    optionC: "Deep-well injection",
+    optionD: "Open-air burning",
+    correctAnswer: "B",
+    explanation: "Composting is the controlled aerobic biological decomposition of organic municipal solid wastes by microorganisms into agricultural soil fertilizer.",
+  },
+  {
+    question: "In research methodology, the extent to which a measuring instrument or questionnaire yields consistent, stable, and reproducible results on repeated administration is known as:",
+    optionA: "Validity",
+    optionB: "Reliability",
+    optionC: "Objectivity",
+    optionD: "Generalizability",
+    correctAnswer: "B",
+    explanation: "Reliability reflects the internal consistency and stability of a measurement tool; validity refers to whether the tool accurately measures what it was intended to measure.",
+  },
+  {
+    question: "A multiparous woman in active labor has sudden intense abdominal pain followed by abrupt cessation of uterine contractions and fetal bradycardia. The nurse suspects:",
+    optionA: "Uterine rupture",
+    optionB: "Normal transitional phase",
+    optionC: "Precipitous labor",
+    optionD: "Early cervical dilation",
+    correctAnswer: "A",
+    explanation: "Sudden sharp tearing abdominal pain with cessation of contractions and loss of fetal station is diagnostic of uterine rupture, a catastrophic obstetric emergency.",
+  },
+  {
+    question: "Which maternal condition is a mandatory indication for scheduled Cesarean section rather than trial of labor?",
+    optionA: "Gestational diabetes well-controlled on diet",
+    optionB: "Complete placenta previa covering the internal cervical os",
+    optionC: "Mild chronic hypertension",
+    optionD: "History of one prior uncomplicated low transverse cesarean section",
+    correctAnswer: "B",
+    explanation: "Complete placenta previa obstructs the birth canal; vaginal delivery causes massive, life-threatening maternal hemorrhage.",
+  },
+  {
+    question: "Which diagnostic finding on blood film examination confirms sickle cell trait (HbAS) versus homozygous sickle cell anemia (HbSS)?",
+    optionA: "Full blood count alone",
+    optionB: "Hemoglobin electrophoresis",
+    optionC: "Urine microscopy",
+    optionD: "Serum ferritin level",
+    correctAnswer: "B",
+    explanation: "Hemoglobin electrophoresis separates hemoglobin variants by electrical charge, definitively distinguishing HbAA, HbAS, and HbSS.",
+  },
+  {
+    question: "Which childhood condition is characterized by a failure of the developmental descent of one or both testes into the scrotal sac?",
+    optionA: "Hydrocele",
+    optionB: "Cryptorchidism",
+    optionC: "Phimosis",
+    optionD: "Epispadias",
+    correctAnswer: "B",
+    explanation: "Cryptorchidism is undescended testis; if uncorrected by 6 to 12 months, surgical orchiopexy is indicated to preserve fertility and monitor malignancy risk.",
+  },
+  {
+    question: "Which oral hypoglycemic agent of the biguanide class decreases hepatic glucose production and does not cause hypoglycemia as a monotherapy?",
+    optionA: "Glibenclamide",
+    optionB: "Metformin hydrochloride",
+    optionC: "Pioglitazone",
+    optionD: "Repaglinide",
+    correctAnswer: "B",
+    explanation: "Metformin suppresses hepatic gluconeogenesis and improves peripheral insulin sensitivity without stimulating pancreatic beta-cell insulin secretion.",
+  },
+  {
+    question: "What is the primary mechanism of action of nonsteroidal anti-inflammatory drugs (NSAIDs) such as ibuprofen and diclofenac?",
+    optionA: "Inhibition of cyclooxygenase enzymes (COX-1 and COX-2) to block prostaglandin synthesis",
+    optionB: "Stimulation of opioid mu receptors in the spinal cord",
+    optionC: "Blockade of histamine H1 receptors",
+    optionD: "Enhancement of serotonin neurotransmission",
+    correctAnswer: "A",
+    explanation: "NSAIDs block cyclooxygenase (prostaglandin H2 synthase), inhibiting the conversion of arachidonic acid to pro-inflammatory prostaglandins.",
+  },
+  {
+    question: "Which therapeutic communication technique is demonstrated when the nurse rephrases the client's core message in fewer, similar words to confirm mutual understanding?",
+    optionA: "Probing",
+    optionB: "Paraphrasing (restating)",
+    optionC: "False reassurance",
+    optionD: "Moralizing",
+    correctAnswer: "B",
+    explanation: "Paraphrasing restates the essence of the patient's verbal expression in the nurse's own words, verifying accurate comprehension and conveying active listening.",
+  },
+  {
+    question: "Which simple, low-cost household water treatment method effectively destroys waterborne pathogens using heat?",
+    optionA: "Vigorous rolling boiling of drinking water for at least 1 to 3 minutes",
+    optionB: "Sedimentation in an open bucket for 1 hour",
+    optionC: "Passing water through a single cotton cloth",
+    optionD: "Exposing water to moonlight overnight",
+    correctAnswer: "A",
+    explanation: "Bringing water to a vigorous rolling boil for 1 minute (or 3 minutes at high altitude) thermal-inactivates enteric bacteria, viruses, and protozoan cysts.",
+  },
+  {
+    question: "When caring for a client with an indwelling urinary (Foley) catheter, the drainage collection bag must always be positioned:",
+    optionA: "At the level of the patient's heart",
+    optionB: "Below the level of the bladder at all times to prevent retroflex of contaminated urine",
+    optionC: "Resting directly on the floor",
+    optionD: "Tucked under the bed pillow",
+    correctAnswer: "B",
+    explanation: "Maintaining the collection bag below bladder level facilitates gravity drainage and prevents backflow of colonized urine into the sterile urinary tract.",
+  },
+  {
+    question: "Which refractive error occurs when the anteroposterior diameter of the eyeball is too long, causing light rays to focus in front of the retina (nearsightedness)?",
+    optionA: "Hyperopia",
+    optionB: "Myopia",
+    optionC: "Astigmatism",
+    optionD: "Presbyopia",
+    correctAnswer: "B",
+    explanation: "Myopia (nearsightedness) occurs when the globe is elongated or refractive power is excessive, focusing distant images anterior to the retina, corrected by concave (divergent) lenses.",
+  },
+  {
+    question: "Excessive secretion of growth hormone (GH) in an adult after epiphyseal plate fusion causes enlargement of facial bones, hands, and feet, known as:",
+    optionA: "Gigantism",
+    optionB: "Acromegaly",
+    optionC: "Cushing disease",
+    optionD: "Graves disease",
+    correctAnswer: "B",
+    explanation: "Acromegaly occurs when a pituitary somatotroph adenoma hypersecretes GH in adults, causing thickening of membranous bones, soft tissue hypertrophy, and organomegaly.",
+  },
+  {
+    question: "Which bone cells are specialized multinucleated giant cells responsible for breaking down and resorbing mineralized bone matrix under parathyroid hormone stimulation?",
+    optionA: "Osteoblasts",
+    optionB: "Osteoclasts",
+    optionC: "Osteocytes",
+    optionD: "Chondrocytes",
+    correctAnswer: "B",
+    explanation: "Osteoclasts secrete lysosomal enzymes and hydrochloric acid onto the bone surface to dissolve hydroxyapatite mineral and digest collagen fibers.",
+  },
+  {
+    question: "Pernicious anemia is an autoimmune disorder that leads to vitamin B12 deficiency due to the destruction of:",
+    optionA: "Gastric chief cells",
+    optionB: "Gastric parietal cells that secrete intrinsic factor",
+    optionC: "Duodenal enterocytes",
+    optionD: "Hepatocytes",
+    correctAnswer: "B",
+    explanation: "Autoantibodies against parietal cells or intrinsic factor prevent intrinsic factor binding to dietary B12, blocking its absorption in the terminal ileum.",
+  },
+  {
+    question: "When ambulating a client following surgical removal of a protruded intervertebral lumbar disc (laminectomy), which nursing principle is essential?",
+    optionA: "Maintaining proper anatomical body alignment with straight spine and avoiding twisting or bending",
+    optionB: "Having the client bend forward at the waist while walking",
+    optionC: "Administering oral sedatives 5 minutes before ambulation",
+    optionD: "Keeping the patient on complete bed rest for 14 days",
+    correctAnswer: "A",
+    explanation: "Maintaining spinal alignment and log-rolling techniques protect the surgical fusion and bone grafts from shearing forces during mobility.",
+  },
+  {
+    question: "A client using an over-the-counter topical nasal decongestant spray reports unrelieved and worsening nasal congestion after 7 days of use. Which condition should the nurse recognize?",
+    optionA: "Development of acute bacterial sinusitis",
+    optionB: "Rhinitis medicamentosa (rebound nasal congestion from prolonged topical alpha-agonist use)",
+    optionC: "Allergic reaction to the preservative",
+    optionD: "Nasal septal perforation",
+    correctAnswer: "B",
+    explanation: "Topical nasal vasoconstrictors used beyond 3 to 5 days down-regulate alpha receptors, producing severe rebound hyperemia and worsening congestion upon wearing off.",
+  },
+  {
+    question: "Which nursing intervention is most effective in protecting an immunocompromised client with severe neutropenia from acquiring a nosocomial infection?",
+    optionA: "Placing the client in a positive-pressure private room and performing meticulous hand hygiene before entering",
+    optionB: "Administering prophylactic oral antidiarrheals daily",
+    optionC: "Providing fresh raw vegetable salads at every meal",
+    optionD: "Keeping fresh potted flowers at the bedside",
+    correctAnswer: "A",
+    explanation: "Strict hand washing and protective isolation prevent transmission of pathogens; raw vegetables and standing flower water harbor Pseudomonas and are prohibited.",
+  },
+  {
+    question: "Which educational topic is most important to include in pre-operative teaching for a client scheduled for an abdominal hysterectomy?",
+    optionA: "Instruction in postoperative deep breathing, coughing, and leg exercises to prevent atelectasis and DVT",
+    optionB: "Explanation of hospital billing and administrative procedures",
+    optionC: "Detailed description of all surgical instruments used",
+    optionD: "Advice to avoid drinking water for two weeks post-op",
+    correctAnswer: "A",
+    explanation: "Teaching coughing, splinting, and lower-extremity ankle-pumping exercises before surgery ensures the patient understands and complies post-operatively when groggy.",
+  },
+  {
+    question: "A client with chronic heart failure is prescribed digoxin. Before administering the scheduled morning dose, the nurse finds an apical pulse of 52 beats per minute. The nurse should:",
+    optionA: "Administer the medication with a glass of orange juice",
+    optionB: "Withhold the medication, document the finding, and notify the prescribing physician",
+    optionC: "Give half the prescribed tablet",
+    optionD: "Recheck the radial pulse in 4 hours",
+    correctAnswer: "B",
+    explanation: "Digoxin exerts a negative chronotropic effect on the SA and AV nodes; doses must be withheld if the apical heart rate is below 60 beats/min in adults to avoid severe bradycardia.",
+  },
+  {
+    question: "During a tonic-clonic epileptic seizure, the nurse's primary protective responsibility is to:",
+    optionA: "Forcefully insert a padded tongue blade between the client's clenched teeth",
+    optionB: "Restrain the client's arms and legs tightly to the bed frame",
+    optionC: "Protect the client's head from injury, loosen tight clothing, maintain airway patency, and never force objects into the mouth",
+    optionD: "Administer oral antiepileptic syrup immediately",
+    correctAnswer: "C",
+    explanation: "Safety and airway protection are the primary priorities; forcing items into the mouth causes dental fractures and aspiration, and physical restraint causes musculoskeletal injury.",
+  },
+  {
+    question: "Reduced fluid loss in urine due to renal retention of water is primarily mediated by which hormone?",
+    optionA: "Antidiuretic hormone (Vasopressin)",
+    optionB: "Calcitonin",
+    optionC: "Aldosterone",
+    optionD: "Cortisone",
+    correctAnswer: "A",
+    explanation: "Antidiuretic hormone increases the water permeability of the luminal membrane of renal collecting duct principal cells.",
+  },
+  {
+    question: "The external urethral sphincter that controls micturition is under:",
+    optionA: "Voluntary somatic neuromuscular control",
+    optionB: "Involuntary autonomic sympathetic control exclusively",
+    optionC: "Pure reflex spinal action without cortical oversight",
+    optionD: "Involuntary parasympathetic control exclusively",
+    correctAnswer: "A",
+    explanation: "The external sphincter consists of skeletal muscle innervated by the somatic pudendal nerve, allowing conscious voluntary control of urination.",
+  },
+  {
+    question: "Galactorrhea (inappropriate lactation in non-nursing individuals) is caused by hypersecretion of which anterior pituitary hormone?",
+    optionA: "Prolactin",
+    optionB: "Adrenocorticotropic hormone (ACTH)",
+    optionC: "Growth hormone (GH)",
+    optionD: "Thyroid-stimulating hormone (TSH)",
+    correctAnswer: "A",
+    explanation: "Prolactin acts directly on mammary glandular epithelium to stimulate milk synthesis; hyperprolactinemia causes galactorrhea and amenorrhea.",
+  },
+  {
+    question: "Simple squamous epithelium is anatomically adapted for rapid diffusion and is located in the:",
+    optionA: "Distal convoluted renal tubules",
+    optionB: "Alveolar walls of the lungs and capillary endothelium",
+    optionC: "Uterine fallopian tubes",
+    optionD: "Skin epidermis",
+    correctAnswer: "B",
+    explanation: "A single layer of flattened squamous cells provides a minimal diffusion barrier for oxygen and carbon dioxide in pulmonary alveoli.",
+  },
+  {
+    question: "The terminal microscopic branching of the bronchial tree that directly communicates with alveolar ducts is the:",
+    optionA: "Primary bronchus",
+    optionB: "Segmental bronchus",
+    optionC: "Respiratory bronchiole",
+    optionD: "Tracheal bifurcate",
+    correctAnswer: "C",
+    explanation: "Respiratory bronchioles contain occasional alveoli in their walls and transition into alveolar ducts and alveolar sacs.",
+  },
+  {
+    question: "Brown adipose tissue (BAT) present in newborn infants functions primarily in:",
+    optionA: "Long-term adult energy storage",
+    optionB: "Non-shivering thermogenesis to produce heat and maintain core body temperature",
+    optionC: "Insulating deep peripheral nerves",
+    optionD: "Synthesizing digestive enzymes",
+    correctAnswer: "B",
+    explanation: "Brown adipose tissue contains abundant mitochondria with uncoupling protein-1 (thermogenin) that dissipates chemical energy as heat in newborns.",
+  },
+  {
+    question: "The abnormal presence of air within the potential pleural space that leads to partial or total lung collapse is called:",
+    optionA: "Atelectasis",
+    optionB: "Pneumothorax",
+    optionC: "Hydrothorax",
+    optionD: "Pleurisy",
+    correctAnswer: "B",
+    explanation: "A pneumothorax occurs when atmospheric air breaches the chest wall or visceral pleura, destroying negative pleural pressure and collapsing the lung.",
+  },
+  {
+    question: "Calcitonin is an amino acid peptide hormone synthesized and secreted by:",
+    optionA: "Parathyroid chief cells",
+    optionB: "Parafollicular C-cells of the thyroid gland",
+    optionC: "Adrenal chromaffin cells",
+    optionD: "Anterior pituitary somatotrophs",
+    correctAnswer: "B",
+    explanation: "Parafollicular (C) cells situated in the interstitial connective tissue of the thyroid synthesize calcitonin in response to hypercalcemia.",
+  },
+  {
+    question: "The normal resting physiological heart rate range for a healthy newborn infant is:",
+    optionA: "60 to 80 beats/min",
+    optionB: "80 to 100 beats/min",
+    optionC: "120 to 160 beats/min",
+    optionD: "180 to 220 beats/min",
+    correctAnswer: "C",
+    explanation: "A resting neonate typically exhibits a heart rate between 120 and 160 beats/min, which may increase to 180 bpm during crying or decrease to 100 bpm in deep sleep.",
+  },
+  {
+    question: "In performing a diagnostic lumbar puncture to sample cerebrospinal fluid in an adult, the needle is safely inserted between:",
+    optionA: "L1 and L2 vertebrae",
+    optionB: "L3 and L4 or L4 and L5 interspaces (below the spinal cord termination)",
+    optionC: "T12 and L1",
+    optionD: "C7 and T1",
+    correctAnswer: "B",
+    explanation: "Because the adult spinal cord ends at L1-L2, needle puncture at L3-L4 or L4-L5 enters the lumbar cistern of the subarachnoid space without risking spinal cord injury.",
+  },
+  {
+    question: "Follicle-stimulating hormone (FSH) in the female reproductive cycle acts primarily to:",
+    optionA: "Trigger immediate ovulation",
+    optionB: "Stimulate the growth and maturation of ovarian graafian follicles",
+    optionC: "Maintain the corpus luteum throughout pregnancy",
+    optionD: "Induce uterine myometrial contractions",
+    correctAnswer: "B",
+    explanation: "FSH secreted by anterior pituitary gonadotrophs promotes the development of primary follicles into mature vesicular follicles in the ovary.",
+  },
+  {
+    question: "T-lymphocytes originate from hematopoietic stem cells in the bone marrow but migrate for maturation and immunocompetence to the:",
+    optionA: "Spleen",
+    optionB: "Thymus gland",
+    optionC: "Thyroid gland",
+    optionD: "Peyer's patches",
+    correctAnswer: "B",
+    explanation: "Prothymocytes migrate from red bone marrow to the thymus, where positive and negative selection programs mature CD4+ and CD8+ T-cells.",
+  },
+  {
+    question: "In Erik Erikson's stages of psychosocial development, an infant during the first year of life (0-12 months) faces the psychosocial developmental conflict of:",
+    optionA: "Autonomy versus Shame and Doubt",
+    optionB: "Trust versus Mistrust",
+    optionC: "Initiative versus Guilt",
+    optionD: "Industry versus Inferiority",
+    correctAnswer: "B",
+    explanation: "Consistent, sensitive maternal responsiveness fosters basic trust in the benevolence of the world; neglect leads to basic mistrust.",
+  },
+  {
+    question: "In Gordon's Functional Health Patterns assessment framework, assessing a client's daily fluid intake, dietary preferences, and skin turgor falls under which pattern?",
+    optionA: "Health Perception-Health Management",
+    optionB: "Nutritional-Metabolic Pattern",
+    optionC: "Elimination Pattern",
+    optionD: "Activity-Exercise Pattern",
+    correctAnswer: "B",
+    explanation: "The nutritional-metabolic pattern evaluates food and fluid consumption relative to metabolic demands and indicators of tissue nutrient supply.",
+  },
+  {
+    question: "The legal principle of 'Respondeat Superior' in healthcare jurisprudence holds that:",
+    optionA: "The employee is solely responsible for all hospital errors",
+    optionB: "An employer or healthcare institution is legally liable for the negligent acts of employees acting within the scope of their employment",
+    optionC: "Patients assume all risks upon signing admission papers",
+    optionD: "Physicians cannot be sued if the nurse administers the medication",
+    correctAnswer: "B",
+    explanation: "Respondeat superior (vicarious liability) establishes that employers are legally accountable for wrongful tortious acts committed by employees during their duties.",
+  },
+  {
+    question: "When documenting surgical wound drainage that appears watery, pale pink, and clear with a slight blood tint, the nurse charts it as:",
+    optionA: "Serous drainage",
+    optionB: "Sanguineous drainage",
+    optionC: "Serosanguineous drainage",
+    optionD: "Purulent drainage",
+    correctAnswer: "C",
+    explanation: "Serosanguineous exudate is thin, watery drainage composed of a mixture of clear serum and red blood cells.",
+  },
+  {
+    question: "The immediate post-operative phase in the Post-Anesthesia Care Unit (PACU) prioritizes monitoring which clinical parameters above all else?",
+    optionA: "Nutritional intake and bowel sounds",
+    optionB: "Airway patency, respiratory rate/depth, oxygen saturation, and hemodynamic stability",
+    optionC: "Urine specific gravity and serum electrolytes",
+    optionD: "Range of motion of unoperated joints",
+    correctAnswer: "B",
+    explanation: "Airway compromise (hypoventilation, laryngospasm, tongue obstruction) and cardiovascular instability are the primary threats during emergence from anesthesia.",
+  },
+  {
+    question: "The intracellular fluid (ICF) compartment accounts for approximately what fraction of total body water in a healthy adult?",
+    optionA: "One-third (33%)",
+    optionB: "Two-thirds (approx. 60-67%)",
+    optionC: "Ninety percent (90%)",
+    optionD: "Ten percent (10%)",
+    correctAnswer: "B",
+    explanation: "Intracellular fluid comprises about two-thirds of total body water, with the remaining one-third distributed within the extracellular fluid (interstitial and plasma).",
+  },
+  {
+    question: "In arterial blood gas (ABG) analysis, a pH of 7.28, PaCO2 of 56 mmHg, and HCO3- of 24 mEq/L is interpreted as:",
+    optionA: "Compensated metabolic acidosis",
+    optionB: "Uncompensated respiratory acidosis",
+    optionC: "Uncompensated metabolic alkalosis",
+    optionD: "Normal acid-base balance",
+    correctAnswer: "B",
+    explanation: "A low pH (<7.35) confirms acidosis; an elevated PaCO2 (>45 mmHg) confirms a respiratory etiology, and a normal HCO3- indicates lack of renal compensation.",
+  },
+  {
+    question: "A client diagnosed with severe iron-deficiency anemia is prescribed oral ferrous sulfate tablets. Which common side effect should the nurse instruct the client to expect?",
+    optionA: "Bright red hematochezia",
+    optionB: "Harmless black, dark green, or tarry-colored stools and occasional constipation",
+    optionC: "Excessive salivation",
+    optionD: "Yellow discoloration of the sclera",
+    correctAnswer: "B",
+    explanation: "Unabsorbed elemental iron is oxidized in the gastrointestinal tract, imparting a characteristic dark green or black discoloration to feces.",
+  },
+  {
+    question: "Which infectious disease is transmitted by the bite of the female Anopheles mosquito, injecting sporozoites of Plasmodium species into human capillaries?",
+    optionA: "Yellow fever",
+    optionB: "Malaria",
+    optionC: "Schistosomiasis",
+    optionD: "Filariasis",
+    correctAnswer: "B",
+    explanation: "Plasmodium falciparum, vivax, malariae, and ovale are protozoan parasites transmitted by female Anopheles mosquitoes that breed in clean fresh water.",
+  },
+  {
+    question: "Which sign of acute appendicitis is demonstrated when palpation of the left lower quadrant causes referred pain in the right lower quadrant?",
+    optionA: "Psoas sign",
+    optionB: "Rovsing's sign",
+    optionC: "Obturator sign",
+    optionD: "Murphy's sign",
+    correctAnswer: "B",
+    explanation: "Rovsing's sign occurs when pressure on the descending colon shifts colonic gas retrograde into the cecum, stretching the inflamed appendix and eliciting RLQ pain.",
+  },
+  {
+    question: "In a client with severe chronic liver cirrhosis, which clinical manifestation is caused by portal hypertension and collateral portosystemic shunting?",
+    optionA: "Caput medusae, esophageal varices, and splenomegaly",
+    optionB: "Xanthomas and corneal arcus",
+    optionC: "Hypoglycemia and dry skin",
+    optionD: "Pulmonary fibrosis",
+    correctAnswer: "A",
+    explanation: "Increased portal venous resistance diverts blood into low-pressure collateral pathways, producing dilated paraumbilical veins (caput medusae) and esophageal varices.",
+  },
+  {
+    question: "To prevent dislocation of a hip prosthesis on the first post-operative day after total hip arthroplasty, the nurse must avoid:",
+    optionA: "Keeping the operative leg slightly abducted",
+    optionB: "Adduction of the operative leg across the midline or flexion of the hip beyond 90 degrees",
+    optionC: "Placing a pillow between the patient's legs",
+    optionD: "Supporting the leg in neutral rotation",
+    correctAnswer: "B",
+    explanation: "Adduction and acute hip flexion (>90 degrees) cause the prosthetic femoral head to leverage out of the acetabulum, precipitating prosthesis dislocation.",
+  },
+  {
+    question: "The photosensitive receptor cells of the human eye (rods and cones) are located within the:",
+    optionA: "Choroid",
+    optionB: "Cornea",
+    optionC: "Sclera",
+    optionD: "Retina",
+    correctAnswer: "D",
+    explanation: "The neural retina contains photoreceptor rods and cones that transduce photons of light into electrical action potentials.",
+  },
+  {
+    question: "Wheezing, a high-pitched whistling musical adventitious sound heard on expiration, is characteristic of:",
+    optionA: "Lobar pneumonia",
+    optionB: "Bronchial asthma",
+    optionC: "Pleural effusion",
+    optionD: "Common cold",
+    correctAnswer: "B",
+    explanation: "Wheezing results from turbulent airflow passing through narrowed, bronchospastic, or inflamed lower airways.",
+  },
+  {
+    question: "Which clinical characteristic distinguishes the severe chest pain of an acute myocardial infarction from that of stable angina pectoris?",
+    optionA: "Pain is mild and relieved within 2 minutes by resting",
+    optionB: "Pain is crushing, severe, prolonged (>20-30 minutes), radiates to left arm or jaw, and is NOT relieved by rest or sublingual nitroglycerin",
+    optionC: "Pain is sharp and worsens only with deep inspiration",
+    optionD: "Pain disappears when lying flat",
+    correctAnswer: "B",
+    explanation: "Myocardial infarction involves irreversible ischemic necrosis; pain is persistent, severe, and unresponsive to nitrates, accompanied by elevated troponin levels.",
+  },
+  {
+    question: "Which diagnostic procedure provides definitive confirmation of chronic obstructive pulmonary disease (COPD) and grades its severity?",
+    optionA: "Chest X-ray",
+    optionB: "Pulmonary function testing (Spirometry showing post-bronchodilator FEV1/FVC ratio <0.70)",
+    optionC: "Arterial blood gas alone",
+    optionD: "Sputum culture",
+    correctAnswer: "B",
+    explanation: "Spirometry demonstrating persistent airflow limitation (post-bronchodilator FEV1/FVC <0.70) is mandatory to establish the clinical diagnosis of COPD.",
+  },
+  {
+    question: "Atopic bronchial asthma is immunologically mediated by which class of circulating antibodies?",
+    optionA: "Immunoglobulin G (IgG)",
+    optionB: "Immunoglobulin E (IgE)",
+    optionC: "Immunoglobulin M (IgM)",
+    optionD: "Immunoglobulin A (IgA)",
+    correctAnswer: "B",
+    explanation: "Allergen exposure cross-links antigen-specific IgE bound to high-affinity Fc receptors on airway mast cells, triggering histamine and leukotriene release.",
+  },
+  {
+    question: "Which symptom is characteristic of hypoglycemia (blood glucose <70 mg/dL) but is NOT typically seen in acute hyperglycemia?",
+    optionA: "Diaphoresis (cool, clammy perspiration), tremor, and palpitations",
+    optionB: "Extreme thirst (polydipsia)",
+    optionC: "Polyuria",
+    optionD: "Fruity acetone breath odor",
+    correctAnswer: "A",
+    explanation: "Hypoglycemia triggers an acute sympathoadrenal discharge of epinephrine, causing profuse cold sweats, shakiness, anxiety, and tachycardia.",
+  },
+  {
+    question: "Total parenteral nutrition (TPN) solutions containing hypertonic dextrose, amino acids, and micronutrients must be infused through:",
+    optionA: "A small superficial dorsal hand vein",
+    optionB: "A central venous catheter with the tip positioned in the superior vena cava",
+    optionC: "An enteral feeding tube",
+    optionD: "Intramuscular injection",
+    correctAnswer: "B",
+    explanation: "High osmolarity TPN (>900 mOsm/L) causes severe chemical phlebitis and thrombosis if infused peripherally; rapid dilution in the superior vena cava is mandatory.",
+  },
+  {
+    question: "The clinical hallmark that defines Nephrotic Syndrome in adults and children is:",
+    optionA: "Gross hematuria with red cell casts and normal protein",
+    optionB: "Heavy proteinuria (>3.5 g/24hr), marked hypoalbuminemia, severe generalized edema (anasarca), and hyperlipidemia",
+    optionC: "Isolated low serum creatinine",
+    optionD: "Polyuria with low specific gravity",
+    correctAnswer: "B",
+    explanation: "Glomerular podocyte effacement or immune damage causes heavy proteinuria, leading to low plasma oncotic pressure and massive third-space fluid retention.",
+  },
+  {
+    question: "Which low-cost, effective sewage disposal technology is specifically recommended by the WHO for rural communities lacking piped sewer networks?",
+    optionA: "Bucket latrine system",
+    optionB: "Ventilated Improved Pit (VIP) latrine",
+    optionC: "Open defecation fields",
+    optionD: "Direct river dumping",
+    correctAnswer: "B",
+    explanation: "VIP latrines eliminate fly breeding and odor through screened vertical vent pipes without requiring piped water supply.",
+  },
+  {
+    question: "In sociology and anthropology, the shared system of beliefs, values, customs, traditions, and behaviors learned by members of a society is defined as:",
+    optionA: "Socialization",
+    optionB: "Culture",
+    optionC: "Religion",
+    optionD: "Stratification",
+    correctAnswer: "B",
+    explanation: "Culture represents the integrated pattern of human knowledge, beliefs, and learned social behaviors transmitted across generations.",
+  },
+  {
+    question: "The characteristic difficulty in opening the mouth due to sustained spasm of the masseter muscles in tetanus is medically termed:",
+    optionA: "Trismus (lockjaw)",
+    optionB: "Opisthotonos",
+    optionC: "Dysphagia",
+    optionD: "Blepharospasm",
+    correctAnswer: "A",
+    explanation: "Trismus is painful sustained tonic contraction of the masticatory muscles, typically the earliest clinical manifestation of generalized tetanus.",
+  },
+  {
+    question: "The score or value that appears with the greatest frequency in a set of observations is the:",
+    optionA: "Mean",
+    optionB: "Mode",
+    optionC: "Median",
+    optionD: "Standard deviation",
+    correctAnswer: "B",
+    explanation: "The mode is the most frequently occurring value in a frequency distribution.",
+  },
+  {
+    question: "The clinical appearance of healthy, viable granulation tissue in a healing secondary-intention wound bed is:",
+    optionA: "Pale yellow, dry, and cool",
+    optionB: "Beefy red, moist, cobblestone-like, and highly vascular",
+    optionC: "Black, leathery, and necrotic",
+    optionD: "White and fibrous",
+    correctAnswer: "B",
+    explanation: "Healthy granulation tissue is composed of proliferating capillary loops and fibroblasts, presenting as vibrant beefy-red vascular tissue.",
+  },
+  {
+    question: "The foundational international code of medical research ethics established in 1947 requiring voluntary informed human consent is the:",
+    optionA: "Nightingale Pledge",
+    optionB: "Nuremberg Code",
+    optionC: "Declaration of Alma-Ata",
+    optionD: "Geneva Convention",
+    correctAnswer: "B",
+    explanation: "The Nuremberg Code articulated 10 core principles for human experimentation, emphasizing that voluntary informed consent is absolutely essential.",
+  },
   {
     question: "A patient receiving potassium chloride IV complains of burning. What should the nurse do?",
     optionA: "Assess the IV site and slow/stop as appropriate",
@@ -189,1316 +1349,6 @@ export const TYPE10_QUESTIONS: RawDocQuestion[] = [
     optionC: "Massage the vein",
     optionD: "Ignore the complaint",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 20 (Q20)
-  {
-    question: "Medication administration requires identification using",
-    optionA: "Two identifiers",
-    optionB: "Bed number only",
-    optionC: "Diagnosis only",
-    optionD: "Ward name",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 21 (Q21)
-  {
-    question: "A patient is allergic to penicillin. What should the nurse do before administering a cephalosporin?",
-    optionA: "Assess for cross-sensitivity and report if necessary",
-    optionB: "Give it routinely",
-    optionC: "Double the dose",
-    optionD: "Ignore the allergy",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 22 (Q22)
-  {
-    question: "A prescription reads 5 mL. The syringe available is 10 mL. What volume should be drawn up?",
-    optionA: "2.5 mL",
-    optionB: "5 mL",
-    optionC: "7.5 mL",
-    optionD: "10 mL",
-    correctAnswer: "B",
-    explanation: ""
-  },
-  // 23 (Q23)
-  {
-    question: "Which medication is considered a high-alert drug?",
-    optionA: "Insulin",
-    optionB: "Paracetamol",
-    optionC: "Vitamin C",
-    optionD: "Antacid",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 24 (Q24)
-  {
-    question: "A patient on heparin develops blood in urine. What is the priority action?",
-    optionA: "Stop infusion if prescribed protocol and report immediately",
-    optionB: "Encourage fluids only",
-    optionC: "Give vitamin C",
-    optionD: "Document later",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 25 (Q25)
-  {
-    question: "The nurse should check compatibility before administering",
-    optionA: "IV medications together",
-    optionB: "Oral tablets",
-    optionC: "Eye drops",
-    optionD: "Topical cream",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 26 (Q26)
-  {
-    question: "A patient with severe pain receives morphine. What is the most important assessment after administration?",
-    optionA: "Respiratory rate",
-    optionB: "Hair growth",
-    optionC: "Vision",
-    optionD: "Bowel sounds",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 27 (Q27)
-  {
-    question: "A drug ordered every 8 hours will be given",
-    optionA: "Three times daily",
-    optionB: "Twice daily",
-    optionC: "Four times daily",
-    optionD: "Once daily",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 28 (Q28)
-  {
-    question: "Which site is commonly used for intradermal injection?",
-    optionA: "Forearm",
-    optionB: "Gluteal muscle",
-    optionC: "Abdomen",
-    optionD: "Thigh",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 29 (Q29)
-  {
-    question: "A patient receiving potassium chloride IV complains of burning. What should the nurse do?",
-    optionA: "Assess the IV site and slow/stop as appropriate",
-    optionB: "Increase the rate",
-    optionC: "Massage the vein",
-    optionD: "Ignore the complaint",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 30 (Q30)
-  {
-    question: "Medication administration requires identification using",
-    optionA: "Two identifiers",
-    optionB: "Bed number only",
-    optionC: "Diagnosis only",
-    optionD: "Ward name",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 31 (Q31)
-  {
-    question: "A patient is allergic to penicillin. What should the nurse do before administering a cephalosporin?",
-    optionA: "Assess for cross-sensitivity and report if necessary",
-    optionB: "Give it routinely",
-    optionC: "Double the dose",
-    optionD: "Ignore the allergy",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 32 (Q32)
-  {
-    question: "A prescription reads 5 mL. The syringe available is 10 mL. What volume should be drawn up?",
-    optionA: "2.5 mL",
-    optionB: "5 mL",
-    optionC: "7.5 mL",
-    optionD: "10 mL",
-    correctAnswer: "B",
-    explanation: ""
-  },
-  // 33 (Q33)
-  {
-    question: "Which medication is considered a high-alert drug?",
-    optionA: "Insulin",
-    optionB: "Paracetamol",
-    optionC: "Vitamin C",
-    optionD: "Antacid",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 34 (Q34)
-  {
-    question: "A patient on heparin develops blood in urine. What is the priority action?",
-    optionA: "Stop infusion if prescribed protocol and report immediately",
-    optionB: "Encourage fluids only",
-    optionC: "Give vitamin C",
-    optionD: "Document later",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 35 (Q35)
-  {
-    question: "The nurse should check compatibility before administering",
-    optionA: "IV medications together",
-    optionB: "Oral tablets",
-    optionC: "Eye drops",
-    optionD: "Topical cream",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 36 (Q36)
-  {
-    question: "A patient with severe pain receives morphine. What is the most important assessment after administration?",
-    optionA: "Respiratory rate",
-    optionB: "Hair growth",
-    optionC: "Vision",
-    optionD: "Bowel sounds",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 37 (Q37)
-  {
-    question: "A drug ordered every 8 hours will be given",
-    optionA: "Three times daily",
-    optionB: "Twice daily",
-    optionC: "Four times daily",
-    optionD: "Once daily",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 38 (Q38)
-  {
-    question: "Which site is commonly used for intradermal injection?",
-    optionA: "Forearm",
-    optionB: "Gluteal muscle",
-    optionC: "Abdomen",
-    optionD: "Thigh",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 39 (Q39)
-  {
-    question: "A patient receiving potassium chloride IV complains of burning. What should the nurse do?",
-    optionA: "Assess the IV site and slow/stop as appropriate",
-    optionB: "Increase the rate",
-    optionC: "Massage the vein",
-    optionD: "Ignore the complaint",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 40 (Q40)
-  {
-    question: "Medication administration requires identification using",
-    optionA: "Two identifiers",
-    optionB: "Bed number only",
-    optionC: "Diagnosis only",
-    optionD: "Ward name",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 41 (Q41)
-  {
-    question: "A patient is allergic to penicillin. What should the nurse do before administering a cephalosporin?",
-    optionA: "Assess for cross-sensitivity and report if necessary",
-    optionB: "Give it routinely",
-    optionC: "Double the dose",
-    optionD: "Ignore the allergy",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 42 (Q42)
-  {
-    question: "A prescription reads 5 mL. The syringe available is 10 mL. What volume should be drawn up?",
-    optionA: "2.5 mL",
-    optionB: "5 mL",
-    optionC: "7.5 mL",
-    optionD: "10 mL",
-    correctAnswer: "B",
-    explanation: ""
-  },
-  // 43 (Q43)
-  {
-    question: "Which medication is considered a high-alert drug?",
-    optionA: "Insulin",
-    optionB: "Paracetamol",
-    optionC: "Vitamin C",
-    optionD: "Antacid",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 44 (Q44)
-  {
-    question: "A patient on heparin develops blood in urine. What is the priority action?",
-    optionA: "Stop infusion if prescribed protocol and report immediately",
-    optionB: "Encourage fluids only",
-    optionC: "Give vitamin C",
-    optionD: "Document later",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 45 (Q45)
-  {
-    question: "The nurse should check compatibility before administering",
-    optionA: "IV medications together",
-    optionB: "Oral tablets",
-    optionC: "Eye drops",
-    optionD: "Topical cream",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 46 (Q46)
-  {
-    question: "A patient with severe pain receives morphine. What is the most important assessment after administration?",
-    optionA: "Respiratory rate",
-    optionB: "Hair growth",
-    optionC: "Vision",
-    optionD: "Bowel sounds",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 47 (Q47)
-  {
-    question: "A drug ordered every 8 hours will be given",
-    optionA: "Three times daily",
-    optionB: "Twice daily",
-    optionC: "Four times daily",
-    optionD: "Once daily",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 48 (Q48)
-  {
-    question: "Which site is commonly used for intradermal injection?",
-    optionA: "Forearm",
-    optionB: "Gluteal muscle",
-    optionC: "Abdomen",
-    optionD: "Thigh",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 49 (Q49)
-  {
-    question: "A patient receiving potassium chloride IV complains of burning. What should the nurse do?",
-    optionA: "Assess the IV site and slow/stop as appropriate",
-    optionB: "Increase the rate",
-    optionC: "Massage the vein",
-    optionD: "Ignore the complaint",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 50 (Q50)
-  {
-    question: "Medication administration requires identification using",
-    optionA: "Two identifiers",
-    optionB: "Bed number only",
-    optionC: "Diagnosis only",
-    optionD: "Ward name",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 51 (Q51)
-  {
-    question: "A patient is allergic to penicillin. What should the nurse do before administering a cephalosporin?",
-    optionA: "Assess for cross-sensitivity and report if necessary",
-    optionB: "Give it routinely",
-    optionC: "Double the dose",
-    optionD: "Ignore the allergy",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 52 (Q52)
-  {
-    question: "A prescription reads 5 mL. The syringe available is 10 mL. What volume should be drawn up?",
-    optionA: "2.5 mL",
-    optionB: "5 mL",
-    optionC: "7.5 mL",
-    optionD: "10 mL",
-    correctAnswer: "B",
-    explanation: ""
-  },
-  // 53 (Q53)
-  {
-    question: "Which medication is considered a high-alert drug?",
-    optionA: "Insulin",
-    optionB: "Paracetamol",
-    optionC: "Vitamin C",
-    optionD: "Antacid",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 54 (Q54)
-  {
-    question: "A patient on heparin develops blood in urine. What is the priority action?",
-    optionA: "Stop infusion if prescribed protocol and report immediately",
-    optionB: "Encourage fluids only",
-    optionC: "Give vitamin C",
-    optionD: "Document later",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 55 (Q55)
-  {
-    question: "The nurse should check compatibility before administering",
-    optionA: "IV medications together",
-    optionB: "Oral tablets",
-    optionC: "Eye drops",
-    optionD: "Topical cream",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 56 (Q56)
-  {
-    question: "A patient with severe pain receives morphine. What is the most important assessment after administration?",
-    optionA: "Respiratory rate",
-    optionB: "Hair growth",
-    optionC: "Vision",
-    optionD: "Bowel sounds",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 57 (Q57)
-  {
-    question: "A drug ordered every 8 hours will be given",
-    optionA: "Three times daily",
-    optionB: "Twice daily",
-    optionC: "Four times daily",
-    optionD: "Once daily",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 58 (Q58)
-  {
-    question: "Which site is commonly used for intradermal injection?",
-    optionA: "Forearm",
-    optionB: "Gluteal muscle",
-    optionC: "Abdomen",
-    optionD: "Thigh",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 59 (Q59)
-  {
-    question: "A patient receiving potassium chloride IV complains of burning. What should the nurse do?",
-    optionA: "Assess the IV site and slow/stop as appropriate",
-    optionB: "Increase the rate",
-    optionC: "Massage the vein",
-    optionD: "Ignore the complaint",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 60 (Q60)
-  {
-    question: "Medication administration requires identification using",
-    optionA: "Two identifiers",
-    optionB: "Bed number only",
-    optionC: "Diagnosis only",
-    optionD: "Ward name",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 61 (Q61)
-  {
-    question: "A patient is allergic to penicillin. What should the nurse do before administering a cephalosporin?",
-    optionA: "Assess for cross-sensitivity and report if necessary",
-    optionB: "Give it routinely",
-    optionC: "Double the dose",
-    optionD: "Ignore the allergy",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 62 (Q62)
-  {
-    question: "A prescription reads 5 mL. The syringe available is 10 mL. What volume should be drawn up?",
-    optionA: "2.5 mL",
-    optionB: "5 mL",
-    optionC: "7.5 mL",
-    optionD: "10 mL",
-    correctAnswer: "B",
-    explanation: ""
-  },
-  // 63 (Q63)
-  {
-    question: "Which medication is considered a high-alert drug?",
-    optionA: "Insulin",
-    optionB: "Paracetamol",
-    optionC: "Vitamin C",
-    optionD: "Antacid",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 64 (Q64)
-  {
-    question: "A patient on heparin develops blood in urine. What is the priority action?",
-    optionA: "Stop infusion if prescribed protocol and report immediately",
-    optionB: "Encourage fluids only",
-    optionC: "Give vitamin C",
-    optionD: "Document later",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 65 (Q65)
-  {
-    question: "The nurse should check compatibility before administering",
-    optionA: "IV medications together",
-    optionB: "Oral tablets",
-    optionC: "Eye drops",
-    optionD: "Topical cream",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 66 (Q66)
-  {
-    question: "A patient with severe pain receives morphine. What is the most important assessment after administration?",
-    optionA: "Respiratory rate",
-    optionB: "Hair growth",
-    optionC: "Vision",
-    optionD: "Bowel sounds",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 67 (Q67)
-  {
-    question: "A drug ordered every 8 hours will be given",
-    optionA: "Three times daily",
-    optionB: "Twice daily",
-    optionC: "Four times daily",
-    optionD: "Once daily",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 68 (Q68)
-  {
-    question: "Which site is commonly used for intradermal injection?",
-    optionA: "Forearm",
-    optionB: "Gluteal muscle",
-    optionC: "Abdomen",
-    optionD: "Thigh",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 69 (Q69)
-  {
-    question: "A patient receiving potassium chloride IV complains of burning. What should the nurse do?",
-    optionA: "Assess the IV site and slow/stop as appropriate",
-    optionB: "Increase the rate",
-    optionC: "Massage the vein",
-    optionD: "Ignore the complaint",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 70 (Q70)
-  {
-    question: "Medication administration requires identification using",
-    optionA: "Two identifiers",
-    optionB: "Bed number only",
-    optionC: "Diagnosis only",
-    optionD: "Ward name",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 71 (Q71)
-  {
-    question: "A patient is allergic to penicillin. What should the nurse do before administering a cephalosporin?",
-    optionA: "Assess for cross-sensitivity and report if necessary",
-    optionB: "Give it routinely",
-    optionC: "Double the dose",
-    optionD: "Ignore the allergy",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 72 (Q72)
-  {
-    question: "A prescription reads 5 mL. The syringe available is 10 mL. What volume should be drawn up?",
-    optionA: "2.5 mL",
-    optionB: "5 mL",
-    optionC: "7.5 mL",
-    optionD: "10 mL",
-    correctAnswer: "B",
-    explanation: ""
-  },
-  // 73 (Q73)
-  {
-    question: "Which medication is considered a high-alert drug?",
-    optionA: "Insulin",
-    optionB: "Paracetamol",
-    optionC: "Vitamin C",
-    optionD: "Antacid",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 74 (Q74)
-  {
-    question: "A patient on heparin develops blood in urine. What is the priority action?",
-    optionA: "Stop infusion if prescribed protocol and report immediately",
-    optionB: "Encourage fluids only",
-    optionC: "Give vitamin C",
-    optionD: "Document later",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 75 (Q75)
-  {
-    question: "The nurse should check compatibility before administering",
-    optionA: "IV medications together",
-    optionB: "Oral tablets",
-    optionC: "Eye drops",
-    optionD: "Topical cream",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 76 (Q76)
-  {
-    question: "A patient with severe pain receives morphine. What is the most important assessment after administration?",
-    optionA: "Respiratory rate",
-    optionB: "Hair growth",
-    optionC: "Vision",
-    optionD: "Bowel sounds",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 77 (Q77)
-  {
-    question: "A drug ordered every 8 hours will be given",
-    optionA: "Three times daily",
-    optionB: "Twice daily",
-    optionC: "Four times daily",
-    optionD: "Once daily",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 78 (Q78)
-  {
-    question: "Which site is commonly used for intradermal injection?",
-    optionA: "Forearm",
-    optionB: "Gluteal muscle",
-    optionC: "Abdomen",
-    optionD: "Thigh",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 79 (Q79)
-  {
-    question: "A patient receiving potassium chloride IV complains of burning. What should the nurse do?",
-    optionA: "Assess the IV site and slow/stop as appropriate",
-    optionB: "Increase the rate",
-    optionC: "Massage the vein",
-    optionD: "Ignore the complaint",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 80 (Q80)
-  {
-    question: "Medication administration requires identification using",
-    optionA: "Two identifiers",
-    optionB: "Bed number only",
-    optionC: "Diagnosis only",
-    optionD: "Ward name",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 81 (Q81)
-  {
-    question: "A patient is allergic to penicillin. What should the nurse do before administering a cephalosporin?",
-    optionA: "Assess for cross-sensitivity and report if necessary",
-    optionB: "Give it routinely",
-    optionC: "Double the dose",
-    optionD: "Ignore the allergy",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 82 (Q82)
-  {
-    question: "A prescription reads 5 mL. The syringe available is 10 mL. What volume should be drawn up?",
-    optionA: "2.5 mL",
-    optionB: "5 mL",
-    optionC: "7.5 mL",
-    optionD: "10 mL",
-    correctAnswer: "B",
-    explanation: ""
-  },
-  // 83 (Q83)
-  {
-    question: "Which medication is considered a high-alert drug?",
-    optionA: "Insulin",
-    optionB: "Paracetamol",
-    optionC: "Vitamin C",
-    optionD: "Antacid",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 84 (Q84)
-  {
-    question: "A patient on heparin develops blood in urine. What is the priority action?",
-    optionA: "Stop infusion if prescribed protocol and report immediately",
-    optionB: "Encourage fluids only",
-    optionC: "Give vitamin C",
-    optionD: "Document later",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 85 (Q85)
-  {
-    question: "The nurse should check compatibility before administering",
-    optionA: "IV medications together",
-    optionB: "Oral tablets",
-    optionC: "Eye drops",
-    optionD: "Topical cream",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 86 (Q86)
-  {
-    question: "A patient with severe pain receives morphine. What is the most important assessment after administration?",
-    optionA: "Respiratory rate",
-    optionB: "Hair growth",
-    optionC: "Vision",
-    optionD: "Bowel sounds",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 87 (Q87)
-  {
-    question: "A drug ordered every 8 hours will be given",
-    optionA: "Three times daily",
-    optionB: "Twice daily",
-    optionC: "Four times daily",
-    optionD: "Once daily",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 88 (Q88)
-  {
-    question: "Which site is commonly used for intradermal injection?",
-    optionA: "Forearm",
-    optionB: "Gluteal muscle",
-    optionC: "Abdomen",
-    optionD: "Thigh",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 89 (Q89)
-  {
-    question: "A patient receiving potassium chloride IV complains of burning. What should the nurse do?",
-    optionA: "Assess the IV site and slow/stop as appropriate",
-    optionB: "Increase the rate",
-    optionC: "Massage the vein",
-    optionD: "Ignore the complaint",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 90 (Q90)
-  {
-    question: "Medication administration requires identification using",
-    optionA: "Two identifiers",
-    optionB: "Bed number only",
-    optionC: "Diagnosis only",
-    optionD: "Ward name",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 91 (Q91)
-  {
-    question: "A patient is allergic to penicillin. What should the nurse do before administering a cephalosporin?",
-    optionA: "Assess for cross-sensitivity and report if necessary",
-    optionB: "Give it routinely",
-    optionC: "Double the dose",
-    optionD: "Ignore the allergy",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 92 (Q92)
-  {
-    question: "A prescription reads 5 mL. The syringe available is 10 mL. What volume should be drawn up?",
-    optionA: "2.5 mL",
-    optionB: "5 mL",
-    optionC: "7.5 mL",
-    optionD: "10 mL",
-    correctAnswer: "B",
-    explanation: ""
-  },
-  // 93 (Q93)
-  {
-    question: "Which medication is considered a high-alert drug?",
-    optionA: "Insulin",
-    optionB: "Paracetamol",
-    optionC: "Vitamin C",
-    optionD: "Antacid",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 94 (Q94)
-  {
-    question: "A patient on heparin develops blood in urine. What is the priority action?",
-    optionA: "Stop infusion if prescribed protocol and report immediately",
-    optionB: "Encourage fluids only",
-    optionC: "Give vitamin C",
-    optionD: "Document later",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 95 (Q95)
-  {
-    question: "The nurse should check compatibility before administering",
-    optionA: "IV medications together",
-    optionB: "Oral tablets",
-    optionC: "Eye drops",
-    optionD: "Topical cream",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 96 (Q96)
-  {
-    question: "A patient with severe pain receives morphine. What is the most important assessment after administration?",
-    optionA: "Respiratory rate",
-    optionB: "Hair growth",
-    optionC: "Vision",
-    optionD: "Bowel sounds",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 97 (Q97)
-  {
-    question: "A drug ordered every 8 hours will be given",
-    optionA: "Three times daily",
-    optionB: "Twice daily",
-    optionC: "Four times daily",
-    optionD: "Once daily",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 98 (Q98)
-  {
-    question: "Which site is commonly used for intradermal injection?",
-    optionA: "Forearm",
-    optionB: "Gluteal muscle",
-    optionC: "Abdomen",
-    optionD: "Thigh",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 99 (Q99)
-  {
-    question: "A patient receiving potassium chloride IV complains of burning. What should the nurse do?",
-    optionA: "Assess the IV site and slow/stop as appropriate",
-    optionB: "Increase the rate",
-    optionC: "Massage the vein",
-    optionD: "Ignore the complaint",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 100 (Q100)
-  {
-    question: "Medication administration requires identification using",
-    optionA: "Two identifiers",
-    optionB: "Bed number only",
-    optionC: "Diagnosis only",
-    optionD: "Ward name",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 101 (Infection Control & Community Health - Q1)
-  {
-    question: "What is the most effective method of preventing hospital-acquired infection?",
-    optionA: "Hand hygiene",
-    optionB: "Antibiotics",
-    optionC: "Isolation only",
-    optionD: "Vaccination",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 102 (Infection Control & Community Health - Q2)
-  {
-    question: "A nurse is about to perform a sterile procedure. What is the first step?",
-    optionA: "Perform hand hygiene",
-    optionB: "Wear gloves immediately",
-    optionC: "Open the pack first",
-    optionD: "Clean the bed",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 103 (Infection Control & Community Health - Q3)
-  {
-    question: "A used needle should be discarded in a",
-    optionA: "Safety box",
-    optionB: "Linen bag",
-    optionC: "Paper bag",
-    optionD: "Waste basket",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 104 (Infection Control & Community Health - Q4)
-  {
-    question: "A patient with pulmonary tuberculosis should be placed on",
-    optionA: "Airborne precautions",
-    optionB: "Contact precautions",
-    optionC: "Droplet precautions",
-    optionD: "Standard precautions only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 105 (Infection Control & Community Health - Q5)
-  {
-    question: "Which waste is disposed of in a safety box?",
-    optionA: "Sharps",
-    optionB: "Food remains",
-    optionC: "Paper",
-    optionD: "Linen",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 106 (Infection Control & Community Health - Q6)
-  {
-    question: "The purpose of sterilization is to destroy",
-    optionA: "All microorganisms including spores",
-    optionB: "Bacteria only",
-    optionC: "Viruses only",
-    optionD: "Fungi only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 107 (Infection Control & Community Health - Q7)
-  {
-    question: "A nurse who touches blood with bare hands should",
-    optionA: "Wash immediately and follow exposure protocol",
-    optionB: "Continue working",
-    optionC: "Apply powder",
-    optionD: "Ignore it",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 108 (Infection Control & Community Health - Q8)
-  {
-    question: "The most important measure in preventing cross infection is",
-    optionA: "Hand washing",
-    optionB: "Mask only",
-    optionC: "Gloves only",
-    optionD: "Gown only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 109 (Infection Control & Community Health - Q9)
-  {
-    question: "A patient with suspected COVID-19 requires",
-    optionA: "Appropriate respiratory precautions",
-    optionB: "No precautions",
-    optionC: "Only gloves",
-    optionD: "Only apron",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 110 (Infection Control & Community Health - Q10)
-  {
-    question: "Which vaccine is given at birth in Nigeria?",
-    optionA: "BCG",
-    optionB: "Measles",
-    optionC: "Yellow fever",
-    optionD: "Tetanus",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 111 (Infection Control & Community Health - Q11)
-  {
-    question: "A child with diarrhea should continue to receive",
-    optionA: "Fluids and feeding",
-    optionB: "No food for 24 hours",
-    optionC: "Only water",
-    optionD: "Only juice",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 112 (Infection Control & Community Health - Q12)
-  {
-    question: "ORS is used mainly to prevent",
-    optionA: "Dehydration",
-    optionB: "Fever",
-    optionC: "Cough",
-    optionD: "Rash",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 113 (Infection Control & Community Health - Q13)
-  {
-    question: "A community nurse visiting a home should first assess",
-    optionA: "Safety and health needs",
-    optionB: "Furniture",
-    optionC: "Television",
-    optionD: "Clothing",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 114 (Infection Control & Community Health - Q14)
-  {
-    question: "The most effective way to control malaria is",
-    optionA: "Vector control and prevention of mosquito bites",
-    optionB: "Antibiotics",
-    optionC: "Steroids",
-    optionD: "Isolation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 115 (Infection Control & Community Health - Q15)
-  {
-    question: "Which disease is spread by contaminated water?",
-    optionA: "Cholera",
-    optionB: "Asthma",
-    optionC: "Diabetes",
-    optionD: "Hypertension",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 116 (Infection Control & Community Health - Q16)
-  {
-    question: "Exclusive breastfeeding is recommended for",
-    optionA: "6 months",
-    optionB: "3 months",
-    optionC: "9 months",
-    optionD: "12 months",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 117 (Infection Control & Community Health - Q17)
-  {
-    question: "A mother should wash hands before",
-    optionA: "Feeding the baby",
-    optionB: "Sleeping",
-    optionC: "Bathing herself only",
-    optionD: "Going outside",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 118 (Infection Control & Community Health - Q18)
-  {
-    question: "Immunization protects children by",
-    optionA: "Developing immunity",
-    optionB: "Increasing appetite",
-    optionC: "Improving sleep",
-    optionD: "Reducing weight",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 119 (Infection Control & Community Health - Q19)
-  {
-    question: "The first step in health education is to",
-    optionA: "Assess learning needs",
-    optionB: "Give lecture",
-    optionC: "Distribute drugs",
-    optionD: "Take attendance",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 120 (Infection Control & Community Health - Q20)
-  {
-    question: "A nurse should report a notifiable disease to",
-    optionA: "Appropriate public health authority",
-    optionB: "Neighbors",
-    optionC: "Media",
-    optionD: "School only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 121 (Infection Control & Community Health - Q21)
-  {
-    question: "A child with diarrhea should continue to receive",
-    optionA: "Fluids and feeding",
-    optionB: "No food for 24 hours",
-    optionC: "Only water",
-    optionD: "Only juice",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 122 (Infection Control & Community Health - Q22)
-  {
-    question: "ORS is used mainly to prevent",
-    optionA: "Dehydration",
-    optionB: "Fever",
-    optionC: "Cough",
-    optionD: "Rash",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 123 (Infection Control & Community Health - Q23)
-  {
-    question: "A community nurse visiting a home should first assess",
-    optionA: "Safety and health needs",
-    optionB: "Furniture",
-    optionC: "Television",
-    optionD: "Clothing",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 124 (Infection Control & Community Health - Q24)
-  {
-    question: "The most effective way to control malaria is",
-    optionA: "Vector control and prevention of mosquito bites",
-    optionB: "Antibiotics",
-    optionC: "Steroids",
-    optionD: "Isolation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 125 (Infection Control & Community Health - Q25)
-  {
-    question: "Which disease is spread by contaminated water?",
-    optionA: "Cholera",
-    optionB: "Asthma",
-    optionC: "Diabetes",
-    optionD: "Hypertension",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 126 (Infection Control & Community Health - Q26)
-  {
-    question: "Exclusive breastfeeding is recommended for",
-    optionA: "6 months",
-    optionB: "3 months",
-    optionC: "9 months",
-    optionD: "12 months",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 127 (Infection Control & Community Health - Q27)
-  {
-    question: "A mother should wash hands before",
-    optionA: "Feeding the baby",
-    optionB: "Sleeping",
-    optionC: "Bathing herself only",
-    optionD: "Going outside",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 128 (Infection Control & Community Health - Q28)
-  {
-    question: "Immunization protects children by",
-    optionA: "Developing immunity",
-    optionB: "Increasing appetite",
-    optionC: "Improving sleep",
-    optionD: "Reducing weight",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 129 (Infection Control & Community Health - Q29)
-  {
-    question: "The first step in health education is to",
-    optionA: "Assess learning needs",
-    optionB: "Give lecture",
-    optionC: "Distribute drugs",
-    optionD: "Take attendance",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 130 (Infection Control & Community Health - Q30)
-  {
-    question: "A nurse should report a notifiable disease to",
-    optionA: "Appropriate public health authority",
-    optionB: "Neighbors",
-    optionC: "Media",
-    optionD: "School only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 131 (Infection Control & Community Health - Q31)
-  {
-    question: "A child with diarrhea should continue to receive",
-    optionA: "Fluids and feeding",
-    optionB: "No food for 24 hours",
-    optionC: "Only water",
-    optionD: "Only juice",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 132 (Infection Control & Community Health - Q32)
-  {
-    question: "ORS is used mainly to prevent",
-    optionA: "Dehydration",
-    optionB: "Fever",
-    optionC: "Cough",
-    optionD: "Rash",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 133 (Infection Control & Community Health - Q33)
-  {
-    question: "A community nurse visiting a home should first assess",
-    optionA: "Safety and health needs",
-    optionB: "Furniture",
-    optionC: "Television",
-    optionD: "Clothing",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 134 (Infection Control & Community Health - Q34)
-  {
-    question: "The most effective way to control malaria is",
-    optionA: "Vector control and prevention of mosquito bites",
-    optionB: "Antibiotics",
-    optionC: "Steroids",
-    optionD: "Isolation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 135 (Infection Control & Community Health - Q35)
-  {
-    question: "Which disease is spread by contaminated water?",
-    optionA: "Cholera",
-    optionB: "Asthma",
-    optionC: "Diabetes",
-    optionD: "Hypertension",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 136 (Infection Control & Community Health - Q36)
-  {
-    question: "Exclusive breastfeeding is recommended for",
-    optionA: "6 months",
-    optionB: "3 months",
-    optionC: "9 months",
-    optionD: "12 months",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 137 (Infection Control & Community Health - Q37)
-  {
-    question: "A mother should wash hands before",
-    optionA: "Feeding the baby",
-    optionB: "Sleeping",
-    optionC: "Bathing herself only",
-    optionD: "Going outside",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 138 (Infection Control & Community Health - Q38)
-  {
-    question: "Immunization protects children by",
-    optionA: "Developing immunity",
-    optionB: "Increasing appetite",
-    optionC: "Improving sleep",
-    optionD: "Reducing weight",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 139 (Infection Control & Community Health - Q39)
-  {
-    question: "The first step in health education is to",
-    optionA: "Assess learning needs",
-    optionB: "Give lecture",
-    optionC: "Distribute drugs",
-    optionD: "Take attendance",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 140 (Infection Control & Community Health - Q40)
-  {
-    question: "A nurse should report a notifiable disease to",
-    optionA: "Appropriate public health authority",
-    optionB: "Neighbors",
-    optionC: "Media",
-    optionD: "School only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 141 (Infection Control & Community Health - Q41)
-  {
-    question: "A child with diarrhea should continue to receive",
-    optionA: "Fluids and feeding",
-    optionB: "No food for 24 hours",
-    optionC: "Only water",
-    optionD: "Only juice",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 142 (Infection Control & Community Health - Q42)
-  {
-    question: "ORS is used mainly to prevent",
-    optionA: "Dehydration",
-    optionB: "Fever",
-    optionC: "Cough",
-    optionD: "Rash",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 143 (Infection Control & Community Health - Q43)
-  {
-    question: "A community nurse visiting a home should first assess",
-    optionA: "Safety and health needs",
-    optionB: "Furniture",
-    optionC: "Television",
-    optionD: "Clothing",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 144 (Infection Control & Community Health - Q44)
-  {
-    question: "The most effective way to control malaria is",
-    optionA: "Vector control and prevention of mosquito bites",
-    optionB: "Antibiotics",
-    optionC: "Steroids",
-    optionD: "Isolation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 145 (Infection Control & Community Health - Q45)
-  {
-    question: "Which disease is spread by contaminated water?",
-    optionA: "Cholera",
-    optionB: "Asthma",
-    optionC: "Diabetes",
-    optionD: "Hypertension",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 146 (Infection Control & Community Health - Q46)
-  {
-    question: "Exclusive breastfeeding is recommended for",
-    optionA: "6 months",
-    optionB: "3 months",
-    optionC: "9 months",
-    optionD: "12 months",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 147 (Infection Control & Community Health - Q47)
-  {
-    question: "A mother should wash hands before",
-    optionA: "Feeding the baby",
-    optionB: "Sleeping",
-    optionC: "Bathing herself only",
-    optionD: "Going outside",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 148 (Infection Control & Community Health - Q48)
-  {
-    question: "Immunization protects children by",
-    optionA: "Developing immunity",
-    optionB: "Increasing appetite",
-    optionC: "Improving sleep",
-    optionD: "Reducing weight",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 149 (Infection Control & Community Health - Q49)
-  {
-    question: "The first step in health education is to",
-    optionA: "Assess learning needs",
-    optionB: "Give lecture",
-    optionC: "Distribute drugs",
-    optionD: "Take attendance",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 150 (Infection Control & Community Health - Q50)
-  {
-    question: "A nurse should report a notifiable disease to",
-    optionA: "Appropriate public health authority",
-    optionB: "Neighbors",
-    optionC: "Media",
-    optionD: "School only",
-    correctAnswer: "A",
-    explanation: ""
-  }
 ];

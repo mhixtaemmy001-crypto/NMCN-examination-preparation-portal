@@ -1,0 +1,272 @@
+[
+  {
+    "question": "Antibodies acquired by a newborn infant from the mother via transplacental transfer and colostrum are classified as:",
+    "optionA": "Active artificial immunity",
+    "optionB": "Passive natural immunity",
+    "optionC": "Active natural immunity",
+    "optionD": "Passive artificial immunity",
+    "correctAnswer": "B",
+    "explanation": "Passive natural immunity involves preformed maternal antibodies (IgG and IgA) passed to the offspring without the infant's own immune system generating them."
+  },
+  {
+    "question": "In normal cardiac blood flow, which sequential order of heart valves does a drop of blood pass through starting from the right atrium?",
+    "optionA": "Aortic, mitral, pulmonary, tricuspid",
+    "optionB": "Tricuspid valve, Pulmonary valve, Mitral (bicuspid) valve, Aortic valve",
+    "optionC": "Mitral, pulmonary, tricuspid, aortic",
+    "optionD": "Pulmonary, tricuspid, aortic, mitral",
+    "correctAnswer": "B",
+    "explanation": "Blood flows through the tricuspid valve into the right ventricle, through the pulmonary valve to lungs, returns through mitral valve to left ventricle, and leaves through aortic valve."
+  },
+  {
+    "question": "Under the Nigerian National Health Policy, which tier of government is primarily responsible for the overall formulation of national health policies and standards?",
+    "optionA": "Ward Development Committee",
+    "optionB": "Federal Government (Federal Ministry of Health)",
+    "optionC": "Local Government Health Authority",
+    "optionD": "Community Town Union",
+    "correctAnswer": "B",
+    "explanation": "The Federal Ministry of Health formulates national health policies, oversees tertiary institutions, and coordinates international health partnerships."
+  },
+  {
+    "question": "Which low-cost, effective sewage disposal technology is specifically recommended by the WHO for rural communities lacking piped sewer networks?",
+    "optionA": "Bucket latrine system",
+    "optionB": "Ventilated Improved Pit (VIP) latrine",
+    "optionC": "Open defecation fields",
+    "optionD": "Direct river dumping",
+    "correctAnswer": "B",
+    "explanation": "VIP latrines eliminate fly breeding and odor through screened vertical vent pipes without requiring piped water supply."
+  },
+  {
+    "question": "Which pharmacological class of medication is the first-line drug therapy prescribed for urge urinary incontinence and overactive bladder?",
+    "optionA": "Anticholinergic / Antimuscarinic agents (such as Oxybutynin or Tolterodine)",
+    "optionB": "Alpha-1 adrenergic agonists",
+    "optionC": "Loop diuretics",
+    "optionD": "Cholinesterase inhibitors",
+    "correctAnswer": "A",
+    "explanation": "Anticholinergic drugs competitively block muscarinic M3 receptors in the bladder, suppressing uninhibited detrusor muscle contractions."
+  },
+  {
+    "question": "The primary causative bacterial agent of human Tuberculosis is:",
+    "optionA": "Mycobacterium leprae",
+    "optionB": "Mycobacterium tuberculosis (acid-fast bacillus)",
+    "optionC": "Corynebacterium diphtheriae",
+    "optionD": "Neisseria meningitidis",
+    "correctAnswer": "B",
+    "explanation": "Mycobacterium tuberculosis has a lipid-rich mycolic acid cell wall that resists destaining by acid-alcohol, appearing as acid-fast rods on Ziehl-Neelsen staining."
+  },
+  {
+    "question": "Which statement regarding Chickenpox (Varicella) skin lesions is clinically true?",
+    "optionA": "The dried crusts (scabs) remain highly infectious for 3 months",
+    "optionB": "Once all lesions have completely formed dry crusts or scabs, the client is no longer contagious",
+    "optionC": "It is transmitted exclusively by vector ticks",
+    "optionD": "Vesicles never appear on the trunk",
+    "correctAnswer": "B",
+    "explanation": "Varicella transmission occurs through respiratory droplets and fluid from active uncrusted vesicles; fully crusted scabs contain no viable virus."
+  },
+  {
+    "question": "The solid waste management strategy where discarded materials (such as glass, aluminum cans, and plastics) are reprocessed into new products is:",
+    "optionA": "Controlled tipping",
+    "optionB": "Material recycling",
+    "optionC": "Incineration",
+    "optionD": "Open dumping",
+    "correctAnswer": "B",
+    "explanation": "Recycling reprocesses waste materials into raw secondary feedstocks, conserving energy and reducing municipal landfill volume."
+  },
+  {
+    "question": "In sociology and anthropology, the shared system of beliefs, values, customs, traditions, and behaviors learned by members of a society is defined as:",
+    "optionA": "Socialization",
+    "optionB": "Culture",
+    "optionC": "Religion",
+    "optionD": "Stratification",
+    "correctAnswer": "B",
+    "explanation": "Culture represents the integrated pattern of human knowledge, beliefs, and learned social behaviors transmitted across generations."
+  },
+  {
+    "question": "Syphilis is a systemic sexually transmitted infection caused by Treponema pallidum that progresses through primary, secondary, and:",
+    "optionA": "Eruptive and convalescent stages",
+    "optionB": "Latent and Tertiary (neurosyphilis / cardiovascular gummatous) stages",
+    "optionC": "Prodromal and resolution stages",
+    "optionD": "Exclusively acute stages",
+    "correctAnswer": "B",
+    "explanation": "Untreated syphilis progresses from primary chancre to secondary bacteremic rash, followed by an asymptomatic latent period and destructive tertiary neuro/cardiovascular disease."
+  },
+  {
+    "question": "Under the Nigerian National Expanded Program on Immunization (EPI), which three vaccines should a newborn receive at birth?",
+    "optionA": "Pentavalent, Measles, and Yellow fever",
+    "optionB": "BCG, Oral Polio Vaccine zero dose (OPV-0), and Hepatitis B birth dose (HBV-0)",
+    "optionC": "DPT, Tetanus toxoid, and IPV",
+    "optionD": "Pneumococcal and Rotavirus only",
+    "correctAnswer": "B",
+    "explanation": "Nigeria's national immunization schedule mandates BCG, OPV-0, and Hepatitis B birth dose within the first 24 to 48 hours of life."
+  },
+  {
+    "question": "Community diagnosis in public health nursing practice is the systematic process of identifying:",
+    "optionA": "Only private hospital profits",
+    "optionB": "The felt needs, health indicators, epidemiological problems, and resources of a defined community population",
+    "optionC": "Individual psychiatric diagnoses",
+    "optionD": "Doctor prescription preferences",
+    "correctAnswer": "B",
+    "explanation": "Community diagnosis assesses the community's health status, disease burdens, environmental determinants, and available community health resources."
+  },
+  {
+    "question": "Pertussis (Whooping cough) is an acute respiratory infection caused by the bacterium:",
+    "optionA": "Parvovirus B19",
+    "optionB": "Bordetella pertussis (Gram-negative coccobacillus)",
+    "optionC": "Varicella zoster",
+    "optionD": "Herpes simplex",
+    "correctAnswer": "B",
+    "explanation": "Bordetella pertussis colonizes respiratory cilia, producing pertussis toxin that induces severe paroxysmal coughing spasms with high-pitched whooping inspiration."
+  },
+  {
+    "question": "The characteristic difficulty in opening the mouth due to sustained spasm of the masseter muscles in tetanus is medically termed:",
+    "optionA": "Trismus (lockjaw)",
+    "optionB": "Opisthotonos",
+    "optionC": "Dysphagia",
+    "optionD": "Blepharospasm",
+    "correctAnswer": "A",
+    "explanation": "Trismus is painful sustained tonic contraction of the masticatory muscles, typically the earliest clinical manifestation of generalized tetanus."
+  },
+  {
+    "question": "The primary causative protozoan parasite responsible for Amoebic Dysentery (amoebiasis) is:",
+    "optionA": "Giardia lamblia",
+    "optionB": "Entamoeba histolytica",
+    "optionC": "Trichomonas vaginalis",
+    "optionD": "Balantidium coli",
+    "correctAnswer": "B",
+    "explanation": "Entamoeba histolytica invades the colonic mucosa, creating characteristic flask-shaped ulcers and producing bloody mucoid diarrheal stools."
+  },
+  {
+    "question": "The full meaning of the vaccine acronym BCG is:",
+    "optionA": "Bacillus Calmette-Gu\u00e9rin",
+    "optionB": "Bacterial Coli Globulin",
+    "optionC": "Bacillus Central Genus",
+    "optionD": "Blood Cell Growth",
+    "correctAnswer": "A",
+    "explanation": "BCG is an attenuated live strain of Mycobacterium bovis developed by Albert Calmette and Camille Gu\u00e9rin in 1921 to protect against severe tuberculosis."
+  },
+  {
+    "question": "In clinical research, a sampling technique where the population is divided into homogenous subgroups (strata) and random samples are drawn from each stratum is:",
+    "optionA": "Convenience sampling",
+    "optionB": "Stratified random sampling",
+    "optionC": "Snowball sampling",
+    "optionD": "Quota sampling",
+    "correctAnswer": "B",
+    "explanation": "Stratified random sampling ensures proportional representation of distinct subpopulations (e.g., age, gender, geographic wards) within the overall sample."
+  },
+  {
+    "question": "The measure of central tendency calculated by summing all individual numerical scores and dividing by the total number of scores is the:",
+    "optionA": "Median",
+    "optionB": "Arithmetic Mean",
+    "optionC": "Mode",
+    "optionD": "Variance",
+    "correctAnswer": "B",
+    "explanation": "The mean is the arithmetic average of a dataset, sensitive to every score in the distribution."
+  },
+  {
+    "question": "The score or value that appears with the greatest frequency in a set of observations is the:",
+    "optionA": "Mean",
+    "optionB": "Mode",
+    "optionC": "Median",
+    "optionD": "Standard deviation",
+    "correctAnswer": "B",
+    "explanation": "The mode is the most frequently occurring value in a frequency distribution."
+  },
+  {
+    "question": "In epidemiological research, 'Validity' of a study instrument refers to the extent to which the tool:",
+    "optionA": "Produces identical scores repeatedly",
+    "optionB": "Accurately measures the specific concept, attribute, or phenomenon it was intended to measure",
+    "optionC": "Is short and easy to complete",
+    "optionD": "Is translated into multiple languages",
+    "correctAnswer": "B",
+    "explanation": "Validity assesses truthfulness and accuracy (content, construct, and criterion validity) of a measurement tool."
+  },
+  {
+    "question": "The normal physiological volume of amniotic fluid at term gestation (36 to 40 weeks) is approximately:",
+    "optionA": "100 to 200 mL",
+    "optionB": "800 to 1,000 mL",
+    "optionC": "3,000 to 4,000 mL",
+    "optionD": "50 mL",
+    "correctAnswer": "B",
+    "explanation": "Normal term amniotic fluid volume averages 800 to 1,000 mL; volumes <500 mL define oligohydramnios, and >2,000 mL define polyhydramnios."
+  },
+  {
+    "question": "Which obstetric maneuver is the first-line intervention to resolve acute fetal shoulder dystocia by hyperflexing maternal thighs against the abdomen?",
+    "optionA": "Zavanelli maneuver",
+    "optionB": "McRoberts maneuver with suprapubic pressure",
+    "optionC": "Cred\u00e9 maneuver",
+    "optionD": "Leopold maneuver",
+    "correctAnswer": "B",
+    "explanation": "McRoberts maneuver flattens the maternal sacral promontory and cephalad-rotates the pubic symphysis, releasing the impacted anterior shoulder."
+  },
+  {
+    "question": "In evaluating a non-stress test (NST), a reactive (reassuring) fetal heart rate tracing in a gestation beyond 32 weeks requires:",
+    "optionA": "At least 2 accelerations of at least 15 beats/min above baseline lasting at least 15 seconds within a 20-minute window",
+    "optionB": "Continuous deceleration without variability",
+    "optionC": "A heart rate of exactly 80 bpm",
+    "optionD": "Absence of all fetal movement",
+    "correctAnswer": "A",
+    "explanation": "The 15x15 criteria (two 15-bpm accelerations lasting 15 seconds in 20 minutes) confirm intact fetal autonomic neurological and myocardial oxygenation."
+  },
+  {
+    "question": "The clinical appearance of healthy, viable granulation tissue in a healing secondary-intention wound bed is:",
+    "optionA": "Pale yellow, dry, and cool",
+    "optionB": "Beefy red, moist, cobblestone-like, and highly vascular",
+    "optionC": "Black, leathery, and necrotic",
+    "optionD": "White and fibrous",
+    "correctAnswer": "B",
+    "explanation": "Healthy granulation tissue is composed of proliferating capillary loops and fibroblasts, presenting as vibrant beefy-red vascular tissue."
+  },
+  {
+    "question": "Cranial Nerve XI (Accessory nerve) is clinically assessed during neurological examination by testing the strength of the:",
+    "optionA": "Facial mimetic muscles",
+    "optionB": "Trapezius muscle (shrugging shoulders against resistance) and sternocleidomastoid muscle (turning head against resistance)",
+    "optionC": "Tongue protrusion",
+    "optionD": "Masseter and temporalis chewing muscles",
+    "correctAnswer": "B",
+    "explanation": "CN XI innervates the sternocleidomastoid and trapezius muscles; weakness or atrophy impairs shoulder shrug and contralateral head rotation."
+  },
+  {
+    "question": "Which physical assessment sign for deep venous thrombosis (DVT) is elicited when forced passive dorsiflexion of the foot provokes calf pain?",
+    "optionA": "Kernig's sign",
+    "optionB": "Homans' sign",
+    "optionC": "Brudzinski's sign",
+    "optionD": "Trousseau's sign",
+    "correctAnswer": "B",
+    "explanation": "Homans' sign involves calf discomfort upon ankle dorsiflexion, though clinical diagnosis requires definitive compression duplex ultrasound."
+  },
+  {
+    "question": "The pharmacokinetic parameter defined as the time required for the circulating plasma concentration of a drug to decrease by half is the:",
+    "optionA": "Clearance rate",
+    "optionB": "Elimination half-life (t1/2)",
+    "optionC": "Bioavailability fraction",
+    "optionD": "Volume of distribution",
+    "correctAnswer": "B",
+    "explanation": "Half-life determines the dosing interval and the time required to achieve steady-state plasma concentrations (approx. 4 to 5 half-lives)."
+  },
+  {
+    "question": "Administration of Hepatitis B Immune Globulin (HBIG) or Tetanus Antitoxin to an exposed individual confers which class of immunity?",
+    "optionA": "Active artificial immunity",
+    "optionB": "Passive artificial immunity",
+    "optionC": "Active natural immunity",
+    "optionD": "Passive natural immunity",
+    "correctAnswer": "B",
+    "explanation": "Passive artificial immunity provides immediate, transient protection through exogenous injection of preformed pooled human or animal antibodies."
+  },
+  {
+    "question": "The foundational international code of medical research ethics established in 1947 requiring voluntary informed human consent is the:",
+    "optionA": "Nightingale Pledge",
+    "optionB": "Nuremberg Code",
+    "optionC": "Declaration of Alma-Ata",
+    "optionD": "Geneva Convention",
+    "correctAnswer": "B",
+    "explanation": "The Nuremberg Code articulated 10 core principles for human experimentation, emphasizing that voluntary informed consent is absolutely essential."
+  },
+  {
+    "question": "Normal resting 24-hour urinary output in a well-hydrated, healthy adult typically averages approximately:",
+    "optionA": "200 to 300 mL",
+    "optionB": "1,000 to 1,500 mL (approx. 0.5 to 1 mL/kg/hr)",
+    "optionC": "5,000 to 6,000 mL",
+    "optionD": "50 to 100 mL",
+    "correctAnswer": "B",
+    "explanation": "Adult urinary output of 1,000 to 1,500 mL/day reflects normal renal clearance of 600 mOsm of daily metabolic solute wastes."
+  }
+]

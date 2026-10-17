@@ -1,0 +1,407 @@
+[
+  {
+    "question": "In a pregnant client at 32 weeks gestation, which symptom requires immediate clinical evaluation as a potential warning sign of severe pre-eclampsia?",
+    "optionA": "Occasional mild pedal swelling at the end of the day",
+    "optionB": "Persistent frontal headache, visual scotoma, and right upper quadrant epigastric pain",
+    "optionC": "Increased urinary frequency without dysuria",
+    "optionD": "Braxton Hicks painless uterine contractions",
+    "correctAnswer": "B",
+    "explanation": "Severe headache, visual disturbances, and epigastric pain indicate cerebral edema, retinal vasospasm, and hepatic capsular distention in severe pre-eclampsia."
+  },
+  {
+    "question": "Which diagnostic procedure provides definitive assessment of amniotic fluid volume and fetal well-being in high-risk pregnancies?",
+    "optionA": "Serial maternal serum alpha-fetoprotein",
+    "optionB": "Biophysical profile (BPP) combining ultrasound and non-stress testing",
+    "optionC": "Urine protein dipstick",
+    "optionD": "Daily fetal movement kick count alone",
+    "correctAnswer": "B",
+    "explanation": "A biophysical profile evaluates five parameters: fetal breathing, tone, gross movement, amniotic fluid volume, and reactive heart rate tracing."
+  },
+  {
+    "question": "A multiparous woman in active labor has sudden intense abdominal pain followed by abrupt cessation of uterine contractions and fetal bradycardia. The nurse suspects:",
+    "optionA": "Uterine rupture",
+    "optionB": "Normal transitional phase",
+    "optionC": "Precipitous labor",
+    "optionD": "Early cervical dilation",
+    "correctAnswer": "A",
+    "explanation": "Sudden sharp tearing abdominal pain with cessation of contractions and loss of fetal station is diagnostic of uterine rupture, a catastrophic obstetric emergency."
+  },
+  {
+    "question": "What is the primary action of misoprostol (Cytotec) when used in obstetrics?",
+    "optionA": "Suppression of lactation",
+    "optionB": "Cervical ripening and stimulation of uterine myometrial contractions",
+    "optionC": "Tocolysis to arrest preterm contractions",
+    "optionD": "Prevention of neonatal hypoglycemia",
+    "correctAnswer": "B",
+    "explanation": "Misoprostol is a synthetic prostaglandin E1 analog that softens and effaces the cervix while initiating vigorous uterine contractions."
+  },
+  {
+    "question": "Which classification applies to a pregnant woman who has been pregnant 4 times, delivered 2 term infants, 1 preterm infant, and had 1 miscarriage?",
+    "optionA": "Gravida 4, Para 3",
+    "optionB": "Gravida 3, Para 4",
+    "optionC": "Gravida 4, Para 2",
+    "optionD": "Gravida 3, Para 2",
+    "correctAnswer": "A",
+    "explanation": "Gravida is total number of pregnancies (4); Para is pregnancies reaching viability beyond 20 weeks (2 term + 1 preterm = 3)."
+  },
+  {
+    "question": "Which hormone is synthesized by the syncytiotrophoblast and serves as the biochemical marker detected in qualitative urine pregnancy tests?",
+    "optionA": "Human placental lactogen (hPL)",
+    "optionB": "Human Chorionic Gonadotropin (hCG)",
+    "optionC": "Progesterone",
+    "optionD": "Estriol",
+    "correctAnswer": "B",
+    "explanation": "hCG is secreted by syncytiotrophoblasts shortly after blastocyst implantation, maintaining the corpus luteum in early pregnancy."
+  },
+  {
+    "question": "During normal labor, crowning occurs when:",
+    "optionA": "The cervix reaches 8 cm dilation",
+    "optionB": "The widest biparietal diameter of the fetal head distends the vulval introitus and remains visible between contractions",
+    "optionC": "The amniotic membranes rupture spontaneously",
+    "optionD": "The placenta detaches from the uterine wall",
+    "correctAnswer": "B",
+    "explanation": "Crowning occurs in the second stage when the fetal scalp encircles the vaginal orifice without receding during uterine relaxation."
+  },
+  {
+    "question": "Which maternal condition is a mandatory indication for scheduled Cesarean section rather than trial of labor?",
+    "optionA": "Gestational diabetes well-controlled on diet",
+    "optionB": "Complete placenta previa covering the internal cervical os",
+    "optionC": "Mild chronic hypertension",
+    "optionD": "History of one prior uncomplicated low transverse cesarean section",
+    "correctAnswer": "B",
+    "explanation": "Complete placenta previa obstructs the birth canal; vaginal delivery causes massive, life-threatening maternal hemorrhage."
+  },
+  {
+    "question": "What is the normal expected physiological involution rate of the postpartum uterine fundus following delivery?",
+    "optionA": "Descends approximately 1 fingerbreadth (1 to 2 cm) per 24 hours into the true pelvis",
+    "optionB": "Remains at the umbilicus for 3 weeks",
+    "optionC": "Rises 2 cm daily above the umbilicus",
+    "optionD": "Disappears into the pelvis within 12 hours",
+    "correctAnswer": "A",
+    "explanation": "The postpartum fundus decreases by approximately 1 cm (one fingerbreadth) each day, becoming non-palpable abdominally by day 10 to 14."
+  },
+  {
+    "question": "Which type of lochia is normally observed during the first 3 to 4 days postpartum?",
+    "optionA": "Lochia serosa (pinkish-brown)",
+    "optionB": "Lochia rubra (dark red with small decidual clots)",
+    "optionC": "Lochia alba (yellowish-white)",
+    "optionD": "Lochia purulenta",
+    "correctAnswer": "B",
+    "explanation": "Lochia rubra consists predominantly of blood, decidual debris, and trophoblastic tissue, lasting from delivery until postpartum day 3 to 4."
+  },
+  {
+    "question": "What is the leading cause of accidental death and injury in infants under 1 year of age in home environments?",
+    "optionA": "Bicycle trauma",
+    "optionB": "Suffocation, aspiration of foreign objects, and falls",
+    "optionC": "Poisoning from garden plants",
+    "optionD": "Pedestrian collisions",
+    "correctAnswer": "B",
+    "explanation": "Unintentional mechanical suffocation, aspiration of small objects or milk, and falls constitute the predominant risks in infants under 12 months."
+  },
+  {
+    "question": "In a neonate, jaundice that appears within the first 24 hours of life is considered:",
+    "optionA": "Physiological jaundice due to immature liver glucuronyl transferase",
+    "optionB": "Pathological jaundice (suggesting hemolytic disease such as Rh or ABO incompatibility)",
+    "optionC": "Breast milk jaundice",
+    "optionD": "Normal transient transitional hyperbilirubinemia",
+    "correctAnswer": "B",
+    "explanation": "Jaundice appearing within the first 24 hours of life is always pathological, usually indicating rapid hemolysis from blood group incompatibility."
+  },
+  {
+    "question": "Which diagnostic finding on blood film examination confirms sickle cell trait (HbAS) versus homozygous sickle cell anemia (HbSS)?",
+    "optionA": "Full blood count alone",
+    "optionB": "Hemoglobin electrophoresis",
+    "optionC": "Urine microscopy",
+    "optionD": "Serum ferritin level",
+    "correctAnswer": "B",
+    "explanation": "Hemoglobin electrophoresis separates hemoglobin variants by electrical charge, definitively distinguishing HbAA, HbAS, and HbSS."
+  },
+  {
+    "question": "What is the recommended position for a healthy term infant during sleep to prevent Sudden Infant Death Syndrome (SIDS)?",
+    "optionA": "Prone position (on the stomach)",
+    "optionB": "Supine position (on the back on a firm flat mattress)",
+    "optionC": "Side-lying with pillows",
+    "optionD": "Semi-reclined in a soft armchair",
+    "correctAnswer": "B",
+    "explanation": "The 'Back to Sleep' campaign demonstrated that placing infants supine on a firm, bare mattress reduces the incidence of SIDS by over 50%."
+  },
+  {
+    "question": "A child with suspected acute bacterial meningitis will demonstrate resistance and pain upon passive extension of the knee with the hip flexed at 90 degrees. This is:",
+    "optionA": "Brudzinski's sign",
+    "optionB": "Kernig's sign",
+    "optionC": "Chvostek's sign",
+    "optionD": "Trousseau's sign",
+    "correctAnswer": "B",
+    "explanation": "Kernig's sign is elicited by flexing the hip and knee to 90 degrees; subsequent resistance or hamstring pain upon knee extension indicates meningeal irritation."
+  },
+  {
+    "question": "Which infectious disease presents with Koplik spots (small white spots with red halos on the buccal mucosa) preceding a generalized maculopapular rash?",
+    "optionA": "Rubella (German measles)",
+    "optionB": "Rubeola (Measles)",
+    "optionC": "Varicella (Chickenpox)",
+    "optionD": "Roseola infantum",
+    "correctAnswer": "B",
+    "explanation": "Koplik spots are pathognomonic early enanthem lesions appearing on the oral mucosa opposite the second molars 1 to 2 days before the measles rash erupts."
+  },
+  {
+    "question": "In administering oral rehydration therapy (ORT) to a toddler with acute gastroenteritis and mild-to-moderate dehydration, the solution is given:",
+    "optionA": "In large boluses of 250 mL every 4 hours",
+    "optionB": "In frequent small sips (5 to 10 mL every 1 to 2 minutes using a spoon or syringe)",
+    "optionC": "Mixed with whole cow's milk",
+    "optionD": "Only after withholding all fluids for 12 hours",
+    "correctAnswer": "B",
+    "explanation": "Administering oral rehydration salts in small, continuous sips prevents gastric overdistention and minimizes the trigger for reflex vomiting."
+  },
+  {
+    "question": "Which childhood condition is characterized by a failure of the developmental descent of one or both testes into the scrotal sac?",
+    "optionA": "Hydrocele",
+    "optionB": "Cryptorchidism",
+    "optionC": "Phimosis",
+    "optionD": "Epispadias",
+    "correctAnswer": "B",
+    "explanation": "Cryptorchidism is undescended testis; if uncorrected by 6 to 12 months, surgical orchiopexy is indicated to preserve fertility and monitor malignancy risk."
+  },
+  {
+    "question": "Which pediatric parasite causes perianal pruritus that worsens markedly at night, diagnosed using the cellophane tape test?",
+    "optionA": "Ascaris lumbricoides",
+    "optionB": "Enterobius vermicularis (Pinworm / Threadworm)",
+    "optionC": "Taenia saginata",
+    "optionD": "Ancylostoma duodenale",
+    "correctAnswer": "B",
+    "explanation": "Female pinworms migrate out of the anus at night to deposit ova on the perianal fold, causing intense nocturnal itching."
+  },
+  {
+    "question": "A 4-year-old child with nephrotic syndrome will exhibit which classic triad of clinical and laboratory findings?",
+    "optionA": "Hematuria, azotemia, and fever",
+    "optionB": "Heavy proteinuria, severe hypoalbuminemia, and generalized pitting edema",
+    "optionC": "Oliguria, hypercalcemia, and jaundice",
+    "optionD": "Glycosuria, polyuria, and polydipsia",
+    "correctAnswer": "B",
+    "explanation": "Increased glomerular permeability causes massive urinary protein loss (>3.5 g/day equivalent), profound hypoalbuminemia, and massive anasarca."
+  },
+  {
+    "question": "Which drug class represents the cornerstone treatment for reversing bronchoconstriction in acute chronic bronchitis and asthma?",
+    "optionA": "Beta-2 adrenergic receptor agonists",
+    "optionB": "Alpha-1 receptor agonists",
+    "optionC": "Beta-1 antagonists",
+    "optionD": "Carbonic anhydrase inhibitors",
+    "correctAnswer": "A",
+    "explanation": "Beta-2 agonists stimulate adenylyl cyclase in airway smooth muscle, leading to relaxation of the bronchial tree and rapid relief of dyspnea."
+  },
+  {
+    "question": "Which specific reversal agent is administered for acute toxicity or respiratory depression induced by benzodiazepines like diazepam?",
+    "optionA": "Naloxone",
+    "optionB": "Flumazenil",
+    "optionC": "Atropine",
+    "optionD": "Protamine sulfate",
+    "correctAnswer": "B",
+    "explanation": "Flumazenil is a competitive antagonist at the central GABA-A receptor benzodiazepine binding site, rapidly reversing benzodiazepine sedation."
+  },
+  {
+    "question": "Which oral hypoglycemic agent of the biguanide class decreases hepatic glucose production and does not cause hypoglycemia as a monotherapy?",
+    "optionA": "Glibenclamide",
+    "optionB": "Metformin hydrochloride",
+    "optionC": "Pioglitazone",
+    "optionD": "Repaglinide",
+    "correctAnswer": "B",
+    "explanation": "Metformin suppresses hepatic gluconeogenesis and improves peripheral insulin sensitivity without stimulating pancreatic beta-cell insulin secretion."
+  },
+  {
+    "question": "A client receiving intravenous Vancomycin requires regular therapeutic drug monitoring of which pharmacokinetic parameter to avoid nephrotoxicity?",
+    "optionA": "Peak concentration only",
+    "optionB": "Trough serum concentration drawn immediately prior to the next scheduled dose",
+    "optionC": "Random post-prandial level",
+    "optionD": "Urine creatinine level",
+    "correctAnswer": "B",
+    "explanation": "Monitoring vancomycin serum trough levels (typically maintained between 10-20 mcg/mL depending on infection severity) ensures efficacy and prevents toxicity."
+  },
+  {
+    "question": "Which anti-tubercular medication is notorious for causing peripheral neuropathy, which can be prevented by co-administering Pyridoxine (Vitamin B6)?",
+    "optionA": "Rifampicin",
+    "optionB": "Isoniazid (INH)",
+    "optionC": "Ethambutol",
+    "optionD": "Pyrazinamide",
+    "correctAnswer": "B",
+    "explanation": "Isoniazid binds with pyridoxal-5-phosphate and accelerates its renal excretion, causing vitamin B6 deficiency and peripheral neuropathy unless supplemented."
+  },
+  {
+    "question": "Which first-line anti-TB drug requires routine baseline and periodic visual acuity and color vision testing due to the risk of retrobulbar optic neuritis?",
+    "optionA": "Isoniazid",
+    "optionB": "Ethambutol",
+    "optionC": "Streptomycin",
+    "optionD": "Rifampicin",
+    "correctAnswer": "B",
+    "explanation": "Ethambutol can induce dose-dependent optic neuritis, manifesting as decreased visual acuity and loss of red-green color discrimination."
+  },
+  {
+    "question": "Which loop diuretic is commonly utilized for rapid reduction of pulmonary edema in acute congestive heart failure?",
+    "optionA": "Hydrochlorothiazide",
+    "optionB": "Furosemide (Lasix)",
+    "optionC": "Spironolactone",
+    "optionD": "Acetazolamide",
+    "correctAnswer": "B",
+    "explanation": "Intravenous furosemide produces acute venous dilation within 5 minutes (reducing cardiac preload) followed by brisk natriuresis and diuresis within 15-20 minutes."
+  },
+  {
+    "question": "What is the primary mechanism of action of nonsteroidal anti-inflammatory drugs (NSAIDs) such as ibuprofen and diclofenac?",
+    "optionA": "Inhibition of cyclooxygenase enzymes (COX-1 and COX-2) to block prostaglandin synthesis",
+    "optionB": "Stimulation of opioid mu receptors in the spinal cord",
+    "optionC": "Blockade of histamine H1 receptors",
+    "optionD": "Enhancement of serotonin neurotransmission",
+    "correctAnswer": "A",
+    "explanation": "NSAIDs block cyclooxygenase (prostaglandin H2 synthase), inhibiting the conversion of arachidonic acid to pro-inflammatory prostaglandins."
+  },
+  {
+    "question": "A patient taking monoamine oxidase inhibitors (MAOIs) for refractory depression must avoid tyramine-rich foods (aged cheese, red wine, cured meats) to prevent:",
+    "optionA": "Severe hypoglycemia",
+    "optionB": "Hypertensive crisis (malignant hypertension)",
+    "optionC": "Renal stone formation",
+    "optionD": "Agranulocytosis",
+    "correctAnswer": "B",
+    "explanation": "MAO inhibition prevents intestinal breakdown of dietary tyramine; accumulated tyramine displaces norepinephrine into synaptic clefts, causing extreme vasoconstriction."
+  },
+  {
+    "question": "Which broad-spectrum antimicrobial is contraindicated in children under 8 years of age and pregnant women due to permanent yellow-brown dental enamel discoloration?",
+    "optionA": "Amoxicillin",
+    "optionB": "Tetracyclines (such as doxycycline)",
+    "optionC": "Erythromycin",
+    "optionD": "Ciprofloxacin",
+    "correctAnswer": "B",
+    "explanation": "Tetracyclines chelate with calcium orthophosphate in developing teeth and growing bones, causing permanent dental staining and enamel hypoplasia."
+  },
+  {
+    "question": "Which psychiatric disorder is characterized by a pervasive pattern of grandiosity, need for admiration, and a profound lack of empathy for others?",
+    "optionA": "Antisocial personality disorder",
+    "optionB": "Narcissistic personality disorder",
+    "optionC": "Borderline personality disorder",
+    "optionD": "Histrionic personality disorder",
+    "correctAnswer": "B",
+    "explanation": "Narcissistic personality disorder is marked by an inflated sense of self-importance, entitlement, exploitative interpersonal relationships, and absence of empathy."
+  },
+  {
+    "question": "In a psychiatric interview, a client continually shifts from one topic to another rapidly, connected only by superficial associations or rhyming words. This speech pattern is:",
+    "optionA": "Word salad",
+    "optionB": "Flight of ideas (clang associations)",
+    "optionC": "Neologisms",
+    "optionD": "Perseveration",
+    "correctAnswer": "B",
+    "explanation": "Flight of ideas is characterized by accelerated speech with abrupt topic jumps governed by chance environmental stimuli or phonetic sound similarities (rhyming/clanging)."
+  },
+  {
+    "question": "Which therapeutic communication technique is demonstrated when the nurse rephrases the client's core message in fewer, similar words to confirm mutual understanding?",
+    "optionA": "Probing",
+    "optionB": "Paraphrasing (restating)",
+    "optionC": "False reassurance",
+    "optionD": "Moralizing",
+    "correctAnswer": "B",
+    "explanation": "Paraphrasing restates the essence of the patient's verbal expression in the nurse's own words, verifying accurate comprehension and conveying active listening."
+  },
+  {
+    "question": "A client presenting with persistent physical symptoms (such as pain or paralysis) for which thorough medical evaluation reveals no organic pathophysiological basis is diagnosed with:",
+    "optionA": "Conversion disorder (Functional Neurological Symptom Disorder)",
+    "optionB": "Malingering",
+    "optionC": "Bipolar disorder",
+    "optionD": "Generalized anxiety disorder",
+    "correctAnswer": "A",
+    "explanation": "Conversion disorder involves altered voluntary motor or sensory function that cannot be explained by neurological or general medical disease, often triggered by psychological stress."
+  },
+  {
+    "question": "Which psychotherapeutic treatment modality utilizes brief controlled electrical currents applied across the scalp to induce a generalized cerebral seizure for refractory depression?",
+    "optionA": "Biofeedback therapy",
+    "optionB": "Electroconvulsive Therapy (ECT)",
+    "optionC": "Systematic desensitization",
+    "optionD": "Transcranial magnetic therapy",
+    "correctAnswer": "B",
+    "explanation": "ECT is an effective biological therapy indicated for treatment-resistant major depression, acute mania with exhaustion, and severe katatonic states."
+  },
+  {
+    "question": "The epidemiological term 'Endemic' refers to a disease that is:",
+    "optionA": "Spreading rapidly across multiple continents worldwide",
+    "optionB": "Constantly present at an expected baseline level within a given geographic area or population",
+    "optionC": "Exclusively occurring as rare, isolated sporadic cases",
+    "optionD": "Completely eradicated through immunization",
+    "correctAnswer": "B",
+    "explanation": "An endemic disease (e.g., malaria in sub-Saharan Africa) maintains a predictable, sustained presence within a specific geographical locality."
+  },
+  {
+    "question": "What is the primary mode of transmission of Lassa fever virus in West African communities?",
+    "optionA": "Bite of the tsetse fly",
+    "optionB": "Direct contact with or ingestion of food contaminated with excreta or urine of infected multimammate rats (Mastomys natalensis)",
+    "optionC": "Inhalation of pollen spores",
+    "optionD": "Consumption of undercooked beef",
+    "correctAnswer": "B",
+    "explanation": "Mastomys natalensis rodents shed Lassa virus in their urine and feces, contaminating domestic food storage pots and household grain."
+  },
+  {
+    "question": "Which simple, low-cost household water treatment method effectively destroys waterborne pathogens using heat?",
+    "optionA": "Vigorous rolling boiling of drinking water for at least 1 to 3 minutes",
+    "optionB": "Sedimentation in an open bucket for 1 hour",
+    "optionC": "Passing water through a single cotton cloth",
+    "optionD": "Exposing water to moonlight overnight",
+    "correctAnswer": "A",
+    "explanation": "Bringing water to a vigorous rolling boil for 1 minute (or 3 minutes at high altitude) thermal-inactivates enteric bacteria, viruses, and protozoan cysts."
+  },
+  {
+    "question": "In epidemiology, the 'Case Fatality Rate' is defined as the proportion of:",
+    "optionA": "Deaths in the entire national population over one year",
+    "optionB": "Individuals diagnosed with a specific disease who die from that disease within a specified time frame",
+    "optionC": "New cases occurring relative to the total population",
+    "optionD": "Hospitalized patients who are discharged alive",
+    "correctAnswer": "B",
+    "explanation": "Case fatality rate measures disease severity by calculating: (Number of deaths from disease / Total confirmed cases of disease) x 100."
+  },
+  {
+    "question": "What is the primary purpose of adding fluoride to public community water supplies or toothpaste?",
+    "optionA": "To eliminate coliform bacteria",
+    "optionB": "To strengthen dental enamel hydroxyapatite and prevent dental caries (cavities)",
+    "optionC": "To clarify turbidity in surface water",
+    "optionD": "To prevent goiter",
+    "correctAnswer": "B",
+    "explanation": "Fluoride incorporates into tooth enamel to form fluorapatite, which is significantly more resistant to demineralization by bacterial plaque acids."
+  },
+  {
+    "question": "In post-operative care following an open abdominal procedure, which assessment finding indicates the return of normal gastrointestinal motility?",
+    "optionA": "Absence of abdominal pain",
+    "optionB": "Audible bowel sounds in all 4 quadrants and the passage of flatus",
+    "optionC": "Clear nasogastric drainage of 1500 mL/day",
+    "optionD": "Soft non-distended bladder",
+    "correctAnswer": "B",
+    "explanation": "The auscultation of active bowel sounds accompanied by the passage of flatus confirms the resolution of post-surgical paralytic ileus."
+  },
+  {
+    "question": "Which surgical position is standard for a patient undergoing abdominal laparoscopic cholecystectomy or hiatal hernia repair to allow viscera to drop away from the operative field?",
+    "optionA": "Trendelenburg position",
+    "optionB": "Reverse Trendelenburg position",
+    "optionC": "Prone position",
+    "optionD": "Jackknife position",
+    "correctAnswer": "B",
+    "explanation": "Reverse Trendelenburg (head elevated, feet lowered) utilizes gravity to displace the stomach and intestines inferiorly away from the subhepatic space."
+  },
+  {
+    "question": "When caring for a client with an indwelling urinary (Foley) catheter, the drainage collection bag must always be positioned:",
+    "optionA": "At the level of the patient's heart",
+    "optionB": "Below the level of the bladder at all times to prevent retroflex of contaminated urine",
+    "optionC": "Resting directly on the floor",
+    "optionD": "Tucked under the bed pillow",
+    "correctAnswer": "B",
+    "explanation": "Maintaining the collection bag below bladder level facilitates gravity drainage and prevents backflow of colonized urine into the sterile urinary tract."
+  },
+  {
+    "question": "Which clinical test is utilized at the bedside to assess collateral arterial circulation in the hand prior to radial artery cannulation for blood gas sampling?",
+    "optionA": "Homan's test",
+    "optionB": "Allen's test",
+    "optionC": "Phalen's test",
+    "optionD": "Tinels test",
+    "correctAnswer": "B",
+    "explanation": "The modified Allen test occludes both radial and ulnar arteries until the hand blanches; release of the ulnar artery should restore pink flushing within 5-7 seconds."
+  },
+  {
+    "question": "In a patient suffering from hypovolemic shock due to severe hemorrhage, which intravenous fluid is most appropriate for immediate initial volume resuscitation while blood is cross-matched?",
+    "optionA": "5% Dextrose in water (D5W)",
+    "optionB": "Isotonic crystalloid solutions (0.9% Normal Saline or Ringer's Lactate)",
+    "optionC": "0.45% Half-normal saline",
+    "optionD": "10% Dextrose in water",
+    "correctAnswer": "B",
+    "explanation": "Isotonic crystalloids expand the intravascular compartment effectively without causing rapid intracellular fluid shifts or hemolysis."
+  }
+]

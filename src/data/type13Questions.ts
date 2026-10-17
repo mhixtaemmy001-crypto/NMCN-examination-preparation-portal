@@ -1,1504 +1,1354 @@
 import { RawDocQuestion } from './docPart1';
 
 export const TYPE13_QUESTIONS: RawDocQuestion[] = [
-  // 1 (Q51)
   {
-    question: "A patient with pulmonary edema is coughing pink frothy sputum. What is the best position?",
-    optionA: "High Fowler’s",
-    optionB: "Supine",
-    optionC: "Prone",
-    optionD: "Trendelenburg",
+    question: "Which component of blood plasma is primarily responsible for maintaining intravascular colloidal osmotic (oncotic) pressure?",
+    optionA: "Albumin",
+    optionB: "Fibrinogen",
+    optionC: "Alpha globulin",
+    optionD: "Prothrombin",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "Albumin constitutes about 60% of total plasma proteins and generates approximately 75% to 80% of plasma colloidal oncotic pressure, preventing edema.",
   },
-  // 2 (Q52)
   {
-    question: "A newborn is apneic immediately after birth. What is the FIRST step in resuscitation?",
-    optionA: "Warm, dry, stimulate, and assess breathing",
-    optionB: "Start chest compressions immediately",
-    optionC: "Give glucose water",
-    optionD: "Suction routinely for 30 seconds",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 3 (Q53)
-  {
-    question: "A patient with tuberculosis removes the mask and coughs continuously. What is the priority action?",
-    optionA: "Apply airborne precautions and re-educate",
-    optionB: "Ignore the behavior",
-    optionC: "Close curtains only",
-    optionD: "Move other patients",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 4 (Q54)
-  {
-    question: "A postoperative patient has abdominal distension, vomiting, and absent bowel sounds. What should the nurse suspect?",
-    optionA: "Paralytic ileus",
-    optionB: "UTI",
-    optionC: "Gastritis",
-    optionD: "Constipation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 5 (Q55)
-  {
-    question: "A patient with severe head injury has unequal pupils and decreasing consciousness. What is the priority?",
-    optionA: "Urgent neurological assessment and escalation",
-    optionB: "Give sedative",
-    optionC: "Allow sleep",
-    optionD: "Provide food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 6 (Q56)
-  {
-    question: "A patient receiving heparin develops bleeding from the IV site. What is the priority action?",
-    optionA: "Stop infusion if indicated and notify the provider",
-    optionB: "Increase the rate",
-    optionC: "Apply heat only",
-    optionD: "Ignore the bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 7 (Q57)
-  {
-    question: "A woman with placenta previa presents with bright red painless bleeding. Which action should be avoided?",
-    optionA: "Digital vaginal examination",
-    optionB: "Monitoring vital signs",
-    optionC: "IV access",
-    optionD: "Fetal monitoring",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 8 (Q58)
-  {
-    question: "A patient with sepsis becomes hypotensive, tachycardic, and confused. What is the priority?",
-    optionA: "Recognize septic shock and initiate emergency measures",
-    optionB: "Give oral fluids",
-    optionC: "Allow rest",
-    optionD: "Reassure only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 9 (Q59)
-  {
-    question: "A child with meningitis is photophobic and irritable. What environmental modification is best?",
-    optionA: "Reduce light and noise",
-    optionB: "Increase stimulation",
-    optionC: "Keep television on",
-    optionD: "Encourage visitors",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 10 (Q60)
-  {
-    question: "A competent adult refuses life-saving surgery. What should the nurse do?",
-    optionA: "Respect the decision and inform the team",
-    optionB: "Force consent",
-    optionC: "Ask relatives to sign",
-    optionD: "Ignore the refusal",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 11 (Q61)
-  {
-    question: "A patient with pulmonary edema is coughing pink frothy sputum. What is the best position?",
-    optionA: "High Fowler’s",
-    optionB: "Supine",
-    optionC: "Prone",
-    optionD: "Trendelenburg",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 12 (Q62)
-  {
-    question: "A newborn is apneic immediately after birth. What is the FIRST step in resuscitation?",
-    optionA: "Warm, dry, stimulate, and assess breathing",
-    optionB: "Start chest compressions immediately",
-    optionC: "Give glucose water",
-    optionD: "Suction routinely for 30 seconds",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 13 (Q63)
-  {
-    question: "A patient with tuberculosis removes the mask and coughs continuously. What is the priority action?",
-    optionA: "Apply airborne precautions and re-educate",
-    optionB: "Ignore the behavior",
-    optionC: "Close curtains only",
-    optionD: "Move other patients",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 14 (Q64)
-  {
-    question: "A postoperative patient has abdominal distension, vomiting, and absent bowel sounds. What should the nurse suspect?",
-    optionA: "Paralytic ileus",
-    optionB: "UTI",
-    optionC: "Gastritis",
-    optionD: "Constipation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 15 (Q65)
-  {
-    question: "A patient with severe head injury has unequal pupils and decreasing consciousness. What is the priority?",
-    optionA: "Urgent neurological assessment and escalation",
-    optionB: "Give sedative",
-    optionC: "Allow sleep",
-    optionD: "Provide food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 16 (Q66)
-  {
-    question: "A patient receiving heparin develops bleeding from the IV site. What is the priority action?",
-    optionA: "Stop infusion if indicated and notify the provider",
-    optionB: "Increase the rate",
-    optionC: "Apply heat only",
-    optionD: "Ignore the bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 17 (Q67)
-  {
-    question: "A woman with placenta previa presents with bright red painless bleeding. Which action should be avoided?",
-    optionA: "Digital vaginal examination",
-    optionB: "Monitoring vital signs",
-    optionC: "IV access",
-    optionD: "Fetal monitoring",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 18 (Q68)
-  {
-    question: "A patient with sepsis becomes hypotensive, tachycardic, and confused. What is the priority?",
-    optionA: "Recognize septic shock and initiate emergency measures",
-    optionB: "Give oral fluids",
-    optionC: "Allow rest",
-    optionD: "Reassure only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 19 (Q69)
-  {
-    question: "A child with meningitis is photophobic and irritable. What environmental modification is best?",
-    optionA: "Reduce light and noise",
-    optionB: "Increase stimulation",
-    optionC: "Keep television on",
-    optionD: "Encourage visitors",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 20 (Q70)
-  {
-    question: "A competent adult refuses life-saving surgery. What should the nurse do?",
-    optionA: "Respect the decision and inform the team",
-    optionB: "Force consent",
-    optionC: "Ask relatives to sign",
-    optionD: "Ignore the refusal",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 21 (Q71)
-  {
-    question: "A patient with pulmonary edema is coughing pink frothy sputum. What is the best position?",
-    optionA: "High Fowler’s",
-    optionB: "Supine",
-    optionC: "Prone",
-    optionD: "Trendelenburg",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 22 (Q72)
-  {
-    question: "A newborn is apneic immediately after birth. What is the FIRST step in resuscitation?",
-    optionA: "Warm, dry, stimulate, and assess breathing",
-    optionB: "Start chest compressions immediately",
-    optionC: "Give glucose water",
-    optionD: "Suction routinely for 30 seconds",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 23 (Q73)
-  {
-    question: "A patient with tuberculosis removes the mask and coughs continuously. What is the priority action?",
-    optionA: "Apply airborne precautions and re-educate",
-    optionB: "Ignore the behavior",
-    optionC: "Close curtains only",
-    optionD: "Move other patients",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 24 (Q74)
-  {
-    question: "A postoperative patient has abdominal distension, vomiting, and absent bowel sounds. What should the nurse suspect?",
-    optionA: "Paralytic ileus",
-    optionB: "UTI",
-    optionC: "Gastritis",
-    optionD: "Constipation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 25 (Q75)
-  {
-    question: "A patient with severe head injury has unequal pupils and decreasing consciousness. What is the priority?",
-    optionA: "Urgent neurological assessment and escalation",
-    optionB: "Give sedative",
-    optionC: "Allow sleep",
-    optionD: "Provide food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 26 (Q76)
-  {
-    question: "A patient receiving heparin develops bleeding from the IV site. What is the priority action?",
-    optionA: "Stop infusion if indicated and notify the provider",
-    optionB: "Increase the rate",
-    optionC: "Apply heat only",
-    optionD: "Ignore the bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 27 (Q77)
-  {
-    question: "A woman with placenta previa presents with bright red painless bleeding. Which action should be avoided?",
-    optionA: "Digital vaginal examination",
-    optionB: "Monitoring vital signs",
-    optionC: "IV access",
-    optionD: "Fetal monitoring",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 28 (Q78)
-  {
-    question: "A patient with sepsis becomes hypotensive, tachycardic, and confused. What is the priority?",
-    optionA: "Recognize septic shock and initiate emergency measures",
-    optionB: "Give oral fluids",
-    optionC: "Allow rest",
-    optionD: "Reassure only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 29 (Q79)
-  {
-    question: "A child with meningitis is photophobic and irritable. What environmental modification is best?",
-    optionA: "Reduce light and noise",
-    optionB: "Increase stimulation",
-    optionC: "Keep television on",
-    optionD: "Encourage visitors",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 30 (Q80)
-  {
-    question: "A competent adult refuses life-saving surgery. What should the nurse do?",
-    optionA: "Respect the decision and inform the team",
-    optionB: "Force consent",
-    optionC: "Ask relatives to sign",
-    optionD: "Ignore the refusal",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 31 (Q81)
-  {
-    question: "A patient with pulmonary edema is coughing pink frothy sputum. What is the best position?",
-    optionA: "High Fowler’s",
-    optionB: "Supine",
-    optionC: "Prone",
-    optionD: "Trendelenburg",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 32 (Q82)
-  {
-    question: "A newborn is apneic immediately after birth. What is the FIRST step in resuscitation?",
-    optionA: "Warm, dry, stimulate, and assess breathing",
-    optionB: "Start chest compressions immediately",
-    optionC: "Give glucose water",
-    optionD: "Suction routinely for 30 seconds",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 33 (Q83)
-  {
-    question: "A patient with tuberculosis removes the mask and coughs continuously. What is the priority action?",
-    optionA: "Apply airborne precautions and re-educate",
-    optionB: "Ignore the behavior",
-    optionC: "Close curtains only",
-    optionD: "Move other patients",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 34 (Q84)
-  {
-    question: "A postoperative patient has abdominal distension, vomiting, and absent bowel sounds. What should the nurse suspect?",
-    optionA: "Paralytic ileus",
-    optionB: "UTI",
-    optionC: "Gastritis",
-    optionD: "Constipation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 35 (Q85)
-  {
-    question: "A patient with severe head injury has unequal pupils and decreasing consciousness. What is the priority?",
-    optionA: "Urgent neurological assessment and escalation",
-    optionB: "Give sedative",
-    optionC: "Allow sleep",
-    optionD: "Provide food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 36 (Q86)
-  {
-    question: "A patient receiving heparin develops bleeding from the IV site. What is the priority action?",
-    optionA: "Stop infusion if indicated and notify the provider",
-    optionB: "Increase the rate",
-    optionC: "Apply heat only",
-    optionD: "Ignore the bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 37 (Q87)
-  {
-    question: "A woman with placenta previa presents with bright red painless bleeding. Which action should be avoided?",
-    optionA: "Digital vaginal examination",
-    optionB: "Monitoring vital signs",
-    optionC: "IV access",
-    optionD: "Fetal monitoring",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 38 (Q88)
-  {
-    question: "A patient with sepsis becomes hypotensive, tachycardic, and confused. What is the priority?",
-    optionA: "Recognize septic shock and initiate emergency measures",
-    optionB: "Give oral fluids",
-    optionC: "Allow rest",
-    optionD: "Reassure only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 39 (Q89)
-  {
-    question: "A child with meningitis is photophobic and irritable. What environmental modification is best?",
-    optionA: "Reduce light and noise",
-    optionB: "Increase stimulation",
-    optionC: "Keep television on",
-    optionD: "Encourage visitors",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 40 (Q90)
-  {
-    question: "A competent adult refuses life-saving surgery. What should the nurse do?",
-    optionA: "Respect the decision and inform the team",
-    optionB: "Force consent",
-    optionC: "Ask relatives to sign",
-    optionD: "Ignore the refusal",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 41 (Q91)
-  {
-    question: "A patient with pulmonary edema is coughing pink frothy sputum. What is the best position?",
-    optionA: "High Fowler’s",
-    optionB: "Supine",
-    optionC: "Prone",
-    optionD: "Trendelenburg",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 42 (Q92)
-  {
-    question: "A newborn is apneic immediately after birth. What is the FIRST step in resuscitation?",
-    optionA: "Warm, dry, stimulate, and assess breathing",
-    optionB: "Start chest compressions immediately",
-    optionC: "Give glucose water",
-    optionD: "Suction routinely for 30 seconds",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 43 (Q93)
-  {
-    question: "A patient with tuberculosis removes the mask and coughs continuously. What is the priority action?",
-    optionA: "Apply airborne precautions and re-educate",
-    optionB: "Ignore the behavior",
-    optionC: "Close curtains only",
-    optionD: "Move other patients",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 44 (Q94)
-  {
-    question: "A postoperative patient has abdominal distension, vomiting, and absent bowel sounds. What should the nurse suspect?",
-    optionA: "Paralytic ileus",
-    optionB: "UTI",
-    optionC: "Gastritis",
-    optionD: "Constipation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 45 (Q95)
-  {
-    question: "A patient with severe head injury has unequal pupils and decreasing consciousness. What is the priority?",
-    optionA: "Urgent neurological assessment and escalation",
-    optionB: "Give sedative",
-    optionC: "Allow sleep",
-    optionD: "Provide food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 46 (Q96)
-  {
-    question: "A patient receiving heparin develops bleeding from the IV site. What is the priority action?",
-    optionA: "Stop infusion if indicated and notify the provider",
-    optionB: "Increase the rate",
-    optionC: "Apply heat only",
-    optionD: "Ignore the bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 47 (Q97)
-  {
-    question: "A woman with placenta previa presents with bright red painless bleeding. Which action should be avoided?",
-    optionA: "Digital vaginal examination",
-    optionB: "Monitoring vital signs",
-    optionC: "IV access",
-    optionD: "Fetal monitoring",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 48 (Q98)
-  {
-    question: "A patient with sepsis becomes hypotensive, tachycardic, and confused. What is the priority?",
-    optionA: "Recognize septic shock and initiate emergency measures",
-    optionB: "Give oral fluids",
-    optionC: "Allow rest",
-    optionD: "Reassure only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 49 (Q99)
-  {
-    question: "A child with meningitis is photophobic and irritable. What environmental modification is best?",
-    optionA: "Reduce light and noise",
-    optionB: "Increase stimulation",
-    optionC: "Keep television on",
-    optionD: "Encourage visitors",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 50 (Q100)
-  {
-    question: "A competent adult refuses life-saving surgery. What should the nurse do?",
-    optionA: "Respect the decision and inform the team",
-    optionB: "Force consent",
-    optionC: "Ask relatives to sign",
-    optionD: "Ignore the refusal",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 51 (NMCN Professional Questions - Q1)
-  {
-    question: "Modern Scientific Nursing started with the crusading efforts of _____________ ?",
-    optionA: "Lord Lugard",
-    optionB: "Henderson Orlando",
-    optionC: "Florence Nightingale",
-    optionD: "Swanson Watson",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 52 (NMCN Professional Questions - Q2)
-  {
-    question: "When was the International Council of Nurses formed?",
-    optionA: "1899",
-    optionB: "1852",
-    optionC: "1902",
-    optionD: "1799",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 53 (NMCN Professional Questions - Q3)
-  {
-    question: "Before the early missionaries who arrived in Nigeria started administering nursing care to sick people in Nigeria, they had a strong belief that _______________ ?",
-    optionA: "There is practically no life without nursing care",
-    optionB: "Without nursing care the human race will be eradicated after a while",
-    optionC: "African root and herbs combine with their spiritual tradition is the first nursing care to Africans and such must be preserved",
-    optionD: "Jesus Christ is the spiritual King, the greatest Nurse and Physician",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  // 54 (NMCN Professional Questions - Q4)
-  {
-    question: "When was the Nursing Council of Nigeria established?",
-    optionA: "1947",
-    optionB: "1961",
-    optionC: "1938",
-    optionD: "1914",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 55 (NMCN Professional Questions - Q5)
-  {
-    question: "The major functions of the Nursing and Midwifery Council of Nigeria (NMCN) can be summarized in two words as ______________ ?",
-    optionA: "regulation and control",
-    optionB: "management and administration",
-    optionC: "certification and promotion",
-    optionD: "protection and safeguarding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 56 (NMCN Professional Questions - Q6)
-  {
-    question: "Before midwives regulating body was merged with nurses regulating body, it was formally called ___________?",
-    optionA: "The Midwifery Council of Nigeria",
-    optionB: "The Midwives Ordinance",
-    optionC: "The Nigeria Council of Midwives",
-    optionD: "The Midwives Control",
+    question: "The coronary arteries, which supply oxygenated blood directly to the myocardium, originate from the base of the:",
+    optionA: "Pulmonary trunk",
+    optionB: "Ascending aorta (sinuses of Valsalva)",
+    optionC: "Aortic arch",
+    optionD: "Left subclavian artery",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "The right and left coronary arteries arise immediately above the aortic valve cusps from the aortic sinuses of Valsalva in the ascending aorta.",
   },
-  // 57 (NMCN Professional Questions - Q7)
   {
-    question: "The Nigeria nurse must provide care to ____________________ without prejudice to their age, religion, ethnicity, race, nationality, gender, political inclination, health or social economic status?",
-    optionA: "all patients in the hospital",
-    optionB: "all members of the public",
-    optionC: "all patients under his or her care",
-    optionD: "all Nigerians",
+    question: "The total volume of air inspired or expired with each effortless breath during normal quiet breathing is known as:",
+    optionA: "Vital capacity",
+    optionB: "Tidal volume (approx. 500 mL)",
+    optionC: "Inspiratory reserve volume",
+    optionD: "Residual volume",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "Tidal volume is the volume of air moved into and out of the lungs during a single quiet resting respiratory cycle, normally averaging 500 mL in healthy adults.",
   },
-  // 58 (NMCN Professional Questions - Q8)
   {
-    question: "To avoid preferential treatment, Nigeria nurses / midwives must avoid bribe and ________________ ?",
-    optionA: "gift entirely",
-    optionB: "encouraging gift",
-    optionC: "big gift",
-    optionD: "influencing gift",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  // 59 (NMCN Professional Questions - Q9)
-  {
-    question: "According to Nigeria nursing code of conduct, while practicing, the Nigeria nurses / midwives must engage in behaviour and activities that _______________ ?",
-    optionA: "promotes the quick recovery of patients under his or her care",
-    optionB: "enhance the Nigeria health sector",
-    optionC: "uplift the social status and integrity of Nurses",
-    optionD: "helps him or her grow his or her nursing career",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 60 (NMCN Professional Questions - Q10)
-  {
-    question: "What are the four major concepts in nursing theory?",
-    optionA: "Person, Environment, Nurse, Health",
-    optionB: "Nurse, Person, Environment, Cure",
-    optionC: "Person, Environment, Nursing, Health",
-    optionD: "Promotive, Preventive, Curative, Rehabilitative",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 61 (NMCN Professional Questions - Q11)
-  {
-    question: "The practice of utilizing the environment of the patient to help him or her recover is theorized by?",
-    optionA: "King",
-    optionB: "Benner",
-    optionC: "Swanson",
-    optionD: "Nightingale",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  // 62 (NMCN Professional Questions - Q12)
-  {
-    question: "The unique characteristic of nursing as a profession is?",
-    optionA: "Education",
-    optionB: "Medication",
-    optionC: "Caring",
-    optionD: "Autonomy",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 63 (NMCN Professional Questions - Q13)
-  {
-    question: "Observe the options below and point out what best describes a nurse as a care giver?",
-    optionA: "Determine patient's need.",
-    optionB: "Provide direct nursing care.",
-    optionC: "Help patient recognize and cope with stressful psychological situation.",
-    optionD: "All of the above",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 64 (NMCN Professional Questions - Q14)
-  {
-    question: "The patient care model that will best be adopted in a situation where there are plenty of patients but few nurses is ______________ ?",
-    optionA: "Team nursing",
-    optionB: "Functional nursing",
-    optionC: "Primary nursing",
-    optionD: "Total patient care",
+    question: "The sphincter of Oddi controls the flow of bile and pancreatic digestive juices into which portion of the digestive tract?",
+    optionA: "Cardia of the stomach",
+    optionB: "Second (descending) part of the duodenum",
+    optionC: "Terminal ileum",
+    optionD: "Hepatic flexure of the colon",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "The sphincter of Oddi surrounds the hepatopancreatic ampulla (ampulla of Vater) in the wall of the descending duodenum, regulating the entry of bile and pancreatic secretions.",
   },
-  // 65 (NMCN Professional Questions - Q15)
   {
-    question: "Who introduces the nature of nursing model?",
-    optionA: "Henderson",
-    optionB: "Nightingale",
-    optionC: "Parse",
-    optionD: "Orlando",
+    question: "Aldosterone, which increases renal sodium reabsorption and potassium excretion, is synthesized in which anatomical zone of the adrenal cortex?",
+    optionA: "Zona glomerulosa",
+    optionB: "Zona fasciculata",
+    optionC: "Zona reticularis",
+    optionD: "Adrenal medulla",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "The outermost zona glomerulosa of the adrenal cortex synthesizes mineralocorticoids, principally aldosterone, regulated by the renin-angiotensin system.",
   },
-  // 66 (NMCN Professional Questions - Q16)
   {
-    question: "A hospitalized patient with severe necrotizing ulcer of the lower leg is schedule for an amputation. The patient tells the nurse that he will not sign the consent form and he does not want any surgery or treatment because of religious beliefs about reincarnation. What is the role of the RN?",
-    optionA: "Call a family meeting",
-    optionB: "Discuss the religious beliefs with the physician",
-    optionC: "Encourage the patient to have the surgery",
-    optionD: "Inform the patient of other options",
+    question: "Which structure within the inner ear contains the specialized hair cell sensory receptors for hearing?",
+    optionA: "Semicircular canals",
+    optionB: "Organ of Corti (spiral organ) in the cochlea",
+    optionC: "Vestibule (utricle and saccule)",
+    optionD: "Ampullary crests",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "The organ of Corti resting on the basilar membrane in the cochlear duct houses mechanosensory hair cells that transduce sound vibrations into neural impulses.",
   },
-  // 67 (NMCN Professional Questions - Q17)
   {
-    question: "What does it mean, If a medical term word begins with the prefix hyper?",
-    optionA: "Low or under",
-    optionB: "Enlarged",
-    optionC: "Excessive, above normal",
-    optionD: "Stomach",
-    correctAnswer: "C",
-    explanation: ""
+    question: "A client admitted with a tension pneumothorax will exhibit which immediate life-threatening sign?",
+    optionA: "Tracheal deviation toward the unaffected side and absent breath sounds on the affected side",
+    optionB: "Tracheal deviation toward the affected side with bilateral bronchial breath sounds",
+    optionC: "Bilateral crackles with decreased jugular venous pressure",
+    optionD: "Hypertension with bradycardia and Cheyne-Stokes respirations",
+    correctAnswer: "A",
+    explanation: "Air trapped under positive pressure in the pleural space shifts mediastinal structures, causing tracheal deviation away from the affected hemithorax and compressive shock.",
   },
-  // 68 (NMCN Professional Questions - Q18)
   {
-    question: "Which body system uses the prefix neuro?",
-    optionA: "Endocrine",
-    optionB: "Integumentary",
-    optionC: "Circulatory",
-    optionD: "Nervous",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  // 69 (NMCN Professional Questions - Q19)
-  {
-    question: "What organ in your body does Malaria affect the most?",
-    optionA: "Heart",
-    optionB: "Brain",
-    optionC: "Small Intestine",
-    optionD: "Liver",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  // 70 (NMCN Professional Questions - Q20)
-  {
-    question: "How is HIV transmitted?",
-    optionA: "Through public toilet seats where other HIV patients regularly use.",
-    optionB: "When infected bodily fluids enter the bloodstream of another person",
-    optionC: "Through sharing needles, unprotected sexual intercourse, an open sore",
-    optionD: "Both B and C (infected bodily fluids entering bloodstream, sharing needles, unprotected sexual intercourse, open sore)",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  // 71 (NMCN Professional Questions - Q21)
-  {
-    question: "As well as taking a holistic approach, nurses ensure the care they provide is ____________.",
-    optionA: "of a quality acceptable to the nurse",
-    optionB: "of a quality acceptable to the patient",
-    optionC: "of the highest quality",
-    optionD: "of a good quality",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 72 (NMCN Professional Questions - Q22)
-  {
-    question: "Nurses work _________.",
-    optionA: "independently",
-    optionB: "as part of a multidisciplinary team",
-    optionC: "in partnership with patients",
-    optionD: "all of these",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  // 73 (NMCN Professional Questions - Q23)
-  {
-    question: "Behaving in a professional manner is _________.",
-    optionA: "helpful in nursing",
-    optionB: "fundamental in nursing",
-    optionC: "a good idea in nursing",
-    optionD: "not important in nursing",
+    question: "When managing a patient with acute viral hepatitis, which dietary modification is typically recommended during the acute phase?",
+    optionA: "Strict fluid restriction with low carbohydrates",
+    optionB: "High carbohydrate, moderate protein, and low fat with small frequent meals",
+    optionC: "High protein, high fat diet to restore hepatic glycogen stores",
+    optionD: "Clear liquid diet exclusively for two weeks",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "High carbohydrates supply readily accessible calories while sparing protein, moderate protein supports tissue healing, and low fat reduces nausea and bile stimulation.",
   },
-  // 74 (NMCN Professional Questions - Q24)
   {
-    question: "How many core principles does the NMC (2011) identify, which, if you uphold them, will ensure you behave professionally as a nursing student?",
-    optionA: "two",
-    optionB: "three",
-    optionC: "four",
-    optionD: "five",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 75 (NMCN Professional Questions - Q25)
-  {
-    question: "Patients value nurses who _________.",
-    optionA: "care for them as individuals",
-    optionB: "make them feel more comfortable",
-    optionC: "make them feel less afraid",
-    optionD: "all of these",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  // 76 (NMCN Professional Questions - Q26)
-  {
-    question: "The most common reason for referring a nurse to the NMCN is due to _________.",
-    optionA: "criminal behaviour",
-    optionB: "lack of competence",
-    optionC: "misconduct",
-    optionD: "poor health",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 77 (NMCN Professional Questions - Q27)
-  {
-    question: "Every nurse / midwife must always be aware of demonstrating good conduct when she is _________.",
-    optionA: "in practice",
-    optionB: "at the university",
-    optionC: "in her personal life",
-    optionD: "all of these",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  // 78 (NMCN Professional Questions - Q28)
-  {
-    question: "If you accept a delegated activity, _________.",
-    optionA: "the Registered Nurse still holds overall accountability",
-    optionB: "you are now accountable for your actions, omissions or decisions",
-    optionC: "both of these",
-    optionD: "none of these",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 79 (NMCN Professional Questions - Q29)
-  {
-    question: "A nurse has a duty of care to _________.",
-    optionA: "anyone they come into contact with",
-    optionB: "only patients/clients they are caring for",
-    optionC: "anyone they decide to assist/care for",
-    optionD: "none of these",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 80 (NMCN Professional Questions - Q30)
-  {
-    question: "Which of the following is a mental health nursing model?",
-    optionA: "King",
-    optionB: "Neuman",
-    optionC: "Casey",
-    optionD: "Peplau",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  // 81 (NMCN Professional Questions - Q31)
-  {
-    question: "When looking for evidence this may involve using electronic databases such as _________.",
-    optionA: "CINHAL",
-    optionB: "Firefox",
-    optionC: "Google",
-    optionD: "Microsoft",
+    question: "When monitoring a client with an acute ischemic stroke receiving intravenous tissue plasminogen activator (tPA), the nurse must prioritize monitoring:",
+    optionA: "Blood pressure and signs of neurological deterioration or hemorrhage",
+    optionB: "Daily weight and urinary creatinine clearance",
+    optionC: "Serum calcium and phosphate concentrations",
+    optionD: "Deep tendon reflexes and ankle clonus",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "Intracranial hemorrhage is the most devastating complication of fibrinolytic therapy; strict blood pressure control (<180/105 mmHg) and frequent neurological checks are vital.",
   },
-  // 82 (NMCN Professional Questions - Q32)
   {
-    question: "Sources of literature include for a nurse _________.",
-    optionA: "books",
-    optionB: "internet",
-    optionC: "journals",
-    optionD: "all of these",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  // 83 (NMCN Professional Questions - Q33)
-  {
-    question: "The act of profiling of Nursing or Midwifery students personal data into the database of Nursing and Midwifery Council of Nigeria is called",
-    optionA: "Indexing",
-    optionB: "Profiling",
-    optionC: "Recording",
-    optionD: "Mapping",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 84 (NMCN Professional Questions - Q34)
-  {
-    question: "BNI stands for _________ focusing primarily on British journals.",
-    optionA: "British National Index",
-    optionB: "Brand New Information",
-    optionC: "British Nursing Index",
-    optionD: "British Nursing Information",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 85 (NMCN Professional Questions - Q35)
-  {
-    question: "A form of testing that is used to measure a student's clinical competence.",
-    optionA: "OSCE",
-    optionB: "MCQ",
-    optionC: "short question answers",
-    optionD: "TEST",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 86 (NMCN Professional Questions - Q36)
-  {
-    question: "Nursing is often described as a _________ profession",
-    optionA: "caring",
-    optionB: "sharing",
-    optionC: "knowing",
-    optionD: "doing",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 87 (NMCN Professional Questions - Q37)
-  {
-    question: "Benchmarks allow the standards of care to be _________.",
-    optionA: "copied",
-    optionB: "shared",
-    optionC: "measured",
-    optionD: "weighed",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 88 (NMCN Professional Questions - Q38)
-  {
-    question: "Which one is not included in the Five Essential Skills clusters?",
-    optionA: "Care, Compassion and Communication",
-    optionB: "Medication Management",
-    optionC: "Basic Life Support",
-    optionD: "Infection Prevention and Control",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 89 (NMCN Professional Questions - Q39)
-  {
-    question: "In order to deliver care to a patient we must obtain _________.",
-    optionA: "paperwork",
-    optionB: "consent",
-    optionC: "assistance",
-    optionD: "capacity",
+    question: "Which pharmacological agent is the first-line medication administered to terminate an acute anaphylactic shock reaction?",
+    optionA: "Intravenous hydrocortisone",
+    optionB: "Intramuscular Epinephrine (1:1,000) into the anterolateral thigh",
+    optionC: "Oral diphenhydramine hydrochloride",
+    optionD: "Intravenous aminophylline infusion",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "Intramuscular epinephrine into the mid-anterolateral thigh is the first-line drug of choice in anaphylaxis for its alpha-1 vasoconstriction and beta-2 bronchodilation.",
   },
-  // 90 (NMCN Professional Questions - Q40)
   {
-    question: "How many shared capabilities are there?",
-    optionA: "12",
-    optionB: "10",
-    optionC: "8",
-    optionD: "6",
+    question: "In caring for a client with hepatic encephalopathy, which pharmacological agent is administered to promote fecal excretion of ammonia?",
+    optionA: "Lactulose",
+    optionB: "Spironolactone",
+    optionC: "Neostigmine",
+    optionD: "Sodium bicarbonate",
+    correctAnswer: "A",
+    explanation: "Lactulose is metabolized by colonic bacteria into acids, converting diffusible ammonia (NH3) into non-absorbable ammonium (NH4+) which is excreted in the feces.",
+  },
+  {
+    question: "In fetal circulation, the anatomical opening in the interatrial septum that allows blood to flow directly from the right atrium to the left atrium is the:",
+    optionA: "Ductus arteriosus",
+    optionB: "Foramen ovale",
+    optionC: "Sinus venosus",
+    optionD: "Ligamentum arteriosum",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "The foramen ovale is a valve-like opening between the right and left atria in the fetus that diverts oxygen-rich blood away from unexpanded pulmonary circulation.",
   },
-  // 91 (NMCN Professional Questions - Q41)
   {
-    question: "What does APIE stand for?",
-    optionA: "Assessment Planning Implementation Evaluation",
-    optionB: "Accurate Planning Implementation Evaluation",
-    optionC: "Assessment Planning Intervention Evaluation",
-    optionD: "Assessment Preparation Involvement Estimate",
-    correctAnswer: "A",
-    explanation: ""
+    question: "A newborn infant presents at 1 minute with a heart rate of 110 bpm (2), strong vigorous cry (2), active well-flexed extremities (2), sneezes on nasal suctioning (2), but pink body with bluish hands and feet (1). What is the total Apgar score?",
+    optionA: "7",
+    optionB: "8",
+    optionC: "9",
+    optionD: "10",
+    correctAnswer: "C",
+    explanation: "Acrocyanosis (blue extremities with pink trunk) scores 1 for color, while heart rate >100 (2), vigorous cry (2), active motion (2), and prompt reflex irritability (2) give a total score of 9.",
   },
-  // 92 (NMCN Professional Questions - Q42)
   {
-    question: "There are different types of assessment; they include _________.",
-    optionA: "mini, focused, comprehensive, ongoing",
-    optionB: "minor, focused, comprehensive, ongoing",
-    optionC: "mini, fused, complete, ongoing",
-    optionD: "short, middle and long term",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 93 (NMCN Professional Questions - Q43)
-  {
-    question: "What type of questioning might be used in a patient assessment?",
-    optionA: "open and closed",
-    optionB: "open and shut",
-    optionC: "exposed and closed",
-    optionD: "out and in",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 94 (NMCN Professional Questions - Q44)
-  {
-    question: "What criteria are useful when setting goals?",
-    optionA: "SMART",
-    optionB: "SMELL",
-    optionC: "SMALL",
-    optionD: "SMEET",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 95 (NMCN Professional Questions - Q45)
-  {
-    question: "Beneficence is the ethical principle that requires that we _________.",
-    optionA: "seek to do or produce good for others",
-    optionB: "put ourselves first",
-    optionC: "do what we can when we are being paid",
-    optionD: "look after patients",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 96 (NMCN Professional Questions - Q46)
-  {
-    question: "According to Baughan and Smith (2008), caring indicators include _________.",
-    optionA: "simple acts of kindness",
-    optionB: "dignity",
-    optionC: "using and developing skills of empathy by 'tuning in' to the patient",
-    optionD: "all of these",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  // 97 (NMCN Professional Questions - Q47)
-  {
-    question: "Patients who perceived their care as respectful and dignified report the _________.",
-    optionA: "best health",
-    optionB: "highest level of satisfaction",
-    optionC: "most hospital admissions",
-    optionD: "least hospital admissions",
+    question: "At what developmental age does a normal infant typically develop the ability to roll over from abdomen to back (prone to supine)?",
+    optionA: "2 months",
+    optionB: "4 to 5 months",
+    optionC: "8 months",
+    optionD: "10 months",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "Infants typically master rolling from prone to supine at around 4 to 5 months of age, and from supine to prone by 6 months.",
   },
-  // 98 (NMCN Professional Questions - Q48)
   {
-    question: "Attributes of dignity felt by patients are _________.",
-    optionA: "self-respect and self-esteem",
-    optionB: "independence",
-    optionC: "self-confidence and self-identity",
-    optionD: "all of these",
-    correctAnswer: "D",
-    explanation: ""
+    question: "The routine age for administering the first dose of Measles and Yellow Fever vaccines under the standard Nigerian childhood immunization schedule is:",
+    optionA: "6 weeks of age",
+    optionB: "14 weeks of age",
+    optionC: "9 months of age",
+    optionD: "18 months of age",
+    correctAnswer: "C",
+    explanation: "Measles and Yellow Fever live-attenuated vaccines are routinely administered simultaneously at 9 months of age when maternal transplacental antibodies have sufficiently waned.",
   },
-  // 99 (NMCN Professional Questions - Q49)
   {
-    question: "Spiritual care in nursing is an important aspect of being _________.",
-    optionA: "holistic",
-    optionB: "kind",
-    optionC: "nice",
-    optionD: "effective",
+    question: "Which maternal infection during the first trimester poses the greatest risk of congenital cataracts, sensorineural deafness, and patent ductus arteriosus (congenital rubella syndrome) in the fetus?",
+    optionA: "Rubella virus (German measles)",
+    optionB: "Toxoplasmosis gondii",
+    optionC: "Candida albicans",
+    optionD: "Group B Streptococcus",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "Maternal rubella infection during organogenesis in early gestation carries high teratogenicity, resulting in the classic triad of cataracts, cardiac malformations, and deafness.",
   },
-  // 100 (NMCN Professional Questions - Q50)
   {
-    question: "Communication in healthcare is essential to ensure _________.",
-    optionA: "patient satisfaction",
-    optionB: "patient safety",
-    optionC: "development of a therapeutic relationship",
-    optionD: "all of these",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  // 101 (NMCN Professional Questions - Q51)
-  {
-    question: "Feedback is _________.",
-    optionA: "external noise",
-    optionB: "provided through verbal communication",
-    optionC: "provided through non-verbal communication",
-    optionD: "provided through verbal and non-verbal communication",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  // 102 (NMCN Professional Questions - Q52)
-  {
-    question: "Non-verbal communication makes up _________ of all communication.",
-    optionA: "50%",
-    optionB: "65%",
-    optionC: "85%",
-    optionD: "100%",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 103 (NMCN Professional Questions - Q53)
-  {
-    question: "Closed questions are best for _________.",
-    optionA: "understanding how a person feels",
-    optionB: "gaining specific information",
-    optionC: "keeping a conversation going",
-    optionD: "all of these",
-    correctAnswer: "B",
-    explanation: ""
-  },
-  // 104 (NMCN Professional Questions - Q54)
-  {
-    question: "Self-awareness is commonly described as understanding _________.",
-    optionA: "our beliefs, values and attitudes",
-    optionB: "the beliefs, values and attitudes of others",
-    optionC: "our responses in different social contexts",
-    optionD: "how others respond in different social contexts",
+    question: "Which parenteral medication is the immediate emergency drug of choice to reverse an acute, life-threatening dystonic reaction?",
+    optionA: "Intramuscular Diphenhydramine (Benadryl) or Benztropine mesylate (Cogentin)",
+    optionB: "Oral Lithium carbonate",
+    optionC: "Intravenous Flumazenil",
+    optionD: "Intramuscular Chlorpromazine",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "Centrally acting anticholinergic agents like diphenhydramine or benztropine rapidly restore the striatal dopamine-acetylcholine balance, aborting acute dystonic spasms within minutes.",
   },
-  // 105 (NMCN Professional Questions - Q55)
   {
-    question: "Which of these is not a barrier to communication?",
-    optionA: "language",
-    optionB: "culture",
-    optionC: "mental health problems",
-    optionD: "all of theses",
-    correctAnswer: "D",
-    explanation: ""
+    question: "In the stages of grief and bereavement described by Elisabeth K\u00fcbler-Ross, the initial stage where a dying or bereaved client refuses to acknowledge reality is:",
+    optionA: "Anger",
+    optionB: "Denial",
+    optionC: "Bargaining",
+    optionD: "Depression",
+    correctAnswer: "B",
+    explanation: "Denial serves as a temporary protective emotional buffer against catastrophic loss, allowing the individual time to gather internal resources.",
   },
-  // 106 (NMCN Professional Questions - Q56)
   {
-    question: "What does Hindle (2003) call barriers to communication?",
-    optionA: "filters",
-    optionB: "falters",
-    optionC: "ignorance",
-    optionD: "walls",
+    question: "Which level of disease prevention is exemplified by administering childhood immunizations, applying dental sealants, and providing nutritional counseling before any disease develops?",
+    optionA: "Primary prevention",
+    optionB: "Secondary prevention",
+    optionC: "Tertiary prevention",
+    optionD: "Quaternary prevention",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "Primary prevention aims to alter susceptibility or reduce exposure to prevent a disease or injury from ever occurring in a healthy population.",
   },
-  // 107 (NMCN Professional Questions - Q57)
   {
-    question: "How might you best overcome linguistic barriers in communicating with others?",
-    optionA: "speak slowly and loudly",
-    optionB: "use gestures",
-    optionC: "ensure that key information is readily available in all common languages and interpreters where possible",
-    optionD: "say nothing – the patient will work it out",
+    question: "In the control of guinea worm disease (Dracunculiasis), which aquatic microcrustacean serves as the intermediate host in contaminated stagnant drinking ponds?",
+    optionA: "Daphnia",
+    optionB: "Cyclops (water flea)",
+    optionC: "Paramecium",
+    optionD: "Hydra",
+    correctAnswer: "B",
+    explanation: "Humans acquire Dracunculus medinensis larvae by ingesting unfiltered water containing infected microscopic Cyclops crustaceans.",
+  },
+  {
+    question: "Which of the following describes the 'herd immunity' threshold required to prevent community transmission of highly infectious diseases like measles?",
+    optionA: "30% to 40% population immunity",
+    optionB: "50% to 60% population immunity",
+    optionC: "92% to 95% population immunity",
+    optionD: "100% complete population immunity",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "Because measles has a very high basic reproduction number (R0 = 12-18), a herd immunity coverage threshold of 92% to 95% is necessary to interrupt indigenous transmission.",
   },
-  // 108 (NMCN Professional Questions - Q58)
   {
-    question: "Papadopoulos et al. (1998) describe such cultural competence as stemming from _________.",
-    optionA: "cultural awareness",
-    optionB: "cultural knowledge",
-    optionC: "cultural sensitivity",
-    optionD: "all of these",
+    question: "When administering an intramuscular injection into the ventrogluteal site in an adult, which anatomical bony landmarks are palpated to establish correct positioning?",
+    optionA: "Acromion process and deltoid tuberosity",
+    optionB: "Greater trochanter, anterior superior iliac spine, and iliac crest",
+    optionC: "Posterior superior iliac spine and sacrum",
+    optionD: "Patella and greater trochanter",
+    correctAnswer: "B",
+    explanation: "The ventrogluteal site is located by placing the palm over the greater trochanter, index finger pointing toward the anterior superior iliac spine, and middle finger along the iliac crest.",
+  },
+  {
+    question: "Which legal tort occurs when a nurse physically restrains a competent client without a legal order or justification, preventing them from leaving the healthcare facility?",
+    optionA: "Assault",
+    optionB: "Battery",
+    optionC: "False imprisonment",
+    optionD: "Defamation of character",
+    correctAnswer: "C",
+    explanation: "False imprisonment is the intentional, unjustified detention or confinement of an individual within specified boundaries without legal consent.",
+  },
+  {
+    question: "According to Abraham Maslow's hierarchy of basic human needs, which need must be satisfied first before higher-level needs become motivating forces?",
+    optionA: "Self-actualization",
+    optionB: "Love and belonging needs",
+    optionC: "Physiological needs (oxygen, water, food, elimination, rest)",
+    optionD: "Self-esteem needs",
+    correctAnswer: "C",
+    explanation: "Physiological survival needs (air, water, food, shelter, thermoregulation) form the foundational base of Maslow's pyramid and take absolute priority over psycho-emotional needs.",
+  },
+  {
+    question: "In disaster triage using the color-coded START system, a casualty with catastrophic injuries who is unresponsive, pulseless, and non-breathing despite airway opening is assigned which triage color tag?",
+    optionA: "Green (Minor)",
+    optionB: "Yellow (Delayed)",
+    optionC: "Red (Immediate)",
+    optionD: "Black (Expectant / Deceased)",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "Black tags designate deceased victims or casualties whose injuries are so catastrophic that survival is impossible given available field medical resources.",
   },
-  // 109 (NMCN Professional Questions - Q59)
   {
-    question: "Why should you always assume that the unconscious person can hear and understand what is going on around them?",
-    optionA: "Some people who have regained consciousness have recalled conversations that have taken place around them whilst they have been unconscious.",
-    optionB: "This is a policy of the hospital.",
-    optionC: "People prefer this.",
-    optionD: "It helps the nurse to form a relationship with the patient.",
+    question: "In clinical research, a sampling strategy in which every individual in the target population has an equal and known independent probability of selection is called:",
+    optionA: "Convenience sampling",
+    optionB: "Purposive sampling",
+    optionC: "Simple random sampling",
+    optionD: "Quota sampling",
+    correctAnswer: "C",
+    explanation: "Simple random sampling is a probability method where every unit in the sampling frame has an equal chance of being selected, eliminating selection bias.",
+  },
+  {
+    question: "The primary functional unit of the human kidney responsible for filtration and urine formation is the:",
+    optionA: "Glomerulus",
+    optionB: "Nephron",
+    optionC: "Loop of Henle",
+    optionD: "Renal calyx",
+    correctAnswer: "B",
+    explanation: "The nephron, comprising the renal corpuscle and renal tubule, is the structural and functional microscopic unit of the kidney.",
+  },
+  {
+    question: "The primary neurological respiratory center responsible for generating the basic autonomic rhythm of breathing is located in the:",
+    optionA: "Cerebellum",
+    optionB: "Medulla oblongata",
+    optionC: "Cerebral cortex",
+    optionD: "Thalamus",
+    correctAnswer: "B",
+    explanation: "The dorsal and ventral respiratory groups in the medulla oblongata establish and regulate the fundamental rhythmic pattern of inspiration and expiration.",
+  },
+  {
+    question: "Calcitonin, which lowers serum calcium concentration by inhibiting osteoclasts, is synthesized by:",
+    optionA: "Parathyroid chief cells",
+    optionB: "Thyroid parafollicular C cells",
+    optionC: "Adrenal chromaffin cells",
+    optionD: "Pancreatic alpha cells",
+    correctAnswer: "B",
+    explanation: "Parafollicular C cells in the thyroid gland secrete calcitonin in response to hypercalcemia, promoting calcium deposition into bone matrix.",
+  },
+  {
+    question: "Bile acids and salts are synthesized in the liver from which biochemical precursor?",
+    optionA: "Triglycerides",
+    optionB: "Cholesterol",
+    optionC: "Bilirubin",
+    optionD: "Fatty acids",
+    correctAnswer: "B",
+    explanation: "Hepatocytes synthesize primary bile acids (cholic acid and chenodeoxycholic acid) from cholesterol, which are then conjugated with glycine or taurine.",
+  },
+  {
+    question: "Which layer of the heart wall is composed primarily of contractile cardiac muscle fibers?",
+    optionA: "Endocardium",
+    optionB: "Epicardium",
+    optionC: "Myocardium",
+    optionD: "Fibrous pericardium",
+    correctAnswer: "C",
+    explanation: "The myocardium is the thick, involuntary middle muscular layer of the cardiac wall that executes rhythmic pumping contractions.",
+  },
+  {
+    question: "Which antidote is specifically indicated to reverse severe life-threatening hemorrhage caused by unfractionated heparin?",
+    optionA: "Vitamin K1 (Phytonadione)",
+    optionB: "Protamine sulfate",
+    optionC: "Aminocaproic acid",
+    optionD: "Desmopressin (DDAVP)",
+    correctAnswer: "B",
+    explanation: "Protamine sulfate is a strongly basic peptide that binds strongly to acidic heparin molecules to form a stable, inactive neutral salt complex.",
+  },
+  {
+    question: "In a patient presenting with renal calculi composed of calcium oxalate, which dietary instruction is most appropriate?",
+    optionA: "Strictly eliminate all dietary calcium from food sources",
+    optionB: "Maintain adequate fluid intake of 2.5 to 3 liters daily and reduce oxalate-rich foods like spinach and chocolate",
+    optionC: "Increase intake of high-purine organ meats and sardines",
+    optionD: "Restrict daily water intake to 1 liter to avoid urinary stasis",
+    correctAnswer: "B",
+    explanation: "High fluid intake dilutes urinary solute concentrations, and limiting oxalate-rich foods (spinach, rhubarb, nuts, chocolate, black tea) decreases stone nucleation.",
+  },
+  {
+    question: "In sickle cell disease, which factor is the primary trigger that induces erythrocyte sickling and vaso-occlusive crisis?",
+    optionA: "Alkalosis and hyperoxia",
+    optionB: "Hypoxia, dehydration, cold exposure, and acidosis",
+    optionC: "High carbohydrate dietary intake",
+    optionD: "Bed rest and excessive hydration",
+    correctAnswer: "B",
+    explanation: "Deoxygenation causes abnormal hemoglobin S (HbS) to polymerize into rigid, elongated filaments, deforming erythrocytes into sickle shapes and occluding microvessels.",
+  },
+  {
+    question: "A client with a chest tube drainage system for hemothorax exhibits sudden cessation of drainage and signs of respiratory distress. What should the nurse assess first?",
+    optionA: "Check the tubing for kinks, dependent loops, or blood clot obstruction",
+    optionB: "Strip the chest tube vigorously toward the drainage unit",
+    optionC: "Immediately clamp the chest tube close to the insertion site",
+    optionD: "Increase the wall suction pressure to -40 cm H2O",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "The nurse must inspect the tubing for dependent loops or mechanical obstruction. Clamping or vigorous stripping is contraindicated because it generates dangerously high negative pleural pressures.",
   },
-  // 110 (NMCN Professional Questions - Q60)
   {
-    question: "Sensory impairments include an inability to _________.",
-    optionA: "hear or hear well",
-    optionB: "see or see well",
-    optionC: "speak or communicate verbally very well",
-    optionD: "all of these",
+    question: "In managing severe Diabetic Ketoacidosis (DKA), which type of insulin is administered intravenously via continuous infusion?",
+    optionA: "Insulin glargine (Lantus)",
+    optionB: "Regular insulin (Short-acting)",
+    optionC: "NPH insulin (Intermediate-acting)",
+    optionD: "Insulin detemir (Levemir)",
+    correctAnswer: "B",
+    explanation: "Regular insulin is the only conventional insulin formulation approved for intravenous infusion because of its rapid clearance and titratability.",
+  },
+  {
+    question: "A client with a complete spinal cord transection at T4 is at risk for Autonomic Dysreflexia (Hyperreflexia). The most common triggering stimulus for this hypertensive emergency is:",
+    optionA: "Sudden exposure to cold air",
+    optionB: "Bladder distention or fecal impaction below the level of the injury",
+    optionC: "Excessive oral fluid intake",
+    optionD: "Deep tendon reflex testing",
+    correctAnswer: "B",
+    explanation: "Noxious visceral stimulation (most frequently an overdistended bladder or impacted rectum) triggers uninhibited sympathetic discharge below the lesion, causing severe malignant hypertension.",
+  },
+  {
+    question: "During active labor, a client's fetal heart monitor demonstrates sudden, deep V-shaped decelerations that are unrelated to contractions. The nurse interprets these as:",
+    optionA: "Early decelerations due to fetal head compression",
+    optionB: "Variable decelerations caused by umbilical cord compression",
+    optionC: "Late decelerations indicative of uteroplacental insufficiency",
+    optionD: "Normal accelerations showing fetal movement",
+    correctAnswer: "B",
+    explanation: "Variable decelerations are characterized by abrupt decrease and recovery (V or W shaped) and reflect transient umbilical cord compression; maternal repositioning is the first action.",
+  },
+  {
+    question: "At which developmental age does a normal child typically master the ability to walk independently without support?",
+    optionA: "6 to 8 months",
+    optionB: "12 to 15 months",
+    optionC: "20 to 24 months",
+    optionD: "30 to 36 months",
+    correctAnswer: "B",
+    explanation: "Most healthy infants stand independently around 11 to 12 months and walk independently between 12 and 15 months of age.",
+  },
+  {
+    question: "Which screening questionnaire is widely utilized in clinical practice to screen for alcohol use disorder and problem drinking using four concise questions?",
+    optionA: "MMSE (Mini-Mental State Exam)",
+    optionB: "CAGE questionnaire (Cut down, Annoyed, Guilty, Eye-opener)",
+    optionC: "APGAR questionnaire",
+    optionD: "Glasgow Coma Scale",
+    correctAnswer: "B",
+    explanation: "The CAGE questionnaire assesses four core aspects: feeling the need to Cut down, Annoyance at criticism, Guilt about drinking, and needing an Eye-opener drink in the morning.",
+  },
+  {
+    question: "The primary vector responsible for the transmission of Yellow Fever and Dengue viruses in urban and peri-urban environments is:",
+    optionA: "Anopheles gambiae",
+    optionB: "Aedes aegypti",
+    optionC: "Culex quinquefasciatus",
+    optionD: "Mansonia africana",
+    correctAnswer: "B",
+    explanation: "Aedes aegypti mosquitoes breed in domestic artificial water containers and bite during daylight hours, transmitting yellow fever, dengue, chikungunya, and Zika viruses.",
+  },
+  {
+    question: "The Five Rights of medication administration traditionally include the Right Patient, Right Drug, Right Dose, Right Route, and:",
+    optionA: "Right Hospital",
+    optionB: "Right Time",
+    optionC: "Right Pharmacy",
+    optionD: "Right Physician",
+    correctAnswer: "B",
+    explanation: "The traditional Five Rights of safe medication administration are: Right Patient, Right Drug, Right Dose, Right Route, and Right Time.",
+  },
+  {
+    question: "Which constituent of blood plasma is essential for the normal clotting of blood?",
+    optionA: "Albumin",
+    optionB: "Amino acids",
+    optionC: "Creatinine",
+    optionD: "Fibrinogen",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "Fibrinogen (Factor I) is a soluble high-molecular-weight plasma protein converted to insoluble fibrin strands during coagulation.",
   },
-  // 111 (NMCN Professional Questions - Q61)
   {
-    question: "Which of the following is NOT an augmented or alternative method of communication?",
-    optionA: "photographs",
-    optionB: "sign language",
-    optionC: "communication boards with images",
-    optionD: "verbal conversation",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  // 112 (NMCN Professional Questions - Q62)
-  {
-    question: "What is dysarthria?",
-    optionA: "difficulty in pronouncing words",
-    optionB: "an inability to swallow",
-    optionC: "painful joints",
-    optionD: "a general disability to function",
+    question: "The single-layer cellular lining of all arteries and vascular endothelium consists of:",
+    optionA: "Epithelial tissue (simple squamous endothelium)",
+    optionB: "Fibrous connective tissue",
+    optionC: "Lymphoid tissue",
+    optionD: "Smooth muscle tissue exclusively",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "The tunica intima of blood vessels is lined with a smooth, continuous monolayer of specialized simple squamous epithelial cells called the endothelium.",
   },
-  // 113 (NMCN Professional Questions - Q63)
   {
-    question: "Which if the following is NOT a common symptom of depression?",
-    optionA: "feelings of sadness",
-    optionB: "decrease in appreciate",
-    optionC: "sleep problems",
-    optionD: "concerns about body image",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  // 114 (NMCN Professional Questions - Q64)
-  {
-    question: "The first step in handling challenging situations and being able to resolve problems is to _________.",
-    optionA: "tell the person to calm down",
-    optionB: "try to find out what is concerning the person",
-    optionC: "make the person a cup of tea",
-    optionD: "leave the person alone to calm down",
+    question: "Which organ belongs functionally and anatomically to both the respiratory and digestive systems?",
+    optionA: "Larynx",
+    optionB: "Pharynx",
+    optionC: "Trachea",
+    optionD: "Esophagus",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "The pharynx acts as a common fibromuscular conduit for both the passage of air to the larynx and food/liquids to the esophagus.",
   },
-  // 115 (NMCN Professional Questions - Q65)
   {
-    question: "Incidents or errors caused by latent conditions are known as _________.",
-    optionA: "system failures",
-    optionB: "cluster failures",
-    optionC: "human error",
-    optionD: "environmental error",
+    question: "During quiet expiration, air is expelled from the lungs primarily due to:",
+    optionA: "Contraction of internal intercostals",
+    optionB: "Passive elastic recoil of the lungs and chest wall",
+    optionC: "Forceful contraction of the abdominal wall",
+    optionD: "Elevation of the diaphragm",
+    correctAnswer: "B",
+    explanation: "Normal resting expiration is a passive process resulting from elastic recoil of pulmonary tissues and relaxation of inspiratory muscles.",
+  },
+  {
+    question: "The falx cerebri is a crescent-shaped fold of dura mater located between the:",
+    optionA: "Right and left cerebral hemispheres",
+    optionB: "Cerebrum and cerebellum",
+    optionC: "Right and left cerebellar hemispheres",
+    optionD: "Brainstem and spinal cord",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "The falx cerebri descends vertically in the longitudinal cerebral fissure, separating the right and left cerebral hemispheres.",
   },
-  // 116 (NMCN Professional Questions - Q66)
   {
-    question: "The primary role and function of the Nursing and Midwifery Council of Nigeria is to _________.",
-    optionA: "protect nurses and midwives",
-    optionB: "regulate and ensure sanity in nursing profession thereby protecting the public health-wise",
-    optionC: "treat patients in the healthcare centre",
-    optionD: "all of the above",
+    question: "In adults, the spinal cord terminates inferiorly at approximately the level of which vertebra?",
+    optionA: "T10",
+    optionB: "L1 to L2 (conus medullaris)",
+    optionC: "L5",
+    optionD: "S2",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "Because the vertebral column outgrows the spinal cord during fetal development, the adult spinal cord ends as the conus medullaris at L1-L2.",
   },
-  // 117 (NMCN Professional Questions - Q67)
   {
-    question: "The purpose of a risk assessment is to _________.",
-    optionA: "prevent health care professionals from being sued",
-    optionB: "avoid potential injury or harm to a patient",
-    optionC: "ensure evidence based care is delivered",
-    optionD: "abide with the standard of nursing in Nigeria",
+    question: "How many extrinsic skeletal muscles control the precise coordinated movements of each eye?",
+    optionA: "4 muscles",
+    optionB: "6 muscles",
+    optionC: "8 muscles",
+    optionD: "2 muscles",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "Six extrinsic oculomotor muscles control each eyeball: four recti (superior, inferior, medial, lateral) and two obliques (superior and inferior).",
   },
-  // 118 (NMCN Professional Questions - Q68)
   {
-    question: "Registered Nurses / midwives are accountable to _________.",
-    optionA: "their employer",
-    optionB: "the patient",
-    optionC: "the NMCN",
-    optionD: "all of these",
-    correctAnswer: "D",
-    explanation: ""
+    question: "Each human kidney contains approximately how many nephrons?",
+    optionA: "10,000",
+    optionB: "100,000",
+    optionC: "1,000,000 (one million)",
+    optionD: "10,000,000",
+    correctAnswer: "C",
+    explanation: "Each kidney houses approximately 1 to 1.25 million functioning microscopic nephrons responsible for ultrafiltration and osmoregulation.",
   },
-  // 119 (NMCN Professional Questions - Q69)
   {
-    question: "Automated devices for recording blood pressure are more reliable than manual methods.",
-    optionA: "True",
-    optionB: "False",
-    optionC: "Both are equally reliable in all clinical situations",
-    optionD: "Only in critically ill patients",
+    question: "Which powerful anterior thigh muscle group acts to extend the leg at the knee joint?",
+    optionA: "Hamstring muscles",
+    optionB: "Quadriceps femoris",
+    optionC: "Gastrocnemius",
+    optionD: "Sartorius",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "The quadriceps femoris (rectus femoris, vastus lateralis, vastus medialis, vastus intermedius) inserts into the tibial tuberosity to extend the knee.",
   },
-  // 120 (NMCN Professional Questions - Q70)
   {
-    question: "In nursing, Records should be clear, intelligible and _________.",
-    optionA: "accessible",
-    optionB: "available",
-    optionC: "annotated",
-    optionD: "accurate",
-    correctAnswer: "D",
-    explanation: ""
+    question: "Deficiency of Vitamin D in growing children impairs bone mineralization, causing the clinical disorder known as:",
+    optionA: "Osteomalacia",
+    optionB: "Rickets (bowed legs and rachitic rosary)",
+    optionC: "Osteoporosis",
+    optionD: "Scurvy",
+    correctAnswer: "B",
+    explanation: "Defective mineralization of growth plates in children due to vitamin D or calcium deficiency causes softening of bones, skeletal deformities, and rickets.",
   },
-  // 121 (NMCN Professional Questions - Q71)
   {
-    question: "The E in the No Elbow Rule stands for _________.",
-    optionA: "erasing",
-    optionB: "editing",
-    optionC: "electronic",
-    optionD: "entries",
+    question: "Which developmental stage of lochia is normally observed between postpartum days 4 and 10, characterized by pinkish-brown, watery discharge?",
+    optionA: "Lochia rubra",
+    optionB: "Lochia serosa",
+    optionC: "Lochia alba",
+    optionD: "Lochia purulenta",
+    correctAnswer: "B",
+    explanation: "Lochia serosa is the pink to brownish vaginal discharge consisting of serous exudate, erythrocytes, and leukocytes occurring roughly from days 4 to 10 postpartum.",
+  },
+  {
+    question: "When assessing a postoperative abdominal wound, the nurse notes total separation of all wound layers and protrusion of loops of bowel. What is the priority nursing action?",
+    optionA: "Gently push the exposed bowel back into the abdominal cavity using gloved hands",
+    optionB: "Cover the protruding organs with sterile gauze moistened with sterile saline and notify the surgeon immediately",
+    optionC: "Apply an abdominal binder tightly and encourage deep breathing exercises",
+    optionD: "Administer intramuscular morphine and have the patient ambulate to the examination room",
+    correctAnswer: "B",
+    explanation: "Wound evisceration is a surgical emergency. The nurse must cover the protruding viscera with sterile saline-soaked gauze to keep tissues moist, position the patient in low Fowler's with knees flexed, and alert the surgeon immediately.",
+  },
+  {
+    question: "What is the therapeutic reference range for serum digoxin in an adult treated for atrial fibrillation or congestive heart failure?",
+    optionA: "0.5 to 2.0 ng/mL",
+    optionB: "3.5 to 5.0 ng/mL",
+    optionC: "6.0 to 10.0 ng/mL",
+    optionD: "12.0 to 18.0 ng/mL",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "The therapeutic serum concentration of digoxin is 0.5 to 2.0 ng/mL (in modern heart failure guidelines, 0.5 to 0.9 ng/mL is often preferred to reduce toxic risks).",
   },
-  // 122 (NMCN Professional Questions - Q72)
   {
-    question: "When writing in patients' notes what must always be there?",
-    optionA: "date, time, signature, printed name, position held, mentor's signature",
-    optionB: "date, time, ward, signature",
-    optionC: "date, time, signature, printed name, position held",
-    optionD: "date, time, signature, printed name",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 123 (NMCN Professional Questions - Q73)
-  {
-    question: "Which one of the following is a legal requirement to be complied with in relation to records?",
-    optionA: "NMC Record Keeping",
-    optionB: "Caldicot principles",
-    optionC: "Data Protection Law",
-    optionD: "Code of Professional Conduct",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 124 (NMCN Professional Questions - Q74)
-  {
-    question: "If you make a mistake in a record how should it be corrected?",
-    optionA: "with correction fluid",
-    optionB: "scribble it out",
-    optionC: "put a single line through the record",
-    optionD: "tell your mentor",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 125 (NMCN Professional Questions - Q75)
-  {
-    question: "What colour ink can be used when writing in patients records?",
-    optionA: "any as long as it is legible",
-    optionB: "black",
-    optionC: "black or dark blue",
-    optionD: "black, blue, green and red",
-    correctAnswer: "B",
-    explanation: ""
-  },
-  // 126 (NMCN Professional Questions - Q76)
-  {
-    question: "What does contemporaneous mean?",
-    optionA: "written in plain language",
-    optionB: "comprehensively written",
-    optionC: "written in real time.",
-    optionD: "written in a chronological order",
+    question: "Which phase of the nursing process involves comparing the client's current health status against predetermined expected outcomes to determine goal attainment?",
+    optionA: "Assessment",
+    optionB: "Diagnosis",
+    optionC: "Implementation",
+    optionD: "Evaluation",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "Evaluation is the final phase of the nursing process, where the nurse determines client progress toward goal achievement and assesses the efficacy of interventions.",
   },
-  // 127 (NMCN Professional Questions - Q77)
   {
-    question: "Who adopts the approach that 'if it is not recorded, it has not happened'?",
-    optionA: "the Nursing and Midwifery Council",
-    optionB: "courts of law",
-    optionC: "the Data Protection Act",
-    optionD: "the doctors",
+    question: "What is the primary mode of transmission for the Hepatitis B virus (HBV)?",
+    optionA: "Fecal-oral route through contaminated drinking water",
+    optionB: "Percutaneous and mucosal exposure to infectious blood or body fluids",
+    optionC: "Airborne droplet nuclei in crowded spaces",
+    optionD: "Direct ingestion of unpasteurized dairy products",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "Hepatitis B virus is bloodborne and sexually transmitted, spreading via percutaneous inoculation (needlestick, tattooing, injections) and contact with infected bodily fluids.",
   },
-  // 128 (NMCN Professional Questions - Q78)
   {
-    question: "How often should you write in the patients notes?",
-    optionA: "once a day",
-    optionB: "at the end of every shift.",
-    optionC: "once a shift and if any other changes occur",
-    optionD: "morning, afternoon and night-time",
-    correctAnswer: "C",
-    explanation: ""
+    question: "Which large lymphatic trunk begins in the abdomen as the cisterna chyli at the level of the L2 vertebra and empties into the left subclavian vein?",
+    optionA: "Right lymphatic duct",
+    optionB: "Thoracic duct",
+    optionC: "Left broncho-mediastinal trunk",
+    optionD: "Cervical lymph duct",
+    correctAnswer: "B",
+    explanation: "The thoracic duct collects lymph from both lower limbs, pelvis, abdomen, left thorax, left upper limb, and left head and neck.",
   },
-  // 129 (NMCN Professional Questions - Q79)
   {
-    question: "Who can write in the patients' notes?",
-    optionA: "all relevant professionals within the health whose duties allow it",
-    optionB: "medical and nursing staff",
-    optionC: "medical, nursing and other health and social care professionals",
-    optionD: "anyone",
+    question: "Under the Rule of Nines, the anterior trunk (chest and abdomen) of an adult accounts for what percentage of TBSA?",
+    optionA: "9%",
+    optionB: "18%",
+    optionC: "27%",
+    optionD: "36%",
+    correctAnswer: "B",
+    explanation: "The anterior trunk represents 18% (chest 9%, abdomen 9%), and the entire posterior trunk represents 18%.",
+  },
+  {
+    question: "To prevent ischemic necrosis of the tracheal mucosa in an intubated client, the endotracheal or tracheostomy tube cuff pressure should be maintained between:",
+    optionA: "5 to 10 mmHg",
+    optionB: "20 to 25 mmHg (or 20 to 30 cm H2O)",
+    optionC: "40 to 50 mmHg",
+    optionD: "60 to 80 mmHg",
+    correctAnswer: "B",
+    explanation: "Tracheal capillary perfusion pressure is approximately 25 to 30 mmHg; cuff pressures exceeding 25 mmHg compress tracheal arterioles, causing mucosal ulceration and stenosis.",
+  },
+  {
+    question: "Which of the following dietary elements is essential for hemoglobin synthesis, preventing microcytic hypochromic anemia?",
+    optionA: "Elemental Iron (Ferrous Fe2+)",
+    optionB: "Cobalt",
+    optionC: "Magnesium",
+    optionD: "Calcium",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "Each heme group in hemoglobin contains a central ferrous iron ion that reversibly binds a molecule of diatomic oxygen.",
   },
-  // 130 (NMCN Professional Questions - Q80)
   {
-    question: "The NMCN code states that nurses must 'take all steps to make sure that all records are kept _________'.",
-    optionA: "in a locked desk",
-    optionB: "securely",
-    optionC: "in order",
-    optionD: "within the hospital",
+    question: "Which electrolyte imbalance is the most common cause of dangerous digitalis (digoxin) induced cardiac arrhythmias?",
+    optionA: "Hypernatremia",
+    optionB: "Hypokalemia",
+    optionC: "Hypermagnesemia",
+    optionD: "Hypocalcemia",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "Potassium competes with digoxin for binding at the myocardial Na+/K+ ATPase pump; hypokalemia allows more digoxin to bind, dramatically amplifying toxicity.",
   },
-  // 131 (NMCN Professional Questions - Q81)
   {
-    question: "The NMCN code states that nurses must 'collect, treat and store all data and research findings _________'.",
-    optionA: "in the ward office",
-    optionB: "appropriately",
-    optionC: "confidentially",
-    optionD: "as soon as possible",
+    question: "The connective tissue membrane that directly encloses and adheres to the outer surface of bones, providing vascular nourishment and osteogenic potential, is the:",
+    optionA: "Endosteum",
+    optionB: "Periosteum",
+    optionC: "Perichondrium",
+    optionD: "Perimysium",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "The periosteum is a dense fibrous membrane whose inner osteogenic layer contains osteoprogenitor cells essential for bone growth in diameter and fracture repair.",
   },
-  // 132 (NMCN Professional Questions - Q82)
   {
-    question: "The NMCN code states that nurses must identify any _________ or problems that have arisen and take steps to deal with them where necessary.",
-    optionA: "issues",
-    optionB: "incidents",
-    optionC: "accidents",
-    optionD: "risks",
+    question: "The anatomical space between the vocal cords in the larynx through which air enters the trachea is the:",
+    optionA: "Epiglottis",
+    optionB: "Glottis (rima glottidis)",
+    optionC: "Vallecula",
+    optionD: "Piriform recess",
+    correctAnswer: "B",
+    explanation: "The glottis consists of the true vocal folds and the slit-like opening (rima glottidis) between them, serving as the vocal and airway gateway.",
+  },
+  {
+    question: "Which portion of the electrocardiogram (ECG) represents electrical atrial depolarization?",
+    optionA: "P wave",
+    optionB: "QRS complex",
+    optionC: "T wave",
+    optionD: "U wave",
+    correctAnswer: "A",
+    explanation: "The P wave corresponds to the spread of electrical activation from the SA node across the right and left atria, preceding atrial mechanical contraction.",
+  },
+  {
+    question: "Which layer of an artery wall contains smooth muscle and elastic fibers that regulate vascular resistance and lumen diameter?",
+    optionA: "Tunica intima",
+    optionB: "Tunica media",
+    optionC: "Tunica adventitia (externa)",
+    optionD: "Endothelium",
+    correctAnswer: "B",
+    explanation: "The tunica media is the thick middle layer controlled by sympathetic vasomotor nerves, mediating vasoconstriction and vasodilation.",
+  },
+  {
+    question: "The small, conical muscular projections arising from the ventricular walls that anchor the chordae tendineae are the:",
+    optionA: "Papillary muscles",
+    optionB: "Pectinate muscles",
+    optionC: "Crista terminalis",
+    optionD: "Fossa ovalis",
+    correctAnswer: "A",
+    explanation: "Papillary muscles contract simultaneously with the ventricular walls, pulling on the chordae tendineae to keep AV valves closed against systolic pressure.",
+  },
+  {
+    question: "The appendix is a blind-ended lymphoid tube attached to the posteromedial wall of which section of the large intestine?",
+    optionA: "Cecum",
+    optionB: "Ascending colon",
+    optionC: "Sigmoid colon",
+    optionD: "Rectum",
+    correctAnswer: "A",
+    explanation: "The vermiform appendix arises from the cecum approximately 2 to 3 cm below the ileocecal valve.",
+  },
+  {
+    question: "Which diagnostic procedure involves visualization of the tracheobronchial tree using a flexible fiberoptic scope?",
+    optionA: "Laryngoscopy",
+    optionB: "Bronchoscopy",
+    optionC: "Mediastinoscopy",
+    optionD: "Thoracoscopy",
+    correctAnswer: "B",
+    explanation: "Flexible bronchoscopy enables direct visualization of larynx, trachea, and bronchi, bronchial washing, and transbronchial biopsy.",
+  },
+  {
+    question: "A client receiving total parenteral nutrition (TPN) via a central venous catheter should have blood glucose levels monitored every 4 to 6 hours because:",
+    optionA: "TPN solutions contain high concentrations of hypertonic dextrose (typically 20% to 50%) that risk hyperosmolar hyperglycemia",
+    optionB: "TPN contains pure insulin",
+    optionC: "TPN causes immediate hypoglycemia",
+    optionD: "TPN damages pancreatic alpha cells",
+    correctAnswer: "A",
+    explanation: "Infusion of concentrated glucose stimulates insulin output but can overwhelm endogenous regulation, precipitating severe hyperglycemia or osmotic diuresis.",
+  },
+  {
+    question: "Cryoprecipitate is an enriched blood product specifically indicated for the replacement of:",
+    optionA: "Albumin and globulins",
+    optionB: "Fibrinogen (Factor I), Factor VIII, and von Willebrand factor",
+    optionC: "Red blood cells and hemoglobin",
+    optionD: "Platelets",
+    correctAnswer: "B",
+    explanation: "Cryoprecipitate is prepared by thawing FFP and collecting the cold-insoluble precipitate, providing a concentrated source of fibrinogen and factor VIII.",
+  },
+  {
+    question: "When administering oral tetracycline hydrochloride, the nurse instructs the client to avoid taking the medication with which substances that chelate and prevent absorption?",
+    optionA: "Water and tea",
+    optionB: "Dairy products (milk, cheese), antacids, and iron supplements containing divalent and trivalent cations",
+    optionC: "Bread and carbohydrates",
+    optionD: "Lean meats",
+    correctAnswer: "B",
+    explanation: "Tetracyclines form insoluble non-absorbable chelates with calcium, magnesium, aluminum, and iron, inactivating antimicrobial efficacy.",
+  },
+  {
+    question: "The physiological process of breast milk let-down (ejection reflex) in response to infant suckling or crying is mediated by which hormone?",
+    optionA: "Prolactin",
+    optionB: "Oxytocin (released from posterior pituitary)",
+    optionC: "Progesterone",
+    optionD: "Estrogen",
+    correctAnswer: "B",
+    explanation: "Oxytocin stimulates myoepithelial cells surrounding mammary alveoli to contract, ejecting milk into the lactiferous sinuses.",
+  },
+  {
+    question: "Fine, unpigmented downy hair that covers the body of the fetus and is especially abundant in preterm infants is called:",
+    optionA: "Vernix",
+    optionB: "Lanugo",
+    optionC: "Striae",
+    optionD: "Chloasma",
+    correctAnswer: "B",
+    explanation: "Lanugo appears around 20 weeks gestation and is progressively shed into amniotic fluid by term gestation.",
+  },
+  {
+    question: "In which congenital malformation does the abdominal wall fail to close at the umbilicus, leaving herniated abdominal viscera covered by a translucent peritoneal and amniotic sac?",
+    optionA: "Gastroschisis",
+    optionB: "Omphalocele",
+    optionC: "Umbilical hernia",
+    optionD: "Diaphragmatic hernia",
+    correctAnswer: "B",
+    explanation: "Omphalocele features eviscerated abdominal organs enclosed within an intact membranous sac with the umbilical cord inserting directly onto the apex.",
+  },
+  {
+    question: "Which chelating agent is specific for the treatment of acute iron poisoning in young children who ingest accidental overdoses of iron supplement tablets?",
+    optionA: "Dimercaprol (BAL)",
+    optionB: "Deferoxamine mesylate",
+    optionC: "Calcium disodium EDTA",
+    optionD: "Penicillamine",
+    correctAnswer: "B",
+    explanation: "Deferoxamine binds free ferric iron (Fe3+) in systemic circulation and tissues, forming ferrioxamine, which is excreted harmlessly in reddish-orange urine.",
+  },
+  {
+    question: "The rhythmic regularity and predictable interval pattern between successive heartbeats is referred to as:",
+    optionA: "Pulse deficit",
+    optionB: "Pulse rhythm",
+    optionC: "Pulse pressure",
+    optionD: "Pulse amplitude",
+    correctAnswer: "B",
+    explanation: "Pulse rhythm describes the temporal spacing of heartbeats, which is normally regular; irregularities constitute dysrhythmias.",
+  },
+  {
+    question: "During bone fracture healing and remodeling, the bony callus is reshaped and excess bone is resorbed by:",
+    optionA: "Osteoblasts",
+    optionB: "Osteoclasts",
+    optionC: "Chondroblasts",
+    optionD: "Fibroblasts",
+    correctAnswer: "B",
+    explanation: "Osteoclasts resorb unneeded trabeculae and reconstruct the medullary cavity and compact cortex according to Wolff's law of bone remodeling.",
+  },
+  {
+    question: "The functional residual capacity (FRC) of the lungs represents the volume of air:",
+    optionA: "Remaining in the lungs after a maximal forced expiration",
+    optionB: "Remaining in the lungs after a normal quiet tidal expiration",
+    optionC: "Inspired during deep maximal inhalation",
+    optionD: "Exchanged in one minute",
+    correctAnswer: "B",
+    explanation: "FRC is the sum of expiratory reserve volume and residual volume, representing the volume of air resting in lungs at end-expiration (approx. 2200-2400 mL).",
+  },
+  {
+    question: "In the human stomach, hydrochloric acid creates an intensely acidic pH that serves to:",
+    optionA: "Emulsify dietary fats",
+    optionB: "Denature ingested proteins, kill swallowed microorganisms, and activate pepsinogen to pepsin",
+    optionC: "Absorb vitamin B12 directly",
+    optionD: "Synthesize bile salts",
+    correctAnswer: "B",
+    explanation: "Parietal cell HCl lowers gastric pH to 1.5-2.0, providing the optimal environment for pepsinogen autocatalysis and antimicrobial defense.",
+  },
+  {
+    question: "Which cell organelle contains hydrolytic acid enzymes responsible for intracellular digestion of phagocytosed bacteria and damaged organelles?",
+    optionA: "Peroxisomes",
+    optionB: "Lysosomes",
+    optionC: "Golgi apparatus",
+    optionD: "Endoplasmic reticulum",
+    correctAnswer: "B",
+    explanation: "Lysosomes are spherical membrane-bound organelles containing acid hydrolases (pH ~5) that degrade engulfed macromolecules.",
+  },
+  {
+    question: "Which of the following is NOT among the branches of microscopic anatomy?",
+    optionA: "Organology",
+    optionB: "Topographical (regional) gross anatomy",
+    optionC: "Histology",
+    optionD: "Cytology",
+    correctAnswer: "B",
+    explanation: "Topographical anatomy is the study of visible regional anatomical relationships by macroscopic gross inspection and dissection.",
+  },
+  {
+    question: "Dyspnea that occurs when lying flat and is promptly relieved by sitting upright or propping with pillows is termed:",
+    optionA: "Tachypnea",
+    optionB: "Orthopnea",
+    optionC: "Bradypnea",
+    optionD: "Hyperpnea",
+    correctAnswer: "B",
+    explanation: "Orthopnea is characteristic of congestive heart failure; recumbency increases venous return to failing left ventricles, precipitating pulmonary congestion.",
+  },
+  {
+    question: "Pancytopenia is defined in clinical hematology as a simultaneous marked reduction in circulating levels of:",
+    optionA: "Red blood cells exclusively",
+    optionB: "White blood cells exclusively",
+    optionC: "Platelets exclusively",
+    optionD: "All three cellular elements: erythrocytes, leukocytes, and platelets (aplastic anemia)",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "Pancytopenia indicates bone marrow failure or suppression where red blood cells, white blood cells, and platelets are all concurrently depleted.",
   },
-  // 133 (NMCN Professional Questions - Q83)
   {
-    question: "The NMCN code states that nurses must 'complete all records accurately and without any _________'.",
-    optionA: "falsification",
-    optionB: "interference",
-    optionC: "patients present",
-    optionD: "mistakes",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 134 (NMCN Professional Questions - Q84)
-  {
-    question: "The NMCN code states that records must not 'include unnecessary abbreviations, jargon or _________'.",
-    optionA: "hearsay",
-    optionB: "swear words",
-    optionC: "speculation",
-    optionD: "humorous comments",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 135 (NMCN Professional Questions - Q85)
-  {
-    question: "If you believe that a colleague or anyone else may be putting someone at risk, you must _________.",
-    optionA: "give yourself plenty of time to think about it",
-    optionB: "take your time in doing something about it",
-    optionC: "act without delay",
-    optionD: "speak to as many people as possible before acting",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 136 (NMCN Professional Questions - Q86)
-  {
-    question: "If you have a concern in practice you should first _________.",
-    optionA: "phone your local newspaper",
-    optionB: "post a message on Twitter or Facebook",
-    optionC: "tell everyone in the clinical area",
-    optionD: "raise the concern internally with your line manager or mentor",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  // 137 (NMCN Professional Questions - Q87)
-  {
-    question: "Questioning and reflective practice should always be _________.",
-    optionA: "encouraged",
-    optionB: "undertaken only in the classroom",
-    optionC: "discussed with experienced people",
-    optionD: "undertaken when you have plenty of time",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 138 (NMCN Professional Questions - Q88)
-  {
-    question: "The responsibility for safeguarding is _________.",
-    optionA: "for the multi-disciplinary safeguarding team only",
-    optionB: "with the police",
-    optionC: "everyone's responsibility",
-    optionD: "only for senior managers",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 139 (NMCN Professional Questions - Q89)
-  {
-    question: "Safeguarding is _________.",
-    optionA: "just about keeping people safe",
-    optionB: "about stopping people taking risks",
-    optionC: "a proactive approach which includes a range of activity aimed at upholding a person's fundamental right to be safe.",
-    optionD: "concerned with not making mistakes.",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 140 (NMCN Professional Questions - Q90)
-  {
-    question: "Name three of the six safeguarding principles for health professionals",
-    optionA: "empowerment, accountability and training",
-    optionB: "empowerment, protection and accountability",
-    optionC: "protection, preparation and listening",
-    optionD: "prevention, compassion and dignity",
+    question: "Which major coronary branch arises from the left coronary artery and curves around the left cardiac border in the coronary sulcus?",
+    optionA: "Right marginal artery",
+    optionB: "Circumflex artery",
+    optionC: "Posterior descending artery",
+    optionD: "Acute marginal branch",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "The left main coronary artery divides into the left anterior descending (LAD) and the circumflex artery, supplying the left atrium and posterolateral left ventricle.",
   },
-  // 141 (NMCN Professional Questions - Q91)
   {
-    question: "In terms of who is vulnerable or at risk of abuse, _________.",
-    optionA: "it is only older people who are at risk of abuse",
-    optionB: "it is only children who are at risk of abuse",
-    optionC: "everyone is vulnerable to the risk of abuse",
-    optionD: "only people with learning disabilities and mental health issues are at risk of abuse",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 142 (NMCN Professional Questions - Q92)
-  {
-    question: "Research undertaken by people with learning disabilities into their experiences of abuse highlights three important actions.",
-    optionA: "Listen to us, believe what we say and do something about it.",
-    optionB: "Don't listen to us as we don't make sense or have little understanding.",
-    optionC: "Don't believe what we say as we have a learning disability and don't know the difference between right and wrong.",
-    optionD: "Don't do anything as we don't care what happens as we have no feelings.",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 143 (NMCN Professional Questions - Q93)
-  {
-    question: "What is abuse?",
-    optionA: "just hitting and slapping people",
-    optionB: "swearing and shouting at patients",
-    optionC: "not providing basic care",
-    optionD: "all of these",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  // 144 (NMCN Professional Questions - Q94)
-  {
-    question: "Which of the following is not part of Tannahill's model?",
-    optionA: "health education",
-    optionB: "prevention",
-    optionC: "health development",
-    optionD: "health protection",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 145 (NMCN Professional Questions - Q95)
-  {
-    question: "Where would the practice of helping a patient to understand how they could follow a weight-reducing diet suitable for their lifestyle fit into Beattie's map of health education models?",
-    optionA: "health persuasion",
-    optionB: "personal counseling",
-    optionC: "legislative action",
-    optionD: "community development",
+    question: "The three auditory ossicles located within the middle ear cavity are the malleus, incus, and:",
+    optionA: "Mastoid",
+    optionB: "Stapes",
+    optionC: "Cochlea",
+    optionD: "Tympanum",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "The middle ear contains the three smallest bones in the body: the malleus (hammer), incus (anvil), and stapes (stirrup).",
   },
-  // 146 (NMCN Professional Questions - Q96)
   {
-    question: "How much alcohol (in units per day) is regarded as the safe limit for women and men?",
-    optionA: "4 units for women and 3 for men",
-    optionB: "4 units for men and 3 for women",
-    optionC: "5 units for women and 4 for men",
-    optionD: "5 units for men and 4 for women",
-    correctAnswer: "B",
-    explanation: ""
-  },
-  // 147 (NMCN Professional Questions - Q97)
-  {
-    question: "Which of the following is the main reason for the 5-a-day message?",
-    optionA: "prevents osteoporosis",
-    optionB: "anti-ageing",
-    optionC: "prevents cancers and heart disease",
-    optionD: "improves memory and cognition",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 148 (NMCN Professional Questions - Q98)
-  {
-    question: "What is the maximum recommended total gram weight of salt an adult should eat in a day?",
-    optionA: "0.06",
-    optionB: "0.6",
-    optionC: "6.0",
-    optionD: "60.0",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  // 149 (NMCN Professional Questions - Q99)
-  {
-    question: "What does BMI measure?",
-    optionA: "height and weight",
-    optionB: "body fat level",
-    optionC: "weight and size",
-    optionD: "fat distribution",
+    question: "According to World Health Organization standards for potable drinking water, water is classified as microbiologically unsafe if the count of coliform bacteria exceeds:",
+    optionA: "Zero coliform organisms per 100 mL of water",
+    optionB: "5 coliforms per 100 mL",
+    optionC: "15 coliforms per 100 mL",
+    optionD: "50 coliforms per 100 mL",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "WHO drinking water guidelines specify that E. coli or thermotolerant coliform bacteria must not be detectable in any 100 mL sample of treated drinking water (zero count).",
   },
-  // 150 (NMCN Professional Questions - Q100)
   {
-    question: "Which of the following is not prevented by using a condom?",
-    optionA: "pregnancy",
-    optionB: "HIV",
-    optionC: "chlamydia",
-    optionD: "pubic lice",
+    question: "Which immunoglobulin isotype is present in high concentrations in maternal colostrum, breast milk, tears, and saliva, protecting mucosal membranes?",
+    optionA: "Immunoglobulin G (IgG)",
+    optionB: "Secretory Immunoglobulin A (sIgA)",
+    optionC: "Immunoglobulin D (IgD)",
+    optionD: "Immunoglobulin M (IgM)",
+    correctAnswer: "B",
+    explanation: "Secretory dimeric IgA resists enzymatic degradation in gastrointestinal fluids and prevents adhesion of viral and bacterial pathogens to mucosal surfaces.",
+  },
+  {
+    question: "Which exercise regimen is instructed by the community health nurse to strengthen the pelvic floor pubococcygeus muscles and treat stress urinary incontinence?",
+    optionA: "Abdominal crunch sit-ups",
+    optionB: "Kegel exercises (repetitive isometric pelvic floor muscle contraction and relaxation)",
+    optionC: "Quadriceps wall squats",
+    optionD: "Aerobic jogging",
+    correctAnswer: "B",
+    explanation: "Kegel exercises strengthen the levator ani and pubococcygeus muscular sling supporting the bladder neck and urethra, increasing urethral closure pressure.",
+  },
+  {
+    question: "A client with active pulmonary tuberculosis is started on the standard WHO Directly Observed Treatment Short-course (DOTS) regimen. The initial intensive phase consists of:",
+    optionA: "Isoniazid and Rifampicin for 9 months",
+    optionB: "Isoniazid, Rifampicin, Pyrazinamide, and Ethambutol (HRZE) daily for 2 months",
+    optionC: "Streptomycin alone for 6 weeks",
+    optionD: "Ciprofloxacin and Doxycycline for 1 month",
+    correctAnswer: "B",
+    explanation: "The standard first-line intensive phase utilizes a four-drug fixed-dose combination (HRZE) for 2 months to rapidly kill bacilli and prevent drug-resistant mutants.",
+  },
+  {
+    question: "Which clinical thermometer provides the most rapid, non-invasive assessment of core body temperature by measuring infrared emissions from the vascular tympanic membrane?",
+    optionA: "Oral mercury-in-glass thermometer",
+    optionB: "Infrared tympanic thermometer",
+    optionC: "Axillary glass thermometer",
+    optionD: "Liquid crystal forehead strip",
+    correctAnswer: "B",
+    explanation: "The tympanic membrane shares its arterial blood supply with the hypothalamic thermoregulatory center, providing an accurate, rapid (<2 seconds) core temperature reading.",
+  },
+  {
+    question: "In a pregnant client at 32 weeks gestation, which symptom requires immediate clinical evaluation as a potential warning sign of severe pre-eclampsia?",
+    optionA: "Occasional mild pedal swelling at the end of the day",
+    optionB: "Persistent frontal headache, visual scotoma, and right upper quadrant epigastric pain",
+    optionC: "Increased urinary frequency without dysuria",
+    optionD: "Braxton Hicks painless uterine contractions",
+    correctAnswer: "B",
+    explanation: "Severe headache, visual disturbances, and epigastric pain indicate cerebral edema, retinal vasospasm, and hepatic capsular distention in severe pre-eclampsia.",
+  },
+  {
+    question: "Which hormone is synthesized by the syncytiotrophoblast and serves as the biochemical marker detected in qualitative urine pregnancy tests?",
+    optionA: "Human placental lactogen (hPL)",
+    optionB: "Human Chorionic Gonadotropin (hCG)",
+    optionC: "Progesterone",
+    optionD: "Estriol",
+    correctAnswer: "B",
+    explanation: "hCG is secreted by syncytiotrophoblasts shortly after blastocyst implantation, maintaining the corpus luteum in early pregnancy.",
+  },
+  {
+    question: "What is the leading cause of accidental death and injury in infants under 1 year of age in home environments?",
+    optionA: "Bicycle trauma",
+    optionB: "Suffocation, aspiration of foreign objects, and falls",
+    optionC: "Poisoning from garden plants",
+    optionD: "Pedestrian collisions",
+    correctAnswer: "B",
+    explanation: "Unintentional mechanical suffocation, aspiration of small objects or milk, and falls constitute the predominant risks in infants under 12 months.",
+  },
+  {
+    question: "Which infectious disease presents with Koplik spots (small white spots with red halos on the buccal mucosa) preceding a generalized maculopapular rash?",
+    optionA: "Rubella (German measles)",
+    optionB: "Rubeola (Measles)",
+    optionC: "Varicella (Chickenpox)",
+    optionD: "Roseola infantum",
+    correctAnswer: "B",
+    explanation: "Koplik spots are pathognomonic early enanthem lesions appearing on the oral mucosa opposite the second molars 1 to 2 days before the measles rash erupts.",
+  },
+  {
+    question: "Which drug class represents the cornerstone treatment for reversing bronchoconstriction in acute chronic bronchitis and asthma?",
+    optionA: "Beta-2 adrenergic receptor agonists",
+    optionB: "Alpha-1 receptor agonists",
+    optionC: "Beta-1 antagonists",
+    optionD: "Carbonic anhydrase inhibitors",
+    correctAnswer: "A",
+    explanation: "Beta-2 agonists stimulate adenylyl cyclase in airway smooth muscle, leading to relaxation of the bronchial tree and rapid relief of dyspnea.",
+  },
+  {
+    question: "Which first-line anti-TB drug requires routine baseline and periodic visual acuity and color vision testing due to the risk of retrobulbar optic neuritis?",
+    optionA: "Isoniazid",
+    optionB: "Ethambutol",
+    optionC: "Streptomycin",
+    optionD: "Rifampicin",
+    correctAnswer: "B",
+    explanation: "Ethambutol can induce dose-dependent optic neuritis, manifesting as decreased visual acuity and loss of red-green color discrimination.",
+  },
+  {
+    question: "Which psychiatric disorder is characterized by a pervasive pattern of grandiosity, need for admiration, and a profound lack of empathy for others?",
+    optionA: "Antisocial personality disorder",
+    optionB: "Narcissistic personality disorder",
+    optionC: "Borderline personality disorder",
+    optionD: "Histrionic personality disorder",
+    correctAnswer: "B",
+    explanation: "Narcissistic personality disorder is marked by an inflated sense of self-importance, entitlement, exploitative interpersonal relationships, and absence of empathy.",
+  },
+  {
+    question: "The epidemiological term 'Endemic' refers to a disease that is:",
+    optionA: "Spreading rapidly across multiple continents worldwide",
+    optionB: "Constantly present at an expected baseline level within a given geographic area or population",
+    optionC: "Exclusively occurring as rare, isolated sporadic cases",
+    optionD: "Completely eradicated through immunization",
+    correctAnswer: "B",
+    explanation: "An endemic disease (e.g., malaria in sub-Saharan Africa) maintains a predictable, sustained presence within a specific geographical locality.",
+  },
+  {
+    question: "In post-operative care following an open abdominal procedure, which assessment finding indicates the return of normal gastrointestinal motility?",
+    optionA: "Absence of abdominal pain",
+    optionB: "Audible bowel sounds in all 4 quadrants and the passage of flatus",
+    optionC: "Clear nasogastric drainage of 1500 mL/day",
+    optionD: "Soft non-distended bladder",
+    correctAnswer: "B",
+    explanation: "The auscultation of active bowel sounds accompanied by the passage of flatus confirms the resolution of post-surgical paralytic ileus.",
+  },
+  {
+    question: "Which visual disorder is characterized by progressive, painless opacification of the crystalline lens that blurs vision?",
+    optionA: "Glaucoma",
+    optionB: "Cataract",
+    optionC: "Macular degeneration",
+    optionD: "Retinal detachment",
+    correctAnswer: "B",
+    explanation: "A cataract is a clouding of the natural crystalline lens of the eye that impedes light transmission onto the retina, causing gradual loss of visual acuity.",
+  },
+  {
+    question: "In the Weber tuning fork hearing test, sound lateralizing to the poorer (affected) ear indicates:",
+    optionA: "Sensorineural hearing loss in that ear",
+    optionB: "Conductive hearing loss in that ear",
+    optionC: "Normal hearing bilaterally",
+    optionD: "Acoustic neuroma",
+    correctAnswer: "B",
+    explanation: "In conductive hearing loss, ambient room masking noise cannot enter the diseased middle ear, causing the vibration conducted by bone to be perceived louder on that side.",
+  },
+  {
+    question: "Thyrotoxic crisis (Thyroid Storm) is an acute, life-threatening emergency in hyperthyroidism characterized by:",
+    optionA: "Severe hypothermia (<35 C) and extreme bradycardia",
+    optionB: "Hyperpyrexia (>40 C), severe tachycardia/arrhythmias, agitation, delirium, and heart failure",
+    optionC: "Stridor and tetany",
+    optionD: "Profound respiratory acidosis and lethargy",
+    correctAnswer: "B",
+    explanation: "Thyroid storm is a hypermetabolic crisis triggered by physiological stress or infection, characterized by extreme fever, tachycardia, delirium, and shock.",
+  },
+  {
+    question: "The presence of hard, painless bony enlargements at the distal interphalangeal (DIP) joints of the fingers in osteoarthritis is known as:",
+    optionA: "Bouchard's nodes",
+    optionB: "Heberden's nodes",
+    optionC: "Tophi",
+    optionD: "Rheumatoid nodules",
+    correctAnswer: "B",
+    explanation: "Heberden's nodes are osteophytic bony spurs forming at the margin of the DIP joints in osteoarthritis; Bouchard's nodes form at the proximal interphalangeal (PIP) joints.",
+  },
+  {
+    question: "Which clinical assessment signs would the nurse suspect in a client diagnosed with Myasthenia Gravis?",
+    optionA: "Nuchal rigidity and positive Kernig's sign",
+    optionB: "Resting tremor and pill-rolling motion",
+    optionC: "Extreme muscular weakness that worsens with activity and improves with rest, accompanied by ptosis and diplopia",
+    optionD: "Chorea and progressive dementia",
+    correctAnswer: "C",
+    explanation: "Myasthenia gravis is an autoimmune disease where autoantibodies block acetylcholine receptors at the neuromuscular junction, leading to fatiguable weakness and ptosis.",
+  },
+  {
+    question: "For a client receiving miotic eye drops (such as pilocarpine) for open-angle glaucoma, which visual side effect should the nurse instruct the client about?",
+    optionA: "Impaired distant vision and double vision",
+    optionB: "Pupillary constriction causing decreased vision in dim light or darkness",
+    optionC: "Complete loss of peripheral vision",
+    optionD: "Yellow halos around lights",
+    correctAnswer: "B",
+    explanation: "Miotics cause pupillary miosis and ciliary muscle contraction to open the trabecular meshwork; constricted pupils reduce light entry, causing night blindness and dim vision.",
+  },
+  {
+    question: "Which clinical assessment signs would alert the nurse to the possibility of a Fat Embolism Syndrome in a client with multiple long bone fractures?",
+    optionA: "Hematuria and hypocalcemia",
+    optionB: "Acute respiratory distress, hypoxia, confusion/altered mental status, and petechial rash over the chest, neck, and axillae",
+    optionC: "Sudden hypertension and bounding pulse",
+    optionD: "Severe lower back pain radiating to the heel",
+    correctAnswer: "B",
+    explanation: "Fat globules released from fractured marrow enter circulation, lodging in pulmonary and cerebral microvessels and producing petechiae, hypoxia, and acute confusion.",
+  },
+  {
+    question: "The nurse instructs a client admitted following an automobile accident with suspected blunt abdominal trauma to lie flat and quiet because:",
+    optionA: "It decreases abdominal pain and distention while reducing the risk of dislodging an intra-abdominal hematoma or spleen tear",
+    optionB: "It increases intestinal peristalsis",
+    optionC: "It prevents gastric acid secretion",
+    optionD: "It eliminates the need for surgery",
+    correctAnswer: "A",
+    explanation: "Minimizing physical movement and maintaining bed rest prevents sudden displacement of a subcapsular splenic hematoma and hemodynamic instability.",
+  },
+  {
+    question: "Five hours after a chest tube is placed for a traumatic pneumothorax, the nurse observes that the water level in the water-seal chamber fluctuates with breathing (tidaling). This indicates:",
+    optionA: "The chest tube is occluded with a blood clot",
+    optionB: "The system is functioning normally, reflecting intrapleural pressure changes with inspiration and expiration",
+    optionC: "An active continuous air leak in the drainage tubing",
+    optionD: "The lung has fully expanded and the tube should be removed immediately",
+    correctAnswer: "B",
+    explanation: "Tidaling (rise on inspiration, fall on expiration in a spontaneously breathing patient) confirms patent communication between the pleural space and water seal.",
+  },
+  {
+    question: "Which clinical assessment findings would the nurse expect to find in a client with acute appendicitis?",
+    optionA: "Severe left upper quadrant pain radiating to the groin",
+    optionB: "Abdominal pain beginning periumbilically and shifting to the right lower quadrant at McBurney's point, with nausea, low-grade fever, and rebound tenderness",
+    optionC: "Painless watery diarrhea and jaundice",
+    optionD: "Sudden hematemesis and melena",
+    correctAnswer: "B",
+    explanation: "Visceral pain from appendiceal luminal obstruction initially refers to the T10 periumbilical dermatome before localizing to the parietal peritoneum in the right iliac fossa.",
+  },
+  {
+    question: "The physiological effects of glucocorticoids in pharmacological quantities include the following EXCEPT:",
+    optionA: "Suppression of the immune response",
+    optionB: "Suppression of response to injury",
+    optionC: "Delayed wound healing",
+    optionD: "Facilitation of the acute inflammatory process",
     correctAnswer: "D",
-    explanation: ""
-  }
+    explanation: "Glucocorticoids are potent anti-inflammatory agents that suppress and inhibit the inflammatory process.",
+  },
+  {
+    question: "Target cells respond to a specific circulating hormone because they possess:",
+    optionA: "Specialized receptor proteins specific to that hormone",
+    optionB: "A higher cytoplasmic temperature",
+    optionC: "Multiple nuclei",
+    optionD: "Continuous open membrane pores",
+    correctAnswer: "A",
+    explanation: "Hormonal specificity is dictated by the presence of complementary high-affinity protein receptors on the cell surface or intracellularly.",
+  },
+  {
+    question: "The average length of the adult small intestine in vivo is approximately:",
+    optionA: "2 to 3 metres",
+    optionB: "5 to 6 metres",
+    optionC: "10 to 12 metres",
+    optionD: "15 metres",
+    correctAnswer: "B",
+    explanation: "The small intestine (duodenum, jejunum, ileum) measures approximately 5 to 6 metres in length in living adults.",
+  },
+  {
+    question: "The arterial blood supply to the neural retina is derived directly from the:",
+    optionA: "Facial artery",
+    optionB: "Central retinal artery (branch of ophthalmic artery)",
+    optionC: "Middle meningeal artery",
+    optionD: "Superficial temporal artery",
+    correctAnswer: "B",
+    explanation: "The central retinal artery enters the optic nerve and branches across the inner retinal surface, providing end-arterial perfusion.",
+  },
+  {
+    question: "The pharynx is a musculomembranous tube measuring approximately how long in an adult?",
+    optionA: "5 to 7 cm",
+    optionB: "12 to 14 cm",
+    optionC: "20 to 25 cm",
+    optionD: "30 cm",
+    correctAnswer: "B",
+    explanation: "The pharynx extends from the cranial base to the level of the sixth cervical vertebra (C6), measuring about 12 to 14 cm.",
+  },
+  {
+    question: "The short, branching cytoplasmic processes that receive incoming electrical synaptic inputs and conduct them toward the neuron cell body are:",
+    optionA: "Dendrites",
+    optionB: "Axons",
+    optionC: "Axon terminals",
+    optionD: "Nodes of Ranvier",
+    correctAnswer: "A",
+    explanation: "Dendrites are receptive cellular extensions that receive neurotransmitter signals from adjacent neurons and propagate graded potentials to the soma.",
+  },
+  {
+    question: "The tough, fibrous, outermost meningeal covering that encases and protects the brain and spinal cord is the:",
+    optionA: "Pia mater",
+    optionB: "Arachnoid mater",
+    optionC: "Dura mater (pachymeninx)",
+    optionD: "Epidural space",
+    correctAnswer: "C",
+    explanation: "The thick, inextensible dura mater forms the outermost defensive barrier surrounding the central nervous system.",
+  },
+  {
+    question: "In non-stressful diurnal conditions, endogenous physiological cortisol (glucocorticoid) secretion peaks at what time of day?",
+    optionA: "Between 4:00 AM and 8:00 AM",
+    optionB: "Between 12:00 noon and 2:00 PM",
+    optionC: "Between 8:00 PM and midnight",
+    optionD: "Evenly distributed throughout the 24 hours",
+    correctAnswer: "A",
+    explanation: "ACTH and cortisol follow a circadian rhythm with plasma concentrations highest upon waking in the early morning (6-8 AM) and lowest at midnight.",
+  },
+  {
+    question: "Normal resting gastric juice contains hydrochloric acid, mucus, intrinsic factor, and which proteolytic proenzyme?",
+    optionA: "Trypsinogen",
+    optionB: "Pepsinogen (activated to pepsin by gastric acid)",
+    optionC: "Chymotrypsin",
+    optionD: "Amylase",
+    correctAnswer: "B",
+    explanation: "Gastric chief cells secrete inactive pepsinogen, which is cleaved into active pepsin in the acidic environment (pH 1.5-2) created by parietal HCl.",
+  },
+  {
+    question: "Systolic blood pressure represents the:",
+    optionA: "Lowest pressure resting in the arterial system between beats",
+    optionB: "Peak maximum pressure exerted against arterial walls during ventricular ejection",
+    optionC: "Pressure inside the right atrium",
+    optionD: "Intracranial capillary pressure",
+    correctAnswer: "B",
+    explanation: "Systolic pressure corresponds to the maximum hydrostatic pressure reached in systemic arteries during active left ventricular contraction.",
+  },
+  {
+    question: "In the nephron, what percentage of glomerular filtrate fluid is reabsorbed in the proximal convoluted tubule?",
+    optionA: "10% to 20%",
+    optionB: "40% to 50%",
+    optionC: "80% to 90%",
+    optionD: "99.9%",
+    correctAnswer: "C",
+    explanation: "The proximal convoluted tubule is responsible for the bulk reabsorption of water, sodium, chloride, and nutrients (approx. 80-90%).",
+  },
+  {
+    question: "The right coronary artery typically branches into which two prominent myocardial vessels?",
+    optionA: "Circumflex and left anterior descending arteries",
+    optionB: "Marginal branch and posterior descending (interventricular) artery",
+    optionC: "Internal mammary and subclavian arteries",
+    optionD: "Carotid and basilar arteries",
+    correctAnswer: "B",
+    explanation: "The right coronary artery courses along the coronary sulcus, giving off the marginal artery and continuing as the posterior interventricular artery.",
+  },
+  {
+    question: "According to Sigmund Freud's psychoanalytic theory, which structural component of the personality operates on the 'pleasure principle' seeking immediate gratification?",
+    optionA: "Ego",
+    optionB: "Superego",
+    optionC: "Id",
+    optionD: "Persona",
+    correctAnswer: "C",
+    explanation: "The id is the instinctual, unconscious reservoir of psychic energy driven by the pleasure principle without regard for logic or reality.",
+  },
+  {
+    question: "In Bloom's Taxonomy of educational objectives in the cognitive domain, which cognitive skill represents the highest, most complex level of cognitive synthesis and critical appraisal?",
+    optionA: "Knowledge / Recall",
+    optionB: "Comprehension",
+    optionC: "Application",
+    optionD: "Evaluation (or Creation)",
+    correctAnswer: "D",
+    explanation: "Evaluation involves making sophisticated qualitative and quantitative judgments based on defined criteria and evidence.",
+  },
+  {
+    question: "Hildegard Peplau's interpersonal relations theory conceptualizes the therapeutic nurse-client relationship progressing through four distinct phases: Orientation, Identification, Exploitation, and:",
+    optionA: "Introspection",
+    optionB: "Resolution (Termination)",
+    optionC: "Discharge",
+    optionD: "Confrontation",
+    correctAnswer: "B",
+    explanation: "The four sequential phases in Peplau's interpersonal model are orientation, identification, exploitation (working), and resolution.",
+  },
+  {
+    question: "A Stage I pressure injury is clinically identified by which characteristic dermatological assessment finding?",
+    optionA: "Partial-thickness loss of dermis presenting as a shallow open ulcer",
+    optionB: "Intact skin with a localized area of non-blanchable erythema over a bony prominence",
+    optionC: "Full-thickness tissue loss with visible subcutaneous fat",
+    optionD: "Exposed bone and muscle with foul-smelling purulent drainage",
+    correctAnswer: "B",
+    explanation: "Stage I pressure injuries present as localized areas of persistent non-blanchable redness over bony prominences with intact skin integrity.",
+  },
+  {
+    question: "A post-operative client's abdominal wound experiences sudden separation of the skin edges with protrusion of underlying loops of bowel. This condition is:",
+    optionA: "Simple superficial wound dehiscence",
+    optionB: "Wound evisceration (a surgical emergency)",
+    optionC: "Incisional hernia",
+    optionD: "Keloid formation",
+    correctAnswer: "B",
+    explanation: "Wound evisceration is the extrusion of internal abdominal viscera through a disrupted surgical incision, requiring emergency sterile saline coverage and prompt OR return.",
+  },
+  {
+    question: "Vigorous manual massage of the calves in a patient suspected of having deep vein thrombosis is strictly contraindicated because it may:",
+    optionA: "Cause acute arterial spasm",
+    optionB: "Dislodge a thrombus, resulting in a life-threatening pulmonary embolism",
+    optionC: "Increase local capillary bleeding into muscles",
+    optionD: "Rupture the Achilles tendon",
+    correctAnswer: "B",
+    explanation: "Mechanical manipulation of a thrombosed vein can break off emboli that travel through the inferior vena cava and right heart to occlude pulmonary arteries.",
+  },
+  {
+    question: "A patient with severe persistent vomiting of gastric contents is at greatest risk for developing which primary acid-base disturbance?",
+    optionA: "Respiratory acidosis",
+    optionB: "Respiratory alkalosis",
+    optionC: "Metabolic acidosis",
+    optionD: "Metabolic alkalosis",
+    correctAnswer: "D",
+    explanation: "Gastric juice is rich in hydrochloric acid (HCl); loss of hydrogen and chloride ions through vomiting leaves an excess of systemic bicarbonate, causing metabolic alkalosis.",
+  },
+  {
+    question: "When administering intravenous potassium chloride (KCl) to a hypokalemic client, the nurse must ensure that KCl is NEVER administered by which route?",
+    optionA: "Diluted in 500 mL normal saline via infusion pump",
+    optionB: "Direct IV push or rapid bolus injection (which causes instant lethal cardiac arrest)",
+    optionC: "Oral effervescent tablet",
+    optionD: "Slow peripheral intravenous piggyback at 10 mEq/hr",
+    correctAnswer: "B",
+    explanation: "Intravenous potassium chloride must always be diluted and infused slowly via a volumetric pump; IV push injection causes immediate fatal ventricular fibrillation.",
+  },
+  {
+    question: "Which mineral is of prime physiological importance for the biosynthesis of thyroid hormones (T3 and T4)?",
+    optionA: "Zinc",
+    optionB: "Iron",
+    optionC: "Iodine",
+    optionD: "Copper",
+    correctAnswer: "C",
+    explanation: "Iodine is actively trapped by thyroid follicular cells and incorporated into tyrosine residues of thyroglobulin to synthesize thyroid hormones.",
+  },
+  {
+    question: "What is the primary mode of transmission of Typhoid fever (Enteric fever) caused by Salmonella enterica serotype Typhi?",
+    optionA: "Airborne transmission through sneeze droplets",
+    optionB: "Ingestion of food or drinking water contaminated by feces or urine of infected patients or chronic carriers",
+    optionC: "Bite of an infected sandfly",
+    optionD: "Direct contact with domestic pets",
+    correctAnswer: "B",
+    explanation: "Salmonella typhi is transmitted via the fecal-oral route through contaminated drinking water, street food, or asymptomatic chronic biliary carriers.",
+  },
+  {
+    question: "The causative organism of Syphilis, a sexually transmitted infection that begins as a solitary painless chancre, is:",
+    optionA: "Neisseria gonorrhoeae",
+    optionB: "Treponema pallidum (spirochete)",
+    optionC: "Chlamydia trachomatis",
+    optionD: "Haemophilus ducreyi",
+    correctAnswer: "B",
+    explanation: "Treponema pallidum is a delicate microaerophilic spirochete responsible for primary, secondary, latent, and tertiary syphilis.",
+  },
+  {
+    question: "The clinical hallmark that distinguishes an open (compound) fracture from a closed (simple) fracture is that an open fracture:",
+    optionA: "Involves more than two bone fragments",
+    optionB: "Involves a breach in skin integrity communicating directly with the fractured bone, creating high risk for osteomyelitis",
+    optionC: "Is always located in the lower extremities",
+    optionD: "Does not require splinting or reduction",
+    correctAnswer: "B",
+    explanation: "Open fractures communicate directly with the external environment through lacerated skin, requiring emergency debridement and antibiotic prophylaxis.",
+  },
+  {
+    question: "Raynaud's phenomenon is a vasospastic disorder of digital arterioles triggered by cold exposure or emotional stress, most frequently occurring in:",
+    optionA: "Elderly males over 70 years",
+    optionB: "Young females between 15 and 40 years of age",
+    optionC: "Newborn infants",
+    optionD: "Athletes with high cardiac output",
+    correctAnswer: "B",
+    explanation: "Primary Raynaud's disease predominantly affects young women, presenting as episodic triphasic color changes (white pallor, blue cyanosis, red rubor) in the fingers.",
+  },
+  {
+    question: "Normal visual acuity in a healthy human eye assessed using the standard Snellen chart is expressed as:",
+    optionA: "6/6 (metric) or 20/20 (imperial)",
+    optionB: "6/12",
+    optionC: "6/60",
+    optionD: "20/200",
+    correctAnswer: "A",
+    explanation: "Visual acuity of 6/6 means the subject can read at 6 meters what a standard eye can distinguish at 6 meters.",
+  },
+  {
+    question: "Herpes zoster (shingles) is an acute viral infection that primarily affects the:",
+    optionA: "Cardiovascular endothelium",
+    optionB: "Sensory cranial and spinal dorsal root ganglia and corresponding dermatomal skin",
+    optionC: "Digestive mucosa",
+    optionD: "Reproductive organs",
+    correctAnswer: "B",
+    explanation: "Varicella-zoster virus lies dormant in cranial nerve and spinal dorsal root ganglia following chickenpox, reactivating in a unilateral dermatome.",
+  },
+  {
+    question: "In a client with cardiogenic shock following extensive myocardial infarction, which clinical assessment finding confirms inadequate vital organ perfusion?",
+    optionA: "Bounding pulse and high urinary output",
+    optionB: "Oliguria (urine output <20 to 30 mL/hr), cold clammy cyanotic skin, altered mental status, and systolic BP <90 mmHg",
+    optionC: "Warm flushed extremities with bounding radial pulses",
+    optionD: "Polyuria with hyperactive bowel sounds",
+    correctAnswer: "B",
+    explanation: "Cardiogenic shock is characterized by severe pump failure, low cardiac output, profound tissue hypoperfusion, and compensatory renal vasoconstriction.",
+  },
+  {
+    question: "Diabetic nephropathy refers to:",
+    optionA: "Infection of the renal pelvis by E. coli in diabetics",
+    optionB: "Progressive microvascular damage and nodular glomerulosclerosis of the kidneys caused by chronic hyperglycemia",
+    optionC: "Calculus formation in the ureters",
+    optionD: "Acute bladder atony",
+    correctAnswer: "B",
+    explanation: "Chronic hyperglycemia causes glomerular basement membrane thickening, mesangial expansion (Kimmelstiel-Wilson lesions), and progressive proteinuria.",
+  },
+  {
+    question: "During the tonic-clonic phase of an epileptic seizure, which nursing intervention is contraindicated and dangerous?",
+    optionA: "Protecting the client's head with a soft pad",
+    optionB: "Attempting to force a padded tongue depressor or spoon between the client's clenched teeth",
+    optionC: "Loosening tight clothing around the neck",
+    optionD: "Turning the client to the lateral recovery position after convulsions cease",
+    correctAnswer: "B",
+    explanation: "Forcing objects into the mouth of a seizing patient can shatter teeth, cause severe soft-tissue lacerations, and precipitate complete laryngospasm.",
+  },
+  {
+    question: "Keratitis is defined in ophthalmology as an acute or chronic inflammation of the:",
+    optionA: "Iris",
+    optionB: "Cornea",
+    optionC: "Retina",
+    optionD: "Eyelids",
+    correctAnswer: "B",
+    explanation: "Keratitis is corneal inflammation caused by bacterial, viral (herpes simplex), fungal, or acanthamoebic infection or corneal abrasions.",
+  },
+  {
+    question: "Hemodialysis is an extracorporeal life-saving therapy indicated for which clinical conditions EXCEPT:",
+    optionA: "End-stage renal failure with severe uremia",
+    optionB: "Refractory hyperkalemia unresponsive to medical therapy",
+    optionC: "Severe fluid overload and pulmonary edema resistant to diuretics",
+    optionD: "Mild iron-deficiency anemia in an otherwise healthy adult",
+    correctAnswer: "D",
+    explanation: "Hemodialysis clears nitrogenous wastes, electrolytes, and excess fluid in renal failure; it is not indicated for uncomplicated iron-deficiency anemia.",
+  },
+  {
+    question: "The collarbone that connects the upper limb to the axial skeleton at the manubrium of the sternum is the:",
+    optionA: "Scapula",
+    optionB: "Clavicle",
+    optionC: "Humerus",
+    optionD: "First rib",
+    correctAnswer: "B",
+    explanation: "The S-shaped clavicle acts as a strut holding the shoulder joint away from the thoracic cage, transmitting forces from the arm to the axial skeleton.",
+  },
+  {
+    question: "Which statement regarding Chickenpox (Varicella) skin lesions is clinically true?",
+    optionA: "The dried crusts (scabs) remain highly infectious for 3 months",
+    optionB: "Once all lesions have completely formed dry crusts or scabs, the client is no longer contagious",
+    optionC: "It is transmitted exclusively by vector ticks",
+    optionD: "Vesicles never appear on the trunk",
+    correctAnswer: "B",
+    explanation: "Varicella transmission occurs through respiratory droplets and fluid from active uncrusted vesicles; fully crusted scabs contain no viable virus.",
+  },
+  {
+    question: "Community diagnosis in public health nursing practice is the systematic process of identifying:",
+    optionA: "Only private hospital profits",
+    optionB: "The felt needs, health indicators, epidemiological problems, and resources of a defined community population",
+    optionC: "Individual psychiatric diagnoses",
+    optionD: "Doctor prescription preferences",
+    correctAnswer: "B",
+    explanation: "Community diagnosis assesses the community's health status, disease burdens, environmental determinants, and available community health resources.",
+  },
+  {
+    question: "In clinical research, a sampling technique where the population is divided into homogenous subgroups (strata) and random samples are drawn from each stratum is:",
+    optionA: "Convenience sampling",
+    optionB: "Stratified random sampling",
+    optionC: "Snowball sampling",
+    optionD: "Quota sampling",
+    correctAnswer: "B",
+    explanation: "Stratified random sampling ensures proportional representation of distinct subpopulations (e.g., age, gender, geographic wards) within the overall sample.",
+  },
+  {
+    question: "Which obstetric maneuver is the first-line intervention to resolve acute fetal shoulder dystocia by hyperflexing maternal thighs against the abdomen?",
+    optionA: "Zavanelli maneuver",
+    optionB: "McRoberts maneuver with suprapubic pressure",
+    optionC: "Cred\u00e9 maneuver",
+    optionD: "Leopold maneuver",
+    correctAnswer: "B",
+    explanation: "McRoberts maneuver flattens the maternal sacral promontory and cephalad-rotates the pubic symphysis, releasing the impacted anterior shoulder.",
+  },
+  {
+    question: "The pharmacokinetic parameter defined as the time required for the circulating plasma concentration of a drug to decrease by half is the:",
+    optionA: "Clearance rate",
+    optionB: "Elimination half-life (t1/2)",
+    optionC: "Bioavailability fraction",
+    optionD: "Volume of distribution",
+    correctAnswer: "B",
+    explanation: "Half-life determines the dosing interval and the time required to achieve steady-state plasma concentrations (approx. 4 to 5 half-lives).",
+  },
+  {
+    question: "A drug ordered every 8 hours will be given",
+    optionA: "Three times daily",
+    optionB: "Twice daily",
+    optionC: "Four times daily",
+    optionD: "Once daily",
+    correctAnswer: "A",
+    explanation: "",
+  },
+  {
+    question: "A nurse is about to perform a sterile procedure. What is the first step?",
+    optionA: "Perform hand hygiene",
+    optionB: "Wear gloves immediately",
+    optionC: "Open the pack first",
+    optionD: "Clean the bed",
+    correctAnswer: "A",
+    explanation: "",
+  },
 ];

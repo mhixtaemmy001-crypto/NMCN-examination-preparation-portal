@@ -1,7 +1,6 @@
 import { RawDocQuestion } from './docPart1';
 
 export const TYPE8_QUESTIONS: RawDocQuestion[] = [
-  // 1 (Q20)
   {
     question: "For a patient in active labor, the nurse-midwife plans to use an internal electronic fetal monitoring (EFM) device. What must occur before the internal EFM can be applied?",
     optionA: "The membranes must rupture",
@@ -9,9 +8,8 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "The cervix must be dilated fully",
     optionD: "The patient must receive anesthesia",
     correctAnswer: "A",
-    explanation: "Internal EFM can be applied only after the patient’s membranes have ruptured, when the fetus is at least at the -1 station, and when the cervix is dilated at least 2 cm. Although the patient may receive anesthesia, it is not required before application of an internal EFM device."
+    explanation: "Internal EFM can be applied only after the patient\u2019s membranes have ruptured, when the fetus is at least at the -1 station, and when the cervix is dilated at least 2 cm. Although the patient may receive anesthesia, it is not required before application of an internal EFM device.",
   },
-  // 2 (Q21)
   {
     question: "A primigravida patient is admitted to the labor delivery area. Assessment reveals that she is in early part of the first stage of labor. Her pain is likely to be most intense:",
     optionA: "Around the pelvic girdle",
@@ -19,19 +17,17 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Around the pelvic girdle and at the perineum",
     optionD: "At the perineum",
     correctAnswer: "A",
-    explanation: "During most of the first stage of labor, pain centers around the pelvic girdle. During the late part of this stage and the early part of the second stage, pain spreads to the upper legs and perineum. During the late part of the second stage and during childbirth, intense pain occurs at the perineum. Upper arm pain is not common during any stage of labor."
+    explanation: "During most of the first stage of labor, pain centers around the pelvic girdle. During the late part of this stage and the early part of the second stage, pain spreads to the upper legs and perineum. During the late part of the second stage and during childbirth, intense pain occurs at the perineum. Upper arm pain is not common during any stage of labor.",
   },
-  // 3 (Q22)
   {
-    question: "A female adult patient is taking a progestin-only oral contraceptive, or minipill. Progestin use may increase the patient’s risk for:",
+    question: "A female adult patient is taking a progestin-only oral contraceptive, or minipill. Progestin use may increase the patient\u2019s risk for:",
     optionA: "Endometriosis",
     optionB: "Female hypogonadism",
     optionC: "Premenstrual syndrome",
     optionD: "Tubal or ectopic pregnancy",
     correctAnswer: "D",
-    explanation: "Women taking the minipill have a higher incidence of tubal and ectopic pregnancies, possibly because progestin slows ovum transport through the fallopian tubes. Endometriosis, female hypogonadism, and premenstrual syndrome are not associated with progestin-only oral contraceptives."
+    explanation: "Women taking the minipill have a higher incidence of tubal and ectopic pregnancies, possibly because progestin slows ovum transport through the fallopian tubes. Endometriosis, female hypogonadism, and premenstrual syndrome are not associated with progestin-only oral contraceptives.",
   },
-  // 4 (Q23)
   {
     question: "A patient with pregnancy-induced hypertension probably exhibits which of the following symptoms?",
     optionA: "Proteinuria, headaches, vaginal bleeding",
@@ -39,19 +35,17 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Proteinuria, headaches, double vision",
     optionD: "Proteinuria, double vision, uterine contractions",
     correctAnswer: "C",
-    explanation: "A patient with pregnancy-induced hypertension complains of headache, double vision, and sudden weight gain. A urine specimen reveals proteinuria. Vaginal bleeding and uterine contractions are not associated with pregnancy-induced hypertension."
+    explanation: "A patient with pregnancy-induced hypertension complains of headache, double vision, and sudden weight gain. A urine specimen reveals proteinuria. Vaginal bleeding and uterine contractions are not associated with pregnancy-induced hypertension.",
   },
-  // 5 (Q24)
   {
-    question: "Because cervical effacement and dilation are not progressing in a patient in labor, Dr. Smith orders I.V. administration of oxytocin (Pitocin). Why must the nurse monitor the patient’s fluid intake and output closely during oxytocin administration?",
+    question: "Because cervical effacement and dilation are not progressing in a patient in labor, Dr. Smith orders I.V. administration of oxytocin (Pitocin). Why must the nurse monitor the patient\u2019s fluid intake and output closely during oxytocin administration?",
     optionA: "Oxytocin causes water intoxication",
     optionB: "Oxytocin causes excessive thirst",
     optionC: "Oxytocin is toxic to the kidneys",
     optionD: "Oxytocin has a diuretic effect",
     correctAnswer: "A",
-    explanation: "The nurse should monitor fluid intake and output because prolonged oxytocin infusion may cause severe water intoxication, leading to seizures, coma, and death. Excessive thirst results from the work of labor and limited oral fluid intake—not oxytocin. Oxytocin has no nephrotoxic or diuretic effects. In fact, it produces an antidiuretic effect."
+    explanation: "The nurse should monitor fluid intake and output because prolonged oxytocin infusion may cause severe water intoxication, leading to seizures, coma, and death. Excessive thirst results from the work of labor and limited oral fluid intake\u2014not oxytocin. Oxytocin has no nephrotoxic or diuretic effects. In fact, it produces an antidiuretic effect.",
   },
-  // 6 (Q25)
   {
     question: "Five hours after birth, a neonate is transferred to the nursery, where the nurse intervenes to prevent hypothermia. What is a common source of radiant heat loss?",
     optionA: "Low room humidity",
@@ -59,9 +53,8 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Cools incubator walls",
     optionD: "Cool room temperature",
     correctAnswer: "C",
-    explanation: "Common source of radiant heat loss includes cool incubator walls and windows. Low room humidity promotes evaporative heat loss. When the skin directly contacts a cooler object, such as a cold weight scale, conductive heat loss may occur. A cool room temperature may lead to convective heat loss."
+    explanation: "Common source of radiant heat loss includes cool incubator walls and windows. Low room humidity promotes evaporative heat loss. When the skin directly contacts a cooler object, such as a cold weight scale, conductive heat loss may occur. A cool room temperature may lead to convective heat loss.",
   },
-  // 7 (Q26)
   {
     question: "After administering bethanechol to a patient with urine retention, the nurse in charge monitors the patient for adverse effects. Which is most likely to occur?",
     optionA: "Decreased peristalsis",
@@ -69,9 +62,8 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Dry mucous membranes",
     optionD: "Nausea and Vomiting",
     correctAnswer: "D",
-    explanation: "Bethanechol will increase GI motility, which may cause nausea, belching, vomiting, intestinal cramps, and diarrhea. Peristalsis is increased rather than decreased. With high doses of bethanechol, cardiovascular responses may include vasodilation, decreased cardiac rate, and decreased force of cardiac contraction, which may cause hypotension. Salivation or sweating may gently increase."
+    explanation: "Bethanechol will increase GI motility, which may cause nausea, belching, vomiting, intestinal cramps, and diarrhea. Peristalsis is increased rather than decreased. With high doses of bethanechol, cardiovascular responses may include vasodilation, decreased cardiac rate, and decreased force of cardiac contraction, which may cause hypotension. Salivation or sweating may gently increase.",
   },
-  // 8 (Q27)
   {
     question: "The nurse in charge is caring for a patient who is in the first stage of labor. What is the shortest but most difficult part of this stage?",
     optionA: "Active phase",
@@ -79,9 +71,8 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Latent phase",
     optionD: "Transitional phase",
     correctAnswer: "D",
-    explanation: "The transitional phase, which lasts 1 to 3 hours, is the shortest but most difficult part of the first stage of labor. This phase is characterized by intense uterine contractions that occur every 1 ½ to 2 minutes and last 45 to 90 seconds. The active phase lasts 4 ½ to 6 hours; it is characterized by contractions that start out moderately intense, grow stronger, and last about 60 seconds. The complete phase occurs during the second, not first, stage of labor. The latent phase lasts 5 to 8 hours and is marked by mild, short, irregular contractions."
+    explanation: "The transitional phase, which lasts 1 to 3 hours, is the shortest but most difficult part of the first stage of labor. This phase is characterized by intense uterine contractions that occur every 1 \u00bd to 2 minutes and last 45 to 90 seconds. The active phase lasts 4 \u00bd to 6 hours; it is characterized by contractions that start out moderately intense, grow stronger, and last about 60 seconds. The complete phase occurs during the second, not first, stage of labor. The latent phase lasts 5 to 8 hours and is marked by mild, short, irregular contractions.",
   },
-  // 9 (Q28)
   {
     question: "After 3 days of breast-feeding, a postpartal patient reports nipple soreness. To relieve her discomfort, the nurse should suggest that she:",
     optionA: "Apply warm compresses to her nipples just before feedings",
@@ -89,19 +80,17 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Dry her nipples with a soft towel after feedings",
     optionD: "Apply soap directly to her nipples, and then rinse",
     correctAnswer: "B",
-    explanation: "Measures that help relieve nipple soreness in a breast-feeding patient include lubricating the nipples with a few drops of expressed milk before feedings, applying ice compresses just before feeding, letting the nipples air dry after feedings, and avoiding the use of soap on the nipples."
+    explanation: "Measures that help relieve nipple soreness in a breast-feeding patient include lubricating the nipples with a few drops of expressed milk before feedings, applying ice compresses just before feeding, letting the nipples air dry after feedings, and avoiding the use of soap on the nipples.",
   },
-  // 10 (Q29)
   {
     question: "The nurse is developing a teaching plan for a patient who is 8 weeks pregnant. The nurse should tell the patient that she can expect to feel the fetus move at which time?",
-    optionA: "Between 10 and 12 weeks’ gestation",
-    optionB: "Between 16 and 20 weeks’ gestation",
-    optionC: "Between 21 and 23 weeks’ gestation",
-    optionD: "Between 24 and 26 weeks’ gestation",
+    optionA: "Between 10 and 12 weeks\u2019 gestation",
+    optionB: "Between 16 and 20 weeks\u2019 gestation",
+    optionC: "Between 21 and 23 weeks\u2019 gestation",
+    optionD: "Between 24 and 26 weeks\u2019 gestation",
     correctAnswer: "B",
-    explanation: "A pregnant woman usually can detect fetal movement (quickening) between 16 and 20 weeks’ gestation. Before 16 weeks, the fetus is not developed enough for the woman to detect movement. After 20 weeks, the fetus continues to gain weight steadily, the lungs start to produce surfactant, the brain is grossly formed, and myelination of the spinal cord begins."
+    explanation: "A pregnant woman usually can detect fetal movement (quickening) between 16 and 20 weeks\u2019 gestation. Before 16 weeks, the fetus is not developed enough for the woman to detect movement. After 20 weeks, the fetus continues to gain weight steadily, the lungs start to produce surfactant, the brain is grossly formed, and myelination of the spinal cord begins.",
   },
-  // 11 (Q30)
   {
     question: "Normal lochial findings in the first 24 hours post-delivery include:",
     optionA: "Bright red blood",
@@ -109,19 +98,17 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "A foul odor",
     optionD: "The complete absence of lochia",
     correctAnswer: "A",
-    explanation: "Lochia should never contain large clots, tissue fragments, or membranes. A foul odor may signal infection, as may absence of lochia."
+    explanation: "Lochia should never contain large clots, tissue fragments, or membranes. A foul odor may signal infection, as may absence of lochia.",
   },
-  // 12 (Maternity & Obstetric Nursing - Q1)
   {
     question: "Accompanied by her husband, a patient seeks admission to the labor and delivery area. The client states that she is in labor, and says she attended the hospital clinic for prenatal care. Which question should the nurse ask her first?",
-    optionA: "“Do you have any chronic illness?”",
-    optionB: "“Do you have any allergies?”",
-    optionC: "“What is your expected due date?”",
-    optionD: "“Who will be with you during labor?”",
+    optionA: "\u201cDo you have any chronic illness?\u201d",
+    optionB: "\u201cDo you have any allergies?\u201d",
+    optionC: "\u201cWhat is your expected due date?\u201d",
+    optionD: "\u201cWho will be with you during labor?\u201d",
     correctAnswer: "C",
-    explanation: "When obtaining the history of a patient who may be in labor, the nurse’s highest priority is to determine her current status, particularly her due date, gravidity, and parity. Gravidity and parity affect the duration of labor and the potential for labor complications. Later, the nurse should ask about chronic illness, allergies, and support persons."
+    explanation: "When obtaining the history of a patient who may be in labor, the nurse\u2019s highest priority is to determine her current status, particularly her due date, gravidity, and parity. Gravidity and parity affect the duration of labor and the potential for labor complications. Later, the nurse should ask about chronic illness, allergies, and support persons.",
   },
-  // 13 (Maternity & Obstetric Nursing - Q2)
   {
     question: "A patient is in the second stage of labor. During this stage, how frequently should the nurse in charge assess her uterine contractions?",
     optionA: "Every 5 minutes",
@@ -129,9 +116,8 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Every 30 minutes",
     optionD: "Every 60 minutes",
     correctAnswer: "B",
-    explanation: "During the second stage of labor, the nurse should assess the strength, frequency, and duration of contraction every 15 minutes. If maternal or fetal problems are detected, more frequent monitoring is necessary. An interval of 30 to 60 minutes between assessments is too long because of variations in the length and duration of patient’s labor."
+    explanation: "During the second stage of labor, the nurse should assess the strength, frequency, and duration of contraction every 15 minutes. If maternal or fetal problems are detected, more frequent monitoring is necessary. An interval of 30 to 60 minutes between assessments is too long because of variations in the length and duration of patient\u2019s labor.",
   },
-  // 14 (Maternity & Obstetric Nursing - Q3)
   {
     question: "A patient is in last trimester of pregnancy. Nurse Jane should instruct her to notify her primary health care provider immediately if she notices:",
     optionA: "Blurred vision",
@@ -139,19 +125,17 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Increased vaginal mucus",
     optionD: "Shortness of breath on exertion",
     correctAnswer: "A",
-    explanation: "Blurred vision or other visual disturbance, excessive weight gain, edema, and increased blood pressure may signal severe preeclampsia. This condition may lead to eclampsia, which has potentially serious consequences for both the patient and fetus. Although hemorrhoids may be a problem during pregnancy, they do not require immediate attention. Increased vaginal mucus and dyspnea on exertion are expected as pregnancy progresses."
+    explanation: "Blurred vision or other visual disturbance, excessive weight gain, edema, and increased blood pressure may signal severe preeclampsia. This condition may lead to eclampsia, which has potentially serious consequences for both the patient and fetus. Although hemorrhoids may be a problem during pregnancy, they do not require immediate attention. Increased vaginal mucus and dyspnea on exertion are expected as pregnancy progresses.",
   },
-  // 15 (Maternity & Obstetric Nursing - Q4)
   {
-    question: "The nurse in charge is reviewing a patient’s prenatal history. Which finding indicates a genetic risk factor?",
+    question: "The nurse in charge is reviewing a patient\u2019s prenatal history. Which finding indicates a genetic risk factor?",
     optionA: "The patient is 25 years old",
     optionB: "The patient has a child with cystic fibrosis",
-    optionC: "The patient was exposed to rubella at 36 weeks’ gestation",
-    optionD: "The patient has a history of preterm labor at 32 weeks’ gestation",
+    optionC: "The patient was exposed to rubella at 36 weeks\u2019 gestation",
+    optionD: "The patient has a history of preterm labor at 32 weeks\u2019 gestation",
     correctAnswer: "B",
-    explanation: "Cystic fibrosis is a recessive trait; each offspring has a one in four chance of having the trait or the disorder. Maternal age is not a risk factor until age 35, when the incidence of chromosomal defects increases. Maternal exposure to rubella during the first trimester may cause congenital defects. Although a history of preterm labor may place the patient at risk for preterm labor, it does not correlate with genetic defects."
+    explanation: "Cystic fibrosis is a recessive trait; each offspring has a one in four chance of having the trait or the disorder. Maternal age is not a risk factor until age 35, when the incidence of chromosomal defects increases. Maternal exposure to rubella during the first trimester may cause congenital defects. Although a history of preterm labor may place the patient at risk for preterm labor, it does not correlate with genetic defects.",
   },
-  // 16 (Maternity & Obstetric Nursing - Q5)
   {
     question: "A adult female patient is using the rhythm (calendar-basal body temperature) method of family planning. In this method, the unsafe period for sexual intercourse is indicated by;",
     optionA: "Return preovulatory basal body temperature",
@@ -159,9 +143,8 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "3 full days of elevated basal body temperature and clear, thin cervical mucus",
     optionD: "Breast tenderness and mittelschmerz",
     correctAnswer: "C",
-    explanation: "Ovulation (the period when pregnancy can occur) is accompanied by a basal body temperature increase of 0.7 degrees F to 0.8 degrees F and clear, thin cervical mucus. A return to the preovulatory body temperature indicates a safe period for sexual intercourse. A slight rise in basal temperature early in the cycle is not significant. Breast tenderness and mittelschmerz are not reliable indicators of ovulation."
+    explanation: "Ovulation (the period when pregnancy can occur) is accompanied by a basal body temperature increase of 0.7 degrees F to 0.8 degrees F and clear, thin cervical mucus. A return to the preovulatory body temperature indicates a safe period for sexual intercourse. A slight rise in basal temperature early in the cycle is not significant. Breast tenderness and mittelschmerz are not reliable indicators of ovulation.",
   },
-  // 17 (Maternity & Obstetric Nursing - Q6)
   {
     question: "During a nonstress test (NST), the electronic tracing displays a relatively flat line for fetal movement, making it difficult to evaluate the fetal heart rate (FHR). To mark the strip, the nurse in charge should instruct the client to push the control button at which time?",
     optionA: "At the beginning of each fetal movement",
@@ -169,119 +152,107 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "After every three fetal movements",
     optionD: "At the end of fetal movement",
     correctAnswer: "A",
-    explanation: "An NST assesses the FHR during fetal movement. In a healthy fetus, the FHR accelerates with each movement. By pushing the control button when a fetal movement starts, the client marks the strip to allow easy correlation of fetal movement with the FHR. The FHR is assessed during uterine contractions in the oxytocin contraction test, not the NST. Pushing the control button after every three fetal movements or at the end of fetal movement wouldn’t allow accurate comparison of fetal movement and FHR changes."
+    explanation: "An NST assesses the FHR during fetal movement. In a healthy fetus, the FHR accelerates with each movement. By pushing the control button when a fetal movement starts, the client marks the strip to allow easy correlation of fetal movement with the FHR. The FHR is assessed during uterine contractions in the oxytocin contraction test, not the NST. Pushing the control button after every three fetal movements or at the end of fetal movement wouldn\u2019t allow accurate comparison of fetal movement and FHR changes.",
   },
-  // 18 (Maternity & Obstetric Nursing - Q7)
   {
-    question: "When evaluating a client’s knowledge of symptoms to report during her pregnancy, which statement would indicate to the nurse in charge that the client understands the information given to her?",
-    optionA: "“I’ll report increased frequency of urination.”",
-    optionB: "“If I have blurred or double vision, I should call the clinic immediately.”",
-    optionC: "“If I feel tired after resting, I should report it immediately.”",
-    optionD: "“Nausea should be reported immediately.”",
+    question: "When evaluating a client\u2019s knowledge of symptoms to report during her pregnancy, which statement would indicate to the nurse in charge that the client understands the information given to her?",
+    optionA: "\u201cI\u2019ll report increased frequency of urination.\u201d",
+    optionB: "\u201cIf I have blurred or double vision, I should call the clinic immediately.\u201d",
+    optionC: "\u201cIf I feel tired after resting, I should report it immediately.\u201d",
+    optionD: "\u201cNausea should be reported immediately.\u201d",
     correctAnswer: "B",
-    explanation: "Blurred or double vision may indicate hypertension or preeclampsia and should be reported immediately. Urinary frequency is a common problem during pregnancy caused by increased weight pressure on the bladder from the uterus. Clients generally experience fatigue and nausea during pregnancy."
+    explanation: "Blurred or double vision may indicate hypertension or preeclampsia and should be reported immediately. Urinary frequency is a common problem during pregnancy caused by increased weight pressure on the bladder from the uterus. Clients generally experience fatigue and nausea during pregnancy.",
   },
-  // 19 (Maternity & Obstetric Nursing - Q8)
   {
     question: "When assessing a client during her first prenatal visit, the nurse discovers that the client had a reduction mammoplasty. The mother indicates she wants to breast-feed. What information should the nurse give to this mother regarding breast-feeding success?",
-    optionA: "“It’s contraindicated for you to breast-feed following this type of surgery.”",
-    optionB: "“I support your commitment; however, you may have to supplement each feeding with formula.”",
-    optionC: "“You should check with your surgeon to determine whether breast-feeding would be possible.”",
-    optionD: "“You should be able to breast-feed without difficulty.”",
+    optionA: "\u201cIt\u2019s contraindicated for you to breast-feed following this type of surgery.\u201d",
+    optionB: "\u201cI support your commitment; however, you may have to supplement each feeding with formula.\u201d",
+    optionC: "\u201cYou should check with your surgeon to determine whether breast-feeding would be possible.\u201d",
+    optionD: "\u201cYou should be able to breast-feed without difficulty.\u201d",
     correctAnswer: "B",
-    explanation: "Recent breast reduction surgeries are done in a way to protect the milk sacs and ducts, so breast-feeding after surgery is possible. Still, it’s good to check with the surgeon to determine what breast reduction procedure was done. There is the possibility that reduction surgery may have decreased the mother’s ability to meet all of her baby’s nutritional needs, and some supplemental feeding may be required. Preparing the mother for this possibility is extremely important because the client’s psychological adaptation to mothering may be dependent on how successfully she breast-feeds."
+    explanation: "Recent breast reduction surgeries are done in a way to protect the milk sacs and ducts, so breast-feeding after surgery is possible. Still, it\u2019s good to check with the surgeon to determine what breast reduction procedure was done. There is the possibility that reduction surgery may have decreased the mother\u2019s ability to meet all of her baby\u2019s nutritional needs, and some supplemental feeding may be required. Preparing the mother for this possibility is extremely important because the client\u2019s psychological adaptation to mothering may be dependent on how successfully she breast-feeds.",
   },
-  // 20 (Maternity & Obstetric Nursing - Q9)
   {
-    question: "Following a precipitous delivery, examination of the client’s vagina reveals a fourth-degree laceration. Which of the following would be contraindicated when caring for this client?",
+    question: "Following a precipitous delivery, examination of the client\u2019s vagina reveals a fourth-degree laceration. Which of the following would be contraindicated when caring for this client?",
     optionA: "Applying cold to limit edema during the first 12 to 24 hours",
     optionB: "Instructing the client to use two or more peripads to cushion the area",
     optionC: "Instructing the client on the use of sitz baths if ordered",
     optionD: "Instructing the client about the importance of perineal (Kegel) exercises",
     correctAnswer: "B",
-    explanation: "Using two or more peripads would do little to reduce the pain or promote perineal healing. Cold applications, sitz baths, and Kegel exercises are important measures when the client has a fourth-degree laceration."
+    explanation: "Using two or more peripads would do little to reduce the pain or promote perineal healing. Cold applications, sitz baths, and Kegel exercises are important measures when the client has a fourth-degree laceration.",
   },
-  // 21 (Maternity & Obstetric Nursing - Q10)
   {
-    question: "A client makes a routine visit to the prenatal clinic. Although she’s 14 weeks pregnant, the size of her uterus approximates that in an 18- to 20-week pregnancy. Dr. Diaz diagnoses gestational trophoblastic disease and orders ultrasonography. The nurse expects ultrasonography to reveal:",
+    question: "A client makes a routine visit to the prenatal clinic. Although she\u2019s 14 weeks pregnant, the size of her uterus approximates that in an 18- to 20-week pregnancy. Dr. Diaz diagnoses gestational trophoblastic disease and orders ultrasonography. The nurse expects ultrasonography to reveal:",
     optionA: "an empty gestational sac.",
     optionB: "grapelike clusters.",
     optionC: "a severely malformed fetus.",
     optionD: "an extrauterine pregnancy.",
     correctAnswer: "B",
-    explanation: "In a client with gestational trophoblastic disease, an ultrasound performed after the 3rd month shows grapelike clusters of transparent vesicles rather than a fetus. The vesicles contain a clear fluid and may involve all or part of the decidual lining of the uterus. Usually no embryo (and therefore no fetus) is present because it has been absorbed. Because there is no fetus, there can be no extrauterine pregnancy. An extrauterine pregnancy is seen with an ectopic pregnancy."
+    explanation: "In a client with gestational trophoblastic disease, an ultrasound performed after the 3rd month shows grapelike clusters of transparent vesicles rather than a fetus. The vesicles contain a clear fluid and may involve all or part of the decidual lining of the uterus. Usually no embryo (and therefore no fetus) is present because it has been absorbed. Because there is no fetus, there can be no extrauterine pregnancy. An extrauterine pregnancy is seen with an ectopic pregnancy.",
   },
-  // 22 (Maternity & Obstetric Nursing - Q11)
   {
-    question: "After completing a second vaginal examination of a client in labor, the nurse-midwife determines that the fetus is in the right occiput anterior position and at –1 station. Based on these findings, the nurse-midwife knows that the fetal presenting part is:",
+    question: "After completing a second vaginal examination of a client in labor, the nurse-midwife determines that the fetus is in the right occiput anterior position and at \u20131 station. Based on these findings, the nurse-midwife knows that the fetal presenting part is:",
     optionA: "1 cm below the ischial spines.",
     optionB: "directly in line with the ischial spines.",
     optionC: "1 cm above the ischial spines.",
     optionD: "in no relationship to the ischial spines.",
     correctAnswer: "C",
-    explanation: "Fetal station — the relationship of the fetal presenting part to the maternal ischial spines — is described in the number of centimeters above or below the spines. A presenting part above the ischial spines is designated as –1, –2, or –3. A presenting part below the ischial spines, as +1, +2, or +3."
+    explanation: "Fetal station \u2014 the relationship of the fetal presenting part to the maternal ischial spines \u2014 is described in the number of centimeters above or below the spines. A presenting part above the ischial spines is designated as \u20131, \u20132, or \u20133. A presenting part below the ischial spines, as +1, +2, or +3.",
   },
-  // 23 (Maternity & Obstetric Nursing - Q12)
   {
-    question: "Which of the following would be inappropriate to assess in a mother who’s breast-feeding?",
+    question: "Which of the following would be inappropriate to assess in a mother who\u2019s breast-feeding?",
     optionA: "The attachment of the baby to the breast.",
-    optionB: "The mother’s comfort level with positioning the baby.",
+    optionB: "The mother\u2019s comfort level with positioning the baby.",
     optionC: "Audible swallowing.",
-    optionD: "The baby’s lips smacking",
+    optionD: "The baby\u2019s lips smacking",
     correctAnswer: "D",
-    explanation: "Assessing the attachment process for breast-feeding should include all of the answers except the smacking of lips. A baby who’s smacking his lips isn’t well attached and can injure the mother’s nipples."
+    explanation: "Assessing the attachment process for breast-feeding should include all of the answers except the smacking of lips. A baby who\u2019s smacking his lips isn\u2019t well attached and can injure the mother\u2019s nipples.",
   },
-  // 24 (Maternity & Obstetric Nursing - Q13)
   {
-    question: "During a prenatal visit at 4 months gestation, a pregnant client asks whether tests can be done to identify fetal abnormalities. Between 18 and 40 weeks’ gestation, which procedure is used to detect fetal anomalies?",
+    question: "During a prenatal visit at 4 months gestation, a pregnant client asks whether tests can be done to identify fetal abnormalities. Between 18 and 40 weeks\u2019 gestation, which procedure is used to detect fetal anomalies?",
     optionA: "Amniocentesis.",
     optionB: "Chorionic villi sampling.",
     optionC: "Fetoscopy.",
     optionD: "Ultrasound",
     correctAnswer: "D",
-    explanation: "Ultrasound is used between 18 and 40 weeks’ gestation to identify normal fetal growth and detect fetal anomalies and other problems. Amniocentesis is done during the third trimester to determine fetal lung maturity. Chorionic villi sampling is performed at 8 to 12 weeks’ gestation to detect genetic disease. Fetoscopy is done at approximately 18 weeks’ gestation to observe the fetus directly and obtain a skin or blood sample."
+    explanation: "Ultrasound is used between 18 and 40 weeks\u2019 gestation to identify normal fetal growth and detect fetal anomalies and other problems. Amniocentesis is done during the third trimester to determine fetal lung maturity. Chorionic villi sampling is performed at 8 to 12 weeks\u2019 gestation to detect genetic disease. Fetoscopy is done at approximately 18 weeks\u2019 gestation to observe the fetus directly and obtain a skin or blood sample.",
   },
-  // 25 (Maternity & Obstetric Nursing - Q14)
   {
     question: "A client, 30 weeks pregnant, is scheduled for a biophysical profile (BPP) to evaluate the health of her fetus. Her BPP score is 8. What does this score indicate?",
     optionA: "The fetus should be delivered within 24 hours.",
     optionB: "The client should repeat the test in 24 hours.",
-    optionC: "The fetus isn’t in distress at this time.",
+    optionC: "The fetus isn\u2019t in distress at this time.",
     optionD: "The client should repeat the test in 1 week.",
     correctAnswer: "C",
-    explanation: "The BPP evaluates fetal health by assessing five variables: fetal breathing movements, gross body movements, fetal tone, reactive fetal heart rate, and qualitative amniotic fluid volume. A normal response for each variable receives 2 points; an abnormal response receives 0 points. A score between 8 and 10 is considered normal, indicating that the fetus has a low risk of oxygen deprivation and isn’t in distress. A fetus with a score of 6 or lower is at risk for asphyxia and premature birth; this score warrants detailed investigation. The BPP may or may not be repeated if the score isn’t within normal limits."
+    explanation: "The BPP evaluates fetal health by assessing five variables: fetal breathing movements, gross body movements, fetal tone, reactive fetal heart rate, and qualitative amniotic fluid volume. A normal response for each variable receives 2 points; an abnormal response receives 0 points. A score between 8 and 10 is considered normal, indicating that the fetus has a low risk of oxygen deprivation and isn\u2019t in distress. A fetus with a score of 6 or lower is at risk for asphyxia and premature birth; this score warrants detailed investigation. The BPP may or may not be repeated if the score isn\u2019t within normal limits.",
   },
-  // 26 (Maternity & Obstetric Nursing - Q15)
   {
-    question: "A client who’s 36 weeks pregnant comes to the clinic for a prenatal checkup. To assess the client’s preparation for parenting, the nurse might ask which question?",
-    optionA: "“Are you planning to have epidural anesthesia?”",
-    optionB: "“Have you begun prenatal classes?”",
-    optionC: "“What changes have you made at home to get ready for the baby?”",
-    optionD: "“Can you tell me about the meals you typically eat each day?”",
+    question: "A client who\u2019s 36 weeks pregnant comes to the clinic for a prenatal checkup. To assess the client\u2019s preparation for parenting, the nurse might ask which question?",
+    optionA: "\u201cAre you planning to have epidural anesthesia?\u201d",
+    optionB: "\u201cHave you begun prenatal classes?\u201d",
+    optionC: "\u201cWhat changes have you made at home to get ready for the baby?\u201d",
+    optionD: "\u201cCan you tell me about the meals you typically eat each day?\u201d",
     correctAnswer: "C",
-    explanation: "During the third trimester, the pregnant client typically perceives the fetus as a separate being. To verify that this has occurred, the nurse should ask whether she has made appropriate changes at home such as obtaining infant supplies and equipment. The type of anesthesia planned doesn’t reflect the client’s preparation for parenting. The client should have begun prenatal classes earlier in the pregnancy. The nurse should have obtained dietary information during the first trimester to give the client time to make any necessary changes."
+    explanation: "During the third trimester, the pregnant client typically perceives the fetus as a separate being. To verify that this has occurred, the nurse should ask whether she has made appropriate changes at home such as obtaining infant supplies and equipment. The type of anesthesia planned doesn\u2019t reflect the client\u2019s preparation for parenting. The client should have begun prenatal classes earlier in the pregnancy. The nurse should have obtained dietary information during the first trimester to give the client time to make any necessary changes.",
   },
-  // 27 (Maternity & Obstetric Nursing - Q16)
   {
-    question: "A client who’s admitted to labor and delivery has the following assessment findings: gravida 2 para 1, estimated 40 weeks’ gestation, contractions 2 minutes apart, lasting 45 seconds, vertex +4 station. Which of the following would be the priority at this time?",
+    question: "A client who\u2019s admitted to labor and delivery has the following assessment findings: gravida 2 para 1, estimated 40 weeks\u2019 gestation, contractions 2 minutes apart, lasting 45 seconds, vertex +4 station. Which of the following would be the priority at this time?",
     optionA: "Placing the client in bed to begin fetal monitoring.",
     optionB: "Preparing for immediate delivery.",
     optionC: "Checking for ruptured membranes.",
     optionD: "Providing comfort measures.",
     correctAnswer: "B",
-    explanation: "This question requires an understanding of station as part of the intrapartal assessment process. Based on the client’s assessment findings, this client is ready for delivery, which is the nurse’s top priority. Placing the client in bed, checking for ruptured membranes, and providing comfort measures could be done, but the priority here is immediate delivery."
+    explanation: "This question requires an understanding of station as part of the intrapartal assessment process. Based on the client\u2019s assessment findings, this client is ready for delivery, which is the nurse\u2019s top priority. Placing the client in bed, checking for ruptured membranes, and providing comfort measures could be done, but the priority here is immediate delivery.",
   },
-  // 28 (Maternity & Obstetric Nursing - Q17)
   {
     question: "Nurse Roy is caring for a client in labor. The external fetal monitor shows a pattern of variable decelerations in fetal heart rate. What should the nurse do first?",
-    optionA: "Change the client’s position.",
+    optionA: "Change the client\u2019s position.",
     optionB: "Prepare for emergency cesarean section.",
     optionC: "Check for placenta previa.",
     optionD: "Administer oxygen.",
     correctAnswer: "A",
-    explanation: "Variable decelerations in fetal heart rate are an ominous sign, indicating compression of the umbilical cord. Changing the client’s position from supine to side-lying may immediately correct the problem. An emergency cesarean section is necessary only if other measures, such as changing position and amnioinfusion with sterile saline, prove unsuccessful. Administering oxygen may be helpful, but the priority is to change the woman’s position and relieve cord compression."
+    explanation: "Variable decelerations in fetal heart rate are an ominous sign, indicating compression of the umbilical cord. Changing the client\u2019s position from supine to side-lying may immediately correct the problem. An emergency cesarean section is necessary only if other measures, such as changing position and amnioinfusion with sterile saline, prove unsuccessful. Administering oxygen may be helpful, but the priority is to change the woman\u2019s position and relieve cord compression.",
   },
-  // 29 (Maternity & Obstetric Nursing - Q18)
   {
     question: "The nurse in charge is caring for a postpartum client who had a vaginal delivery with a midline episiotomy. Which nursing diagnosis takes priority for this client?",
     optionA: "Risk for deficient fluid volume related to hemorrhage",
@@ -289,9 +260,8 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Pain related to the type of incision",
     optionD: "Urinary retention related to periurethral edema",
     correctAnswer: "A",
-    explanation: "Hemorrhage jeopardizes the client’s oxygen supply — the first priority among human physiologic needs. Therefore, the nursing diagnosis of Risk for deficient fluid volume related to hemorrhage takes priority over diagnoses of Risk for infection, Pain, and Urinary retention."
+    explanation: "Hemorrhage jeopardizes the client\u2019s oxygen supply \u2014 the first priority among human physiologic needs. Therefore, the nursing diagnosis of Risk for deficient fluid volume related to hemorrhage takes priority over diagnoses of Risk for infection, Pain, and Urinary retention.",
   },
-  // 30 (Maternity & Obstetric Nursing - Q19)
   {
     question: "Which change would the nurse identify as a progressive physiological change in postpartum period?",
     optionA: "Lactation",
@@ -299,29 +269,26 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Uterine involution",
     optionD: "Diuresis",
     correctAnswer: "A",
-    explanation: "Lactation is an example of a progressive physiological change that occurs during the postpartum period."
+    explanation: "Lactation is an example of a progressive physiological change that occurs during the postpartum period.",
   },
-  // 31 (Maternity & Obstetric Nursing - Q20)
   {
-    question: "A 39-year-old at 37 weeks’ gestation is admitted to the hospital with complaints of vaginal bleeding following the use of cocaine 1 hour earlier. Which complication is most likely causing the client’s complaint of vaginal bleeding?",
+    question: "A 39-year-old at 37 weeks\u2019 gestation is admitted to the hospital with complaints of vaginal bleeding following the use of cocaine 1 hour earlier. Which complication is most likely causing the client\u2019s complaint of vaginal bleeding?",
     optionA: "Placenta previa",
     optionB: "Abruptio placentae",
     optionC: "Ectopic pregnancy",
     optionD: "Spontaneous abortion",
     correctAnswer: "B",
-    explanation: "The major maternal adverse reactions from cocaine use in pregnancy include spontaneous abortion first, not third, trimester abortion and abruptio placentae."
+    explanation: "The major maternal adverse reactions from cocaine use in pregnancy include spontaneous abortion first, not third, trimester abortion and abruptio placentae.",
   },
-  // 32 (Maternity & Obstetric Nursing - Q21)
   {
-    question: "A client with type 1 diabetes mellitus who’s a multigravida visits the clinic at 27 weeks gestation. The nurse should instruct the client that for most pregnant women with type 1 diabetes mellitus:",
+    question: "A client with type 1 diabetes mellitus who\u2019s a multigravida visits the clinic at 27 weeks gestation. The nurse should instruct the client that for most pregnant women with type 1 diabetes mellitus:",
     optionA: "Weekly fetal movement counts are made by the mother.",
     optionB: "Contraction stress testing is performed weekly.",
-    optionC: "Induction of labor is begun at 34 weeks’ gestation.",
-    optionD: "Nonstress testing is performed weekly until 32 weeks’ gestation",
+    optionC: "Induction of labor is begun at 34 weeks\u2019 gestation.",
+    optionD: "Nonstress testing is performed weekly until 32 weeks\u2019 gestation",
     correctAnswer: "D",
-    explanation: "For most clients with type 1 diabetes mellitus, nonstress testing is done weekly until 32 weeks’ gestation and twice a week to assess fetal well-being."
+    explanation: "For most clients with type 1 diabetes mellitus, nonstress testing is done weekly until 32 weeks\u2019 gestation and twice a week to assess fetal well-being.",
   },
-  // 33 (Maternity & Obstetric Nursing - Q22)
   {
     question: "When administering magnesium sulfate to a client with preeclampsia, the nurse understands that this drug is given to:",
     optionA: "Prevent seizures",
@@ -329,19 +296,17 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Slow the process of labor",
     optionD: "Increase diuresis",
     correctAnswer: "A",
-    explanation: "The chemical makeup of magnesium is similar to that of calcium and, therefore, magnesium will act like calcium in the body. As a result, magnesium will block seizure activity in a hyper stimulated neurologic system by interfering with signal transmission at the neuromuscular junction."
+    explanation: "The chemical makeup of magnesium is similar to that of calcium and, therefore, magnesium will act like calcium in the body. As a result, magnesium will block seizure activity in a hyper stimulated neurologic system by interfering with signal transmission at the neuromuscular junction.",
   },
-  // 34 (Maternity & Obstetric Nursing - Q23)
   {
-    question: "What’s the approximate time that the blastocyst spends traveling to the uterus for implantation?",
+    question: "What\u2019s the approximate time that the blastocyst spends traveling to the uterus for implantation?",
     optionA: "2 days",
     optionB: "7 days",
     optionC: "10 days",
     optionD: "14 weeks",
     correctAnswer: "B",
-    explanation: "The blastocyst takes approximately 1 week to travel to the uterus for implantation."
+    explanation: "The blastocyst takes approximately 1 week to travel to the uterus for implantation.",
   },
-  // 35 (Maternity & Obstetric Nursing - Q24)
   {
     question: "After teaching a pregnant woman who is in labor about the purpose of the episiotomy, which of the following purposes stated by the client would indicate to the nurse that the teaching was effective?",
     optionA: "Shortens the second stage of labor",
@@ -349,19 +314,17 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Prevents perineal edema",
     optionD: "Ensures quick placenta delivery",
     correctAnswer: "A",
-    explanation: "An episiotomy serves several purposes. It shortens the second stage of labor, substitutes a clean surgical incision for a tear, and decreases undue stretching of perineal muscles. An episiotomy helps prevent tearing of the rectum but it does not necessarily relieve pressure on the rectum. Tearing may still occur."
+    explanation: "An episiotomy serves several purposes. It shortens the second stage of labor, substitutes a clean surgical incision for a tear, and decreases undue stretching of perineal muscles. An episiotomy helps prevent tearing of the rectum but it does not necessarily relieve pressure on the rectum. Tearing may still occur.",
   },
-  // 36 (Maternity & Obstetric Nursing - Q25)
   {
     question: "A primigravida client at about 35 weeks gestation in active labor has had no prenatal care and admits to cocaine use during the pregnancy. Which of the following persons must the nurse notify?",
     optionA: "Nursing unit manager so appropriate agencies can be notified",
-    optionB: "Head of the hospital’s security department",
+    optionB: "Head of the hospital\u2019s security department",
     optionC: "Chaplain in case the fetus dies in utero",
     optionD: "Physician who will attend the delivery of the infant",
     correctAnswer: "D",
-    explanation: "The fetus of a cocaine-addicted mother is at risk for hypoxia, meconium aspiration, and intrauterine growth retardation (IUGR). Therefore, the nurse must notify the physician of the client’s cocaine use because this knowledge will influence the care of the client and neonate. The information is used only in relation to the client’s care."
+    explanation: "The fetus of a cocaine-addicted mother is at risk for hypoxia, meconium aspiration, and intrauterine growth retardation (IUGR). Therefore, the nurse must notify the physician of the client\u2019s cocaine use because this knowledge will influence the care of the client and neonate. The information is used only in relation to the client\u2019s care.",
   },
-  // 37 (Maternity & Obstetric Nursing - Q26)
   {
     question: "When preparing a teaching plan for a client who is to receive a rubella vaccine during the postpartum period, the nurse in charge should include which of the following?",
     optionA: "The vaccine prevents a future fetus from developing congenital anomalies",
@@ -369,9 +332,8 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "The client should avoid contact with children diagnosed with rubella",
     optionD: "The injection will provide immunity against the 7-day measles.",
     correctAnswer: "B",
-    explanation: "After administration of rubella vaccine, the client should be instructed to avoid pregnancy for at least 3 months to prevent the possibility of the vaccine’s toxic effects to the fetus."
+    explanation: "After administration of rubella vaccine, the client should be instructed to avoid pregnancy for at least 3 months to prevent the possibility of the vaccine\u2019s toxic effects to the fetus.",
   },
-  // 38 (Maternity & Obstetric Nursing - Q27)
   {
     question: "A client with eclampsia begins to experience a seizure. Which of the following would the nurse in charge do first?",
     optionA: "Pad the side rails",
@@ -379,9 +341,8 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Insert a padded tongue blade into the mouth",
     optionD: "Maintain a patent airway",
     correctAnswer: "D",
-    explanation: "The priority for the pregnant client having a seizure is to maintain a patent airway to ensure adequate oxygenation to the mother and the fetus. Additionally, oxygen may be administered by face mask to prevent fetal hypoxia."
+    explanation: "The priority for the pregnant client having a seizure is to maintain a patent airway to ensure adequate oxygenation to the mother and the fetus. Additionally, oxygen may be administered by face mask to prevent fetal hypoxia.",
   },
-  // 39 (Maternity & Obstetric Nursing - Q28)
   {
     question: "While caring for a multigravida client in early labor in a birthing center, which of the following foods would be best if the client requests a snack?",
     optionA: "Yogurt",
@@ -389,39 +350,35 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Vegetable soup",
     optionD: "Peanut butter cookies",
     correctAnswer: "A",
-    explanation: "In some birth settings, intravenous therapy is not used with low-risk clients. Thus, clients in early labor are encouraged to eat healthy snacks and drink fluid to avoid dehydration. Yogurt, which is an excellent source of calcium and riboflavin, is soft and easily digested. During pregnancy, gastric emptying time is delayed. In most hospital settings, clients are allowed only ice chips or clear liquids."
+    explanation: "In some birth settings, intravenous therapy is not used with low-risk clients. Thus, clients in early labor are encouraged to eat healthy snacks and drink fluid to avoid dehydration. Yogurt, which is an excellent source of calcium and riboflavin, is soft and easily digested. During pregnancy, gastric emptying time is delayed. In most hospital settings, clients are allowed only ice chips or clear liquids.",
   },
-  // 40 (Maternity & Obstetric Nursing - Q29)
   {
-    question: "The multigravida mother with a history of rapid labor who is in active labor calls out to the nurse, “The baby is coming!” which of the following would be the nurse’s first action?",
+    question: "The multigravida mother with a history of rapid labor who is in active labor calls out to the nurse, \u201cThe baby is coming!\u201d which of the following would be the nurse\u2019s first action?",
     optionA: "Inspect the perineum",
     optionB: "Time the contractions",
     optionC: "Auscultate the fetal heart rate",
     optionD: "Contact the birth attendant",
     correctAnswer: "A",
-    explanation: "When the client says the baby is coming, the nurse should first inspect the perineum and observe for crowning to validate the client’s statement. If the client is not delivering precipitously, the nurse can calm her and use appropriate breathing techniques."
+    explanation: "When the client says the baby is coming, the nurse should first inspect the perineum and observe for crowning to validate the client\u2019s statement. If the client is not delivering precipitously, the nurse can calm her and use appropriate breathing techniques.",
   },
-  // 41 (Maternity & Obstetric Nursing - Q30)
   {
-    question: "While assessing a primipara during the immediate postpartum period, the nurse in charge plans to use both hands to assess the client’s fundus to:",
+    question: "While assessing a primipara during the immediate postpartum period, the nurse in charge plans to use both hands to assess the client\u2019s fundus to:",
     optionA: "Prevent uterine inversion",
     optionB: "Promote uterine involution",
     optionC: "Hasten the puerperium period",
     optionD: "Determine the size of the fundus",
     correctAnswer: "A",
-    explanation: "Using both hands to assess the fundus is useful for the prevention of uterine inversion."
+    explanation: "Using both hands to assess the fundus is useful for the prevention of uterine inversion.",
   },
-  // 42 (Emergency & Priority Nursing - Q1)
   {
-    question: "A postoperative patient suddenly becomes restless and short of breath. What is the nurse’s FIRST action?",
+    question: "A postoperative patient suddenly becomes restless and short of breath. What is the nurse\u2019s FIRST action?",
     optionA: "Check the airway and oxygen saturation",
     optionB: "Give analgesic",
     optionC: "Call relatives",
     optionD: "Document the event",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 43 (Emergency & Priority Nursing - Q2)
   {
     question: "A patient with severe chest pain and diaphoresis arrives in the ward. Which action takes priority?",
     optionA: "Obtain ECG and assess ABC",
@@ -429,9 +386,8 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Check weight",
     optionD: "Provide health education",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 44 (Emergency & Priority Nursing - Q3)
   {
     question: "A diabetic patient is sweating, trembling, and confused. What should the nurse suspect?",
     optionA: "Hyperglycemia",
@@ -439,9 +395,8 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Stroke",
     optionD: "Hypertension",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
-  // 45 (Emergency & Priority Nursing - Q4)
   {
     question: "A patient with active seizure is admitted. What is the PRIORITY nursing intervention?",
     optionA: "Protect from injury and maintain airway",
@@ -449,9 +404,8 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Insert spoon in mouth",
     optionD: "Give food",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 46 (Emergency & Priority Nursing - Q5)
   {
     question: "A patient receiving blood transfusion develops fever and chills. What should the nurse do FIRST?",
     optionA: "Stop the transfusion",
@@ -459,9 +413,8 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Give antipyretic",
     optionD: "Continue and observe",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 47 (Emergency & Priority Nursing - Q6)
   {
     question: "A burn patient has hoarseness and facial burns. What is the most important assessment?",
     optionA: "Airway patency",
@@ -469,9 +422,8 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Bowel sounds",
     optionD: "Skin temperature",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 48 (Emergency & Priority Nursing - Q7)
   {
     question: "A patient in shock has cold clammy skin and weak pulse. What is the immediate priority?",
     optionA: "Maintain airway and start oxygen",
@@ -479,9 +431,8 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Encourage ambulation",
     optionD: "Provide bath",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 49 (Emergency & Priority Nursing - Q8)
   {
     question: "Which patient should the nurse see FIRST?",
     optionA: "Postoperative patient with RR 32/min",
@@ -489,9 +440,8 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Patient requesting water",
     optionD: "Patient asking for discharge",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 50 (Emergency & Priority Nursing - Q9)
   {
     question: "A patient with asthma has severe wheezing and difficulty speaking. What is the priority intervention?",
     optionA: "Administer oxygen and prescribed bronchodilator",
@@ -499,9 +449,8 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Encourage deep breathing only",
     optionD: "Provide cold water",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 51 (Emergency & Priority Nursing - Q10)
   {
     question: "A patient with suspected stroke has sudden facial droop and weakness. What is the FIRST nursing action?",
     optionA: "Assess ABC and time of onset",
@@ -509,919 +458,17 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Allow sleep",
     optionD: "Offer food",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 52 (Emergency & Priority Nursing - Q11)
   {
-    question: "A burn patient has hoarseness and facial burns. What is the most important assessment?",
-    optionA: "Airway patency",
-    optionB: "Urine color",
-    optionC: "Bowel sounds",
-    optionD: "Skin temperature",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 53 (Emergency & Priority Nursing - Q12)
-  {
-    question: "A patient in shock has cold clammy skin and weak pulse. What is the immediate priority?",
-    optionA: "Maintain airway and start oxygen",
-    optionB: "Give oral fluids",
-    optionC: "Encourage ambulation",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 54 (Emergency & Priority Nursing - Q13)
-  {
-    question: "Which patient should the nurse see FIRST?",
-    optionA: "Postoperative patient with RR 32/min",
-    optionB: "Patient with mild headache",
-    optionC: "Patient requesting water",
-    optionD: "Patient asking for discharge",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 55 (Emergency & Priority Nursing - Q14)
-  {
-    question: "A patient with asthma has severe wheezing and difficulty speaking. What is the priority intervention?",
-    optionA: "Administer oxygen and prescribed bronchodilator",
-    optionB: "Give cough syrup",
-    optionC: "Encourage deep breathing only",
-    optionD: "Provide cold water",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 56 (Emergency & Priority Nursing - Q15)
-  {
-    question: "A patient with suspected stroke has sudden facial droop and weakness. What is the FIRST nursing action?",
-    optionA: "Assess ABC and time of onset",
-    optionB: "Give aspirin immediately",
-    optionC: "Allow sleep",
-    optionD: "Offer food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 57 (Emergency & Priority Nursing - Q16)
-  {
-    question: "A burn patient has hoarseness and facial burns. What is the most important assessment?",
-    optionA: "Airway patency",
-    optionB: "Urine color",
-    optionC: "Bowel sounds",
-    optionD: "Skin temperature",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 58 (Emergency & Priority Nursing - Q17)
-  {
-    question: "A patient in shock has cold clammy skin and weak pulse. What is the immediate priority?",
-    optionA: "Maintain airway and start oxygen",
-    optionB: "Give oral fluids",
-    optionC: "Encourage ambulation",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 59 (Emergency & Priority Nursing - Q18)
-  {
-    question: "Which patient should the nurse see FIRST?",
-    optionA: "Postoperative patient with RR 32/min",
-    optionB: "Patient with mild headache",
-    optionC: "Patient requesting water",
-    optionD: "Patient asking for discharge",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 60 (Emergency & Priority Nursing - Q19)
-  {
-    question: "A patient with asthma has severe wheezing and difficulty speaking. What is the priority intervention?",
-    optionA: "Administer oxygen and prescribed bronchodilator",
-    optionB: "Give cough syrup",
-    optionC: "Encourage deep breathing only",
-    optionD: "Provide cold water",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 61 (Emergency & Priority Nursing - Q20)
-  {
-    question: "A patient with suspected stroke has sudden facial droop and weakness. What is the FIRST nursing action?",
-    optionA: "Assess ABC and time of onset",
-    optionB: "Give aspirin immediately",
-    optionC: "Allow sleep",
-    optionD: "Offer food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 62 (Emergency & Priority Nursing - Q21)
-  {
-    question: "A burn patient has hoarseness and facial burns. What is the most important assessment?",
-    optionA: "Airway patency",
-    optionB: "Urine color",
-    optionC: "Bowel sounds",
-    optionD: "Skin temperature",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 63 (Emergency & Priority Nursing - Q22)
-  {
-    question: "A patient in shock has cold clammy skin and weak pulse. What is the immediate priority?",
-    optionA: "Maintain airway and start oxygen",
-    optionB: "Give oral fluids",
-    optionC: "Encourage ambulation",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 64 (Emergency & Priority Nursing - Q23)
-  {
-    question: "Which patient should the nurse see FIRST?",
-    optionA: "Postoperative patient with RR 32/min",
-    optionB: "Patient with mild headache",
-    optionC: "Patient requesting water",
-    optionD: "Patient asking for discharge",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 65 (Emergency & Priority Nursing - Q24)
-  {
-    question: "A patient with asthma has severe wheezing and difficulty speaking. What is the priority intervention?",
-    optionA: "Administer oxygen and prescribed bronchodilator",
-    optionB: "Give cough syrup",
-    optionC: "Encourage deep breathing only",
-    optionD: "Provide cold water",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 66 (Emergency & Priority Nursing - Q25)
-  {
-    question: "A patient with suspected stroke has sudden facial droop and weakness. What is the FIRST nursing action?",
-    optionA: "Assess ABC and time of onset",
-    optionB: "Give aspirin immediately",
-    optionC: "Allow sleep",
-    optionD: "Offer food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 67 (Emergency & Priority Nursing - Q26)
-  {
-    question: "A burn patient has hoarseness and facial burns. What is the most important assessment?",
-    optionA: "Airway patency",
-    optionB: "Urine color",
-    optionC: "Bowel sounds",
-    optionD: "Skin temperature",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 68 (Emergency & Priority Nursing - Q27)
-  {
-    question: "A patient in shock has cold clammy skin and weak pulse. What is the immediate priority?",
-    optionA: "Maintain airway and start oxygen",
-    optionB: "Give oral fluids",
-    optionC: "Encourage ambulation",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 69 (Emergency & Priority Nursing - Q28)
-  {
-    question: "Which patient should the nurse see FIRST?",
-    optionA: "Postoperative patient with RR 32/min",
-    optionB: "Patient with mild headache",
-    optionC: "Patient requesting water",
-    optionD: "Patient asking for discharge",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 70 (Emergency & Priority Nursing - Q29)
-  {
-    question: "A patient with asthma has severe wheezing and difficulty speaking. What is the priority intervention?",
-    optionA: "Administer oxygen and prescribed bronchodilator",
-    optionB: "Give cough syrup",
-    optionC: "Encourage deep breathing only",
-    optionD: "Provide cold water",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 71 (Emergency & Priority Nursing - Q30)
-  {
-    question: "A patient with suspected stroke has sudden facial droop and weakness. What is the FIRST nursing action?",
-    optionA: "Assess ABC and time of onset",
-    optionB: "Give aspirin immediately",
-    optionC: "Allow sleep",
-    optionD: "Offer food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 72 (Emergency & Priority Nursing - Q31)
-  {
-    question: "A burn patient has hoarseness and facial burns. What is the most important assessment?",
-    optionA: "Airway patency",
-    optionB: "Urine color",
-    optionC: "Bowel sounds",
-    optionD: "Skin temperature",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 73 (Emergency & Priority Nursing - Q32)
-  {
-    question: "A patient in shock has cold clammy skin and weak pulse. What is the immediate priority?",
-    optionA: "Maintain airway and start oxygen",
-    optionB: "Give oral fluids",
-    optionC: "Encourage ambulation",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 74 (Emergency & Priority Nursing - Q33)
-  {
-    question: "Which patient should the nurse see FIRST?",
-    optionA: "Postoperative patient with RR 32/min",
-    optionB: "Patient with mild headache",
-    optionC: "Patient requesting water",
-    optionD: "Patient asking for discharge",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 75 (Emergency & Priority Nursing - Q34)
-  {
-    question: "A patient with asthma has severe wheezing and difficulty speaking. What is the priority intervention?",
-    optionA: "Administer oxygen and prescribed bronchodilator",
-    optionB: "Give cough syrup",
-    optionC: "Encourage deep breathing only",
-    optionD: "Provide cold water",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 76 (Emergency & Priority Nursing - Q35)
-  {
-    question: "A patient with suspected stroke has sudden facial droop and weakness. What is the FIRST nursing action?",
-    optionA: "Assess ABC and time of onset",
-    optionB: "Give aspirin immediately",
-    optionC: "Allow sleep",
-    optionD: "Offer food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 77 (Emergency & Priority Nursing - Q36)
-  {
-    question: "A burn patient has hoarseness and facial burns. What is the most important assessment?",
-    optionA: "Airway patency",
-    optionB: "Urine color",
-    optionC: "Bowel sounds",
-    optionD: "Skin temperature",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 78 (Emergency & Priority Nursing - Q37)
-  {
-    question: "A patient in shock has cold clammy skin and weak pulse. What is the immediate priority?",
-    optionA: "Maintain airway and start oxygen",
-    optionB: "Give oral fluids",
-    optionC: "Encourage ambulation",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 79 (Emergency & Priority Nursing - Q38)
-  {
-    question: "Which patient should the nurse see FIRST?",
-    optionA: "Postoperative patient with RR 32/min",
-    optionB: "Patient with mild headache",
-    optionC: "Patient requesting water",
-    optionD: "Patient asking for discharge",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 80 (Emergency & Priority Nursing - Q39)
-  {
-    question: "A patient with asthma has severe wheezing and difficulty speaking. What is the priority intervention?",
-    optionA: "Administer oxygen and prescribed bronchodilator",
-    optionB: "Give cough syrup",
-    optionC: "Encourage deep breathing only",
-    optionD: "Provide cold water",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 81 (Emergency & Priority Nursing - Q40)
-  {
-    question: "A patient with suspected stroke has sudden facial droop and weakness. What is the FIRST nursing action?",
-    optionA: "Assess ABC and time of onset",
-    optionB: "Give aspirin immediately",
-    optionC: "Allow sleep",
-    optionD: "Offer food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 82 (Emergency & Priority Nursing - Q41)
-  {
-    question: "A burn patient has hoarseness and facial burns. What is the most important assessment?",
-    optionA: "Airway patency",
-    optionB: "Urine color",
-    optionC: "Bowel sounds",
-    optionD: "Skin temperature",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 83 (Emergency & Priority Nursing - Q42)
-  {
-    question: "A patient in shock has cold clammy skin and weak pulse. What is the immediate priority?",
-    optionA: "Maintain airway and start oxygen",
-    optionB: "Give oral fluids",
-    optionC: "Encourage ambulation",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 84 (Emergency & Priority Nursing - Q43)
-  {
-    question: "Which patient should the nurse see FIRST?",
-    optionA: "Postoperative patient with RR 32/min",
-    optionB: "Patient with mild headache",
-    optionC: "Patient requesting water",
-    optionD: "Patient asking for discharge",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 85 (Emergency & Priority Nursing - Q44)
-  {
-    question: "A patient with asthma has severe wheezing and difficulty speaking. What is the priority intervention?",
-    optionA: "Administer oxygen and prescribed bronchodilator",
-    optionB: "Give cough syrup",
-    optionC: "Encourage deep breathing only",
-    optionD: "Provide cold water",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 86 (Emergency & Priority Nursing - Q45)
-  {
-    question: "A patient with suspected stroke has sudden facial droop and weakness. What is the FIRST nursing action?",
-    optionA: "Assess ABC and time of onset",
-    optionB: "Give aspirin immediately",
-    optionC: "Allow sleep",
-    optionD: "Offer food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 87 (Emergency & Priority Nursing - Q46)
-  {
-    question: "A burn patient has hoarseness and facial burns. What is the most important assessment?",
-    optionA: "Airway patency",
-    optionB: "Urine color",
-    optionC: "Bowel sounds",
-    optionD: "Skin temperature",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 88 (Emergency & Priority Nursing - Q47)
-  {
-    question: "A patient in shock has cold clammy skin and weak pulse. What is the immediate priority?",
-    optionA: "Maintain airway and start oxygen",
-    optionB: "Give oral fluids",
-    optionC: "Encourage ambulation",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 89 (Emergency & Priority Nursing - Q48)
-  {
-    question: "Which patient should the nurse see FIRST?",
-    optionA: "Postoperative patient with RR 32/min",
-    optionB: "Patient with mild headache",
-    optionC: "Patient requesting water",
-    optionD: "Patient asking for discharge",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 90 (Emergency & Priority Nursing - Q49)
-  {
-    question: "A patient with asthma has severe wheezing and difficulty speaking. What is the priority intervention?",
-    optionA: "Administer oxygen and prescribed bronchodilator",
-    optionB: "Give cough syrup",
-    optionC: "Encourage deep breathing only",
-    optionD: "Provide cold water",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 91 (Emergency & Priority Nursing - Q50)
-  {
-    question: "A patient with suspected stroke has sudden facial droop and weakness. What is the FIRST nursing action?",
-    optionA: "Assess ABC and time of onset",
-    optionB: "Give aspirin immediately",
-    optionC: "Allow sleep",
-    optionD: "Offer food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 92 (Emergency & Priority Nursing - Q51)
-  {
-    question: "A burn patient has hoarseness and facial burns. What is the most important assessment?",
-    optionA: "Airway patency",
-    optionB: "Urine color",
-    optionC: "Bowel sounds",
-    optionD: "Skin temperature",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 93 (Emergency & Priority Nursing - Q52)
-  {
-    question: "A patient in shock has cold clammy skin and weak pulse. What is the immediate priority?",
-    optionA: "Maintain airway and start oxygen",
-    optionB: "Give oral fluids",
-    optionC: "Encourage ambulation",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 94 (Emergency & Priority Nursing - Q53)
-  {
-    question: "Which patient should the nurse see FIRST?",
-    optionA: "Postoperative patient with RR 32/min",
-    optionB: "Patient with mild headache",
-    optionC: "Patient requesting water",
-    optionD: "Patient asking for discharge",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 95 (Emergency & Priority Nursing - Q54)
-  {
-    question: "A patient with asthma has severe wheezing and difficulty speaking. What is the priority intervention?",
-    optionA: "Administer oxygen and prescribed bronchodilator",
-    optionB: "Give cough syrup",
-    optionC: "Encourage deep breathing only",
-    optionD: "Provide cold water",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 96 (Emergency & Priority Nursing - Q55)
-  {
-    question: "A patient with suspected stroke has sudden facial droop and weakness. What is the FIRST nursing action?",
-    optionA: "Assess ABC and time of onset",
-    optionB: "Give aspirin immediately",
-    optionC: "Allow sleep",
-    optionD: "Offer food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 97 (Emergency & Priority Nursing - Q56)
-  {
-    question: "A burn patient has hoarseness and facial burns. What is the most important assessment?",
-    optionA: "Airway patency",
-    optionB: "Urine color",
-    optionC: "Bowel sounds",
-    optionD: "Skin temperature",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 98 (Emergency & Priority Nursing - Q57)
-  {
-    question: "A patient in shock has cold clammy skin and weak pulse. What is the immediate priority?",
-    optionA: "Maintain airway and start oxygen",
-    optionB: "Give oral fluids",
-    optionC: "Encourage ambulation",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 99 (Emergency & Priority Nursing - Q58)
-  {
-    question: "Which patient should the nurse see FIRST?",
-    optionA: "Postoperative patient with RR 32/min",
-    optionB: "Patient with mild headache",
-    optionC: "Patient requesting water",
-    optionD: "Patient asking for discharge",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 100 (Emergency & Priority Nursing - Q59)
-  {
-    question: "A patient with asthma has severe wheezing and difficulty speaking. What is the priority intervention?",
-    optionA: "Administer oxygen and prescribed bronchodilator",
-    optionB: "Give cough syrup",
-    optionC: "Encourage deep breathing only",
-    optionD: "Provide cold water",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 101 (Emergency & Priority Nursing - Q60)
-  {
-    question: "A patient with suspected stroke has sudden facial droop and weakness. What is the FIRST nursing action?",
-    optionA: "Assess ABC and time of onset",
-    optionB: "Give aspirin immediately",
-    optionC: "Allow sleep",
-    optionD: "Offer food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 102 (Emergency & Priority Nursing - Q61)
-  {
-    question: "A burn patient has hoarseness and facial burns. What is the most important assessment?",
-    optionA: "Airway patency",
-    optionB: "Urine color",
-    optionC: "Bowel sounds",
-    optionD: "Skin temperature",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 103 (Emergency & Priority Nursing - Q62)
-  {
-    question: "A patient in shock has cold clammy skin and weak pulse. What is the immediate priority?",
-    optionA: "Maintain airway and start oxygen",
-    optionB: "Give oral fluids",
-    optionC: "Encourage ambulation",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 104 (Emergency & Priority Nursing - Q63)
-  {
-    question: "Which patient should the nurse see FIRST?",
-    optionA: "Postoperative patient with RR 32/min",
-    optionB: "Patient with mild headache",
-    optionC: "Patient requesting water",
-    optionD: "Patient asking for discharge",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 105 (Emergency & Priority Nursing - Q64)
-  {
-    question: "A patient with asthma has severe wheezing and difficulty speaking. What is the priority intervention?",
-    optionA: "Administer oxygen and prescribed bronchodilator",
-    optionB: "Give cough syrup",
-    optionC: "Encourage deep breathing only",
-    optionD: "Provide cold water",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 106 (Emergency & Priority Nursing - Q65)
-  {
-    question: "A patient with suspected stroke has sudden facial droop and weakness. What is the FIRST nursing action?",
-    optionA: "Assess ABC and time of onset",
-    optionB: "Give aspirin immediately",
-    optionC: "Allow sleep",
-    optionD: "Offer food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 107 (Emergency & Priority Nursing - Q66)
-  {
-    question: "A burn patient has hoarseness and facial burns. What is the most important assessment?",
-    optionA: "Airway patency",
-    optionB: "Urine color",
-    optionC: "Bowel sounds",
-    optionD: "Skin temperature",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 108 (Emergency & Priority Nursing - Q67)
-  {
-    question: "A patient in shock has cold clammy skin and weak pulse. What is the immediate priority?",
-    optionA: "Maintain airway and start oxygen",
-    optionB: "Give oral fluids",
-    optionC: "Encourage ambulation",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 109 (Emergency & Priority Nursing - Q68)
-  {
-    question: "Which patient should the nurse see FIRST?",
-    optionA: "Postoperative patient with RR 32/min",
-    optionB: "Patient with mild headache",
-    optionC: "Patient requesting water",
-    optionD: "Patient asking for discharge",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 110 (Emergency & Priority Nursing - Q69)
-  {
-    question: "A patient with asthma has severe wheezing and difficulty speaking. What is the priority intervention?",
-    optionA: "Administer oxygen and prescribed bronchodilator",
-    optionB: "Give cough syrup",
-    optionC: "Encourage deep breathing only",
-    optionD: "Provide cold water",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 111 (Emergency & Priority Nursing - Q70)
-  {
-    question: "A patient with suspected stroke has sudden facial droop and weakness. What is the FIRST nursing action?",
-    optionA: "Assess ABC and time of onset",
-    optionB: "Give aspirin immediately",
-    optionC: "Allow sleep",
-    optionD: "Offer food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 112 (Emergency & Priority Nursing - Q71)
-  {
-    question: "A burn patient has hoarseness and facial burns. What is the most important assessment?",
-    optionA: "Airway patency",
-    optionB: "Urine color",
-    optionC: "Bowel sounds",
-    optionD: "Skin temperature",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 113 (Emergency & Priority Nursing - Q72)
-  {
-    question: "A patient in shock has cold clammy skin and weak pulse. What is the immediate priority?",
-    optionA: "Maintain airway and start oxygen",
-    optionB: "Give oral fluids",
-    optionC: "Encourage ambulation",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 114 (Emergency & Priority Nursing - Q73)
-  {
-    question: "Which patient should the nurse see FIRST?",
-    optionA: "Postoperative patient with RR 32/min",
-    optionB: "Patient with mild headache",
-    optionC: "Patient requesting water",
-    optionD: "Patient asking for discharge",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 115 (Emergency & Priority Nursing - Q74)
-  {
-    question: "A patient with asthma has severe wheezing and difficulty speaking. What is the priority intervention?",
-    optionA: "Administer oxygen and prescribed bronchodilator",
-    optionB: "Give cough syrup",
-    optionC: "Encourage deep breathing only",
-    optionD: "Provide cold water",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 116 (Emergency & Priority Nursing - Q75)
-  {
-    question: "A patient with suspected stroke has sudden facial droop and weakness. What is the FIRST nursing action?",
-    optionA: "Assess ABC and time of onset",
-    optionB: "Give aspirin immediately",
-    optionC: "Allow sleep",
-    optionD: "Offer food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 117 (Emergency & Priority Nursing - Q76)
-  {
-    question: "A burn patient has hoarseness and facial burns. What is the most important assessment?",
-    optionA: "Airway patency",
-    optionB: "Urine color",
-    optionC: "Bowel sounds",
-    optionD: "Skin temperature",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 118 (Emergency & Priority Nursing - Q77)
-  {
-    question: "A patient in shock has cold clammy skin and weak pulse. What is the immediate priority?",
-    optionA: "Maintain airway and start oxygen",
-    optionB: "Give oral fluids",
-    optionC: "Encourage ambulation",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 119 (Emergency & Priority Nursing - Q78)
-  {
-    question: "Which patient should the nurse see FIRST?",
-    optionA: "Postoperative patient with RR 32/min",
-    optionB: "Patient with mild headache",
-    optionC: "Patient requesting water",
-    optionD: "Patient asking for discharge",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 120 (Emergency & Priority Nursing - Q79)
-  {
-    question: "A patient with asthma has severe wheezing and difficulty speaking. What is the priority intervention?",
-    optionA: "Administer oxygen and prescribed bronchodilator",
-    optionB: "Give cough syrup",
-    optionC: "Encourage deep breathing only",
-    optionD: "Provide cold water",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 121 (Emergency & Priority Nursing - Q80)
-  {
-    question: "A patient with suspected stroke has sudden facial droop and weakness. What is the FIRST nursing action?",
-    optionA: "Assess ABC and time of onset",
-    optionB: "Give aspirin immediately",
-    optionC: "Allow sleep",
-    optionD: "Offer food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 122 (Emergency & Priority Nursing - Q81)
-  {
-    question: "A burn patient has hoarseness and facial burns. What is the most important assessment?",
-    optionA: "Airway patency",
-    optionB: "Urine color",
-    optionC: "Bowel sounds",
-    optionD: "Skin temperature",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 123 (Emergency & Priority Nursing - Q82)
-  {
-    question: "A patient in shock has cold clammy skin and weak pulse. What is the immediate priority?",
-    optionA: "Maintain airway and start oxygen",
-    optionB: "Give oral fluids",
-    optionC: "Encourage ambulation",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 124 (Emergency & Priority Nursing - Q83)
-  {
-    question: "Which patient should the nurse see FIRST?",
-    optionA: "Postoperative patient with RR 32/min",
-    optionB: "Patient with mild headache",
-    optionC: "Patient requesting water",
-    optionD: "Patient asking for discharge",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 125 (Emergency & Priority Nursing - Q84)
-  {
-    question: "A patient with asthma has severe wheezing and difficulty speaking. What is the priority intervention?",
-    optionA: "Administer oxygen and prescribed bronchodilator",
-    optionB: "Give cough syrup",
-    optionC: "Encourage deep breathing only",
-    optionD: "Provide cold water",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 126 (Emergency & Priority Nursing - Q85)
-  {
-    question: "A patient with suspected stroke has sudden facial droop and weakness. What is the FIRST nursing action?",
-    optionA: "Assess ABC and time of onset",
-    optionB: "Give aspirin immediately",
-    optionC: "Allow sleep",
-    optionD: "Offer food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 127 (Emergency & Priority Nursing - Q86)
-  {
-    question: "A burn patient has hoarseness and facial burns. What is the most important assessment?",
-    optionA: "Airway patency",
-    optionB: "Urine color",
-    optionC: "Bowel sounds",
-    optionD: "Skin temperature",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 128 (Emergency & Priority Nursing - Q87)
-  {
-    question: "A patient in shock has cold clammy skin and weak pulse. What is the immediate priority?",
-    optionA: "Maintain airway and start oxygen",
-    optionB: "Give oral fluids",
-    optionC: "Encourage ambulation",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 129 (Emergency & Priority Nursing - Q88)
-  {
-    question: "Which patient should the nurse see FIRST?",
-    optionA: "Postoperative patient with RR 32/min",
-    optionB: "Patient with mild headache",
-    optionC: "Patient requesting water",
-    optionD: "Patient asking for discharge",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 130 (Emergency & Priority Nursing - Q89)
-  {
-    question: "A patient with asthma has severe wheezing and difficulty speaking. What is the priority intervention?",
-    optionA: "Administer oxygen and prescribed bronchodilator",
-    optionB: "Give cough syrup",
-    optionC: "Encourage deep breathing only",
-    optionD: "Provide cold water",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 131 (Emergency & Priority Nursing - Q90)
-  {
-    question: "A patient with suspected stroke has sudden facial droop and weakness. What is the FIRST nursing action?",
-    optionA: "Assess ABC and time of onset",
-    optionB: "Give aspirin immediately",
-    optionC: "Allow sleep",
-    optionD: "Offer food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 132 (Emergency & Priority Nursing - Q91)
-  {
-    question: "A burn patient has hoarseness and facial burns. What is the most important assessment?",
-    optionA: "Airway patency",
-    optionB: "Urine color",
-    optionC: "Bowel sounds",
-    optionD: "Skin temperature",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 133 (Emergency & Priority Nursing - Q92)
-  {
-    question: "A patient in shock has cold clammy skin and weak pulse. What is the immediate priority?",
-    optionA: "Maintain airway and start oxygen",
-    optionB: "Give oral fluids",
-    optionC: "Encourage ambulation",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 134 (Emergency & Priority Nursing - Q93)
-  {
-    question: "Which patient should the nurse see FIRST?",
-    optionA: "Postoperative patient with RR 32/min",
-    optionB: "Patient with mild headache",
-    optionC: "Patient requesting water",
-    optionD: "Patient asking for discharge",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 135 (Emergency & Priority Nursing - Q94)
-  {
-    question: "A patient with asthma has severe wheezing and difficulty speaking. What is the priority intervention?",
-    optionA: "Administer oxygen and prescribed bronchodilator",
-    optionB: "Give cough syrup",
-    optionC: "Encourage deep breathing only",
-    optionD: "Provide cold water",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 136 (Emergency & Priority Nursing - Q95)
-  {
-    question: "A patient with suspected stroke has sudden facial droop and weakness. What is the FIRST nursing action?",
-    optionA: "Assess ABC and time of onset",
-    optionB: "Give aspirin immediately",
-    optionC: "Allow sleep",
-    optionD: "Offer food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 137 (Emergency & Priority Nursing - Q96)
-  {
-    question: "A burn patient has hoarseness and facial burns. What is the most important assessment?",
-    optionA: "Airway patency",
-    optionB: "Urine color",
-    optionC: "Bowel sounds",
-    optionD: "Skin temperature",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 138 (Emergency & Priority Nursing - Q97)
-  {
-    question: "A patient in shock has cold clammy skin and weak pulse. What is the immediate priority?",
-    optionA: "Maintain airway and start oxygen",
-    optionB: "Give oral fluids",
-    optionC: "Encourage ambulation",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 139 (Emergency & Priority Nursing - Q98)
-  {
-    question: "Which patient should the nurse see FIRST?",
-    optionA: "Postoperative patient with RR 32/min",
-    optionB: "Patient with mild headache",
-    optionC: "Patient requesting water",
-    optionD: "Patient asking for discharge",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 140 (Emergency & Priority Nursing - Q99)
-  {
-    question: "A patient with asthma has severe wheezing and difficulty speaking. What is the priority intervention?",
-    optionA: "Administer oxygen and prescribed bronchodilator",
-    optionB: "Give cough syrup",
-    optionC: "Encourage deep breathing only",
-    optionD: "Provide cold water",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 141 (Emergency & Priority Nursing - Q100)
-  {
-    question: "A patient with suspected stroke has sudden facial droop and weakness. What is the FIRST nursing action?",
-    optionA: "Assess ABC and time of onset",
-    optionB: "Give aspirin immediately",
-    optionC: "Allow sleep",
-    optionD: "Offer food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 142 (Maternal & Newborn Priority - Q1)
-  {
-    question: "A woman who delivered 20 minutes ago is bleeding heavily. What is the nurse’s FIRST action?",
+    question: "A woman who delivered 20 minutes ago is bleeding heavily. What is the nurse\u2019s FIRST action?",
     optionA: "Massage the uterus",
     optionB: "Check temperature",
     optionC: "Offer water",
     optionD: "Document the bleeding",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 143 (Maternal & Newborn Priority - Q2)
   {
     question: "A pregnant woman with BP 170/110 mmHg, headache, and blurred vision is at risk of",
     optionA: "Anemia",
@@ -1429,9 +476,8 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Asthma",
     optionD: "UTI",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
-  // 144 (Maternal & Newborn Priority - Q3)
   {
     question: "A woman in labor has a fetal heart rate of 90 bpm. What is the PRIORITY action?",
     optionA: "Reposition the mother and assess further",
@@ -1439,9 +485,8 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Encourage pushing",
     optionD: "Allow rest only",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 145 (Maternal & Newborn Priority - Q4)
   {
     question: "Which sign is most suggestive of placental separation?",
     optionA: "Uterus becomes firm and rises",
@@ -1449,19 +494,17 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Maternal cough",
     optionD: "Back pain",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 146 (Maternal & Newborn Priority - Q5)
   {
-    question: "A woman with eclampsia begins to convulse. What is the nurse’s FIRST priority?",
+    question: "A woman with eclampsia begins to convulse. What is the nurse\u2019s FIRST priority?",
     optionA: "Maintain airway and prevent injury",
     optionB: "Insert oral airway forcefully",
     optionC: "Give food",
     optionD: "Check fundal height",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 147 (Maternal & Newborn Priority - Q6)
   {
     question: "A postpartum woman has a boggy uterus. What does this indicate?",
     optionA: "Uterine atony",
@@ -1469,9 +512,8 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Mastitis",
     optionD: "Urinary retention",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 148 (Maternal & Newborn Priority - Q7)
   {
     question: "A laboring woman has sudden severe abdominal pain and cessation of contractions. The nurse should suspect",
     optionA: "Uterine rupture",
@@ -1479,9 +521,8 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "UTI",
     optionD: "Round ligament pain",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 149 (Maternal & Newborn Priority - Q8)
   {
     question: "A woman with placenta previa presents with painless vaginal bleeding. What should the nurse avoid?",
     optionA: "Vaginal examination",
@@ -1489,9 +530,8 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "IV access",
     optionD: "Fetal monitoring",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 150 (Maternal & Newborn Priority - Q9)
   {
     question: "A woman in the second stage of labor should be encouraged to push when",
     optionA: "The cervix is fully dilated",
@@ -1499,6 +539,816 @@ export const TYPE8_QUESTIONS: RawDocQuestion[] = [
     optionC: "Placenta is delivered",
     optionD: "Membranes are intact",
     correctAnswer: "A",
-    explanation: ""
-  }
+    explanation: "",
+  },
+  {
+    question: "The cranial bone that forms the forehead and the superior orbital margins (supraorbital ridges) is the:",
+    optionA: "Frontal bone",
+    optionB: "Occipital bone",
+    optionC: "Parietal bone",
+    optionD: "Temporal bone",
+    correctAnswer: "A",
+    explanation: "The frontal bone forms the anterior cranium, forehead, and roof of each eye orbit.",
+  },
+  {
+    question: "Regarding the normal physiological curvatures of the adult human vertebral column, which statement is correct?",
+    optionA: "The cervical curve is convex anteriorly (secondary lordotic curve)",
+    optionB: "The thoracic curve is convex anteriorly",
+    optionC: "The lumbar curve is convex posteriorly",
+    optionD: "The sacral curve appears at three months of age",
+    correctAnswer: "A",
+    explanation: "Cervical and lumbar lordotic curves are secondary curves convex anteriorly that develop with holding the head up and walking.",
+  },
+  {
+    question: "In anatomical classification, the 12 pairs of thoracic ribs are categorized by shape as:",
+    optionA: "Short bones",
+    optionB: "Flat bones",
+    optionC: "Pneumatic bones",
+    optionD: "Irregular bones",
+    correctAnswer: "B",
+    explanation: "Ribs are classified morphologically as flat bones consisting of two layers of compact bone enclosing vascular cancellous diplo\u00eb.",
+  },
+  {
+    question: "The prominent bony olecranon process that forms the point of the elbow is an anatomical feature of the:",
+    optionA: "Humerus",
+    optionB: "Radius",
+    optionC: "Ulna",
+    optionD: "Scapula",
+    correctAnswer: "C",
+    explanation: "The olecranon is the proximal posterior hook-like projection of the ulna that fits into the olecranon fossa of the humerus.",
+  },
+  {
+    question: "In anatomical position, the head of the ulna is located at the:",
+    optionA: "Lateral side of the elbow",
+    optionB: "Medial side of the wrist (distal ulna)",
+    optionC: "Lateral side of the wrist",
+    optionD: "Medial side of the elbow",
+    correctAnswer: "B",
+    explanation: "Unlike the radius whose head is proximal at the elbow, the head of the ulna is at the distal wrist joint medially.",
+  },
+  {
+    question: "Cranial sutures connecting the flat bones of the skull vault are classified structurally as:",
+    optionA: "Synovial hinge joints",
+    optionB: "Fibrous synarthrodial joints",
+    optionC: "Cartilaginous amphiarthrodial joints",
+    optionD: "Pivot joints",
+    correctAnswer: "B",
+    explanation: "Sutures are immovable fibrous joints where adjacent bone margins are held tightly by dense fibrous sutural ligaments.",
+  },
+  {
+    question: "The humeroulnar joint of the elbow is structurally and functionally classified as a:",
+    optionA: "Synovial ball-and-socket joint",
+    optionB: "Synovial hinge (ginglymus) joint permitting flexion and extension",
+    optionC: "Condyloid joint",
+    optionD: "Saddle joint",
+    correctAnswer: "B",
+    explanation: "The trochlea of the humerus articulates with the trochlear notch of the ulna to form a uniaxial hinge joint.",
+  },
+  {
+    question: "The proximal and distal radioulnar joints are functionally classified as which type of synovial joint?",
+    optionA: "Ball and socket",
+    optionB: "Pivot (trochoid) joint permitting pronation and supination",
+    optionC: "Gliding plane joint",
+    optionD: "Suture",
+    correctAnswer: "B",
+    explanation: "Pivot joints permit uniaxial rotation around a central longitudinal axis, facilitating forearm pronation and supination.",
+  },
+  {
+    question: "The radiocarpal wrist joint is capable of all of the following physiological movements EXCEPT:",
+    optionA: "Flexion and extension",
+    optionB: "Radial and ulnar deviation (abduction and adduction)",
+    optionC: "Circumduction",
+    optionD: "Active axial rotation of the carpus on the radius",
+    correctAnswer: "D",
+    explanation: "The wrist is a biaxial condyloid joint; axial rotation belongs to the radioulnar joint (pronation/supination), not the wrist joint.",
+  },
+  {
+    question: "Under conditions of rigorous anaerobic muscle contraction, the primary metabolic byproduct that accumulates is:",
+    optionA: "Lactic acid (lactate)",
+    optionB: "Carbon monoxide",
+    optionC: "Excessive urea",
+    optionD: "Glycogen granules",
+    correctAnswer: "A",
+    explanation: "When oxygen demand outstrips supply, pyruvate is reduced by lactate dehydrogenase into lactic acid, contributing to muscle fatigue.",
+  },
+  {
+    question: "The primary skeletal muscle that flexes the elbow when the forearm is in mid-pronation (neutral position) is the:",
+    optionA: "Brachioradialis",
+    optionB: "Triceps brachii",
+    optionC: "Anconeus",
+    optionD: "Supinator",
+    correctAnswer: "A",
+    explanation: "The brachioradialis muscle flexes the forearm strongest when the hand is semi-pronated in the 'thumbs-up' position.",
+  },
+  {
+    question: "The quadriceps femoris muscle group inserts via the patellar tendon into the tibial tuberosity. Its primary action is:",
+    optionA: "Flexion of the knee joint",
+    optionB: "Extension of the knee joint",
+    optionC: "Adduction of the hip",
+    optionD: "Plantarflexion of the foot",
+    correctAnswer: "B",
+    explanation: "The four heads of the quadriceps (rectus femoris, vastus lateralis, medialis, intermedius) powerfully extend the knee.",
+  },
+  {
+    question: "The gluteus medius and gluteus minimus muscles are innervated by the superior gluteal nerve and function primarily to:",
+    optionA: "Flex the knee",
+    optionB: "Abduct the hip and stabilize the pelvis during single-leg stance",
+    optionC: "Adduct the thigh across the midline",
+    optionD: "Extend the toes",
+    correctAnswer: "B",
+    explanation: "During walking, the gluteus medius prevents the unsupported contralateral pelvis from sagging (Trendelenburg mechanism).",
+  },
+  {
+    question: "The hamstring muscle group located on the posterior compartment of the thigh acts to:",
+    optionA: "Extend the knee and flex the hip",
+    optionB: "Flex the knee and extend the hip joint",
+    optionC: "Abduct the leg",
+    optionD: "Dorsiflex the ankle",
+    correctAnswer: "B",
+    explanation: "Biceps femoris, semitendinosus, and semimembranosus cross both hip and knee joints to extend the hip and flex the knee.",
+  },
+  {
+    question: "The calf muscle group that unites into the calcaneal (Achilles) tendon to powerfully plantarflex the foot is the:",
+    optionA: "Tibialis anterior",
+    optionB: "Gastrocnemius and soleus",
+    optionC: "Peroneus longus",
+    optionD: "Extensor digitorum longus",
+    correctAnswer: "B",
+    explanation: "The triceps surae (gastrocnemius and soleus) plantarflexes the ankle, providing primary propulsion in walking and jumping.",
+  },
+  {
+    question: "A complete non-displaced fracture that cracks through both cortices of a long bone without external skin penetration is:",
+    optionA: "An open compound fracture",
+    optionB: "A closed simple fracture",
+    optionC: "A greenstick fracture",
+    optionD: "A pathological avulsion",
+    correctAnswer: "B",
+    explanation: "A closed fracture maintains intact skin overlying the fracture site, minimizing the risk of osteomyelitis.",
+  },
+  {
+    question: "In bone healing, the soft fibrocartilaginous procallus is gradually converted into mineralized woven bone by the activity of:",
+    optionA: "Chondroclasts",
+    optionB: "Osteoblasts",
+    optionC: "Erythroblasts",
+    optionD: "Fibroblasts only",
+    correctAnswer: "B",
+    explanation: "Osteoblasts synthesize collagenous osteoid and deposit calcium phosphate crystals to form a hard bony callus.",
+  },
+  {
+    question: "The multi-axial synovial joint permitting the greatest range of motion in the entire human body is the:",
+    optionA: "Hip joint",
+    optionB: "Glenohumeral (shoulder) joint",
+    optionC: "Knee joint",
+    optionD: "Elbow joint",
+    correctAnswer: "B",
+    explanation: "The shallow glenoid cavity accommodating the large humeral head permits flexion, extension, abduction, adduction, circumduction, and rotation.",
+  },
+  {
+    question: "The strong, C-shaped fibrocartilaginous discs situated within the knee joint that deepen articular surfaces and absorb shock are the:",
+    optionA: "Cruciate ligaments",
+    optionB: "Medial and lateral menisci",
+    optionC: "Collateral ligaments",
+    optionD: "Patellar retinacula",
+    correctAnswer: "B",
+    explanation: "The medial and lateral menisci distribute weight, cushion compressive loads, and stabilize femoral-tibial articulation.",
+  },
+  {
+    question: "The pelvic girdle (bony pelvis) is formed anteriorly by the symphysis pubis and posteriorly by articulation with the:",
+    optionA: "Lumbar vertebrae L1-L4",
+    optionB: "Sacrum (sacroiliac joints)",
+    optionC: "Femoral head",
+    optionD: "Coccyx only",
+    correctAnswer: "B",
+    explanation: "The ilium articulates bilaterally with the alae of the sacrum at the robust synovial sacroiliac joints.",
+  },
+  {
+    question: "The thickest, strongest, and heaviest vertebra in the mobile spine adapted for bearing axial body weight is the:",
+    optionA: "Atlas (C1)",
+    optionB: "Seventh cervical vertebra (C7)",
+    optionC: "Fifth lumbar vertebra (L5)",
+    optionD: "Twelfth thoracic vertebra (T12)",
+    correctAnswer: "C",
+    explanation: "Lumbar vertebrae feature massive kidney-shaped vertebral bodies, with L5 bearing the maximal upper body gravitational load.",
+  },
+  {
+    question: "A physician prescribes 1,000 mL of 0.9% Normal Saline to infuse over 8 hours. The infusion set delivers 15 drops/mL (gtt/mL). What is the calculated drip rate in drops per minute?",
+    optionA: "21 drops/min",
+    optionB: "31 drops/min",
+    optionC: "42 drops/min",
+    optionD: "52 drops/min",
+    correctAnswer: "B",
+    explanation: "Drip rate = (Total Volume in mL \u00d7 Drop factor) / Time in minutes = (1,000 \u00d7 15) / (8 \u00d7 60) = 15,000 / 480 = 31.25 drops/min (approx. 31 gtt/min).",
+  },
+  {
+    question: "A pediatric patient weighing 20 kg is prescribed ampicillin 50 mg/kg/day divided into four equal doses every 6 hours. What is the correct individual dose to be administered?",
+    optionA: "250 mg per dose",
+    optionB: "500 mg per dose",
+    optionC: "1,000 mg per dose",
+    optionD: "125 mg per dose",
+    correctAnswer: "A",
+    explanation: "Total daily dose = 20 kg \u00d7 50 mg/kg = 1,000 mg/day. Divided into 4 equal doses = 1,000 \u00f7 4 = 250 mg per dose.",
+  },
+  {
+    question: "In pharmaceutical metric and apothecary conversion, how many milliliters (mL) are equivalent to one standard fluid ounce (1 fl oz)?",
+    optionA: "15 mL",
+    optionB: "30 mL",
+    optionC: "60 mL",
+    optionD: "100 mL",
+    correctAnswer: "B",
+    explanation: "One fluid ounce is standardized in clinical nursing pharmacology as equivalent to 30 mL (or 2 tablespoons).",
+  },
+  {
+    question: "How many milligrams (mg) are contained in one apothecary grain (gr i)?",
+    optionA: "15 mg",
+    optionB: "30 mg",
+    optionC: "60 to 65 mg",
+    optionD: "100 mg",
+    correctAnswer: "C",
+    explanation: "One grain (gr i) in clinical pharmacology conversion is equivalent to 60 or 65 mg (e.g., aspirin gr v = 325 mg).",
+  },
+  {
+    question: "A client is prescribed 0.5 mg of oral digoxin. The available scored tablets are labeled 250 micrograms (0.25 mg) per tablet. How many tablets should the nurse administer?",
+    optionA: "1 tablet",
+    optionB: "2 tablets",
+    optionC: "3 tablets",
+    optionD: "4 tablets",
+    correctAnswer: "B",
+    explanation: "Dose ordered = 0.5 mg = 500 mcg. Dose available = 250 mcg/tablet. 500 \u00f7 250 = 2 tablets.",
+  },
+  {
+    question: "Which of the following loop diuretics acts primarily on the thick ascending limb of the loop of Henle to inhibit sodium and chloride reabsorption?",
+    optionA: "Hydrochlorothiazide",
+    optionB: "Furosemide (Lasix)",
+    optionC: "Spironolactone",
+    optionD: "Mannitol",
+    correctAnswer: "B",
+    explanation: "Furosemide blocks the Na+/K+/2Cl- symporter in the thick ascending limb, producing profound diuresis and potassium excretion.",
+  },
+  {
+    question: "Spironolactone (Aldactone) is classified as which type of diuretic?",
+    optionA: "Osmotic diuretic",
+    optionB: "Potassium-sparing aldosterone receptor antagonist",
+    optionC: "Carbonic anhydrase inhibitor",
+    optionD: "High-ceiling loop diuretic",
+    correctAnswer: "B",
+    explanation: "Spironolactone competitively blocks aldosterone receptors in the late distal tubule and collecting duct, retaining potassium while promoting sodium excretion.",
+  },
+  {
+    question: "Which antihypertensive drug class is specifically contraindicated during all trimesters of pregnancy due to fetal renal dysgenesis and teratogenicity?",
+    optionA: "Methyldopa",
+    optionB: "Angiotensin Converting Enzyme (ACE) Inhibitors and ARBs",
+    optionC: "Hydralazine",
+    optionD: "Labetalol",
+    correctAnswer: "B",
+    explanation: "ACE inhibitors and ARBs cause fetal oligohydramnios, pulmonary hypoplasia, renal failure, and skull ossification defects.",
+  },
+  {
+    question: "A client receiving IV vancomycin suddenly develops erythematous flushing, pruritus, and a macular rash over the face, neck, and upper torso during rapid infusion. This reaction is:",
+    optionA: "An acute IgE-mediated anaphylactic emergency",
+    optionB: "Vancomycin Flushing Syndrome (Red Man Syndrome) caused by non-immunologic histamine release from rapid infusion",
+    optionC: "Stevens-Johnson syndrome",
+    optionD: "Toxic epidermal necrolysis",
+    correctAnswer: "B",
+    explanation: "Red Man Syndrome is an infusion-rate dependent reaction treated by slowing the infusion rate to at least 60-90 minutes and giving antihistamines.",
+  },
+  {
+    question: "The specific opioid antagonist Naloxone (Narcan) has a shorter duration of action (30-90 minutes) than most opioids. The critical nursing implication is that:",
+    optionA: "The client will never require another dose",
+    optionB: "The client may relapse into respiratory depression when naloxone wears off, requiring repeat dosing and continuous monitoring",
+    optionC: "The client should be discharged immediately after waking up",
+    optionD: "Oral fluids should be forced",
+    correctAnswer: "B",
+    explanation: "Because opioids (such as methadone or morphine) have longer half-lives than naloxone, respiratory arrest can recur as naloxone levels drop.",
+  },
+  {
+    question: "A client taking oral levothyroxine sodium for hypothyroidism is instructed to take the tablet:",
+    optionA: "At bedtime with a heavy high-protein snack",
+    optionB: "First thing in the morning on an empty stomach with a full glass of water, at least 30 to 60 minutes before breakfast",
+    optionC: "Concurrently with calcium carbonate and iron supplements",
+    optionD: "Only on alternating days",
+    correctAnswer: "B",
+    explanation: "Food, calcium, and iron bind levothyroxine, severely decreasing absorption; taking it alone before breakfast maximizes bioavailability.",
+  },
+  {
+    question: "The first-line drug of choice for treating acute status epilepticus prolonged seizures in an emergency setting is:",
+    optionA: "Oral carbamazepine",
+    optionB: "Intravenous Benzodiazepines (Lorazepam or Diazepam)",
+    optionC: "Oral ethosuximide",
+    optionD: "Subcutaneous insulin",
+    correctAnswer: "B",
+    explanation: "IV lorazepam or diazepam rapidly crosses the blood-brain barrier, enhancing GABA transmission to terminate seizure activity.",
+  },
+  {
+    question: "Which antimicrobial agent is known to cause grey baby syndrome in neonates due to immature hepatic glucuronidation enzymes?",
+    optionA: "Penicillin G",
+    optionB: "Chloramphenicol",
+    optionC: "Amoxicillin",
+    optionD: "Erythromycin",
+    correctAnswer: "B",
+    explanation: "Neonates lack UDP-glucuronyltransferase; toxic chloramphenicol accumulation causes ashen cyanosis, cardiovascular collapse, and death.",
+  },
+  {
+    question: "Aminoglycoside antibiotics (such as Gentamicin, Tobramycin, and Amikacin) are associated with which two major organ toxicities?",
+    optionA: "Hepatotoxicity and cardiomyopathy",
+    optionB: "Nephrotoxicity (renal tubular necrosis) and Ototoxicity (auditory and vestibular damage)",
+    optionC: "Pulmonary fibrosis and pancreatitis",
+    optionD: "Aplastic anemia and peripheral neuropathy",
+    correctAnswer: "B",
+    explanation: "Aminoglycosides accumulate in the renal cortex and inner ear perilymph, requiring therapeutic drug monitoring of peak and trough levels.",
+  },
+  {
+    question: "Which of the following medications is a selective beta-1 adrenergic receptor antagonist (cardioselective beta-blocker)?",
+    optionA: "Propranolol",
+    optionB: "Metoprolol (or Atenolol)",
+    optionC: "Carvedilol",
+    optionD: "Labetalol",
+    correctAnswer: "B",
+    explanation: "Metoprolol and atenolol selectively block cardiac beta-1 receptors, decreasing heart rate and contractility with minimal bronchial beta-2 effect.",
+  },
+  {
+    question: "A client is prescribed regular insulin 8 units and NPH insulin 20 units subcutaneously before breakfast. In what sequence should the nurse draw the medications into a single syringe?",
+    optionA: "Draw NPH (cloudy) first, then regular (clear)",
+    optionB: "Draw regular insulin (clear) first, then NPH insulin (cloudy)",
+    optionC: "Never mix two insulins in one syringe under any circumstance",
+    optionD: "Order of draw does not matter",
+    correctAnswer: "B",
+    explanation: "Always draw 'clear before cloudy' (regular first, then NPH) to avoid contaminating the clear short-acting vial with long-acting protein retardants.",
+  },
+  {
+    question: "A client taking oral corticosteroids long-term develops facial roundedness, buffalo hump, purple abdominal striae, and hypertension. This iatrogenic condition is:",
+    optionA: "Addison's disease",
+    optionB: "Cushing's syndrome",
+    optionC: "Conn's syndrome",
+    optionD: "Pheochromocytoma",
+    correctAnswer: "B",
+    explanation: "Chronic supraphysiological glucocorticoid therapy reproduces clinical hypercortisolemia (exogenous Cushing's syndrome).",
+  },
+  {
+    question: "The therapeutic class of the antiemetic Ondansetron (Zofran), widely used for chemotherapy-induced and postoperative nausea, is:",
+    optionA: "Dopamine D2 antagonist",
+    optionB: "Serotonin 5-HT3 receptor antagonist",
+    optionC: "Histamine H1 blocker",
+    optionD: "Substance P neurokinin-1 antagonist",
+    correctAnswer: "B",
+    explanation: "Ondansetron selectively blocks 5-HT3 receptors in the chemoreceptor trigger zone and vagal afferents in the gastrointestinal tract.",
+  },
+  {
+    question: "Which proton pump inhibitor (PPI) irreversibly binds to the H+/K+ ATPase pump in gastric parietal cells to profoundly suppress gastric acid secretion?",
+    optionA: "Ranitidine",
+    optionB: "Omeprazole",
+    optionC: "Sucralfate",
+    optionD: "Misoprostol",
+    correctAnswer: "B",
+    explanation: "Omeprazole covalently binds the active H+/K+ ATPase proton pump, providing superior acid suppression for peptic ulcers and GERD.",
+  },
+  {
+    question: "A client experiencing acute anaphylaxis is prescribed Epinephrine 1:1,000 solution. What is the standard adult intramuscular dose?",
+    optionA: "0.01 mg",
+    optionB: "0.3 to 0.5 mg (0.3 to 0.5 mL of 1:1,000 solution)",
+    optionC: "5.0 mg",
+    optionD: "10 mg",
+    correctAnswer: "B",
+    explanation: "The recommended adult IM dose of epinephrine for acute anaphylaxis is 0.3 to 0.5 mg administered into the anterolateral mid-thigh.",
+  },
+  {
+    question: "At what chronological age does the posterior fontanelle of a healthy infant normally undergo complete anatomical closure?",
+    optionA: "6 to 8 weeks (2 months) of age",
+    optionB: "12 to 18 months of age",
+    optionC: "At birth",
+    optionD: "3 years of age",
+    correctAnswer: "A",
+    explanation: "The small triangular posterior fontanelle closes by 6 to 8 weeks; the larger diamond-shaped anterior fontanelle closes by 12 to 18 months.",
+  },
+  {
+    question: "A healthy full-term infant with a birth weight of 3.2 kg is expected to double their birth weight by what age?",
+    optionA: "2 months",
+    optionB: "5 to 6 months of age",
+    optionC: "12 months of age",
+    optionD: "24 months of age",
+    correctAnswer: "B",
+    explanation: "Infants normally double their birth weight by 5-6 months and triple their birth weight by 12 months (1 year).",
+  },
+  {
+    question: "According to developmental motor milestones, an infant typically achieves independent sitting without support at approximately:",
+    optionA: "2 months of age",
+    optionB: "6 to 8 months of age",
+    optionC: "12 months of age",
+    optionD: "18 months of age",
+    correctAnswer: "B",
+    explanation: "Infants roll over at 4-5 months, sit steadily without back support by 6-8 months, and pull to stand by 9-10 months.",
+  },
+  {
+    question: "At what developmental age is an infant typically expected to develop a neat pincer grasp (using the thumb and index finger to pick up small objects)?",
+    optionA: "3 months",
+    optionB: "9 to 10 months of age",
+    optionC: "4 months",
+    optionD: "24 months",
+    correctAnswer: "B",
+    explanation: "Crude palmar grasp appears by 5-6 months, developing into a fine, mature pincer grasp by 9-10 months.",
+  },
+  {
+    question: "The primary clinical danger of acute epiglottitis caused by Haemophilus influenzae type b in a toddler is:",
+    optionA: "Renal failure",
+    optionB: "Sudden, total airway obstruction and fatal asphyxiation",
+    optionC: "Chronic diarrhea",
+    optionD: "Liver cirrhosis",
+    correctAnswer: "B",
+    explanation: "Acute inflammation causes severe swelling of the epiglottis; attempting to visualize the pharynx with a tongue blade can trigger fatal laryngospasm.",
+  },
+  {
+    question: "A 3-year-old child presents with high fever, sore throat, drooling of saliva, dysphagia, and sits in a 'tripod position' with neck hyperextended. The nurse must NEVER:",
+    optionA: "Allow the parent to hold the child",
+    optionB: "Examine the posterior throat using a tongue depressor or oral applicator",
+    optionC: "Administer humidified oxygen",
+    optionD: "Prepare emergency intubation equipment",
+    correctAnswer: "B",
+    explanation: "Tongue blade examination can stimulate the vagus nerve and provoke immediate reflex laryngospasm and complete respiratory arrest.",
+  },
+  {
+    question: "The primary clinical assessment tool used to classify dehydration severity in children under 5 years is evaluating:",
+    optionA: "Urine color alone",
+    optionB: "General condition (alert, lethargic, comatose), sunken eyes, skin pinch elasticity, and ability to drink (WHO dehydration classification)",
+    optionC: "Head circumference measurement",
+    optionD: "Pupillary light reflex",
+    correctAnswer: "B",
+    explanation: "WHO guidelines classify dehydration into No dehydration, Some dehydration, or Severe dehydration using skin pinch, eyes, and mental status.",
+  },
+  {
+    question: "In pediatric resuscitation, chest compressions on an infant (under 1 year of age) are performed using:",
+    optionA: "The heels of both hands overlapping",
+    optionB: "The two-finger technique (single rescuer) or two-thumb encircling-hands technique (two rescuers) just below the inter-nipple line",
+    optionC: "A closed fist over the xiphoid process",
+    optionD: "One palm over the upper sternum",
+    correctAnswer: "B",
+    explanation: "Compressing with two thumbs or two fingers to a depth of 1.5 inches (4 cm) delivers optimal cardiac output without thoracic trauma.",
+  },
+  {
+    question: "The classical radiographic finding on abdominal X-ray in a child with intussusception is often described as:",
+    optionA: "Free air under both diaphragms",
+    optionB: "A soft tissue mass with bowel obstruction, classically verified by ultrasound showing a 'target' or 'doughnut' sign",
+    optionC: "Complete absence of all bowel gas",
+    optionD: "Pneumothorax",
+    correctAnswer: "B",
+    explanation: "Telescoping of a proximal bowel segment into an adjacent distal segment produces a cross-sectional target or doughnut lesion on sonography.",
+  },
+  {
+    question: "A classic clinical hallmark triad in a child presenting with acute ileocolic intussusception is:",
+    optionA: "High fever, jaundice, and polyuria",
+    optionB: "Sudden episodic colicky abdominal pain, a palpable sausage-shaped abdominal mass, and passage of 'currant jelly' stools",
+    optionC: "Chronic constipation and weight gain",
+    optionD: "Persistent coughing and wheezing",
+    correctAnswer: "B",
+    explanation: "Intussusception causes bowel ischemia and mucosal sloughing, producing bloody mucus stool described as 'red currant jelly'.",
+  },
+  {
+    question: "Using Naegele's rule, what is the estimated date of delivery (EDD) for a pregnant woman whose first day of her last normal menstrual period (LMP) was March 10, 2026?",
+    optionA: "December 10, 2026",
+    optionB: "December 17, 2026",
+    optionC: "January 17, 2027",
+    optionD: "November 17, 2026",
+    correctAnswer: "B",
+    explanation: "Naegele's rule: Add 7 days to LMP date (March 10 + 7 = March 17) and subtract 3 months (March - 3 = December) -> December 17, 2026.",
+  },
+  {
+    question: "In obstetrical monitoring, which fetal heart rate (FHR) deceleration pattern is benign and caused by transient fetal head compression during uterine contractions?",
+    optionA: "Early decelerations (symmetrical decrease mirroring the contraction)",
+    optionB: "Late decelerations (uteroplacental insufficiency)",
+    optionC: "Variable decelerations (umbilical cord compression)",
+    optionD: "Prolonged decelerations",
+    correctAnswer: "A",
+    explanation: "Early decelerations mirror contractions, resulting from vagal reflex activation due to head compression in active labor, and are reassuring.",
+  },
+  {
+    question: "Late decelerations of the fetal heart rate that begin after the peak of a uterine contraction and return to baseline after the contraction ends signify:",
+    optionA: "Benign head compression",
+    optionB: "Uteroplacental insufficiency and fetal hypoxia requiring immediate intrauterine resuscitation",
+    optionC: "Normal fetal sleep cycle",
+    optionD: "Maternal hyperventilation",
+    correctAnswer: "B",
+    explanation: "Late decelerations reflect inadequate placental perfusion during uterine peak tension, indicating progressive fetal acidemia.",
+  },
+  {
+    question: "When umbilical cord prolapse occurs during labor with visible cord protruding through the introitus, the nurse's immediate emergency intervention is to:",
+    optionA: "Push the umbilical cord back up into the uterine cavity",
+    optionB: "Insert a sterile gloved hand into the vagina to exert upward manual pressure on the fetal presenting part, relieving cord compression, while calling for emergency Cesarean section",
+    optionC: "Administer an oxytocin infusion to accelerate delivery",
+    optionD: "Instruct the mother to bear down forcefully",
+    correctAnswer: "B",
+    explanation: "Manual elevation of the presenting part prevents occlusion of fetal cord vessels until emergency surgical delivery can be completed.",
+  },
+  {
+    question: "In postpartum assessment, primary postpartum hemorrhage (PPH) following vaginal birth is clinically defined as blood loss exceeding:",
+    optionA: "100 mL",
+    optionB: "500 mL in vaginal delivery (or >1,000 mL in Cesarean birth)",
+    optionC: "2,000 mL",
+    optionD: "50 mL",
+    correctAnswer: "B",
+    explanation: "WHO and ACOG define PPH as cumulative blood loss \u2265 500 mL within 24 hours of vaginal delivery or \u2265 1,000 mL for Cesarean section.",
+  },
+  {
+    question: "The single most common cause of primary postpartum hemorrhage (PPH) responsible for over 70% of cases is:",
+    optionA: "Cervical laceration",
+    optionB: "Uterine atony (failure of the myometrium to contract firmly)",
+    optionC: "Retained placental fragments",
+    optionD: "Coagulation factor deficiency",
+    correctAnswer: "B",
+    explanation: "Myometrial contraction constricts criss-crossing 'living ligatures' around placental bed vessels; lack of tone causes massive bleeding.",
+  },
+  {
+    question: "Placenta Previa is clinically distinguished from Abruptio Placentae by the classic presentation of:",
+    optionA: "Painful dark red vaginal bleeding with board-like uterine rigidity",
+    optionB: "Painless, bright red vaginal bleeding in the second or third trimester with a soft, non-tender uterus",
+    optionC: "Severe continuous backache with absent bleeding",
+    optionD: "Premature rupture of membranes with foul odor",
+    correctAnswer: "B",
+    explanation: "Placenta previa causes painless bright red bleeding as the lower uterine segment stretches; abruptio causes painful dark bleeding and a rigid uterus.",
+  },
+  {
+    question: "In a pregnant client presenting with third-trimester painless vaginal bleeding, which procedure is strictly contraindicated until placenta previa is ruled out by ultrasound?",
+    optionA: "External fetal heart rate monitoring",
+    optionB: "Digital pelvic/vaginal examination",
+    optionC: "Abdominal ultrasonography",
+    optionD: "Maternal blood pressure measurement",
+    correctAnswer: "B",
+    explanation: "Digital cervical examination can tear the low-lying placenta over the internal os, provoking catastrophic fatal maternal hemorrhage.",
+  },
+  {
+    question: "The physiological maternal hormone responsible for stimulating rhythmic postpartum uterine contractions and milk let-down (ejection) is:",
+    optionA: "Prolactin",
+    optionB: "Oxytocin",
+    optionC: "Progesterone",
+    optionD: "Human placental lactogen",
+    correctAnswer: "B",
+    explanation: "Oxytocin stimulates myoepithelial cells in breast alveoli for milk ejection and myometrial smooth muscle for uterine involution.",
+  },
+  {
+    question: "The Lochia discharge passed during the first 3 to 4 days postpartum consisting predominantly of blood, decidual tissue, and mucus is documented as:",
+    optionA: "Lochia serosa (pink-brown)",
+    optionB: "Lochia rubra (bright to dark red)",
+    optionC: "Lochia alba (yellow-white)",
+    optionD: "Lochia purulenta",
+    correctAnswer: "B",
+    explanation: "Lochia rubra occurs on days 1-4; lochia serosa follows on days 4-10; and lochia alba continues from day 10 up to 3-6 weeks postpartum.",
+  },
+  {
+    question: "A client receiving a unit of packed red blood cells suddenly develops chills, fever, lower back pain, tachycardia, and dyspnea 15 minutes into the transfusion. What is the nurse's first immediate action?",
+    optionA: "Slow the infusion rate to keep vein open",
+    optionB: "Stop the transfusion immediately, disconnect the blood tubing at the hub, and infuse 0.9% Normal Saline with new IV tubing",
+    optionC: "Administer an oral antipyretic and continue the transfusion",
+    optionD: "Elevate the client's legs and increase the blood flow rate",
+    correctAnswer: "B",
+    explanation: "These signs indicate an acute hemolytic transfusion reaction; the priority is stopping the offending blood immediately and maintaining vascular access.",
+  },
+  {
+    question: "Disseminated Intravascular Coagulation (DIC) is a complex hematological syndrome characterized pathophysiologically by:",
+    optionA: "Isolated deficiency of platelet production in bone marrow",
+    optionB: "Widespread systemic microvascular fibrin thrombi formation with consumption of clotting factors and platelets, leading to paradoxical severe hemorrhage",
+    optionC: "Rapid clonal expansion of mature erythrocytes",
+    optionD: "Chronic localized venous stasis without bleeding",
+    correctAnswer: "B",
+    explanation: "DIC involves uncontrolled thrombin generation causing widespread microthrombi and secondary consumptive coagulopathy with hemorrhage.",
+  },
+  {
+    question: "In a client diagnosed with Multiple Myeloma, which laboratory urine finding represents abnormal monoclonal light chains excreted by malignant plasma cells?",
+    optionA: "Bence Jones proteinuria",
+    optionB: "Glucosuria",
+    optionC: "Ketonuria",
+    optionD: "Bilirubinuria",
+    correctAnswer: "A",
+    explanation: "Bence Jones proteins are free monoclonal immunoglobulin kappa or lambda light chains filtered by glomeruli in multiple myeloma.",
+  },
+  {
+    question: "The Philadelphia chromosome, a balanced reciprocal translocation t(9;22)(q34;q11) creating the BCR-ABL1 oncogene, is pathognomonic for:",
+    optionA: "Acute lymphoblastic leukemia (ALL)",
+    optionB: "Chronic Myeloid Leukemia (CML)",
+    optionC: "Hodgkin's lymphoma",
+    optionD: "Burkitt lymphoma",
+    correctAnswer: "B",
+    explanation: "The BCR-ABL tyrosine kinase gene fusion on the Philadelphia chromosome drives constitutive proliferation in chronic myeloid leukemia.",
+  },
+  {
+    question: "Von Willebrand disease, the most common inherited human bleeding disorder, is caused by deficiency or dysfunction of a protein that:",
+    optionA: "Directly hydrolyzes prothrombin into thrombin",
+    optionB: "Mediates platelet adhesion to subendothelial collagen and stabilizes circulating Factor VIII",
+    optionC: "Synthesizes erythropoietin in peritubular capillary beds",
+    optionD: "Inhibits plasminogen activation",
+    correctAnswer: "B",
+    explanation: "Von Willebrand factor anchors platelets to damaged subendothelial collagen and serves as the carrier protein protecting Factor VIII from degradation.",
+  },
+  {
+    question: "Neurogenic shock resulting from high cervical or thoracic spinal cord trauma is uniquely distinguished from other forms of distributive shock by:",
+    optionA: "Profound hypertension, tachycardia, and hyperthermia",
+    optionB: "Hypotension accompanied by paradoxical bradycardia and warm, dry skin below the level of the injury",
+    optionC: "Narrow pulse pressure, severe cold clammy skin, and tachypnea",
+    optionD: "Marked hyperkalemia with muscle spasms",
+    correctAnswer: "B",
+    explanation: "Loss of sympathetic tone leaves unopposed vagal parasympathetic innervation to the heart (bradycardia) and systemic vasodilation (warm dry skin).",
+  },
+  {
+    question: "Beck's triad, the classical physical diagnostic triad indicative of acute life-threatening Cardiac Tamponade, consists of:",
+    optionA: "Hypertension, bounding pulse, and loud friction rub",
+    optionB: "Hypotension, muffled (distant) heart sounds, and elevated jugular venous distention (JVD)",
+    optionC: "Bradycardia, bradypnea, and systolic hypertension",
+    optionD: "Flail chest, hemoptysis, and tracheal deviation",
+    correctAnswer: "B",
+    explanation: "Fluid accumulating rapidly in the pericardial space compresses the heart, impairing ventricular filling and producing Beck's triad.",
+  },
+  {
+    question: "In a client presenting with acute infective endocarditis, painful, red, raised subcutaneous nodules on the pads of the fingers and toes are documented as:",
+    optionA: "Janeway lesions",
+    optionB: "Osler's nodes",
+    optionC: "Roth spots",
+    optionD: "Splinter hemorrhages",
+    correctAnswer: "B",
+    explanation: "Osler's nodes are tender immune-complex nodules on digital pads; Janeway lesions are painless erythematous macules on palms and soles.",
+  },
+  {
+    question: "The classic clinical triad of symptoms indicating critical, hemodynamically significant Aortic Valve Stenosis is:",
+    optionA: "Fever, chills, and productive cough",
+    optionB: "Angina pectoris, syncope on exertion, and exertional dyspnea (heart failure)",
+    optionC: "Headache, epistaxis, and visual blur",
+    optionD: "Peripheral edema, ascites, and jaundice",
+    correctAnswer: "B",
+    explanation: "Fixed left ventricular outflow tract obstruction in aortic stenosis prevents cardiac output augmentation, causing angina, syncope, and heart failure.",
+  },
+  {
+    question: "Acute pericarditis is classically characterized by chest pain that is sharp and pleuritic, and typically:",
+    optionA: "Worsens when sitting forward and improves when lying flat",
+    optionB: "Worsens on deep inspiration and when lying supine, and is relieved by sitting upright and leaning forward",
+    optionC: "Radiates down the right leg",
+    optionD: "Is completely unaffected by breathing or body position",
+    correctAnswer: "B",
+    explanation: "Leaning forward shifts the inflamed pericardium away from the anterior chest wall and diaphragm, alleviating pleuritic friction pain.",
+  },
+  {
+    question: "Which oxygen delivery system is calibrated to provide the most precise, fixed, and consistent fraction of inspired oxygen (FiO2) for clients with chronic hypercapnic COPD?",
+    optionA: "Simple face mask",
+    optionB: "Nasal cannula at 6 L/min",
+    optionC: "Venturi mask",
+    optionD: "Non-rebreather reservoir mask",
+    correctAnswer: "C",
+    explanation: "Venturi masks utilize colored entrainment adapters to deliver an exact, predictable concentration of oxygen regardless of client breathing pattern.",
+  },
+  {
+    question: "When interpreting a Mantoux tuberculin skin test (TST / PPD) at 48 to 72 hours, the nurse evaluates the test by measuring:",
+    optionA: "The diameter of erythema (redness) across the forearm in millimeters",
+    optionB: "The palpable, raised, hardened induration in millimeters across the transverse axis of the forearm",
+    optionC: "The depth of cutaneous puncture",
+    optionD: "The intensity of local itching",
+    correctAnswer: "B",
+    explanation: "Only palpable cellular induration (not erythema) reflects cell-mediated delayed-type hypersensitivity to tuberculin purified protein derivative.",
+  },
+  {
+    question: "In performing open endotracheal or tracheostomy suctioning on an adult client, the maximum duration for applying continuous suction during catheter withdrawal is:",
+    optionA: "30 to 45 seconds",
+    optionB: "10 to 15 seconds",
+    optionC: "60 seconds",
+    optionD: "5 minutes",
+    correctAnswer: "B",
+    explanation: "Applying suction longer than 10-15 seconds causes significant hypoxia, vagal stimulation, and severe cardiac dysrhythmias.",
+  },
+  {
+    question: "When preparing an adult client for an elective therapeutic thoracentesis to drain a large pleural effusion, how should the nurse position the client?",
+    optionA: "Supine with arms extended at sides",
+    optionB: "Sitting upright on the edge of the bed, leaning forward over an overbed bedside table supported by pillows",
+    optionC: "Prone with head turned to the side",
+    optionD: "Trendelenburg position with head down 30 degrees",
+    correctAnswer: "B",
+    explanation: "Sitting upright leaning forward widens the posterior intercostal spaces and allows pleural fluid to accumulate dependently at the lung base.",
+  },
+  {
+    question: "To prevent ischemic pressure necrosis of the tracheal mucosa while preventing aspiration, the cuff pressure of an adult endotracheal tube should be maintained at:",
+    optionA: "5 to 10 mmHg",
+    optionB: "20 to 25 cm H2O (or 15 to 20 mmHg)",
+    optionC: "40 to 50 mmHg",
+    optionD: "60 cm H2O",
+    correctAnswer: "B",
+    explanation: "Cuff pressures exceeding 25-30 cm H2O exceed tracheal capillary perfusion pressure, risking mucosal ulceration and tracheal stenosis.",
+  },
+  {
+    question: "A client with a complete T4 spinal cord injury suddenly develops acute Autonomic Dysreflexia (Hyperreflexia). The nurse's immediate first action is to:",
+    optionA: "Lay the client completely flat in the supine position",
+    optionB: "Elevate the head of the bed to a high upright sitting position (90 degrees) to lower intracranial blood pressure",
+    optionC: "Administer an immediate IV bolus of potassium",
+    optionD: "Apply warm blankets over the lower extremities",
+    correctAnswer: "B",
+    explanation: "Sitting the client upright utilizes gravity to induce orthostatic venous pooling, lowering cerebral arterial pressure while the trigger is found.",
+  },
+  {
+    question: "The most common noxious trigger precipitating life-threatening Autonomic Dysreflexia in a spinal cord injured client is:",
+    optionA: "Hypoglycemia",
+    optionB: "Distended urinary bladder resulting from a blocked, kinked, or full Foley catheter",
+    optionC: "Mild environmental noise",
+    optionD: "Drinking warm fluids",
+    correctAnswer: "B",
+    explanation: "Bladder distention accounts for over 70% of dysreflexia episodes; visceral afferent stimuli trigger uninhibited sympathetic discharge below the lesion.",
+  },
+  {
+    question: "Bell's palsy is an acute, unilateral peripheral neuropathy characterized by flaccid weakness of facial muscles resulting from dysfunction of which cranial nerve?",
+    optionA: "Trigeminal nerve (CN V)",
+    optionB: "Facial nerve (Cranial Nerve VII)",
+    optionC: "Glossopharyngeal nerve (CN IX)",
+    optionD: "Hypoglossal nerve (CN XII)",
+    correctAnswer: "B",
+    explanation: "Cranial nerve VII innervates muscles of facial expression; lower motor neuron palsy causes inability to smile, close the eye, or wrinkle the forehead.",
+  },
+  {
+    question: "Trigeminal neuralgia (tic douloureux) is characterized by paroxysmal, severe, stabbing, shock-like unilateral facial pain along the sensory distribution of Cranial Nerve V. The first-line pharmacological treatment is:",
+    optionA: "Carbamazepine (Tegretol)",
+    optionB: "Intravenous heparin",
+    optionC: "High-dose aspirin",
+    optionD: "Morphine sulfate oral elixir",
+    correctAnswer: "A",
+    explanation: "Carbamazepine is an anticonvulsant that inhibits voltage-gated sodium channels, reducing paroxysmal ectopic neuronal firing in the trigeminal nerve.",
+  },
+  {
+    question: "A client with Multiple Sclerosis describes a sudden, electric shock-like sensation running down the spine and into the limbs triggered by neck flexion. This clinical sign is:",
+    optionA: "Kernig's sign",
+    optionB: "Lhermitte's sign",
+    optionC: "Brudzinski's sign",
+    optionD: "Romberg's sign",
+    correctAnswer: "B",
+    explanation: "Lhermitte's phenomenon indicates demyelination plaques in the posterior cervical columns of the spinal cord.",
+  },
+  {
+    question: "The classical motor tetrad of cardinal signs defining Parkinson's disease includes resting 'pill-rolling' tremor, muscle rigidity (cogwheel rigidity), postural instability, and:",
+    optionA: "Chorea",
+    optionB: "Bradykinesia (generalized slowness of voluntary movement)",
+    optionC: "Ataxia",
+    optionD: "Hemiballismus",
+    correctAnswer: "B",
+    explanation: "Dopaminergic neuronal loss in the substantia nigra pars compacta leads to bradykinesia, resting tremor, rigidity, and gait impairment.",
+  },
+  {
+    question: "A client presents with sudden, painless flashes of light (photopsia), multiple dark floating specks, and a progressive shadow like a 'curtain falling over the eye.' These symptoms indicate:",
+    optionA: "Acute angle-closure glaucoma",
+    optionB: "Rhegmatogenous Retinal Detachment",
+    optionC: "Central retinal artery occlusion",
+    optionD: "Senile nuclear cataract",
+    correctAnswer: "B",
+    explanation: "A retinal tear allows vitreous fluid into the subretinal space, peeling the sensory retina away from underlying pigment epithelium (curtain effect).",
+  },
+  {
+    question: "In the laboratory diagnosis of acute pancreatitis, which serum pancreatic enzyme is more specific and remains elevated for a longer duration (7 to 14 days)?",
+    optionA: "Serum amylase",
+    optionB: "Serum lipase",
+    optionC: "Alkaline phosphatase",
+    optionD: "Creatine kinase MB",
+    correctAnswer: "B",
+    explanation: "Serum lipase has higher clinical sensitivity and specificity for pancreatitis than amylase, remaining elevated for up to 2 weeks.",
+  },
+  {
+    question: "In a client with end-stage cirrhosis experiencing hepatic encephalopathy, the characteristic flapping tremor of the dorsiflexed wrists is documented as:",
+    optionA: "Ataxia",
+    optionB: "Asterixis (liver flap)",
+    optionC: "Athetosis",
+    optionD: "Intention tremor",
+    correctAnswer: "B",
+    explanation: "Asterixis is a non-rhythmic flapping movement of outstretched, dorsiflexed hands caused by cerebral metabolic intoxication from elevated serum ammonia.",
+  },
+  {
+    question: "The primary pharmacological rationale for administering oral or rectal Lactulose to a client with hepatic encephalopathy is to:",
+    optionA: "Directly stimulate hepatic protein synthesis",
+    optionB: "Acidify colonic contents, converting absorbable ammonia (NH3) into non-absorbable ammonium ions (NH4+) that are eliminated in stool",
+    optionC: "Inhibit gastric acid secretion",
+    optionD: "Coagulate esophageal varices",
+    correctAnswer: "B",
+    explanation: "Colonic bacteria ferment lactulose into lactic acid; the low pH protonates NH3 to NH4+, trapping it for rapid fecal expulsion.",
+  },
+  {
+    question: "To prevent postprandial Dumping Syndrome following a partial gastrectomy with gastrojejunostomy (Billroth II), the nurse instructs the client to:",
+    optionA: "Eat large meals rich in concentrated refined carbohydrates and sugars",
+    optionB: "Eat small, frequent meals high in protein and complex fats, avoid fluids with meals, and lie down for 20-30 minutes after eating",
+    optionC: "Drink three glasses of water during every meal",
+    optionD: "Engage in vigorous jogging immediately after dining",
+    correctAnswer: "B",
+    explanation: "Small, dry meals low in simple sugars prevent rapid osmotic fluid shifts from plasma into the jejunum, and recumbency delays gastric emptying.",
+  },
+  {
+    question: "In teaching a client diagnosed with Celiac Disease (gluten-sensitive enteropathy), the nurse emphasizes strictly avoiding all foods containing:",
+    optionA: "Corn, rice, and soy",
+    optionB: "Wheat, rye, barley, and triticale (gluten proteins)",
+    optionC: "Potatoes and cassava",
+    optionD: "Fresh lean poultry and fish",
+    correctAnswer: "B",
+    explanation: "Gliadin peptide in wheat, rye, and barley triggers autoimmune small intestinal mucosal villous atrophy, malabsorption, and steatorrhea.",
+  },
+  {
+    question: "Post-streptococcal acute glomerulonephritis in a pediatric client is classically characterized by the clinical triad of:",
+    optionA: "Massive hypercalcemia, jaundice, and polyuria",
+    optionB: "Hematuria (cola-colored or smoky urine), periorbital edema, and hypertension following a streptococcal pharyngitis or skin infection",
+    optionC: "High fever, flank mass, and severe weight loss",
+    optionD: "Continuous urinary incontinence with normal urinalysis",
+    correctAnswer: "B",
+    explanation: "Immune complex deposition in glomerular capillaries causes inflammatory hematuria (smoky urine), salt retention, and periorbital edema.",
+  },
+  {
+    question: "Which of the following is considered an organic, non-modifiable risk factor for the development of coronary artery disease and atherosclerosis?",
+    optionA: "Cigarette smoking",
+    optionB: "Family history and genetic predisposition (heredity)",
+    optionC: "Sedentary lifestyle",
+    optionD: "High-fat dietary intake",
+    correctAnswer: "B",
+    explanation: "Age, male sex, and family history of premature CAD are non-modifiable genetic risk factors, whereas diet, smoking, and exercise are modifiable.",
+  },
 ];

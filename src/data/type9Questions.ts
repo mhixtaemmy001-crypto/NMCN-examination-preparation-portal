@@ -1,17 +1,15 @@
 import { RawDocQuestion } from './docPart1';
 
 export const TYPE9_QUESTIONS: RawDocQuestion[] = [
-  // 1 (Q10)
   {
-    question: "A newborn is not breathing after birth. What is the nurse’s FIRST action?",
+    question: "A newborn is not breathing after birth. What is the nurse\u2019s FIRST action?",
     optionA: "Dry, stimulate, and assess breathing",
     optionB: "Give oxygen immediately",
     optionC: "Start chest compressions",
     optionD: "Feed the baby",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 2 (Q11)
   {
     question: "A woman with postpartum hemorrhage is becoming pale and restless. What is the priority?",
     optionA: "Establish IV access and monitor shock",
@@ -19,9 +17,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Encourage sleep",
     optionD: "Provide bath",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 3 (Q12)
   {
     question: "Magnesium sulfate is administered to a woman with eclampsia to",
     optionA: "Prevent seizures",
@@ -29,9 +26,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Treat anemia",
     optionD: "Reduce bleeding",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 4 (Q13)
   {
     question: "A woman in labor has meconium-stained liquor. What should the nurse do?",
     optionA: "Monitor fetal status closely",
@@ -39,9 +35,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Encourage discharge",
     optionD: "Give food",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 5 (Q14)
   {
     question: "A postpartum woman complains of severe calf pain and swelling. The nurse should suspect",
     optionA: "Deep vein thrombosis",
@@ -49,19 +44,17 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Constipation",
     optionD: "UTI",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 6 (Q15)
   {
-    question: "A newborn with temperature 35.5°C requires",
+    question: "A newborn with temperature 35.5\u00b0C requires",
     optionA: "Warming and monitoring",
     optionB: "Cold bath",
     optionC: "Immediate discharge",
     optionD: "Fasting",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 7 (Q16)
   {
     question: "The most effective method of preventing postpartum infection is",
     optionA: "Hand hygiene and aseptic care",
@@ -69,9 +62,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Restrict visitors only",
     optionD: "Bed rest only",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 8 (Q17)
   {
     question: "A woman with obstructed labor is at risk of",
     optionA: "Uterine rupture",
@@ -79,9 +71,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Hypoglycemia only",
     optionD: "Asthma",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 9 (Q18)
   {
     question: "A postpartum woman with foul-smelling lochia should be assessed for",
     optionA: "Infection",
@@ -89,9 +80,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Dehydration",
     optionD: "Anemia only",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 10 (Q19)
   {
     question: "A newborn with weak cry and poor tone should be assessed using the",
     optionA: "APGAR score",
@@ -99,9 +89,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Glasgow Coma Scale",
     optionD: "Pain scale",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 11 (Q20)
   {
     question: "Exclusive breastfeeding should begin",
     optionA: "Within the first hour after birth",
@@ -109,819 +98,17 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "After 3 days",
     optionD: "After one week",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 12 (Q21)
   {
-    question: "A woman with postpartum hemorrhage is becoming pale and restless. What is the priority?",
-    optionA: "Establish IV access and monitor shock",
-    optionB: "Give oral fluids",
-    optionC: "Encourage sleep",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 13 (Q22)
-  {
-    question: "Magnesium sulfate is administered to a woman with eclampsia to",
-    optionA: "Prevent seizures",
-    optionB: "Induce labor",
-    optionC: "Treat anemia",
-    optionD: "Reduce bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 14 (Q23)
-  {
-    question: "A woman in labor has meconium-stained liquor. What should the nurse do?",
-    optionA: "Monitor fetal status closely",
-    optionB: "Ignore the finding",
-    optionC: "Encourage discharge",
-    optionD: "Give food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 15 (Q24)
-  {
-    question: "A postpartum woman complains of severe calf pain and swelling. The nurse should suspect",
-    optionA: "Deep vein thrombosis",
-    optionB: "Normal postpartum pain",
-    optionC: "Constipation",
-    optionD: "UTI",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 16 (Q25)
-  {
-    question: "A newborn with temperature 35.5°C requires",
-    optionA: "Warming and monitoring",
-    optionB: "Cold bath",
-    optionC: "Immediate discharge",
-    optionD: "Fasting",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 17 (Q26)
-  {
-    question: "The most effective method of preventing postpartum infection is",
-    optionA: "Hand hygiene and aseptic care",
-    optionB: "Antibiotics for all women",
-    optionC: "Restrict visitors only",
-    optionD: "Bed rest only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 18 (Q27)
-  {
-    question: "A woman with obstructed labor is at risk of",
-    optionA: "Uterine rupture",
-    optionB: "Improved circulation",
-    optionC: "Hypoglycemia only",
-    optionD: "Asthma",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 19 (Q28)
-  {
-    question: "A postpartum woman with foul-smelling lochia should be assessed for",
-    optionA: "Infection",
-    optionB: "Normal involution",
-    optionC: "Dehydration",
-    optionD: "Anemia only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 20 (Q29)
-  {
-    question: "A newborn with weak cry and poor tone should be assessed using the",
-    optionA: "APGAR score",
-    optionB: "BMI",
-    optionC: "Glasgow Coma Scale",
-    optionD: "Pain scale",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 21 (Q30)
-  {
-    question: "Exclusive breastfeeding should begin",
-    optionA: "Within the first hour after birth",
-    optionB: "After 24 hours",
-    optionC: "After 3 days",
-    optionD: "After one week",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 22 (Q31)
-  {
-    question: "A woman with postpartum hemorrhage is becoming pale and restless. What is the priority?",
-    optionA: "Establish IV access and monitor shock",
-    optionB: "Give oral fluids",
-    optionC: "Encourage sleep",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 23 (Q32)
-  {
-    question: "Magnesium sulfate is administered to a woman with eclampsia to",
-    optionA: "Prevent seizures",
-    optionB: "Induce labor",
-    optionC: "Treat anemia",
-    optionD: "Reduce bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 24 (Q33)
-  {
-    question: "A woman in labor has meconium-stained liquor. What should the nurse do?",
-    optionA: "Monitor fetal status closely",
-    optionB: "Ignore the finding",
-    optionC: "Encourage discharge",
-    optionD: "Give food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 25 (Q34)
-  {
-    question: "A postpartum woman complains of severe calf pain and swelling. The nurse should suspect",
-    optionA: "Deep vein thrombosis",
-    optionB: "Normal postpartum pain",
-    optionC: "Constipation",
-    optionD: "UTI",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 26 (Q35)
-  {
-    question: "A newborn with temperature 35.5°C requires",
-    optionA: "Warming and monitoring",
-    optionB: "Cold bath",
-    optionC: "Immediate discharge",
-    optionD: "Fasting",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 27 (Q36)
-  {
-    question: "The most effective method of preventing postpartum infection is",
-    optionA: "Hand hygiene and aseptic care",
-    optionB: "Antibiotics for all women",
-    optionC: "Restrict visitors only",
-    optionD: "Bed rest only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 28 (Q37)
-  {
-    question: "A woman with obstructed labor is at risk of",
-    optionA: "Uterine rupture",
-    optionB: "Improved circulation",
-    optionC: "Hypoglycemia only",
-    optionD: "Asthma",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 29 (Q38)
-  {
-    question: "A postpartum woman with foul-smelling lochia should be assessed for",
-    optionA: "Infection",
-    optionB: "Normal involution",
-    optionC: "Dehydration",
-    optionD: "Anemia only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 30 (Q39)
-  {
-    question: "A newborn with weak cry and poor tone should be assessed using the",
-    optionA: "APGAR score",
-    optionB: "BMI",
-    optionC: "Glasgow Coma Scale",
-    optionD: "Pain scale",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 31 (Q40)
-  {
-    question: "Exclusive breastfeeding should begin",
-    optionA: "Within the first hour after birth",
-    optionB: "After 24 hours",
-    optionC: "After 3 days",
-    optionD: "After one week",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 32 (Q41)
-  {
-    question: "A woman with postpartum hemorrhage is becoming pale and restless. What is the priority?",
-    optionA: "Establish IV access and monitor shock",
-    optionB: "Give oral fluids",
-    optionC: "Encourage sleep",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 33 (Q42)
-  {
-    question: "Magnesium sulfate is administered to a woman with eclampsia to",
-    optionA: "Prevent seizures",
-    optionB: "Induce labor",
-    optionC: "Treat anemia",
-    optionD: "Reduce bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 34 (Q43)
-  {
-    question: "A woman in labor has meconium-stained liquor. What should the nurse do?",
-    optionA: "Monitor fetal status closely",
-    optionB: "Ignore the finding",
-    optionC: "Encourage discharge",
-    optionD: "Give food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 35 (Q44)
-  {
-    question: "A postpartum woman complains of severe calf pain and swelling. The nurse should suspect",
-    optionA: "Deep vein thrombosis",
-    optionB: "Normal postpartum pain",
-    optionC: "Constipation",
-    optionD: "UTI",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 36 (Q45)
-  {
-    question: "A newborn with temperature 35.5°C requires",
-    optionA: "Warming and monitoring",
-    optionB: "Cold bath",
-    optionC: "Immediate discharge",
-    optionD: "Fasting",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 37 (Q46)
-  {
-    question: "The most effective method of preventing postpartum infection is",
-    optionA: "Hand hygiene and aseptic care",
-    optionB: "Antibiotics for all women",
-    optionC: "Restrict visitors only",
-    optionD: "Bed rest only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 38 (Q47)
-  {
-    question: "A woman with obstructed labor is at risk of",
-    optionA: "Uterine rupture",
-    optionB: "Improved circulation",
-    optionC: "Hypoglycemia only",
-    optionD: "Asthma",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 39 (Q48)
-  {
-    question: "A postpartum woman with foul-smelling lochia should be assessed for",
-    optionA: "Infection",
-    optionB: "Normal involution",
-    optionC: "Dehydration",
-    optionD: "Anemia only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 40 (Q49)
-  {
-    question: "A newborn with weak cry and poor tone should be assessed using the",
-    optionA: "APGAR score",
-    optionB: "BMI",
-    optionC: "Glasgow Coma Scale",
-    optionD: "Pain scale",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 41 (Q50)
-  {
-    question: "Exclusive breastfeeding should begin",
-    optionA: "Within the first hour after birth",
-    optionB: "After 24 hours",
-    optionC: "After 3 days",
-    optionD: "After one week",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 42 (Q51)
-  {
-    question: "A woman with postpartum hemorrhage is becoming pale and restless. What is the priority?",
-    optionA: "Establish IV access and monitor shock",
-    optionB: "Give oral fluids",
-    optionC: "Encourage sleep",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 43 (Q52)
-  {
-    question: "Magnesium sulfate is administered to a woman with eclampsia to",
-    optionA: "Prevent seizures",
-    optionB: "Induce labor",
-    optionC: "Treat anemia",
-    optionD: "Reduce bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 44 (Q53)
-  {
-    question: "A woman in labor has meconium-stained liquor. What should the nurse do?",
-    optionA: "Monitor fetal status closely",
-    optionB: "Ignore the finding",
-    optionC: "Encourage discharge",
-    optionD: "Give food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 45 (Q54)
-  {
-    question: "A postpartum woman complains of severe calf pain and swelling. The nurse should suspect",
-    optionA: "Deep vein thrombosis",
-    optionB: "Normal postpartum pain",
-    optionC: "Constipation",
-    optionD: "UTI",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 46 (Q55)
-  {
-    question: "A newborn with temperature 35.5°C requires",
-    optionA: "Warming and monitoring",
-    optionB: "Cold bath",
-    optionC: "Immediate discharge",
-    optionD: "Fasting",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 47 (Q56)
-  {
-    question: "The most effective method of preventing postpartum infection is",
-    optionA: "Hand hygiene and aseptic care",
-    optionB: "Antibiotics for all women",
-    optionC: "Restrict visitors only",
-    optionD: "Bed rest only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 48 (Q57)
-  {
-    question: "A woman with obstructed labor is at risk of",
-    optionA: "Uterine rupture",
-    optionB: "Improved circulation",
-    optionC: "Hypoglycemia only",
-    optionD: "Asthma",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 49 (Q58)
-  {
-    question: "A postpartum woman with foul-smelling lochia should be assessed for",
-    optionA: "Infection",
-    optionB: "Normal involution",
-    optionC: "Dehydration",
-    optionD: "Anemia only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 50 (Q59)
-  {
-    question: "A newborn with weak cry and poor tone should be assessed using the",
-    optionA: "APGAR score",
-    optionB: "BMI",
-    optionC: "Glasgow Coma Scale",
-    optionD: "Pain scale",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 51 (Q60)
-  {
-    question: "Exclusive breastfeeding should begin",
-    optionA: "Within the first hour after birth",
-    optionB: "After 24 hours",
-    optionC: "After 3 days",
-    optionD: "After one week",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 52 (Q61)
-  {
-    question: "A woman with postpartum hemorrhage is becoming pale and restless. What is the priority?",
-    optionA: "Establish IV access and monitor shock",
-    optionB: "Give oral fluids",
-    optionC: "Encourage sleep",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 53 (Q62)
-  {
-    question: "Magnesium sulfate is administered to a woman with eclampsia to",
-    optionA: "Prevent seizures",
-    optionB: "Induce labor",
-    optionC: "Treat anemia",
-    optionD: "Reduce bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 54 (Q63)
-  {
-    question: "A woman in labor has meconium-stained liquor. What should the nurse do?",
-    optionA: "Monitor fetal status closely",
-    optionB: "Ignore the finding",
-    optionC: "Encourage discharge",
-    optionD: "Give food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 55 (Q64)
-  {
-    question: "A postpartum woman complains of severe calf pain and swelling. The nurse should suspect",
-    optionA: "Deep vein thrombosis",
-    optionB: "Normal postpartum pain",
-    optionC: "Constipation",
-    optionD: "UTI",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 56 (Q65)
-  {
-    question: "A newborn with temperature 35.5°C requires",
-    optionA: "Warming and monitoring",
-    optionB: "Cold bath",
-    optionC: "Immediate discharge",
-    optionD: "Fasting",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 57 (Q66)
-  {
-    question: "The most effective method of preventing postpartum infection is",
-    optionA: "Hand hygiene and aseptic care",
-    optionB: "Antibiotics for all women",
-    optionC: "Restrict visitors only",
-    optionD: "Bed rest only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 58 (Q67)
-  {
-    question: "A woman with obstructed labor is at risk of",
-    optionA: "Uterine rupture",
-    optionB: "Improved circulation",
-    optionC: "Hypoglycemia only",
-    optionD: "Asthma",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 59 (Q68)
-  {
-    question: "A postpartum woman with foul-smelling lochia should be assessed for",
-    optionA: "Infection",
-    optionB: "Normal involution",
-    optionC: "Dehydration",
-    optionD: "Anemia only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 60 (Q69)
-  {
-    question: "A newborn with weak cry and poor tone should be assessed using the",
-    optionA: "APGAR score",
-    optionB: "BMI",
-    optionC: "Glasgow Coma Scale",
-    optionD: "Pain scale",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 61 (Q70)
-  {
-    question: "Exclusive breastfeeding should begin",
-    optionA: "Within the first hour after birth",
-    optionB: "After 24 hours",
-    optionC: "After 3 days",
-    optionD: "After one week",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 62 (Q71)
-  {
-    question: "A woman with postpartum hemorrhage is becoming pale and restless. What is the priority?",
-    optionA: "Establish IV access and monitor shock",
-    optionB: "Give oral fluids",
-    optionC: "Encourage sleep",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 63 (Q72)
-  {
-    question: "Magnesium sulfate is administered to a woman with eclampsia to",
-    optionA: "Prevent seizures",
-    optionB: "Induce labor",
-    optionC: "Treat anemia",
-    optionD: "Reduce bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 64 (Q73)
-  {
-    question: "A woman in labor has meconium-stained liquor. What should the nurse do?",
-    optionA: "Monitor fetal status closely",
-    optionB: "Ignore the finding",
-    optionC: "Encourage discharge",
-    optionD: "Give food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 65 (Q74)
-  {
-    question: "A postpartum woman complains of severe calf pain and swelling. The nurse should suspect",
-    optionA: "Deep vein thrombosis",
-    optionB: "Normal postpartum pain",
-    optionC: "Constipation",
-    optionD: "UTI",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 66 (Q75)
-  {
-    question: "A newborn with temperature 35.5°C requires",
-    optionA: "Warming and monitoring",
-    optionB: "Cold bath",
-    optionC: "Immediate discharge",
-    optionD: "Fasting",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 67 (Q76)
-  {
-    question: "The most effective method of preventing postpartum infection is",
-    optionA: "Hand hygiene and aseptic care",
-    optionB: "Antibiotics for all women",
-    optionC: "Restrict visitors only",
-    optionD: "Bed rest only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 68 (Q77)
-  {
-    question: "A woman with obstructed labor is at risk of",
-    optionA: "Uterine rupture",
-    optionB: "Improved circulation",
-    optionC: "Hypoglycemia only",
-    optionD: "Asthma",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 69 (Q78)
-  {
-    question: "A postpartum woman with foul-smelling lochia should be assessed for",
-    optionA: "Infection",
-    optionB: "Normal involution",
-    optionC: "Dehydration",
-    optionD: "Anemia only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 70 (Q79)
-  {
-    question: "A newborn with weak cry and poor tone should be assessed using the",
-    optionA: "APGAR score",
-    optionB: "BMI",
-    optionC: "Glasgow Coma Scale",
-    optionD: "Pain scale",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 71 (Q80)
-  {
-    question: "Exclusive breastfeeding should begin",
-    optionA: "Within the first hour after birth",
-    optionB: "After 24 hours",
-    optionC: "After 3 days",
-    optionD: "After one week",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 72 (Q81)
-  {
-    question: "A woman with postpartum hemorrhage is becoming pale and restless. What is the priority?",
-    optionA: "Establish IV access and monitor shock",
-    optionB: "Give oral fluids",
-    optionC: "Encourage sleep",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 73 (Q82)
-  {
-    question: "Magnesium sulfate is administered to a woman with eclampsia to",
-    optionA: "Prevent seizures",
-    optionB: "Induce labor",
-    optionC: "Treat anemia",
-    optionD: "Reduce bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 74 (Q83)
-  {
-    question: "A woman in labor has meconium-stained liquor. What should the nurse do?",
-    optionA: "Monitor fetal status closely",
-    optionB: "Ignore the finding",
-    optionC: "Encourage discharge",
-    optionD: "Give food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 75 (Q84)
-  {
-    question: "A postpartum woman complains of severe calf pain and swelling. The nurse should suspect",
-    optionA: "Deep vein thrombosis",
-    optionB: "Normal postpartum pain",
-    optionC: "Constipation",
-    optionD: "UTI",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 76 (Q85)
-  {
-    question: "A newborn with temperature 35.5°C requires",
-    optionA: "Warming and monitoring",
-    optionB: "Cold bath",
-    optionC: "Immediate discharge",
-    optionD: "Fasting",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 77 (Q86)
-  {
-    question: "The most effective method of preventing postpartum infection is",
-    optionA: "Hand hygiene and aseptic care",
-    optionB: "Antibiotics for all women",
-    optionC: "Restrict visitors only",
-    optionD: "Bed rest only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 78 (Q87)
-  {
-    question: "A woman with obstructed labor is at risk of",
-    optionA: "Uterine rupture",
-    optionB: "Improved circulation",
-    optionC: "Hypoglycemia only",
-    optionD: "Asthma",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 79 (Q88)
-  {
-    question: "A postpartum woman with foul-smelling lochia should be assessed for",
-    optionA: "Infection",
-    optionB: "Normal involution",
-    optionC: "Dehydration",
-    optionD: "Anemia only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 80 (Q89)
-  {
-    question: "A newborn with weak cry and poor tone should be assessed using the",
-    optionA: "APGAR score",
-    optionB: "BMI",
-    optionC: "Glasgow Coma Scale",
-    optionD: "Pain scale",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 81 (Q90)
-  {
-    question: "Exclusive breastfeeding should begin",
-    optionA: "Within the first hour after birth",
-    optionB: "After 24 hours",
-    optionC: "After 3 days",
-    optionD: "After one week",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 82 (Q91)
-  {
-    question: "A woman with postpartum hemorrhage is becoming pale and restless. What is the priority?",
-    optionA: "Establish IV access and monitor shock",
-    optionB: "Give oral fluids",
-    optionC: "Encourage sleep",
-    optionD: "Provide bath",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 83 (Q92)
-  {
-    question: "Magnesium sulfate is administered to a woman with eclampsia to",
-    optionA: "Prevent seizures",
-    optionB: "Induce labor",
-    optionC: "Treat anemia",
-    optionD: "Reduce bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 84 (Q93)
-  {
-    question: "A woman in labor has meconium-stained liquor. What should the nurse do?",
-    optionA: "Monitor fetal status closely",
-    optionB: "Ignore the finding",
-    optionC: "Encourage discharge",
-    optionD: "Give food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 85 (Q94)
-  {
-    question: "A postpartum woman complains of severe calf pain and swelling. The nurse should suspect",
-    optionA: "Deep vein thrombosis",
-    optionB: "Normal postpartum pain",
-    optionC: "Constipation",
-    optionD: "UTI",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 86 (Q95)
-  {
-    question: "A newborn with temperature 35.5°C requires",
-    optionA: "Warming and monitoring",
-    optionB: "Cold bath",
-    optionC: "Immediate discharge",
-    optionD: "Fasting",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 87 (Q96)
-  {
-    question: "The most effective method of preventing postpartum infection is",
-    optionA: "Hand hygiene and aseptic care",
-    optionB: "Antibiotics for all women",
-    optionC: "Restrict visitors only",
-    optionD: "Bed rest only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 88 (Q97)
-  {
-    question: "A woman with obstructed labor is at risk of",
-    optionA: "Uterine rupture",
-    optionB: "Improved circulation",
-    optionC: "Hypoglycemia only",
-    optionD: "Asthma",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 89 (Q98)
-  {
-    question: "A postpartum woman with foul-smelling lochia should be assessed for",
-    optionA: "Infection",
-    optionB: "Normal involution",
-    optionC: "Dehydration",
-    optionD: "Anemia only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 90 (Q99)
-  {
-    question: "A newborn with weak cry and poor tone should be assessed using the",
-    optionA: "APGAR score",
-    optionB: "BMI",
-    optionC: "Glasgow Coma Scale",
-    optionD: "Pain scale",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 91 (Q100)
-  {
-    question: "Exclusive breastfeeding should begin",
-    optionA: "Within the first hour after birth",
-    optionB: "After 24 hours",
-    optionC: "After 3 days",
-    optionD: "After one week",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 92 (Pediatric Nursing - Q1)
-  {
-    question: "A 6-month-old child has severe diarrhea, sunken eyes, and poor skin turgor. What is the nurse’s PRIORITY action?",
+    question: "A 6-month-old child has severe diarrhea, sunken eyes, and poor skin turgor. What is the nurse\u2019s PRIORITY action?",
     optionA: "Start rehydration therapy",
     optionB: "Give antibiotics immediately",
     optionC: "Stop feeding",
     optionD: "Provide toys",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 93 (Pediatric Nursing - Q2)
   {
     question: "A child is actively convulsing due to high fever. What is the FIRST nursing action?",
     optionA: "Protect the child and maintain airway",
@@ -929,19 +116,17 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Restrain tightly",
     optionD: "Give food",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 94 (Pediatric Nursing - Q3)
   {
-    question: "A newborn with temperature 35°C requires",
+    question: "A newborn with temperature 35\u00b0C requires",
     optionA: "Immediate warming and monitoring",
     optionB: "Cold bath",
     optionC: "Discharge home",
     optionD: "Fasting",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 95 (Pediatric Nursing - Q4)
   {
     question: "Which vaccine is given at birth?",
     optionA: "BCG",
@@ -949,9 +134,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Yellow fever",
     optionD: "Tetanus",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 96 (Pediatric Nursing - Q5)
   {
     question: "A child with severe respiratory distress should be placed in",
     optionA: "Position of comfort with oxygen support",
@@ -959,9 +143,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Prone",
     optionD: "Trendelenburg",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 97 (Pediatric Nursing - Q6)
   {
     question: "A child with suspected meningitis has neck stiffness and fever. What is the priority?",
     optionA: "Urgent assessment and infection precautions",
@@ -969,9 +152,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Allow sleep",
     optionD: "Send home",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 98 (Pediatric Nursing - Q7)
   {
     question: "A child with severe dehydration is lethargic and unable to drink. What is the preferred route for rapid rehydration?",
     optionA: "Intravenous",
@@ -979,9 +161,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Topical",
     optionD: "Rectal",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 99 (Pediatric Nursing - Q8)
   {
     question: "A child with measles should be assessed for which serious complication?",
     optionA: "Pneumonia",
@@ -989,9 +170,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Arthritis",
     optionD: "UTI",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 100 (Pediatric Nursing - Q9)
   {
     question: "The most important intervention to prevent neonatal infection is",
     optionA: "Hand hygiene",
@@ -999,9 +179,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Giving glucose water",
     optionD: "Keeping visitors away only",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 101 (Pediatric Nursing - Q10)
   {
     question: "A child with severe malnutrition and bilateral edema is likely to have",
     optionA: "Kwashiorkor",
@@ -1009,9 +188,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Obesity",
     optionD: "Rickets",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 102 (Pediatric Nursing - Q11)
   {
     question: "A child with asthma is unable to complete sentences. What is the priority intervention?",
     optionA: "Administer oxygen and prescribed bronchodilator",
@@ -1019,9 +197,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Encourage running",
     optionD: "Provide cold drink",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 103 (Pediatric Nursing - Q12)
   {
     question: "A child who is vomiting repeatedly is at risk of",
     optionA: "Dehydration and electrolyte imbalance",
@@ -1029,9 +206,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Hypertension",
     optionD: "Blindness",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 104 (Pediatric Nursing - Q13)
   {
     question: "Which vaccine protects against poliomyelitis?",
     optionA: "OPV",
@@ -1039,9 +215,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Measles",
     optionD: "Hepatitis B",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 105 (Pediatric Nursing - Q14)
   {
     question: "A child with severe anemia is pale and breathless. What should the nurse monitor closely?",
     optionA: "Oxygenation and vital signs",
@@ -1049,9 +224,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Vision",
     optionD: "Hearing",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 106 (Pediatric Nursing - Q15)
   {
     question: "Exclusive breastfeeding is recommended for",
     optionA: "6 months",
@@ -1059,9 +233,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "9 months",
     optionD: "12 months",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 107 (Pediatric Nursing - Q16)
   {
     question: "A child with burns should first be assessed for",
     optionA: "Airway compromise",
@@ -1069,9 +242,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Vision",
     optionD: "Hearing",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 108 (Pediatric Nursing - Q17)
   {
     question: "A child with suspected sepsis becomes cold and mottled. What is the priority?",
     optionA: "Urgent assessment and supportive care",
@@ -1079,9 +251,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Allow sleep",
     optionD: "Discharge",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 109 (Pediatric Nursing - Q18)
   {
     question: "The APGAR score is assessed at",
     optionA: "1 and 5 minutes",
@@ -1089,9 +260,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "2 hours",
     optionD: "24 hours",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 110 (Pediatric Nursing - Q19)
   {
     question: "A child with diarrhea should continue to receive",
     optionA: "Feeding and fluids",
@@ -1099,9 +269,8 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Only water",
     optionD: "Only juice",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 111 (Pediatric Nursing - Q20)
   {
     question: "Vitamin A supplementation helps prevent",
     optionA: "Severe eye complications and supports immunity",
@@ -1109,396 +278,1077 @@ export const TYPE9_QUESTIONS: RawDocQuestion[] = [
     optionC: "Diabetes",
     optionD: "Asthma",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
-  // 112 (Pediatric Nursing - Q21)
   {
-    question: "A child with asthma is unable to complete sentences. What is the priority intervention?",
-    optionA: "Administer oxygen and prescribed bronchodilator",
-    optionB: "Give cough syrup",
-    optionC: "Encourage running",
-    optionD: "Provide cold drink",
-    correctAnswer: "A",
-    explanation: ""
+    question: "Why is a patient experiencing acute angina pectoris instructed to dissolve nitroglycerin sublingually rather than swallowing the tablet?",
+    optionA: "The tablet tastes pleasant under the tongue",
+    optionB: "Sublingual vascular absorption is rapid and bypasses extensive hepatic first-pass metabolism",
+    optionC: "Nitroglycerin cannot be absorbed by the stomach",
+    optionD: "Swallowing nitroglycerin causes acute renal failure",
+    correctAnswer: "B",
+    explanation: "Sublingual administration allows direct absorption through rich lingual capillaries into the superior vena cava, achieving therapeutic onset in 1 to 3 minutes.",
   },
-  // 113 (Pediatric Nursing - Q22)
   {
-    question: "A child who is vomiting repeatedly is at risk of",
-    optionA: "Dehydration and electrolyte imbalance",
-    optionB: "Obesity",
-    optionC: "Hypertension",
-    optionD: "Blindness",
-    correctAnswer: "A",
-    explanation: ""
+    question: "Which type of arterial aneurysm is characterized by a localized circumferential, uniform dilatation involving the entire diameter of the vessel wall?",
+    optionA: "Saccular aneurysm",
+    optionB: "Fusiform aneurysm",
+    optionC: "Dissecting aneurysm",
+    optionD: "False (pseudo) aneurysm",
+    correctAnswer: "B",
+    explanation: "Fusiform aneurysms cause spindle-shaped, symmetrical dilation of the complete arterial circumference, contrasting with pouch-like saccular outpocketings.",
   },
-  // 114 (Pediatric Nursing - Q23)
   {
-    question: "Which vaccine protects against poliomyelitis?",
-    optionA: "OPV",
-    optionB: "BCG",
-    optionC: "Measles",
-    optionD: "Hepatitis B",
-    correctAnswer: "A",
-    explanation: ""
+    question: "The primary underlying pathological etiology of coronary artery disease leading to angina and myocardial infarction is:",
+    optionA: "Arterial syphilis",
+    optionB: "Atherosclerosis (atheromatous plaque formation in the intima of coronary arteries)",
+    optionC: "Bacterial endocarditis",
+    optionD: "Rheumatic fever",
+    correctAnswer: "B",
+    explanation: "Atherosclerosis, driven by lipid accumulation, chronic endothelial inflammation, and smooth muscle proliferation, is the primary cause of CAD.",
   },
-  // 115 (Pediatric Nursing - Q24)
   {
-    question: "A child with severe anemia is pale and breathless. What should the nurse monitor closely?",
-    optionA: "Oxygenation and vital signs",
-    optionB: "Hair growth",
-    optionC: "Vision",
-    optionD: "Hearing",
-    correctAnswer: "A",
-    explanation: ""
+    question: "A client presents with severe throbbing facial pain and tenderness located directly over the cheeks and maxillary sinus area, with purulent nasal drainage. This indicates:",
+    optionA: "Ethmoid sinusitis",
+    optionB: "Acute maxillary sinusitis",
+    optionC: "Frontal sinusitis",
+    optionD: "Sphenoid sinusitis",
+    correctAnswer: "B",
+    explanation: "The maxillary sinuses lie inferior to the orbits within the maxillae, presenting with pain in the cheeks and upper teeth when infected.",
   },
-  // 116 (Pediatric Nursing - Q25)
   {
-    question: "Exclusive breastfeeding is recommended for",
-    optionA: "6 months",
-    optionB: "3 months",
-    optionC: "9 months",
-    optionD: "12 months",
+    question: "A pedunculated, benign inflammatory vascular mass protruding from the lining of the external auditory canal is classified as an:",
+    optionA: "Aural polyp",
+    optionB: "Otomycosis",
+    optionC: "Ceruminoma",
+    optionD: "Osteoma",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "Aural polyps are smooth, pedunculated fleshy inflammatory masses arising from the tympanic cavity through a perforated eardrum or canal wall.",
   },
-  // 117 (Pediatric Nursing - Q26)
   {
-    question: "A child with burns should first be assessed for",
-    optionA: "Airway compromise",
-    optionB: "Weight",
-    optionC: "Vision",
-    optionD: "Hearing",
-    correctAnswer: "A",
-    explanation: ""
+    question: "Acute laryngotracheobronchitis (croup) is a pediatric viral respiratory infection that predominantly affects:",
+    optionA: "Young adults",
+    optionB: "Children between 6 months and 3 years of age, regardless of gender",
+    optionC: "Elderly individuals",
+    optionD: "Premature neonates exclusively",
+    correctAnswer: "B",
+    explanation: "Viral croup (usually parainfluenza) peaks in toddlers aged 6 months to 3 years due to the small cross-sectional diameter of the pediatric subglottic airway.",
   },
-  // 118 (Pediatric Nursing - Q27)
   {
-    question: "A child with suspected sepsis becomes cold and mottled. What is the priority?",
-    optionA: "Urgent assessment and supportive care",
-    optionB: "Give food",
-    optionC: "Allow sleep",
-    optionD: "Discharge",
-    correctAnswer: "A",
-    explanation: ""
+    question: "Which of the following foods is exceptionally rich in Provitamin A carotenoids?",
+    optionA: "White bread",
+    optionB: "Carrots, sweet potatoes, and dark green leafy vegetables",
+    optionC: "Refined cane sugar",
+    optionD: "White rice",
+    correctAnswer: "B",
+    explanation: "Beta-carotene, the plant precursor of vitamin A, is concentrated in yellow/orange vegetables and dark leafy greens.",
   },
-  // 119 (Pediatric Nursing - Q28)
   {
-    question: "The APGAR score is assessed at",
-    optionA: "1 and 5 minutes",
-    optionB: "30 minutes",
-    optionC: "2 hours",
-    optionD: "24 hours",
+    question: "Which emergency measure is indicated first when an adult client experiences an acute attack of angina pectoris while walking?",
+    optionA: "Instruct the client to immediately stop all activity and sit down to rest",
+    optionB: "Have the client walk faster to increase circulation",
+    optionC: "Give a large glass of cold water",
+    optionD: "Perform chest compressions",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "Ceasing physical exertion immediately reduces myocardial oxygen demand, which is the cornerstone first step in relieving angina.",
   },
-  // 120 (Pediatric Nursing - Q29)
   {
-    question: "A child with diarrhea should continue to receive",
-    optionA: "Feeding and fluids",
-    optionB: "No food for 24 hours",
-    optionC: "Only water",
-    optionD: "Only juice",
-    correctAnswer: "A",
-    explanation: ""
+    question: "Which sitting posture is most comfortable and facilitates maximum lung expansion in a client with fractured ribs?",
+    optionA: "Prone position",
+    optionB: "Semi-Fowler's or upright sitting position splinting the chest wall with a pillow",
+    optionC: "Sims' lateral position",
+    optionD: "Trendelenburg position",
+    correctAnswer: "B",
+    explanation: "Semi-Fowler's position allows the diaphragm to descend, maximizing thoracic volume, while gentle pillow splinting eases fracture pain on breathing.",
   },
-  // 121 (Pediatric Nursing - Q30)
   {
-    question: "Vitamin A supplementation helps prevent",
-    optionA: "Severe eye complications and supports immunity",
-    optionB: "Hypertension",
-    optionC: "Diabetes",
-    optionD: "Asthma",
+    question: "Burns that involve only the superficial epidermal layer of the skin, characterized by erythema, dry skin, and pain without blister formation, are classified as:",
+    optionA: "First-degree (Superficial) burns (such as sunburn)",
+    optionB: "Second-degree (Partial-thickness) burns",
+    optionC: "Third-degree (Full-thickness) burns",
+    optionD: "Fourth-degree burns",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "First-degree burns damage only the epidermis, remaining intact without blisters and healing spontaneously in 3 to 6 days without scarring.",
   },
-  // 122 (Pediatric Nursing - Q31)
   {
-    question: "A child with asthma is unable to complete sentences. What is the priority intervention?",
-    optionA: "Administer oxygen and prescribed bronchodilator",
-    optionB: "Give cough syrup",
-    optionC: "Encourage running",
-    optionD: "Provide cold drink",
-    correctAnswer: "A",
-    explanation: ""
+    question: "During endotracheal intubation, the 'Sellick maneuver' involves applying posterior cricoid pressure against the cervical vertebrae to:",
+    optionA: "Open the larynx wider",
+    optionB: "Occlude the esophagus to prevent passive gastric regurgitation and aspiration",
+    optionC: "Stimulate the vagus nerve",
+    optionD: "Paralyze the vocal cords",
+    correctAnswer: "B",
+    explanation: "Compressing the complete cartilaginous cricoid ring against the C6 vertebral body occludes the esophagus, preventing aspiration of stomach contents.",
   },
-  // 123 (Pediatric Nursing - Q32)
   {
-    question: "A child who is vomiting repeatedly is at risk of",
-    optionA: "Dehydration and electrolyte imbalance",
-    optionB: "Obesity",
-    optionC: "Hypertension",
-    optionD: "Blindness",
-    correctAnswer: "A",
-    explanation: ""
+    question: "Which troublesome, throbbing side effect is most frequently reported by patients using sublingual nitroglycerin tablets for angina?",
+    optionA: "Severe diarrhea",
+    optionB: "Throbbing headache (caused by cerebral vasodilation)",
+    optionC: "Constipation",
+    optionD: "Blurred vision",
+    correctAnswer: "B",
+    explanation: "Nitroglycerin causes generalized systemic and cerebral arterial vasodilation; meningeal vessel distention produces headaches in over 50% of patients.",
   },
-  // 124 (Pediatric Nursing - Q33)
   {
-    question: "Which vaccine protects against poliomyelitis?",
-    optionA: "OPV",
-    optionB: "BCG",
-    optionC: "Measles",
-    optionD: "Hepatitis B",
-    correctAnswer: "A",
-    explanation: ""
+    question: "Carpal Tunnel Syndrome is an entrapment neuropathy caused by compression of which peripheral nerve beneath the transverse carpal ligament?",
+    optionA: "Radial nerve",
+    optionB: "Median nerve",
+    optionC: "Ulnar nerve",
+    optionD: "Musculocutaneous nerve",
+    correctAnswer: "B",
+    explanation: "The median nerve passes through the rigid carpal tunnel along with nine flexor tendons; compression causes paresthesias in the thumb, index, and middle fingers.",
   },
-  // 125 (Pediatric Nursing - Q34)
   {
-    question: "A child with severe anemia is pale and breathless. What should the nurse monitor closely?",
-    optionA: "Oxygenation and vital signs",
-    optionB: "Hair growth",
-    optionC: "Vision",
-    optionD: "Hearing",
-    correctAnswer: "A",
-    explanation: ""
+    question: "In orthopedic management, the mechanical application of a pulling force along the long axis of a fractured limb to align bone fragments is termed:",
+    optionA: "Immobilization",
+    optionB: "Traction (skin or skeletal traction)",
+    optionC: "Casting",
+    optionD: "Open reduction",
+    correctAnswer: "B",
+    explanation: "Traction aligns fractured bone ends, overcomes muscle spasm, relieves pain, and minimizes soft tissue contractures prior to definitive fixation.",
   },
-  // 126 (Pediatric Nursing - Q35)
   {
-    question: "Exclusive breastfeeding is recommended for",
-    optionA: "6 months",
-    optionB: "3 months",
-    optionC: "9 months",
-    optionD: "12 months",
-    correctAnswer: "A",
-    explanation: ""
+    question: "Kaposi's Sarcoma, a multifocal vascular endothelial neoplasm commonly presenting as purplish cutaneous plaques in AIDS clients, is caused by:",
+    optionA: "Human Papillomavirus type 16",
+    optionB: "Human Herpesvirus-8 (HHV-8 / KSHV)",
+    optionC: "Epstein-Barr virus",
+    optionD: "Cytomegalovirus",
+    correctAnswer: "B",
+    explanation: "HHV-8 infects vascular endothelial and lymphatic cells in severely immunocompromised individuals, driving angioproliferative tumor formation.",
   },
-  // 127 (Pediatric Nursing - Q36)
   {
-    question: "A child with burns should first be assessed for",
-    optionA: "Airway compromise",
-    optionB: "Weight",
-    optionC: "Vision",
-    optionD: "Hearing",
-    correctAnswer: "A",
-    explanation: ""
+    question: "Which of the following infections is classified as a 'water-washed' (water shortage) disease that flourishes when water for personal hygiene is scarce?",
+    optionA: "Cholera",
+    optionB: "Scabies and Trachoma",
+    optionC: "Typhoid fever",
+    optionD: "Schistosomiasis",
+    correctAnswer: "B",
+    explanation: "Water-washed diseases (e.g., scabies, pediculosis, trachoma) spread due to inadequate water supply for regular hand, face, and clothing washing.",
   },
-  // 128 (Pediatric Nursing - Q37)
   {
-    question: "A child with suspected sepsis becomes cold and mottled. What is the priority?",
-    optionA: "Urgent assessment and supportive care",
-    optionB: "Give food",
-    optionC: "Allow sleep",
-    optionD: "Discharge",
-    correctAnswer: "A",
-    explanation: ""
+    question: "In a client with a closed femur fracture, the greatest life-threatening systemic risk during the initial 48 hours is:",
+    optionA: "Infection",
+    optionB: "Fat Embolism Syndrome and massive internal hemorrhage/hypovolemic shock",
+    optionC: "Neurogenic shock",
+    optionD: "Deep vein calcification",
+    correctAnswer: "B",
+    explanation: "A fractured femur can sequester 1,000 to 1,500 mL of blood into the thigh tissues, and fat globules entering torn veins can cause lethal fat embolism.",
   },
-  // 129 (Pediatric Nursing - Q38)
   {
-    question: "The APGAR score is assessed at",
-    optionA: "1 and 5 minutes",
-    optionB: "30 minutes",
-    optionC: "2 hours",
-    optionD: "24 hours",
-    correctAnswer: "A",
-    explanation: ""
+    question: "In the nutritional management of chronic Gout, which dietary modification is prescribed to prevent hyperuricemia and urate crystal deposition?",
+    optionA: "High protein, high purine diet",
+    optionB: "Low purine diet (avoiding liver, kidneys, sweetbreads, sardines, anchovies, and heavy alcohol)",
+    optionC: "Strict restriction of dietary water",
+    optionD: "High saturated fat diet",
+    correctAnswer: "B",
+    explanation: "Purines are metabolized into uric acid; avoiding purine-dense animal tissues and alcohol reduces circulating serum urate pools.",
   },
-  // 130 (Pediatric Nursing - Q39)
   {
-    question: "A child with diarrhea should continue to receive",
-    optionA: "Feeding and fluids",
-    optionB: "No food for 24 hours",
-    optionC: "Only water",
-    optionD: "Only juice",
-    correctAnswer: "A",
-    explanation: ""
+    question: "Osteoporosis is a progressive metabolic bone disease characterized by:",
+    optionA: "Bacterial destruction of bone cortex",
+    optionB: "Demineralization leading to loss of bone mineral density and microarchitectural deterioration with high fracture risk",
+    optionC: "Hypertrophy of compact cortical bone",
+    optionD: "Excessive osteoblastic activity",
+    correctAnswer: "B",
+    explanation: "Osteoclast resorption outpaces osteoblast synthesis, causing brittle, porous bones susceptible to low-trauma vertebral compression and hip fractures.",
   },
-  // 131 (Pediatric Nursing - Q40)
   {
-    question: "Vitamin A supplementation helps prevent",
-    optionA: "Severe eye complications and supports immunity",
-    optionB: "Hypertension",
-    optionC: "Diabetes",
-    optionD: "Asthma",
-    correctAnswer: "A",
-    explanation: ""
+    question: "Which physical deformity of the spine is a classic late assessment finding in postmenopausal osteoporosis?",
+    optionA: "Lordosis",
+    optionB: "Kyphosis (Dowager's hump)",
+    optionC: "Scoliosis",
+    optionD: "Ankylosis",
+    correctAnswer: "B",
+    explanation: "Multiple anterior wedge compression fractures of thoracic vertebrae produce the characteristic progressive dorsal kyphotic curvature.",
   },
-  // 132 (Pediatric Nursing - Q41)
   {
-    question: "A child with asthma is unable to complete sentences. What is the priority intervention?",
-    optionA: "Administer oxygen and prescribed bronchodilator",
-    optionB: "Give cough syrup",
-    optionC: "Encourage running",
-    optionD: "Provide cold drink",
-    correctAnswer: "A",
-    explanation: ""
+    question: "What is the primary mode of transmission of Poliovirus in human populations?",
+    optionA: "Airborne dust inhalation",
+    optionB: "Fecal-oral route through ingestion of contaminated water, food, or contact with infected feces",
+    optionC: "Bite of Anopheles mosquito",
+    optionD: "Direct blood transfusion exclusively",
+    correctAnswer: "B",
+    explanation: "Poliovirus replicates in the oropharynx and intestinal tract, shedding in feces for weeks and spreading via poor sanitation and contaminated water.",
   },
-  // 133 (Pediatric Nursing - Q42)
   {
-    question: "A child who is vomiting repeatedly is at risk of",
-    optionA: "Dehydration and electrolyte imbalance",
-    optionB: "Obesity",
-    optionC: "Hypertension",
-    optionD: "Blindness",
-    correctAnswer: "A",
-    explanation: ""
+    question: "In clinical traumatology, the stage of shock in which compensatory mechanisms fail, tissue perfusion falls catastrophically, and lactic acidosis ensues is the:",
+    optionA: "Compensatory stage",
+    optionB: "Progressive (decompensated) stage",
+    optionC: "Irreversible stage",
+    optionD: "Latent stage",
+    correctAnswer: "B",
+    explanation: "In progressive shock, cardiac output declines, microvascular autoregulation fails, cell membranes leak, and multiple organ dysfunction syndrome (MODS) begins.",
   },
-  // 134 (Pediatric Nursing - Q43)
   {
-    question: "Which vaccine protects against poliomyelitis?",
-    optionA: "OPV",
-    optionB: "BCG",
-    optionC: "Measles",
-    optionD: "Hepatitis B",
-    correctAnswer: "A",
-    explanation: ""
+    question: "A patient with severe persistent diarrhea loses substantial amounts of potassium and bicarbonate. What serious consequence can hypokalemia have on the heart?",
+    optionA: "Sinus tachycardia only",
+    optionB: "Potentially lethal cardiac dysrhythmias (ventricular ectopy, flat T waves, prominent U waves, and cardiac arrest)",
+    optionC: "Severe hypertension",
+    optionD: "Hypertrophy of the left atrium",
+    correctAnswer: "B",
+    explanation: "Hypokalemia hyperpolarizes the myocardial resting membrane, delaying repolarization and predisposing to PVCs, ventricular tachycardia, and fibrillation.",
   },
-  // 135 (Pediatric Nursing - Q44)
   {
-    question: "A child with severe anemia is pale and breathless. What should the nurse monitor closely?",
-    optionA: "Oxygenation and vital signs",
-    optionB: "Hair growth",
-    optionC: "Vision",
-    optionD: "Hearing",
-    correctAnswer: "A",
-    explanation: ""
+    question: "Normal healthy human kidneys filter approximately how many liters of glomerular filtrate per day in an adult?",
+    optionA: "15 to 20 liters",
+    optionB: "150 to 180 liters per day",
+    optionC: "500 liters",
+    optionD: "5 liters",
+    correctAnswer: "B",
+    explanation: "The normal glomerular filtration rate (GFR) of 120-125 mL/min produces approximately 180 liters of ultrafiltrate daily, of which >99% is tubularly reabsorbed.",
   },
-  // 136 (Pediatric Nursing - Q45)
   {
-    question: "Exclusive breastfeeding is recommended for",
-    optionA: "6 months",
-    optionB: "3 months",
-    optionC: "9 months",
-    optionD: "12 months",
-    correctAnswer: "A",
-    explanation: ""
+    question: "The maximum physiological volume capacity of the adult urinary bladder when fully distended before pain receptors trigger emergency voiding is approximately:",
+    optionA: "100 to 200 mL",
+    optionB: "800 to 1000 mL",
+    optionC: "2500 mL",
+    optionD: "5000 mL",
+    correctAnswer: "B",
+    explanation: "Normal voiding desire occurs at 250-350 mL; the elastic bladder can expand to hold 800 to 1000 mL before severe overdistention and pain arise.",
   },
-  // 137 (Pediatric Nursing - Q46)
   {
-    question: "A child with burns should first be assessed for",
-    optionA: "Airway compromise",
-    optionB: "Weight",
-    optionC: "Vision",
-    optionD: "Hearing",
-    correctAnswer: "A",
-    explanation: ""
+    question: "Congenital hypertrophic pyloric stenosis in infants is surgically corrected by an incision through the hypertrophied pyloric muscle known as:",
+    optionA: "Bilroth I procedure",
+    optionB: "Ramstedt's pyloromyotomy",
+    optionC: "Whipple procedure",
+    optionD: "Nissen fundoplication",
+    correctAnswer: "B",
+    explanation: "Ramstedt's pyloromyotomy incises the thickened circular pyloric muscle down to the submucosa, releasing the gastric outlet obstruction without entering the lumen.",
   },
-  // 138 (Pediatric Nursing - Q47)
   {
-    question: "A child with suspected sepsis becomes cold and mottled. What is the priority?",
-    optionA: "Urgent assessment and supportive care",
-    optionB: "Give food",
-    optionC: "Allow sleep",
-    optionD: "Discharge",
-    correctAnswer: "A",
-    explanation: ""
+    question: "In active euthanasia, the medical practitioner:",
+    optionA: "Withholds futile life support based on a valid DNR order",
+    optionB: "Directly and deliberately administers a lethal agent (such as potassium chloride) with the explicit intention of ending the patient's life",
+    optionC: "Provides maximum palliative pain relief knowing it may shorten life",
+    optionD: "Allows natural disease progression",
+    correctAnswer: "B",
+    explanation: "Active euthanasia involves the deliberate, direct administration of a lethal substance to end life, which remains legally and ethically prohibited in standard nursing practice.",
   },
-  // 139 (Pediatric Nursing - Q48)
   {
-    question: "The APGAR score is assessed at",
-    optionA: "1 and 5 minutes",
-    optionB: "30 minutes",
-    optionC: "2 hours",
-    optionD: "24 hours",
-    correctAnswer: "A",
-    explanation: ""
+    question: "Which of the following is considered an innate, non-specific physiological host defense mechanism against infection?",
+    optionA: "Antigen-specific IgG antibodies",
+    optionB: "Intact anatomical skin barrier, gastric acidity, and phagocytosis by neutrophils and macrophages",
+    optionC: "Cytotoxic T-lymphocytes",
+    optionD: "Memory B-cells",
+    correctAnswer: "B",
+    explanation: "Innate non-specific defenses act immediately against all entering microorganisms without requiring prior antigen exposure or sensitization.",
   },
-  // 140 (Pediatric Nursing - Q49)
   {
-    question: "A child with diarrhea should continue to receive",
-    optionA: "Feeding and fluids",
-    optionB: "No food for 24 hours",
-    optionC: "Only water",
-    optionD: "Only juice",
-    correctAnswer: "A",
-    explanation: ""
+    question: "A localized, circumscribed collection of purulent exudate (pus) surrounded by an active wall of inflamed vascularized tissue is defined as an:",
+    optionA: "Ulcer",
+    optionB: "Abscess",
+    optionC: "Nodule",
+    optionD: "Cyst",
+    correctAnswer: "B",
+    explanation: "An abscess forms when tissue liquefaction necrosis and polymorphonuclear neutrophil infiltration become walled off by fibrous granulation tissue.",
   },
-  // 141 (Pediatric Nursing - Q50)
   {
-    question: "Vitamin A supplementation helps prevent",
-    optionA: "Severe eye complications and supports immunity",
-    optionB: "Hypertension",
-    optionC: "Diabetes",
-    optionD: "Asthma",
-    correctAnswer: "A",
-    explanation: ""
+    question: "The active cellular process by which leukocytes engulf, ingest, and destroy foreign microorganisms is known as:",
+    optionA: "Pinocytosis",
+    optionB: "Phagocytosis",
+    optionC: "Exocytosis",
+    optionD: "Osmosis",
+    correctAnswer: "B",
+    explanation: "Neutrophils and macrophages extend pseudopodia to surround and internalize pathogens into phagosomes for enzymatic lysis.",
   },
-  // 142 (Pediatric Nursing - Q51)
   {
-    question: "A child with asthma is unable to complete sentences. What is the priority intervention?",
-    optionA: "Administer oxygen and prescribed bronchodilator",
-    optionB: "Give cough syrup",
-    optionC: "Encourage running",
-    optionD: "Provide cold drink",
-    correctAnswer: "A",
-    explanation: ""
+    question: "Physical methods of sterilization and disinfection include autoclaving, dry heat, and radiation, but EXCLUDE:",
+    optionA: "Autoclave moist steam",
+    optionB: "Dry gas (such as ethylene oxide chemical sterilization)",
+    optionC: "Ionizing radiation",
+    optionD: "Dry heat hot air oven",
+    correctAnswer: "B",
+    explanation: "Ethylene oxide gas is a chemical (gaseous) sterilizing agent, whereas autoclaving, radiation, and dry heat are physical methods.",
   },
-  // 143 (Pediatric Nursing - Q52)
   {
-    question: "A child who is vomiting repeatedly is at risk of",
-    optionA: "Dehydration and electrolyte imbalance",
-    optionB: "Obesity",
-    optionC: "Hypertension",
-    optionD: "Blindness",
-    correctAnswer: "A",
-    explanation: ""
+    question: "Microorganisms that possess the biological capability to overcome host defenses and cause clinical disease are called:",
+    optionA: "Commensals",
+    optionB: "Pathogens",
+    optionC: "Saprophytes",
+    optionD: "Normal flora",
+    correctAnswer: "B",
+    explanation: "A pathogen is any infectious biological agent (bacterium, virus, fungus, protozoan) capable of producing disease in a susceptible host.",
   },
-  // 144 (Pediatric Nursing - Q53)
   {
-    question: "Which vaccine protects against poliomyelitis?",
-    optionA: "OPV",
-    optionB: "BCG",
-    optionC: "Measles",
-    optionD: "Hepatitis B",
-    correctAnswer: "A",
-    explanation: ""
+    question: "The clinical process that achieves total destruction and elimination of all forms of microbial life, including bacterial spores, is:",
+    optionA: "Disinfection",
+    optionB: "Sterilization",
+    optionC: "Sanitization",
+    optionD: "Antisepsis",
+    correctAnswer: "B",
+    explanation: "Sterilization is an absolute term denoting the complete eradication of all viable vegetative bacteria, viruses, fungi, and bacterial endospores.",
   },
-  // 145 (Pediatric Nursing - Q54)
   {
-    question: "A child with severe anemia is pale and breathless. What should the nurse monitor closely?",
-    optionA: "Oxygenation and vital signs",
-    optionB: "Hair growth",
-    optionC: "Vision",
-    optionD: "Hearing",
-    correctAnswer: "A",
-    explanation: ""
+    question: "A broad formal statement by which a healthcare organization articulates its core overarching purpose and how it will achieve its goals is a:",
+    optionA: "Protocol",
+    optionB: "Mission statement",
+    optionC: "Job description",
+    optionD: "Budget statement",
+    correctAnswer: "B",
+    explanation: "The mission statement defines an organization's fundamental purpose, values, scope of operations, and path to achieving strategic goals.",
   },
-  // 146 (Pediatric Nursing - Q55)
   {
-    question: "Exclusive breastfeeding is recommended for",
-    optionA: "6 months",
-    optionB: "3 months",
-    optionC: "9 months",
-    optionD: "12 months",
-    correctAnswer: "A",
-    explanation: ""
+    question: "Frederick Winslow Taylor's principles of Scientific Management revolutionized organizational administration by introducing:",
+    optionA: "Intuitive employee scheduling",
+    optionB: "Time-and-motion studies and standardized scientific methods of task execution",
+    optionC: "Random assignment of workers",
+    optionD: "Elimination of all management supervision",
+    correctAnswer: "B",
+    explanation: "Taylor pioneered scientific workflow analysis, using systematic time-and-motion studies to eliminate wasted movement and optimize efficiency.",
   },
-  // 147 (Pediatric Nursing - Q56)
   {
-    question: "A child with burns should first be assessed for",
-    optionA: "Airway compromise",
-    optionB: "Weight",
-    optionC: "Vision",
-    optionD: "Hearing",
-    correctAnswer: "A",
-    explanation: ""
+    question: "Leadership theories that postulate that successful leaders possess inherent, inborn psychological and physical characteristics are called:",
+    optionA: "Behavioral theories",
+    optionB: "Trait theories ('Great Man' theories)",
+    optionC: "Situational theories",
+    optionD: "Contingency theories",
+    correctAnswer: "B",
+    explanation: "Trait theories assume that effective leaders are born with unique enduring traits (intelligence, self-confidence, integrity, charisma).",
   },
-  // 148 (Pediatric Nursing - Q57)
   {
-    question: "A child with suspected sepsis becomes cold and mottled. What is the priority?",
-    optionA: "Urgent assessment and supportive care",
-    optionB: "Give food",
-    optionC: "Allow sleep",
-    optionD: "Discharge",
-    correctAnswer: "A",
-    explanation: ""
+    question: "In nursing leadership, a manager who avoids giving directives, grants complete autonomy, and expects staff to solve problems independently exhibits:",
+    optionA: "Autocratic leadership",
+    optionB: "Democratic leadership",
+    optionC: "Laissez-faire (permissive) leadership",
+    optionD: "Bureaucratic leadership",
+    correctAnswer: "C",
+    explanation: "Laissez-faire leadership is characterized by a hands-off approach, minimal guidance, and delegation of virtually all decision-making to subordinates.",
   },
-  // 149 (Pediatric Nursing - Q58)
   {
-    question: "The APGAR score is assessed at",
-    optionA: "1 and 5 minutes",
-    optionB: "30 minutes",
-    optionC: "2 hours",
-    optionD: "24 hours",
-    correctAnswer: "A",
-    explanation: ""
+    question: "Situational analysis in primary health care is the epidemiological process of identifying community health status through:",
+    optionA: "Intuition alone",
+    optionB: "Systematic communication, active listening, structured observation, and investigative survey skills",
+    optionC: "Hospital billing records exclusively",
+    optionD: "Police incident reports",
+    correctAnswer: "B",
+    explanation: "Situational analysis gathers comprehensive baseline epidemiological and socio-cultural data through structured community diagnosis methods.",
   },
-  // 150 (Pediatric Nursing - Q59)
   {
-    question: "A child with diarrhea should continue to receive",
-    optionA: "Feeding and fluids",
-    optionB: "No food for 24 hours",
-    optionC: "Only water",
-    optionD: "Only juice",
+    question: "The administrative process whereby a nurse manager assigns specific responsibility and corresponding authority to a subordinate while retaining ultimate accountability is:",
+    optionA: "Supervision",
+    optionB: "Delegation",
+    optionC: "Coordination",
+    optionD: "Evaluation",
+    correctAnswer: "B",
+    explanation: "Delegation transfers the responsibility for the performance of an activity from one person to another while the delegating nurse retains accountability.",
+  },
+  {
+    question: "The causative biological organism responsible for Dracunculiasis (Guinea Worm Disease) in tropical communities is:",
+    optionA: "Schistosoma haematobium",
+    optionB: "Dracunculus medinensis (nematode)",
+    optionC: "Onchocerca volvulus",
+    optionD: "Wuchereria bancrofti",
+    correctAnswer: "B",
+    explanation: "Dracunculus medinensis is a tissue nematode whose larvae are ingested within infected microscopic Cyclops water fleas in stagnant drinking ponds.",
+  },
+  {
+    question: "In contemporary clinical nursing practice, comprehensive documentation in the client's medical record serves primarily as:",
+    optionA: "Hospital advertisement",
+    optionB: "A legal and professional record providing proof of quality care, communication among the health team, and clinical accountability",
+    optionC: "A private personal diary for the nurse",
+    optionD: "Billing invoices exclusively",
+    correctAnswer: "B",
+    explanation: "Nursing documentation serves as a permanent legal record of patient care, ensures interdisciplinary communication, and supports clinical audit.",
+  },
+  {
+    question: "Which leadership power base is derived from an individual's specialized technical knowledge, superior clinical skills, and professional competence?",
+    optionA: "Legitimate power",
+    optionB: "Reward power",
+    optionC: "Coercive power",
+    optionD: "Expert power",
+    correctAnswer: "D",
+    explanation: "Expert power stems from the possession of specialized expertise, knowledge, and clinical skills that command professional respect and credibility.",
+  },
+  {
+    question: "In organizational psychology, when a staff nurse is completely uncertain and lacks clear instructions about their clinical expectations and duties, the condition is:",
+    optionA: "Role conflict",
+    optionB: "Role ambiguity",
+    optionC: "Role overload",
+    optionD: "Role reversal",
+    correctAnswer: "B",
+    explanation: "Role ambiguity occurs when an employee lacks adequate, clear information regarding their responsibilities, scope of practice, or performance standards.",
+  },
+  {
+    question: "A nurse manager who convenes an open ward staff meeting to jointly analyze a staffing shortage and solicit team recommendations demonstrates:",
+    optionA: "Autocratic leadership",
+    optionB: "Participative (democratic) leadership",
+    optionC: "Laissez-faire leadership",
+    optionD: "Transactional leadership",
+    correctAnswer: "B",
+    explanation: "Participative leaders engage team members in collaborative problem-solving, fostering mutual commitment, morale, and consensus.",
+  },
+  {
+    question: "A qualified nurse counselor must possess empathy, warmth, politeness, and active listening skills, but must avoid:",
+    optionA: "Cheerfulness",
+    optionB: "Aggressiveness and judgmental attitudes",
+    optionC: "Assertiveness",
+    optionD: "Objectivity",
+    correctAnswer: "B",
+    explanation: "Aggressiveness, moralizing, and imposing personal biases destroy the non-judgmental atmosphere essential for therapeutic counseling.",
+  },
+  {
+    question: "In the classical communication process, the four fundamental sequential components are:",
+    optionA: "Sender, Message, Channel (Medium), and Receiver (with Feedback)",
+    optionB: "Phone, Paper, Voice, Ears",
+    optionC: "Doctor, Nurse, Ward, Bed",
+    optionD: "Talking, Shouting, Listening, Writing",
     correctAnswer: "A",
-    explanation: ""
-  }
+    explanation: "The communication cycle involves a sender encoding a message through a chosen channel, which the receiver decodes and responds to via feedback.",
+  },
+  {
+    question: "A nurse manager who makes all decisions independently without consulting staff and demands unquestioned obedience employs which management style?",
+    optionA: "Democratic style",
+    optionB: "Autocratic (authoritarian) style",
+    optionC: "Laissez-faire style",
+    optionD: "Transformational style",
+    correctAnswer: "B",
+    explanation: "Autocratic managers centralize authority in themselves, issuing top-down directives without input or collaborative consultation.",
+  },
+  {
+    question: "In healthcare organizational structure, Fayol's foundational administrative principles include authority, discipline, unity of command, and:",
+    optionA: "Inequity",
+    optionB: "Division of labor (specialization of tasks)",
+    optionC: "Random decision-making",
+    optionD: "Disorganization",
+    correctAnswer: "B",
+    explanation: "Division of work (specialization) produces more and better work with the same effort by allowing personnel to build expertise in defined roles.",
+  },
+  {
+    question: "Which anatomical tissue plane is significantly LESS sensitive to irritating, viscous, or hypertonic parenteral medications?",
+    optionA: "Epidermal tissue",
+    optionB: "Subcutaneous adipose tissue",
+    optionC: "Deep skeletal muscle tissue (rich vascularity with fewer sensory pain receptors)",
+    optionD: "Dermal papillae",
+    correctAnswer: "C",
+    explanation: "Deep skeletal muscle has high vascular perfusion and fewer sensory nociceptors than dermis or subcutaneous fat, making it ideal for irritating IM drugs.",
+  },
+  {
+    question: "In clinical communication, 'decoding' refers specifically to the process performed by the:",
+    optionA: "Sender encoding the message into symbols",
+    optionB: "Receiver interpreting, analyzing, and deriving meaning from the received message",
+    optionC: "Messenger delivering the letter",
+    optionD: "Telephone operator",
+    correctAnswer: "B",
+    explanation: "Decoding is the cognitive operation wherein the receiver translates verbal and non-verbal stimuli back into interpreted thoughts and meanings.",
+  },
+  {
+    question: "The legal and administrative written document that outlines the educational requirements, clinical skills, and physical attributes necessary for a job is the:",
+    optionA: "Job description",
+    optionB: "Job specification",
+    optionC: "Job simplification",
+    optionD: "Job enrichment",
+    correctAnswer: "B",
+    explanation: "A job specification details the human qualifications (credentials, education, experience, abilities) required to perform a specific position.",
+  },
+  {
+    question: "The administrative authority to issue directives, make binding decisions, and enforce compliance in an organization is termed:",
+    optionA: "Centralization",
+    optionB: "Authority",
+    optionC: "Autocracy",
+    optionD: "Scalar chain",
+    correctAnswer: "B",
+    explanation: "Authority is the formal, legitimate right vested in a managerial position to give orders, allocate resources, and expect performance.",
+  },
+  {
+    question: "The concentration and consolidation of strategic decision-making power at the apex (top level) of an organizational hierarchy is termed:",
+    optionA: "Decentralization",
+    optionB: "Centralization",
+    optionC: "Empowerment",
+    optionD: "Delegation",
+    correctAnswer: "B",
+    explanation: "Centralization concentrates decision-making at top executive levels, whereas decentralization disperses authority to frontline managers.",
+  },
+  {
+    question: "The minimum daily energy expenditure required to maintain essential physiological involuntary vital functions at complete rest is the:",
+    optionA: "Energy output",
+    optionB: "Basal Metabolic Rate (BMR)",
+    optionC: "Caloric surplus",
+    optionD: "Respiratory quotient",
+    correctAnswer: "B",
+    explanation: "BMR is the baseline metabolic caloric consumption needed to sustain cardiac contraction, respiration, cellular ionic pumps, and thermoregulation.",
+  },
+  {
+    question: "Pteroylglutamic acid is the chemical and pharmacological name for which essential water-soluble B-complex vitamin?",
+    optionA: "Vitamin B1 (Thiamine)",
+    optionB: "Vitamin B9 (Folic acid)",
+    optionC: "Vitamin B3 (Niacin)",
+    optionD: "Vitamin B6 (Pyridoxine)",
+    correctAnswer: "B",
+    explanation: "Pteroylglutamic acid is folic acid, required for purine and thymidylate synthesis in DNA replication and erythrocyte maturation.",
+  },
+  {
+    question: "What is the standardized mathematical formula used to calculate a client's Body Mass Index (BMI)?",
+    optionA: "Height in meters / Weight in kilograms",
+    optionB: "Weight in kilograms divided by Height in meters squared (kg/m2)",
+    optionC: "Weight in pounds x Height in inches",
+    optionD: "Height in centimeters / Age in years",
+    correctAnswer: "B",
+    explanation: "BMI = Weight (kg) / [Height (m)]^2; normal adult range is 18.5 to 24.9 kg/m2, with values >=30 kg/m2 indicating obesity.",
+  },
+  {
+    question: "A child is classified as suffering from mild-to-moderate undernutrition when their weight-for-age falls below what percentage of expected median?",
+    optionA: "95% for age",
+    optionB: "Below 80% of expected weight-for-age",
+    optionC: "50% for age",
+    optionD: "100%",
+    correctAnswer: "B",
+    explanation: "Under Gomez classification of malnutrition, weight-for-age between 75-89% indicates grade I, 60-74% indicates grade II, and <60% indicates grade III.",
+  },
+  {
+    question: "The daily Recommended Dietary Allowance (RDA) of Vitamin B12 (Cyanocobalamin) for an adult is approximately:",
+    optionA: "0.5 microgram",
+    optionB: "2.4 micrograms",
+    optionC: "50 milligrams",
+    optionD: "500 milligrams",
+    correctAnswer: "B",
+    explanation: "Adult RDA for vitamin B12 is 2.4 mcg daily, sufficient to support DNA synthesis, neurological myelin maintenance, and hematopoiesis.",
+  },
+  {
+    question: "Chronic severe alcohol dependence frequently causes a deficiency of which vitamin, leading to Wernicke-Korsakoff encephalopathy?",
+    optionA: "Vitamin C",
+    optionB: "Thiamine (Vitamin B1)",
+    optionC: "Vitamin D",
+    optionD: "Vitamin K",
+    correctAnswer: "B",
+    explanation: "Alcohol impairs intestinal thiamine absorption and hepatic storage; thiamine deficiency damages the mammillary bodies, causing ataxia, confusion, and confabulation.",
+  },
+  {
+    question: "Down's syndrome is a chromosomal abnormality resulting from non-disjunction during meiosis, characterized by:",
+    optionA: "Missing sex chromosome (45,X)",
+    optionB: "Trisomy 21 (presence of an extra chromosome 21)",
+    optionC: "XXY genotype",
+    optionD: "Deletion on chromosome 5",
+    correctAnswer: "B",
+    explanation: "Trisomy 21 occurs in about 1 in 700 live births, manifesting with hypotonia, brachycephaly, upward slanting palpebral fissures, and cardiac septal defects.",
+  },
+  {
+    question: "The clinical neonatal period encompasses the lifespan of an infant from birth up to:",
+    optionA: "7 days",
+    optionB: "28 days (4 weeks)",
+    optionC: "3 months",
+    optionD: "1 year",
+    correctAnswer: "B",
+    explanation: "The neonatal period is defined by WHO as the first 28 completed days of extrauterine life, during which infant mortality risks are highest.",
+  },
+  {
+    question: "Sickle cell disease (HbSS) is inherited according to which classical Mendelian genetic pattern?",
+    optionA: "Autosomal dominant",
+    optionB: "Autosomal recessive (both parents must carry the mutant gene)",
+    optionC: "X-linked recessive",
+    optionD: "Mitochondrial inheritance",
+    correctAnswer: "B",
+    explanation: "Sickle cell anemia is an autosomal recessive disorder where an affected individual inherits two abnormal beta-globin alleles (one from each parent).",
+  },
+  {
+    question: "The medical term used to describe the failure of one or both testes to descend from the abdomen into the scrotum is:",
+    optionA: "Castration",
+    optionB: "Cryptorchidism",
+    optionC: "Phimosis",
+    optionD: "Hydrocele",
+    correctAnswer: "B",
+    explanation: "Cryptorchidism is failure of testicular descent; failure to descend by age 1 year requires surgical orchiopexy to minimize infertility and germ-cell cancer risk.",
+  },
+  {
+    question: "Which of the following is a late, grave sign of elevated intracranial pressure (ICP) in an infant with head trauma?",
+    optionA: "Slight irritability",
+    optionB: "Cushing's response (widened pulse pressure, bradycardia, and irregular respirations)",
+    optionC: "Mild hunger",
+    optionD: "Increased urine output",
+    correctAnswer: "B",
+    explanation: "Cushing's triad reflects life-threatening brainstem ischemia and impending tentorial herniation from severely elevated ICP.",
+  },
+  {
+    question: "The primitive Moro (startle) reflex in a healthy term infant normally disappears by what age?",
+    optionA: "2 to 3 weeks",
+    optionB: "4 to 6 months",
+    optionC: "12 months",
+    optionD: "24 months",
+    correctAnswer: "B",
+    explanation: "The Moro reflex normally fades by 4 to 6 months as cerebral cortical maturation replaces primitive brainstem reflexes.",
+  },
+  {
+    question: "The average birth weight of a healthy, full-term neonate is approximately:",
+    optionA: "1.5 to 2.0 kg",
+    optionB: "3.0 to 3.5 kg (average approx. 3.2 kg)",
+    optionC: "4.5 to 5.0 kg",
+    optionD: "6.0 kg",
+    correctAnswer: "B",
+    explanation: "Term newborns typically weigh between 2.5 and 4.0 kg, with an average around 3.2 kg (7 pounds).",
+  },
+  {
+    question: "The average crown-to-heel birth length of a healthy full-term newborn infant is approximately:",
+    optionA: "30 cm",
+    optionB: "50 cm (approx. 20 inches)",
+    optionC: "70 cm",
+    optionD: "85 cm",
+    correctAnswer: "B",
+    explanation: "Normal full-term birth length averages 50 cm (range 48 to 53 cm), increasing by approximately 25 cm during the first year of life.",
+  },
+  {
+    question: "Children typically master the gross motor milestone of hopping on one foot around what developmental age?",
+    optionA: "12 months",
+    optionB: "18 months",
+    optionC: "3 to 4 years (36 to 48 months)",
+    optionD: "7 years",
+    correctAnswer: "C",
+    explanation: "Hopping on one foot requires balance and unilateral leg strength, typically achieved between 3 and 4 years of age.",
+  },
+  {
+    question: "Retinopathy of prematurity (retrolental fibroplasia) in preterm infants is triggered primarily by:",
+    optionA: "Severe maternal malnutrition",
+    optionB: "Excessive, uncontrolled administration of high-concentration supplemental oxygen",
+    optionC: "Exposure to normal room light",
+    optionD: "Phototherapy for jaundice",
+    correctAnswer: "B",
+    explanation: "Hyperoxia causes constriction and obliteration of immature retinal capillaries; subsequent hypoxia induces pathological neovascularization and retinal detachment.",
+  },
+  {
+    question: "Which statement regarding the progestin-only contraceptive 'mini-pill' (norethindrone) is correct?",
+    optionA: "It contains high doses of synthetic estrogen",
+    optionB: "It contains progestin only, is safe for breastfeeding mothers, and must be taken at the exact same time every day",
+    optionC: "It is administered as a monthly injection",
+    optionD: "It provides 100% protection against sexually transmitted infections",
+    correctAnswer: "B",
+    explanation: "Mini-pills avoid estrogen-induced breast milk suppression and thromboembolic risk, but require strict adherence within a 3-hour daily window.",
+  },
+  {
+    question: "The pharmaceutical drug of choice for the prevention and control of maternal tonic-clonic convulsions in severe pre-eclampsia and eclampsia is:",
+    optionA: "Diazepam IV",
+    optionB: "Magnesium sulfate (intravenous loading dose followed by continuous maintenance infusion)",
+    optionC: "Phenytoin oral",
+    optionD: "Sodium amytal",
+    correctAnswer: "B",
+    explanation: "Magnesium sulfate is the internationally established gold standard anticonvulsant that prevents and halts eclamptic seizures without depressing maternal consciousness.",
+  },
+  {
+    question: "A pharmacological receptor 'antagonist' is defined as an agent that:",
+    optionA: "Binds to a cellular receptor and activates it to produce a maximal biological effect",
+    optionB: "Binds to a cellular receptor with high affinity but produces no intrinsic biological response, thereby blocking agonist action",
+    optionC: "Destroys the receptor irreversibly",
+    optionD: "Acts exclusively outside the cell wall",
+    correctAnswer: "B",
+    explanation: "Antagonists have receptor affinity but zero intrinsic efficacy, competitively or non-competitively preventing endogenous ligands from activating the receptor.",
+  },
+  {
+    question: "Which of the following antibiotics belongs to the Macrolide class that inhibits bacterial 50S ribosomal protein synthesis?",
+    optionA: "Ciprofloxacin",
+    optionB: "Erythromycin (and Azithromycin, Clarithromycin)",
+    optionC: "Doxycycline",
+    optionD: "Gentamicin",
+    correctAnswer: "B",
+    explanation: "Macrolides (erythromycin, azithromycin, clarithromycin) bind to the 50S ribosomal subunit, blocking transpeptidation and protein elongation.",
+  },
+  {
+    question: "Which intravenous fluid solution is classified as a colloid plasma volume expander?",
+    optionA: "0.9% Normal Saline",
+    optionB: "5% Human Albumin (or Dextran, Fresh Frozen Plasma)",
+    optionC: "0.45% Half-normal saline",
+    optionD: "5% Dextrose in water",
+    correctAnswer: "B",
+    explanation: "Colloids contain large, high-molecular-weight molecules that cannot easily cross semipermeable capillary membranes, exerting oncotic pressure.",
+  },
+  {
+    question: "Barbiturates (such as phenobarbital and secobarbital) are pharmacologically categorized as:",
+    optionA: "Stimulants",
+    optionB: "Central nervous system sedatives and hypnotics",
+    optionC: "Analgesics exclusively",
+    optionD: "Antidepressants",
+    correctAnswer: "B",
+    explanation: "Barbiturates potentiate GABA-mediated inhibitory transmission in the brainstem reticular activating system, depressing CNS arousal.",
+  },
+  {
+    question: "The first-generation typical antipsychotic agent associated with the highest clinical incidence of extrapyramidal symptoms (EPS) and acute dystonias is:",
+    optionA: "Haloperidol",
+    optionB: "Clozapine",
+    optionC: "Olanzapine",
+    optionD: "Quetiapine",
+    correctAnswer: "A",
+    explanation: "Haloperidol has high potency and intense D2 dopamine receptor antagonism in the nigrostriatal tract, predisposing strongly to parkinsonism and dystonias.",
+  },
+  {
+    question: "Tardive Dyskinesia is a potentially irreversible neurological adverse effect of long-term neuroleptic therapy, characterized by:",
+    optionA: "Flaccid muscle weakness",
+    optionB: "Involuntary repetitive choreiform movements of the tongue (tongue thrusting), lip smacking, puckering, and facial grimacing",
+    optionC: "Restless leg syndrome",
+    optionD: "Catatonic stupor",
+    correctAnswer: "B",
+    explanation: "Chronic D2 receptor blockade leads to postsynaptic dopamine receptor supersensitivity in the basal ganglia, producing abnormal orofacial dyskinesias.",
+  },
+  {
+    question: "The 'shelf life' of a manufactured pharmaceutical drug formulation refers to the period during which:",
+    optionA: "The drug can be sold at a discounted price",
+    optionB: "The drug retains its chemical purity, potency, stability, and safety when stored under recommended conditions",
+    optionC: "The drug is in clinical trials",
+    optionD: "The patient takes the medication",
+    correctAnswer: "B",
+    explanation: "Shelf life is established through stability testing, guaranteeing at least 90-95% active chemical potency until the stated expiration date.",
+  },
+  {
+    question: "The standard adult oral maintenance dosage range for Digoxin in chronic atrial fibrillation or systolic heart failure is:",
+    optionA: "1.0 to 2.0 mg daily",
+    optionB: "0.125 to 0.25 mg (125 to 250 micrograms) once daily",
+    optionC: "10 to 20 mg daily",
+    optionD: "50 to 100 mg daily",
+    correctAnswer: "B",
+    explanation: "Because digoxin has a narrow therapeutic index and long half-life (approx. 36-48 hours), standard daily oral maintenance is 0.125 to 0.25 mg.",
+  },
+  {
+    question: "Low-dose daily Aspirin (75 to 100 mg) is prescribed in cardiovascular disease primarily for its pharmacological effect to:",
+    optionA: "Relieve mild joint aches",
+    optionB: "Irreversibly inhibit platelet cyclooxygenase-1 (COX-1), preventing thromboxane A2 synthesis and platelet aggregation",
+    optionC: "Lower systolic blood pressure",
+    optionD: "Reduce gastric acid secretion",
+    correctAnswer: "B",
+    explanation: "Aspirin permanently acetylates platelet COX-1, halting thromboxane A2 production for the entire 8-10 day lifespan of circulating platelets.",
+  },
+  {
+    question: "Oral Doxycycline should be administered with a full glass of water with the client remaining upright for at least 30 minutes because:",
+    optionA: "The drug tastes bitter",
+    optionB: "The capsule can lodge in the esophagus and cause severe pill-induced chemical esophagitis and ulceration",
+    optionC: "It causes instant diarrhea",
+    optionD: "It decreases renal blood flow",
+    correctAnswer: "B",
+    explanation: "Tetracyclines are locally corrosive to mucosal tissue; taking with abundant fluid in an upright posture prevents esophageal impaction and ulceration.",
+  },
+  {
+    question: "Organic nitrates (such as nitroglycerin and isosorbide dinitrate) reduce myocardial oxygen consumption primarily by causing:",
+    optionA: "Intense arterial hypertension",
+    optionB: "Systemic peripheral venodilation, which reduces venous return (cardiac preload) and ventricular wall stress",
+    optionC: "Direct stimulation of cardiac contractility",
+    optionD: "Bronchoconstriction",
+    correctAnswer: "B",
+    explanation: "Nitrates generate nitric oxide in vascular smooth muscle; low concentrations selectively dilate systemic veins, drastically decreasing ventricular preload.",
+  },
+  {
+    question: "Dapsone (diaminodiphenyl sulfone) is an essential antibacterial agent specifically indicated as part of multidrug therapy for:",
+    optionA: "Syphilis",
+    optionB: "Hansen's disease (Leprosy) caused by Mycobacterium leprae",
+    optionC: "Tuberculosis exclusively",
+    optionD: "Cholera",
+    correctAnswer: "B",
+    explanation: "Dapsone inhibits dihydropteroate synthase in Mycobacterium leprae, forming the cornerstone of WHO multidrug therapy for leprosy.",
+  },
+  {
+    question: "The global acronym HAART in HIV medicine stands for:",
+    optionA: "High Activity Antibiotic Recovery Therapy",
+    optionB: "Highly Active Antiretroviral Therapy",
+    optionC: "Home Assisted AIDS Rehydration Treatment",
+    optionD: "Hospital Acute Anti-Retro Viral Testing",
+    correctAnswer: "B",
+    explanation: "HAART is the aggressive combination treatment using at least three antiretroviral drugs from two different classes to suppress HIV viral replication.",
+  },
+  {
+    question: "When comparing hypodermic injection needle sizes, which needle gauge represents the widest internal lumen diameter?",
+    optionA: "25 Gauge",
+    optionB: "22 Gauge",
+    optionC: "20 Gauge",
+    optionD: "18 Gauge",
+    correctAnswer: "D",
+    explanation: "Needle gauge is inversely related to diameter: an 18G needle has a much wider bore and lumen than higher gauge numbers like 22G or 25G.",
+  },
+  {
+    question: "Pharmacological 'Tolerance' to a medication is defined as:",
+    optionA: "The development of physical withdrawal symptoms upon cessation",
+    optionB: "A state of decreased physiological responsiveness to a drug resulting from repeated administration, requiring increasing doses to achieve the same effect",
+    optionC: "A severe allergic reaction",
+    optionD: "The psychological compulsion to use a drug",
+    correctAnswer: "B",
+    explanation: "Pharmacodynamic or metabolic tolerance requires escalating doses over time to replicate the initial pharmacological response.",
+  },
+  {
+    question: "An unusual, unpredictable, and genetically determined abnormal individual reaction to a drug is pharmacologically termed:",
+    optionA: "Drug allergy",
+    optionB: "Idiosyncrasy (idiosyncratic drug reaction)",
+    optionC: "Drug tolerance",
+    optionD: "Side effect",
+    correctAnswer: "B",
+    explanation: "Drug idiosyncrasy is an abnormal, unexpected reaction independent of drug dose, mediated by individual pharmacogenetic variations (e.g., G6PD hemolysis).",
+  },
+  {
+    question: "Which penicillinase-resistant semisynthetic penicillin is indicated for treating infections caused by beta-lactamase-producing Staphylococcus aureus?",
+    optionA: "Amoxicillin",
+    optionB: "Cloxacillin",
+    optionC: "Ampicillin",
+    optionD: "Penicillin V",
+    correctAnswer: "B",
+    explanation: "Cloxacillin possesses a bulky acyl side-chain that sterically hinders staphylococcal beta-lactamase enzymes, preserving antibacterial activity.",
+  },
+  {
+    question: "Acute opioid intoxication and overdose is clinically characterized by which hallmark physical assessment triad?",
+    optionA: "Hypertension, hyperthermia, and dilated pupils",
+    optionB: "Pinpoint pupils (miosis), respiratory depression, and decreased level of consciousness (coma)",
+    optionC: "Agitation, hyperreflexia, and diarrhea",
+    optionD: "Tachycardia with flushed skin",
+    correctAnswer: "B",
+    explanation: "The opioid overdose triad consists of central nervous system depression, profound bradypnea/hypoventilation, and bilateral symmetric pinpoint pupils.",
+  },
+  {
+    question: "Why does intramuscular (IM) medication administration provide significantly faster vascular absorption than subcutaneous (SC) injection?",
+    optionA: "Subcutaneous fat has no nerve fibers",
+    optionB: "Skeletal muscle tissue possesses a vastly greater capillary blood supply and vascular perfusion",
+    optionC: "The muscle tissue has a higher pH",
+    optionD: "Subcutaneous tissue destroys the drug molecules",
+    correctAnswer: "B",
+    explanation: "Rich skeletal muscular microvascular networks ensure rapid, predictable drug absorption compared to poorly vascularized adipose tissue.",
+  },
+  {
+    question: "A pharmacologically inert chemical substance (such as saline or lactose) administered with therapeutic suggestion is known as a:",
+    optionA: "Prodrug",
+    optionB: "Placebo",
+    optionC: "Toxoid",
+    optionD: "Carrier",
+    correctAnswer: "B",
+    explanation: "A placebo produces clinical changes based on patient expectation, conditioning, and psychological factors rather than intrinsic pharmacological activity.",
+  },
+  {
+    question: "In psychiatric nursing, the co-existence of a substance use disorder alongside an independent major psychiatric disorder is diagnosed as:",
+    optionA: "Secondary psychosis",
+    optionB: "Dual diagnosis (co-occurring disorders)",
+    optionC: "Primary addiction",
+    optionD: "Malingering",
+    correctAnswer: "B",
+    explanation: "Dual diagnosis describes individuals affected simultaneously by a mental health condition (e.g., schizophrenia, bipolar) and a substance dependence.",
+  },
+  {
+    question: "Systemic arterial blood pressure is physiologically determined by the product of:",
+    optionA: "Heart rate multiplied by stroke volume exclusively",
+    optionB: "Cardiac Output (CO) multiplied by Systemic Vascular Resistance (SVR)",
+    optionC: "Blood volume divided by body weight",
+    optionD: "Venous pressure alone",
+    correctAnswer: "B",
+    explanation: "Mean arterial pressure is the product of cardiac flow (cardiac output) and peripheral arteriolar resistance (systemic vascular resistance).",
+  },
+  {
+    question: "A client diagnosed with schizophrenia repeatedly claims that she is the Queen of England and commands hospital staff as royal attendants. This illustrates:",
+    optionA: "A persecutory delusion",
+    optionB: "A grandiose delusion (delusion of grandeur)",
+    optionC: "A somatic delusion",
+    optionD: "An idea of reference",
+    correctAnswer: "B",
+    explanation: "Delusions of grandeur are fixed false beliefs of inflated power, divine identity, exceptional wealth, or supreme authority.",
+  },
+  {
+    question: "In Freudian psychoanalytic theory, when an individual who feels intellectually inadequate compensates by becoming an aggressive, domineering boss, the defense mechanism is:",
+    optionA: "Rationalization",
+    optionB: "Compensation",
+    optionC: "Regression",
+    optionD: "Projection",
+    correctAnswer: "B",
+    explanation: "Compensation is an unconscious mechanism where a person overemphasizes strengths in one area to counterbalance real or perceived deficiencies in another.",
+  },
+  {
+    question: "The defense mechanism of 'Rationalization' involves:",
+    optionA: "Transforming unacceptable urges into productive work",
+    optionB: "Formulating plausible, socially acceptable false justifications to explain away behaviors motivated by unacceptable impulses",
+    optionC: "Reverting to an earlier childhood developmental stage",
+    optionD: "Attributing one's own feelings to someone else",
+    correctAnswer: "B",
+    explanation: "Rationalization protects self-esteem by fabricating logical, self-serving excuses to justify irrational actions or painful failures.",
+  },
+  {
+    question: "In psychiatric terminology, the word 'SOMA' is derived from Greek and signifies the:",
+    optionA: "Mind",
+    optionB: "Physical body",
+    optionC: "Soul",
+    optionD: "Heart",
+    correctAnswer: "B",
+    explanation: "Soma refers to the physical anatomical body; psychosomatic disorders involve physical bodily symptoms influenced by psychological distress.",
+  },
+  {
+    question: "In caring for a client with catatonic schizophrenia exhibiting extreme psychomotor underactivity and stupor, the nurse's priority care is:",
+    optionA: "Leaving the client alone in the dark",
+    optionB: "Preventing physical complications by providing passive range-of-motion, repositioning, skin care, and assisted nutrition/hydration",
+    optionC: "Insisting the client participate in competitive sports",
+    optionD: "Withholding all oral fluids",
+    correctAnswer: "B",
+    explanation: "Immobile catatonic clients cannot meet basic somatic needs, risking fatal venous thromboembolism, pressure ulcers, dehydration, and contractures.",
+  },
+  {
+    question: "Delirium is clinically distinguished from dementia by which cardinal features?",
+    optionA: "Slow, insidious cognitive decline over several years with stable alertness",
+    optionB: "Acute rapid onset (hours to days), fluctuating course, clouding of consciousness, and impaired attention, usually secondary to an acute medical illness",
+    optionC: "Permanent irreversible brain tissue loss",
+    optionD: "Absence of any physiological cause",
+    correctAnswer: "B",
+    explanation: "Delirium is an acute reversible medical emergency characterized by fluctuating attention and disorganized thinking caused by underlying systemic etiologies.",
+  },
+  {
+    question: "According to Frederick Herzberg's Dual-Factor theory of motivation, 'Hygiene factors' in the work environment (e.g., salary, working conditions):",
+    optionA: "Directly produce deep long-term job satisfaction",
+    optionB: "Prevent job dissatisfaction and workplace unhappiness, but do not inherently motivate superior performance",
+    optionC: "Cause employee burnout",
+    optionD: "Eliminate the need for management",
+    correctAnswer: "B",
+    explanation: "Hygiene factors (extrinsic maintenance needs) eliminate dissatisfaction; intrinsic 'motivators' (achievement, recognition, growth) inspire motivation.",
+  },
+  {
+    question: "In historical medicine, Hippocrates categorized mental disorders into three primary diagnostic entities: Mania, Melancholia, and:",
+    optionA: "Hysteria",
+    optionB: "Phrenitis (acute mental inflammation with fever)",
+    optionC: "Schizophrenia",
+    optionD: "Neurosis",
+    correctAnswer: "B",
+    explanation: "Hippocrates attributed mental illness to biological humoral imbalances (blood, phlegm, yellow bile, black bile), classifying conditions into mania, melancholia, and phrenitis.",
+  },
+  {
+    question: "A client in the psychiatric unit expresses intense dread that enemy soldiers have planted listening devices in his bedroom and are waiting outside to execute him. This is:",
+    optionA: "Delusion of persecution (paranoid delusion)",
+    optionB: "Delusion of grandeur",
+    optionC: "Somatic delusion",
+    optionD: "Nihilistic delusion",
+    correctAnswer: "A",
+    explanation: "Persecutory delusions are fixed false convictions that one is being harassed, plotted against, poisoned, or targeted for harm.",
+  },
+  {
+    question: "A client reports feeling as though the surrounding physical environment has suddenly become completely flat, unfamiliar, dream-like, and lifeless. This perceptual alteration is:",
+    optionA: "Depersonalization",
+    optionB: "Derealization",
+    optionC: "Hallucination",
+    optionD: "Illusory distortion",
+    correctAnswer: "B",
+    explanation: "Derealization is an alteration in external perception where familiar physical surroundings feel strange, artificial, two-dimensional, or dreamlike.",
+  },
+  {
+    question: "A middle-aged client experiences sudden unexpected surges of intense terror, accompanied by palpitations, smothering sensations, trembling, and fear of impending death. This is:",
+    optionA: "Generalized anxiety disorder",
+    optionB: "Panic attack (panic disorder)",
+    optionC: "Major depression",
+    optionD: "Malingering",
+    correctAnswer: "B",
+    explanation: "Panic attacks are discrete episodes of abrupt intense autonomic fear that peak within minutes, producing severe cardiopulmonary symptoms.",
+  },
+  {
+    question: "In psychiatric rehabilitation, the neurological symptom of 'Echopraxia' is characterized by:",
+    optionA: "Involuntary repetition or mimicking of the speech of another person",
+    optionB: "Involuntary mechanical imitation or mimicking of the physical movements and gestures of another person",
+    optionC: "Inability to swallow food",
+    optionD: "Loss of voluntary muscle tone",
+    correctAnswer: "B",
+    explanation: "Echopraxia is the pathological automatic copying of another person's bodily movements, frequently observed in catatonic schizophrenia.",
+  },
+  {
+    question: "Electroconvulsive Therapy (ECT) demonstrates the highest clinical efficacy and most rapid therapeutic response in which psychiatric condition?",
+    optionA: "Obsessive-compulsive disorder",
+    optionB: "Severe, treatment-resistant major depression with high acute suicide risk or catatonic exhaustion",
+    optionC: "Borderline personality disorder",
+    optionD: "Chronic generalized anxiety",
+    correctAnswer: "B",
+    explanation: "ECT produces rapid remission in up to 80-90% of severe medication-refractory depressive episodes, making it life-saving for actively suicidal patients.",
+  },
+  {
+    question: "Which somatic symptom disorder is characterized by a persistent, distressing preoccupation with the unfounded belief that one has a serious undiagnosed medical illness?",
+    optionA: "Conversion disorder",
+    optionB: "Hypochondriasis (Illness Anxiety Disorder)",
+    optionC: "Factitious disorder",
+    optionD: "Body dysmorphic disorder",
+    correctAnswer: "B",
+    explanation: "Illness anxiety disorder involves excessive anxiety and hypervigilance regarding personal health despite reassuring physical and laboratory evaluations.",
+  },
+  {
+    question: "A combat veteran experiences recurrent intrusive flashbacks, distressing nightmares, hypervigilance, and exaggerated startle responses following a traumatic ambush. This is:",
+    optionA: "Adjustment disorder",
+    optionB: "Post-Traumatic Stress Disorder (PTSD)",
+    optionC: "Bipolar affective disorder",
+    optionD: "Panic disorder",
+    correctAnswer: "B",
+    explanation: "PTSD develops after exposure to actual or threatened death, characterized by intrusive memories, avoidance of trauma cues, negative mood, and autonomic hyperarousal.",
+  },
+  {
+    question: "In Elisabeth K\u00fcbler-Ross's stages of grieving, the stage characterized by intense resentment, irritability, and envious questioning of 'Why me?' is:",
+    optionA: "Denial",
+    optionB: "Anger",
+    optionC: "Bargaining",
+    optionD: "Depression",
+    correctAnswer: "B",
+    explanation: "The anger stage projects feelings of helplessness onto family, nursing staff, or God as the individual confronts the reality of loss.",
+  },
+  {
+    question: "Somnambulism is a parasomnia disorder occurring during non-REM slow-wave sleep, commonly known as:",
+    optionA: "Night terrors",
+    optionB: "Sleep walking",
+    optionC: "Sleep talking",
+    optionD: "Restless legs",
+    correctAnswer: "B",
+    explanation: "Somnambulism involves complex motor behaviors initiated during stage N3 deep sleep, classically manifesting as ambulating while asleep with amnesia for the event.",
+  },
+  {
+    question: "In a client with severe atrial fibrillation, the peripheral pulse is classically documented as:",
+    optionA: "Slow and regular",
+    optionB: "Irregularly irregular in rhythm with variable pulse volume",
+    optionC: "Bounding and water-hammer",
+    optionD: "Pulsus alternans",
+    correctAnswer: "B",
+    explanation: "Disorganized atrial electrical activity bombards the AV node unpredictably, producing chaotic ventricular depolarization and an irregularly irregular pulse.",
+  },
+  {
+    question: "Unidirectional valves that prevent retrograde pooling of blood under hydrostatic pressure are structurally present in:",
+    optionA: "Arteries and arterioles",
+    optionB: "Veins and lymphatics",
+    optionC: "Capillaries",
+    optionD: "Capillary beds",
+    correctAnswer: "B",
+    explanation: "Veins (particularly in the lower extremities) and lymphatic collecting vessels possess bicuspid semilunar valves to support centripetal fluid return.",
+  },
+  {
+    question: "Which cell surface receptor on human CD4+ T-helper lymphocytes is targeted by the gp120 glycoprotein of the Human Immunodeficiency Virus (HIV)?",
+    optionA: "CD8 receptor",
+    optionB: "CD4 receptor (along with CCR5 or CXCR4 co-receptors)",
+    optionC: "CD19 receptor",
+    optionD: "CD56 receptor",
+    correctAnswer: "B",
+    explanation: "HIV binds specifically to the CD4 molecule on helper T-cells and macrophages, mediating viral entry, fusion, and progressive immune depletion.",
+  },
+  {
+    question: "The leading infectious cause of retinal necrosis and opportunistic blindness in AIDS clients with CD4 counts below 50 cells/uL is:",
+    optionA: "Toxoplasma gondii",
+    optionB: "Cytomegalovirus (CMV) retinitis",
+    optionC: "Herpes simplex type 1",
+    optionD: "Candida albicans",
+    correctAnswer: "B",
+    explanation: "CMV retinitis presents with painless visual loss, floaters, and full-thickness necrotizing retinal whitening with hemorrhages in advanced immunosuppression.",
+  },
+  {
+    question: "Which immunoglobulin isotype exists predominantly as a pentamer linked by a J-chain, functioning efficiently in complement activation?",
+    optionA: "Immunoglobulin G (IgG)",
+    optionB: "Immunoglobulin M (IgM)",
+    optionC: "Immunoglobulin A (IgA)",
+    optionD: "Immunoglobulin E (IgE)",
+    correctAnswer: "B",
+    explanation: "IgM has a high molecular weight pentameric structure that provides 10 antigen-binding sites, making it potent at agglutinating microbes.",
+  },
+  {
+    question: "Which of the following is considered an innate physiological barrier preventing microbial invasion through the digestive tract?",
+    optionA: "Circulating plasma IgG",
+    optionB: "Gastric hydrochloric acid (pH 1.5 to 2.0)",
+    optionC: "Memory T-lymphocytes",
+    optionD: "Antibiotics",
+    correctAnswer: "B",
+    explanation: "Gastric acid is a non-specific chemical barrier that sterilizes swallowed food by denaturing and destroying ingested bacteria.",
+  },
+  {
+    question: "Antibodies acquired by a newborn infant from the mother via transplacental transfer and colostrum are classified as:",
+    optionA: "Active artificial immunity",
+    optionB: "Passive natural immunity",
+    optionC: "Active natural immunity",
+    optionD: "Passive artificial immunity",
+    correctAnswer: "B",
+    explanation: "Passive natural immunity involves preformed maternal antibodies (IgG and IgA) passed to the offspring without the infant's own immune system generating them.",
+  },
+  {
+    question: "In normal cardiac blood flow, which sequential order of heart valves does a drop of blood pass through starting from the right atrium?",
+    optionA: "Aortic, mitral, pulmonary, tricuspid",
+    optionB: "Tricuspid valve, Pulmonary valve, Mitral (bicuspid) valve, Aortic valve",
+    optionC: "Mitral, pulmonary, tricuspid, aortic",
+    optionD: "Pulmonary, tricuspid, aortic, mitral",
+    correctAnswer: "B",
+    explanation: "Blood flows through the tricuspid valve into the right ventricle, through the pulmonary valve to lungs, returns through mitral valve to left ventricle, and leaves through aortic valve.",
+  },
+  {
+    question: "Under the Nigerian National Health Policy, which tier of government is primarily responsible for the overall formulation of national health policies and standards?",
+    optionA: "Ward Development Committee",
+    optionB: "Federal Government (Federal Ministry of Health)",
+    optionC: "Local Government Health Authority",
+    optionD: "Community Town Union",
+    correctAnswer: "B",
+    explanation: "The Federal Ministry of Health formulates national health policies, oversees tertiary institutions, and coordinates international health partnerships.",
+  },
 ];

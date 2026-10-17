@@ -8,7 +8,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Applying pneumatic compression devices to the legs",
     optionD: "Applying suction to the endotracheal tube",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with pericarditis has inflammation of the pericardium, the sac that surrounds the heart. The nurse auscultates the patient's heart sounds and detects a pericardial friction rub, a high-pitched grating sound that is best heard at the left lower sternal border. What is another sign or symptom of pericarditis that the nurse should assess for?",
@@ -17,7 +17,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Chest pain that worsens with inspiration or coughing",
     optionD: "Chest pain that is accompanied by palpitations.",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of hypertension and diabetes mellitus is admitted to the hospital with a diagnosis of acute myocardial infarction (AMI). The nurse should monitor the patient for which of the following complications?",
@@ -26,7 +26,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Ventricular fibrillation",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with AMI is receiving thrombolytic therapy with streptokinase. The nurse should assess the patient for which of the following signs of bleeding?",
@@ -35,7 +35,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Ecchymosis",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with AMI is prescribed aspirin 325 mg daily. The nurse should explain to the patient that the purpose of this medication is to:",
@@ -44,7 +44,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Relieve pain",
     optionD: "Lower blood pressure",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with AMI is prescribed nitroglycerin sublingual tablets. The nurse should instruct the patient to take one tablet every 5 minutes for up to three doses if he experiences:",
@@ -53,7 +53,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Palpitations",
     optionD: "Dizziness",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with AMI is prescribed beta-blockers. The nurse should monitor the patient for which of the following adverse effects of this medication?",
@@ -62,7 +62,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Bronchospasm",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with AMI is prescribed angiotensin-converting enzyme (ACE) inhibitors. The nurse should monitor the patient for which of the following adverse effects of this medication?",
@@ -71,7 +71,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Angioedema",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with AMI is prescribed statins. The nurse should monitor the patient for which of the following adverse effects of this medication?",
@@ -80,7 +80,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Rhabdomyolysis",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with AMI is prescribed calcium channel blockers. The nurse should monitor the patient for which of the following adverse effects of this medication?",
@@ -89,7 +89,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Gingival hyperplasia",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with AMI is prescribed antiarrhythmic drugs. The nurse should monitor the patient for which of the following adverse effects of this medication?",
@@ -98,7 +98,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Proarrhythmia",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with AMI is prescribed anticoagulant drugs. The nurse should monitor the patient for which of the following adverse effects of this medication?",
@@ -107,7 +107,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Heparin-induced thrombocytopenia (HIT)",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with AMI is scheduled for coronary angiography. The nurse should prepare the patient for this procedure by:",
@@ -116,7 +116,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Checking for allergies to iodine, shellfish, or contrast media",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with AMI undergoes percutaneous coronary intervention (PCI). The nurse should care for the patient after this procedure by:",
@@ -125,7 +125,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Maintaining bed rest and keeping the affected limb straight and immobilized",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "Which of the following is a common sign of iron deficiency anaemia?",
@@ -134,7 +134,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Petechiae",
     optionD: "Cyanosis",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the most common type of leukaemia in adults?",
@@ -143,7 +143,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Chronic lymphocytic leukaemia (CLL)",
     optionD: "Chronic myeloid leukaemia (CML)",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with haemophilia A has a bleeding episode after a minor trauma. What is the best nursing intervention to stop the bleeding?",
@@ -152,7 +152,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Administer factor VIII concentrate",
     optionD: "Administer vitamin K",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient is receiving a blood transfusion of packed red blood cells. What is the most important nursing action to prevent a transfusion reaction?",
@@ -161,7 +161,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Infuse the blood slowly and monitor for signs of fluid overload",
     optionD: "Premedicate the patient with antihistamines and corticosteroids",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "Which of the following is a potential complication of multiple blood transfusions in patients with chronic haematological disorders?",
@@ -170,7 +170,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Iron overload",
     optionD: "Thrombocytopenia",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with sickle cell anaemia has a vaso-occlusive crisis that affects the lungs. What is the name of this condition?",
@@ -179,7 +179,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Pneumonia",
     optionD: "Respiratory acidosis",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with chronic myeloid leukaemia is prescribed imatinib, a tyrosine kinase inhibitor. What is the main mechanism of action of this drug?",
@@ -188,7 +188,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "It enhances the immune system to fight leukaemic cells",
     optionD: "It induces apoptosis of leukaemic cells",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with aplastic anaemia has pancytopenia, which means a deficiency of all blood cells. What are the main clinical manifestations of pancytopenia?",
@@ -197,7 +197,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Bleeding, bruising and petechiae",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with haemophilia B has a deficiency of factor IX. What is another name for this condition?",
@@ -206,7 +206,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Bernard-Soulier syndrome",
     optionD: "Glanzmann thrombasthenia",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with pernicious anaemia has a deficiency of vitamin B12 due to a lack of intrinsic factor in the stomach. What is the best route of administration for vitamin B12 replacement therapy?",
@@ -215,7 +215,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Intramuscular",
     optionD: "Intravenous",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with sickle cell anemia is admitted to the hospital with a vaso-occlusive crisis. Which of the following interventions is most appropriate for this patient?",
@@ -224,7 +224,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Apply warm compresses to the affected areas and avoid cold exposure",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A nurse is caring for a patient who has hemophilia A and is bleeding from a minor laceration on his arm. Which of the following medications should the nurse anticipate to administer to this patient?",
@@ -233,7 +233,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Factor VIII concentrate",
     optionD: "Platelet transfusion",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with iron deficiency anemia is prescribed oral ferrous sulfate tablets. What should the nurse instruct the patient to do to enhance the absorption of this medication?",
@@ -242,7 +242,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Take it with food and water",
     optionD: "Take it with a multivitamin supplement",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A nurse is reviewing the laboratory results of a patient who has pernicious anemia. Which of the following findings is most likely to be present in this patient?",
@@ -251,7 +251,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Decreased mean corpuscular volume (MCV)",
     optionD: "Increased reticulocyte count",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "Which of the following is a common sign of iron deficiency anemia?",
@@ -260,7 +260,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Petechiae",
     optionD: "Cyanosis",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with hemophilia A has a bleeding episode after a minor trauma. What is the priority nursing intervention for this patient?",
@@ -269,7 +269,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Monitor vital signs and hemoglobin level",
     optionD: "Educate the patient about injury prevention",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with acute lymphocytic leukemia (ALL) is receiving chemotherapy and is at risk for infection. What is the most appropriate nursing action to reduce this risk?",
@@ -278,7 +278,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Allow the patient to have visitors as long as they wear masks",
     optionD: "Administer prophylactic antibiotics as prescribed",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with Hodgkin's lymphoma is scheduled for a lymph node biopsy. What is the purpose of this procedure?",
@@ -287,7 +287,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "To determine the presence of Reed-Sternberg cells",
     optionD: "To evaluate the extent of lymph node involvement",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with sickle cell disease has a vaso-occlusive crisis and reports severe pain in the chest, abdomen, and joints. What is the best nursing intervention for this patient?",
@@ -296,7 +296,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Perform passive range of motion exercises",
     optionD: "Give morphine sulfate intravenously as prescribed",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with polycythemia vera has a hematocrit of 65% and complains of headache, dizziness, and blurred vision. What is the most likely cause of these symptoms?",
@@ -305,7 +305,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Hypercoagulability of blood",
     optionD: "Hypoglycemia of blood",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with sickle cell anemia is admitted to the hospital with a vaso-occlusive crisis. The nurse should monitor the patient for which of the following complications?",
@@ -314,7 +314,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Aplastic crisis",
     optionD: "Splenic sequestration",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with hemophilia A has a bleeding episode after a minor trauma. The nurse should administer which of the following medications to the patient?",
@@ -323,7 +323,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Factor VIII concentrate",
     optionD: "Protamine sulfate",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with iron deficiency anemia is prescribed oral ferrous sulfate. The nurse should instruct the patient to take the medication with which of the following to enhance absorption?",
@@ -332,7 +332,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Orange juice",
     optionD: "Coffee",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with polycythemia vera is at risk for developing thrombosis. The nurse should teach the patient to avoid which of the following activities?",
@@ -341,7 +341,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Exercising",
     optionD: "Elevating the legs",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with leukemia is receiving chemotherapy and develops neutropenia. The nurse should implement which of the following interventions to prevent infection?",
@@ -350,7 +350,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Encourage the patient to eat raw fruits and vegetables",
     optionD: "Limit visitors and screen them for signs of illness",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "Which of the following is a common cause of acute kidney injury (AKI)?",
@@ -359,7 +359,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Nephrotoxic drugs",
     optionD: "Renal calculi",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with chronic kidney disease (CKD) has a serum creatinine level of 3.5 mg/dL. What is the estimated glomerular filtration rate (eGFR) for this patient?",
@@ -368,7 +368,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "45 mL/min/1.73 m2",
     optionD: "60 mL/min/1.73 m2",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with end-stage renal disease (ESRD) is undergoing hemodialysis three times a week. Which of the following dietary modifications is most appropriate for this patient?",
@@ -377,7 +377,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "High protein, high potassium, high phosphorus, low sodium",
     optionD: "Low protein, low potassium, low phosphorus, low sodium",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with nephrotic syndrome has edema, proteinuria, hypoalbuminemia, and hyperlipidemia. What is the pathophysiology behind these manifestations?",
@@ -386,7 +386,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Increased glomerular permeability to proteins leads to loss of albumin and other plasma proteins in the urine, resulting in increased oncotic pressure and fluid retention in the intravascular spaces. The liver compensates by decreasing the synthesis of lipoproteins and albumin.",
     optionD: "Decreased glomerular permeability to proteins leads to accumulation of albumin and other plasma proteins in the blood, resulting in decreased oncotic pressure and fluid retention in the interstitial spaces. The liver compensates by increasing the synthesis of lipoproteins and albumin.",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with glomerulonephritis has hematuria, oliguria, azotemia, and hypertension. What is the most likely diagnosis for this patient?",
@@ -395,7 +395,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "IgA nephropathy (Berger's disease)",
     optionD: "Membranous nephropathy",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with polycystic kidney disease (PKD) has flank pain, hematuria, hypertension, and renal insufficiency. What is the best treatment option for this patient?",
@@ -404,7 +404,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Analgesics",
     optionD: "Renal transplantation",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with pyelonephritis has fever, chills, flank pain, nausea, vomiting, dysuria, frequency, and urgency. What is the most common causative organism for this condition?",
@@ -413,7 +413,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Klebsiella pneumoniae",
     optionD: "Proteus mirabilis",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with renal calculi has severe colicky pain radiating from the flank to the groin, hematuria, nausea, vomiting, and diaphoresis. What is the most common type of renal calculi?",
@@ -422,7 +422,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Struvite",
     optionD: "Cystine",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with urinary tract infection (UTI) has dysuria, frequency, urgency, suprapubic pain, and cloudy urine. What is the most effective way to prevent UTIs?",
@@ -431,7 +431,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Avoid using spermicidal products or diaphragms for contraception",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with bladder cancer has painless gross hematuria, frequency, urgency, dysuria, and pelvic pain. What is the most common type of bladder cancer?",
@@ -440,7 +440,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Adenocarcinoma",
     optionD: "Small cell carcinoma",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with benign prostatic hyperplasia (BPH) has urinary hesitancy, weak stream, intermittency, incomplete emptying, frequency, urgency, nocturia, and dribbling. What is the most common complication of BPH?",
@@ -449,7 +449,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Urinary tract infection",
     optionD: "Renal failure",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with prostate cancer has no symptoms in the early stage, but may develop bone pain, weight loss, anemia, and elevated prostate-specific antigen (PSA) level in the advanced stage. What is the most common site of metastasis for prostate cancer?",
@@ -458,7 +458,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Brain",
     optionD: "Bone",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with testicular cancer has a painless lump or swelling in the testicle, scrotal heaviness or discomfort, lower abdominal or back pain, and gynecomastia. What is the most common type of testicular cancer?",
@@ -467,7 +467,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Leydig cell tumor",
     optionD: "Sertoli cell tumor",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with erectile dysfunction (ED) has difficulty achieving or maintaining an erection sufficient for satisfactory sexual performance. What are some of the possible causes of ED?",
@@ -476,7 +476,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Smoking",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with priapism has a prolonged and painful erection that is not related to sexual stimulation or desire. What is the most common cause of priapism?",
@@ -485,7 +485,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Spinal cord injury",
     optionD: "Penile trauma",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with hydrocele has a painless swelling of the scrotum caused by a collection of fluid in the tunica vaginalis. What is the best way to diagnose hydrocele?",
@@ -494,7 +494,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Transillumination",
     optionD: "Biopsy",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with varicocele has a dull ache or heaviness in the scrotum caused by a dilation of the pampiniform venous plexus. What is the most common complication of varicocele?",
@@ -503,7 +503,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Hemorrhage",
     optionD: "Torsion",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with epididymitis has scrotal pain, swelling, redness, and tenderness, as well as fever, chills, dysuria, frequency, and urethral discharge. What is the most common causative organism for this condition?",
@@ -512,7 +512,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Mycobacterium tuberculosis",
     optionD: "Escherichia coli",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with orchitis has testicular pain, swelling, redness, and tenderness, as well as fever, chills, nausea, vomiting, and malaise. What is the most common cause of orchitis?",
@@ -521,7 +521,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Herpes simplex virus",
     optionD: "Candida albicans fungus",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with testicular torsion has sudden and severe testicular pain, swelling, redness, and tenderness, as well as nausea, vomiting, and abdominal pain. What is the most urgent intervention for this condition?",
@@ -530,16 +530,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Surgery",
     optionD: "Ice pack",
     correctAnswer: "C",
-    explanation: ""
-  },
-  {
-    question: "Which of the following is a common cause of acute kidney injury (AKI)?",
-    optionA: "Diabetes mellitus",
-    optionB: "Hypertension",
-    optionC: "Nephrotoxic drugs",
-    optionD: "Urinary tract infection",
-    correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the most reliable indicator of kidney function?",
@@ -548,7 +539,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Serum creatinine",
     optionD: "Urine output",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with chronic kidney disease (CKD) has a glomerular filtration rate (GFR) of 15 mL/min. What stage of CKD is this?",
@@ -557,7 +548,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Stage 3",
     optionD: "Stage 4",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with end-stage renal disease (ESRD) is undergoing hemodialysis. What are some potential complications of hemodialysis?",
@@ -566,7 +557,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Hypocalcemia, osteoporosis, bleeding",
     optionD: "Hyperphosphatemia, pruritus, metabolic acidosis",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with ESRD is receiving peritoneal dialysis. What are some advantages of peritoneal dialysis over hemodialysis?",
@@ -575,7 +566,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Less cardiovascular stress, better preservation of residual renal function, greater independence",
     optionD: "Less blood loss, lower anticoagulant requirement, better glucose control",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with ESRD is a candidate for kidney transplantation. What are some contraindications for kidney transplantation?",
@@ -584,7 +575,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Hepatitis B, hepatitis C, human immunodeficiency virus (HIV)",
     optionD: "Obesity, smoking, advanced age",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient has received a kidney transplant from a deceased donor. What are some signs of acute rejection of the transplanted kidney?",
@@ -593,7 +584,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Hematuria, proteinuria, increased creatinine",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a kidney transplant is taking immunosuppressive drugs to prevent rejection. What are some common adverse effects of these drugs?",
@@ -602,7 +593,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Hyperlipidemia, hypertension, nephrotoxicity",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient has nephrotic syndrome characterized by massive proteinuria and edema. What are some nursing interventions for this patient?",
@@ -611,7 +602,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Provide high-calorie and low-fat diet, monitor serum albumin and cholesterol levels, administer angiotensin-converting enzyme (ACE) inhibitors and statins as prescribed",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient has glomerulonephritis characterized by hematuria and azotemia. What are some possible causes of glomerulonephritis?",
@@ -620,7 +611,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Diabetes mellitus, hypertension, atherosclerosis",
     optionD: "None of the above",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with chronic obstructive pulmonary disease (COPD) is admitted to the hospital with an acute exacerbation. The nurse should monitor the patient for which of the following complications?",
@@ -629,7 +620,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Metabolic acidosis",
     optionD: "Metabolic alkalosis",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with diabetes mellitus is scheduled for a hemoglobin A1c test. The nurse explains to the patient that this test measures:",
@@ -638,7 +629,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "The amount of glycosylated hemoglobin in the blood",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with hypertension is prescribed a beta-blocker medication. The nurse should teach the patient to report which of the following side effects to the health care provider?",
@@ -647,7 +638,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Hypertension",
     optionD: "Hypotension",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of myocardial infarction (MI) is admitted to the cardiac unit with chest pain. The nurse should administer which of the following medications first?",
@@ -656,7 +647,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Morphine",
     optionD: "Oxygen",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a peptic ulcer is prescribed ranitidine, an H2-receptor antagonist. The nurse should instruct the patient to take this medication:",
@@ -665,7 +656,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "After meals",
     optionD: "At bedtime",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a urinary tract infection (UTI) is prescribed ciprofloxacin, a fluoroquinolone antibiotic. The nurse should advise the patient to avoid which of the following while taking this medication?",
@@ -674,7 +665,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Alcohol",
     optionD: "Grapefruit juice",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with rheumatoid arthritis is prescribed methotrexate, a disease-modifying antirheumatic drug (DMARD). The nurse should monitor the patient for which of the following adverse effects of this medication?",
@@ -683,7 +674,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Nephrotoxicity",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with osteoporosis is prescribed alendronate, a bisphosphonate medication. The nurse should teach the patient to take this medication:",
@@ -692,7 +683,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "In an upright position",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with glaucoma is prescribed timolol, a beta-blocker eye drop. The nurse should instruct the patient to perform which of the following actions after instilling the eye drop?",
@@ -701,7 +692,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Apply gentle pressure to the inner canthus",
     optionD: "All of the above",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with Parkinson's disease is prescribed levodopa/carbidopa, a dopaminergic medication. The nurse should inform the patient that this medication may cause which of the following side effects?",
@@ -710,7 +701,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Dyskinesia",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of deep vein thrombosis (DVT) is prescribed warfarin, an anticoagulant medication. The nurse should monitor the patient's:",
@@ -719,7 +710,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "International normalized ratio (INR)",
     optionD: "Blood glucose level",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a thyroidectomy is at risk for developing hypocalcemia due to damage to the parathyroid glands. The nurse should assess the patient for which of the following signs of hypocalcemia?",
@@ -728,7 +719,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Trousseau's sign",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a fracture of the femur is placed in traction. The nurse should perform which of the following interventions to prevent complications of traction?",
@@ -737,7 +728,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Ensure that the weights are hanging freely and not touching the floor",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a burn injury is at risk for developing infection. The nurse should implement which of the following measures to prevent infection in a burn patient?",
@@ -746,7 +737,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Monitor the wound for signs of infection such as purulent drainage or increased pain",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a stroke is admitted to the neurological unit. The nurse should perform which of the following assessments to determine the extent of neurological damage?",
@@ -755,7 +746,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "National Institutes of Health stroke scale (NIHSS)",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a spinal cord injury is experiencing autonomic dysreflexia, a life-threatening condition characterized by severe hypertension, bradycardia, headache, and diaphoresis. The nurse should perform which of the following actions first?",
@@ -764,7 +755,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Administer antihypertensive medication as prescribed",
     optionD: "Notify the health care provider immediately",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with liver cirrhosis is prescribed lactulose, a laxative that lowers ammonia levels in the blood. The nurse should evaluate the effectiveness of this medication by monitoring which of the following parameters?",
@@ -773,7 +764,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Serum bilirubin level",
     optionD: "Serum creatinine level",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with anemia is prescribed iron supplements. The nurse should teach the patient to take this medication:",
@@ -782,7 +773,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "With a straw to prevent staining of the teeth",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "Which of the following is a common complication of abdominal surgery?",
@@ -791,7 +782,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Hyperglycemia",
     optionD: "Hypokalemia",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with chronic obstructive pulmonary disease (COPD) is admitted to the hospital with acute respiratory failure. The nurse should monitor the patient for which of the following signs of respiratory acidosis?",
@@ -800,7 +791,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Muscle twitching",
     optionD: "Kussmaul breathing",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with diabetes mellitus is scheduled for a hemoglobin A1c test. The nurse explains that this test measures which of the following?",
@@ -809,7 +800,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "The amount of glucose attached to hemoglobin molecules",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of myocardial infarction (MI) is prescribed aspirin 81 mg daily. The nurse knows that the main purpose of this medication is to:",
@@ -818,7 +809,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Lower blood pressure and decrease cardiac workload",
     optionD: "Dilate coronary arteries and improve blood flow",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with chronic kidney disease (CKD) is receiving hemodialysis three times a week. The nurse should instruct the patient to avoid which of the following foods?",
@@ -827,7 +818,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Rice",
     optionD: "Bread",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a fractured femur is placed in skeletal traction. The nurse should perform which of the following interventions to prevent complications?",
@@ -836,7 +827,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Check the alignment and position of the weights and pulleys",
     optionD: "Encourage active range of motion exercises of the affected leg",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of seizures is prescribed phenytoin (Dilantin). The nurse should monitor the patient for which of the following adverse effects of this medication?",
@@ -845,7 +836,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Nephrotoxicity",
     optionD: "Hepatitis",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of myocardial infarction is admitted to the hospital with chest pain and shortness of breath. The nurse suspects that the patient is experiencing another MI. Which of the following actions should the nurse take first?",
@@ -854,7 +845,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Give sublingual nitroglycerin",
     optionD: "Draw blood for cardiac enzymes",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with chronic obstructive pulmonary disease (COPD) is prescribed albuterol inhaler for bronchodilation. The nurse instructs the patient on how to use the inhaler correctly. Which of the following statements by the patient indicates a need for further teaching?",
@@ -863,7 +854,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "\"I should wait at least 1 minute between each puff.\"",
     optionD: "\"I should rinse my mouth with water after using the inhaler.\"",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with ulcerative colitis is scheduled for a total colectomy with ileostomy. The nurse provides preoperative teaching to the patient about stoma care and ostomy appliances. Which of the following statements by the patient indicates a correct understanding of the teaching?",
@@ -872,16 +863,16 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "\"I will need to irrigate my stoma with water every morning.\"",
     optionD: "\"I will need to avoid foods that cause gas and odor.\"",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with end-stage renal disease (ESRD) is undergoing hemodialysis three times a week. The nurse monitors the patient for potential complications during dialysis. Which of the following findings should alert the nurse to a possible complication?",
     optionA: "Blood pressure of 150/90 mmHg",
     optionB: "Heart rate of 100 beats per minute",
-    optionC: "Temperature of 37.2°C (99°F)",
+    optionC: "Temperature of 37.2\u00b0C (99\u00b0F)",
     optionD: "Weight gain of 2 kg (4.4 lb)",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with type 1 diabetes mellitus is admitted to the hospital with diabetic ketoacidosis (DKA). The nurse administers intravenous insulin infusion as ordered by the physician. Which of the following laboratory values should the nurse monitor closely during insulin therapy?",
@@ -890,7 +881,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Serum potassium level",
     optionD: "Serum sodium level",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of hypertension and angina pectoris is prescribed metoprolol, a beta-blocker, for blood pressure control and prevention of anginal attacks. The nurse teaches the patient about the medication and its side effects. Which of the following instructions should the nurse include in the teaching?",
@@ -899,7 +890,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "\"You should report any weight gain or swelling in your ankles to your doctor.\"",
     optionD: "\"You should stop taking metoprolol if you experience dizziness or fatigue.\"",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of asthma is admitted to the hospital with an acute exacerbation of asthma. The nurse assesses the patient's respiratory status and administers bronchodilators as ordered by the physician. Which of the following assessment findings indicates that the patient's condition is improving?",
@@ -908,7 +899,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Decreased respiratory rate",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of peptic ulcer disease is prescribed ranitidine, an H2-receptor antagonist, for ulcer healing and prevention of recurrence. The nurse teaches the patient about the medication and its administration. Which of the following statements by the patient indicates a correct understanding of the teaching?",
@@ -917,7 +908,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "\"I should take ranitidine with antacids for better effect.\"",
     optionD: "\"I should take ranitidine as needed for pain relief.\"",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of chronic kidney disease (CKD) is prescribed erythropoietin, a synthetic hormone that stimulates red blood cell production, for the treatment of anemia. The nurse teaches the patient about the medication and its administration. Which of the following instructions should the nurse include in the teaching?",
@@ -926,7 +917,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "\"You should report any signs of bleeding or bruising to your doctor.\"",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of type 2 diabetes mellitus is prescribed metformin, an oral antidiabetic agent, for blood glucose control. The nurse teaches the patient about the medication and its side effects. Which of the following instructions should the nurse include in the teaching?",
@@ -935,7 +926,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "\"You should report any symptoms of lactic acidosis, such as muscle pain, weakness, or trouble breathing, to your doctor.\"",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of heart failure is prescribed digoxin, a cardiac glycoside, for improving cardiac output and reducing symptoms of dyspnea and fatigue. The nurse teaches the patient about the medication and its side effects. Which of the following instructions should the nurse include in the teaching?",
@@ -944,7 +935,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "\"You should avoid eating foods high in potassium, such as bananas, oranges, or potatoes, while taking digoxin.\"",
     optionD: "Both A and B",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of chronic bronchitis is prescribed glycolytic for liquefying and facilitating expectoration of thick mucus. The nurse teaches the patient about the medication and its administration. Which of the following instructions should the nurse include in the teaching?",
@@ -953,7 +944,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "\"You should cough up and spit out the mucus after taking mucolytics.\"",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of rheumatoid arthritis is prescribed methotrexate, a disease-modifying antirheumatic drug (DMARD), for reducing inflammation and joint damage. The nurse teaches the patient about the medication and its side effects. Which of the following instructions should the nurse include in the teaching?",
@@ -962,7 +953,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "\"You should have regular blood tests to monitor your liver and kidney function while taking methotrexate.\"",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of hypertension and dyslipidemia is prescribed atorvastatin, a statin, for lowering cholesterol and preventing cardiovascular events. The nurse teaches the patient about the medication and its side effects. Which of the following instructions should the nurse include in the teaching?",
@@ -971,7 +962,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "\"You should have regular blood tests to monitor your liver function and cholesterol levels while taking atorvastatin.\"",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of osteoporosis is prescribed alendronate, a bisphosphonate, for increasing bone density and preventing fractures. The nurse teaches the patient about the medication and its administration. Which of the following instructions should the nurse include in the teaching?",
@@ -980,7 +971,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "\"You should avoid taking calcium supplements or antacids within 2 hours of taking alendronate.\"",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of diabetes mellitus has a chronic ulcer on the left foot. The nurse assesses the wound and observes signs of infection, such as purulent drainage, erythema, and increased pain. Which of the following actions should the nurse take first?",
@@ -989,7 +980,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Obtain a wound culture",
     optionD: "Notify the physician",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of tuberculosis is admitted to the hospital with fever, cough, and hemoptysis. The nurse implements airborne precautions for the patient to prevent transmission of infection. Which of the following interventions is part of airborne precautions?",
@@ -998,7 +989,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Limit visitors and instruct them to wear a mask and gown",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of chronic low back pain is prescribed morphine sulfate, an opioid analgesic, for pain relief. The nurse teaches the patient about the medication and its side effects. Which of the following instructions should the nurse include in the teaching?",
@@ -1007,7 +998,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "\"You should increase your fluid and fiber intake to prevent constipation.\"",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of appendicitis is scheduled for an appendectomy. The nurse provides preoperative teaching to the patient about what to expect before, during, and after surgery. Which of the following statements by the patient indicates a correct understanding of the teaching?",
@@ -1016,7 +1007,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "\"I will have a nasogastric tube inserted after surgery to decompress my stomach.\"",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of cholecystitis is admitted to the hospital with acute abdominal pain, nausea, and vomiting. The nurse suspects that the patient has gallstones obstructing the bile ducts. Which of the following laboratory tests should the nurse monitor to confirm this diagnosis?",
@@ -1025,7 +1016,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Serum calcium and phosphorus levels",
     optionD: "Serum creatinine and blood urea nitrogen (BUN) levels",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of coronary artery disease (CAD) is prescribed aspirin, an antiplatelet agent, for preventing thrombosis and reducing the risk of myocardial infarction (MI). The nurse teaches the patient about the medication and its side effects. Which of the following instructions should the nurse include in the teaching?",
@@ -1034,7 +1025,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "\"You should avoid taking nonsteroidal anti-inflammatory drugs (NSAIDs), such as ibuprofen or naproxen, while taking aspirin.\"",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the term for the surgical removal of the uterus?",
@@ -1043,7 +1034,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Salpingectomy",
     optionD: "Colposcopy",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the hormone that stimulates ovulation in females?",
@@ -1052,7 +1043,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Estrogen",
     optionD: "Progesterone",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the most common method of contraception in the world?",
@@ -1061,7 +1052,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Intrauterine devices (IUDs)",
     optionD: "Sterilization",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the term for the first menstrual period in a female?",
@@ -1070,7 +1061,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Menstruation",
     optionD: "Dysmenorrhea",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the procedure that involves inserting a thin tube with a camera into the uterus to examine its lining?",
@@ -1079,7 +1070,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Endoscopy",
     optionD: "Colposcopy",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the term for the condition in which a fertilized egg implants outside the uterus, usually in a fallopian tube?",
@@ -1088,7 +1079,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Placenta previa",
     optionD: "Pre-eclampsia",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the surgical procedure that involves cutting and tying the vas deferens in males to prevent sperm from reaching the semen?",
@@ -1097,7 +1088,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Prostatectomy",
     optionD: "Orchidectomy",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the term for the absence of menstrual periods for at least 12 consecutive months in a female who is not pregnant, breastfeeding, or taking hormonal medications?",
@@ -1106,7 +1097,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Dysmenorrhea",
     optionD: "Menopause",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the infection caused by the human immunodeficiency virus (HIV), which attacks and destroys the immune system and can lead to acquired immunodeficiency syndrome (AIDS)?",
@@ -1115,7 +1106,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Chlamydia trachomatis (CT)",
     optionD: "Human immunodeficiency virus (HIV)",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the term for the surgical delivery of a baby through an incision in the abdomen and uterus?",
@@ -1124,7 +1115,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Episiotomy",
     optionD: "Forceps delivery",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the term used to describe the ability of a couple to have children when they want to?",
@@ -1133,7 +1124,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Sterility",
     optionD: "Contraception",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the surgical procedure that involves cutting and tying the fallopian tubes to prevent pregnancy?",
@@ -1142,7 +1133,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Vasectomy",
     optionD: "Laparoscopy",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the most common method of contraception used worldwide?",
@@ -1151,7 +1142,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Intrauterine devices (IUDs)",
     optionD: "Sterilization",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the hormone that is released by the pituitary gland and stimulates ovulation in females?",
@@ -1160,7 +1151,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Estrogen",
     optionD: "Progesterone",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the process that involves the fusion of a sperm and an egg to form a zygote?",
@@ -1169,7 +1160,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Cleavage",
     optionD: "Gastrulation",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the condition that occurs when a fertilized egg implants outside the uterus, usually in a fallopian tube?",
@@ -1178,7 +1169,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Preeclampsia",
     optionD: "Gestational diabetes",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "Which of the following is not a component of reproductive health according to the World Health Organization (WHO)?",
@@ -1187,7 +1178,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Sexually transmitted infections (STIs)",
     optionD: "Infertility",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the term used to describe the ability of individuals and couples to decide freely and responsibly the number, spacing and timing of their children?",
@@ -1196,7 +1187,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Reproductive justice",
     optionD: "Reproductive freedom",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "Which of the following is a common cause of maternal mortality in developing countries?",
@@ -1205,7 +1196,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Diabetes",
     optionD: "Cancer",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the condition characterized by chronic pelvic pain, dysmenorrhea, dyspareunia, and infertility, caused by the presence of endometrial tissue outside the uterus?",
@@ -1214,7 +1205,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Pelvic inflammatory disease (PID)",
     optionD: "Ectopic pregnancy",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "Which of the following is a human right related to reproductive health according to the International Conference on Population and Development (ICPD)?",
@@ -1223,7 +1214,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "The right to receive comprehensive sexuality education",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "The intracranial hemorrhage with the worst prognosis is:",
@@ -1232,7 +1223,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Intracerebral hemorrhage",
     optionD: "Subarachnoid hemorrhage",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with potassium levels in excess of 5.0 mEq/L is considered to be in a state of:",
@@ -1241,7 +1232,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Hypervolemia",
     optionD: "Hyperkalemia",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "The health message given to a patient following tympanoplasty is:",
@@ -1250,7 +1241,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Administered saline water into the ear to aid healing",
     optionD: "Avoid noisy places up to two weeks post operatively",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "Which of the following indicates a normal finding on percussion of the lungs?",
@@ -1259,7 +1250,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Hyper resonance over the left lower lobe",
     optionD: "Dullness above the left 10th intercostal space",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What are the causes of ischemic stroke?",
@@ -1268,25 +1259,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Small artery thrombosis, cryptogenic, intracerebral hemorrhage",
     optionD: "Arterio-venous malformation, Cardiogenic embolism, small artery thrombosis",
     correctAnswer: "B",
-    explanation: ""
-  },
-  {
-    question: "Which one of the following is correct regarding the control of glucose levels?",
-    optionA: "Both insulin and glucagon are necessary to maintain high blood glucose levels.",
-    optionB: "Glucagon is responsible for switching off gluconeogenesis.",
-    optionC: "Insulin is responsible for switching on glycogenolysis.",
-    optionD: "Glucagon is responsible for switching on gluconeogenesis",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  {
-    question: "What type of stool can a nurse expect from a client who has a colostomy of the lower descending colon?",
-    optionA: "Liquid",
-    optionB: "Bloody",
-    optionC: "Black",
-    optionD: "Formed",
-    correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "An adult patient weighing 120 kg has a 20% total body surface area burn. Using the modified parkland formula, how much total intravenous fluid should he receive in the first 8 hours:",
@@ -1295,25 +1268,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "9600 mL",
     optionD: "10,800 mL",
     correctAnswer: "B",
-    explanation: ""
-  },
-  {
-    question: "Antihistamines are indicated in the management of vertigo because they:",
-    optionA: "Sedate the client",
-    optionB: "Activate the vestibular system",
-    optionC: "Suppress the vestibular system",
-    optionD: "Suppress the cochlear system",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  {
-    question: "Which of the following respiratory patterns indicate increased intracranial pressure in the brain stem?",
-    optionA: "Slow, irregular respirations",
-    optionB: "Rapid, shallow respirations",
-    optionC: "Asymmetric chest excursion",
-    optionD: "Nasal flaring",
-    correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A client has signs of increased intracranial pressure (ICP). Which of the following is an early indicator of deterioration in the client's condition?",
@@ -1322,7 +1277,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Dilated fixed pupils",
     optionD: "Decrease in level of consciousness",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "The nurse administers mannitol to the client with increased intracranial pressure. Which parameter needs close monitoring?",
@@ -1331,25 +1286,7 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Widening of the pulse pressure",
     optionD: "Pupil dilation",
     correctAnswer: "B",
-    explanation: ""
-  },
-  {
-    question: "Which activity should the nurse encourage the client to avoid when there is a risk for increased intracranial pressure (ICP)?",
-    optionA: "Deep breathing",
-    optionB: "Coughing",
-    optionC: "Turning",
-    optionD: "Passive range of motion (ROM) exercises",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  {
-    question: "For a client who is experiencing expressive aphasia, which nursing intervention is most helpful in promoting communication?",
-    optionA: "Speaking loudly",
-    optionB: "Using a picture board",
-    optionC: "Writing directions so client can read them",
-    optionD: "Speaking in short sentence",
-    correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "The nurse is assessing the motor and sensory function of an unconscious client. The nurse should use which technique to test the client's peripheral response to pain?",
@@ -1358,132 +1295,60 @@ export const DOC_PART4: RawDocQuestion[] = [
     optionC: "Pressure on the orbital rim - (localizing pain)",
     optionD: "Squeezing of the sternocleidomastoid muscle",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
-    question: "The nurse is evaluating the neurological signs of a client in spinal shock following spinal cord injury. Which observation indicates that spinal shock persists?",
-    optionA: "Hyperreflexia",
-    optionB: "Positive reflexes",
-    optionC: "Flaccid paralysis",
-    optionD: "Reflex emptying of the bladder",
-    correctAnswer: "C",
-    explanation: ""
-  },
-  {
-    question: "The nurse has instructed the family of a client with stroke (brain attack) who has homonymous hemianopsia about measures to help the client overcome the deficit. Which statement suggests that the family understands the measures to use when caring for the client?",
-    optionA: "\"We need to discourage him from wearing eyeglasses.\"",
-    optionB: "\"We need to place objects in his impaired field of vision.\"",
-    optionC: "\"We need to approach him from the impaired field of vision.\"",
-    optionD: "\"We need to remind him to turn his head to scan the lost visual field.\"",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  {
-    question: "The nurse is teaching a client with myasthenia gravis about the prevention of myasthenic and cholinergic crisis. Which client activity suggests that teaching is most effective?",
-    optionA: "Taking medications as scheduled",
-    optionB: "Eating large, well-balanced meals",
-    optionC: "Doing muscle-strengthening exercises",
-    optionD: "Doing all chores early in the day while less fatigue",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  {
-    question: "The nurse has given suggestions to a client with trigeminal neuralgia about strategies to minimize episodes of pain. The nurse determines that the client needs further teaching if the client makes which statement?",
-    optionA: "\"I will wash my face with cotton pads.\"",
-    optionB: "\"I'll have to start chewing on my unaffected side.\"",
-    optionC: "\"I should not rinse my mouth if toothbrushing is painful.\"",
-    optionD: "\"I should rinse my mouth if toothbrushing is painful.\"",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  {
-    question: "What is the primary function of the spleen?",
-    optionA: "Produce red blood cells",
-    optionB: "Store and recycle red blood cells",
-    optionC: "Produce white blood cells",
-    optionD: "Store and recycle white blood cells",
+    question: "The largest, high-molecular-weight pentameric antibody produced first during an initial primary acute immune response to a pathogen is:",
+    optionA: "Immunoglobulin A (IgA)",
+    optionB: "Immunoglobulin M (IgM)",
+    optionC: "Immunoglobulin G (IgG)",
+    optionD: "Immunoglobulin D (IgD)",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "IgM is a pentamer with 10 antigen-binding sites, highly effective in complement fixation and agglutination during early primary infections.",
   },
   {
-    question: "Which of the following conditions is a common indication for splenectomy?",
-    optionA: "Thrombocytopenia",
-    optionB: "Leukemia",
-    optionC: "Hodgkin's lymphoma",
-    optionD: "Sickle cell anemia",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  {
-    question: "What is the most common surgical approach for a splenectomy?",
-    optionA: "Open surgery",
-    optionB: "Laparoscopic surgery",
-    optionC: "Robotic surgery",
-    optionD: "Endoscopic surgery",
-    correctAnswer: "D",
-    explanation: ""
-  },
-  {
-    question: "What is the expected length of hospital stay following a splenectomy?",
-    optionA: "1-2 days",
-    optionB: "3-5 days",
-    optionC: "1-2 weeks",
-    optionD: "3-4 weeks",
+    question: "Secretory Immunoglobulin A (sIgA) provides primary mucosal barrier defense against pathogens and is present in high concentrations in:",
+    optionA: "Cerebrospinal fluid",
+    optionB: "Saliva, colostrum, breast milk, tears, and gastrointestinal/respiratory secretions",
+    optionC: "Synovial joint fluid",
+    optionD: "Bone marrow aspirate",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "Secretory IgA protects mucosal epithelium by neutralizing microbes before they can penetrate mucosal surfaces.",
   },
   {
-    question: "What is the primary nursing intervention to prevent infection following a splenectomy?",
-    optionA: "Administer prophylactic antibiotics",
-    optionB: "Encourage deep breathing and coughing exercises",
-    optionC: "Monitor vital signs and oxygen saturation",
-    optionD: "Assess and dress the surgical incision site",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  {
-    question: "What is the most common postoperative complication following a splenectomy?",
-    optionA: "Bleeding",
-    optionB: "Infection",
-    optionC: "Pneumonia",
-    optionD: "Deep vein thrombosis",
+    question: "Administering preformed human rabies immune globulin (RIG) or tetanus antitoxin to a non-immunized puncture wound victim provides:",
+    optionA: "Naturally acquired active immunity",
+    optionB: "Artificially acquired passive immunity",
+    optionC: "Naturally acquired passive immunity",
+    optionD: "Artificially acquired active immunity",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "Exogenous administration of donor antibodies confers immediate, temporary protection without activating the recipient's own immune memory.",
   },
   {
-    question: "What type of diet is recommended following a splenectomy?",
-    optionA: "Low-fiber diet",
-    optionB: "High-carbohydrate diet",
-    optionC: "Low-fat diet",
-    optionD: "Regular diet",
-    correctAnswer: "D",
-    explanation: ""
+    question: "In the epidemiological chain of infection, an individual who harbors a virulent pathogen without exhibiting overt clinical illness and can transmit it to others is a:",
+    optionA: "Susceptible host",
+    optionB: "Carrier",
+    optionC: "Fomite",
+    optionD: "Primary vector",
+    correctAnswer: "B",
+    explanation: "Carriers (asymptomatic, incubatory, or convalescent) shed microorganisms and serve as unrecognized reservoirs in disease transmission.",
   },
   {
-    question: "What is the primary long-term risk following a splenectomy?",
-    optionA: "Infection",
-    optionB: "Bleeding",
-    optionC: "Thrombosis",
-    optionD: "Hypertension",
-    correctAnswer: "A",
-    explanation: ""
+    question: "In hospital infection control, an inanimate object or surface (such as a stethoscope, door handle, or bed rail) that transmits pathogens is called a:",
+    optionA: "Vector",
+    optionB: "Fomite",
+    optionC: "Reservoir host",
+    optionD: "Biological carrier",
+    correctAnswer: "B",
+    explanation: "Fomites are contaminated inanimate objects capable of transferring infectious organisms from one host to another.",
   },
   {
-    question: "What should the nurse monitor for in a patient following a splenectomy?",
-    optionA: "Signs of infection",
-    optionB: "Bleeding",
-    optionC: "Respiratory distress",
-    optionD: "All of the above",
-    correctAnswer: "D",
-    explanation: ""
+    question: "The single most effective, evidenced-based practice for preventing healthcare-associated (nosocomial) infections across clinical settings is:",
+    optionA: "Routine prophylactic prescription of broad-spectrum antibiotics to all patients",
+    optionB: "Meticulous hand hygiene (handwashing with soap and water or alcohol-based hand rub) before and after patient contact",
+    optionC: "Fumigating nursing stations weekly",
+    optionD: "Wearing sterile gowns for all routine vital signs",
+    correctAnswer: "B",
+    explanation: "Hand hygiene by healthcare personnel breaks the chain of contact transmission and is the cornerstone of infection prevention.",
   },
-  {
-    question: "What is the recommended length of time to avoid strenuous activity following a splenectomy?",
-    optionA: "1 week",
-    optionB: "2-3 weeks",
-    optionC: "4-6 weeks",
-    optionD: "8-10 weeks",
-    correctAnswer: "C",
-    explanation: ""
-  }
 ];

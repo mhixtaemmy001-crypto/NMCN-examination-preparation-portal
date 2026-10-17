@@ -65,56 +65,10 @@ function buildQuestionTypes(): QuestionType[] {
     { id: 'type-14', name: 'Type 14', section: 'Section C', raw: TYPE14_QUESTIONS },
   ];
 
-  // Extract initial unique pools in order
-  const uniquePools = new Map<string, RawDocQuestion[]>();
-  for (const cfg of typeConfigs) {
-    uniquePools.set(cfg.id, extractUnique(cfg.raw));
-  }
-
-  // 2. Donor pool from Section C, starting from Type 14 down to Type 11, then Type 10
-  const donorTypeIds = ['type-14', 'type-13', 'type-12', 'type-11', 'type-10'];
-  let donorIdx = 0;
-
-  function takeNextDonorQuestion(): RawDocQuestion | null {
-    while (donorIdx < donorTypeIds.length) {
-      const donorId = donorTypeIds[donorIdx];
-      const list = uniquePools.get(donorId);
-      if (list && list.length > 0) {
-        return list.shift()!;
-      }
-      donorIdx++;
-    }
-    return null;
-  }
-
-  // 3. Fill recipients in Section A and Section B to 150 questions each
-  const recipientIds = [
-    'type-1',
-    'type-2',
-    'type-3',
-    'type-4',
-    'type-5',
-    'type-6',
-    'type-7',
-    'type-8',
-    'type-9',
-  ];
-
-  for (const rId of recipientIds) {
-    const list = uniquePools.get(rId)!;
-    while (list.length < 150) {
-      const q = takeNextDonorQuestion();
-      if (!q) break;
-      list.push(q);
-    }
-  }
-
-  // 4. Assemble final active question types
-  // Only include types that have at least 1 question (exhausted types are removed)
   const result: QuestionType[] = [];
 
   for (const cfg of typeConfigs) {
-    const list = uniquePools.get(cfg.id) || [];
+    const list = extractUnique(cfg.raw);
     if (list.length > 0) {
       const questions: Question[] = list.map((item, idx) => ({
         number: idx + 1,

@@ -1,1504 +1,1354 @@
 import { RawDocQuestion } from './docPart1';
 
 export const TYPE12_QUESTIONS: RawDocQuestion[] = [
-  // 1 (Q1)
-  {
-    question: "A postoperative patient suddenly becomes restless, cyanosed, and has oxygen saturation of 82%. What should the nurse do FIRST?",
-    optionA: "Assess airway and administer oxygen",
-    optionB: "Give analgesic",
-    optionC: "Call relatives",
-    optionD: "Document the finding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 2 (Q2)
-  {
-    question: "A woman 15 minutes after delivery is bleeding heavily, the uterus is boggy, BP is 80/50 mmHg, and pulse is 128 bpm. What is the PRIORITY action?",
-    optionA: "Massage the uterus and call for help",
-    optionB: "Offer oral fluids",
-    optionC: "Check temperature",
-    optionD: "Allow the woman to rest",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 3 (Q3)
-  {
-    question: "A diabetic patient is unconscious with a blood glucose of 2.1 mmol/L. What should the nurse anticipate?",
-    optionA: "Immediate treatment for hypoglycemia",
-    optionB: "Administration of insulin",
-    optionC: "Fluid restriction",
-    optionD: "Discharge home",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 4 (Q4)
-  {
-    question: "A patient receiving blood transfusion develops chest pain, dyspnea, and fever after 10 minutes. What should the nurse do FIRST?",
-    optionA: "Stop the transfusion and maintain IV access",
-    optionB: "Increase the rate",
-    optionC: "Give paracetamol and continue",
-    optionD: "Lower the IV stand",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 5 (Q5)
-  {
-    question: "A child with severe dehydration is lethargic, unable to drink, and has very weak pulses. What is the priority intervention?",
-    optionA: "Start IV rehydration immediately",
-    optionB: "Give ORS only",
-    optionC: "Stop all feeds",
-    optionD: "Observe for one hour",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 6 (Q6)
-  {
-    question: "A patient with eclampsia starts convulsing in bed. What is the FIRST nursing action?",
-    optionA: "Maintain airway and protect from injury",
-    optionB: "Insert a spoon into the mouth",
-    optionC: "Give water",
-    optionD: "Check fundal height",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 7 (Q7)
-  {
-    question: "A patient with suspected stroke has slurred speech and right-sided weakness that began 30 minutes ago. What is the most important assessment?",
-    optionA: "Time of onset and ABC assessment",
-    optionB: "Diet history",
-    optionC: "Sleep pattern",
-    optionD: "Urine output",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 8 (Q8)
-  {
-    question: "A patient with asthma is unable to speak full sentences and has silent chest. What does this suggest?",
-    optionA: "Life-threatening asthma",
-    optionB: "Mild attack",
-    optionC: "Improving condition",
-    optionD: "Anxiety only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 9 (Q9)
-  {
-    question: "A nurse discovers that 10 units of insulin were given instead of 4 units. What is the FIRST professional responsibility?",
-    optionA: "Assess the patient and report immediately",
-    optionB: "Alter the chart",
-    optionC: "Wait for symptoms",
-    optionD: "Tell the next shift only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 10 (Q10)
-  {
-    question: "A patient with potassium 6.8 mmol/L develops peaked T waves. What should the nurse do FIRST?",
-    optionA: "Report urgently and prepare for emergency treatment",
-    optionB: "Give potassium supplement",
-    optionC: "Encourage fruit intake",
-    optionD: "Document only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 11 (Q11)
-  {
-    question: "A patient with pulmonary edema is coughing pink frothy sputum. What is the priority position?",
-    optionA: "High Fowler’s",
-    optionB: "Supine",
-    optionC: "Prone",
-    optionD: "Trendelenburg",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 12 (Q12)
-  {
-    question: "A newborn is apneic immediately after birth. What is the FIRST step in resuscitation?",
-    optionA: "Warm, dry, stimulate, and assess breathing",
-    optionB: "Start chest compressions immediately",
-    optionC: "Give glucose water",
-    optionD: "Suction for 30 seconds routinely",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 13 (Q13)
-  {
-    question: "A patient with TB removes the mask and coughs continuously in the ward. What is the priority action?",
-    optionA: "Apply airborne precautions and re-educate the patient",
-    optionB: "Ignore the behavior",
-    optionC: "Close the curtains only",
-    optionD: "Move other patients without precautions",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 14 (Q14)
-  {
-    question: "A postoperative patient has absent bowel sounds, abdominal distension, and vomiting. What should the nurse suspect?",
-    optionA: "Paralytic ileus",
-    optionB: "Appendicitis",
-    optionC: "UTI",
-    optionD: "Gastritis",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 15 (Q15)
-  {
-    question: "A patient with severe head injury has unequal pupils and decreasing consciousness. What is the priority?",
-    optionA: "Urgent neurological assessment and escalation",
-    optionB: "Give sedative",
-    optionC: "Encourage sleep",
-    optionD: "Provide food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 16 (Q16)
-  {
-    question: "A patient receiving heparin develops bleeding from the IV site. What is the priority action?",
-    optionA: "Stop infusion if indicated and notify the provider",
-    optionB: "Increase the rate",
-    optionC: "Apply heat only",
-    optionD: "Ignore the bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 17 (Q17)
-  {
-    question: "A woman with placenta previa presents with bright red painless bleeding. What should the nurse avoid?",
-    optionA: "Digital vaginal examination",
-    optionB: "Monitoring vital signs",
-    optionC: "IV access",
-    optionD: "Fetal monitoring",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 18 (Q18)
-  {
-    question: "A patient with sepsis becomes hypotensive, tachycardic, and confused. What is the priority?",
-    optionA: "Recognize septic shock and initiate emergency measures",
-    optionB: "Give oral fluids",
-    optionC: "Allow rest",
-    optionD: "Reassure only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 19 (Q19)
-  {
-    question: "A child with meningitis is photophobic and irritable. What environmental modification is best?",
-    optionA: "Reduce light and noise",
-    optionB: "Increase stimulation",
-    optionC: "Keep television on",
-    optionD: "Encourage visitors",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 20 (Q20)
-  {
-    question: "A patient refuses life-saving surgery while fully conscious and competent. What should the nurse do?",
-    optionA: "Respect the decision and inform the team",
-    optionB: "Force consent",
-    optionC: "Ask another patient to persuade",
-    optionD: "Ignore the refusal",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 21 (Q21)
-  {
-    question: "A patient with pulmonary edema is coughing pink frothy sputum. What is the priority position?",
-    optionA: "High Fowler’s",
-    optionB: "Supine",
-    optionC: "Prone",
-    optionD: "Trendelenburg",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 22 (Q22)
-  {
-    question: "A newborn is apneic immediately after birth. What is the FIRST step in resuscitation?",
-    optionA: "Warm, dry, stimulate, and assess breathing",
-    optionB: "Start chest compressions immediately",
-    optionC: "Give glucose water",
-    optionD: "Suction for 30 seconds routinely",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 23 (Q23)
-  {
-    question: "A patient with TB removes the mask and coughs continuously in the ward. What is the priority action?",
-    optionA: "Apply airborne precautions and re-educate the patient",
-    optionB: "Ignore the behavior",
-    optionC: "Close the curtains only",
-    optionD: "Move other patients without precautions",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 24 (Q24)
-  {
-    question: "A postoperative patient has absent bowel sounds, abdominal distension, and vomiting. What should the nurse suspect?",
-    optionA: "Paralytic ileus",
-    optionB: "Appendicitis",
-    optionC: "UTI",
-    optionD: "Gastritis",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 25 (Q25)
-  {
-    question: "A patient with severe head injury has unequal pupils and decreasing consciousness. What is the priority?",
-    optionA: "Urgent neurological assessment and escalation",
-    optionB: "Give sedative",
-    optionC: "Encourage sleep",
-    optionD: "Provide food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 26 (Q26)
-  {
-    question: "A patient receiving heparin develops bleeding from the IV site. What is the priority action?",
-    optionA: "Stop infusion if indicated and notify the provider",
-    optionB: "Increase the rate",
-    optionC: "Apply heat only",
-    optionD: "Ignore the bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 27 (Q27)
-  {
-    question: "A woman with placenta previa presents with bright red painless bleeding. What should the nurse avoid?",
-    optionA: "Digital vaginal examination",
-    optionB: "Monitoring vital signs",
-    optionC: "IV access",
-    optionD: "Fetal monitoring",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 28 (Q28)
-  {
-    question: "A patient with sepsis becomes hypotensive, tachycardic, and confused. What is the priority?",
-    optionA: "Recognize septic shock and initiate emergency measures",
-    optionB: "Give oral fluids",
-    optionC: "Allow rest",
-    optionD: "Reassure only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 29 (Q29)
-  {
-    question: "A child with meningitis is photophobic and irritable. What environmental modification is best?",
-    optionA: "Reduce light and noise",
-    optionB: "Increase stimulation",
-    optionC: "Keep television on",
-    optionD: "Encourage visitors",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 30 (Q30)
-  {
-    question: "A patient refuses life-saving surgery while fully conscious and competent. What should the nurse do?",
-    optionA: "Respect the decision and inform the team",
-    optionB: "Force consent",
-    optionC: "Ask another patient to persuade",
-    optionD: "Ignore the refusal",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 31 (Q31)
-  {
-    question: "A patient with pulmonary edema is coughing pink frothy sputum. What is the priority position?",
-    optionA: "High Fowler’s",
-    optionB: "Supine",
-    optionC: "Prone",
-    optionD: "Trendelenburg",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 32 (Q32)
-  {
-    question: "A newborn is apneic immediately after birth. What is the FIRST step in resuscitation?",
-    optionA: "Warm, dry, stimulate, and assess breathing",
-    optionB: "Start chest compressions immediately",
-    optionC: "Give glucose water",
-    optionD: "Suction for 30 seconds routinely",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 33 (Q33)
-  {
-    question: "A patient with TB removes the mask and coughs continuously in the ward. What is the priority action?",
-    optionA: "Apply airborne precautions and re-educate the patient",
-    optionB: "Ignore the behavior",
-    optionC: "Close the curtains only",
-    optionD: "Move other patients without precautions",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 34 (Q34)
-  {
-    question: "A postoperative patient has absent bowel sounds, abdominal distension, and vomiting. What should the nurse suspect?",
-    optionA: "Paralytic ileus",
-    optionB: "Appendicitis",
-    optionC: "UTI",
-    optionD: "Gastritis",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 35 (Q35)
-  {
-    question: "A patient with severe head injury has unequal pupils and decreasing consciousness. What is the priority?",
-    optionA: "Urgent neurological assessment and escalation",
-    optionB: "Give sedative",
-    optionC: "Encourage sleep",
-    optionD: "Provide food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 36 (Q36)
-  {
-    question: "A patient receiving heparin develops bleeding from the IV site. What is the priority action?",
-    optionA: "Stop infusion if indicated and notify the provider",
-    optionB: "Increase the rate",
-    optionC: "Apply heat only",
-    optionD: "Ignore the bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 37 (Q37)
-  {
-    question: "A woman with placenta previa presents with bright red painless bleeding. What should the nurse avoid?",
-    optionA: "Digital vaginal examination",
-    optionB: "Monitoring vital signs",
-    optionC: "IV access",
-    optionD: "Fetal monitoring",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 38 (Q38)
-  {
-    question: "A patient with sepsis becomes hypotensive, tachycardic, and confused. What is the priority?",
-    optionA: "Recognize septic shock and initiate emergency measures",
-    optionB: "Give oral fluids",
-    optionC: "Allow rest",
-    optionD: "Reassure only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 39 (Q39)
-  {
-    question: "A child with meningitis is photophobic and irritable. What environmental modification is best?",
-    optionA: "Reduce light and noise",
-    optionB: "Increase stimulation",
-    optionC: "Keep television on",
-    optionD: "Encourage visitors",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 40 (Q40)
-  {
-    question: "A patient refuses life-saving surgery while fully conscious and competent. What should the nurse do?",
-    optionA: "Respect the decision and inform the team",
-    optionB: "Force consent",
-    optionC: "Ask another patient to persuade",
-    optionD: "Ignore the refusal",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 41 (Q41)
-  {
-    question: "A patient with pulmonary edema is coughing pink frothy sputum. What is the priority position?",
-    optionA: "High Fowler’s",
-    optionB: "Supine",
-    optionC: "Prone",
-    optionD: "Trendelenburg",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 42 (Q42)
-  {
-    question: "A newborn is apneic immediately after birth. What is the FIRST step in resuscitation?",
-    optionA: "Warm, dry, stimulate, and assess breathing",
-    optionB: "Start chest compressions immediately",
-    optionC: "Give glucose water",
-    optionD: "Suction for 30 seconds routinely",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 43 (Q43)
-  {
-    question: "A patient with TB removes the mask and coughs continuously in the ward. What is the priority action?",
-    optionA: "Apply airborne precautions and re-educate the patient",
-    optionB: "Ignore the behavior",
-    optionC: "Close the curtains only",
-    optionD: "Move other patients without precautions",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 44 (Q44)
-  {
-    question: "A postoperative patient has absent bowel sounds, abdominal distension, and vomiting. What should the nurse suspect?",
-    optionA: "Paralytic ileus",
-    optionB: "Appendicitis",
-    optionC: "UTI",
-    optionD: "Gastritis",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 45 (Q45)
-  {
-    question: "A patient with severe head injury has unequal pupils and decreasing consciousness. What is the priority?",
-    optionA: "Urgent neurological assessment and escalation",
-    optionB: "Give sedative",
-    optionC: "Encourage sleep",
-    optionD: "Provide food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 46 (Q46)
-  {
-    question: "A patient receiving heparin develops bleeding from the IV site. What is the priority action?",
-    optionA: "Stop infusion if indicated and notify the provider",
-    optionB: "Increase the rate",
-    optionC: "Apply heat only",
-    optionD: "Ignore the bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 47 (Q47)
-  {
-    question: "A woman with placenta previa presents with bright red painless bleeding. What should the nurse avoid?",
-    optionA: "Digital vaginal examination",
-    optionB: "Monitoring vital signs",
-    optionC: "IV access",
-    optionD: "Fetal monitoring",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 48 (Q48)
-  {
-    question: "A patient with sepsis becomes hypotensive, tachycardic, and confused. What is the priority?",
-    optionA: "Recognize septic shock and initiate emergency measures",
-    optionB: "Give oral fluids",
-    optionC: "Allow rest",
-    optionD: "Reassure only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 49 (Q49)
-  {
-    question: "A child with meningitis is photophobic and irritable. What environmental modification is best?",
-    optionA: "Reduce light and noise",
-    optionB: "Increase stimulation",
-    optionC: "Keep television on",
-    optionD: "Encourage visitors",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 50 (Q50)
-  {
-    question: "A patient refuses life-saving surgery while fully conscious and competent. What should the nurse do?",
-    optionA: "Respect the decision and inform the team",
-    optionB: "Force consent",
-    optionC: "Ask another patient to persuade",
-    optionD: "Ignore the refusal",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 51 (Q51)
-  {
-    question: "A patient with pulmonary edema is coughing pink frothy sputum. What is the priority position?",
-    optionA: "High Fowler’s",
-    optionB: "Supine",
-    optionC: "Prone",
-    optionD: "Trendelenburg",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 52 (Q52)
-  {
-    question: "A newborn is apneic immediately after birth. What is the FIRST step in resuscitation?",
-    optionA: "Warm, dry, stimulate, and assess breathing",
-    optionB: "Start chest compressions immediately",
-    optionC: "Give glucose water",
-    optionD: "Suction for 30 seconds routinely",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 53 (Q53)
-  {
-    question: "A patient with TB removes the mask and coughs continuously in the ward. What is the priority action?",
-    optionA: "Apply airborne precautions and re-educate the patient",
-    optionB: "Ignore the behavior",
-    optionC: "Close the curtains only",
-    optionD: "Move other patients without precautions",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 54 (Q54)
-  {
-    question: "A postoperative patient has absent bowel sounds, abdominal distension, and vomiting. What should the nurse suspect?",
-    optionA: "Paralytic ileus",
-    optionB: "Appendicitis",
-    optionC: "UTI",
-    optionD: "Gastritis",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 55 (Q55)
-  {
-    question: "A patient with severe head injury has unequal pupils and decreasing consciousness. What is the priority?",
-    optionA: "Urgent neurological assessment and escalation",
-    optionB: "Give sedative",
-    optionC: "Encourage sleep",
-    optionD: "Provide food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 56 (Q56)
-  {
-    question: "A patient receiving heparin develops bleeding from the IV site. What is the priority action?",
-    optionA: "Stop infusion if indicated and notify the provider",
-    optionB: "Increase the rate",
-    optionC: "Apply heat only",
-    optionD: "Ignore the bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 57 (Q57)
-  {
-    question: "A woman with placenta previa presents with bright red painless bleeding. What should the nurse avoid?",
-    optionA: "Digital vaginal examination",
-    optionB: "Monitoring vital signs",
-    optionC: "IV access",
-    optionD: "Fetal monitoring",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 58 (Q58)
-  {
-    question: "A patient with sepsis becomes hypotensive, tachycardic, and confused. What is the priority?",
-    optionA: "Recognize septic shock and initiate emergency measures",
-    optionB: "Give oral fluids",
-    optionC: "Allow rest",
-    optionD: "Reassure only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 59 (Q59)
-  {
-    question: "A child with meningitis is photophobic and irritable. What environmental modification is best?",
-    optionA: "Reduce light and noise",
-    optionB: "Increase stimulation",
-    optionC: "Keep television on",
-    optionD: "Encourage visitors",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 60 (Q60)
-  {
-    question: "A patient refuses life-saving surgery while fully conscious and competent. What should the nurse do?",
-    optionA: "Respect the decision and inform the team",
-    optionB: "Force consent",
-    optionC: "Ask another patient to persuade",
-    optionD: "Ignore the refusal",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 61 (Q61)
-  {
-    question: "A patient with pulmonary edema is coughing pink frothy sputum. What is the priority position?",
-    optionA: "High Fowler’s",
-    optionB: "Supine",
-    optionC: "Prone",
-    optionD: "Trendelenburg",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 62 (Q62)
-  {
-    question: "A newborn is apneic immediately after birth. What is the FIRST step in resuscitation?",
-    optionA: "Warm, dry, stimulate, and assess breathing",
-    optionB: "Start chest compressions immediately",
-    optionC: "Give glucose water",
-    optionD: "Suction for 30 seconds routinely",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 63 (Q63)
-  {
-    question: "A patient with TB removes the mask and coughs continuously in the ward. What is the priority action?",
-    optionA: "Apply airborne precautions and re-educate the patient",
-    optionB: "Ignore the behavior",
-    optionC: "Close the curtains only",
-    optionD: "Move other patients without precautions",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 64 (Q64)
-  {
-    question: "A postoperative patient has absent bowel sounds, abdominal distension, and vomiting. What should the nurse suspect?",
-    optionA: "Paralytic ileus",
-    optionB: "Appendicitis",
-    optionC: "UTI",
-    optionD: "Gastritis",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 65 (Q65)
-  {
-    question: "A patient with severe head injury has unequal pupils and decreasing consciousness. What is the priority?",
-    optionA: "Urgent neurological assessment and escalation",
-    optionB: "Give sedative",
-    optionC: "Encourage sleep",
-    optionD: "Provide food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 66 (Q66)
-  {
-    question: "A patient receiving heparin develops bleeding from the IV site. What is the priority action?",
-    optionA: "Stop infusion if indicated and notify the provider",
-    optionB: "Increase the rate",
-    optionC: "Apply heat only",
-    optionD: "Ignore the bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 67 (Q67)
-  {
-    question: "A woman with placenta previa presents with bright red painless bleeding. What should the nurse avoid?",
-    optionA: "Digital vaginal examination",
-    optionB: "Monitoring vital signs",
-    optionC: "IV access",
-    optionD: "Fetal monitoring",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 68 (Q68)
-  {
-    question: "A patient with sepsis becomes hypotensive, tachycardic, and confused. What is the priority?",
-    optionA: "Recognize septic shock and initiate emergency measures",
-    optionB: "Give oral fluids",
-    optionC: "Allow rest",
-    optionD: "Reassure only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 69 (Q69)
-  {
-    question: "A child with meningitis is photophobic and irritable. What environmental modification is best?",
-    optionA: "Reduce light and noise",
-    optionB: "Increase stimulation",
-    optionC: "Keep television on",
-    optionD: "Encourage visitors",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 70 (Q70)
-  {
-    question: "A patient refuses life-saving surgery while fully conscious and competent. What should the nurse do?",
-    optionA: "Respect the decision and inform the team",
-    optionB: "Force consent",
-    optionC: "Ask another patient to persuade",
-    optionD: "Ignore the refusal",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 71 (Q71)
-  {
-    question: "A patient with pulmonary edema is coughing pink frothy sputum. What is the priority position?",
-    optionA: "High Fowler’s",
-    optionB: "Supine",
-    optionC: "Prone",
-    optionD: "Trendelenburg",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 72 (Q72)
-  {
-    question: "A newborn is apneic immediately after birth. What is the FIRST step in resuscitation?",
-    optionA: "Warm, dry, stimulate, and assess breathing",
-    optionB: "Start chest compressions immediately",
-    optionC: "Give glucose water",
-    optionD: "Suction for 30 seconds routinely",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 73 (Q73)
-  {
-    question: "A patient with TB removes the mask and coughs continuously in the ward. What is the priority action?",
-    optionA: "Apply airborne precautions and re-educate the patient",
-    optionB: "Ignore the behavior",
-    optionC: "Close the curtains only",
-    optionD: "Move other patients without precautions",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 74 (Q74)
-  {
-    question: "A postoperative patient has absent bowel sounds, abdominal distension, and vomiting. What should the nurse suspect?",
-    optionA: "Paralytic ileus",
-    optionB: "Appendicitis",
-    optionC: "UTI",
-    optionD: "Gastritis",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 75 (Q75)
-  {
-    question: "A patient with severe head injury has unequal pupils and decreasing consciousness. What is the priority?",
-    optionA: "Urgent neurological assessment and escalation",
-    optionB: "Give sedative",
-    optionC: "Encourage sleep",
-    optionD: "Provide food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 76 (Q76)
-  {
-    question: "A patient receiving heparin develops bleeding from the IV site. What is the priority action?",
-    optionA: "Stop infusion if indicated and notify the provider",
-    optionB: "Increase the rate",
-    optionC: "Apply heat only",
-    optionD: "Ignore the bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 77 (Q77)
-  {
-    question: "A woman with placenta previa presents with bright red painless bleeding. What should the nurse avoid?",
-    optionA: "Digital vaginal examination",
-    optionB: "Monitoring vital signs",
-    optionC: "IV access",
-    optionD: "Fetal monitoring",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 78 (Q78)
-  {
-    question: "A patient with sepsis becomes hypotensive, tachycardic, and confused. What is the priority?",
-    optionA: "Recognize septic shock and initiate emergency measures",
-    optionB: "Give oral fluids",
-    optionC: "Allow rest",
-    optionD: "Reassure only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 79 (Q79)
-  {
-    question: "A child with meningitis is photophobic and irritable. What environmental modification is best?",
-    optionA: "Reduce light and noise",
-    optionB: "Increase stimulation",
-    optionC: "Keep television on",
-    optionD: "Encourage visitors",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 80 (Q80)
-  {
-    question: "A patient refuses life-saving surgery while fully conscious and competent. What should the nurse do?",
-    optionA: "Respect the decision and inform the team",
-    optionB: "Force consent",
-    optionC: "Ask another patient to persuade",
-    optionD: "Ignore the refusal",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 81 (Q81)
-  {
-    question: "A patient with pulmonary edema is coughing pink frothy sputum. What is the priority position?",
-    optionA: "High Fowler’s",
-    optionB: "Supine",
-    optionC: "Prone",
-    optionD: "Trendelenburg",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 82 (Q82)
-  {
-    question: "A newborn is apneic immediately after birth. What is the FIRST step in resuscitation?",
-    optionA: "Warm, dry, stimulate, and assess breathing",
-    optionB: "Start chest compressions immediately",
-    optionC: "Give glucose water",
-    optionD: "Suction for 30 seconds routinely",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 83 (Q83)
-  {
-    question: "A patient with TB removes the mask and coughs continuously in the ward. What is the priority action?",
-    optionA: "Apply airborne precautions and re-educate the patient",
-    optionB: "Ignore the behavior",
-    optionC: "Close the curtains only",
-    optionD: "Move other patients without precautions",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 84 (Q84)
-  {
-    question: "A postoperative patient has absent bowel sounds, abdominal distension, and vomiting. What should the nurse suspect?",
-    optionA: "Paralytic ileus",
-    optionB: "Appendicitis",
-    optionC: "UTI",
-    optionD: "Gastritis",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 85 (Q85)
-  {
-    question: "A patient with severe head injury has unequal pupils and decreasing consciousness. What is the priority?",
-    optionA: "Urgent neurological assessment and escalation",
-    optionB: "Give sedative",
-    optionC: "Encourage sleep",
-    optionD: "Provide food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 86 (Q86)
-  {
-    question: "A patient receiving heparin develops bleeding from the IV site. What is the priority action?",
-    optionA: "Stop infusion if indicated and notify the provider",
-    optionB: "Increase the rate",
-    optionC: "Apply heat only",
-    optionD: "Ignore the bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 87 (Q87)
-  {
-    question: "A woman with placenta previa presents with bright red painless bleeding. What should the nurse avoid?",
-    optionA: "Digital vaginal examination",
-    optionB: "Monitoring vital signs",
-    optionC: "IV access",
-    optionD: "Fetal monitoring",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 88 (Q88)
-  {
-    question: "A patient with sepsis becomes hypotensive, tachycardic, and confused. What is the priority?",
-    optionA: "Recognize septic shock and initiate emergency measures",
-    optionB: "Give oral fluids",
-    optionC: "Allow rest",
-    optionD: "Reassure only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 89 (Q89)
-  {
-    question: "A child with meningitis is photophobic and irritable. What environmental modification is best?",
-    optionA: "Reduce light and noise",
-    optionB: "Increase stimulation",
-    optionC: "Keep television on",
-    optionD: "Encourage visitors",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 90 (Q90)
-  {
-    question: "A patient refuses life-saving surgery while fully conscious and competent. What should the nurse do?",
-    optionA: "Respect the decision and inform the team",
-    optionB: "Force consent",
-    optionC: "Ask another patient to persuade",
-    optionD: "Ignore the refusal",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 91 (Q91)
-  {
-    question: "A patient with pulmonary edema is coughing pink frothy sputum. What is the priority position?",
-    optionA: "High Fowler’s",
-    optionB: "Supine",
-    optionC: "Prone",
-    optionD: "Trendelenburg",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 92 (Q92)
-  {
-    question: "A newborn is apneic immediately after birth. What is the FIRST step in resuscitation?",
-    optionA: "Warm, dry, stimulate, and assess breathing",
-    optionB: "Start chest compressions immediately",
-    optionC: "Give glucose water",
-    optionD: "Suction for 30 seconds routinely",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 93 (Q93)
-  {
-    question: "A patient with TB removes the mask and coughs continuously in the ward. What is the priority action?",
-    optionA: "Apply airborne precautions and re-educate the patient",
-    optionB: "Ignore the behavior",
-    optionC: "Close the curtains only",
-    optionD: "Move other patients without precautions",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 94 (Q94)
-  {
-    question: "A postoperative patient has absent bowel sounds, abdominal distension, and vomiting. What should the nurse suspect?",
-    optionA: "Paralytic ileus",
-    optionB: "Appendicitis",
-    optionC: "UTI",
-    optionD: "Gastritis",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 95 (Q95)
-  {
-    question: "A patient with severe head injury has unequal pupils and decreasing consciousness. What is the priority?",
-    optionA: "Urgent neurological assessment and escalation",
-    optionB: "Give sedative",
-    optionC: "Encourage sleep",
-    optionD: "Provide food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 96 (Q96)
-  {
-    question: "A patient receiving heparin develops bleeding from the IV site. What is the priority action?",
-    optionA: "Stop infusion if indicated and notify the provider",
-    optionB: "Increase the rate",
-    optionC: "Apply heat only",
-    optionD: "Ignore the bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 97 (Q97)
-  {
-    question: "A woman with placenta previa presents with bright red painless bleeding. What should the nurse avoid?",
-    optionA: "Digital vaginal examination",
-    optionB: "Monitoring vital signs",
-    optionC: "IV access",
-    optionD: "Fetal monitoring",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 98 (Q98)
-  {
-    question: "A patient with sepsis becomes hypotensive, tachycardic, and confused. What is the priority?",
-    optionA: "Recognize septic shock and initiate emergency measures",
-    optionB: "Give oral fluids",
-    optionC: "Allow rest",
-    optionD: "Reassure only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 99 (Q99)
-  {
-    question: "A child with meningitis is photophobic and irritable. What environmental modification is best?",
-    optionA: "Reduce light and noise",
-    optionB: "Increase stimulation",
-    optionC: "Keep television on",
-    optionD: "Encourage visitors",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 100 (Q100)
-  {
-    question: "A patient refuses life-saving surgery while fully conscious and competent. What should the nurse do?",
-    optionA: "Respect the decision and inform the team",
-    optionB: "Force consent",
-    optionC: "Ask another patient to persuade",
-    optionD: "Ignore the refusal",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 101 (Clinical Priority Set 2 - Q1)
-  {
-    question: "A postoperative patient is restless, tachycardic, and has oxygen saturation of 86% on room air. What should the nurse do FIRST?",
-    optionA: "Assess airway and apply oxygen",
-    optionB: "Give analgesic",
-    optionC: "Call relatives",
-    optionD: "Document the findings",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 102 (Clinical Priority Set 2 - Q2)
-  {
-    question: "A woman one hour after delivery has soaked two pads in 15 minutes and the fundus is boggy. What is the priority action?",
-    optionA: "Massage the fundus and call for assistance",
-    optionB: "Offer oral fluids",
-    optionC: "Check temperature",
-    optionD: "Encourage breastfeeding later",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 103 (Clinical Priority Set 2 - Q3)
-  {
-    question: "A diabetic patient becomes unconscious after receiving insulin and missing breakfast. What should the nurse suspect?",
-    optionA: "Hypoglycemia",
-    optionB: "Hyperglycemia",
-    optionC: "Stroke",
-    optionD: "Sepsis",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 104 (Clinical Priority Set 2 - Q4)
-  {
-    question: "A patient receiving blood transfusion develops dyspnea, fever, and chest tightness after 5 minutes. What is the FIRST action?",
-    optionA: "Stop the transfusion and maintain IV access",
-    optionB: "Slow the transfusion",
-    optionC: "Give paracetamol",
-    optionD: "Reassure the patient",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 105 (Clinical Priority Set 2 - Q5)
-  {
-    question: "A child with severe dehydration is lethargic, has sunken eyes, and cannot drink. What is the priority intervention?",
-    optionA: "Start IV fluids immediately",
-    optionB: "Give ORS only",
-    optionC: "Stop feeding",
-    optionD: "Observe for one hour",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 106 (Clinical Priority Set 2 - Q6)
-  {
-    question: "A patient with eclampsia begins to convulse. What is the nurse’s FIRST priority?",
-    optionA: "Maintain airway and prevent injury",
-    optionB: "Insert an airway forcefully",
-    optionC: "Give water",
-    optionD: "Check blood pressure after the seizure",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 107 (Clinical Priority Set 2 - Q7)
-  {
-    question: "A patient with suspected stroke has slurred speech and right-sided weakness that started 45 minutes ago. What is the most important assessment?",
-    optionA: "Time of onset and ABC assessment",
-    optionB: "Diet history",
-    optionC: "Sleep pattern",
-    optionD: "Urine output",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 108 (Clinical Priority Set 2 - Q8)
-  {
-    question: "A patient with severe asthma is unable to speak and has a silent chest. What does this indicate?",
-    optionA: "Life-threatening asthma",
-    optionB: "Mild asthma",
-    optionC: "Improving condition",
-    optionD: "Anxiety",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 109 (Clinical Priority Set 2 - Q9)
-  {
-    question: "A nurse discovers that 20 units of insulin were administered instead of 8 units. What is the FIRST professional action?",
-    optionA: "Assess the patient and report immediately",
-    optionB: "Alter the chart",
-    optionC: "Wait for symptoms",
-    optionD: "Tell the next shift",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 110 (Clinical Priority Set 2 - Q10)
-  {
-    question: "A patient with potassium 7.0 mmol/L has peaked T waves on ECG. What is the priority?",
-    optionA: "Urgent medical review and emergency management",
-    optionB: "Give potassium supplement",
-    optionC: "Encourage bananas",
-    optionD: "Document and recheck tomorrow",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 111 (Clinical Priority Set 2 - Q11)
-  {
-    question: "A patient with pulmonary edema is coughing pink frothy sputum. What is the best position?",
-    optionA: "High Fowler’s",
-    optionB: "Supine",
-    optionC: "Prone",
-    optionD: "Trendelenburg",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 112 (Clinical Priority Set 2 - Q12)
-  {
-    question: "A newborn is apneic immediately after birth. What is the FIRST step in resuscitation?",
-    optionA: "Warm, dry, stimulate, and assess breathing",
-    optionB: "Start chest compressions immediately",
-    optionC: "Give glucose water",
-    optionD: "Suction routinely for 30 seconds",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 113 (Clinical Priority Set 2 - Q13)
-  {
-    question: "A patient with tuberculosis removes the mask and coughs continuously. What is the priority action?",
-    optionA: "Apply airborne precautions and re-educate",
-    optionB: "Ignore the behavior",
-    optionC: "Close curtains only",
-    optionD: "Move other patients",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 114 (Clinical Priority Set 2 - Q14)
-  {
-    question: "A postoperative patient has abdominal distension, vomiting, and absent bowel sounds. What should the nurse suspect?",
-    optionA: "Paralytic ileus",
-    optionB: "UTI",
-    optionC: "Gastritis",
-    optionD: "Constipation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 115 (Clinical Priority Set 2 - Q15)
-  {
-    question: "A patient with severe head injury has unequal pupils and decreasing consciousness. What is the priority?",
-    optionA: "Urgent neurological assessment and escalation",
-    optionB: "Give sedative",
-    optionC: "Allow sleep",
-    optionD: "Provide food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 116 (Clinical Priority Set 2 - Q16)
-  {
-    question: "A patient receiving heparin develops bleeding from the IV site. What is the priority action?",
-    optionA: "Stop infusion if indicated and notify the provider",
-    optionB: "Increase the rate",
-    optionC: "Apply heat only",
-    optionD: "Ignore the bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 117 (Clinical Priority Set 2 - Q17)
-  {
-    question: "A woman with placenta previa presents with bright red painless bleeding. Which action should be avoided?",
-    optionA: "Digital vaginal examination",
-    optionB: "Monitoring vital signs",
-    optionC: "IV access",
-    optionD: "Fetal monitoring",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 118 (Clinical Priority Set 2 - Q18)
-  {
-    question: "A patient with sepsis becomes hypotensive, tachycardic, and confused. What is the priority?",
-    optionA: "Recognize septic shock and initiate emergency measures",
-    optionB: "Give oral fluids",
-    optionC: "Allow rest",
-    optionD: "Reassure only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 119 (Clinical Priority Set 2 - Q19)
-  {
-    question: "A child with meningitis is photophobic and irritable. What environmental modification is best?",
-    optionA: "Reduce light and noise",
-    optionB: "Increase stimulation",
-    optionC: "Keep television on",
-    optionD: "Encourage visitors",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 120 (Clinical Priority Set 2 - Q20)
-  {
-    question: "A competent adult refuses life-saving surgery. What should the nurse do?",
-    optionA: "Respect the decision and inform the team",
-    optionB: "Force consent",
-    optionC: "Ask relatives to sign",
-    optionD: "Ignore the refusal",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 121 (Clinical Priority Set 2 - Q21)
-  {
-    question: "A patient with pulmonary edema is coughing pink frothy sputum. What is the best position?",
-    optionA: "High Fowler’s",
-    optionB: "Supine",
-    optionC: "Prone",
-    optionD: "Trendelenburg",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 122 (Clinical Priority Set 2 - Q22)
-  {
-    question: "A newborn is apneic immediately after birth. What is the FIRST step in resuscitation?",
-    optionA: "Warm, dry, stimulate, and assess breathing",
-    optionB: "Start chest compressions immediately",
-    optionC: "Give glucose water",
-    optionD: "Suction routinely for 30 seconds",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 123 (Clinical Priority Set 2 - Q23)
-  {
-    question: "A patient with tuberculosis removes the mask and coughs continuously. What is the priority action?",
-    optionA: "Apply airborne precautions and re-educate",
-    optionB: "Ignore the behavior",
-    optionC: "Close curtains only",
-    optionD: "Move other patients",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 124 (Clinical Priority Set 2 - Q24)
-  {
-    question: "A postoperative patient has abdominal distension, vomiting, and absent bowel sounds. What should the nurse suspect?",
-    optionA: "Paralytic ileus",
-    optionB: "UTI",
-    optionC: "Gastritis",
-    optionD: "Constipation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 125 (Clinical Priority Set 2 - Q25)
-  {
-    question: "A patient with severe head injury has unequal pupils and decreasing consciousness. What is the priority?",
-    optionA: "Urgent neurological assessment and escalation",
-    optionB: "Give sedative",
-    optionC: "Allow sleep",
-    optionD: "Provide food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 126 (Clinical Priority Set 2 - Q26)
-  {
-    question: "A patient receiving heparin develops bleeding from the IV site. What is the priority action?",
-    optionA: "Stop infusion if indicated and notify the provider",
-    optionB: "Increase the rate",
-    optionC: "Apply heat only",
-    optionD: "Ignore the bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 127 (Clinical Priority Set 2 - Q27)
-  {
-    question: "A woman with placenta previa presents with bright red painless bleeding. Which action should be avoided?",
-    optionA: "Digital vaginal examination",
-    optionB: "Monitoring vital signs",
-    optionC: "IV access",
-    optionD: "Fetal monitoring",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 128 (Clinical Priority Set 2 - Q28)
-  {
-    question: "A patient with sepsis becomes hypotensive, tachycardic, and confused. What is the priority?",
-    optionA: "Recognize septic shock and initiate emergency measures",
-    optionB: "Give oral fluids",
-    optionC: "Allow rest",
-    optionD: "Reassure only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 129 (Clinical Priority Set 2 - Q29)
-  {
-    question: "A child with meningitis is photophobic and irritable. What environmental modification is best?",
-    optionA: "Reduce light and noise",
-    optionB: "Increase stimulation",
-    optionC: "Keep television on",
-    optionD: "Encourage visitors",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 130 (Clinical Priority Set 2 - Q30)
-  {
-    question: "A competent adult refuses life-saving surgery. What should the nurse do?",
-    optionA: "Respect the decision and inform the team",
-    optionB: "Force consent",
-    optionC: "Ask relatives to sign",
-    optionD: "Ignore the refusal",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 131 (Clinical Priority Set 2 - Q31)
-  {
-    question: "A patient with pulmonary edema is coughing pink frothy sputum. What is the best position?",
-    optionA: "High Fowler’s",
-    optionB: "Supine",
-    optionC: "Prone",
-    optionD: "Trendelenburg",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 132 (Clinical Priority Set 2 - Q32)
-  {
-    question: "A newborn is apneic immediately after birth. What is the FIRST step in resuscitation?",
-    optionA: "Warm, dry, stimulate, and assess breathing",
-    optionB: "Start chest compressions immediately",
-    optionC: "Give glucose water",
-    optionD: "Suction routinely for 30 seconds",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 133 (Clinical Priority Set 2 - Q33)
-  {
-    question: "A patient with tuberculosis removes the mask and coughs continuously. What is the priority action?",
-    optionA: "Apply airborne precautions and re-educate",
-    optionB: "Ignore the behavior",
-    optionC: "Close curtains only",
-    optionD: "Move other patients",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 134 (Clinical Priority Set 2 - Q34)
-  {
-    question: "A postoperative patient has abdominal distension, vomiting, and absent bowel sounds. What should the nurse suspect?",
-    optionA: "Paralytic ileus",
-    optionB: "UTI",
-    optionC: "Gastritis",
-    optionD: "Constipation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 135 (Clinical Priority Set 2 - Q35)
-  {
-    question: "A patient with severe head injury has unequal pupils and decreasing consciousness. What is the priority?",
-    optionA: "Urgent neurological assessment and escalation",
-    optionB: "Give sedative",
-    optionC: "Allow sleep",
-    optionD: "Provide food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 136 (Clinical Priority Set 2 - Q36)
-  {
-    question: "A patient receiving heparin develops bleeding from the IV site. What is the priority action?",
-    optionA: "Stop infusion if indicated and notify the provider",
-    optionB: "Increase the rate",
-    optionC: "Apply heat only",
-    optionD: "Ignore the bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 137 (Clinical Priority Set 2 - Q37)
-  {
-    question: "A woman with placenta previa presents with bright red painless bleeding. Which action should be avoided?",
-    optionA: "Digital vaginal examination",
-    optionB: "Monitoring vital signs",
-    optionC: "IV access",
-    optionD: "Fetal monitoring",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 138 (Clinical Priority Set 2 - Q38)
-  {
-    question: "A patient with sepsis becomes hypotensive, tachycardic, and confused. What is the priority?",
-    optionA: "Recognize septic shock and initiate emergency measures",
-    optionB: "Give oral fluids",
-    optionC: "Allow rest",
-    optionD: "Reassure only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 139 (Clinical Priority Set 2 - Q39)
-  {
-    question: "A child with meningitis is photophobic and irritable. What environmental modification is best?",
-    optionA: "Reduce light and noise",
-    optionB: "Increase stimulation",
-    optionC: "Keep television on",
-    optionD: "Encourage visitors",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 140 (Clinical Priority Set 2 - Q40)
-  {
-    question: "A competent adult refuses life-saving surgery. What should the nurse do?",
-    optionA: "Respect the decision and inform the team",
-    optionB: "Force consent",
-    optionC: "Ask relatives to sign",
-    optionD: "Ignore the refusal",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 141 (Clinical Priority Set 2 - Q41)
-  {
-    question: "A patient with pulmonary edema is coughing pink frothy sputum. What is the best position?",
-    optionA: "High Fowler’s",
-    optionB: "Supine",
-    optionC: "Prone",
-    optionD: "Trendelenburg",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 142 (Clinical Priority Set 2 - Q42)
-  {
-    question: "A newborn is apneic immediately after birth. What is the FIRST step in resuscitation?",
-    optionA: "Warm, dry, stimulate, and assess breathing",
-    optionB: "Start chest compressions immediately",
-    optionC: "Give glucose water",
-    optionD: "Suction routinely for 30 seconds",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 143 (Clinical Priority Set 2 - Q43)
-  {
-    question: "A patient with tuberculosis removes the mask and coughs continuously. What is the priority action?",
-    optionA: "Apply airborne precautions and re-educate",
-    optionB: "Ignore the behavior",
-    optionC: "Close curtains only",
-    optionD: "Move other patients",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 144 (Clinical Priority Set 2 - Q44)
-  {
-    question: "A postoperative patient has abdominal distension, vomiting, and absent bowel sounds. What should the nurse suspect?",
-    optionA: "Paralytic ileus",
-    optionB: "UTI",
-    optionC: "Gastritis",
-    optionD: "Constipation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 145 (Clinical Priority Set 2 - Q45)
-  {
-    question: "A patient with severe head injury has unequal pupils and decreasing consciousness. What is the priority?",
-    optionA: "Urgent neurological assessment and escalation",
-    optionB: "Give sedative",
-    optionC: "Allow sleep",
-    optionD: "Provide food",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 146 (Clinical Priority Set 2 - Q46)
-  {
-    question: "A patient receiving heparin develops bleeding from the IV site. What is the priority action?",
-    optionA: "Stop infusion if indicated and notify the provider",
-    optionB: "Increase the rate",
-    optionC: "Apply heat only",
-    optionD: "Ignore the bleeding",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 147 (Clinical Priority Set 2 - Q47)
-  {
-    question: "A woman with placenta previa presents with bright red painless bleeding. Which action should be avoided?",
-    optionA: "Digital vaginal examination",
-    optionB: "Monitoring vital signs",
-    optionC: "IV access",
-    optionD: "Fetal monitoring",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 148 (Clinical Priority Set 2 - Q48)
-  {
-    question: "A patient with sepsis becomes hypotensive, tachycardic, and confused. What is the priority?",
-    optionA: "Recognize septic shock and initiate emergency measures",
-    optionB: "Give oral fluids",
-    optionC: "Allow rest",
-    optionD: "Reassure only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 149 (Clinical Priority Set 2 - Q49)
-  {
-    question: "A child with meningitis is photophobic and irritable. What environmental modification is best?",
-    optionA: "Reduce light and noise",
-    optionB: "Increase stimulation",
-    optionC: "Keep television on",
-    optionD: "Encourage visitors",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 150 (Clinical Priority Set 2 - Q50)
-  {
-    question: "A competent adult refuses life-saving surgery. What should the nurse do?",
-    optionA: "Respect the decision and inform the team",
-    optionB: "Force consent",
-    optionC: "Ask relatives to sign",
-    optionD: "Ignore the refusal",
-    correctAnswer: "A",
-    explanation: ""
-  }
+  {
+    question: "The normal physiological pH of human arterial blood is tightly maintained between:",
+    optionA: "7.15 and 7.25",
+    optionB: "7.35 and 7.45",
+    optionC: "7.50 and 7.60",
+    optionD: "6.80 and 7.10",
+    correctAnswer: "B",
+    explanation: "Normal arterial blood pH ranges between 7.35 and 7.45; values below 7.35 indicate acidosis, while values above 7.45 indicate alkalosis.",
+  },
+  {
+    question: "The outermost serous layer of the pericardial sac that anchors the heart within the mediastinum is the:",
+    optionA: "Fibrous pericardium",
+    optionB: "Visceral epicardium",
+    optionC: "Endocardium",
+    optionD: "Myocardium",
+    correctAnswer: "A",
+    explanation: "The tough, fibrous pericardium protects the heart, prevents excessive overfilling, and anchors it to surrounding thoracic structures.",
+  },
+  {
+    question: "Why is an aspirated foreign body significantly more likely to lodge in the right mainstem bronchus than the left?",
+    optionA: "The right bronchus is wider, shorter, and runs more vertically than the left",
+    optionB: "The right bronchus is narrower and more horizontal than the left",
+    optionC: "The right lung has only two lobes, creating greater suction",
+    optionD: "The left bronchus originates directly from the carina without an angle",
+    correctAnswer: "A",
+    explanation: "The right principal bronchus is wider, shorter (approx. 2.5 cm vs 5 cm), and more vertical than the left, making it the most frequent path for aspirated objects.",
+  },
+  {
+    question: "Which enzyme present in saliva and pancreatic juice initiates the chemical hydrolysis of dietary starches into maltose?",
+    optionA: "Pepsin",
+    optionB: "Amylase (ptyalin)",
+    optionC: "Trypsin",
+    optionD: "Lipase",
+    correctAnswer: "B",
+    explanation: "Alpha-amylase hydrolyzes internal alpha-1,4-glucosidic bonds in complex starch polysaccharides, converting them into maltose and dextrins.",
+  },
+  {
+    question: "Antidiuretic hormone (ADH / vasopressin), which increases water reabsorption in renal collecting tubules, is produced in the:",
+    optionA: "Anterior pituitary",
+    optionB: "Hypothalamus (supraoptic and paraventricular nuclei)",
+    optionC: "Adrenal cortex",
+    optionD: "Renal pelvis",
+    correctAnswer: "B",
+    explanation: "ADH is synthesized in hypothalamic neuron cell bodies and transported axonally to the posterior pituitary (neurohypophysis) for storage and vascular release.",
+  },
+  {
+    question: "The auditory tube (Eustachian tube) directly connects the middle ear cavity with which part of the pharynx to equalize atmospheric pressure?",
+    optionA: "Oropharynx",
+    optionB: "Nasopharynx",
+    optionC: "Laryngopharynx",
+    optionD: "Hypopharynx",
+    correctAnswer: "B",
+    explanation: "The Eustachian pharyngotympanic tube connects the middle ear tympanic cavity with the lateral wall of the nasopharynx, maintaining equal pressure across the eardrum.",
+  },
+  {
+    question: "When assessing a client with acute pericarditis, which landmark physical finding is most characteristic?",
+    optionA: "Mid-systolic ejection murmur at the base",
+    optionB: "Pericardial friction rub heard best at the left lower sternal border",
+    optionC: "S3 ventricular gallop in the apical region",
+    optionD: "Muffled heart sounds with pulsus alternans",
+    correctAnswer: "B",
+    explanation: "A high-pitched, scratchy, or grating sound known as a pericardial friction rub, heard best at the left lower sternal border with the patient leaning forward, is pathognomonic of pericarditis.",
+  },
+  {
+    question: "A client presenting with severe epigastric pain radiating through to the back, nausea, vomiting, and elevated serum lipase is most likely suffering from:",
+    optionA: "Acute cholecystitis",
+    optionB: "Acute pancreatitis",
+    optionC: "Perforated peptic ulcer",
+    optionD: "Acute appendicitis",
+    correctAnswer: "B",
+    explanation: "Severe epigastric pain radiating directly to the back accompanied by marked elevation of serum amylase and lipase is diagnostic of acute pancreatitis.",
+  },
+  {
+    question: "A client with myasthenia gravis experiences a sudden worsening of muscle weakness and respiratory distress. To differentiate a myasthenic crisis from a cholinergic crisis, which diagnostic drug is administered?",
+    optionA: "Edrophonium chloride (Tensilon test)",
+    optionB: "Neostigmine methylsulfate",
+    optionC: "Atropine sulfate",
+    optionD: "Pyridostigmine bromide",
+    correctAnswer: "A",
+    explanation: "Edrophonium (Tensilon) is a rapid, short-acting anticholinesterase; improvement in muscle strength confirms myasthenic crisis, whereas worsening confirms cholinergic crisis.",
+  },
+  {
+    question: "A patient with Addison's disease is admitted in adrenal crisis. Which laboratory profile is characteristic of primary adrenocortical insufficiency?",
+    optionA: "Hypernatremia, hypokalemia, and hyperglycemia",
+    optionB: "Hyponatremia, hyperkalemia, and hypoglycemia",
+    optionC: "Hypercalcemia, hypernatremia, and hypocalcemia",
+    optionD: "Hypophosphatemia, hypermagnesemia, and metabolic alkalosis",
+    correctAnswer: "B",
+    explanation: "Deficiency of aldosterone causes renal sodium wasting and potassium retention (hyponatremia, hyperkalemia), while cortisol deficiency causes hypoglycemia and vascular collapse.",
+  },
+  {
+    question: "Which diagnostic finding is considered the gold standard for confirming active pulmonary tuberculosis?",
+    optionA: "Positive Mantoux tuberculin skin test measuring 15 mm induration",
+    optionB: "Identification of Mycobacterium tuberculosis by sputum culture",
+    optionC: "Apical cavitary lesions on chest radiograph",
+    optionD: "Presence of non-caseating granulomas on lymph node biopsy",
+    correctAnswer: "B",
+    explanation: "While AFB smear provides rapid presumptive evidence, definitive diagnosis of active tuberculosis requires culturing Mycobacterium tuberculosis from sputum or tissue.",
+  },
+  {
+    question: "Which physiological vascular shunt allows oxygenated fetal blood from the umbilical vein to bypass the fetal liver and drain into the inferior vena cava?",
+    optionA: "Foramen ovale",
+    optionB: "Ductus venosus",
+    optionC: "Ductus arteriosus",
+    optionD: "Hypogastric artery",
+    correctAnswer: "B",
+    explanation: "The ductus venosus shunts approximately half of the highly oxygenated umbilical venous blood directly into the inferior vena cava, bypassing the hepatic capillary bed.",
+  },
+  {
+    question: "Apgar scoring in the newborn infant is systematically performed at which standard time intervals after birth?",
+    optionA: "At birth and at 30 minutes",
+    optionB: "At 1 minute and 5 minutes after birth",
+    optionC: "At 5 minutes and 15 minutes after birth",
+    optionD: "Every 15 minutes for the first 2 hours",
+    correctAnswer: "B",
+    explanation: "The Apgar score is assessed at 1 minute to reflect initial transitional status and at 5 minutes to evaluate adaptation and response to resuscitative interventions.",
+  },
+  {
+    question: "A sunken, depressed anterior fontanelle in an infant suffering from acute watery diarrhea and vomiting is a sensitive physical sign of:",
+    optionA: "Increased intracranial pressure",
+    optionB: "Severe dehydration and fluid volume depletion",
+    optionC: "Hydrocephalus",
+    optionD: "Premature craniosynostosis",
+    correctAnswer: "B",
+    explanation: "A sunken anterior fontanelle reflects decreased intravascular and cerebrospinal fluid volume due to moderate-to-severe dehydration in infants.",
+  },
+  {
+    question: "Under the Nigerian Expanded Program on Immunization (EPI) schedule, which vaccines are administered to a newborn immediately at birth?",
+    optionA: "Pentavalent vaccine and Measles vaccine",
+    optionB: "BCG (Bacille Calmette-Gu\u00e9rin), Oral Polio Vaccine zero dose (OPV-0), and Hepatitis B birth dose (Hep B-0)",
+    optionC: "Yellow fever and Meningococcal conjugate vaccine",
+    optionD: "Inactivated Polio Vaccine (IPV) and Pneumococcal Conjugate Vaccine (PCV)",
+    correctAnswer: "B",
+    explanation: "At birth, infants receive intradermal BCG for tuberculosis, oral drops of OPV-0, and intramuscular monovalent Hepatitis B vaccine within the first 24 hours.",
+  },
+  {
+    question: "What is the primary first-line uterotonic drug of choice administered for the prevention and management of postpartum hemorrhage due to uterine atony?",
+    optionA: "Magnesium sulfate IV",
+    optionB: "Oxytocin (Pitocin) 10 IU IM or IV infusion",
+    optionC: "Terbutaline subcutaneous",
+    optionD: "Nifedipine oral",
+    correctAnswer: "B",
+    explanation: "Oxytocin stimulates rhythmic, firm contractions of the uterine smooth muscle, compressing intramyometrial blood vessels at the placental site to halt hemorrhage.",
+  },
+  {
+    question: "Which cluster of symptoms constitutes the classic extrapyramidal symptom (EPS) complex known as acute dystonic reaction caused by typical antipsychotics like haloperidol?",
+    optionA: "Restless pacing, inability to sit still, and jittery legs",
+    optionB: "Acute painful spasms of the neck muscles (torticollis), upward gaze of the eyes (oculogyric crisis), and facial grimacing",
+    optionC: "Involuntary choreoathetoid movements of the tongue and lip smacking",
+    optionD: "Shuffling gait, pill-rolling tremor, and cogwheel rigidity",
+    correctAnswer: "B",
+    explanation: "Acute dystonia occurs within hours to days of starting dopamine antagonists and presents with dramatic, painful muscular contractions of the head, neck, eyes, and tongue.",
+  },
+  {
+    question: "Which ego defense mechanism is considered the most mature and constructive, wherein socially unacceptable drives are channeled into productive, creative activities?",
+    optionA: "Repression",
+    optionB: "Sublimation",
+    optionC: "Displacement",
+    optionD: "Denial",
+    correctAnswer: "B",
+    explanation: "Sublimation transforms instinctual aggressive or sexual urges into culturally valued and constructive behaviors (e.g., channel aggression into contact sports or surgical career).",
+  },
+  {
+    question: "In the epidemiological triangle of disease causation, the three interacting vertex components are:",
+    optionA: "Doctor, nurse, and patient",
+    optionB: "Agent, Host, and Environment",
+    optionC: "Bacteria, virus, and fungus",
+    optionD: "Heredity, diet, and lifestyle",
+    correctAnswer: "B",
+    explanation: "The epidemiological triad model posits that infectious and chronic disease occurrence results from complex interactions between the causative Agent, the susceptible Host, and the supportive Environment.",
+  },
+  {
+    question: "The transmission of Onchocerciasis (River Blindness) caused by Onchocerca volvulus occurs through the bite of which insect vector that breeds in fast-flowing rivers?",
+    optionA: "Anopheles mosquito",
+    optionB: "Simulium damnosum (Blackfly)",
+    optionC: "Chrysops deer fly",
+    optionD: "Culex mosquito",
+    correctAnswer: "B",
+    explanation: "Simulium blackflies breed in rapidly flowing, well-oxygenated rivers and streams, transmitting the microfilariae that cause severe pruritus and river blindness.",
+  },
+  {
+    question: "A Ventilated Improved Pit (VIP) latrine prevents offensive odors and controls the breeding of blowflies primarily by having:",
+    optionA: "A completely airtight trap door",
+    optionB: "A tall external vertical vent pipe covered with a fine fly-screen mesh at the top",
+    optionC: "Daily pouring of 10 liters of diesel fuel into the pit",
+    optionD: "A mechanical motorized exhaust fan",
+    correctAnswer: "B",
+    explanation: "Wind blowing across the top of the vent pipe draws odors out of the pit, while sunlight at the screened top attracts newly emerged flies into the trap where they die.",
+  },
+  {
+    question: "A pediatric patient weighing 20 kg requires an antibiotic ordered at 25 mg/kg/day divided into 2 equal doses every 12 hours. How many milligrams should the child receive per individual dose?",
+    optionA: "150 mg",
+    optionB: "250 mg",
+    optionC: "500 mg",
+    optionD: "1,000 mg",
+    correctAnswer: "B",
+    explanation: "Total daily dose = 20 kg x 25 mg/kg/day = 500 mg/day. Dividing into two equal doses gives 500 mg / 2 = 250 mg per dose.",
+  },
+  {
+    question: "The ethical principle of 'Non-maleficence' is best summarized by the ancient medical aphorism:",
+    optionA: "'Respect patient autonomy above all'",
+    optionB: "'Primum non nocere' (First, do no harm)",
+    optionC: "'Treat everyone equally'",
+    optionD: "'Keep all promises faithfully'",
+    correctAnswer: "B",
+    explanation: "Non-maleficence requires healthcare professionals to avoid causing unnecessary pain, injury, or harm to patients during treatment.",
+  },
+  {
+    question: "In formulating a three-part NANDA nursing diagnosis for an actual problem, the three components arranged in PES format stand for:",
+    optionA: "Problem, Etiology, and Symptoms / Defining characteristics",
+    optionB: "Planning, Execution, and Supervision",
+    optionC: "Prognosis, Examination, and Staging",
+    optionD: "Pathology, Electrolytes, and Solutions",
+    correctAnswer: "A",
+    explanation: "The PES format comprises: P = Diagnostic label (Problem), E = Related to factor (Etiology), and S = As evidenced by (Signs, symptoms, and defining characteristics).",
+  },
+  {
+    question: "The leadership style where the nurse manager maintains centralized authority, makes decisions without staff input, and relies on strict downward directives is classified as:",
+    optionA: "Laissez-faire leadership",
+    optionB: "Democratic leadership",
+    optionC: "Autocratic (authoritarian) leadership",
+    optionD: "Transformational leadership",
+    correctAnswer: "C",
+    explanation: "Autocratic leaders retain maximum power and decision-making authority, dictating tasks and procedures with minimal delegation or consultative interaction.",
+  },
+  {
+    question: "When obtaining informed consent before major surgery, the legal responsibility of obtaining and explaining the risks, benefits, and alternatives rests with the:",
+    optionA: "Operating room scrub nurse",
+    optionB: "Staff staff bedside nurse",
+    optionC: "Surgeon / operating physician who performs the procedure",
+    optionD: "Hospital risk manager",
+    correctAnswer: "C",
+    explanation: "The provider performing the procedure carries the legal duty to explain the diagnosis, procedure, risks, benefits, and alternatives; the nurse witnesses the patient's signature.",
+  },
+  {
+    question: "Which region of the cardiac conduction system possesses the fastest intrinsic pacemaking rate?",
+    optionA: "Atrioventricular (AV) node",
+    optionB: "Bundle of His",
+    optionC: "Sinoatrial (SA) node",
+    optionD: "Purkinje fibers",
+    correctAnswer: "C",
+    explanation: "The sinoatrial node has an intrinsic spontaneous depolarization rate of 60 to 100 impulses per minute, functioning as the primary physiological pacemaker.",
+  },
+  {
+    question: "Which substance synthesized by type II alveolar pneumocytes decreases surface tension within the alveoli to prevent atelectasis?",
+    optionA: "Mucin",
+    optionB: "Surfactant (dipalmitoylphosphatidylcholine)",
+    optionC: "Heparin",
+    optionD: "Histamine",
+    correctAnswer: "B",
+    explanation: "Pulmonary surfactant reduces surface tension at the air-liquid interface within alveoli, maintaining alveolar stability and preventing collapse on expiration.",
+  },
+  {
+    question: "Which hormone synthesized by the anterior pituitary gland stimulates the thyroid to produce thyroxine (T4) and triiodothyronine (T3)?",
+    optionA: "Adrenocorticotropic hormone (ACTH)",
+    optionB: "Thyroid-stimulating hormone (TSH / Thyrotropin)",
+    optionC: "Luteinizing hormone (LH)",
+    optionD: "Growth hormone (GH)",
+    correctAnswer: "B",
+    explanation: "TSH secreted by anterior pituitary thyrotrophs stimulates iodide uptake, thyroglobulin iodination, and release of T3 and T4 from thyroid follicular cells.",
+  },
+  {
+    question: "The portal vein carries nutrient-rich, deoxygenated blood to the liver from which organs?",
+    optionA: "Kidneys, adrenal glands, and urinary bladder",
+    optionB: "Stomach, intestines, spleen, pancreas, and gallbladder",
+    optionC: "Brain, lungs, and heart",
+    optionD: "Lower extremities and pelvic reproductive organs",
+    correctAnswer: "B",
+    explanation: "The hepatic portal system drains venous blood containing absorbed digestive products from the gastrointestinal tract and spleen directly to liver sinusoids.",
+  },
+  {
+    question: "Which synovial joint provides the greatest range of multi-axial movement in the human body?",
+    optionA: "Hinge joint of the elbow",
+    optionB: "Pivot joint of the atlantoaxial articulation",
+    optionC: "Ball-and-socket joint of the shoulder (glenohumeral joint)",
+    optionD: "Saddle joint of the thumb",
+    correctAnswer: "C",
+    explanation: "The glenohumeral ball-and-socket joint provides the widest freedom of motion, permitting flexion, extension, abduction, adduction, circumduction, and rotation.",
+  },
+  {
+    question: "A patient taking warfarin sodium requires monitoring of which laboratory test to determine anticoagulant efficacy?",
+    optionA: "Activated Partial Thromboplastin Time (aPTT)",
+    optionB: "Prothrombin Time (PT) and International Normalized Ratio (INR)",
+    optionC: "Serum fibrinogen concentration",
+    optionD: "Bleeding time",
+    correctAnswer: "B",
+    explanation: "Warfarin inhibits vitamin K-dependent clotting factors (II, VII, IX, X), monitored clinically via PT and standardized INR (therapeutic range typically 2.0 to 3.0).",
+  },
+  {
+    question: "When assessing an arteriovenous (AV) fistula in the left forearm of a hemodialysis patient, which findings confirm vascular patency?",
+    optionA: "Absence of sound on auscultation and flat veins",
+    optionB: "A palpable thrill on palpation and a distinct bruit on auscultation",
+    optionC: "Pulsatile redness with severe pain",
+    optionD: "Coolness and cyanosis of the distal digits",
+    correctAnswer: "B",
+    explanation: "Turbulent high-velocity arterial blood entering the lower-pressure vein generates a palpable vibration (thrill) and an audible continuous rushing murmur (bruit).",
+  },
+  {
+    question: "Which clinical assessment sign indicates right-sided heart failure rather than left-sided heart failure?",
+    optionA: "Pulmonary crackles (rales) and orthopnea",
+    optionB: "Jugular venous distention (JVD), peripheral dependent edema, and hepatomegaly",
+    optionC: "Hemoptysis and paroxysmal nocturnal dyspnea",
+    optionD: "S3 ventricular gallop with pulmonary edema",
+    correctAnswer: "B",
+    explanation: "Right-sided heart failure causes systemic venous congestion leading to elevated jugular venous pressure, liver enlargement, and bilateral pedal edema.",
+  },
+  {
+    question: "When auscultating the lungs of a client with lobar bacterial pneumonia, which physical assessment finding is expected over the consolidated lung zone?",
+    optionA: "Hyperresonance on percussion and decreased vocal fremitus",
+    optionB: "Dullness to percussion, increased tactile fremitus, and bronchial breath sounds",
+    optionC: "Vesicular breath sounds with prolonged expiration",
+    optionD: "Tympanitic percussion notes with friction rubs",
+    correctAnswer: "B",
+    explanation: "Dense alveolar consolidation transmits sound vibrations more effectively than air-filled tissue, causing dullness to percussion, enhanced tactile fremitus, and bronchial breath sounds.",
+  },
+  {
+    question: "A client with type 1 diabetes is admitted in Diabetic Ketoacidosis (DKA). The nurse observes deep, rapid, unlabored breathing with a fruity acetone odor. This breathing pattern is:",
+    optionA: "Cheyne-Stokes respiration",
+    optionB: "Kussmaul breathing (respiratory compensation for metabolic acidosis)",
+    optionC: "Biot's respiration",
+    optionD: "Hypoventilation",
+    correctAnswer: "B",
+    explanation: "Kussmaul respirations are deep, rapid breathing movements triggered by medullary chemoreceptors to blow off volatile carbonic acid (CO2) in severe metabolic acidosis.",
+  },
+  {
+    question: "In assessing a client for meningeal irritation, the nurse flexes the client's neck forward toward the chest, which elicits involuntary flexion of the hips and knees. This positive sign is:",
+    optionA: "Kernig's sign",
+    optionB: "Brudzinski's sign",
+    optionC: "Babinski's sign",
+    optionD: "Chvostek's sign",
+    correctAnswer: "B",
+    explanation: "Brudzinski's neck sign is positive when passive neck flexion stretches irritated meninges, provoking reflex defensive flexion of the lower extremities at the hips and knees.",
+  },
+  {
+    question: "Which stage of labor commences with the complete effacement and dilation of the cervix (10 cm) and terminates with the birth of the baby?",
+    optionA: "First stage of labor",
+    optionB: "Second stage of labor",
+    optionC: "Third stage of labor",
+    optionD: "Fourth stage of labor",
+    correctAnswer: "B",
+    explanation: "The second stage of labor is the stage of fetal expulsion, beginning at full cervical dilation (10 cm) and concluding when the neonate is completely delivered.",
+  },
+  {
+    question: "In an infant diagnosed with hypertrophic pyloric stenosis, the nurse would expect to assess which cardinal sign?",
+    optionA: "Projectile non-bilious vomiting shortly after feeding and an olive-shaped mass in the epigastrium",
+    optionB: "Bile-stained vomitus with diarrhea",
+    optionC: "Severe flatulence with rectal prolapse",
+    optionD: "Constant fever and hematochezia",
+    correctAnswer: "A",
+    explanation: "Hypertrophy of the circular pyloric sphincter muscle obstructs gastric emptying, resulting in forceful projectile vomiting of uncurdled/curdled milk without bile and a palpable olive mass.",
+  },
+  {
+    question: "A patient with severe obsessive-compulsive disorder (OCD) spends 2 hours repeatedly washing their hands before eating. When planning initial nursing interventions, the nurse should:",
+    optionA: "Physically lock the bathroom door to stop the ritual abruptly",
+    optionB: "Allow initial time for the ritual while gradually setting structured limits and teaching alternative coping techniques",
+    optionC: "Tell the patient that the behavior is illogical and forbidden",
+    optionD: "Ignore the handwashing completely",
+    correctAnswer: "B",
+    explanation: "Abruptly preventing compulsive rituals generates acute overwhelming anxiety; initially allowing time while collaborating on gradual desensitization and boundary setting is therapeutic.",
+  },
+  {
+    question: "Which epidemiological indicator represents the number of new cases of a specific disease that develop in a population at risk during a specified period of time?",
+    optionA: "Prevalence rate",
+    optionB: "Incidence rate",
+    optionC: "Case fatality rate",
+    optionD: "Attack rate",
+    correctAnswer: "B",
+    explanation: "Incidence measures the rate of new disease occurrence over time, whereas prevalence reflects the total proportion of existing cases (both old and new) in a population.",
+  },
+  {
+    question: "When administering oral iron supplements (ferrous sulfate) to a client with iron-deficiency anemia, which beverage enhances intestinal iron absorption?",
+    optionA: "Whole milk",
+    optionB: "Orange juice (Vitamin C / Ascorbic acid)",
+    optionC: "Black tea",
+    optionD: "Hot coffee",
+    correctAnswer: "B",
+    explanation: "Ascorbic acid (vitamin C) reduces ferric iron (Fe3+) to the more soluble ferrous form (Fe2+), significantly enhancing duodenal iron uptake.",
+  },
+  {
+    question: "The cellular name for red blood corpuscles is:",
+    optionA: "Erythrocytes",
+    optionB: "Leucocytes",
+    optionC: "Lymphocytes",
+    optionD: "Thrombocytes",
+    correctAnswer: "A",
+    explanation: "Erythrocytes (red blood cells) are specialized biconcave discs containing hemoglobin designed to transport oxygen.",
+  },
+  {
+    question: "The total duration of a normal human cardiac cycle at a resting heart rate of 75 beats per minute is:",
+    optionA: "0.1 second",
+    optionB: "0.3 second",
+    optionC: "0.8 second",
+    optionD: "1.0 second",
+    correctAnswer: "C",
+    explanation: "At 75 beats per minute, each complete cardiac cycle (atrial and ventricular systole and diastole) lasts 60 / 75 = 0.8 second.",
+  },
+  {
+    question: "The exchange of oxygen and carbon dioxide between inspired air and pulmonary blood occurs specifically in the:",
+    optionA: "Alveolar air sacs (alveoli)",
+    optionB: "Trachea",
+    optionC: "Segmental bronchi",
+    optionD: "Nasal turbinates",
+    correctAnswer: "A",
+    explanation: "Alveoli provide an immense, thin diffusion surface (approx. 70-100 square meters) where gas exchange takes place.",
+  },
+  {
+    question: "The auditory (Eustachian) tube connects the middle ear cavity directly to the:",
+    optionA: "Nasopharynx",
+    optionB: "Oropharynx",
+    optionC: "Laryngopharynx",
+    optionD: "External auditory canal",
+    correctAnswer: "A",
+    explanation: "The Eustachian tube vents the tympanic cavity into the lateral wall of the nasopharynx to equilibrate middle ear and ambient pressures.",
+  },
+  {
+    question: "Cerebrospinal fluid (CSF) is actively produced by vascular capillary networks in the ventricles known as:",
+    optionA: "Arachnoid villi",
+    optionB: "Choroid plexuses",
+    optionC: "Cerebral aqueduct",
+    optionD: "Corpus callosum",
+    correctAnswer: "B",
+    explanation: "The choroid plexuses in the lateral, third, and fourth cerebral ventricles secrete approximately 500 mL of clear CSF daily.",
+  },
+  {
+    question: "The primary function of the cerebellum is to:",
+    optionA: "Initiate conscious voluntary motor intent",
+    optionB: "Coordinate voluntary muscle movements, maintain balance, posture, and fine motor precision",
+    optionC: "Regulate autonomic heart rate and breathing",
+    optionD: "Control endocrine hormone secretion",
+    correctAnswer: "B",
+    explanation: "The cerebellum acts as a motor comparator and coordinator, smoothing somatic muscular activities and preserving equilibrium.",
+  },
+  {
+    question: "The tough, white, opaque outer fibrous coat of the eyeball is called the:",
+    optionA: "Cornea",
+    optionB: "Sclera",
+    optionC: "Choroid",
+    optionD: "Retina",
+    correctAnswer: "B",
+    explanation: "The sclera ('white of the eye') maintains the shape of the eyeball, protects delicate internal structures, and provides insertion points for extraocular muscles.",
+  },
+  {
+    question: "Which organ does NOT drain its venous blood into the portal vein?",
+    optionA: "Stomach",
+    optionB: "Spleen",
+    optionC: "Kidney",
+    optionD: "Small intestine",
+    correctAnswer: "C",
+    explanation: "The kidneys drain their venous blood directly into the inferior vena cava via the renal veins, completely bypassing the hepatic portal system.",
+  },
+  {
+    question: "Cranial sutures between bones of the skull are classic examples of which joint classification?",
+    optionA: "Synovial joints",
+    optionB: "Fibrous joints (synarthroses)",
+    optionC: "Cartilaginous joints",
+    optionD: "Saddle joints",
+    correctAnswer: "B",
+    explanation: "Sutures are immovable fibrous joints where adjacent skull bones are bound tightly together by dense fibrous connective tissue fibers.",
+  },
+  {
+    question: "Deficiency of dietary Thiamine (Vitamin B1) is the specific etiology of which clinical nutritional disease?",
+    optionA: "Pellagra",
+    optionB: "Beriberi (dry and wet)",
+    optionC: "Scurvy",
+    optionD: "Rickets",
+    correctAnswer: "B",
+    explanation: "Thiamine deficiency causes beriberi, which manifests as peripheral neuropathy and muscle wasting (dry beriberi) or high-output heart failure (wet beriberi).",
+  },
+  {
+    question: "In assessing a newborn at one minute after delivery, the nurse observes: heart rate 110 bpm, vigorous cry, active motion of all extremities, prompt sneezing on bulb suction, and a pink body with blue hands and feet (acrocyanosis). What is the calculated Apgar score?",
+    optionA: "8",
+    optionB: "9",
+    optionC: "10",
+    optionD: "7",
+    correctAnswer: "B",
+    explanation: "Heart rate >100 = 2; Vigorous cry = 2; Active muscle tone = 2; Reflex irritability (sneeze) = 2; Color (acrocyanosis) = 1. Total score = 2 + 2 + 2 + 2 + 1 = 9.",
+  },
+  {
+    question: "What is the recommended ideal temperature range for storing potent vaccines in the cold chain refrigerator at a primary health care clinic?",
+    optionA: "-5\u00b0C to 0\u00b0C",
+    optionB: "+2\u00b0C to +8\u00b0C",
+    optionC: "+10\u00b0C to +15\u00b0C",
+    optionD: "+18\u00b0C to +24\u00b0C",
+    correctAnswer: "B",
+    explanation: "The World Health Organization (WHO) cold chain protocol mandates storing refrigerated vaccines between +2\u00b0C and +8\u00b0C (+35\u00b0F to +46\u00b0F).",
+  },
+  {
+    question: "Which condition in pregnancy is characterized by painless, bright red vaginal bleeding in the third trimester of gestation?",
+    optionA: "Abruptio placentae",
+    optionB: "Placenta previa",
+    optionC: "Ectopic pregnancy",
+    optionD: "Molar pregnancy",
+    correctAnswer: "B",
+    explanation: "Placenta previa classically presents as sudden, painless, bright red vaginal bleeding in the second or third trimester due to placental implantation over or near the cervical os.",
+  },
+  {
+    question: "Which immunoglobulin is the most abundant in human breast milk and colostrum, conferring passive mucosal immunity to the nursing infant?",
+    optionA: "Immunoglobulin G (IgG)",
+    optionB: "Immunoglobulin A (Secretory IgA)",
+    optionC: "Immunoglobulin M (IgM)",
+    optionD: "Immunoglobulin E (IgE)",
+    correctAnswer: "B",
+    explanation: "Secretory IgA (sIgA) is the predominant antibody class in colostrum and breast milk, protecting the infant's gastrointestinal and respiratory tracts against pathogens.",
+  },
+  {
+    question: "Which clinical assessment test is positive when passive flexion of the patient's neck induces involuntary flexion of both hips and knees in acute bacterial meningitis?",
+    optionA: "Kernig's sign",
+    optionB: "Brudzinski's sign",
+    optionC: "Babinski's reflex",
+    optionD: "Chvostek's sign",
+    correctAnswer: "B",
+    explanation: "Brudzinski's neck sign is positive when passive neck flexion elicits reflex flexion of hips and knees, indicating severe meningeal irritation.",
+  },
+  {
+    question: "Severe pathological hypersecretion of growth hormone (GH) occurring after the closure of epiphyseal growth plates in an adult causes:",
+    optionA: "Pituitary gigantism",
+    optionB: "Acromegaly (coarsening of facial features, spade-like enlargement of hands and feet, and prognathism)",
+    optionC: "Cushing's disease",
+    optionD: "Simmonds' panhypopituitarism",
+    correctAnswer: "B",
+    explanation: "After epiphyseal fusion, excess GH causes membranous bone and soft tissue hypertrophy (acromegaly) rather than longitudinal growth.",
+  },
+  {
+    question: "In the 'Rule of Nines' used to estimate total body surface area (TBSA) burned in adults, the anterior and posterior surface of one entire lower extremity is allocated:",
+    optionA: "9%",
+    optionB: "18%",
+    optionC: "36%",
+    optionD: "4.5%",
+    correctAnswer: "B",
+    explanation: "Under the Wallace Rule of Nines, each entire lower extremity represents 18% of adult TBSA (9% anterior surface, 9% posterior surface).",
+  },
+  {
+    question: "When suctioning an adult client with a tracheostomy tube, what is the maximum duration of continuous suctioning allowed per pass to avoid severe hypoxia?",
+    optionA: "30 to 45 seconds",
+    optionB: "10 to 15 seconds",
+    optionC: "1 minute",
+    optionD: "25 to 30 seconds",
+    correctAnswer: "B",
+    explanation: "Suctioning evacuates alveolar oxygen along with secretions; passes must be limited to 10 to 15 seconds following pre-oxygenation with 100% O2 to prevent lethal dysrhythmias.",
+  },
+  {
+    question: "Which type of shock is caused by systemic loss of vascular tone and massive peripheral vasodilation resulting from severe bacterial endotoxemia?",
+    optionA: "Cardiogenic shock",
+    optionB: "Septic shock (Distributive shock)",
+    optionC: "Hypovolemic shock",
+    optionD: "Obstructive shock",
+    correctAnswer: "B",
+    explanation: "Septic shock is characterized by bacterial lipopolysaccharides triggering widespread nitric oxide release, profound vasodilation, capillary leakage, and refractory hypotension.",
+  },
+  {
+    question: "A patient with suspected deep venous thrombosis has a positive D-dimer test. The nurse understands that an elevated D-dimer reflects:",
+    optionA: "Excessive platelet synthesis",
+    optionB: "Active intravascular fibrin degradation and endogenous clot lysis",
+    optionC: "Severe arterial calcification",
+    optionD: "Bone marrow depression",
+    correctAnswer: "B",
+    explanation: "D-dimer is a specific degradation product of cross-linked fibrin; elevated levels indicate recent thrombus formation and subsequent plasmin fibrinolysis.",
+  },
+  {
+    question: "Ecchymotic discoloration of the bilateral flanks in acute severe hemorrhagic pancreatitis is documented as:",
+    optionA: "Cullen's sign",
+    optionB: "Grey Turner's sign",
+    optionC: "Kernig's sign",
+    optionD: "Brudzinski's sign",
+    correctAnswer: "B",
+    explanation: "Grey Turner's sign manifests as blue-red discoloration of the flank tissues due to tissue catabolism of retroperitoneal hemoglobin.",
+  },
+  {
+    question: "Which bone of the skull contains the cribriform plate with olfactory foramina for the passage of Cranial Nerve I fibers?",
+    optionA: "Ethmoid bone",
+    optionB: "Frontal bone",
+    optionC: "Sphenoid bone",
+    optionD: "Lacrimal bone",
+    correctAnswer: "A",
+    explanation: "The horizontal cribriform plate of the ethmoid bone transmits olfactory nerve filaments from the nasal cavity into the anterior cranial fossa.",
+  },
+  {
+    question: "Vital capacity (VC) of the lungs is defined as the maximum volume of air that can be expired after a maximal inspiration, and is the sum of:",
+    optionA: "Tidal volume and residual volume",
+    optionB: "Tidal volume, Inspiratory Reserve Volume, and Expiratory Reserve Volume",
+    optionC: "Total lung capacity minus tidal volume",
+    optionD: "Residual volume plus expiratory reserve volume",
+    correctAnswer: "B",
+    explanation: "Vital capacity equals TV + IRV + ERV, measuring the maximum usable volume excursion of the respiratory system (approx. 4500-5000 mL).",
+  },
+  {
+    question: "The maximum normal duration of the QRS complex in healthy adults is:",
+    optionA: "Less than 0.12 second (3 small squares)",
+    optionB: "0.20 second",
+    optionC: "0.30 second",
+    optionD: "0.02 second",
+    correctAnswer: "A",
+    explanation: "A normal narrow QRS measures less than 0.10 to 0.12 second; widening >=0.12 second suggests bundle branch block or ventricular origin.",
+  },
+  {
+    question: "The left atrioventricular valve, consisting of two triangular cusps, is named the:",
+    optionA: "Tricuspid valve",
+    optionB: "Bicuspid (mitral) valve",
+    optionC: "Semilunar valve",
+    optionD: "Eustachian valve",
+    correctAnswer: "B",
+    explanation: "The mitral or bicuspid valve regulates unidirectional oxygenated blood flow from the left atrium into the high-pressure left ventricle.",
+  },
+  {
+    question: "The three longitudinal bands of smooth muscle that traverse the length of the colon and bunch it into haustral pouches are the:",
+    optionA: "Epiploic appendages",
+    optionB: "Taeniae coli",
+    optionC: "Circular plicae",
+    optionD: "Rugae",
+    correctAnswer: "B",
+    explanation: "Contraction of the three ribbon-like muscular bands (taeniae coli) causes the characteristic sacculated or puckered haustra of the large bowel.",
+  },
+  {
+    question: "Which blood vessel brings oxygen-rich arterial blood directly to the liver parenchyma to supply hepatocytes?",
+    optionA: "Hepatic portal vein",
+    optionB: "Hepatic artery proper",
+    optionC: "Superior mesenteric artery",
+    optionD: "Celiac trunk directly",
+    correctAnswer: "B",
+    explanation: "The hepatic artery delivers oxygenated arterial blood (approx. 25% of hepatic blood flow) to support metabolic hepatocyte function.",
+  },
+  {
+    question: "In evaluating a client following a thyroidectomy, which emergency equipment must always be maintained at the patient's bedside?",
+    optionA: "A central venous catheter tray",
+    optionB: "An emergency tracheostomy tray, suction apparatus, and calcium gluconate",
+    optionC: "A peritoneal dialysis catheter kit",
+    optionD: "A lumbar puncture set",
+    correctAnswer: "B",
+    explanation: "Laryngeal edema, tracheal compression from hemorrhage, or acute hypocalcemic tetany can cause sudden airway obstruction, requiring emergency bedside tracheostomy.",
+  },
+  {
+    question: "Which blood product is specifically indicated for rapid correction of multiple coagulation factor deficiencies in a bleeding client with liver disease or warfarin overdose?",
+    optionA: "Packed red blood cells (PRBCs)",
+    optionB: "Fresh Frozen Plasma (FFP)",
+    optionC: "Platelet concentrates",
+    optionD: "Cryoprecipitate alone",
+    correctAnswer: "B",
+    explanation: "FFP contains all soluble plasma coagulation factors (factors II, V, VII, VIII, IX, X, XI, XIII) and antithrombin III in physiological concentrations.",
+  },
+  {
+    question: "A client taking oral rifampicin for pulmonary tuberculosis should be warned that the drug causes which harmless bodily excretion change?",
+    optionA: "Bright blue urine",
+    optionB: "Red-orange discoloration of urine, sweat, tears, and saliva (which may permanently stain contact lenses)",
+    optionC: "Pale white chalky stools",
+    optionD: "Black tongue",
+    correctAnswer: "B",
+    explanation: "Rifampicin and its metabolites are deeply colored reddish-orange compounds excreted in all bodily secretions, which is benign but often alarming to patients.",
+  },
+  {
+    question: "In a client with status epilepticus, which rapid-acting intravenous benzodiazepine is the initial first-line drug of choice to terminate continuous seizures?",
+    optionA: "Oral phenobarbital",
+    optionB: "Intravenous Lorazepam (Ativan) or Diazepam (Valium)",
+    optionC: "Intravenous phenytoin over 2 hours",
+    optionD: "Subcutaneous morphine",
+    correctAnswer: "B",
+    explanation: "Intravenous lorazepam or diazepam rapidly crosses the blood-brain barrier to enhance GABA-ergic inhibition, halting prolonged seizure activity within 2 to 3 minutes.",
+  },
+  {
+    question: "The cheesy, whitish greasy biofilm that covers and protects the skin of the fetus in utero from maceration by amniotic fluid is:",
+    optionA: "Lanugo",
+    optionB: "Vernix caseosa",
+    optionC: "Milia",
+    optionD: "Erythema toxicum",
+    correctAnswer: "B",
+    explanation: "Vernix caseosa is a lipid-rich protective substance produced by fetal sebaceous glands that provides cutaneous hydration, lubrication, and antibacterial defense.",
+  },
+  {
+    question: "A collection of subperiosteal blood over a newborn cranial bone that does NOT cross suture lines because it is bound by periosteum is a:",
+    optionA: "Caput succedaneum",
+    optionB: "Cephalohematoma",
+    optionC: "Meningocele",
+    optionD: "Encephalocele",
+    correctAnswer: "B",
+    explanation: "A cephalohematoma involves ruptured subperiosteal capillaries over a single cranial bone (most often parietal), strictly bounded by suture attachments.",
+  },
+  {
+    question: "What is the primary pharmacological antidote administered for acute acetaminophen (paracetamol) overdose to prevent fatal hepatic centrilobular necrosis?",
+    optionA: "Naloxone",
+    optionB: "N-acetylcysteine (NAC / Mucomyst)",
+    optionC: "Atropine sulfate",
+    optionD: "Deferoxamine",
+    correctAnswer: "B",
+    explanation: "N-acetylcysteine restores depleted intracellular hepatic glutathione pools, enabling safe conjugation and detoxification of the toxic metabolite NAPQI.",
+  },
+  {
+    question: "Which United Nations agency is primarily mandated to direct and coordinate international public health policy, disease outbreaks, and global health standards?",
+    optionA: "UNICEF",
+    optionB: "World Health Organization (WHO)",
+    optionC: "UNESCO",
+    optionD: "UNDP",
+    correctAnswer: "B",
+    explanation: "The WHO is the specialized agency of the United Nations responsible for international public health leadership, global guidelines, and health monitoring.",
+  },
+  {
+    question: "Which large granular leukocyte plays a specialized role in defending the host against large multicellular parasitic helminths by releasing major basic protein?",
+    optionA: "Basophils",
+    optionB: "Eosinophils",
+    optionC: "Neutrophils",
+    optionD: "Monocytes",
+    correctAnswer: "B",
+    explanation: "Eosinophils bind to IgE-coated parasitic worms and degranulate cytotoxic proteins (major basic protein, eosinophil cationic protein) to destroy parasites.",
+  },
+  {
+    question: "The primary neurotransmitter released at somatic neuromuscular junctions to stimulate skeletal muscle contraction is:",
+    optionA: "Dopamine",
+    optionB: "Acetylcholine (ACh)",
+    optionC: "Serotonin",
+    optionD: "GABA",
+    correctAnswer: "B",
+    explanation: "Motor nerve action potentials trigger calcium influx, causing vesicular exocytosis of acetylcholine, which binds nicotinic receptors at the motor endplate.",
+  },
+  {
+    question: "The involuntary rhythmic wave of muscular contraction and relaxation that propels food boluses along the alimentary canal is called:",
+    optionA: "Segmentation",
+    optionB: "Peristalsis",
+    optionC: "Mastication",
+    optionD: "Deglutition",
+    correctAnswer: "B",
+    explanation: "Peristalsis is coordinated by the myenteric (Auerbach's) plexus, producing circular contraction behind the bolus and longitudinal contraction ahead of it.",
+  },
+  {
+    question: "The specialized cardiac conducting fibers that spread rapidly throughout the subendocardium of the ventricles are the:",
+    optionA: "Bachmann's bundle",
+    optionB: "Purkinje fibers",
+    optionC: "AV nodal delay pathways",
+    optionD: "Internodal tracts",
+    correctAnswer: "B",
+    explanation: "Purkinje fibers have large diameters and abundant gap junctions, conducting action potentials at 2 to 4 meters/second for synchronized ventricular systole.",
+  },
+  {
+    question: "The specific gravity of normal healthy human urine typically ranges between:",
+    optionA: "1.001 and 1.003",
+    optionB: "1.010 and 1.025 (or 1.003 to 1.030 depending on hydration)",
+    optionC: "1.040 and 1.060",
+    optionD: "0.990 and 1.000",
+    correctAnswer: "B",
+    explanation: "Normal urine specific gravity measures relative concentration of dissolved solutes (urea, sodium) and ranges from 1.010 to 1.025.",
+  },
+  {
+    question: "The broad, expanded, fundic portion of the gallbladder that projects beyond the inferior border of the liver is the:",
+    optionA: "Body",
+    optionB: "Neck",
+    optionC: "Fundus",
+    optionD: "Cystic duct",
+    correctAnswer: "C",
+    explanation: "The fundus is the rounded anterior blind end of the gallbladder that contacts the anterior abdominal wall at the tip of the right 9th costal cartilage.",
+  },
+  {
+    question: "The elongated tubular shaft that forms the central longitudinal axis of a long bone is the:",
+    optionA: "Epiphysis",
+    optionB: "Diaphysis",
+    optionC: "Metaphysis",
+    optionD: "Epiphyseal plate",
+    correctAnswer: "B",
+    explanation: "The diaphysis is the cylindrical shaft of dense cortical bone enclosing the medullary marrow cavity between the proximal and distal epiphyses.",
+  },
+  {
+    question: "The large paired strap muscle of the neck that flexes the cervical spine and rotates the head to the opposite side is the:",
+    optionA: "Trapezius",
+    optionB: "Sternocleidomastoid",
+    optionC: "Scalene anterior",
+    optionD: "Splenius capitis",
+    correctAnswer: "B",
+    explanation: "The sternocleidomastoid originates on the sternum and clavicle and inserts into the mastoid process, innervated by the accessory nerve (CN XI).",
+  },
+  {
+    question: "Which cranial nerve provides motor innervation to the lateral rectus muscle to abduct the eyeball laterally?",
+    optionA: "Cranial Nerve III (Oculomotor)",
+    optionB: "Cranial Nerve IV (Trochlear)",
+    optionC: "Cranial Nerve VI (Abducens nerve)",
+    optionD: "Cranial Nerve V (Trigeminal)",
+    correctAnswer: "C",
+    explanation: "The abducens nerve (CN VI) innervates the lateral rectus muscle exclusively, which abducts the eye away from the midline.",
+  },
+  {
+    question: "A mature human unfertilized ovum freshly ovulated from the graafian follicle always contains which sex chromosome?",
+    optionA: "X chromosome exclusively",
+    optionB: "Y chromosome exclusively",
+    optionC: "Both X and Y chromosomes",
+    optionD: "Neither chromosome",
+    correctAnswer: "A",
+    explanation: "Because human females possess XX sex chromosomes, every mature ovum produced by normal meiotic oogenesis carries a single X chromosome.",
+  },
+  {
+    question: "Which immunoglobulin is the only class capable of actively crossing the human maternal-placental barrier to confer passive natural immunity to the developing fetus?",
+    optionA: "Immunoglobulin A (IgA)",
+    optionB: "Immunoglobulin G (IgG)",
+    optionC: "Immunoglobulin M (IgM)",
+    optionD: "Immunoglobulin E (IgE)",
+    correctAnswer: "B",
+    explanation: "IgG is selectively transported across the syncytiotrophoblast via the neonatal Fc receptor (FcRn), providing the newborn with circulating humoral immunity for several months.",
+  },
+  {
+    question: "The parasympathomimetic pharmacological agent bethanechol chloride is administered in post-operative urinary retention because it:",
+    optionA: "Relaxes the renal pelvis",
+    optionB: "Selectively stimulates muscarinic receptors on the detrusor muscle, causing it to contract and facilitating bladder emptying",
+    optionC: "Inhibits sympathetic alpha-1 receptors on the bladder dome",
+    optionD: "Acts as an osmotic diuretic in the loop of Henle",
+    correctAnswer: "B",
+    explanation: "Bethanechol is a direct-acting muscarinic agonist that stimulates detrusor smooth muscle contraction while relaxing the internal urethral sphincter to restore voiding.",
+  },
+  {
+    question: "Which function is considered a core promotional and preventive responsibility of the Community Health Nurse?",
+    optionA: "Performing major open surgical procedures in the community",
+    optionB: "Conducting community health needs assessments, health education, epidemiological surveillance, and childhood immunization outreach",
+    optionC: "Selling private unregulated pharmaceuticals to villagers",
+    optionD: "Hospital admission fee collection",
+    correctAnswer: "B",
+    explanation: "Community health nurses focus on community diagnosis, disease prevention, health promotion, maternal-child welfare, and environmental hygiene.",
+  },
+  {
+    question: "Under the regulatory mandate of the National Agency for Food and Drug Administration and Control (NAFDAC) in Nigeria, the agency is empowered to:",
+    optionA: "Enact national tax legislation",
+    optionB: "Regulate and control the importation, manufacture, distribution, advertisement, and sale of food, drugs, cosmetics, medical devices, and packaged water",
+    optionC: "Manage hospital emergency admissions directly",
+    optionD: "Prescribe individual medications to ward patients",
+    correctAnswer: "B",
+    explanation: "NAFDAC ensures the safety, efficacy, and quality of regulated consumable products, pharmaceuticals, chemicals, and medical devices nationwide.",
+  },
+  {
+    question: "A clinical study design where the investigator manipulates an independent variable (e.g., a new nursing protocol) and compares the outcome against a randomized control group is a:",
+    optionA: "Descriptive survey",
+    optionB: "True experimental randomized controlled trial (RCT)",
+    optionC: "Retrospective case report",
+    optionD: "Historical archival study",
+    correctAnswer: "B",
+    explanation: "An experimental RCT is characterized by three core criteria: active manipulation of the intervention, presence of a comparison control group, and random assignment.",
+  },
+  {
+    question: "Which classification applies to a pregnant woman who has been pregnant 4 times, delivered 2 term infants, 1 preterm infant, and had 1 miscarriage?",
+    optionA: "Gravida 4, Para 3",
+    optionB: "Gravida 3, Para 4",
+    optionC: "Gravida 4, Para 2",
+    optionD: "Gravida 3, Para 2",
+    correctAnswer: "A",
+    explanation: "Gravida is total number of pregnancies (4); Para is pregnancies reaching viability beyond 20 weeks (2 term + 1 preterm = 3).",
+  },
+  {
+    question: "Which type of lochia is normally observed during the first 3 to 4 days postpartum?",
+    optionA: "Lochia serosa (pinkish-brown)",
+    optionB: "Lochia rubra (dark red with small decidual clots)",
+    optionC: "Lochia alba (yellowish-white)",
+    optionD: "Lochia purulenta",
+    correctAnswer: "B",
+    explanation: "Lochia rubra consists predominantly of blood, decidual debris, and trophoblastic tissue, lasting from delivery until postpartum day 3 to 4.",
+  },
+  {
+    question: "A child with suspected acute bacterial meningitis will demonstrate resistance and pain upon passive extension of the knee with the hip flexed at 90 degrees. This is:",
+    optionA: "Brudzinski's sign",
+    optionB: "Kernig's sign",
+    optionC: "Chvostek's sign",
+    optionD: "Trousseau's sign",
+    correctAnswer: "B",
+    explanation: "Kernig's sign is elicited by flexing the hip and knee to 90 degrees; subsequent resistance or hamstring pain upon knee extension indicates meningeal irritation.",
+  },
+  {
+    question: "A 4-year-old child with nephrotic syndrome will exhibit which classic triad of clinical and laboratory findings?",
+    optionA: "Hematuria, azotemia, and fever",
+    optionB: "Heavy proteinuria, severe hypoalbuminemia, and generalized pitting edema",
+    optionC: "Oliguria, hypercalcemia, and jaundice",
+    optionD: "Glycosuria, polyuria, and polydipsia",
+    correctAnswer: "B",
+    explanation: "Increased glomerular permeability causes massive urinary protein loss (>3.5 g/day equivalent), profound hypoalbuminemia, and massive anasarca.",
+  },
+  {
+    question: "Which anti-tubercular medication is notorious for causing peripheral neuropathy, which can be prevented by co-administering Pyridoxine (Vitamin B6)?",
+    optionA: "Rifampicin",
+    optionB: "Isoniazid (INH)",
+    optionC: "Ethambutol",
+    optionD: "Pyrazinamide",
+    correctAnswer: "B",
+    explanation: "Isoniazid binds with pyridoxal-5-phosphate and accelerates its renal excretion, causing vitamin B6 deficiency and peripheral neuropathy unless supplemented.",
+  },
+  {
+    question: "Which broad-spectrum antimicrobial is contraindicated in children under 8 years of age and pregnant women due to permanent yellow-brown dental enamel discoloration?",
+    optionA: "Amoxicillin",
+    optionB: "Tetracyclines (such as doxycycline)",
+    optionC: "Erythromycin",
+    optionD: "Ciprofloxacin",
+    correctAnswer: "B",
+    explanation: "Tetracyclines chelate with calcium orthophosphate in developing teeth and growing bones, causing permanent dental staining and enamel hypoplasia.",
+  },
+  {
+    question: "Which psychotherapeutic treatment modality utilizes brief controlled electrical currents applied across the scalp to induce a generalized cerebral seizure for refractory depression?",
+    optionA: "Biofeedback therapy",
+    optionB: "Electroconvulsive Therapy (ECT)",
+    optionC: "Systematic desensitization",
+    optionD: "Transcranial magnetic therapy",
+    correctAnswer: "B",
+    explanation: "ECT is an effective biological therapy indicated for treatment-resistant major depression, acute mania with exhaustion, and severe katatonic states.",
+  },
+  {
+    question: "What is the primary purpose of adding fluoride to public community water supplies or toothpaste?",
+    optionA: "To eliminate coliform bacteria",
+    optionB: "To strengthen dental enamel hydroxyapatite and prevent dental caries (cavities)",
+    optionC: "To clarify turbidity in surface water",
+    optionD: "To prevent goiter",
+    correctAnswer: "B",
+    explanation: "Fluoride incorporates into tooth enamel to form fluorapatite, which is significantly more resistant to demineralization by bacterial plaque acids.",
+  },
+  {
+    question: "In a patient suffering from hypovolemic shock due to severe hemorrhage, which intravenous fluid is most appropriate for immediate initial volume resuscitation while blood is cross-matched?",
+    optionA: "5% Dextrose in water (D5W)",
+    optionB: "Isotonic crystalloid solutions (0.9% Normal Saline or Ringer's Lactate)",
+    optionC: "0.45% Half-normal saline",
+    optionD: "10% Dextrose in water",
+    correctAnswer: "B",
+    explanation: "Isotonic crystalloids expand the intravascular compartment effectively without causing rapid intracellular fluid shifts or hemolysis.",
+  },
+  {
+    question: "In the Rinne hearing test, a patient with conductive hearing loss in the right ear will demonstrate:",
+    optionA: "Air conduction greater than bone conduction (AC > BC)",
+    optionB: "Bone conduction greater than or equal to air conduction (BC >= AC) in the affected ear",
+    optionC: "Sound lateralizing to the unaffected left ear only",
+    optionD: "Equal hearing loss in both ears",
+    correctAnswer: "B",
+    explanation: "In conductive deafness, sound bypasses external/middle ear obstruction through direct cranial bone conduction, making bone conduction louder than air conduction (negative Rinne).",
+  },
+  {
+    question: "The Syndrome of Inappropriate Antidiuretic Hormone (SIADH) is clinically characterized by which fluid and electrolyte profile?",
+    optionA: "Hypernatremia, dehydration, and dilute urine",
+    optionB: "Dilutional hyponatremia (<130 mEq/L), fluid retention without peripheral edema, and concentrated urine (high urine specific gravity)",
+    optionC: "Hypokalemia and massive polyuria",
+    optionD: "Hypercalcemia and metabolic acidosis",
+    correctAnswer: "B",
+    explanation: "Excessive uninhibited ADH causes continuous water reabsorption, expanding extracellular volume, suppressing aldosterone, and causing dilutional hyponatremia.",
+  },
+  {
+    question: "Which clinical manifestation distinguishes Osteoarthritis (degenerative joint disease) from Rheumatoid Arthritis?",
+    optionA: "Osteoarthritis is a systemic autoimmune disease affecting all organs",
+    optionB: "Osteoarthritis involves asymmetric weight-bearing joint pain that worsens with activity and improves with rest, without systemic inflammatory signs",
+    optionC: "Rheumatoid arthritis never causes morning stiffness",
+    optionD: "Osteoarthritis produces high titers of serum rheumatoid factor",
+    correctAnswer: "B",
+    explanation: "Osteoarthritis is a localized mechanical degenerative cartilage disease of knees and hips aggravated by use, whereas RA is an autoimmune symmetric polyarthritis.",
+  },
+  {
+    question: "In Disseminated Intravascular Coagulation (DIC), which paradoxical clinical phenomenon occurs simultaneously?",
+    optionA: "Widespread microvascular thrombosis paired with catastrophic systemic bleeding due to consumption of clotting factors and platelets",
+    optionB: "Extreme polycythemia with leukopenia",
+    optionC: "Localized hematoma formation with hypertension",
+    optionD: "Hyperglycemia with low insulin levels",
+    correctAnswer: "A",
+    explanation: "Uncontrolled systemic thrombin generation causes microthrombi throughout organ capillaries while depleting fibrinogen and platelets, resulting in profuse hemorrhage.",
+  },
+  {
+    question: "When assessing a client with a spinal cord injury, the nurse notes complete loss of motor control and sensation below the waist level, with loss of bowel and bladder control. The nurse anticipates the lesion is at or below:",
+    optionA: "C4",
+    optionB: "C8",
+    optionC: "T12 (paraplegia)",
+    optionD: "S4",
+    correctAnswer: "C",
+    explanation: "Thoracic cord injuries (e.g., T12) result in paraplegia (paralysis and sensory loss of the lower trunk and lower extremities) while preserving upper extremity motor function.",
+  },
+  {
+    question: "Which nursing intervention is essential when preparing a client for discharge following a total laryngectomy?",
+    optionA: "Instructing the client that they will breathe through the nose as before",
+    optionB: "Providing medical alert identification indicating that the client is a total neck-breather, and teaching stoma care and suctioning",
+    optionC: "Encouraging swimming in deep pools",
+    optionD: "Applying airtight occlusive dressings over the stoma",
+    correctAnswer: "B",
+    explanation: "Total laryngectomy completely severs the upper airway from the lungs; the patient breathes exclusively through the permanent neck stoma (neck-breather).",
+  },
+  {
+    question: "When administering parenteral opioids to a client with severe major burns during the acute emergent phase, the nurse selects which route of administration?",
+    optionA: "Intramuscular (IM)",
+    optionB: "Subcutaneous (SC)",
+    optionC: "Intravenous (IV)",
+    optionD: "Oral (PO)",
+    correctAnswer: "C",
+    explanation: "Impaired peripheral tissue perfusion and edema in burn shock make IM and SC absorption erratic and unreliable; IV administration ensures immediate, predictable bioavailability.",
+  },
+  {
+    question: "Which clinical assessment finding would the nurse expect to assess in a client with Acute Respiratory Distress Syndrome (ARDS)?",
+    optionA: "Localized unilateral wheezing on inspiration",
+    optionB: "Severe refractory hypoxemia, dyspnea, and bilateral diffuse alveolar infiltrates on chest X-ray",
+    optionC: "Hypertension with clear lung fields",
+    optionD: "Stridor with normal arterial blood gases",
+    correctAnswer: "B",
+    explanation: "ARDS is marked by widespread inflammatory damage to the alveolocapillary membrane, pulmonary non-cardiogenic edema, and severe hypoxemia unresponsive to high FiO2.",
+  },
+  {
+    question: "In assessing a client with cholelithiasis, the nurse expects the client to report biliary colic described as:",
+    optionA: "Dull left lower quadrant aching after drinking water",
+    optionB: "Severe, episodic spasmodic pain in the right upper quadrant or epigastrium that radiates to the right shoulder or back, especially following high-fat meals",
+    optionC: "Constant burning retrosternal chest pain relieved by food",
+    optionD: "Periumbilical pain relieved by defecation",
+    correctAnswer: "B",
+    explanation: "Ingestion of dietary fat triggers cholecystokinin release, stimulating gallbladder contraction against an obstructing cystic duct stone and producing right hypochondriac pain.",
+  },
+  {
+    question: "In evaluating arterial blood gas results for a client with acute respiratory failure, which finding definitively confirms hypoxemic respiratory failure?",
+    optionA: "Arterial oxygen tension (PaO2) less than 60 mmHg on room air",
+    optionB: "Arterial carbon dioxide tension (PaCO2) of 40 mmHg",
+    optionC: "Blood pH of 7.40",
+    optionD: "Serum bicarbonate of 24 mEq/L",
+    correctAnswer: "A",
+    explanation: "Type I (hypoxemic) respiratory failure is classically defined as a PaO2 <60 mmHg while breathing ambient room air (FiO2 0.21).",
+  },
+  {
+    question: "When measuring arterial blood pressure by auscultation, diastolic pressure in adults is recorded when the Korotkoff sounds:",
+    optionA: "Are first heard clearly",
+    optionB: "Become distinctly muffled and completely disappear (Phase IV and V)",
+    optionC: "Reach maximum loudness",
+    optionD: "Begin to click rhythmically",
+    correctAnswer: "B",
+    explanation: "Phase IV (muffling) and Phase V (cessation of sounds) designate the diastolic pressure level in arterial auscultation.",
+  },
+  {
+    question: "Accessory organs of the digestive system include the following EXCEPT the:",
+    optionA: "Pancreas",
+    optionB: "Salivary glands",
+    optionC: "Rectum and anal canal",
+    optionD: "Liver and biliary tree",
+    correctAnswer: "C",
+    explanation: "The rectum and anal canal form integral segments of the primary alimentary canal, whereas liver, pancreas, and salivary glands are accessory glands.",
+  },
+  {
+    question: "Which muscle group assists in elevating the trunk during climbing and adduction of the arm?",
+    optionA: "Psoas major",
+    optionB: "Latissimus dorsi",
+    optionC: "Trapezius",
+    optionD: "Sternocleidomastoid",
+    correctAnswer: "B",
+    explanation: "The broad latissimus dorsi muscle extends, adducts, and medially rotates the humerus, pulling the body upward during climbing and pull-ups.",
+  },
+  {
+    question: "Human insulin is a peptide hormone consisting of how many total amino acids arranged in two disulfide-linked chains?",
+    optionA: "21 amino acids",
+    optionB: "30 amino acids",
+    optionC: "51 amino acids",
+    optionD: "100 amino acids",
+    correctAnswer: "C",
+    explanation: "Insulin consists of 51 amino acids divided into an A-chain (21 amino acids) and a B-chain (30 amino acids) linked by disulfide bridges.",
+  },
+  {
+    question: "The anterior surface of the left kidney is anatomically related to all the following organs EXCEPT the:",
+    optionA: "Spleen",
+    optionB: "Stomach and pancreas",
+    optionC: "Gallbladder (related to right kidney)",
+    optionD: "Jejunum",
+    correctAnswer: "C",
+    explanation: "The gallbladder and duodenum are anatomically positioned in the right upper quadrant related to the right kidney, not the left.",
+  },
+  {
+    question: "The epidermal layer of the skin that contains prominent keratohyalin granules is the:",
+    optionA: "Stratum basale",
+    optionB: "Stratum spinosum",
+    optionC: "Stratum granulosum",
+    optionD: "Stratum corneum",
+    correctAnswer: "C",
+    explanation: "Cells in the stratum granulosum accumulate dense basophilic keratohyalin granules that assemble keratin filaments into tough epidermal matrices.",
+  },
+  {
+    question: "Which constituent of liver bile acts as a biological detergent to emulsify dietary lipids into microscopic micelles for lipase digestion?",
+    optionA: "Lecithin and bile salts (cholate and deoxycholate)",
+    optionB: "Bilirubin",
+    optionC: "Cholesterol crystals",
+    optionD: "Urea",
+    correctAnswer: "A",
+    explanation: "Amphipathic bile salts break large fat globules into microscopic emulsion droplets, dramatically increasing surface area for pancreatic lipase.",
+  },
+  {
+    question: "The four structural wall layers of the tubular alimentary canal, arranged from inside lumen to outside, are:",
+    optionA: "Mucosa, submucosa, muscularis externa, and serosa/adventitia",
+    optionB: "Serosa, muscularis, submucosa, mucosa",
+    optionC: "Endothelium, mesothelium, peritoneum, fascia",
+    optionD: "Epithelium, connective tissue, bone, fat",
+    correctAnswer: "A",
+    explanation: "The basic gastrointestinal histological architecture consistently features the innermost mucosa, vascular submucosa, muscularis externa, and outer serosa.",
+  },
+  {
+    question: "The numerical mathematical difference between systolic arterial pressure and diastolic arterial pressure is the:",
+    optionA: "Mean arterial pressure",
+    optionB: "Pulse pressure",
+    optionC: "Perfusion pressure",
+    optionD: "End-diastolic pressure",
+    correctAnswer: "B",
+    explanation: "Pulse pressure equals systolic blood pressure minus diastolic blood pressure (e.g., 120 - 80 = 40 mmHg).",
+  },
+  {
+    question: "The living human kidneys are located retroperitoneally in the posterior abdominal wall extending from the level of:",
+    optionA: "T10 to L1 vertebrae",
+    optionB: "T12 to L3 vertebrae",
+    optionC: "C7 to T4 vertebrae",
+    optionD: "L4 to S2 vertebrae",
+    correctAnswer: "B",
+    explanation: "The kidneys lie retroperitoneally between the T12 and L3 vertebral levels, with the right kidney positioned slightly lower due to the mass of the liver.",
+  },
+  {
+    question: "In obstetric pelvimetry, the anatomical bony landmark used to determine the station of the fetal presenting part is the:",
+    optionA: "Sacral promontory",
+    optionB: "Ischial spines",
+    optionC: "Iliac crests",
+    optionD: "Pubic symphysis",
+    correctAnswer: "B",
+    explanation: "Station 0 is defined when the lowest presenting part of the fetus has descended to the level of the maternal ischial spines.",
+  },
+  {
+    question: "The muscular junction that connects the esophagus to the gastric stomach and prevents acid regurgitation is the:",
+    optionA: "Pyloric sphincter",
+    optionB: "Lower esophageal (cardiac) sphincter",
+    optionC: "Ileocecal sphincter",
+    optionD: "Sphincter of Oddi",
+    correctAnswer: "B",
+    explanation: "The lower esophageal sphincter maintains high resting tone, relaxing on swallowing to allow food entry and contracting to prevent acid reflux.",
+  },
+  {
+    question: "According to Jean Piaget's stages of cognitive development, the stage characterized by abstract thinking, hypothetical deductive reasoning, and logic (typically beginning at age 11) is the:",
+    optionA: "Sensorimotor stage",
+    optionB: "Preoperational stage",
+    optionC: "Concrete operational stage",
+    optionD: "Formal operational stage",
+    correctAnswer: "D",
+    explanation: "The formal operational stage enables adolescents to think abstractly, evaluate hypothetical scenarios, and formulate systematic deductive proofs.",
+  },
+  {
+    question: "The nursing theorist who proposed the 'Self-Care Deficit Theory', defining nursing as helping individuals overcome limitations in meeting their own self-care demands, was:",
+    optionA: "Dorothea Orem",
+    optionB: "Martha Rogers",
+    optionC: "Hildegard Peplau",
+    optionD: "Betty Neuman",
+    correctAnswer: "A",
+    explanation: "Dorothea Orem's Self-Care Deficit Model views nursing as assisting patients whose self-care agency is insufficient to meet therapeutic demands.",
+  },
+  {
+    question: "Which legal document allows an individual to specify in advance their healthcare preferences and appoint a surrogate decision-maker in the event of terminal incapacitation?",
+    optionA: "Living Will and Durable Power of Attorney for Healthcare (Advance Directive)",
+    optionB: "Hospital admission agreement",
+    optionC: "Informed consent waiver",
+    optionD: "Police report",
+    correctAnswer: "A",
+    explanation: "Advance directives allow individuals to articulate end-of-life treatment limits (DNR status, mechanical ventilation) and designate proxy decision-makers.",
+  },
+  {
+    question: "Purulent wound exudate that is thick, viscous, yellow-green, and malodorous strongly indicates:",
+    optionA: "Normal physiological wound granulation",
+    optionB: "Active acute bacterial wound infection containing dead leukocytes, cellular debris, and bacteria",
+    optionC: "Excessive oral fluid intake",
+    optionD: "Normal fat necrosis in clean surgical incisions",
+    correctAnswer: "B",
+    explanation: "Purulent drainage (pus) is the hallmark manifestation of acute bacterial suppuration containing liquefied necrotic debris and neutrophils.",
+  },
+  {
+    question: "To prevent deep vein thrombosis (DVT) and fatal pulmonary embolism in immobilized post-operative patients, which non-pharmacological measure is routinely implemented?",
+    optionA: "Massaging the patient's calves vigorously twice daily",
+    optionB: "Application of sequential pneumatic compression devices (SCDs), graduated compression stockings, and early leg exercises",
+    optionC: "Placing pillows directly behind the knees",
+    optionD: "Immobilizing the lower extremities in plaster splints",
+    correctAnswer: "B",
+    explanation: "Sequential compression devices and compression stockings promote venous blood return, preventing venous stasis in deep calf and thigh veins.",
+  },
+  {
+    question: "The principal, most abundant intracellular cation essential for maintaining cell resting membrane potential and cardiac electrophysiology is:",
+    optionA: "Sodium (Na+)",
+    optionB: "Potassium (K+)",
+    optionC: "Chloride (Cl-)",
+    optionD: "Bicarbonate (HCO3-)",
+    correctAnswer: "B",
+    explanation: "Potassium is the chief intracellular cation (normal intracellular 140-150 mEq/L, serum 3.5-5.0 mEq/L) that sets the resting membrane potential of excitable cells.",
+  },
+  {
+    question: "A patient with end-stage chronic kidney disease presents with a serum calcium level of 6.5 mg/dL (hypocalcemia). Which classic physical assessment sign will be positive?",
+    optionA: "Chvostek's sign (twitching of facial muscles elicited by tapping anterior to the ear)",
+    optionB: "Murphy's sign",
+    optionC: "McBurney's sign",
+    optionD: "Homan's sign",
+    correctAnswer: "A",
+    explanation: "Tapping the facial nerve (CN VII) over the parotid gland provokes unilateral facial twitching (Chvostek's sign) in latent tetany due to neuromuscular hyperexcitability.",
+  },
+  {
+    question: "Vitamin C (Ascorbic acid) deficiency impairs collagen prolyl hydroxylation, manifesting as Scurvy with which classic symptoms?",
+    optionA: "Night blindness and dry eyes (xerophthalmia)",
+    optionB: "Spongy swollen bleeding gums, perifollicular petechial hemorrhages, poor wound healing, and joint pain",
+    optionC: "Bowed long bones and craniotabes",
+    optionD: "Muscle tremors and tetany",
+    correctAnswer: "B",
+    explanation: "Defective cross-linked collagen synthesis weakens capillary basement membranes and connective tissues, causing fragile capillaries and bleeding gums.",
+  },
+  {
+    question: "The primary causative bacterial pathogen responsible for the acute dehydrating diarrheal disease Cholera is:",
+    optionA: "Salmonella typhi",
+    optionB: "Vibrio cholerae",
+    optionC: "Shigella dysenteriae",
+    optionD: "Campylobacter jejuni",
+    correctAnswer: "B",
+    explanation: "Vibrio cholerae produces an enterotoxin (choleragen) that activates adenylate cyclase in enterocytes, causing massive secretion of water and electrolytes ('rice-water' stool).",
+  },
+  {
+    question: "A client presents with unilateral, exquisitely painful vesicular eruptions distributed strictly along a single dermatomal nerve path on the thoracic wall. This condition is:",
+    optionA: "Varicella (Chickenpox)",
+    optionB: "Herpes Zoster (Shingles)",
+    optionC: "Impetigo contagiosa",
+    optionD: "Contact dermatitis",
+    correctAnswer: "B",
+    explanation: "Herpes zoster represents reactivation of latent varicella-zoster virus from dorsal root sensory ganglia, producing unilateral dermatomal pain and grouped vesicles.",
+  },
+  {
+    question: "Which diagnostic procedure provides definitive microscopic confirmation of malignancy in a suspected breast tumor?",
+    optionA: "Mammography alone",
+    optionB: "Breast ultrasound",
+    optionC: "Core needle biopsy (histopathological examination)",
+    optionD: "Serum CA-125 tumor marker",
+    correctAnswer: "C",
+    explanation: "Definitive diagnosis of any neoplasm requires histological examination of tissue obtained by core needle biopsy or surgical excision to grade architectural atypia.",
+  },
+  {
+    question: "In planning nursing care for a client with Crohn's disease during an acute exacerbation, which therapeutic measure is prescribed?",
+    optionA: "High-roughage raw vegetable diet",
+    optionB: "Administration of prescribed corticosteroids, low-residue diet, and fluid and electrolyte replacement",
+    optionC: "Immediate surgical resection of the entire colon",
+    optionD: "High-fat dairy supplements",
+    correctAnswer: "B",
+    explanation: "Corticosteroids suppress transmural bowel inflammation, while low-residue diets minimize mechanical irritation and diarrhea.",
+  },
+  {
+    question: "The uveal tract (middle vascular tunic) of the eyeball consists of the:",
+    optionA: "Ciliary body, pupil, and lens",
+    optionB: "Iris, ciliary body, and choroid",
+    optionC: "Lens, pupil, and aqueous humor",
+    optionD: "Cornea, iris, and trabecular meshwork",
+    correctAnswer: "B",
+    explanation: "The vascular uvea comprises the anterior iris, intermediate ciliary body, and posterior choroid coat.",
+  },
+  {
+    question: "In poliomyelitis, the enterovirus selectively targets and destroys which specific anatomical structures in the central nervous system?",
+    optionA: "Sensory dorsal root ganglia",
+    optionB: "Anterior horn motor neurons of the spinal cord and motor nuclei of the brainstem",
+    optionC: "The limbic system and hippocampus",
+    optionD: "Cerebellar Purkinje cells",
+    correctAnswer: "B",
+    explanation: "Poliovirus replication in anterior horn alpha motor neurons produces flaccid, asymmetric lower motor neuron paralysis without sensory loss.",
+  },
+  {
+    question: "Tetanus (lockjaw) is an acute bacterial infection of the central nervous system caused by Clostridium tetani, characterized clinically by:",
+    optionA: "Flaccid paralysis and hypotonia",
+    optionB: "Painful stiffness of the masseter muscles (trismus), severe muscle spasms, and hyperextension of the spine (opisthotonos)",
+    optionC: "Chorea and tremors",
+    optionD: "Unilateral hemiplegia",
+    correctAnswer: "B",
+    explanation: "Tetanospasmin blocks inhibitory neurotransmitters (glycine and GABA), causing uninhibited, agonizing reflex muscle contractions and opisthotonos.",
+  },
+  {
+    question: "A cystocele is defined in female pelvic medicine as the:",
+    optionA: "Herniation of the rectum into the posterior vaginal wall",
+    optionB: "Prolapse or downward displacement of the urinary bladder into the anterior vaginal wall",
+    optionC: "Prolapse of loops of small bowel into the cul-de-sac",
+    optionD: "Inversion of the uterine fundus",
+    correctAnswer: "B",
+    explanation: "Weakness of the pubocervical fascia and pelvic floor musculature allows the posterior bladder wall to bulge into the anterior vaginal canal.",
+  },
+  {
+    question: "Which maneuver is the standard first-line technique to open the airway of an unconscious victim without suspected cervical spinal trauma?",
+    optionA: "Jaw-thrust without head extension",
+    optionB: "Head tilt-chin lift maneuver",
+    optionC: "Turning the head sharply to the left side",
+    optionD: "Placing a thick pillow under the head",
+    correctAnswer: "B",
+    explanation: "The head tilt-chin lift maneuver lifts the tongue and epiglottis anteriorly away from the posterior pharyngeal wall, restoring airway patency.",
+  },
+  {
+    question: "A client with chronic liver cirrhosis midcourse develops severe portal hypertension. Which clinical manifestation reflects dangerous portosystemic collateral circulation?",
+    optionA: "Hyperthyroidism",
+    optionB: "Bleeding esophageal varices, caput medusae, and internal hemorrhoids",
+    optionC: "Increased hair growth",
+    optionD: "Hypertension in the lower extremities",
+    correctAnswer: "B",
+    explanation: "High portal pressure diverts blood into thin-walled submucosal veins of the distal esophagus, stomach, and rectum, predisposing to catastrophic hemorrhage.",
+  },
+  {
+    question: "In the dietary management of a client with recurrent uric acid nephrolithiasis, which dietary restriction is prescribed?",
+    optionA: "Low calcium diet",
+    optionB: "Low purine diet (restricting organ meats, anchovies, sardines, and beer)",
+    optionC: "High protein diet",
+    optionD: "Low potassium diet",
+    correctAnswer: "B",
+    explanation: "Uric acid is the end-product of purine metabolism; limiting dietary purines reduces urinary uric acid excretion and prevents stone recurrence.",
+  },
+  {
+    question: "Why is periconceptional supplementation with Folic acid (Vitamin B9) universally recommended for all women planning pregnancy?",
+    optionA: "To build fetal bone calcium",
+    optionB: "To prevent neural tube defects (such as spina bifida and anencephaly) in the developing embryo",
+    optionC: "To increase birth weight beyond 4 kg",
+    optionD: "To prevent maternal morning sickness",
+    correctAnswer: "B",
+    explanation: "Folic acid is essential for embryonic neural tube closure, which occurs within the first 28 days of gestation (often before a missed period).",
+  },
+  {
+    question: "The primary causative bacterial agent of human Tuberculosis is:",
+    optionA: "Mycobacterium leprae",
+    optionB: "Mycobacterium tuberculosis (acid-fast bacillus)",
+    optionC: "Corynebacterium diphtheriae",
+    optionD: "Neisseria meningitidis",
+    correctAnswer: "B",
+    explanation: "Mycobacterium tuberculosis has a lipid-rich mycolic acid cell wall that resists destaining by acid-alcohol, appearing as acid-fast rods on Ziehl-Neelsen staining.",
+  },
+  {
+    question: "Under the Nigerian National Expanded Program on Immunization (EPI), which three vaccines should a newborn receive at birth?",
+    optionA: "Pentavalent, Measles, and Yellow fever",
+    optionB: "BCG, Oral Polio Vaccine zero dose (OPV-0), and Hepatitis B birth dose (HBV-0)",
+    optionC: "DPT, Tetanus toxoid, and IPV",
+    optionD: "Pneumococcal and Rotavirus only",
+    correctAnswer: "B",
+    explanation: "Nigeria's national immunization schedule mandates BCG, OPV-0, and Hepatitis B birth dose within the first 24 to 48 hours of life.",
+  },
+  {
+    question: "The full meaning of the vaccine acronym BCG is:",
+    optionA: "Bacillus Calmette-Gu\u00e9rin",
+    optionB: "Bacterial Coli Globulin",
+    optionC: "Bacillus Central Genus",
+    optionD: "Blood Cell Growth",
+    correctAnswer: "A",
+    explanation: "BCG is an attenuated live strain of Mycobacterium bovis developed by Albert Calmette and Camille Gu\u00e9rin in 1921 to protect against severe tuberculosis.",
+  },
+  {
+    question: "The normal physiological volume of amniotic fluid at term gestation (36 to 40 weeks) is approximately:",
+    optionA: "100 to 200 mL",
+    optionB: "800 to 1,000 mL",
+    optionC: "3,000 to 4,000 mL",
+    optionD: "50 mL",
+    correctAnswer: "B",
+    explanation: "Normal term amniotic fluid volume averages 800 to 1,000 mL; volumes <500 mL define oligohydramnios, and >2,000 mL define polyhydramnios.",
+  },
+  {
+    question: "Which physical assessment sign for deep venous thrombosis (DVT) is elicited when forced passive dorsiflexion of the foot provokes calf pain?",
+    optionA: "Kernig's sign",
+    optionB: "Homans' sign",
+    optionC: "Brudzinski's sign",
+    optionD: "Trousseau's sign",
+    correctAnswer: "B",
+    explanation: "Homans' sign involves calf discomfort upon ankle dorsiflexion, though clinical diagnosis requires definitive compression duplex ultrasound.",
+  },
+  {
+    question: "A patient with severe pain receives morphine. What is the most important assessment after administration?",
+    optionA: "Respiratory rate",
+    optionB: "Hair growth",
+    optionC: "Vision",
+    optionD: "Bowel sounds",
+    correctAnswer: "A",
+    explanation: "",
+  },
+  {
+    question: "What is the most effective method of preventing hospital-acquired infection?",
+    optionA: "Hand hygiene",
+    optionB: "Antibiotics",
+    optionC: "Isolation only",
+    optionD: "Vaccination",
+    correctAnswer: "A",
+    explanation: "",
+  },
 ];

@@ -1,0 +1,190 @@
+# 100 Comprehensive High-Yield Questions from Endocrinology, Hematology, Sensory & Orthopedics
+import json
+
+LAST_100_QUESTIONS = [
+    {
+        "question": "Which visual disorder is characterized by progressive, painless opacification of the crystalline lens that blurs vision?",
+        "optionA": "Glaucoma",
+        "optionB": "Cataract",
+        "optionC": "Macular degeneration",
+        "optionD": "Retinal detachment",
+        "correctAnswer": "B",
+        "explanation": "A cataract is a clouding of the natural crystalline lens of the eye that impedes light transmission onto the retina, causing gradual loss of visual acuity."
+    },
+    {
+        "question": "In open-angle glaucoma, the primary pathophysiological defect causing elevated intraocular pressure is:",
+        "optionA": "Overproduction of aqueous humor by the ciliary epithelium",
+        "optionB": "Impaired drainage of aqueous humor through the trabecular meshwork and canal of Schlemm",
+        "optionC": "Complete closure of the anterior chamber angle by the peripheral iris",
+        "optionD": "Inflammation of the posterior vitreous humor",
+        "correctAnswer": "B",
+        "explanation": "In chronic open-angle glaucoma, microscopic resistance to aqueous humor outflow through the trabecular meshwork elevates intraocular pressure (>21 mmHg)."
+    },
+    {
+        "question": "Which refractive error occurs when the anteroposterior diameter of the eyeball is too long, causing light rays to focus in front of the retina (nearsightedness)?",
+        "optionA": "Hyperopia",
+        "optionB": "Myopia",
+        "optionC": "Astigmatism",
+        "optionD": "Presbyopia",
+        "correctAnswer": "B",
+        "explanation": "Myopia (nearsightedness) occurs when the globe is elongated or refractive power is excessive, focusing distant images anterior to the retina, corrected by concave (divergent) lenses."
+    },
+    {
+        "question": "Presbyopia is an age-related vision impairment that develops after age 40 due to:",
+        "optionA": "Degeneration of retinal cones in the fovea centralis",
+        "optionB": "Loss of crystalline lens elasticity and decreased ciliary muscle accommodative power for near vision",
+        "optionC": "Increased corneal curvature",
+        "optionD": "Corneal clouding",
+        "correctAnswer": "B",
+        "explanation": "With physiological aging, the lens becomes less pliable, diminishing the eye's ability to increase curvature to focus on close objects (requiring reading glasses)."
+    },
+    {
+        "question": "In the Rinne hearing test, a patient with conductive hearing loss in the right ear will demonstrate:",
+        "optionA": "Air conduction greater than bone conduction (AC > BC)",
+        "optionB": "Bone conduction greater than or equal to air conduction (BC >= AC) in the affected ear",
+        "optionC": "Sound lateralizing to the unaffected left ear only",
+        "optionD": "Equal hearing loss in both ears",
+        "correctAnswer": "B",
+        "explanation": "In conductive deafness, sound bypasses external/middle ear obstruction through direct cranial bone conduction, making bone conduction louder than air conduction (negative Rinne)."
+    },
+    {
+        "question": "In the Weber tuning fork hearing test, sound lateralizing to the poorer (affected) ear indicates:",
+        "optionA": "Sensorineural hearing loss in that ear",
+        "optionB": "Conductive hearing loss in that ear",
+        "optionC": "Normal hearing bilaterally",
+        "optionD": "Acoustic neuroma",
+        "correctAnswer": "B",
+        "explanation": "In conductive hearing loss, ambient room masking noise cannot enter the diseased middle ear, causing the vibration conducted by bone to be perceived louder on that side."
+    },
+    {
+        "question": "Meniere's disease is an inner ear disorder characterized by endolymphatic hydrops presenting with which classic diagnostic triad?",
+        "optionA": "Otalgia, purulent ear discharge, and fever",
+        "optionB": "Episodic disabling vertigo, fluctuating sensorineural hearing loss, and tinnitus with aural fullness",
+        "optionC": "Facial paralysis, headache, and double vision",
+        "optionD": "Nystagmus, photophobia, and conductive deafness",
+        "correctAnswer": "B",
+        "explanation": "Meniere's disease results from excessive fluid distention (hydrops) of the endolymphatic system, producing episodic spinning vertigo, ringing (tinnitus), and progressive hearing loss."
+    },
+    {
+        "question": "Excessive secretion of growth hormone (GH) in an adult after epiphyseal plate fusion causes enlargement of facial bones, hands, and feet, known as:",
+        "optionA": "Gigantism",
+        "optionB": "Acromegaly",
+        "optionC": "Cushing disease",
+        "optionD": "Graves disease",
+        "correctAnswer": "B",
+        "explanation": "Acromegaly occurs when a pituitary somatotroph adenoma hypersecretes GH in adults, causing thickening of membranous bones, soft tissue hypertrophy, and organomegaly."
+    },
+    {
+        "question": "A client with diabetes insipidus secondary to cranial surgery exhibits which characteristic urinalysis finding?",
+        "optionA": "High urine specific gravity (>1.035) with dark concentrated urine",
+        "optionB": "Markedly low urine specific gravity (<1.005) with massive volumes of pale, dilute urine (polyuria)",
+        "optionC": "Heavy glucosuria and ketonuria",
+        "optionD": "Gross hematuria and casts",
+        "correctAnswer": "B",
+        "explanation": "Deficiency of antidiuretic hormone (ADH) prevents water reabsorption in renal collecting tubules, excreting 4 to 15 liters daily of hypoosmolar, dilute urine."
+    },
+    {
+        "question": "The Syndrome of Inappropriate Antidiuretic Hormone (SIADH) is clinically characterized by which fluid and electrolyte profile?",
+        "optionA": "Hypernatremia, dehydration, and dilute urine",
+        "optionB": "Dilutional hyponatremia (<130 mEq/L), fluid retention without peripheral edema, and concentrated urine (high urine specific gravity)",
+        "optionC": "Hypokalemia and massive polyuria",
+        "optionD": "Hypercalcemia and metabolic acidosis",
+        "correctAnswer": "B",
+        "explanation": "Excessive uninhibited ADH causes continuous water reabsorption, expanding extracellular volume, suppressing aldosterone, and causing dilutional hyponatremia."
+    },
+    {
+        "question": "Thyrotoxic crisis (Thyroid Storm) is an acute, life-threatening emergency in hyperthyroidism characterized by:",
+        "optionA": "Severe hypothermia (<35 C) and extreme bradycardia",
+        "optionB": "Hyperpyrexia (>40 C), severe tachycardia/arrhythmias, agitation, delirium, and heart failure",
+        "optionC": "Stridor and tetany",
+        "optionD": "Profound respiratory acidosis and lethargy",
+        "correctAnswer": "B",
+        "explanation": "Thyroid storm is a hypermetabolic crisis triggered by physiological stress or infection, characterized by extreme fever, tachycardia, delirium, and shock."
+    },
+    {
+        "question": "A client presents with paroxysmal severe hypertension, throbbing headache, diaphoresis (profuse sweating), and palpitations. The nurse suspects a catecholamine-secreting tumor of the adrenal medulla known as:",
+        "optionA": "Adenoma of the pituitary",
+        "optionB": "Pheochromocytoma",
+        "optionC": "Neuroblastoma",
+        "optionD": "Adrenal cortical carcinoma",
+        "correctAnswer": "B",
+        "explanation": "Pheochromocytoma hypersecretes epinephrine and norepinephrine from chromaffin cells, producing the classic clinical triad of headache, sweating, and palpitations with labile hypertension."
+    },
+    {
+        "question": "Which bone cells are specialized multinucleated giant cells responsible for breaking down and resorbing mineralized bone matrix under parathyroid hormone stimulation?",
+        "optionA": "Osteoblasts",
+        "optionB": "Osteoclasts",
+        "optionC": "Osteocytes",
+        "optionD": "Chondrocytes",
+        "correctAnswer": "B",
+        "explanation": "Osteoclasts secrete lysosomal enzymes and hydrochloric acid onto the bone surface to dissolve hydroxyapatite mineral and digest collagen fibers."
+    },
+    {
+        "question": "In children, the specialized cartilaginous zone located between the epiphysis and diaphysis where longitudinal bone growth takes place is the:",
+        "optionA": "Articular cartilage",
+        "optionB": "Epiphyseal plate (growth plate / physis)",
+        "optionC": "Medullary cavity",
+        "optionD": "Endosteum",
+        "correctAnswer": "B",
+        "explanation": "Endochondral ossification occurs at the epiphyseal cartilage plate, allowing long bones to grow in length until closure at late adolescence."
+    },
+    {
+        "question": "Which clinical manifestation distinguishes Osteoarthritis (degenerative joint disease) from Rheumatoid Arthritis?",
+        "optionA": "Osteoarthritis is a systemic autoimmune disease affecting all organs",
+        "optionB": "Osteoarthritis involves asymmetric weight-bearing joint pain that worsens with activity and improves with rest, without systemic inflammatory signs",
+        "optionC": "Rheumatoid arthritis never causes morning stiffness",
+        "optionD": "Osteoarthritis produces high titers of serum rheumatoid factor",
+        "correctAnswer": "B",
+        "explanation": "Osteoarthritis is a localized mechanical degenerative cartilage disease of knees and hips aggravated by use, whereas RA is an autoimmune symmetric polyarthritis."
+    },
+    {
+        "question": "The presence of hard, painless bony enlargements at the distal interphalangeal (DIP) joints of the fingers in osteoarthritis is known as:",
+        "optionA": "Bouchard's nodes",
+        "optionB": "Heberden's nodes",
+        "optionC": "Tophi",
+        "optionD": "Rheumatoid nodules",
+        "correctAnswer": "B",
+        "explanation": "Heberden's nodes are osteophytic bony spurs forming at the margin of the DIP joints in osteoarthritis; Bouchard's nodes form at the proximal interphalangeal (PIP) joints."
+    },
+    {
+        "question": "Acute gouty arthritis typically affects which joint most frequently (podagra) during initial presentations?",
+        "optionA": "Glenohumeral shoulder joint",
+        "optionB": "First metatarsophalangeal (MTP) joint of the great toe",
+        "optionC": "Temporomandibular joint",
+        "optionD": "Sternoclavicular joint",
+        "correctAnswer": "B",
+        "explanation": "Over 50% of initial acute gout attacks involve the first metatarsophalangeal joint of the big toe, characterized by sudden severe nocturnal throbbing pain, warmth, and erythema."
+    },
+    {
+        "question": "Pernicious anemia is an autoimmune disorder that leads to vitamin B12 deficiency due to the destruction of:",
+        "optionA": "Gastric chief cells",
+        "optionB": "Gastric parietal cells that secrete intrinsic factor",
+        "optionC": "Duodenal enterocytes",
+        "optionD": "Hepatocytes",
+        "correctAnswer": "B",
+        "explanation": "Autoantibodies against parietal cells or intrinsic factor prevent intrinsic factor binding to dietary B12, blocking its absorption in the terminal ileum."
+    },
+    {
+        "question": "Hemophilia A is an inherited bleeding disorder characterized by a congenital deficiency of which blood coagulation factor?",
+        "optionA": "Factor V",
+        "optionB": "Factor VIII (Antihemophilic factor)",
+        "optionC": "Factor IX (Christmas factor)",
+        "optionD": "Factor XI",
+        "correctAnswer": "B",
+        "explanation": "Hemophilia A is an X-linked recessive genetic disorder caused by mutations in the F8 gene encoding coagulation Factor VIII, predisposing males to deep hemarthroses."
+    },
+    {
+        "question": "In Disseminated Intravascular Coagulation (DIC), which paradoxical clinical phenomenon occurs simultaneously?",
+        "optionA": "Widespread microvascular thrombosis paired with catastrophic systemic bleeding due to consumption of clotting factors and platelets",
+        "optionB": "Extreme polycythemia with leukopenia",
+        "optionC": "Localized hematoma formation with hypertension",
+        "optionD": "Hyperglycemia with low insulin levels",
+        "correctAnswer": "A",
+        "explanation": "Uncontrolled systemic thrombin generation causes microthrombi throughout organ capillaries while depleting fibrinogen and platelets, resulting in profuse hemorrhage."
+    }
+]
+
+with open('scripts/last_100_data.json', 'w') as f:
+    json.dump(LAST_100_QUESTIONS, f, indent=2)
+
+print(f"Generated {len(LAST_100_QUESTIONS)} last 100 questions")

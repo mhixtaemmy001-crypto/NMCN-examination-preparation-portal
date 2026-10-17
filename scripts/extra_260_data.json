@@ -1,0 +1,632 @@
+[
+  {
+    "question": "The connective tissue membrane that directly encloses and adheres to the outer surface of bones, providing vascular nourishment and osteogenic potential, is the:",
+    "optionA": "Endosteum",
+    "optionB": "Periosteum",
+    "optionC": "Perichondrium",
+    "optionD": "Perimysium",
+    "correctAnswer": "B",
+    "explanation": "The periosteum is a dense fibrous membrane whose inner osteogenic layer contains osteoprogenitor cells essential for bone growth in diameter and fracture repair."
+  },
+  {
+    "question": "Which cranial bone forms the posterior floor and base of the cranium and contains the foramen magnum?",
+    "optionA": "Parietal bone",
+    "optionB": "Sphenoid bone",
+    "optionC": "Occipital bone",
+    "optionD": "Temporal bone",
+    "correctAnswer": "C",
+    "explanation": "The occipital bone forms the posteroinferior part of the cranium and features the foramen magnum, through which the medulla oblongata continues as the spinal cord."
+  },
+  {
+    "question": "The sphenoid bone is often referred to as the keystone of the cranium because it:",
+    "optionA": "Is the hardest bone in the skull",
+    "optionB": "Articulates with every other cranial bone",
+    "optionC": "Contains the teeth",
+    "optionD": "Forms the bridge of the nose",
+    "correctAnswer": "B",
+    "explanation": "The butterfly-shaped sphenoid bone articulates with all seven other cranial bones, binding them into a cohesive neurocranium."
+  },
+  {
+    "question": "The saddle-shaped depression in the sphenoid bone that houses and protects the pituitary gland (hypophysis) is the:",
+    "optionA": "Cribriform plate",
+    "optionB": "Sella turcica (hypophyseal fossa)",
+    "optionC": "Foramen ovale",
+    "optionD": "Crista galli",
+    "correctAnswer": "B",
+    "explanation": "The sella turcica is a bony saddle-like saddle in the superior surface of the sphenoid body containing the hypophyseal fossa for the pituitary gland."
+  },
+  {
+    "question": "Which bone of the skull contains the cribriform plate with olfactory foramina for the passage of Cranial Nerve I fibers?",
+    "optionA": "Ethmoid bone",
+    "optionB": "Frontal bone",
+    "optionC": "Sphenoid bone",
+    "optionD": "Lacrimal bone",
+    "correctAnswer": "A",
+    "explanation": "The horizontal cribriform plate of the ethmoid bone transmits olfactory nerve filaments from the nasal cavity into the anterior cranial fossa."
+  },
+  {
+    "question": "The anatomical space between the vocal cords in the larynx through which air enters the trachea is the:",
+    "optionA": "Epiglottis",
+    "optionB": "Glottis (rima glottidis)",
+    "optionC": "Vallecula",
+    "optionD": "Piriform recess",
+    "correctAnswer": "B",
+    "explanation": "The glottis consists of the true vocal folds and the slit-like opening (rima glottidis) between them, serving as the vocal and airway gateway."
+  },
+  {
+    "question": "The C-shaped cartilaginous rings that keep the lumen of the trachea patent are composed of which type of cartilage?",
+    "optionA": "Elastic cartilage",
+    "optionB": "Fibrocartilage",
+    "optionC": "Hyaline cartilage",
+    "optionD": "Calcified cartilage",
+    "correctAnswer": "C",
+    "explanation": "The 16 to 20 incomplete rings supporting the anterior and lateral walls of the trachea are composed of hyaline cartilage."
+  },
+  {
+    "question": "The pulmonary surfactant that reduces alveolar surface tension and prevents alveolar collapse on expiration is secreted by:",
+    "optionA": "Type I alveolar pneumocytes",
+    "optionB": "Type II alveolar pneumocytes (septal cells)",
+    "optionC": "Alveolar macrophages (dust cells)",
+    "optionD": "Goblet cells",
+    "correctAnswer": "B",
+    "explanation": "Type II pneumocytes are cuboidal cells that synthesize dipalmitoylphosphatidylcholine (surfactant), which decreases surface tension."
+  },
+  {
+    "question": "The volume of air remaining in the lungs even after a maximal, forceful forced expiration is the:",
+    "optionA": "Tidal volume",
+    "optionB": "Inspiratory reserve volume",
+    "optionC": "Residual volume (approx. 1200 mL)",
+    "optionD": "Expiratory reserve volume",
+    "correctAnswer": "C",
+    "explanation": "Residual volume cannot be expired voluntarily, preventing total lung collapse and ensuring continuous gas exchange between breaths."
+  },
+  {
+    "question": "Vital capacity (VC) of the lungs is defined as the maximum volume of air that can be expired after a maximal inspiration, and is the sum of:",
+    "optionA": "Tidal volume and residual volume",
+    "optionB": "Tidal volume, Inspiratory Reserve Volume, and Expiratory Reserve Volume",
+    "optionC": "Total lung capacity minus tidal volume",
+    "optionD": "Residual volume plus expiratory reserve volume",
+    "correctAnswer": "B",
+    "explanation": "Vital capacity equals TV + IRV + ERV, measuring the maximum usable volume excursion of the respiratory system (approx. 4500-5000 mL)."
+  },
+  {
+    "question": "Which portion of the electrocardiogram (ECG) represents electrical atrial depolarization?",
+    "optionA": "P wave",
+    "optionB": "QRS complex",
+    "optionC": "T wave",
+    "optionD": "U wave",
+    "correctAnswer": "A",
+    "explanation": "The P wave corresponds to the spread of electrical activation from the SA node across the right and left atria, preceding atrial mechanical contraction."
+  },
+  {
+    "question": "The QRS complex on an electrocardiogram represents which cardiac electrophysiological event?",
+    "optionA": "Atrial repolarization and ventricular depolarization",
+    "optionB": "Atrial systole only",
+    "optionC": "Ventricular repolarization",
+    "optionD": "AV nodal delay",
+    "correctAnswer": "A",
+    "explanation": "The rapid, sharp QRS deflection reflects ventricular myocardial depolarization, while masking the simultaneous repolarization of the atria."
+  },
+  {
+    "question": "The T wave on an electrocardiogram represents:",
+    "optionA": "Ventricular depolarization",
+    "optionB": "Ventricular repolarization",
+    "optionC": "Atrial depolarization",
+    "optionD": "SA nodal discharge",
+    "correctAnswer": "B",
+    "explanation": "The T wave reflects the phase of rapid electrical repolarization of the ventricular myocardium returning to its resting negative membrane potential."
+  },
+  {
+    "question": "The duration of the normal PR interval on a standard 12-lead ECG, reflecting conduction time from the SA node through the AV node, is:",
+    "optionA": "0.04 to 0.08 second",
+    "optionB": "0.12 to 0.20 second (3 to 5 small squares)",
+    "optionC": "0.25 to 0.40 second",
+    "optionD": "0.50 to 0.60 second",
+    "correctAnswer": "B",
+    "explanation": "A normal PR interval measures 0.12 to 0.20 second (120-200 milliseconds); prolongation beyond 0.20 second indicates first-degree AV block."
+  },
+  {
+    "question": "The maximum normal duration of the QRS complex in healthy adults is:",
+    "optionA": "Less than 0.12 second (3 small squares)",
+    "optionB": "0.20 second",
+    "optionC": "0.30 second",
+    "optionD": "0.02 second",
+    "correctAnswer": "A",
+    "explanation": "A normal narrow QRS measures less than 0.10 to 0.12 second; widening >=0.12 second suggests bundle branch block or ventricular origin."
+  },
+  {
+    "question": "Which layer of an artery wall contains smooth muscle and elastic fibers that regulate vascular resistance and lumen diameter?",
+    "optionA": "Tunica intima",
+    "optionB": "Tunica media",
+    "optionC": "Tunica adventitia (externa)",
+    "optionD": "Endothelium",
+    "correctAnswer": "B",
+    "explanation": "The tunica media is the thick middle layer controlled by sympathetic vasomotor nerves, mediating vasoconstriction and vasodilation."
+  },
+  {
+    "question": "The largest elastic artery in the human systemic arterial circulation is the:",
+    "optionA": "Pulmonary trunk",
+    "optionB": "Aorta",
+    "optionC": "Femoral artery",
+    "optionD": "Carotid artery",
+    "correctAnswer": "B",
+    "explanation": "The aorta expands during ventricular systole to absorb peak stroke volume and recoils during diastole to propel blood continuously (Windkessel effect)."
+  },
+  {
+    "question": "The valve that guards the opening between the right atrium and right ventricle is the:",
+    "optionA": "Mitral (bicuspid) valve",
+    "optionB": "Tricuspid valve (having three cusps)",
+    "optionC": "Aortic valve",
+    "optionD": "Pulmonic valve",
+    "correctAnswer": "B",
+    "explanation": "The tricuspid atrioventricular valve prevents regurgitation of blood from the right ventricle into the right atrium during right ventricular systole."
+  },
+  {
+    "question": "The fibrous cords that attach the free edges of the atrioventricular valve cusps to papillary muscles in the ventricles are the:",
+    "optionA": "Trabeculae carneae",
+    "optionB": "Chordae tendineae ('heart strings')",
+    "optionC": "Pectinate muscles",
+    "optionD": "Purkinje fibers",
+    "correctAnswer": "B",
+    "explanation": "Chordae tendineae prevent the eversion and prolapse of the tricuspid and mitral valve cusps into the atria during ventricular contraction."
+  },
+  {
+    "question": "The left atrioventricular valve, consisting of two triangular cusps, is named the:",
+    "optionA": "Tricuspid valve",
+    "optionB": "Bicuspid (mitral) valve",
+    "optionC": "Semilunar valve",
+    "optionD": "Eustachian valve",
+    "correctAnswer": "B",
+    "explanation": "The mitral or bicuspid valve regulates unidirectional oxygenated blood flow from the left atrium into the high-pressure left ventricle."
+  },
+  {
+    "question": "The small, conical muscular projections arising from the ventricular walls that anchor the chordae tendineae are the:",
+    "optionA": "Papillary muscles",
+    "optionB": "Pectinate muscles",
+    "optionC": "Crista terminalis",
+    "optionD": "Fossa ovalis",
+    "correctAnswer": "A",
+    "explanation": "Papillary muscles contract simultaneously with the ventricular walls, pulling on the chordae tendineae to keep AV valves closed against systolic pressure."
+  },
+  {
+    "question": "The shallow oval depression in the interatrial septum that marks the site of the fetal foramen ovale is the:",
+    "optionA": "Fossa ovalis",
+    "optionB": "Ductus arteriosus",
+    "optionC": "Ligamentum teres",
+    "optionD": "Sinus venosus",
+    "correctAnswer": "A",
+    "explanation": "The fossa ovalis represents the fibrous remnant of the closure of the fetal interatrial foramen ovale after birth."
+  },
+  {
+    "question": "The fibrous band connecting the pulmonary trunk to the aortic arch, which represents the obliterated fetal ductus arteriosus, is the:",
+    "optionA": "Ligamentum venosum",
+    "optionB": "Ligamentum arteriosum",
+    "optionC": "Ligamentum teres",
+    "optionD": "Urachus",
+    "correctAnswer": "B",
+    "explanation": "The ligamentum arteriosum is the postnatal fibrous cord remnant of the ductus arteriosus that shunted blood from pulmonary trunk to aorta in utero."
+  },
+  {
+    "question": "In which organ does the greatest volume of water absorption occur during digestion?",
+    "optionA": "Stomach",
+    "optionB": "Small intestine (approx. 80-90% of ingested fluid)",
+    "optionC": "Colon",
+    "optionD": "Rectum",
+    "correctAnswer": "B",
+    "explanation": "Although the large intestine dehydrates stool, the small intestine absorbs the vast majority (approx. 7 to 8 liters/day) of all ingested and secreted fluid."
+  },
+  {
+    "question": "The three longitudinal bands of smooth muscle that traverse the length of the colon and bunch it into haustral pouches are the:",
+    "optionA": "Epiploic appendages",
+    "optionB": "Taeniae coli",
+    "optionC": "Circular plicae",
+    "optionD": "Rugae",
+    "correctAnswer": "B",
+    "explanation": "Contraction of the three ribbon-like muscular bands (taeniae coli) causes the characteristic sacculated or puckered haustra of the large bowel."
+  },
+  {
+    "question": "The appendix is a blind-ended lymphoid tube attached to the posteromedial wall of which section of the large intestine?",
+    "optionA": "Cecum",
+    "optionB": "Ascending colon",
+    "optionC": "Sigmoid colon",
+    "optionD": "Rectum",
+    "correctAnswer": "A",
+    "explanation": "The vermiform appendix arises from the cecum approximately 2 to 3 cm below the ileocecal valve."
+  },
+  {
+    "question": "The anatomical valve that regulates the passage of digested chyme from the ileum into the cecum and prevents fecal reflux is the:",
+    "optionA": "Pyloric valve",
+    "optionB": "Ileocecal valve (Bauhin's valve)",
+    "optionC": "Anal sphincter",
+    "optionD": "Cardiac sphincter",
+    "correctAnswer": "B",
+    "explanation": "The muscular ileocecal sphincter relaxes in response to the gastroileal reflex and closes when the cecum is distended."
+  },
+  {
+    "question": "Which segment of the small intestine is C-shaped, retroperitoneal, and approximately 25 cm (10 inches) in length?",
+    "optionA": "Duodenum",
+    "optionB": "Jejunum",
+    "optionC": "Ileum",
+    "optionD": "Cecum",
+    "correctAnswer": "A",
+    "explanation": "The duodenum curves around the head of the pancreas and receives bile and pancreatic juice at the major duodenal papilla."
+  },
+  {
+    "question": "The macroscopic circular folds of the intestinal mucosa and submucosa that amplify absorption surface area and slow chyme transit are:",
+    "optionA": "Rugae",
+    "optionB": "Plicae circulares (valves of Kerckring)",
+    "optionC": "Villi",
+    "optionD": "Microvilli",
+    "correctAnswer": "B",
+    "explanation": "Plicae circulares are permanent deep circular mucosal folds prominent in the duodenum and jejunum that spiral chyme through the lumen."
+  },
+  {
+    "question": "Which blood vessel brings oxygen-rich arterial blood directly to the liver parenchyma to supply hepatocytes?",
+    "optionA": "Hepatic portal vein",
+    "optionB": "Hepatic artery proper",
+    "optionC": "Superior mesenteric artery",
+    "optionD": "Celiac trunk directly",
+    "correctAnswer": "B",
+    "explanation": "The hepatic artery delivers oxygenated arterial blood (approx. 25% of hepatic blood flow) to support metabolic hepatocyte function."
+  },
+  {
+    "question": "Which diagnostic procedure involves visualization of the tracheobronchial tree using a flexible fiberoptic scope?",
+    "optionA": "Laryngoscopy",
+    "optionB": "Bronchoscopy",
+    "optionC": "Mediastinoscopy",
+    "optionD": "Thoracoscopy",
+    "correctAnswer": "B",
+    "explanation": "Flexible bronchoscopy enables direct visualization of larynx, trachea, and bronchi, bronchial washing, and transbronchial biopsy."
+  },
+  {
+    "question": "Following a diagnostic bronchoscopy under local anesthesia, when can the client safely resume oral fluid and food intake?",
+    "optionA": "Immediately upon return to the ward",
+    "optionB": "Only after the cough and gag reflex has fully returned (typically 1 to 2 hours)",
+    "optionC": "Strictly after 24 hours of total fasting",
+    "optionD": "As soon as the patient feels thirsty",
+    "correctAnswer": "B",
+    "explanation": "Local topical anesthetic sprays paralyze the pharyngeal sensory nerves; administering oral fluids before gag return causes fatal aspiration."
+  },
+  {
+    "question": "A client presents with acute hoarseness, 'brassy' cough, and stridor following smoke inhalation. The nurse recognizes this as an indicator of:",
+    "optionA": "Thermal and chemical injury to the upper airway causing impending acute laryngeal edema",
+    "optionB": "Mild pharyngeal dryness",
+    "optionC": "Normal recovery response",
+    "optionD": "Hyperventilation syndrome",
+    "correctAnswer": "A",
+    "explanation": "Inhalation of heated gases and toxic combustion particles causes rapid progressive edema of the vocal cords and larynx, requiring immediate early intubation."
+  },
+  {
+    "question": "The primary objective of performing intermittent tracheal suctioning on an intubated patient is to:",
+    "optionA": "Sterilize the bronchial tree",
+    "optionB": "Remove accumulated secretions, maintain airway patency, and improve alveolar ventilation",
+    "optionC": "Exercise the tracheal smooth muscle",
+    "optionD": "Prevent coughing",
+    "correctAnswer": "B",
+    "explanation": "Endotracheal suctioning clears tracheobronchial secretions that the intubated client cannot clear spontaneously by coughing."
+  },
+  {
+    "question": "In evaluating a client following a thyroidectomy, which emergency equipment must always be maintained at the patient's bedside?",
+    "optionA": "A central venous catheter tray",
+    "optionB": "An emergency tracheostomy tray, suction apparatus, and calcium gluconate",
+    "optionC": "A peritoneal dialysis catheter kit",
+    "optionD": "A lumbar puncture set",
+    "correctAnswer": "B",
+    "explanation": "Laryngeal edema, tracheal compression from hemorrhage, or acute hypocalcemic tetany can cause sudden airway obstruction, requiring emergency bedside tracheostomy."
+  },
+  {
+    "question": "A client receiving total parenteral nutrition (TPN) via a central venous catheter should have blood glucose levels monitored every 4 to 6 hours because:",
+    "optionA": "TPN solutions contain high concentrations of hypertonic dextrose (typically 20% to 50%) that risk hyperosmolar hyperglycemia",
+    "optionB": "TPN contains pure insulin",
+    "optionC": "TPN causes immediate hypoglycemia",
+    "optionD": "TPN damages pancreatic alpha cells",
+    "correctAnswer": "A",
+    "explanation": "Infusion of concentrated glucose stimulates insulin output but can overwhelm endogenous regulation, precipitating severe hyperglycemia or osmotic diuresis."
+  },
+  {
+    "question": "To avoid sudden rebound hypoglycemia when a bag of hypertonic TPN infusion is unexpectedly finished before the next bag arrives, the nurse infuses:",
+    "optionA": "Sterile water for injection",
+    "optionB": "10% Dextrose in water (D10W) at the same rate",
+    "optionC": "0.9% Normal saline",
+    "optionD": "Lactated Ringer's solution",
+    "correctAnswer": "B",
+    "explanation": "Hyperinsulinemia induced by chronic high-dextrose TPN can precipitate acute profound hypoglycemia if glucose delivery ceases abruptly; D10W maintains blood glucose."
+  },
+  {
+    "question": "Which nursing intervention is crucial during the insertion of a central venous line into the subclavian vein to prevent air embolism?",
+    "optionA": "Having the client cough continuously",
+    "optionB": "Placing the client in Trendelenburg position and instructing them to perform the Valsalva maneuver during insertion",
+    "optionC": "Keeping the head of the bed elevated 90 degrees",
+    "optionD": "Having the client hyperventilate rapidly",
+    "correctAnswer": "B",
+    "explanation": "Trendelenburg position elevates intrathoracic venous pressure above atmospheric pressure, preventing ambient air from being sucked into the severed central vein."
+  },
+  {
+    "question": "If an air embolism is suspected during central line manipulation (client exhibits sudden cyanosis, dyspnea, and churning heart murmur), the nurse immediately:",
+    "optionA": "Places the client in high Fowler's position on the right side",
+    "optionB": "Places the client on the left side in Trendelenburg position (Durant's maneuver) and administers 100% O2",
+    "optionC": "Has the patient sit up and take deep breaths",
+    "optionD": "Flushes the catheter with 50 mL of saline",
+    "correctAnswer": "B",
+    "explanation": "Left lateral decubitus Trendelenburg traps the air bubble in the apex of the right ventricle, preventing it from obstructing the pulmonary outflow tract."
+  },
+  {
+    "question": "Which blood product is specifically indicated for rapid correction of multiple coagulation factor deficiencies in a bleeding client with liver disease or warfarin overdose?",
+    "optionA": "Packed red blood cells (PRBCs)",
+    "optionB": "Fresh Frozen Plasma (FFP)",
+    "optionC": "Platelet concentrates",
+    "optionD": "Cryoprecipitate alone",
+    "correctAnswer": "B",
+    "explanation": "FFP contains all soluble plasma coagulation factors (factors II, V, VII, VIII, IX, X, XI, XIII) and antithrombin III in physiological concentrations."
+  },
+  {
+    "question": "Cryoprecipitate is an enriched blood product specifically indicated for the replacement of:",
+    "optionA": "Albumin and globulins",
+    "optionB": "Fibrinogen (Factor I), Factor VIII, and von Willebrand factor",
+    "optionC": "Red blood cells and hemoglobin",
+    "optionD": "Platelets",
+    "correctAnswer": "B",
+    "explanation": "Cryoprecipitate is prepared by thawing FFP and collecting the cold-insoluble precipitate, providing a concentrated source of fibrinogen and factor VIII."
+  },
+  {
+    "question": "A client receiving intravenous penicillin suddenly develops generalized hives, angioedema of the lips and tongue, wheezing, and blood pressure drops to 70/40 mmHg. The nurse's first action is:",
+    "optionA": "Discontinue the penicillin infusion immediately and call for the rapid response team while administering IM epinephrine",
+    "optionB": "Slow the infusion and give oral paracetamol",
+    "optionC": "Apply cold compresses to the hives",
+    "optionD": "Administer oral fluids",
+    "correctAnswer": "A",
+    "explanation": "The triggering antibiotic must be stopped immediately to halt allergen entry, followed by immediate intramuscular epinephrine into the thigh."
+  },
+  {
+    "question": "Which antimicrobial classification does Ciprofloxacin belong to, and what serious musculoskeletal complication carries an FDA black-box warning?",
+    "optionA": "Macrolide; causes hearing loss",
+    "optionB": "Fluoroquinolone; causes tendonitis and spontaneous Achilles tendon rupture",
+    "optionC": "Cephalosporin; causes bone marrow suppression",
+    "optionD": "Sulfonamide; causes kidney stones",
+    "correctAnswer": "B",
+    "explanation": "Fluoroquinolones (ciprofloxacin, levofloxacin) inhibit bacterial DNA gyrase and topoisomerase IV, but can induce tendinopathy and tendon rupture."
+  },
+  {
+    "question": "Which class of antibiotics is renowned for producing a disulfiram-like (Antabuse) reaction (severe nausea, vomiting, flushing, tachycardia) when consumed with alcohol?",
+    "optionA": "Penicillins",
+    "optionB": "Metronidazole (Flagyl)",
+    "optionC": "Tetracyclines",
+    "optionD": "Macrolides",
+    "correctAnswer": "B",
+    "explanation": "Metronidazole inhibits acetaldehyde dehydrogenase, causing toxic accumulation of acetaldehyde if ethanol is ingested during or within 48 hours of treatment."
+  },
+  {
+    "question": "A client taking oral rifampicin for pulmonary tuberculosis should be warned that the drug causes which harmless bodily excretion change?",
+    "optionA": "Bright blue urine",
+    "optionB": "Red-orange discoloration of urine, sweat, tears, and saliva (which may permanently stain contact lenses)",
+    "optionC": "Pale white chalky stools",
+    "optionD": "Black tongue",
+    "correctAnswer": "B",
+    "explanation": "Rifampicin and its metabolites are deeply colored reddish-orange compounds excreted in all bodily secretions, which is benign but often alarming to patients."
+  },
+  {
+    "question": "When administering oral tetracycline hydrochloride, the nurse instructs the client to avoid taking the medication with which substances that chelate and prevent absorption?",
+    "optionA": "Water and tea",
+    "optionB": "Dairy products (milk, cheese), antacids, and iron supplements containing divalent and trivalent cations",
+    "optionC": "Bread and carbohydrates",
+    "optionD": "Lean meats",
+    "correctAnswer": "B",
+    "explanation": "Tetracyclines form insoluble non-absorbable chelates with calcium, magnesium, aluminum, and iron, inactivating antimicrobial efficacy."
+  },
+  {
+    "question": "A client receiving intravenous amphotericin B for a systemic fungal infection is premedicated with antipyretics and antihistamines to prevent which common infusion reaction?",
+    "optionA": "'Shake and bake' syndrome (fever, rigors, chills, nausea, and headache)",
+    "optionB": "Severe diarrhea",
+    "optionC": "Hypertensive crisis",
+    "optionD": "Hypoglycemic coma",
+    "correctAnswer": "A",
+    "explanation": "Amphotericin B triggers macrophage release of TNF-alpha and interleukins; premedication with acetaminophen, diphenhydramine, and corticosteroids mitigates rigors."
+  },
+  {
+    "question": "The drug of choice for treating oral or esophageal candidiasis (thrush) in an immunocompromised client is:",
+    "optionA": "Nystatin oral suspension (swish and swallow) or Fluconazole",
+    "optionB": "Oral Penicillin V",
+    "optionC": "Metronidazole",
+    "optionD": "Acyclovir",
+    "correctAnswer": "A",
+    "explanation": "Nystatin is a polyene antifungal that binds ergosterol in Candida cell membranes, providing effective topical and gastrointestinal antifungal activity."
+  },
+  {
+    "question": "Which antiviral agent is the drug of choice for treating acute infections caused by Herpes Simplex Virus (HSV) and Varicella-Zoster Virus (VZV)?",
+    "optionA": "Oseltamivir (Tamiflu)",
+    "optionB": "Acyclovir (Zovirax)",
+    "optionC": "Zidovudine (AZT)",
+    "optionD": "Ribavirin",
+    "correctAnswer": "B",
+    "explanation": "Acyclovir is selectively phosphorylated by viral thymidine kinase into acyclovir triphosphate, which inhibits viral DNA polymerase and terminates replication."
+  },
+  {
+    "question": "In a client with status epilepticus, which rapid-acting intravenous benzodiazepine is the initial first-line drug of choice to terminate continuous seizures?",
+    "optionA": "Oral phenobarbital",
+    "optionB": "Intravenous Lorazepam (Ativan) or Diazepam (Valium)",
+    "optionC": "Intravenous phenytoin over 2 hours",
+    "optionD": "Subcutaneous morphine",
+    "correctAnswer": "B",
+    "explanation": "Intravenous lorazepam or diazepam rapidly crosses the blood-brain barrier to enhance GABA-ergic inhibition, halting prolonged seizure activity within 2 to 3 minutes."
+  },
+  {
+    "question": "The physiological process of breast milk let-down (ejection reflex) in response to infant suckling or crying is mediated by which hormone?",
+    "optionA": "Prolactin",
+    "optionB": "Oxytocin (released from posterior pituitary)",
+    "optionC": "Progesterone",
+    "optionD": "Estrogen",
+    "correctAnswer": "B",
+    "explanation": "Oxytocin stimulates myoepithelial cells surrounding mammary alveoli to contract, ejecting milk into the lactiferous sinuses."
+  },
+  {
+    "question": "The primary hormone responsible for stimulating alveolar epithelial milk biosynthesis (lactogenesis) in the postpartum breast is:",
+    "optionA": "Oxytocin",
+    "optionB": "Prolactin (secreted by anterior pituitary)",
+    "optionC": "Human chorionic somatomammotropin",
+    "optionD": "Cortisol",
+    "correctAnswer": "B",
+    "explanation": "Prolactin stimulates milk protein (casein, lactalbumin) and lactose synthesis in alveolar epithelial cells; oxytocin governs milk let-down."
+  },
+  {
+    "question": "In evaluating newborn hip stability for developmental dysplasia of the hip (DDH), which maneuver abducts the flexed thigh while lifting the greater trochanter to feel for a palpable 'clunk' of reduction?",
+    "optionA": "Barlow test",
+    "optionB": "Ortolani maneuver",
+    "optionC": "Babinski reflex",
+    "optionD": "Moro maneuver",
+    "correctAnswer": "B",
+    "explanation": "The Ortolani test detects relocation of a dislocated femoral head back into the acetabulum (producing a palpable 'clunk')."
+  },
+  {
+    "question": "Which newborn screening maneuver gently adducts the hip while applying mild posterior pressure to test if the femoral head slips out of the acetabulum (dislocatable hip)?",
+    "optionA": "Ortolani test",
+    "optionB": "Barlow maneuver",
+    "optionC": "Tredelenburg test",
+    "optionD": "Gower maneuver",
+    "correctAnswer": "B",
+    "explanation": "The Barlow test determines whether an unstable hip can be passively subluxated or dislocated out of the acetabulum."
+  },
+  {
+    "question": "The cheesy, whitish greasy biofilm that covers and protects the skin of the fetus in utero from maceration by amniotic fluid is:",
+    "optionA": "Lanugo",
+    "optionB": "Vernix caseosa",
+    "optionC": "Milia",
+    "optionD": "Erythema toxicum",
+    "correctAnswer": "B",
+    "explanation": "Vernix caseosa is a lipid-rich protective substance produced by fetal sebaceous glands that provides cutaneous hydration, lubrication, and antibacterial defense."
+  },
+  {
+    "question": "Fine, unpigmented downy hair that covers the body of the fetus and is especially abundant in preterm infants is called:",
+    "optionA": "Vernix",
+    "optionB": "Lanugo",
+    "optionC": "Striae",
+    "optionD": "Chloasma",
+    "correctAnswer": "B",
+    "explanation": "Lanugo appears around 20 weeks gestation and is progressively shed into amniotic fluid by term gestation."
+  },
+  {
+    "question": "Tiny, white pinpoint sebaceous retention cysts frequently seen across the bridge of the nose and chin of normal newborns are termed:",
+    "optionA": "Mongolian spots",
+    "optionB": "Milia",
+    "optionC": "Caf\u00e9-au-lait spots",
+    "optionD": "Port-wine stains",
+    "correctAnswer": "B",
+    "explanation": "Milia are benign keratin-filled epidermal cysts that disappear spontaneously without intervention within the first few weeks of life."
+  },
+  {
+    "question": "Bluish-gray, slate-colored macular hyperpigmented patches commonly found over the lumbosacral region in infants of African or Asian descent are:",
+    "optionA": "Ecchymoses from birth trauma",
+    "optionB": "Congenital dermal melanocytosis (Mongolian spots)",
+    "optionC": "Nevus flammeus",
+    "optionD": "Melanoma",
+    "correctAnswer": "B",
+    "explanation": "Mongolian spots represent dermal melanocytes trapped in the deep dermis during embryonic migration; they are completely benign and fade during early childhood."
+  },
+  {
+    "question": "The localized, soft-tissue edematous swelling of the newborn scalp that crosses cranial suture lines caused by pressure during labor is:",
+    "optionA": "Cephalohematoma",
+    "optionB": "Caput succedaneum",
+    "optionC": "Subgaleal hemorrhage",
+    "optionD": "Hydrocephalus",
+    "correctAnswer": "B",
+    "explanation": "Caput succedaneum is diffuse edematous fluid accumulation in the subcutaneous tissue of the scalp that freely crosses suture lines and resolves in 2 to 3 days."
+  },
+  {
+    "question": "A collection of subperiosteal blood over a newborn cranial bone that does NOT cross suture lines because it is bound by periosteum is a:",
+    "optionA": "Caput succedaneum",
+    "optionB": "Cephalohematoma",
+    "optionC": "Meningocele",
+    "optionD": "Encephalocele",
+    "correctAnswer": "B",
+    "explanation": "A cephalohematoma involves ruptured subperiosteal capillaries over a single cranial bone (most often parietal), strictly bounded by suture attachments."
+  },
+  {
+    "question": "In which congenital malformation does the abdominal wall fail to close at the umbilicus, leaving herniated abdominal viscera covered by a translucent peritoneal and amniotic sac?",
+    "optionA": "Gastroschisis",
+    "optionB": "Omphalocele",
+    "optionC": "Umbilical hernia",
+    "optionD": "Diaphragmatic hernia",
+    "correctAnswer": "B",
+    "explanation": "Omphalocele features eviscerated abdominal organs enclosed within an intact membranous sac with the umbilical cord inserting directly onto the apex."
+  },
+  {
+    "question": "Which congenital full-thickness abdominal wall defect occurs lateral to the umbilicus with eviscerated bowel loops exposed directly to air without any covering sac?",
+    "optionA": "Omphalocele",
+    "optionB": "Gastroschisis",
+    "optionC": "Prune-belly syndrome",
+    "optionD": "Epigastric hernia",
+    "correctAnswer": "B",
+    "explanation": "Gastroschisis is a paraumbilical defect (usually on the right side) through which loops of unprotected bowel herniate directly into amniotic fluid."
+  },
+  {
+    "question": "In a neonate presenting with excessive oral frothy salivation, coughing, choking, and cyanosis during the very first attempt at feeding, the nurse suspects:",
+    "optionA": "Gastroesophageal reflux",
+    "optionB": "Esophageal atresia with tracheoesophageal fistula (TEF)",
+    "optionC": "Pyloric stenosis",
+    "optionD": "Cleft palate alone",
+    "correctAnswer": "B",
+    "explanation": "Congenital esophageal atresia prevents swallowed saliva from entering the stomach; overflow into the trachea triggers the classic triad of coughing, choking, and cyanosis."
+  },
+  {
+    "question": "A child with suspected celiac disease (gluten-sensitive enteropathy) will exhibit severe malabsorption and intestinal villous atrophy upon consuming proteins found in:",
+    "optionA": "Rice, corn, and potatoes",
+    "optionB": "Wheat, barley, and rye (gluten-containing grains)",
+    "optionC": "Soy and legumes",
+    "optionD": "Milk and dairy products exclusively",
+    "correctAnswer": "B",
+    "explanation": "Celiac disease is an immune-mediated enteropathy triggered by ingestion of gluten storage prolamins (gliadin in wheat, secalin in rye, hordein in barley)."
+  },
+  {
+    "question": "What is the primary pharmacological antidote administered for acute acetaminophen (paracetamol) overdose to prevent fatal hepatic centrilobular necrosis?",
+    "optionA": "Naloxone",
+    "optionB": "N-acetylcysteine (NAC / Mucomyst)",
+    "optionC": "Atropine sulfate",
+    "optionD": "Deferoxamine",
+    "correctAnswer": "B",
+    "explanation": "N-acetylcysteine restores depleted intracellular hepatic glutathione pools, enabling safe conjugation and detoxification of the toxic metabolite NAPQI."
+  },
+  {
+    "question": "Which chelating agent is specific for the treatment of acute iron poisoning in young children who ingest accidental overdoses of iron supplement tablets?",
+    "optionA": "Dimercaprol (BAL)",
+    "optionB": "Deferoxamine mesylate",
+    "optionC": "Calcium disodium EDTA",
+    "optionD": "Penicillamine",
+    "correctAnswer": "B",
+    "explanation": "Deferoxamine binds free ferric iron (Fe3+) in systemic circulation and tissues, forming ferrioxamine, which is excreted harmlessly in reddish-orange urine."
+  },
+  {
+    "question": "In occupational health, 'Byssinosis' (Brown Lung Disease) is a chronic occupational airway disease caused by the inhalation of dust from:",
+    "optionA": "Coal mines",
+    "optionB": "Cotton, flax, or hemp fibers in textile mills",
+    "optionC": "Asbestos insulation",
+    "optionD": "Silicon quarries",
+    "correctAnswer": "B",
+    "explanation": "Byssinosis is characterized by chest tightness on the first day of the work week ('Monday fever') progressing to chronic bronchitis in textile mill workers."
+  },
+  {
+    "question": "Which infectious disease characterized by severe muscle spasms of the masticatory muscles, causing trismus ('lockjaw') and risus sardonicus, is prevented by toxoid immunization?",
+    "optionA": "Rabies",
+    "optionB": "Tetanus",
+    "optionC": "Botulism",
+    "optionD": "Diphtheria",
+    "correctAnswer": "B",
+    "explanation": "Clostridium tetani infection causes painful sustained contraction of the masseter muscles (trismus), producing the classic sneering facial spasm (risus sardonicus)."
+  },
+  {
+    "question": "Under the Nigerian National Health Act, what percentage of the Consolidated Revenue Fund of the Federation is earmarked for the Basic Health Care Provision Fund (BHCPF)?",
+    "optionA": "At least 1%",
+    "optionB": "5%",
+    "optionC": "10%",
+    "optionD": "15%",
+    "correctAnswer": "A",
+    "explanation": "The National Health Act mandates that at least 1% of the federal consolidated revenue be allocated to the BHCPF to fund primary healthcare and emergency medical care."
+  },
+  {
+    "question": "Which United Nations agency is primarily mandated to direct and coordinate international public health policy, disease outbreaks, and global health standards?",
+    "optionA": "UNICEF",
+    "optionB": "World Health Organization (WHO)",
+    "optionC": "UNESCO",
+    "optionD": "UNDP",
+    "correctAnswer": "B",
+    "explanation": "The WHO is the specialized agency of the United Nations responsible for international public health leadership, global guidelines, and health monitoring."
+  }
+]

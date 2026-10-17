@@ -1,1504 +1,1354 @@
 import { RawDocQuestion } from './docPart1';
 
 export const TYPE11_QUESTIONS: RawDocQuestion[] = [
-  // 1 (Q51)
-  {
-    question: "A child with diarrhea should continue to receive",
-    optionA: "Fluids and feeding",
-    optionB: "No food for 24 hours",
-    optionC: "Only water",
-    optionD: "Only juice",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 2 (Q52)
-  {
-    question: "ORS is used mainly to prevent",
-    optionA: "Dehydration",
-    optionB: "Fever",
-    optionC: "Cough",
-    optionD: "Rash",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 3 (Q53)
-  {
-    question: "A community nurse visiting a home should first assess",
-    optionA: "Safety and health needs",
-    optionB: "Furniture",
-    optionC: "Television",
-    optionD: "Clothing",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 4 (Q54)
-  {
-    question: "The most effective way to control malaria is",
-    optionA: "Vector control and prevention of mosquito bites",
-    optionB: "Antibiotics",
-    optionC: "Steroids",
-    optionD: "Isolation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 5 (Q55)
-  {
-    question: "Which disease is spread by contaminated water?",
-    optionA: "Cholera",
-    optionB: "Asthma",
-    optionC: "Diabetes",
-    optionD: "Hypertension",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 6 (Q56)
-  {
-    question: "Exclusive breastfeeding is recommended for",
-    optionA: "6 months",
-    optionB: "3 months",
-    optionC: "9 months",
-    optionD: "12 months",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 7 (Q57)
-  {
-    question: "A mother should wash hands before",
-    optionA: "Feeding the baby",
-    optionB: "Sleeping",
-    optionC: "Bathing herself only",
-    optionD: "Going outside",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 8 (Q58)
-  {
-    question: "Immunization protects children by",
-    optionA: "Developing immunity",
-    optionB: "Increasing appetite",
-    optionC: "Improving sleep",
-    optionD: "Reducing weight",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 9 (Q59)
-  {
-    question: "The first step in health education is to",
-    optionA: "Assess learning needs",
-    optionB: "Give lecture",
-    optionC: "Distribute drugs",
-    optionD: "Take attendance",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 10 (Q60)
-  {
-    question: "A nurse should report a notifiable disease to",
-    optionA: "Appropriate public health authority",
-    optionB: "Neighbors",
-    optionC: "Media",
-    optionD: "School only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 11 (Q61)
-  {
-    question: "A child with diarrhea should continue to receive",
-    optionA: "Fluids and feeding",
-    optionB: "No food for 24 hours",
-    optionC: "Only water",
-    optionD: "Only juice",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 12 (Q62)
-  {
-    question: "ORS is used mainly to prevent",
-    optionA: "Dehydration",
-    optionB: "Fever",
-    optionC: "Cough",
-    optionD: "Rash",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 13 (Q63)
-  {
-    question: "A community nurse visiting a home should first assess",
-    optionA: "Safety and health needs",
-    optionB: "Furniture",
-    optionC: "Television",
-    optionD: "Clothing",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 14 (Q64)
-  {
-    question: "The most effective way to control malaria is",
-    optionA: "Vector control and prevention of mosquito bites",
-    optionB: "Antibiotics",
-    optionC: "Steroids",
-    optionD: "Isolation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 15 (Q65)
-  {
-    question: "Which disease is spread by contaminated water?",
-    optionA: "Cholera",
-    optionB: "Asthma",
-    optionC: "Diabetes",
-    optionD: "Hypertension",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 16 (Q66)
-  {
-    question: "Exclusive breastfeeding is recommended for",
-    optionA: "6 months",
-    optionB: "3 months",
-    optionC: "9 months",
-    optionD: "12 months",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 17 (Q67)
-  {
-    question: "A mother should wash hands before",
-    optionA: "Feeding the baby",
-    optionB: "Sleeping",
-    optionC: "Bathing herself only",
-    optionD: "Going outside",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 18 (Q68)
-  {
-    question: "Immunization protects children by",
-    optionA: "Developing immunity",
-    optionB: "Increasing appetite",
-    optionC: "Improving sleep",
-    optionD: "Reducing weight",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 19 (Q69)
-  {
-    question: "The first step in health education is to",
-    optionA: "Assess learning needs",
-    optionB: "Give lecture",
-    optionC: "Distribute drugs",
-    optionD: "Take attendance",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 20 (Q70)
-  {
-    question: "A nurse should report a notifiable disease to",
-    optionA: "Appropriate public health authority",
-    optionB: "Neighbors",
-    optionC: "Media",
-    optionD: "School only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 21 (Q71)
-  {
-    question: "A child with diarrhea should continue to receive",
-    optionA: "Fluids and feeding",
-    optionB: "No food for 24 hours",
-    optionC: "Only water",
-    optionD: "Only juice",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 22 (Q72)
-  {
-    question: "ORS is used mainly to prevent",
-    optionA: "Dehydration",
-    optionB: "Fever",
-    optionC: "Cough",
-    optionD: "Rash",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 23 (Q73)
-  {
-    question: "A community nurse visiting a home should first assess",
-    optionA: "Safety and health needs",
-    optionB: "Furniture",
-    optionC: "Television",
-    optionD: "Clothing",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 24 (Q74)
-  {
-    question: "The most effective way to control malaria is",
-    optionA: "Vector control and prevention of mosquito bites",
-    optionB: "Antibiotics",
-    optionC: "Steroids",
-    optionD: "Isolation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 25 (Q75)
-  {
-    question: "Which disease is spread by contaminated water?",
-    optionA: "Cholera",
-    optionB: "Asthma",
-    optionC: "Diabetes",
-    optionD: "Hypertension",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 26 (Q76)
-  {
-    question: "Exclusive breastfeeding is recommended for",
-    optionA: "6 months",
-    optionB: "3 months",
-    optionC: "9 months",
-    optionD: "12 months",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 27 (Q77)
-  {
-    question: "A mother should wash hands before",
-    optionA: "Feeding the baby",
-    optionB: "Sleeping",
-    optionC: "Bathing herself only",
-    optionD: "Going outside",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 28 (Q78)
-  {
-    question: "Immunization protects children by",
-    optionA: "Developing immunity",
-    optionB: "Increasing appetite",
-    optionC: "Improving sleep",
-    optionD: "Reducing weight",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 29 (Q79)
-  {
-    question: "The first step in health education is to",
-    optionA: "Assess learning needs",
-    optionB: "Give lecture",
-    optionC: "Distribute drugs",
-    optionD: "Take attendance",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 30 (Q80)
-  {
-    question: "A nurse should report a notifiable disease to",
-    optionA: "Appropriate public health authority",
-    optionB: "Neighbors",
-    optionC: "Media",
-    optionD: "School only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 31 (Q81)
-  {
-    question: "A child with diarrhea should continue to receive",
-    optionA: "Fluids and feeding",
-    optionB: "No food for 24 hours",
-    optionC: "Only water",
-    optionD: "Only juice",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 32 (Q82)
-  {
-    question: "ORS is used mainly to prevent",
-    optionA: "Dehydration",
-    optionB: "Fever",
-    optionC: "Cough",
-    optionD: "Rash",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 33 (Q83)
-  {
-    question: "A community nurse visiting a home should first assess",
-    optionA: "Safety and health needs",
-    optionB: "Furniture",
-    optionC: "Television",
-    optionD: "Clothing",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 34 (Q84)
-  {
-    question: "The most effective way to control malaria is",
-    optionA: "Vector control and prevention of mosquito bites",
-    optionB: "Antibiotics",
-    optionC: "Steroids",
-    optionD: "Isolation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 35 (Q85)
-  {
-    question: "Which disease is spread by contaminated water?",
-    optionA: "Cholera",
-    optionB: "Asthma",
-    optionC: "Diabetes",
-    optionD: "Hypertension",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 36 (Q86)
-  {
-    question: "Exclusive breastfeeding is recommended for",
-    optionA: "6 months",
-    optionB: "3 months",
-    optionC: "9 months",
-    optionD: "12 months",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 37 (Q87)
-  {
-    question: "A mother should wash hands before",
-    optionA: "Feeding the baby",
-    optionB: "Sleeping",
-    optionC: "Bathing herself only",
-    optionD: "Going outside",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 38 (Q88)
-  {
-    question: "Immunization protects children by",
-    optionA: "Developing immunity",
-    optionB: "Increasing appetite",
-    optionC: "Improving sleep",
-    optionD: "Reducing weight",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 39 (Q89)
-  {
-    question: "The first step in health education is to",
-    optionA: "Assess learning needs",
-    optionB: "Give lecture",
-    optionC: "Distribute drugs",
-    optionD: "Take attendance",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 40 (Q90)
-  {
-    question: "A nurse should report a notifiable disease to",
-    optionA: "Appropriate public health authority",
-    optionB: "Neighbors",
-    optionC: "Media",
-    optionD: "School only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 41 (Q91)
-  {
-    question: "A child with diarrhea should continue to receive",
-    optionA: "Fluids and feeding",
-    optionB: "No food for 24 hours",
-    optionC: "Only water",
-    optionD: "Only juice",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 42 (Q92)
-  {
-    question: "ORS is used mainly to prevent",
-    optionA: "Dehydration",
-    optionB: "Fever",
-    optionC: "Cough",
-    optionD: "Rash",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 43 (Q93)
-  {
-    question: "A community nurse visiting a home should first assess",
-    optionA: "Safety and health needs",
-    optionB: "Furniture",
-    optionC: "Television",
-    optionD: "Clothing",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 44 (Q94)
-  {
-    question: "The most effective way to control malaria is",
-    optionA: "Vector control and prevention of mosquito bites",
-    optionB: "Antibiotics",
-    optionC: "Steroids",
-    optionD: "Isolation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 45 (Q95)
-  {
-    question: "Which disease is spread by contaminated water?",
-    optionA: "Cholera",
-    optionB: "Asthma",
-    optionC: "Diabetes",
-    optionD: "Hypertension",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 46 (Q96)
-  {
-    question: "Exclusive breastfeeding is recommended for",
-    optionA: "6 months",
-    optionB: "3 months",
-    optionC: "9 months",
-    optionD: "12 months",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 47 (Q97)
-  {
-    question: "A mother should wash hands before",
-    optionA: "Feeding the baby",
-    optionB: "Sleeping",
-    optionC: "Bathing herself only",
-    optionD: "Going outside",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 48 (Q98)
-  {
-    question: "Immunization protects children by",
-    optionA: "Developing immunity",
-    optionB: "Increasing appetite",
-    optionC: "Improving sleep",
-    optionD: "Reducing weight",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 49 (Q99)
-  {
-    question: "The first step in health education is to",
-    optionA: "Assess learning needs",
-    optionB: "Give lecture",
-    optionC: "Distribute drugs",
-    optionD: "Take attendance",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 50 (Q100)
-  {
-    question: "A nurse should report a notifiable disease to",
-    optionA: "Appropriate public health authority",
-    optionB: "Neighbors",
-    optionC: "Media",
-    optionD: "School only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 51 (Ethics, Legal & Professional Practice - Q1)
-  {
-    question: "A competent adult patient refuses treatment. What should the nurse do?",
-    optionA: "Respect the refusal and inform the appropriate team",
-    optionB: "Force the treatment",
-    optionC: "Ignore the patient",
-    optionD: "Ask relatives to sign",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 52 (Ethics, Legal & Professional Practice - Q2)
-  {
-    question: "The best method of identifying a patient before medication administration is",
-    optionA: "Use two identifiers",
-    optionB: "Ask another patient",
-    optionC: "Use bed number only",
-    optionD: "Use diagnosis only",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 53 (Ethics, Legal & Professional Practice - Q3)
-  {
-    question: "Documentation should be done",
-    optionA: "Immediately after care",
-    optionB: "At the end of the week",
-    optionC: "When convenient",
-    optionD: "Only at discharge",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 54 (Ethics, Legal & Professional Practice - Q4)
-  {
-    question: "Which action breaches patient confidentiality?",
-    optionA: "Discussing the patient in a public place",
-    optionB: "Charting care",
-    optionC: "Handover to staff",
-    optionD: "Reporting to the doctor",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 55 (Ethics, Legal & Professional Practice - Q5)
-  {
-    question: "Informed consent is required before",
-    optionA: "Surgery",
-    optionB: "Giving water",
-    optionC: "Taking temperature",
-    optionD: "Making bed",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 56 (Ethics, Legal & Professional Practice - Q6)
-  {
-    question: "A nurse makes a medication error. What is the first professional responsibility?",
-    optionA: "Ensure patient safety and report the error",
-    optionB: "Hide the error",
-    optionC: "Change the chart",
-    optionD: "Blame another nurse",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 57 (Ethics, Legal & Professional Practice - Q7)
-  {
-    question: "Which principle means doing good for the patient?",
-    optionA: "Beneficence",
-    optionB: "Autonomy",
-    optionC: "Justice",
-    optionD: "Fidelity",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 58 (Ethics, Legal & Professional Practice - Q8)
-  {
-    question: "The legal record of nursing care is the",
-    optionA: "Patient chart",
-    optionB: "Verbal report",
-    optionC: "Duty roster",
-    optionD: "Notice board",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 59 (Ethics, Legal & Professional Practice - Q9)
-  {
-    question: "A nurse delegates a task to an assistant. The nurse remains",
-    optionA: "Accountable",
-    optionB: "Not responsible",
-    optionC: "On leave",
-    optionD: "Protected from liability",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 60 (Ethics, Legal & Professional Practice - Q10)
-  {
-    question: "Which leadership style encourages staff participation?",
-    optionA: "Democratic",
-    optionB: "Autocratic",
-    optionC: "Laissez-faire",
-    optionD: "Authoritarian",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 61 (Ethics, Legal & Professional Practice - Q11)
-  {
-    question: "A patient becomes angry and shouts at the nurse. What is the best response?",
-    optionA: "Remain calm and listen actively",
-    optionB: "Shout back",
-    optionC: "Leave immediately",
-    optionD: "Ignore completely",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 62 (Ethics, Legal & Professional Practice - Q12)
-  {
-    question: "During handover, the nurse should communicate",
-    optionA: "Accurate and relevant information",
-    optionB: "Personal opinions",
-    optionC: "Rumors",
-    optionD: "Unrelated events",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 63 (Ethics, Legal & Professional Practice - Q13)
-  {
-    question: "A nurse should question a prescription when it is",
-    optionA: "Unclear or potentially unsafe",
-    optionB: "Written by a consultant",
-    optionC: "Given at night",
-    optionD: "For an adult",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 64 (Ethics, Legal & Professional Practice - Q14)
-  {
-    question: "Professional boundaries are maintained by",
-    optionA: "Avoiding inappropriate relationships with patients",
-    optionB: "Accepting expensive gifts",
-    optionC: "Sharing personal secrets",
-    optionD: "Meeting patients socially",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 65 (Ethics, Legal & Professional Practice - Q15)
-  {
-    question: "An incident report is completed when",
-    optionA: "An unusual event occurs",
-    optionB: "A patient is discharged",
-    optionC: "Visitors arrive",
-    optionD: "The ward is cleaned",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 66 (Ethics, Legal & Professional Practice - Q16)
-  {
-    question: "The purpose of delegation is to",
-    optionA: "Ensure efficient and safe care",
-    optionB: "Avoid all work",
-    optionC: "Transfer accountability",
-    optionD: "Reduce documentation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 67 (Ethics, Legal & Professional Practice - Q17)
-  {
-    question: "A nurse notices another nurse practicing unsafely. The nurse should",
-    optionA: "Report according to policy",
-    optionB: "Ignore it",
-    optionC: "Discuss with patients",
-    optionD: "Post on social media",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 68 (Ethics, Legal & Professional Practice - Q18)
-  {
-    question: "Which is an example of therapeutic communication?",
-    optionA: "Using empathy and open-ended questions",
-    optionB: "Arguing with the patient",
-    optionC: "Giving false reassurance",
-    optionD: "Changing the subject",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 69 (Ethics, Legal & Professional Practice - Q19)
-  {
-    question: "Continuous professional development is important because it",
-    optionA: "Maintains competence and updates knowledge",
-    optionB: "Increases salary only",
-    optionC: "Reduces workload",
-    optionD: "Replaces experience",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 70 (Ethics, Legal & Professional Practice - Q20)
-  {
-    question: "Justice in nursing means",
-    optionA: "Treating patients fairly",
-    optionB: "Doing whatever the family wants",
-    optionC: "Keeping secrets from the team",
-    optionD: "Avoiding difficult patients",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 71 (Ethics, Legal & Professional Practice - Q21)
-  {
-    question: "A patient becomes angry and shouts at the nurse. What is the best response?",
-    optionA: "Remain calm and listen actively",
-    optionB: "Shout back",
-    optionC: "Leave immediately",
-    optionD: "Ignore completely",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 72 (Ethics, Legal & Professional Practice - Q22)
-  {
-    question: "During handover, the nurse should communicate",
-    optionA: "Accurate and relevant information",
-    optionB: "Personal opinions",
-    optionC: "Rumors",
-    optionD: "Unrelated events",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 73 (Ethics, Legal & Professional Practice - Q23)
-  {
-    question: "A nurse should question a prescription when it is",
-    optionA: "Unclear or potentially unsafe",
-    optionB: "Written by a consultant",
-    optionC: "Given at night",
-    optionD: "For an adult",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 74 (Ethics, Legal & Professional Practice - Q24)
-  {
-    question: "Professional boundaries are maintained by",
-    optionA: "Avoiding inappropriate relationships with patients",
-    optionB: "Accepting expensive gifts",
-    optionC: "Sharing personal secrets",
-    optionD: "Meeting patients socially",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 75 (Ethics, Legal & Professional Practice - Q25)
-  {
-    question: "An incident report is completed when",
-    optionA: "An unusual event occurs",
-    optionB: "A patient is discharged",
-    optionC: "Visitors arrive",
-    optionD: "The ward is cleaned",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 76 (Ethics, Legal & Professional Practice - Q26)
-  {
-    question: "The purpose of delegation is to",
-    optionA: "Ensure efficient and safe care",
-    optionB: "Avoid all work",
-    optionC: "Transfer accountability",
-    optionD: "Reduce documentation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 77 (Ethics, Legal & Professional Practice - Q27)
-  {
-    question: "A nurse notices another nurse practicing unsafely. The nurse should",
-    optionA: "Report according to policy",
-    optionB: "Ignore it",
-    optionC: "Discuss with patients",
-    optionD: "Post on social media",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 78 (Ethics, Legal & Professional Practice - Q28)
-  {
-    question: "Which is an example of therapeutic communication?",
-    optionA: "Using empathy and open-ended questions",
-    optionB: "Arguing with the patient",
-    optionC: "Giving false reassurance",
-    optionD: "Changing the subject",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 79 (Ethics, Legal & Professional Practice - Q29)
-  {
-    question: "Continuous professional development is important because it",
-    optionA: "Maintains competence and updates knowledge",
-    optionB: "Increases salary only",
-    optionC: "Reduces workload",
-    optionD: "Replaces experience",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 80 (Ethics, Legal & Professional Practice - Q30)
-  {
-    question: "Justice in nursing means",
-    optionA: "Treating patients fairly",
-    optionB: "Doing whatever the family wants",
-    optionC: "Keeping secrets from the team",
-    optionD: "Avoiding difficult patients",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 81 (Ethics, Legal & Professional Practice - Q31)
-  {
-    question: "A patient becomes angry and shouts at the nurse. What is the best response?",
-    optionA: "Remain calm and listen actively",
-    optionB: "Shout back",
-    optionC: "Leave immediately",
-    optionD: "Ignore completely",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 82 (Ethics, Legal & Professional Practice - Q32)
-  {
-    question: "During handover, the nurse should communicate",
-    optionA: "Accurate and relevant information",
-    optionB: "Personal opinions",
-    optionC: "Rumors",
-    optionD: "Unrelated events",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 83 (Ethics, Legal & Professional Practice - Q33)
-  {
-    question: "A nurse should question a prescription when it is",
-    optionA: "Unclear or potentially unsafe",
-    optionB: "Written by a consultant",
-    optionC: "Given at night",
-    optionD: "For an adult",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 84 (Ethics, Legal & Professional Practice - Q34)
-  {
-    question: "Professional boundaries are maintained by",
-    optionA: "Avoiding inappropriate relationships with patients",
-    optionB: "Accepting expensive gifts",
-    optionC: "Sharing personal secrets",
-    optionD: "Meeting patients socially",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 85 (Ethics, Legal & Professional Practice - Q35)
-  {
-    question: "An incident report is completed when",
-    optionA: "An unusual event occurs",
-    optionB: "A patient is discharged",
-    optionC: "Visitors arrive",
-    optionD: "The ward is cleaned",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 86 (Ethics, Legal & Professional Practice - Q36)
-  {
-    question: "The purpose of delegation is to",
-    optionA: "Ensure efficient and safe care",
-    optionB: "Avoid all work",
-    optionC: "Transfer accountability",
-    optionD: "Reduce documentation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 87 (Ethics, Legal & Professional Practice - Q37)
-  {
-    question: "A nurse notices another nurse practicing unsafely. The nurse should",
-    optionA: "Report according to policy",
-    optionB: "Ignore it",
-    optionC: "Discuss with patients",
-    optionD: "Post on social media",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 88 (Ethics, Legal & Professional Practice - Q38)
-  {
-    question: "Which is an example of therapeutic communication?",
-    optionA: "Using empathy and open-ended questions",
-    optionB: "Arguing with the patient",
-    optionC: "Giving false reassurance",
-    optionD: "Changing the subject",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 89 (Ethics, Legal & Professional Practice - Q39)
-  {
-    question: "Continuous professional development is important because it",
-    optionA: "Maintains competence and updates knowledge",
-    optionB: "Increases salary only",
-    optionC: "Reduces workload",
-    optionD: "Replaces experience",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 90 (Ethics, Legal & Professional Practice - Q40)
-  {
-    question: "Justice in nursing means",
-    optionA: "Treating patients fairly",
-    optionB: "Doing whatever the family wants",
-    optionC: "Keeping secrets from the team",
-    optionD: "Avoiding difficult patients",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 91 (Ethics, Legal & Professional Practice - Q41)
-  {
-    question: "A patient becomes angry and shouts at the nurse. What is the best response?",
-    optionA: "Remain calm and listen actively",
-    optionB: "Shout back",
-    optionC: "Leave immediately",
-    optionD: "Ignore completely",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 92 (Ethics, Legal & Professional Practice - Q42)
-  {
-    question: "During handover, the nurse should communicate",
-    optionA: "Accurate and relevant information",
-    optionB: "Personal opinions",
-    optionC: "Rumors",
-    optionD: "Unrelated events",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 93 (Ethics, Legal & Professional Practice - Q43)
-  {
-    question: "A nurse should question a prescription when it is",
-    optionA: "Unclear or potentially unsafe",
-    optionB: "Written by a consultant",
-    optionC: "Given at night",
-    optionD: "For an adult",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 94 (Ethics, Legal & Professional Practice - Q44)
-  {
-    question: "Professional boundaries are maintained by",
-    optionA: "Avoiding inappropriate relationships with patients",
-    optionB: "Accepting expensive gifts",
-    optionC: "Sharing personal secrets",
-    optionD: "Meeting patients socially",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 95 (Ethics, Legal & Professional Practice - Q45)
-  {
-    question: "An incident report is completed when",
-    optionA: "An unusual event occurs",
-    optionB: "A patient is discharged",
-    optionC: "Visitors arrive",
-    optionD: "The ward is cleaned",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 96 (Ethics, Legal & Professional Practice - Q46)
-  {
-    question: "The purpose of delegation is to",
-    optionA: "Ensure efficient and safe care",
-    optionB: "Avoid all work",
-    optionC: "Transfer accountability",
-    optionD: "Reduce documentation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 97 (Ethics, Legal & Professional Practice - Q47)
-  {
-    question: "A nurse notices another nurse practicing unsafely. The nurse should",
-    optionA: "Report according to policy",
-    optionB: "Ignore it",
-    optionC: "Discuss with patients",
-    optionD: "Post on social media",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 98 (Ethics, Legal & Professional Practice - Q48)
-  {
-    question: "Which is an example of therapeutic communication?",
-    optionA: "Using empathy and open-ended questions",
-    optionB: "Arguing with the patient",
-    optionC: "Giving false reassurance",
-    optionD: "Changing the subject",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 99 (Ethics, Legal & Professional Practice - Q49)
-  {
-    question: "Continuous professional development is important because it",
-    optionA: "Maintains competence and updates knowledge",
-    optionB: "Increases salary only",
-    optionC: "Reduces workload",
-    optionD: "Replaces experience",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 100 (Ethics, Legal & Professional Practice - Q50)
-  {
-    question: "Justice in nursing means",
-    optionA: "Treating patients fairly",
-    optionB: "Doing whatever the family wants",
-    optionC: "Keeping secrets from the team",
-    optionD: "Avoiding difficult patients",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 101 (Ethics, Legal & Professional Practice - Q51)
-  {
-    question: "A patient becomes angry and shouts at the nurse. What is the best response?",
-    optionA: "Remain calm and listen actively",
-    optionB: "Shout back",
-    optionC: "Leave immediately",
-    optionD: "Ignore completely",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 102 (Ethics, Legal & Professional Practice - Q52)
-  {
-    question: "During handover, the nurse should communicate",
-    optionA: "Accurate and relevant information",
-    optionB: "Personal opinions",
-    optionC: "Rumors",
-    optionD: "Unrelated events",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 103 (Ethics, Legal & Professional Practice - Q53)
-  {
-    question: "A nurse should question a prescription when it is",
-    optionA: "Unclear or potentially unsafe",
-    optionB: "Written by a consultant",
-    optionC: "Given at night",
-    optionD: "For an adult",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 104 (Ethics, Legal & Professional Practice - Q54)
-  {
-    question: "Professional boundaries are maintained by",
-    optionA: "Avoiding inappropriate relationships with patients",
-    optionB: "Accepting expensive gifts",
-    optionC: "Sharing personal secrets",
-    optionD: "Meeting patients socially",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 105 (Ethics, Legal & Professional Practice - Q55)
-  {
-    question: "An incident report is completed when",
-    optionA: "An unusual event occurs",
-    optionB: "A patient is discharged",
-    optionC: "Visitors arrive",
-    optionD: "The ward is cleaned",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 106 (Ethics, Legal & Professional Practice - Q56)
-  {
-    question: "The purpose of delegation is to",
-    optionA: "Ensure efficient and safe care",
-    optionB: "Avoid all work",
-    optionC: "Transfer accountability",
-    optionD: "Reduce documentation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 107 (Ethics, Legal & Professional Practice - Q57)
-  {
-    question: "A nurse notices another nurse practicing unsafely. The nurse should",
-    optionA: "Report according to policy",
-    optionB: "Ignore it",
-    optionC: "Discuss with patients",
-    optionD: "Post on social media",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 108 (Ethics, Legal & Professional Practice - Q58)
-  {
-    question: "Which is an example of therapeutic communication?",
-    optionA: "Using empathy and open-ended questions",
-    optionB: "Arguing with the patient",
-    optionC: "Giving false reassurance",
-    optionD: "Changing the subject",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 109 (Ethics, Legal & Professional Practice - Q59)
-  {
-    question: "Continuous professional development is important because it",
-    optionA: "Maintains competence and updates knowledge",
-    optionB: "Increases salary only",
-    optionC: "Reduces workload",
-    optionD: "Replaces experience",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 110 (Ethics, Legal & Professional Practice - Q60)
-  {
-    question: "Justice in nursing means",
-    optionA: "Treating patients fairly",
-    optionB: "Doing whatever the family wants",
-    optionC: "Keeping secrets from the team",
-    optionD: "Avoiding difficult patients",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 111 (Ethics, Legal & Professional Practice - Q61)
-  {
-    question: "A patient becomes angry and shouts at the nurse. What is the best response?",
-    optionA: "Remain calm and listen actively",
-    optionB: "Shout back",
-    optionC: "Leave immediately",
-    optionD: "Ignore completely",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 112 (Ethics, Legal & Professional Practice - Q62)
-  {
-    question: "During handover, the nurse should communicate",
-    optionA: "Accurate and relevant information",
-    optionB: "Personal opinions",
-    optionC: "Rumors",
-    optionD: "Unrelated events",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 113 (Ethics, Legal & Professional Practice - Q63)
-  {
-    question: "A nurse should question a prescription when it is",
-    optionA: "Unclear or potentially unsafe",
-    optionB: "Written by a consultant",
-    optionC: "Given at night",
-    optionD: "For an adult",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 114 (Ethics, Legal & Professional Practice - Q64)
-  {
-    question: "Professional boundaries are maintained by",
-    optionA: "Avoiding inappropriate relationships with patients",
-    optionB: "Accepting expensive gifts",
-    optionC: "Sharing personal secrets",
-    optionD: "Meeting patients socially",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 115 (Ethics, Legal & Professional Practice - Q65)
-  {
-    question: "An incident report is completed when",
-    optionA: "An unusual event occurs",
-    optionB: "A patient is discharged",
-    optionC: "Visitors arrive",
-    optionD: "The ward is cleaned",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 116 (Ethics, Legal & Professional Practice - Q66)
-  {
-    question: "The purpose of delegation is to",
-    optionA: "Ensure efficient and safe care",
-    optionB: "Avoid all work",
-    optionC: "Transfer accountability",
-    optionD: "Reduce documentation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 117 (Ethics, Legal & Professional Practice - Q67)
-  {
-    question: "A nurse notices another nurse practicing unsafely. The nurse should",
-    optionA: "Report according to policy",
-    optionB: "Ignore it",
-    optionC: "Discuss with patients",
-    optionD: "Post on social media",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 118 (Ethics, Legal & Professional Practice - Q68)
-  {
-    question: "Which is an example of therapeutic communication?",
-    optionA: "Using empathy and open-ended questions",
-    optionB: "Arguing with the patient",
-    optionC: "Giving false reassurance",
-    optionD: "Changing the subject",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 119 (Ethics, Legal & Professional Practice - Q69)
-  {
-    question: "Continuous professional development is important because it",
-    optionA: "Maintains competence and updates knowledge",
-    optionB: "Increases salary only",
-    optionC: "Reduces workload",
-    optionD: "Replaces experience",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 120 (Ethics, Legal & Professional Practice - Q70)
-  {
-    question: "Justice in nursing means",
-    optionA: "Treating patients fairly",
-    optionB: "Doing whatever the family wants",
-    optionC: "Keeping secrets from the team",
-    optionD: "Avoiding difficult patients",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 121 (Ethics, Legal & Professional Practice - Q71)
-  {
-    question: "A patient becomes angry and shouts at the nurse. What is the best response?",
-    optionA: "Remain calm and listen actively",
-    optionB: "Shout back",
-    optionC: "Leave immediately",
-    optionD: "Ignore completely",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 122 (Ethics, Legal & Professional Practice - Q72)
-  {
-    question: "During handover, the nurse should communicate",
-    optionA: "Accurate and relevant information",
-    optionB: "Personal opinions",
-    optionC: "Rumors",
-    optionD: "Unrelated events",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 123 (Ethics, Legal & Professional Practice - Q73)
-  {
-    question: "A nurse should question a prescription when it is",
-    optionA: "Unclear or potentially unsafe",
-    optionB: "Written by a consultant",
-    optionC: "Given at night",
-    optionD: "For an adult",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 124 (Ethics, Legal & Professional Practice - Q74)
-  {
-    question: "Professional boundaries are maintained by",
-    optionA: "Avoiding inappropriate relationships with patients",
-    optionB: "Accepting expensive gifts",
-    optionC: "Sharing personal secrets",
-    optionD: "Meeting patients socially",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 125 (Ethics, Legal & Professional Practice - Q75)
-  {
-    question: "An incident report is completed when",
-    optionA: "An unusual event occurs",
-    optionB: "A patient is discharged",
-    optionC: "Visitors arrive",
-    optionD: "The ward is cleaned",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 126 (Ethics, Legal & Professional Practice - Q76)
-  {
-    question: "The purpose of delegation is to",
-    optionA: "Ensure efficient and safe care",
-    optionB: "Avoid all work",
-    optionC: "Transfer accountability",
-    optionD: "Reduce documentation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 127 (Ethics, Legal & Professional Practice - Q77)
-  {
-    question: "A nurse notices another nurse practicing unsafely. The nurse should",
-    optionA: "Report according to policy",
-    optionB: "Ignore it",
-    optionC: "Discuss with patients",
-    optionD: "Post on social media",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 128 (Ethics, Legal & Professional Practice - Q78)
-  {
-    question: "Which is an example of therapeutic communication?",
-    optionA: "Using empathy and open-ended questions",
-    optionB: "Arguing with the patient",
-    optionC: "Giving false reassurance",
-    optionD: "Changing the subject",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 129 (Ethics, Legal & Professional Practice - Q79)
-  {
-    question: "Continuous professional development is important because it",
-    optionA: "Maintains competence and updates knowledge",
-    optionB: "Increases salary only",
-    optionC: "Reduces workload",
-    optionD: "Replaces experience",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 130 (Ethics, Legal & Professional Practice - Q80)
-  {
-    question: "Justice in nursing means",
-    optionA: "Treating patients fairly",
-    optionB: "Doing whatever the family wants",
-    optionC: "Keeping secrets from the team",
-    optionD: "Avoiding difficult patients",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 131 (Ethics, Legal & Professional Practice - Q81)
-  {
-    question: "A patient becomes angry and shouts at the nurse. What is the best response?",
-    optionA: "Remain calm and listen actively",
-    optionB: "Shout back",
-    optionC: "Leave immediately",
-    optionD: "Ignore completely",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 132 (Ethics, Legal & Professional Practice - Q82)
-  {
-    question: "During handover, the nurse should communicate",
-    optionA: "Accurate and relevant information",
-    optionB: "Personal opinions",
-    optionC: "Rumors",
-    optionD: "Unrelated events",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 133 (Ethics, Legal & Professional Practice - Q83)
-  {
-    question: "A nurse should question a prescription when it is",
-    optionA: "Unclear or potentially unsafe",
-    optionB: "Written by a consultant",
-    optionC: "Given at night",
-    optionD: "For an adult",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 134 (Ethics, Legal & Professional Practice - Q84)
-  {
-    question: "Professional boundaries are maintained by",
-    optionA: "Avoiding inappropriate relationships with patients",
-    optionB: "Accepting expensive gifts",
-    optionC: "Sharing personal secrets",
-    optionD: "Meeting patients socially",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 135 (Ethics, Legal & Professional Practice - Q85)
-  {
-    question: "An incident report is completed when",
-    optionA: "An unusual event occurs",
-    optionB: "A patient is discharged",
-    optionC: "Visitors arrive",
-    optionD: "The ward is cleaned",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 136 (Ethics, Legal & Professional Practice - Q86)
-  {
-    question: "The purpose of delegation is to",
-    optionA: "Ensure efficient and safe care",
-    optionB: "Avoid all work",
-    optionC: "Transfer accountability",
-    optionD: "Reduce documentation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 137 (Ethics, Legal & Professional Practice - Q87)
-  {
-    question: "A nurse notices another nurse practicing unsafely. The nurse should",
-    optionA: "Report according to policy",
-    optionB: "Ignore it",
-    optionC: "Discuss with patients",
-    optionD: "Post on social media",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 138 (Ethics, Legal & Professional Practice - Q88)
-  {
-    question: "Which is an example of therapeutic communication?",
-    optionA: "Using empathy and open-ended questions",
-    optionB: "Arguing with the patient",
-    optionC: "Giving false reassurance",
-    optionD: "Changing the subject",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 139 (Ethics, Legal & Professional Practice - Q89)
-  {
-    question: "Continuous professional development is important because it",
-    optionA: "Maintains competence and updates knowledge",
-    optionB: "Increases salary only",
-    optionC: "Reduces workload",
-    optionD: "Replaces experience",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 140 (Ethics, Legal & Professional Practice - Q90)
-  {
-    question: "Justice in nursing means",
-    optionA: "Treating patients fairly",
-    optionB: "Doing whatever the family wants",
-    optionC: "Keeping secrets from the team",
-    optionD: "Avoiding difficult patients",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 141 (Ethics, Legal & Professional Practice - Q91)
-  {
-    question: "A patient becomes angry and shouts at the nurse. What is the best response?",
-    optionA: "Remain calm and listen actively",
-    optionB: "Shout back",
-    optionC: "Leave immediately",
-    optionD: "Ignore completely",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 142 (Ethics, Legal & Professional Practice - Q92)
-  {
-    question: "During handover, the nurse should communicate",
-    optionA: "Accurate and relevant information",
-    optionB: "Personal opinions",
-    optionC: "Rumors",
-    optionD: "Unrelated events",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 143 (Ethics, Legal & Professional Practice - Q93)
-  {
-    question: "A nurse should question a prescription when it is",
-    optionA: "Unclear or potentially unsafe",
-    optionB: "Written by a consultant",
-    optionC: "Given at night",
-    optionD: "For an adult",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 144 (Ethics, Legal & Professional Practice - Q94)
-  {
-    question: "Professional boundaries are maintained by",
-    optionA: "Avoiding inappropriate relationships with patients",
-    optionB: "Accepting expensive gifts",
-    optionC: "Sharing personal secrets",
-    optionD: "Meeting patients socially",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 145 (Ethics, Legal & Professional Practice - Q95)
-  {
-    question: "An incident report is completed when",
-    optionA: "An unusual event occurs",
-    optionB: "A patient is discharged",
-    optionC: "Visitors arrive",
-    optionD: "The ward is cleaned",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 146 (Ethics, Legal & Professional Practice - Q96)
-  {
-    question: "The purpose of delegation is to",
-    optionA: "Ensure efficient and safe care",
-    optionB: "Avoid all work",
-    optionC: "Transfer accountability",
-    optionD: "Reduce documentation",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 147 (Ethics, Legal & Professional Practice - Q97)
-  {
-    question: "A nurse notices another nurse practicing unsafely. The nurse should",
-    optionA: "Report according to policy",
-    optionB: "Ignore it",
-    optionC: "Discuss with patients",
-    optionD: "Post on social media",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 148 (Ethics, Legal & Professional Practice - Q98)
-  {
-    question: "Which is an example of therapeutic communication?",
-    optionA: "Using empathy and open-ended questions",
-    optionB: "Arguing with the patient",
-    optionC: "Giving false reassurance",
-    optionD: "Changing the subject",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 149 (Ethics, Legal & Professional Practice - Q99)
-  {
-    question: "Continuous professional development is important because it",
-    optionA: "Maintains competence and updates knowledge",
-    optionB: "Increases salary only",
-    optionC: "Reduces workload",
-    optionD: "Replaces experience",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  // 150 (Ethics, Legal & Professional Practice - Q100)
-  {
-    question: "Justice in nursing means",
-    optionA: "Treating patients fairly",
-    optionB: "Doing whatever the family wants",
-    optionC: "Keeping secrets from the team",
-    optionD: "Avoiding difficult patients",
-    correctAnswer: "A",
-    explanation: ""
-  }
+  {
+    question: "Which of the following blood vessels carries oxygenated blood from the lungs back to the left atrium of the heart?",
+    optionA: "Pulmonary artery",
+    optionB: "Pulmonary veins",
+    optionC: "Superior vena cava",
+    optionD: "Inferior vena cava",
+    correctAnswer: "B",
+    explanation: "The four pulmonary veins (two from each lung) carry freshly oxygenated blood from the alveolar capillary beds into the left atrium.",
+  },
+  {
+    question: "Which white blood cell type is the first to arrive in large numbers at an acute site of bacterial infection and tissue inflammation?",
+    optionA: "Basophils",
+    optionB: "Neutrophils (polymorphonuclear leukocytes)",
+    optionC: "Eosinophils",
+    optionD: "B-lymphocytes",
+    correctAnswer: "B",
+    explanation: "Neutrophils are the most abundant granulocytes (60-70%) and act as the first line of cellular phagocytic defense against invading pyogenic bacteria.",
+  },
+  {
+    question: "The cartilaginous ring that completely encircles the airway at the inferior border of the larynx is the:",
+    optionA: "Thyroid cartilage",
+    optionB: "Cricoid cartilage",
+    optionC: "Arytenoid cartilage",
+    optionD: "Corniculate cartilage",
+    correctAnswer: "B",
+    explanation: "The signet-ring shaped cricoid cartilage is the only complete ring of cartilage in the larynx and marks the junction between the larynx and trachea.",
+  },
+  {
+    question: "Intrinsic factor, required for the intestinal absorption of dietary vitamin B12 in the terminal ileum, is secreted by which gastric cells?",
+    optionA: "Chief cells (zymogenic cells)",
+    optionB: "Parietal (oxyntic) cells",
+    optionC: "Enteroendocrine G cells",
+    optionD: "Mucous neck cells",
+    correctAnswer: "B",
+    explanation: "Parietal cells in the fundic and body gastric glands secrete both hydrochloric acid (HCl) and intrinsic factor glycoprotein.",
+  },
+  {
+    question: "In which anatomical section of the nephron does loop diuretic action (such as furosemide) primarily take place?",
+    optionA: "Bowman's capsule",
+    optionB: "Thick ascending limb of the loop of Henle",
+    optionC: "Distal convoluted tubule",
+    optionD: "Collecting duct",
+    correctAnswer: "B",
+    explanation: "Loop diuretics selectively inhibit the Na+/K+/2Cl- symporter in the thick ascending limb of Henle's loop, blocking tubular solute and water reabsorption.",
+  },
+  {
+    question: "The auditory ossicle directly attached to the inner surface of the tympanic membrane (eardrum) is the:",
+    optionA: "Malleus (hammer)",
+    optionB: "Incus (anvil)",
+    optionC: "Stapes (stirrup)",
+    optionD: "Cochlear promontory",
+    correctAnswer: "A",
+    explanation: "The handle (manubrium) of the malleus is firmly embedded in the middle fibrous layer of the tympanic membrane, transferring sonic vibrations to the incus.",
+  },
+  {
+    question: "Which clinical manifestation would the nurse anticipate in a patient experiencing early hypovolemic shock?",
+    optionA: "Bradycardia and bounding peripheral pulses",
+    optionB: "Tachycardia, tachypnea, and cool clammy extremities",
+    optionC: "Severe hypotension and warm flushed skin",
+    optionD: "Decreased diastolic pressure with widening pulse pressure",
+    correctAnswer: "B",
+    explanation: "Compensatory release of catecholamines in early hypovolemic shock results in sinus tachycardia, rapid shallow breathing, peripheral vasoconstriction, and cool, pale, clammy skin.",
+  },
+  {
+    question: "Which instruction should the nurse emphasize to a client newly diagnosed with gastroesophageal reflux disease (GERD)?",
+    optionA: "Remain upright for at least 2 to 3 hours after meals and elevate the head of the bed",
+    optionB: "Drink 500 mL of cold milk immediately before sleeping",
+    optionC: "Lie flat on the right side following high-fat meals",
+    optionD: "Consume high-protein, spicy snacks to promote gastric acid clearance",
+    correctAnswer: "A",
+    explanation: "Staying upright after meals utilizes gravity to prevent gastric acid reflux into the lower esophagus, and elevating the head of the bed prevents nocturnal reflux.",
+  },
+  {
+    question: "Which medication must be immediately available at the bedside when caring for a client receiving continuous intravenous magnesium sulfate for eclampsia prophylaxis?",
+    optionA: "Protamine sulfate",
+    optionB: "Calcium gluconate",
+    optionC: "Naloxone hydrochloride",
+    optionD: "Vitamin K (phytonadione)",
+    correctAnswer: "B",
+    explanation: "Calcium gluconate (10% solution) directly reverses the neuromuscular blocking effects and toxicity of magnesium sulfate.",
+  },
+  {
+    question: "Which clinical assessment finding should alert the nurse to impending compartment syndrome in a client with a full-leg plaster cast?",
+    optionA: "Warm, pink toes with brisk capillary refill under 2 seconds",
+    optionB: "Severe, deep unrelenting pain that is disproportionate to the injury and unresponsive to opioids",
+    optionC: "Mild pitting edema of the exposed toes relieved by elevation",
+    optionD: "Active ability to wiggle toes with minimal discomfort",
+    correctAnswer: "B",
+    explanation: "Unrelenting pain out of proportion to the injury, especially aggravated by passive stretching of the muscles, is the hallmark early symptom of compartment syndrome.",
+  },
+  {
+    question: "A patient receiving packed red blood cells (PRBCs) suddenly develops chills, fever, lower back pain, and dark urine. The nurse's immediate action must be to:",
+    optionA: "Slow the infusion rate to 10 drops per minute and observe",
+    optionB: "Stop the transfusion immediately and infuse normal saline through fresh tubing",
+    optionC: "Administer acetaminophen orally and continue the blood",
+    optionD: "Flush the blood line with 50% dextrose solution",
+    correctAnswer: "B",
+    explanation: "These symptoms indicate an acute hemolytic transfusion reaction; the transfusion must be stopped immediately to halt further incompatible antigen exposure.",
+  },
+  {
+    question: "A woman whose last menstrual period began on May 12th would have an estimated date of delivery (EDD) of:",
+    optionA: "February 19th of the following year",
+    optionB: "February 26th of the following year",
+    optionC: "January 19th of the following year",
+    optionD: "March 12th of the following year",
+    correctAnswer: "A",
+    explanation: "Using Naegele's rule: add 7 days to the first day of the LMP (May 12 + 7 = May 19), subtract 3 months (May - 3 months = February), and add 1 year = February 19th.",
+  },
+  {
+    question: "At 20 weeks of gestation, the uterine fundus is normally palpable at which anatomical landmark?",
+    optionA: "Just above the pubic symphysis",
+    optionB: "Midway between the symphysis pubis and umbilicus",
+    optionC: "At the level of the umbilicus",
+    optionD: "At the level of the xiphoid process",
+    correctAnswer: "C",
+    explanation: "At 20 weeks gestation, the uterine fundus reaches the level of the maternal umbilicus; prior to this, it is at the pelvic brim at 12 weeks and midway at 16 weeks.",
+  },
+  {
+    question: "When does the normal anterior fontanelle (bregma) in a healthy infant typically undergo complete bony closure?",
+    optionA: "2 to 3 months of age",
+    optionB: "6 to 8 months of age",
+    optionC: "12 to 18 months of age",
+    optionD: "24 to 36 months of age",
+    correctAnswer: "C",
+    explanation: "The diamond-shaped anterior fontanelle usually closes between 12 and 18 months of age, whereas the triangular posterior fontanelle closes earlier, around 2 to 3 months.",
+  },
+  {
+    question: "Severe childhood wasting with profound loss of subcutaneous fat and muscle mass ('old man's face' or emaciated wizened appearance) due to severe overall starvation in all macronutrients is known as:",
+    optionA: "Kwashiorkor",
+    optionB: "Marasmus",
+    optionC: "Cretinism",
+    optionD: "Pellagra",
+    correctAnswer: "B",
+    explanation: "Marasmus represents severe energy (calorie) starvation, causing extreme somatic wasting without generalized edema, giving the child an aged, withered facial appearance.",
+  },
+  {
+    question: "In a client experiencing postpartum hemorrhage (blood loss >500 mL following vaginal birth), the single most common etiology is:",
+    optionA: "Cervical or vaginal wall lacerations",
+    optionB: "Uterine atony (failure of the myometrium to contract firmly)",
+    optionC: "Retained placental cotyledon fragments",
+    optionD: "Disseminated intravascular coagulation (DIC)",
+    correctAnswer: "B",
+    explanation: "Uterine atony accounts for approximately 70% to 80% of all primary postpartum hemorrhages; firm fundal massage is the immediate first-line nursing intervention.",
+  },
+  {
+    question: "What is the most appropriate therapeutic communication response when a client with schizophrenia reports hearing voices commanding them to harm themselves?",
+    optionA: "'You know that those voices are just your imagination, so try to ignore them.'",
+    optionB: "'I believe you, and the voices are right about your feelings.'",
+    optionC: "'I do not hear the voices, but I understand that they are frightening to you. What are the voices telling you to do?'",
+    optionD: "'Why do you think these voices are talking to you right now?'",
+    correctAnswer: "C",
+    explanation: "This response acknowledges the patient's feelings without reinforcing the reality of the hallucination while critically assessing the exact command nature for suicide/violence risk.",
+  },
+  {
+    question: "The defense mechanism whereby an individual attributes their own unacceptable desires, feelings, or impulses onto another person is known as:",
+    optionA: "Rationalization",
+    optionB: "Projection",
+    optionC: "Reaction formation",
+    optionD: "Sublimation",
+    correctAnswer: "B",
+    explanation: "In projection, an individual unconsciously rejects unwanted personal thoughts or emotions and perceives them as originating from other people.",
+  },
+  {
+    question: "Which of the following is NOT one of the eight essential components of Primary Health Care defined in the Alma-Ata Declaration?",
+    optionA: "Immunization against major infectious diseases",
+    optionB: "Provision of comprehensive cosmetic plastic surgery",
+    optionC: "Education concerning prevailing health problems and methods of prevention",
+    optionD: "Promotion of food supply and proper nutrition",
+    correctAnswer: "B",
+    explanation: "The 8 essential PHC components are: education, food/nutrition, water/sanitation, maternal/child care & family planning, immunization, endemic disease control, treatment of common ailments, and essential drugs.",
+  },
+  {
+    question: "What is the primary intermediate host snail vector responsible for the transmission of human Schistosomiasis (bilharzia)?",
+    optionA: "Aedes mosquito",
+    optionB: "Biomphalaria and Bulinus freshwater snails",
+    optionC: "Simulium damnosum blackfly",
+    optionD: "Glossina tsetse fly",
+    correctAnswer: "B",
+    explanation: "Schistosome miracidia infect freshwater snails of the genera Bulinus and Biomphalaria, which subsequently release cercariae that penetrate human skin during water contact.",
+  },
+  {
+    question: "In a rural community, the minimum recommended sanitary distance that a pit latrine should be dug away from and downhill from a drinking water well is at least:",
+    optionA: "5 meters",
+    optionB: "15 to 30 meters (approx. 50 to 100 feet)",
+    optionC: "2 meters",
+    optionD: "100 meters",
+    correctAnswer: "B",
+    explanation: "A horizontal separation distance of at least 15 to 30 meters (downhill of the hydraulic gradient) prevents subterranean microbiological contamination of groundwater wells.",
+  },
+  {
+    question: "An intravenous infusion of 1,000 mL normal saline is ordered to run over 8 hours. The IV infusion set delivers 15 drops per mL (drop factor = 15 gtt/mL). What is the calculated flow rate in drops per minute?",
+    optionA: "21 gtt/min",
+    optionB: "31 gtt/min",
+    optionC: "42 gtt/min",
+    optionD: "52 gtt/min",
+    correctAnswer: "B",
+    explanation: "Drip rate formula: (Total Volume in mL x Drop Factor) / (Total Time in minutes) = (1,000 mL x 15) / (8 x 60 min) = 15,000 / 480 = 31.25 drops/min, rounded to 31 gtt/min.",
+  },
+  {
+    question: "The ethical principle of 'Beneficence' in nursing practice obligates the nurse to:",
+    optionA: "Do no harm to the patient",
+    optionB: "Act in ways that promote the good and well-being of the patient",
+    optionC: "Always tell the strict truth regardless of consequences",
+    optionD: "Distribute healthcare resources with absolute mathematical equality",
+    correctAnswer: "B",
+    explanation: "Beneficence is the duty to actively do good, prevent harm, and advocate for actions that enhance the client's health, safety, and welfare.",
+  },
+  {
+    question: "Which component of the Nursing Process involves comparing the client's current health status against expected outcome criteria to determine goal achievement?",
+    optionA: "Assessment",
+    optionB: "Diagnosis",
+    optionC: "Implementation",
+    optionD: "Evaluation",
+    correctAnswer: "D",
+    explanation: "Evaluation is the deliberate systematic comparison of patient response to pre-established measurable goals to determine if the care plan was effective, needs revision, or can be terminated.",
+  },
+  {
+    question: "Henri Fayol's administrative management theory identifies which foundational principle stating that each employee should receive orders from one and only one superior?",
+    optionA: "Division of work",
+    optionB: "Unity of command",
+    optionC: "Scalar chain",
+    optionD: "Esprit de corps",
+    correctAnswer: "B",
+    explanation: "Unity of command states that a subordinate should be answerable to and receive directions from only one direct supervisor to prevent conflicting demands and ambiguity.",
+  },
+  {
+    question: "Which of the following is considered the gold standard physical sterilization technique that utilizes pressurized saturated steam to achieve sterility?",
+    optionA: "Dry heat baking at 100 degrees Celsius",
+    optionB: "Autoclaving at 121 degrees Celsius (250 F) at 15 psi for 15 to 20 minutes",
+    optionC: "Ultraviolet radiation exposure for 10 minutes",
+    optionD: "Immersion in 70% ethyl alcohol for 30 minutes",
+    correctAnswer: "B",
+    explanation: "Autoclaving with moist saturated steam under 15 pounds of pressure at 121C denatures all microbial proteins and irreversibly inactivates even highly resistant bacterial endospores.",
+  },
+  {
+    question: "Which heart valve prevents backflow of blood from the aorta into the left ventricle during diastole?",
+    optionA: "Tricuspid valve",
+    optionB: "Mitral valve",
+    optionC: "Aortic semilunar valve",
+    optionD: "Pulmonic semilunar valve",
+    correctAnswer: "C",
+    explanation: "The aortic semilunar valve closes at the onset of ventricular diastole to prevent retroflex of oxygenated blood into the left ventricle.",
+  },
+  {
+    question: "The exchange of gases between inspired alveolar air and pulmonary capillary blood occurs across which structure?",
+    optionA: "Terminal bronchiole wall",
+    optionB: "Respiratory membrane",
+    optionC: "Visceral pleura",
+    optionD: "Bronchial smooth muscle",
+    correctAnswer: "B",
+    explanation: "The respiratory membrane (alveolocapillary barrier) consists of type I alveolar cells, basement membrane, and capillary endothelium, enabling passive diffusion of O2 and CO2.",
+  },
+  {
+    question: "Which lobe of the cerebral cortex contains the primary motor cortex responsible for voluntary somatic movements?",
+    optionA: "Frontal lobe (precentral gyrus)",
+    optionB: "Parietal lobe (postcentral gyrus)",
+    optionC: "Occipital lobe",
+    optionD: "Temporal lobe",
+    correctAnswer: "A",
+    explanation: "The precentral gyrus of the frontal lobe constitutes the primary motor cortex, initiating purposeful skeletal muscle contractions throughout the body.",
+  },
+  {
+    question: "Which endocrine gland secretes melatonin, the hormone regulating circadian sleep-wake cycles?",
+    optionA: "Thymus",
+    optionB: "Pineal gland",
+    optionC: "Posterior pituitary",
+    optionD: "Adrenal cortex",
+    correctAnswer: "B",
+    explanation: "The pineal gland, situated in the epithalamus, synthesizes melatonin from serotonin in response to darkness, synchronizing circadian rhythms.",
+  },
+  {
+    question: "The total number of pairs of ribs in the human axial skeleton is:",
+    optionA: "10 pairs",
+    optionB: "12 pairs",
+    optionC: "14 pairs",
+    optionD: "7 pairs",
+    correctAnswer: "B",
+    explanation: "The thoracic cage contains 12 pairs of ribs: 7 pairs of true ribs, 3 pairs of false ribs, and 2 pairs of floating ribs.",
+  },
+  {
+    question: "Which electrolyte disturbance markedly increases the susceptibility of a client to digoxin toxicity?",
+    optionA: "Hypernatremia",
+    optionB: "Hypokalemia",
+    optionC: "Hypercalcemia",
+    optionD: "Hypophosphatemia",
+    correctAnswer: "B",
+    explanation: "Low extracellular potassium enhances digoxin binding to the Na+/K+ ATPase enzyme, greatly potentiating cardiotoxic dysrhythmias even at therapeutic drug levels.",
+  },
+  {
+    question: "Which diagnostic finding is the most reliable and sensitive biochemical indicator of acute kidney injury (AKI)?",
+    optionA: "Blood urea nitrogen (BUN) level alone",
+    optionB: "Serum creatinine elevation and declining urine output",
+    optionC: "Serum uric acid concentration",
+    optionD: "Urine specific gravity of 1.010",
+    correctAnswer: "B",
+    explanation: "Serum creatinine is produced at a constant rate by muscle breakdown and cleared almost entirely by glomerular filtration, making it the most specific marker of renal filtration capacity.",
+  },
+  {
+    question: "During cardiac arrest resuscitation, the monitor displays ventricular fibrillation (VF). What is the immediate definitive treatment?",
+    optionA: "Synchronized cardioversion at 50 Joules",
+    optionB: "Immediate unsynchronized defibrillation (120-200 J biphasic) followed by CPR",
+    optionC: "Administration of IV atropine 1 mg",
+    optionD: "Immediate transcutaneous cardiac pacing",
+    correctAnswer: "B",
+    explanation: "Ventricular fibrillation is a pulseless, chaotic rhythm whose definitive treatment is prompt unsynchronized electrical defibrillation paired with immediate chest compressions.",
+  },
+  {
+    question: "What is the primary physiological drive for respiration in a client with end-stage chronic obstructive pulmonary disease (COPD) with chronic hypercapnia?",
+    optionA: "Elevated arterial carbon dioxide tension (PaCO2)",
+    optionB: "Hypoxemia (low arterial oxygen tension, PaO2) acting on carotid and aortic chemoreceptors",
+    optionC: "Elevated arterial pH",
+    optionD: "Low serum bicarbonate level",
+    correctAnswer: "B",
+    explanation: "In chronic CO2 retainers, central medullary chemoreceptors become desensitized to high PaCO2, leaving peripheral chemoreceptor hypoxic drive as the primary stimulus to breathe.",
+  },
+  {
+    question: "In a client with cirrhosis who has developed bleeding esophageal varices, which vasoactive drug is infused intravenously to produce splanchnic vasoconstriction and reduce portal pressure?",
+    optionA: "Octreotide (or Terlipressin)",
+    optionB: "Dopamine",
+    optionC: "Dobutamine",
+    optionD: "Furosemide",
+    correctAnswer: "A",
+    explanation: "Octreotide is a synthetic somatostatin analog that causes selective splanchnic arterial vasoconstriction, decreasing portal inflow and variceal bleeding pressure.",
+  },
+  {
+    question: "Cushing's triad is a late, ominous neurological indicator of impending brain herniation caused by severely increased ICP. The triad consists of:",
+    optionA: "Tachycardia, tachypnea, and hypotension",
+    optionB: "Systolic hypertension with widening pulse pressure, bradycardia, and irregular respirations",
+    optionC: "Hypotension, tachycardia, and hyperthermia",
+    optionD: "Narrow pulse pressure, hyperventilation, and pupillary constriction",
+    correctAnswer: "B",
+    explanation: "Cushing's response is a sympathetic brainstem reflex characterized by progressive systolic hypertension, widening pulse pressure, reflex bradycardia, and bradypnea/irregular breathing.",
+  },
+  {
+    question: "A pregnant woman who is Rh-negative delivers an Rh-positive term infant. To prevent Rh isoimmunization in future pregnancies, Rho(D) immune globulin (RhoGAM) must be administered within:",
+    optionA: "12 hours after birth",
+    optionB: "72 hours after birth",
+    optionC: "7 days after birth",
+    optionD: "1 month after birth",
+    correctAnswer: "B",
+    explanation: "Rho(D) immune globulin destroys fetal Rh-positive red cells entering maternal circulation before the maternal immune system can develop anti-D antibodies; it must be administered within 72 hours.",
+  },
+  {
+    question: "A 6-month-old infant is brought to the clinic with sudden paroxysms of colicky abdominal pain, drawing up of the knees, and passage of red 'currant jelly' stools. These findings are classic for:",
+    optionA: "Pyloric stenosis",
+    optionB: "Intussusception",
+    optionC: "Gastroenteritis",
+    optionD: "Celiac disease",
+    correctAnswer: "B",
+    explanation: "Intussusception involves invagination (telescoping) of one segment of bowel into an adjacent segment, producing venous stasis, mucosal ischemia, and classic bloody mucus 'currant jelly' stools.",
+  },
+  {
+    question: "Which psychiatric condition is characterized by cyclic oscillations between episodes of severe clinical depression and periods of grandiosity, hyperverbosity, decreased need for sleep, and impulsivity (mania)?",
+    optionA: "Major depressive disorder",
+    optionB: "Bipolar I disorder",
+    optionC: "Schizotypal personality disorder",
+    optionD: "Generalized anxiety disorder",
+    correctAnswer: "B",
+    explanation: "Bipolar I disorder is diagnosed when a client experiences at least one manic episode, typically alternating with major depressive episodes.",
+  },
+  {
+    question: "In the cold chain maintenance for vaccines, what is the standard recommended storage temperature range for routine childhood vaccines in refrigerators?",
+    optionA: "-20 degrees to -10 degrees Celsius",
+    optionB: "+2 degrees to +8 degrees Celsius",
+    optionC: "+15 degrees to +25 degrees Celsius",
+    optionD: "0 degrees Celsius exactly",
+    correctAnswer: "B",
+    explanation: "The global standard cold chain temperature for maintaining vaccine potency in health facility refrigerators is strictly between +2C and +8C.",
+  },
+  {
+    question: "A patient receiving vancomycin IV develops erythema, flushing of the face and upper torso, and hypotension during rapid infusion. The nurse recognizes this as:",
+    optionA: "IgE-mediated severe anaphylaxis",
+    optionB: "Red Man Syndrome caused by non-immune histamine release from rapid infusion",
+    optionC: "Toxic epidermal necrolysis",
+    optionD: "Stevens-Johnson syndrome",
+    correctAnswer: "B",
+    explanation: "Red Man Syndrome is an adverse rate-related reaction caused by rapid degranulation of mast cells; slowing the infusion rate to over 60-120 minutes resolves and prevents it.",
+  },
+  {
+    question: "The physiological pH of human blood is:",
+    optionA: "Strongly acid",
+    optionB: "Slightly acid",
+    optionC: "Neutral",
+    optionD: "Slightly alkaline",
+    correctAnswer: "D",
+    explanation: "Human arterial blood has a slightly alkaline pH normally ranging between 7.35 and 7.45.",
+  },
+  {
+    question: "Which of the following will naturally slow the resting heart rate through increased vagal parasympathetic tone?",
+    optionA: "Severe emotional distress",
+    optionB: "Strenuous physical exercise",
+    optionC: "Acute hemorrhage",
+    optionD: "Consistent physical endurance athletic training",
+    correctAnswer: "D",
+    explanation: "Chronic endurance training increases cardiac stroke volume and vagal tone, producing a physiological resting bradycardia.",
+  },
+  {
+    question: "In which anatomical region of the abdomen is the spleen located?",
+    optionA: "Right hypochondriac region",
+    optionB: "Left hypochondriac region",
+    optionC: "Epigastric region",
+    optionD: "Hypogastric region",
+    correctAnswer: "B",
+    explanation: "The spleen lies in the left hypochondriac quadrant of the abdominal cavity, protected under the 9th to 11th ribs.",
+  },
+  {
+    question: "The serous membrane that adheres tightly to the outer surface of each lung is the:",
+    optionA: "Parietal pleura",
+    optionB: "Visceral pleura",
+    optionC: "Peritoneum",
+    optionD: "Pericardium",
+    correctAnswer: "B",
+    explanation: "The visceral pleura covers the external surface of the lungs and dips into the interlobar fissures.",
+  },
+  {
+    question: "The lipid-rich insulating sheath that encloses axons to accelerate action potential conduction is called:",
+    optionA: "Neurilemma",
+    optionB: "Myelin sheath",
+    optionC: "Endoneurium",
+    optionD: "Perineurium",
+    correctAnswer: "B",
+    explanation: "Myelin is formed by oligodendrocytes in the CNS and Schwann cells in the PNS, enabling rapid saltatory conduction between nodes of Ranvier.",
+  },
+  {
+    question: "Cranial Nerve I is the sensory nerve dedicated to:",
+    optionA: "Vision",
+    optionB: "Smell (Olfaction)",
+    optionC: "Hearing",
+    optionD: "Taste",
+    correctAnswer: "B",
+    explanation: "The olfactory nerve (CN I) conveys sensory impulses of smell from the olfactory mucosa in the superior nasal conchae to the olfactory bulb.",
+  },
+  {
+    question: "Which cranial nerve provides the sensory pathway for vision?",
+    optionA: "Cranial Nerve I",
+    optionB: "Cranial Nerve II (Optic nerve)",
+    optionC: "Cranial Nerve III",
+    optionD: "Cranial Nerve IV",
+    correctAnswer: "B",
+    explanation: "The optic nerve (CN II) transmits visual sensory information captured by retinal photoreceptors to the optic chiasm, thalamus, and visual cortex.",
+  },
+  {
+    question: "The specialized lymphatic capillaries located within intestinal villi that absorb digested fats and chylomicrons are called:",
+    optionA: "Peyer's patches",
+    optionB: "Lacteals",
+    optionC: "Sinusoids",
+    optionD: "Crypts of Lieberkuhn",
+    correctAnswer: "B",
+    explanation: "Lacteals absorb dietary long-chain fatty acids packaged as chylomicrons into milky lymphatic fluid called chyle, transporting it to the thoracic duct.",
+  },
+  {
+    question: "The prominent bony process of the ulna that forms the point of the elbow is the:",
+    optionA: "Coracoid process",
+    optionB: "Olecranon process",
+    optionC: "Styloid process",
+    optionD: "Acromion",
+    correctAnswer: "B",
+    explanation: "The olecranon of the proximal ulna fits into the olecranon fossa of the humerus upon complete elbow extension.",
+  },
+  {
+    question: "A gamete (mature human ovum or spermatozoon) contains what number of chromosomes?",
+    optionA: "23 (haploid number)",
+    optionB: "46",
+    optionC: "12",
+    optionD: "48",
+    correctAnswer: "A",
+    explanation: "Meiotic division reduces the genetic complement in mature gametes to 23 single chromosomes, so fertilization restores the diploid count of 46.",
+  },
+  {
+    question: "What is the specific pharmacological antidote administered to reverse acute systemic heparin toxicity in a hospitalized patient?",
+    optionA: "Vitamin K (Phytonadione)",
+    optionB: "Protamine sulfate",
+    optionC: "Calcium gluconate",
+    optionD: "N-acetylcysteine",
+    correctAnswer: "B",
+    explanation: "Protamine sulfate is a strongly basic protein that binds to strongly acidic heparin to form an inactive, stable salt complex, reversing its anticoagulant effects.",
+  },
+  {
+    question: "Which nursing theorist formulated the Environmental Theory, emphasizing pure fresh air, clean water, efficient drainage, cleanliness, and light to facilitate patient healing?",
+    optionA: "Dorothea Orem",
+    optionB: "Virginia Henderson",
+    optionC: "Florence Nightingale",
+    optionD: "Jean Watson",
+    correctAnswer: "C",
+    explanation: "Florence Nightingale's Environmental Theory proposed that five environmental factors (pure air, pure water, efficient drainage, cleanliness, and light) enable nature to repair the patient.",
+  },
+  {
+    question: "In a mass casualty disaster triage using the Simple Triage and Rapid Treatment (START) algorithm, which color tag is assigned to a victim who is breathing only after the airway is manually opened?",
+    optionA: "Black (Expectant/Deceased)",
+    optionB: "Red (Immediate)",
+    optionC: "Yellow (Delayed)",
+    optionD: "Green (Minor)",
+    correctAnswer: "B",
+    explanation: "In START triage, if a patient resumes spontaneous respiration only upon airway repositioning, they are immediately designated Red (Immediate/Priority 1).",
+  },
+  {
+    question: "What is the key clinical sign of lithium toxicity that a psychiatric nurse should instruct an outpatient client to report immediately?",
+    optionA: "Mild transient polyuria",
+    optionB: "Coarse hand tremors, ataxia, vomiting, and severe diarrhea",
+    optionC: "Weight gain of 1 kg over two months",
+    optionD: "Mild xerostomia (dry mouth)",
+    correctAnswer: "B",
+    explanation: "Early and advanced signs of lithium toxicity include persistent gastrointestinal distress (vomiting, diarrhea), coarse tremors, ataxia, muscle hyperirritability, and mental confusion.",
+  },
+  {
+    question: "In surgical nursing, what is the maximum duration a pneumatic tourniquet can remain inflated on an adult extremity before releasing to prevent irreversible ischemic nerve and muscle injury?",
+    optionA: "30 minutes",
+    optionB: "60 minutes",
+    optionC: "90 to 120 minutes",
+    optionD: "240 minutes",
+    correctAnswer: "C",
+    explanation: "Recommended surgical safe tourniquet inflation time is generally 90 to 120 minutes for lower extremities (60 to 90 for upper). If surgery continues, a reperfusion interval of 10-15 minutes is required.",
+  },
+  {
+    question: "Which of the following endocrine hormones is synthesized by magnocellular neurons in the supraoptic and paraventricular nuclei of the hypothalamus and stored in the posterior pituitary?",
+    optionA: "Growth hormone (GH) and Prolactin",
+    optionB: "Oxytocin and Antidiuretic hormone (ADH / Vasopressin)",
+    optionC: "Adrenocorticotropic hormone (ACTH)",
+    optionD: "Thyroid stimulating hormone (TSH)",
+    correctAnswer: "B",
+    explanation: "ADH and oxytocin are synthesized in hypothalamic nuclei, axonally transported down the hypothalamo-hypophyseal tract, and stored in the neurohypophysis.",
+  },
+  {
+    question: "Which duodenal hormone is released in response to dietary peptides and fatty acids, stimulating gallbladder contraction and pancreatic enzyme release?",
+    optionA: "Somatostatin",
+    optionB: "Cholecystokinin (CCK)",
+    optionC: "Glucagon",
+    optionD: "Ghrelin",
+    correctAnswer: "B",
+    explanation: "CCK stimulates gallbladder contraction, relaxes the sphincter of Oddi, and stimulates pancreatic acinar cells to release digestive proenzymes.",
+  },
+  {
+    question: "What is the recommended chest compression depth for an adult during cardiopulmonary resuscitation?",
+    optionA: "At least 1 inch (2.5 cm)",
+    optionB: "At least 2 inches (5 cm) but no more than 2.4 inches (6 cm)",
+    optionC: "At least 3 inches (7.5 cm)",
+    optionD: "0.5 inch (1.2 cm)",
+    correctAnswer: "B",
+    explanation: "Compressing at a depth of 2 to 2.4 inches (5 to 6 cm) ensures effective ventricular ejection without causing excessive intrathoracic rib and visceral trauma.",
+  },
+  {
+    question: "For a conscious infant (under 1 year of age) with severe foreign body airway obstruction, the emergency rescue technique consists of alternating:",
+    optionA: "5 back slaps and 5 chest thrusts",
+    optionB: "Abdominal thrusts exclusively",
+    optionC: "Blind finger sweeps and rescue breaths",
+    optionD: "Chest compressions at 100/min",
+    correctAnswer: "A",
+    explanation: "Abdominal thrusts risk lacerating the relatively large, unprotected infant liver; alternating 5 back blows and 5 gentle chest thrusts is the safest method.",
+  },
+  {
+    question: "Which diagnostic blood test evaluates the intrinsic pathway of blood coagulation and is used to monitor unfractionated heparin therapy?",
+    optionA: "Prothrombin Time (PT)",
+    optionB: "Activated Partial Thromboplastin Time (aPTT)",
+    optionC: "International Normalized Ratio (INR)",
+    optionD: "Thrombin time",
+    correctAnswer: "B",
+    explanation: "The aPTT measures factors XII, XI, IX, VIII, X, V, II, and I of the intrinsic and common pathways, with heparin therapy titrated to 1.5 to 2.5 times baseline control.",
+  },
+  {
+    question: "When assessing a client with acute pancreatitis, the nurse notes bluish ecchymotic discoloration around the umbilicus. This physical finding is documented as:",
+    optionA: "Grey Turner's sign",
+    optionB: "Cullen's sign",
+    optionC: "Murphy's sign",
+    optionD: "Kehr's sign",
+    correctAnswer: "B",
+    explanation: "Cullen's sign is periumbilical ecchymosis resulting from retroperitoneal hemorrhage and tracking of blood through the falciform ligament in severe necrotizing pancreatitis.",
+  },
+  {
+    question: "The saddle-shaped depression in the sphenoid bone that houses and protects the pituitary gland (hypophysis) is the:",
+    optionA: "Cribriform plate",
+    optionB: "Sella turcica (hypophyseal fossa)",
+    optionC: "Foramen ovale",
+    optionD: "Crista galli",
+    correctAnswer: "B",
+    explanation: "The sella turcica is a bony saddle-like saddle in the superior surface of the sphenoid body containing the hypophyseal fossa for the pituitary gland.",
+  },
+  {
+    question: "The volume of air remaining in the lungs even after a maximal, forceful forced expiration is the:",
+    optionA: "Tidal volume",
+    optionB: "Inspiratory reserve volume",
+    optionC: "Residual volume (approx. 1200 mL)",
+    optionD: "Expiratory reserve volume",
+    correctAnswer: "C",
+    explanation: "Residual volume cannot be expired voluntarily, preventing total lung collapse and ensuring continuous gas exchange between breaths.",
+  },
+  {
+    question: "The duration of the normal PR interval on a standard 12-lead ECG, reflecting conduction time from the SA node through the AV node, is:",
+    optionA: "0.04 to 0.08 second",
+    optionB: "0.12 to 0.20 second (3 to 5 small squares)",
+    optionC: "0.25 to 0.40 second",
+    optionD: "0.50 to 0.60 second",
+    correctAnswer: "B",
+    explanation: "A normal PR interval measures 0.12 to 0.20 second (120-200 milliseconds); prolongation beyond 0.20 second indicates first-degree AV block.",
+  },
+  {
+    question: "The fibrous cords that attach the free edges of the atrioventricular valve cusps to papillary muscles in the ventricles are the:",
+    optionA: "Trabeculae carneae",
+    optionB: "Chordae tendineae ('heart strings')",
+    optionC: "Pectinate muscles",
+    optionD: "Purkinje fibers",
+    correctAnswer: "B",
+    explanation: "Chordae tendineae prevent the eversion and prolapse of the tricuspid and mitral valve cusps into the atria during ventricular contraction.",
+  },
+  {
+    question: "In which organ does the greatest volume of water absorption occur during digestion?",
+    optionA: "Stomach",
+    optionB: "Small intestine (approx. 80-90% of ingested fluid)",
+    optionC: "Colon",
+    optionD: "Rectum",
+    correctAnswer: "B",
+    explanation: "Although the large intestine dehydrates stool, the small intestine absorbs the vast majority (approx. 7 to 8 liters/day) of all ingested and secreted fluid.",
+  },
+  {
+    question: "The macroscopic circular folds of the intestinal mucosa and submucosa that amplify absorption surface area and slow chyme transit are:",
+    optionA: "Rugae",
+    optionB: "Plicae circulares (valves of Kerckring)",
+    optionC: "Villi",
+    optionD: "Microvilli",
+    correctAnswer: "B",
+    explanation: "Plicae circulares are permanent deep circular mucosal folds prominent in the duodenum and jejunum that spiral chyme through the lumen.",
+  },
+  {
+    question: "The primary objective of performing intermittent tracheal suctioning on an intubated patient is to:",
+    optionA: "Sterilize the bronchial tree",
+    optionB: "Remove accumulated secretions, maintain airway patency, and improve alveolar ventilation",
+    optionC: "Exercise the tracheal smooth muscle",
+    optionD: "Prevent coughing",
+    correctAnswer: "B",
+    explanation: "Endotracheal suctioning clears tracheobronchial secretions that the intubated client cannot clear spontaneously by coughing.",
+  },
+  {
+    question: "If an air embolism is suspected during central line manipulation (client exhibits sudden cyanosis, dyspnea, and churning heart murmur), the nurse immediately:",
+    optionA: "Places the client in high Fowler's position on the right side",
+    optionB: "Places the client on the left side in Trendelenburg position (Durant's maneuver) and administers 100% O2",
+    optionC: "Has the patient sit up and take deep breaths",
+    optionD: "Flushes the catheter with 50 mL of saline",
+    correctAnswer: "B",
+    explanation: "Left lateral decubitus Trendelenburg traps the air bubble in the apex of the right ventricle, preventing it from obstructing the pulmonary outflow tract.",
+  },
+  {
+    question: "Which class of antibiotics is renowned for producing a disulfiram-like (Antabuse) reaction (severe nausea, vomiting, flushing, tachycardia) when consumed with alcohol?",
+    optionA: "Penicillins",
+    optionB: "Metronidazole (Flagyl)",
+    optionC: "Tetracyclines",
+    optionD: "Macrolides",
+    correctAnswer: "B",
+    explanation: "Metronidazole inhibits acetaldehyde dehydrogenase, causing toxic accumulation of acetaldehyde if ethanol is ingested during or within 48 hours of treatment.",
+  },
+  {
+    question: "Which antiviral agent is the drug of choice for treating acute infections caused by Herpes Simplex Virus (HSV) and Varicella-Zoster Virus (VZV)?",
+    optionA: "Oseltamivir (Tamiflu)",
+    optionB: "Acyclovir (Zovirax)",
+    optionC: "Zidovudine (AZT)",
+    optionD: "Ribavirin",
+    correctAnswer: "B",
+    explanation: "Acyclovir is selectively phosphorylated by viral thymidine kinase into acyclovir triphosphate, which inhibits viral DNA polymerase and terminates replication.",
+  },
+  {
+    question: "Which newborn screening maneuver gently adducts the hip while applying mild posterior pressure to test if the femoral head slips out of the acetabulum (dislocatable hip)?",
+    optionA: "Ortolani test",
+    optionB: "Barlow maneuver",
+    optionC: "Tredelenburg test",
+    optionD: "Gower maneuver",
+    correctAnswer: "B",
+    explanation: "The Barlow test determines whether an unstable hip can be passively subluxated or dislocated out of the acetabulum.",
+  },
+  {
+    question: "The localized, soft-tissue edematous swelling of the newborn scalp that crosses cranial suture lines caused by pressure during labor is:",
+    optionA: "Cephalohematoma",
+    optionB: "Caput succedaneum",
+    optionC: "Subgaleal hemorrhage",
+    optionD: "Hydrocephalus",
+    correctAnswer: "B",
+    explanation: "Caput succedaneum is diffuse edematous fluid accumulation in the subcutaneous tissue of the scalp that freely crosses suture lines and resolves in 2 to 3 days.",
+  },
+  {
+    question: "A child with suspected celiac disease (gluten-sensitive enteropathy) will exhibit severe malabsorption and intestinal villous atrophy upon consuming proteins found in:",
+    optionA: "Rice, corn, and potatoes",
+    optionB: "Wheat, barley, and rye (gluten-containing grains)",
+    optionC: "Soy and legumes",
+    optionD: "Milk and dairy products exclusively",
+    correctAnswer: "B",
+    explanation: "Celiac disease is an immune-mediated enteropathy triggered by ingestion of gluten storage prolamins (gliadin in wheat, secalin in rye, hordein in barley).",
+  },
+  {
+    question: "Under the Nigerian National Health Act, what percentage of the Consolidated Revenue Fund of the Federation is earmarked for the Basic Health Care Provision Fund (BHCPF)?",
+    optionA: "At least 1%",
+    optionB: "5%",
+    optionC: "10%",
+    optionD: "15%",
+    correctAnswer: "A",
+    explanation: "The National Health Act mandates that at least 1% of the federal consolidated revenue be allocated to the BHCPF to fund primary healthcare and emergency medical care.",
+  },
+  {
+    question: "The main pancreatic duct that conveys digestive enzymes to the hepatopancreatic ampulla is also known as the:",
+    optionA: "Duct of Santorini (accessory duct)",
+    optionB: "Duct of Wirsung",
+    optionC: "Cystic duct",
+    optionD: "Bartholin's duct",
+    correctAnswer: "B",
+    explanation: "The duct of Wirsung is the principal excretory channel of the pancreas, joining the common bile duct at the ampulla of Vater.",
+  },
+  {
+    question: "Which cranial suture articulates the two parietal bones anteriorly with the frontal bone?",
+    optionA: "Sagittal suture",
+    optionB: "Coronal suture",
+    optionC: "Lambdoid suture",
+    optionD: "Squamous suture",
+    correctAnswer: "B",
+    explanation: "The coronal suture extends transversely across the skull vault, joining the frontal bone with the right and left parietal bones.",
+  },
+  {
+    question: "Which vitamin deficiency is specifically associated with delayed blood coagulation and prolonged prothrombin time?",
+    optionA: "Vitamin A",
+    optionB: "Vitamin K",
+    optionC: "Vitamin E",
+    optionD: "Vitamin D",
+    correctAnswer: "B",
+    explanation: "Vitamin K is an obligate cofactor for carboxylating glutamic acid residues on factors II, VII, IX, and X; deficiency causes severe bleeding diathesis.",
+  },
+  {
+    question: "The normal resting respiratory rate in a healthy adult is typically:",
+    optionA: "8 to 10 breaths/min",
+    optionB: "12 to 20 breaths/min",
+    optionC: "25 to 30 breaths/min",
+    optionD: "35 to 40 breaths/min",
+    correctAnswer: "B",
+    explanation: "Normal resting eupneic ventilation in adults ranges between 12 and 20 breaths per minute.",
+  },
+  {
+    question: "The triangular area on the outer surface of the temporal bone behind the external acoustic meatus is the:",
+    optionA: "Zygomatic arch",
+    optionB: "Suprameatal triangle (Macewen's triangle)",
+    optionC: "Mastoid notch",
+    optionD: "Pterion",
+    correctAnswer: "B",
+    explanation: "Macewen's suprameatal triangle is an important surgical landmark for accessing the mastoid antrum during mastoidectomy.",
+  },
+  {
+    question: "The double-membrane organelles responsible for aerobic cellular respiration and ATP generation in somatic cells are:",
+    optionA: "Ribosomes",
+    optionB: "Plasma membranes",
+    optionC: "Mitochondria",
+    optionD: "Nucleoli",
+    correctAnswer: "C",
+    explanation: "Mitochondria are the metabolic powerhouses of the cell that generate adenosine triphosphate (ATP) via the Krebs cycle and oxidative phosphorylation.",
+  },
+  {
+    question: "The Haversian system (osteon) is the basic structural and functional microscopic unit of:",
+    optionA: "Compact (cortical) bone",
+    optionB: "Cancellous (spongy) bone",
+    optionC: "Elastic cartilage",
+    optionD: "Bone marrow",
+    correctAnswer: "A",
+    explanation: "Compact bone consists of cylindrical structural units called osteons (Haversian systems) containing concentric lamellae surrounding a central neurovascular canal.",
+  },
+  {
+    question: "The hardest, most highly mineralized substance in the entire human body that coats the crown of the tooth is:",
+    optionA: "Dentin",
+    optionB: "Dental enamel (approx. 96% mineralized hydroxyapatite)",
+    optionC: "Cementum",
+    optionD: "Pulp",
+    correctAnswer: "B",
+    explanation: "Tooth enamel contains approximately 96% inorganic calcium hydroxyapatite crystalline prisms, rendering it the hardest biological tissue.",
+  },
+  {
+    question: "The most inferior segment of the brainstem that is continuous inferiorly with the spinal cord is the:",
+    optionA: "Midbrain",
+    optionB: "Pons",
+    optionC: "Medulla oblongata",
+    optionD: "Cerebellum",
+    correctAnswer: "C",
+    explanation: "The medulla oblongata forms the lower portion of the brainstem, transitioning into the cervical spinal cord at the foramen magnum.",
+  },
+  {
+    question: "Which cranial suture lies between the right and left parietal bones along the midline of the skull vault?",
+    optionA: "Coronal suture",
+    optionB: "Sagittal suture",
+    optionC: "Lambdoid suture",
+    optionD: "Squamous suture",
+    correctAnswer: "B",
+    explanation: "The sagittal suture connects the two parietal bones along the superior midline from the coronal suture anteriorly to the lambdoid suture posteriorly.",
+  },
+  {
+    question: "The potent exotoxin (tetanospasmin) released by Clostridium tetani exerts its pathological effect primarily by:",
+    optionA: "Damaging the vascular endothelial lining of pulmonary capillaries",
+    optionB: "Retrogradely traveling along motor axons to block the release of inhibitory neurotransmitters (GABA and glycine) in the spinal cord",
+    optionC: "Directly destroying acetylcholine at the motor endplate",
+    optionD: "Inhibiting sodium channels in peripheral nerves",
+    correctAnswer: "B",
+    explanation: "Tetanospasmin prevents the presynaptic exocytosis of GABA and glycine from Renshaw cells, causing uncontrolled, agonizing reflex spasms and muscular rigidity.",
+  },
+  {
+    question: "Which level of healthcare in Nigeria is primarily organized at the Local Government Area (LGA) level and represents the first point of contact between community members and the health system?",
+    optionA: "Tertiary healthcare (Teaching hospitals and Federal Medical Centers)",
+    optionB: "Secondary healthcare (General hospitals)",
+    optionC: "Primary Health Care (Health posts and Comprehensive Health Centers)",
+    optionD: "Quaternary private specialist centers",
+    correctAnswer: "C",
+    explanation: "Primary health care is managed by Local Government Councils, delivering basic essential curative, preventive, promotive, and maternal-child services at the grassroots level.",
+  },
+  {
+    question: "In assessing a client with acute post-streptococcal glomerulonephritis, why does edema typically manifest first in the periorbital tissues in the morning?",
+    optionA: "Gravity causes fluid to pool in the low-resistance loose subcutaneous tissues of the eyelids during recumbency",
+    optionB: "The eye is the primary site of streptococcal replication",
+    optionC: "Increased lacrimal duct secretion",
+    optionD: "High intraocular pressure",
+    correctAnswer: "A",
+    explanation: "Sodium and water retention combined with proteinuria decreases oncotic pressure; sleeping supine redistributes fluid into loose dependent periorbital tissue.",
+  },
+  {
+    question: "The primary stage of Syphilis infection is clinically characterized by the appearance of a:",
+    optionA: "Generalized maculopapular rash on the palms and soles",
+    optionB: "Single, painless indurated ulcer with a clean base (hard chancre) at the inoculation site",
+    optionC: "Cardiovascular aortic aneurysm",
+    optionD: "Gummatous granuloma in the liver",
+    correctAnswer: "B",
+    explanation: "The primary lesion of syphilis is the chancre, which erupts 2 to 3 weeks after contact as a painless, indurated ulcer teeming with Treponema pallidum.",
+  },
+  {
+    question: "In biometric and epidemiological research, the spread or difference between the highest observed numerical value and the lowest observed value in a data set is the:",
+    optionA: "Variance",
+    optionB: "Range",
+    optionC: "Standard deviation",
+    optionD: "Interquartile mean",
+    correctAnswer: "B",
+    explanation: "The range is the simplest measure of statistical dispersion, calculated as: Maximum Value minus Minimum Value.",
+  },
+  {
+    question: "What is the primary action of misoprostol (Cytotec) when used in obstetrics?",
+    optionA: "Suppression of lactation",
+    optionB: "Cervical ripening and stimulation of uterine myometrial contractions",
+    optionC: "Tocolysis to arrest preterm contractions",
+    optionD: "Prevention of neonatal hypoglycemia",
+    correctAnswer: "B",
+    explanation: "Misoprostol is a synthetic prostaglandin E1 analog that softens and effaces the cervix while initiating vigorous uterine contractions.",
+  },
+  {
+    question: "What is the normal expected physiological involution rate of the postpartum uterine fundus following delivery?",
+    optionA: "Descends approximately 1 fingerbreadth (1 to 2 cm) per 24 hours into the true pelvis",
+    optionB: "Remains at the umbilicus for 3 weeks",
+    optionC: "Rises 2 cm daily above the umbilicus",
+    optionD: "Disappears into the pelvis within 12 hours",
+    correctAnswer: "A",
+    explanation: "The postpartum fundus decreases by approximately 1 cm (one fingerbreadth) each day, becoming non-palpable abdominally by day 10 to 14.",
+  },
+  {
+    question: "What is the recommended position for a healthy term infant during sleep to prevent Sudden Infant Death Syndrome (SIDS)?",
+    optionA: "Prone position (on the stomach)",
+    optionB: "Supine position (on the back on a firm flat mattress)",
+    optionC: "Side-lying with pillows",
+    optionD: "Semi-reclined in a soft armchair",
+    correctAnswer: "B",
+    explanation: "The 'Back to Sleep' campaign demonstrated that placing infants supine on a firm, bare mattress reduces the incidence of SIDS by over 50%.",
+  },
+  {
+    question: "Which pediatric parasite causes perianal pruritus that worsens markedly at night, diagnosed using the cellophane tape test?",
+    optionA: "Ascaris lumbricoides",
+    optionB: "Enterobius vermicularis (Pinworm / Threadworm)",
+    optionC: "Taenia saginata",
+    optionD: "Ancylostoma duodenale",
+    correctAnswer: "B",
+    explanation: "Female pinworms migrate out of the anus at night to deposit ova on the perianal fold, causing intense nocturnal itching.",
+  },
+  {
+    question: "A client receiving intravenous Vancomycin requires regular therapeutic drug monitoring of which pharmacokinetic parameter to avoid nephrotoxicity?",
+    optionA: "Peak concentration only",
+    optionB: "Trough serum concentration drawn immediately prior to the next scheduled dose",
+    optionC: "Random post-prandial level",
+    optionD: "Urine creatinine level",
+    correctAnswer: "B",
+    explanation: "Monitoring vancomycin serum trough levels (typically maintained between 10-20 mcg/mL depending on infection severity) ensures efficacy and prevents toxicity.",
+  },
+  {
+    question: "A patient taking monoamine oxidase inhibitors (MAOIs) for refractory depression must avoid tyramine-rich foods (aged cheese, red wine, cured meats) to prevent:",
+    optionA: "Severe hypoglycemia",
+    optionB: "Hypertensive crisis (malignant hypertension)",
+    optionC: "Renal stone formation",
+    optionD: "Agranulocytosis",
+    correctAnswer: "B",
+    explanation: "MAO inhibition prevents intestinal breakdown of dietary tyramine; accumulated tyramine displaces norepinephrine into synaptic clefts, causing extreme vasoconstriction.",
+  },
+  {
+    question: "A client presenting with persistent physical symptoms (such as pain or paralysis) for which thorough medical evaluation reveals no organic pathophysiological basis is diagnosed with:",
+    optionA: "Conversion disorder (Functional Neurological Symptom Disorder)",
+    optionB: "Malingering",
+    optionC: "Bipolar disorder",
+    optionD: "Generalized anxiety disorder",
+    correctAnswer: "A",
+    explanation: "Conversion disorder involves altered voluntary motor or sensory function that cannot be explained by neurological or general medical disease, often triggered by psychological stress.",
+  },
+  {
+    question: "In epidemiology, the 'Case Fatality Rate' is defined as the proportion of:",
+    optionA: "Deaths in the entire national population over one year",
+    optionB: "Individuals diagnosed with a specific disease who die from that disease within a specified time frame",
+    optionC: "New cases occurring relative to the total population",
+    optionD: "Hospitalized patients who are discharged alive",
+    correctAnswer: "B",
+    explanation: "Case fatality rate measures disease severity by calculating: (Number of deaths from disease / Total confirmed cases of disease) x 100.",
+  },
+  {
+    question: "Which clinical test is utilized at the bedside to assess collateral arterial circulation in the hand prior to radial artery cannulation for blood gas sampling?",
+    optionA: "Homan's test",
+    optionB: "Allen's test",
+    optionC: "Phalen's test",
+    optionD: "Tinels test",
+    correctAnswer: "B",
+    explanation: "The modified Allen test occludes both radial and ulnar arteries until the hand blanches; release of the ulnar artery should restore pink flushing within 5-7 seconds.",
+  },
+  {
+    question: "Presbyopia is an age-related vision impairment that develops after age 40 due to:",
+    optionA: "Degeneration of retinal cones in the fovea centralis",
+    optionB: "Loss of crystalline lens elasticity and decreased ciliary muscle accommodative power for near vision",
+    optionC: "Increased corneal curvature",
+    optionD: "Corneal clouding",
+    correctAnswer: "B",
+    explanation: "With physiological aging, the lens becomes less pliable, diminishing the eye's ability to increase curvature to focus on close objects (requiring reading glasses).",
+  },
+  {
+    question: "A client with diabetes insipidus secondary to cranial surgery exhibits which characteristic urinalysis finding?",
+    optionA: "High urine specific gravity (>1.035) with dark concentrated urine",
+    optionB: "Markedly low urine specific gravity (<1.005) with massive volumes of pale, dilute urine (polyuria)",
+    optionC: "Heavy glucosuria and ketonuria",
+    optionD: "Gross hematuria and casts",
+    correctAnswer: "B",
+    explanation: "Deficiency of antidiuretic hormone (ADH) prevents water reabsorption in renal collecting tubules, excreting 4 to 15 liters daily of hypoosmolar, dilute urine.",
+  },
+  {
+    question: "In children, the specialized cartilaginous zone located between the epiphysis and diaphysis where longitudinal bone growth takes place is the:",
+    optionA: "Articular cartilage",
+    optionB: "Epiphyseal plate (growth plate / physis)",
+    optionC: "Medullary cavity",
+    optionD: "Endosteum",
+    correctAnswer: "B",
+    explanation: "Endochondral ossification occurs at the epiphyseal cartilage plate, allowing long bones to grow in length until closure at late adolescence.",
+  },
+  {
+    question: "Hemophilia A is an inherited bleeding disorder characterized by a congenital deficiency of which blood coagulation factor?",
+    optionA: "Factor V",
+    optionB: "Factor VIII (Antihemophilic factor)",
+    optionC: "Factor IX (Christmas factor)",
+    optionD: "Factor XI",
+    correctAnswer: "B",
+    explanation: "Hemophilia A is an X-linked recessive genetic disorder caused by mutations in the F8 gene encoding coagulation Factor VIII, predisposing males to deep hemarthroses.",
+  },
+  {
+    question: "A client with a head injury sustains a moderate concussion and demonstrates a Glasgow Coma Scale (GCS) score of 7. Which nursing intervention should be prioritized?",
+    optionA: "Assisting the client to ambulate around the ward",
+    optionB: "Maintaining an open patent airway, preparing for endotracheal intubation, and monitoring for signs of brain herniation",
+    optionC: "Instituting active vigorous sensory stimulation",
+    optionD: "Discharging the client home with family supervision",
+    correctAnswer: "B",
+    explanation: "A GCS score of 8 or less indicates severe coma and inability to protect the airway; immediate airway protection and ICU neuro-monitoring are mandatory.",
+  },
+  {
+    question: "Which nursing diagnosis is the highest priority for an adult client with a traumatic perforated eardrum (tympanic membrane rupture)?",
+    optionA: "Disturbed body image",
+    optionB: "Risk for infection (otitis media) secondary to loss of the tympanic protective barrier",
+    optionC: "Acute pain related to vertigo",
+    optionD: "Deficient fluid volume",
+    correctAnswer: "B",
+    explanation: "A torn tympanic membrane allows bacteria and water from the external auditory meatus to enter the sterile middle ear cavity, risking suppurative otitis media.",
+  },
+  {
+    question: "Which statement indicates that an elderly client with a stroke and right hemiplegia understands measures to prevent pressure ulcers while seated in a wheelchair?",
+    optionA: "'I will sit still in one position for 6 hours so my hip heals.'",
+    optionB: "'I will shift my weight every 15 to 20 minutes and inspect my skin daily.'",
+    optionC: "'I will sit on a rubber doughnut ring all day.'",
+    optionD: "'I will rub reddened bony areas firmly twice a day.'",
+    correctAnswer: "B",
+    explanation: "Relieving ischemic capillary pressure by weight-shifting every 15 minutes restores tissue perfusion over the ischial tuberosities.",
+  },
+  {
+    question: "On the first day following a subtotal thyroidectomy, the client develops hoarseness, whispered speech, and inspiratory stridor. The nurse immediately suspects:",
+    optionA: "Normal throat irritation from the endotracheal tube",
+    optionB: "Tracheal compression from expanding wound hematoma or bilateral recurrent laryngeal nerve damage",
+    optionC: "Hypocalcemic tetany exclusively",
+    optionD: "Acute pulmonary embolism",
+    correctAnswer: "B",
+    explanation: "Stridor indicates upper airway narrowing due to tracheal edema, hematoma compression, or vocal cord paralysis, requiring an emergency tracheostomy tray at the bedside.",
+  },
+  {
+    question: "Which statement indicates that a client with a permanent cardiac pacemaker understands post-discharge safety instructions?",
+    optionA: "'I can undergo MRI scans without any special precautions.'",
+    optionB: "'I will check my pulse daily and report any rate lower than the set rate, dizziness, or prolonged hiccups to my doctor.'",
+    optionC: "'I must never use a microwave oven at home.'",
+    optionD: "'The pacemaker will need to be replaced every 3 months.'",
+    correctAnswer: "B",
+    explanation: "Pulse rates below the programmed lower rate limit indicate pacemaker malfunction; persistent hiccups can signal phrenic nerve stimulation from displaced lead wires.",
+  },
+  {
+    question: "A client with chronic obstructive pulmonary disease (COPD) is receiving long-term oral prednisone therapy. Which instruction should the nurse include in the discharge teaching?",
+    optionA: "'Stop taking the pills immediately if you gain any weight.'",
+    optionB: "'Never discontinue prednisone abruptly; the dose must be tapered gradually as ordered by your doctor.'",
+    optionC: "'Take the medication on an empty stomach right before bedtime.'",
+    optionD: "'Avoid drinking fluids while on this medication.'",
+    correctAnswer: "B",
+    explanation: "Exogenous corticosteroids suppress the hypothalamic-pituitary-adrenal axis; abrupt cessation causes acute life-threatening adrenal crisis due to adrenal atrophy.",
+  },
+  {
+    question: "Endocrine glands are anatomically defined as glands that:",
+    optionA: "Secrete their products through specialized excretory ducts onto epithelial surfaces",
+    optionB: "Secrete hormones directly into interstitial fluid which then diffuse into circulating blood",
+    optionC: "Produce only digestive enzymes",
+    optionD: "Release cellular debris into external secretions",
+    correctAnswer: "B",
+    explanation: "Ductless endocrine glands secrete chemical messengers (hormones) directly into extracellular fluid and capillary networks.",
+  },
+  {
+    question: "The mucous membrane lining of the tongue in a healthy adult is normally:",
+    optionA: "Red and orange",
+    optionB: "Coated with white patches",
+    optionC: "Pink, moist, and covered with papillae",
+    optionD: "Dry and yellowish",
+    correctAnswer: "C",
+    explanation: "Healthy lingual mucosa appears pink, moist, and studded with lingual papillae containing taste buds.",
+  },
+  {
+    question: "T-lymphocytes are responsible for mediating which branch of the adaptive immune response?",
+    optionA: "Humoral antibody-mediated immunity",
+    optionB: "Cell-mediated immunity",
+    optionC: "Innate non-specific complement immunity",
+    optionD: "Passive natural immunity",
+    correctAnswer: "B",
+    explanation: "T-cells (helper CD4+ and cytotoxic CD8+) mediate cellular immune responses, attacking intracellular pathogens and coordinating immune defenses.",
+  },
+  {
+    question: "Which of the following hormones is synthesized by the adrenal medulla rather than the adrenal cortex?",
+    optionA: "Glucocorticoids (cortisol)",
+    optionB: "Mineralocorticoids (aldosterone)",
+    optionC: "Epinephrine and norepinephrine (catecholamines)",
+    optionD: "Androgens (DHEA)",
+    correctAnswer: "C",
+    explanation: "Chromaffin cells in the adrenal medulla synthesize and release epinephrine (80%) and norepinephrine (20%) in response to sympathetic activation.",
+  },
+  {
+    question: "Which anatomical structure of the inner ear houses the specialized auditory sensory receptors (hair cells)?",
+    optionA: "Middle ear tympanum",
+    optionB: "Semicircular canals",
+    optionC: "Organ of Corti in the cochlea",
+    optionD: "Eustachian tube",
+    correctAnswer: "C",
+    explanation: "The organ of Corti resting on the basilar membrane within the cochlea converts mechanical acoustic fluid waves into nerve impulses.",
+  },
+  {
+    question: "Which division of the nervous system controls voluntary contractions of skeletal muscles throughout the body?",
+    optionA: "Autonomic sympathetic system",
+    optionB: "Autonomic parasympathetic system",
+    optionC: "Somatic nervous system",
+    optionD: "Enteric nervous system",
+    correctAnswer: "C",
+    explanation: "The somatic motor nervous system consists of lower motor neurons that innervate skeletal muscle motor units under conscious voluntary control.",
+  },
+  {
+    question: "Which fat-soluble vitamin is indispensable for the photochemical synthesis of rhodopsin in retinal rod cells for dark adaptation and night vision?",
+    optionA: "Vitamin C",
+    optionB: "Vitamin A (Retinol)",
+    optionC: "Vitamin K",
+    optionD: "Vitamin E",
+    correctAnswer: "B",
+    explanation: "Vitamin A forms 11-cis-retinal, the chromophore of rhodopsin, essential for photoreception under low-intensity scotopic illumination.",
+  },
+  {
+    question: "Chronic systemic arterial hypertension causes progressive pathological remodeling of the left ventricle known as:",
+    optionA: "Concentric left ventricular hypertrophy",
+    optionB: "Right ventricular dilation",
+    optionC: "Cor pulmonale",
+    optionD: "Atrial hypoplasia",
+    correctAnswer: "A",
+    explanation: "Chronically elevated systemic vascular resistance forces the left ventricle to pump against high afterload, causing adaptive wall thickening and hypertrophy.",
+  },
+  {
+    question: "A discrepancy where the auscultated apical heart rate is higher than the palpated peripheral radial pulse rate is called a:",
+    optionA: "Pulse pressure",
+    optionB: "Pulse deficit",
+    optionC: "Pulsus paradoxus",
+    optionD: "Water-hammer pulse",
+    correctAnswer: "B",
+    explanation: "A pulse deficit occurs during dysrhythmias (e.g., atrial fibrillation) when some cardiac contractions are too weak to transmit a palpable pressure wave to the radial artery.",
+  },
+  {
+    question: "A fertilized human ovum formed immediately by the union of spermatozoon and secondary oocyte is called a:",
+    optionA: "Morula",
+    optionB: "Blastocyst",
+    optionC: "Zygote",
+    optionD: "Embryo",
+    correctAnswer: "C",
+    explanation: "The single diploid cell resulting from the successful fusion of male and female haploid gamete pronuclei is the zygote.",
+  },
+  {
+    question: "The primary site of respiratory gas exchange across the blood-air barrier in the human lung is the:",
+    optionA: "Tracheal bifurcation",
+    optionB: "Bronchiolar walls",
+    optionC: "Alveolar capillary membrane",
+    optionD: "Parietal pleura",
+    correctAnswer: "C",
+    explanation: "The ultra-thin alveolar-capillary membrane provides an immense surface area for diffusion of O2 into blood and CO2 into expired air.",
+  },
+  {
+    question: "Salivary amylase (ptyalin) initiates the enzymatic digestion of:",
+    optionA: "Cooked starch into disaccharide maltose",
+    optionB: "Dietary triglycerides into free fatty acids",
+    optionC: "Polypeptides into amino acids",
+    optionD: "Vitamins into cofactors",
+    correctAnswer: "A",
+    explanation: "Salivary amylase breaks alpha-1,4 glycosidic bonds in cooked starches, converting them into maltose, maltotriose, and alpha-limit dextrins.",
+  },
+  {
+    question: "Erikson's stage of development during toddlerhood (1 to 3 years) is centered around resolving:",
+    optionA: "Trust versus Mistrust",
+    optionB: "Autonomy versus Shame and Doubt",
+    optionC: "Identity versus Role Confusion",
+    optionD: "Generativity versus Stagnation",
+    correctAnswer: "B",
+    explanation: "Toddlers strive to achieve bodily control and personal independence (autonomy); excessive criticism or restriction results in self-doubt.",
+  },
+  {
+    question: "When writing a measurable client-centered goal in a nursing care plan, which component ensures the goal can be objectively evaluated?",
+    optionA: "A vague statement of improvement",
+    optionB: "A specific, measurable behavioral performance verb with a concrete timeframe for achievement",
+    optionC: "A list of medications to be taken",
+    optionD: "A copy of the physician's surgical note",
+    correctAnswer: "B",
+    explanation: "Effective nursing goals are SMART: Specific, Measurable, Attainable, Realistic, and Time-bound with explicit evaluation dates.",
+  },
+  {
+    question: "A client diagnosed with cancer decides to refuse further chemotherapy after thorough counseling. The nurse defends the client's right to make this decision based on:",
+    optionA: "Non-maleficence",
+    optionB: "Beneficence",
+    optionC: "Autonomy (self-determination)",
+    optionD: "Justice",
+    correctAnswer: "C",
+    explanation: "Autonomy respects the fundamental legal and moral right of competent individuals to make decisions regarding their own medical care and bodily integrity.",
+  },
+  {
+    question: "Sanguineous wound drainage is characterized by:",
+    optionA: "Clear, pale yellow watery plasma fluid",
+    optionB: "Bright red or dark red bloody drainage indicating active capillary or vascular bleeding",
+    optionC: "Thick yellow or green pus with foul odor",
+    optionD: "Milky lymphatic chyle",
+    correctAnswer: "B",
+    explanation: "Sanguineous drainage consists predominantly of fresh red blood cells reflecting vascular damage in healing or disrupted wounds.",
+  },
+  {
+    question: "Which nursing intervention is most effective in preventing post-operative pulmonary atelectasis and pneumonia following thoracic or upper abdominal surgery?",
+    optionA: "Strict complete bed rest in supine position for 7 days",
+    optionB: "Incentive spirometry, deep breathing and coughing exercises every 1 to 2 hours, and early ambulation",
+    optionC: "Continuous administration of sedating analgesics without waking the patient",
+    optionD: "Restricting oral fluid intake to 500 mL daily",
+    correctAnswer: "B",
+    explanation: "Frequent sustained maximal inspiration with incentive spirometry expands collapsed alveoli and mobilizes secretions, preventing hypostatic pneumonia.",
+  },
+  {
+    question: "The primary, most abundant cation present in the extracellular fluid (ECF) that dictates plasma osmolality is:",
+    optionA: "Potassium (K+)",
+    optionB: "Sodium (Na+)",
+    optionC: "Calcium (Ca2+)",
+    optionD: "Magnesium (Mg2+)",
+    correctAnswer: "B",
+    explanation: "Sodium is the major extracellular cation (normal range 135-145 mEq/L), responsible for maintaining ECF osmotic balance and water distribution.",
+  },
+  {
+    question: "An ABG showing pH of 7.50, PaCO2 of 28 mmHg, and HCO3- of 23 mEq/L in an acutely hyperventilating patient experiencing a panic attack represents:",
+    optionA: "Uncompensated respiratory alkalosis",
+    optionB: "Metabolic acidosis",
+    optionC: "Compensated respiratory acidosis",
+    optionD: "Metabolic alkalosis",
+    correctAnswer: "A",
+    explanation: "Alveolar hyperventilation excessively blows off carbon dioxide (PaCO2 <35 mmHg), raising blood pH above 7.45 in acute uncompensated respiratory alkalosis.",
+  },
+  {
+    question: "Dietary deficiency of Niacin (Vitamin B3) results in the nutritional disease known as Pellagra, clinically remembered by the 'Three Ds':",
+    optionA: "Dyspnea, Dysphagia, and Dysuria",
+    optionB: "Diarrhea, Dermatitis, and Dementia",
+    optionC: "Diplopia, Dizziness, and Deafness",
+    optionD: "Dehydration, Delirium, and Dyspepsia",
+    correctAnswer: "B",
+    explanation: "Pellagra is characterized by bilateral symmetrical photosensitive dermatitis, intractable diarrhea, and progressive cognitive dementia (and death if untreated).",
+  },
+  {
+    question: "Which stage of the Plasmodium life cycle in the human host is directly responsible for the symptomatic clinical paroxysms of chills, fever, and sweating?",
+    optionA: "Pre-erythrocytic hepatic schizogony",
+    optionB: "Synchronized rupture of infected erythrocytes releasing merozoites and pyrogens into systemic circulation",
+    optionC: "Sporozoite penetration of hepatocytes",
+    optionD: "Gametocyte uptake by mosquito",
+    correctAnswer: "B",
+    explanation: "Rupture of mature erythrocytic schizonts releases toxins and antigens that trigger massive macrophage cytokine release, causing the malarial rigor and fever.",
+  },
+  {
+    question: "Murphy's sign (abrupt arrest of inspiration due to sharp pain upon deep palpation of the right upper quadrant) is pathognomonic of:",
+    optionA: "Acute appendicitis",
+    optionB: "Acute cholecystitis",
+    optionC: "Acute pancreatitis",
+    optionD: "Peptic ulcer perforation",
+    correctAnswer: "B",
+    explanation: "Murphy's sign is elicited when the descending inflamed gallbladder touches the examiner's fingers during deep inspiration, causing sudden inspiratory arrest.",
+  },
+  {
+    question: "A client with active pulmonary tuberculosis is placed under which specific type of hospital transmission-based isolation precautions?",
+    optionA: "Contact precautions",
+    optionB: "Droplet precautions",
+    optionC: "Airborne precautions (negative pressure isolation room and N95 particulate respirator mask)",
+    optionD: "Standard universal precautions alone",
+    correctAnswer: "C",
+    explanation: "Mycobacterium tuberculosis is transmitted via droplet nuclei (<5 microns) that remain suspended in room air, requiring airborne infection isolation.",
+  },
+  {
+    question: "Which non-invasive diagnostic examination is considered the most reliable and definitive test to evaluate mitral valve stenosis and left ventricular ejection fraction?",
+    optionA: "Chest radiograph",
+    optionB: "Transthoracic or transesophageal echocardiogram (ultrasound)",
+    optionC: "Standard 12-lead electrocardiogram",
+    optionD: "Barium swallow",
+    correctAnswer: "B",
+    explanation: "Echocardiography provides real-time Doppler flow dynamics, valve area measurement, and chamber dimensions to definitively grade valvular lesions.",
+  },
+  {
+    question: "Which of the following transparent structures of the eye is completely avascular and receives oxygen directly from ambient air and tears?",
+    optionA: "Iris",
+    optionB: "Sclera",
+    optionC: "Cornea",
+    optionD: "Ciliary body",
+    correctAnswer: "C",
+    explanation: "The cornea lacks blood vessels to maintain optical transparency, deriving its oxygen from the tear film and nutrients from aqueous humor.",
+  },
+  {
+    question: "Which nursing intervention is appropriate when managing acute anterior epistaxis (nosebleed)?",
+    optionA: "Having the casualty lie flat with the head tilted backward",
+    optionB: "Sitting the casualty upright, leaning the head slightly forward, and pinching the soft cartilaginous part of the nose for 10 to 15 minutes",
+    optionC: "Instructing the casualty to blow their nose vigorously",
+    optionD: "Applying hot compresses across the nose",
+    correctAnswer: "B",
+    explanation: "Sitting forward prevents blood from draining down the pharynx into the stomach or larynx, while digital pressure compresses Kiesselbach's plexus.",
+  },
+  {
+    question: "An anal fissure is anatomically and clinically defined as a:",
+    optionA: "Purulent fistula connecting the rectum to the perianal skin",
+    optionB: "Small, painful longitudinal tear, crack, or ulceration in the stratified squamous lining of the lower anal canal",
+    optionC: "Dilated varicose vein in the hemorrhoidal plexus",
+    optionD: "Malignant polyp of the rectal mucosa",
+    correctAnswer: "B",
+    explanation: "Anal fissures typically occur in the posterior midline of the anal verge from passage of hard, dry stools, causing sharp tearing pain during defecation.",
+  },
+  {
+    question: "The most common progressive neurodegenerative cause of dementia in older adults is:",
+    optionA: "Vascular multi-infarct dementia",
+    optionB: "Alzheimer's disease",
+    optionC: "Parkinson's disease dementia",
+    optionD: "Creutzfeldt-Jakob disease",
+    correctAnswer: "B",
+    explanation: "Alzheimer's disease accounts for approximately 60% to 80% of all clinical dementia cases, characterized by amyloid plaques and neurofibrillary tangles.",
+  },
+  {
+    question: "The complete temporary or permanent cessation of spontaneous breathing is termed:",
+    optionA: "Dyspnea",
+    optionB: "Orthopnea",
+    optionC: "Apnea",
+    optionD: "Eupnea",
+    correctAnswer: "C",
+    explanation: "Apnea is the total absence of respiratory airflow, which leads rapidly to severe hypoxemia, hypercapnia, and cardiac arrest unless reversed.",
+  },
+  {
+    question: "A client presents with severe burning pain and swelling following an acute honeybee sting. When removing the barbed sting, the nurse should:",
+    optionA: "Grasp the venom sac firmly with tweezers and pull",
+    optionB: "Gently scrape the stinger off using a fingernail or the dull edge of a plastic card without squeezing the venom sac",
+    optionC: "Squeeze the stinger between two fingers to crush it",
+    optionD: "Leave the stinger in place for 24 hours",
+    correctAnswer: "B",
+    explanation: "Squeezing the stinger with tweezers or fingers injects the remaining venom into the tissue; scraping removes it without releasing venom.",
+  },
+  {
+    question: "According to the Gate Control Theory of pain modulation proposed by Melzack and Wall, pain transmission in the dorsal horn can be inhibited by:",
+    optionA: "Stimulating large-diameter A-beta cutaneous sensory fibers through massage, heat, cold, or TENS",
+    optionB: "Cutting motor nerves",
+    optionC: "Increasing emotional stress",
+    optionD: "Withholding all tactile stimuli",
+    correctAnswer: "A",
+    explanation: "Non-painful tactile sensory inputs conducted by myelinated A-beta fibers close the neural 'gate' in the substantia gelatinosa, blocking transmission of C-fiber pain.",
+  },
+  {
+    question: "Which anatomical segment of the aorta is the most common site for the development of atherosclerotic arterial aneurysms?",
+    optionA: "Ascending thoracic aorta",
+    optionB: "Abdominal aorta (infrarenal segment below the renal arteries)",
+    optionC: "Aortic arch",
+    optionD: "Descending thoracic aorta",
+    correctAnswer: "B",
+    explanation: "Atherosclerotic plaque accumulation and wall shear stress most frequently compromise the media of the infrarenal abdominal aorta.",
+  },
+  {
+    question: "Which pharmacological class of medication is the first-line drug therapy prescribed for urge urinary incontinence and overactive bladder?",
+    optionA: "Anticholinergic / Antimuscarinic agents (such as Oxybutynin or Tolterodine)",
+    optionB: "Alpha-1 adrenergic agonists",
+    optionC: "Loop diuretics",
+    optionD: "Cholinesterase inhibitors",
+    correctAnswer: "A",
+    explanation: "Anticholinergic drugs competitively block muscarinic M3 receptors in the bladder, suppressing uninhibited detrusor muscle contractions.",
+  },
+  {
+    question: "Syphilis is a systemic sexually transmitted infection caused by Treponema pallidum that progresses through primary, secondary, and:",
+    optionA: "Eruptive and convalescent stages",
+    optionB: "Latent and Tertiary (neurosyphilis / cardiovascular gummatous) stages",
+    optionC: "Prodromal and resolution stages",
+    optionD: "Exclusively acute stages",
+    correctAnswer: "B",
+    explanation: "Untreated syphilis progresses from primary chancre to secondary bacteremic rash, followed by an asymptomatic latent period and destructive tertiary neuro/cardiovascular disease.",
+  },
+  {
+    question: "The primary causative protozoan parasite responsible for Amoebic Dysentery (amoebiasis) is:",
+    optionA: "Giardia lamblia",
+    optionB: "Entamoeba histolytica",
+    optionC: "Trichomonas vaginalis",
+    optionD: "Balantidium coli",
+    correctAnswer: "B",
+    explanation: "Entamoeba histolytica invades the colonic mucosa, creating characteristic flask-shaped ulcers and producing bloody mucoid diarrheal stools.",
+  },
+  {
+    question: "In epidemiological research, 'Validity' of a study instrument refers to the extent to which the tool:",
+    optionA: "Produces identical scores repeatedly",
+    optionB: "Accurately measures the specific concept, attribute, or phenomenon it was intended to measure",
+    optionC: "Is short and easy to complete",
+    optionD: "Is translated into multiple languages",
+    correctAnswer: "B",
+    explanation: "Validity assesses truthfulness and accuracy (content, construct, and criterion validity) of a measurement tool.",
+  },
+  {
+    question: "Cranial Nerve XI (Accessory nerve) is clinically assessed during neurological examination by testing the strength of the:",
+    optionA: "Facial mimetic muscles",
+    optionB: "Trapezius muscle (shrugging shoulders against resistance) and sternocleidomastoid muscle (turning head against resistance)",
+    optionC: "Tongue protrusion",
+    optionD: "Masseter and temporalis chewing muscles",
+    correctAnswer: "B",
+    explanation: "CN XI innervates the sternocleidomastoid and trapezius muscles; weakness or atrophy impairs shoulder shrug and contralateral head rotation.",
+  },
+  {
+    question: "Normal resting 24-hour urinary output in a well-hydrated, healthy adult typically averages approximately:",
+    optionA: "200 to 300 mL",
+    optionB: "1,000 to 1,500 mL (approx. 0.5 to 1 mL/kg/hr)",
+    optionC: "5,000 to 6,000 mL",
+    optionD: "50 to 100 mL",
+    correctAnswer: "B",
+    explanation: "Adult urinary output of 1,000 to 1,500 mL/day reflects normal renal clearance of 600 mOsm of daily metabolic solute wastes.",
+  },
+  {
+    question: "Medication administration requires identification using",
+    optionA: "Two identifiers",
+    optionB: "Bed number only",
+    optionC: "Diagnosis only",
+    optionD: "Ward name",
+    correctAnswer: "A",
+    explanation: "",
+  },
 ];

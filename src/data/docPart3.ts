@@ -8,7 +8,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "To prevent or detect complications and promote wound healing",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What are some of the postoperative assessments that nurses should perform on surgical patients?",
@@ -17,7 +17,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Surgical site, dressing, and drainage",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What are some of the postoperative interventions that nurses should implement on surgical patients?",
@@ -26,7 +26,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Encouraging early mobilization and ambulation",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What are some of the common postoperative complications that can occur in surgical patients?",
@@ -35,7 +35,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Infection, wound dehiscence, and evisceration",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What are some of the signs and symptoms of atelectasis in postoperative patients?",
@@ -44,7 +44,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Fever, leukocytosis, and chest pain",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What are some of the nursing interventions to prevent or treat atelectasis in postoperative patients?",
@@ -53,7 +53,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Teaching and assisting with incentive spirometry and deep breathing exercises",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What are some of the signs and symptoms of pneumonia in postoperative patients?",
@@ -62,7 +62,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Tachycardia, hypotension, and dysrhythmias",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What are some of the nursing interventions to prevent or treat pneumonia in postoperative patients?",
@@ -71,7 +71,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Elevating the head of the bed and turning the patient frequently",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What are some of the signs and symptoms of pulmonary embolism in postoperative patients?",
@@ -80,7 +80,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Hemoptysis, cyanosis, and diaphoresis",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What are some of the nursing interventions to prevent or treat pulmonary embolism in postoperative patients?",
@@ -89,7 +89,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Encouraging leg exercises and early ambulation",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What are some of the signs and symptoms of hemorrhage in postoperative patients?",
@@ -98,7 +98,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Pallor, cool clammy skin, and thirst",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What are some of the nursing interventions to prevent or treat hemorrhage in postoperative patients?",
@@ -107,7 +107,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Monitoring vital signs, hemoglobin, hematocrit, and coagulation studies",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What are some of the signs and symptoms of hematoma in postoperative patients?",
@@ -116,7 +116,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Decreased or absent drainage from surgical site or drainage system",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with psoriasis is prescribed topical corticosteroids. The nurse instructs the patient to apply the medication:",
@@ -125,7 +125,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Three times a day, after meals",
     optionD: "Four times a day, every six hours",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A nurse is caring for a patient with a stage III pressure ulcer on the sacrum. The nurse should use which of the following dressings to promote moist wound healing?",
@@ -134,7 +134,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Transparent film dressing",
     optionD: "Calcium alginate dressing",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with severe burns is at risk for developing hypovolemic shock. The nurse should monitor the patient for which of the following signs of shock?",
@@ -143,7 +143,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Tachypnea and hyperthermia",
     optionD: "Bradypnea and hypothermia",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with herpes zoster (shingles) is experiencing severe pain along the affected dermatome. The nurse should administer which of the following medications to relieve the pain?",
@@ -152,7 +152,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Gabapentin (Neurontin)",
     optionD: "Diphenhydramine (Benadryl)",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with cellulitis of the lower leg is prescribed intravenous antibiotics. The nurse should assess the patient for which of the following signs of improvement?",
@@ -161,7 +161,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Decreased drainage and odor from the leg",
     optionD: "Increased mobility and sensation of the leg",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with impetigo has crusty, honey-colored lesions on the face. The nurse should instruct the patient to do which of the following to prevent the spread of infection?",
@@ -170,7 +170,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Cover the lesions with sterile gauze pads and tape",
     optionD: "Avoid touching or scratching the lesions",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with melanoma is scheduled for a wide excision of the tumor. The nurse should explain to the patient that this procedure involves:",
@@ -179,7 +179,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Removing the tumor and all the lymph nodes in the region",
     optionD: "Removing the tumor and a layer of subcutaneous tissue under it",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with acne vulgaris is prescribed isotretinoin (Accutane). The nurse should instruct the patient to avoid which of the following while taking this medication?",
@@ -188,7 +188,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Alcohol and tobacco products",
     optionD: "Pregnancy and oral contraceptives",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with contact dermatitis has an allergic reaction to latex gloves. The nurse should apply which of the following to the affected area to reduce inflammation?",
@@ -197,7 +197,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Calamine lotion",
     optionD: "Hydrogen peroxide",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with scabies is treated with permethrin (Elimite) cream. The nurse should instruct the patient to do which of the following after applying the cream?",
@@ -206,7 +206,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Repeat the application every 4 hours",
     optionD: "Scrub the skin vigorously with a washcloth",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with lichen planus has purple, pruritic, polygonal papules on the wrists and ankles. The nurse should educate the patient about which of the following aspects of this condition?",
@@ -215,7 +215,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "It is a chronic inflammatory disorder that can recur or persist for months or years.",
     optionD: "It is a benign neoplasm that can be removed with cryotherapy or laser therapy.",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with alopecia areata has patchy hair loss on the scalp. The nurse should inform the patient that this condition:",
@@ -224,7 +224,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "May resolve spontaneously or with treatment",
     optionD: "May spread to other parts of the body",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with rosacea has erythema, telangiectasia, and papules on the nose and cheeks. The nurse should advise the patient to avoid which of the following triggers that can worsen the condition?",
@@ -233,7 +233,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Fruits and vegetables",
     optionD: "Cotton and silk fabrics",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with basal cell carcinoma has a pearly, translucent nodule on the nose. The nurse should explain to the patient that this type of skin cancer:",
@@ -242,7 +242,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Is aggressive and invasive",
     optionD: "Is associated with human papillomavirus (HPV)",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with eczema has dry, scaly, erythematous patches on the elbows and knees. The nurse should instruct the patient to use which of the following to moisturize the skin?",
@@ -251,7 +251,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Ointments",
     optionD: "Gels",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with candidiasis has white, curd-like plaques on the tongue and oral mucosa. The nurse should administer which of the following medications to treat this condition?",
@@ -260,7 +260,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Fluconazole (Diflucan) tablets",
     optionD: "Any of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with hives has raised, erythematous, pruritic wheals on the trunk and arms. The nurse should administer which of the following medications to relieve the itching?",
@@ -269,7 +269,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Fexofenadine (Allegra)",
     optionD: "Any of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with vitiligo has depigmented patches on the face and hands. The nurse should educate the patient about which of the following aspects of this condition?",
@@ -278,7 +278,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "It is a genetic disorder that affects skin, hair, and eye color.",
     optionD: "It is a cosmetic disorder that can be treated with bleaching agents.",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with seborrheic dermatitis has yellow, greasy scales on the scalp and eyebrows. The nurse should instruct the patient to use which of the following to treat this condition?",
@@ -287,7 +287,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Ketoconazole shampoo",
     optionD: "Any of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with warts has rough, flesh-colored papules on the fingers and palms. The nurse should explain to the patient that this condition:",
@@ -296,7 +296,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Is caused by an allergic reaction that can be prevented by avoiding allergens.",
     optionD: "Is caused by a hormonal imbalance that can be corrected by hormone therapy.",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with erysipelas has a red, swollen, tender area on the lower leg with a sharply demarcated border. The nurse should administer which of the following medications to treat this condition?",
@@ -305,7 +305,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "ciprofloxacin (Cipro), doralidomycin (Dynacin), eclindamycin (Cleocin)",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "Which of the following is the correct sequence of air flow through the respiratory tract?",
@@ -314,7 +314,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Nasal cavity, pharynx, larynx, bronchi, trachea, bronchioles, alveoli",
     optionD: "Nasal cavity, larynx, pharynx, bronchi, trachea, bronchioles, alveoli",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the function of the cilia and mucus in the respiratory tract?",
@@ -323,7 +323,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "To produce sound and speech",
     optionD: "To regulate air flow and pressure",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the term for the amount of air that can be forcefully exhaled after a normal tidal expiration?",
@@ -332,7 +332,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Residual volume",
     optionD: "Vital capacity",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the term for the exchange of oxygen and carbon dioxide between the alveoli and the pulmonary capillaries?",
@@ -341,7 +341,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Cellular respiration",
     optionD: "Ventilation",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the main muscle of respiration that contracts and relaxes to change the volume of the thoracic cavity?",
@@ -350,7 +350,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Sternocleidomastoid",
     optionD: "Scalenes",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the condition characterized by chronic inflammation and thickening of the bronchial walls, increased mucus production, and reduced ciliary function?",
@@ -359,7 +359,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Emphysema",
     optionD: "Pneumonia",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the condition characterized by destruction and enlargement of the alveoli, resulting in reduced surface area for gas exchange and increased air trapping?",
@@ -368,7 +368,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Emphysema",
     optionD: "Pneumonia",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the condition characterized by reversible bronchoconstriction, increased mucus secretion, and inflammation of the airways in response to various triggers?",
@@ -377,7 +377,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Emphysema",
     optionD: "Pneumonia",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the condition characterized by infection and inflammation of the alveoli and interstitial tissue, causing consolidation and impaired gas exchange?",
@@ -386,7 +386,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Emphysema",
     optionD: "Pneumonia",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What are some common signs and symptoms of respiratory disorders?",
@@ -395,7 +395,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Clubbing, wheezes, crackles, stridor, fever, and fatigue",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the term for the exchange of oxygen and carbon dioxide between the alveoli and the blood?",
@@ -404,7 +404,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Perfusion",
     optionD: "Respiration",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the most common cause of chronic obstructive pulmonary disease (COPD)?",
@@ -413,7 +413,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Tuberculosis",
     optionD: "Cystic fibrosis",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the main symptom of asthma?",
@@ -422,7 +422,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Dyspnea",
     optionD: "Chest pain",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the medication that relaxes the smooth muscles of the bronchi and bronchioles, thus improving airflow?",
@@ -431,7 +431,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Corticosteroid",
     optionD: "Mucolytic",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the condition that occurs when the alveoli become overstretched and lose their elasticity, resulting in impaired gas exchange?",
@@ -440,7 +440,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Atelectasis",
     optionD: "Pulmonary edema",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the test that measures the volume and flow of air during inhalation and exhalation?",
@@ -449,7 +449,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Arterial blood gas (ABG)",
     optionD: "Pulse oximetry",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the normal range of oxygen saturation (SpO2) in healthy adults?",
@@ -458,7 +458,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "95-100%",
     optionD: "100%",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the device that delivers oxygen to patients who need supplemental oxygen therapy?",
@@ -467,7 +467,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Ventilator",
     optionD: "Nebulizer",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the infection that affects the lungs and causes inflammation, fluid accumulation, and consolidation in the alveoli?",
@@ -476,7 +476,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Pleurisy",
     optionD: "Tuberculosis",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the vaccine that protects against pneumococcal pneumonia, a common type of bacterial pneumonia?",
@@ -485,7 +485,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Fluzone",
     optionD: "Gardasil",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the complication that occurs when air leaks into the pleural space and causes lung collapse?",
@@ -494,7 +494,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Empyema",
     optionD: "Pleural effusion",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the procedure that involves inserting a needle or a chest tube into the pleural space to remove air or fluid?",
@@ -503,7 +503,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Bronchoscopy",
     optionD: "Tracheostomy",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the chronic inflammatory disease that affects the lungs and other organs and causes granulomas, nodules of inflamed tissue?",
@@ -512,7 +512,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Lung cancer",
     optionD: "Cystic fibrosis",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the test that detects tuberculosis infection by injecting a small amount of purified protein derivative (PPD) under the skin and measuring the reaction after 48-72 hours?",
@@ -521,7 +521,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Sputum culture",
     optionD: "Chest X-ray",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the medication that is used to treat tuberculosis infection and requires long-term therapy and monitoring for liver toxicity?",
@@ -530,7 +530,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Ethambutol",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the malignant tumor that originates in the lungs and can spread to other organs?",
@@ -539,7 +539,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Pulmonary embolism",
     optionD: "Pulmonary hypertension",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the most common type of lung cancer, accounting for about 85% of all cases?",
@@ -548,7 +548,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Adenocarcinoma",
     optionD: "Squamous cell carcinoma",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the surgical procedure that involves removing a lobe of the lung?",
@@ -557,7 +557,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Segmentectomy",
     optionD: "Wedge resection",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the condition that occurs when a blood clot travels to the lungs and blocks a pulmonary artery, causing chest pain, dyspnea, and hemoptysis?",
@@ -566,7 +566,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Cor pulmonale",
     optionD: "Acute respiratory distress syndrome (ARDS)",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the medication that prevents or dissolves blood clots and is used to treat or prevent pulmonary embolism?",
@@ -575,7 +575,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Thrombolytic",
     optionD: "Fibrinolytic",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the condition that occurs when the blood pressure in the pulmonary arteries is abnormally high, causing right-sided heart failure and pulmonary edema?",
@@ -584,7 +584,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Cor pulmonale",
     optionD: "Acute respiratory distress syndrome (ARDS)",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the medication that lowers the blood pressure in the pulmonary arteries and improves the symptoms of pulmonary hypertension?",
@@ -593,7 +593,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Beta-blocker",
     optionD: "Calcium channel blocker",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the condition that occurs when the right ventricle of the heart fails due to increased resistance in the pulmonary circulation, causing peripheral edema, jugular venous distension, and hepatomegaly?",
@@ -602,7 +602,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Cor pulmonale",
     optionD: "Acute respiratory distress syndrome (ARDS)",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the medication that reduces the workload of the heart and improves the symptoms of cor pulmonale?",
@@ -611,7 +611,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Beta-blocker",
     optionD: "Calcium channel blocker",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the condition that occurs when the lungs become severely inflamed and damaged due to infection, trauma, or other causes, resulting in hypoxemia, hypercapnia, and respiratory failure?",
@@ -620,7 +620,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Cor pulmonale",
     optionD: "Acute respiratory distress syndrome (ARDS)",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the device that provides mechanical ventilation to patients who cannot breathe on their own due to acute respiratory distress syndrome or other causes?",
@@ -629,7 +629,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Ventilator",
     optionD: "Nebulizer",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the mode of mechanical ventilation that delivers a set tidal volume and respiratory rate to the patient, regardless of their own breathing efforts?",
@@ -638,7 +638,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Pressure support ventilation (PSV)",
     optionD: "Continuous positive airway pressure (CPAP)",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the mode of mechanical ventilation that delivers a set respiratory rate to the patient, but allows them to breathe spontaneously at their own tidal volume in between?",
@@ -647,7 +647,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Pressure support ventilation (PSV)",
     optionD: "Continuous positive airway pressure (CPAP)",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the mode of mechanical ventilation that provides a set amount of positive pressure to augment the patient's spontaneous breaths, but does not deliver a set respiratory rate or tidal volume?",
@@ -656,7 +656,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Pressure support ventilation (PSV)",
     optionD: "Continuous positive airway pressure (CPAP)",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the mode of mechanical ventilation that provides a continuous level of positive pressure to keep the alveoli open and prevent atelectasis, but does not deliver a set respiratory rate or tidal volume?",
@@ -665,7 +665,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Pressure support ventilation (PSV)",
     optionD: "Continuous positive airway pressure (CPAP)",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the complication that occurs when mechanical ventilation causes excessive pressure or volume in the lungs, leading to alveolar rupture and air leakage into the pleural space or mediastinum?",
@@ -674,7 +674,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Pneumothorax",
     optionD: "All of the above",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with chronic obstructive pulmonary disease (COPD) is admitted to the hospital with acute respiratory distress. The nurse should monitor the patient for which of the following complications?",
@@ -683,7 +683,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Metabolic acidosis",
     optionD: "Metabolic alkalosis",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with asthma is prescribed a short-acting beta2 agonist inhaler for acute bronchospasm. The nurse should instruct the patient to use the inhaler in which of the following ways?",
@@ -692,7 +692,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Take three puffs every 20 minutes for an hour during an attack",
     optionD: "Take four puffs twice a day for maintenance therapy",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with tuberculosis (TB) is receiving isoniazid and rifampin as part of the treatment regimen. The nurse should teach the patient to report which of the following adverse effects to the health care provider?",
@@ -701,7 +701,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Loss of appetite or weight",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with cystic fibrosis (CF) is scheduled for a chest physiotherapy session. The nurse should perform this intervention at which of the following times?",
@@ -710,7 +710,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Between meals",
     optionD: "Anytime",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with lung cancer is undergoing chemotherapy and radiation therapy. The nurse should assess the patient for which of the following signs of radiation pneumonitis?",
@@ -719,25 +719,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Hemoptysis and chest pain",
     optionD: "Wheezes and crackles",
     correctAnswer: "B",
-    explanation: ""
-  },
-  {
-    question: "A patient with chronic obstructive pulmonary disease (COPD) is admitted to the hospital with acute respiratory distress. The nurse should monitor the patient for which of the following complications?",
-    optionA: "Respiratory acidosis",
-    optionB: "Respiratory alkalosis",
-    optionC: "Metabolic acidosis",
-    optionD: "Metabolic alkalosis",
-    correctAnswer: "A",
-    explanation: ""
-  },
-  {
-    question: "A patient with asthma is prescribed a short-acting beta2 agonist inhaler for acute bronchospasm. The nurse should instruct the patient to use the inhaler in which of the following ways?",
-    optionA: "Take one puff every 4 hours as needed",
-    optionB: "Take two puffs 15 minutes before exercise",
-    optionC: "Take three puffs every 20 minutes for an hour during an attack",
-    optionD: "Take four puffs twice a day for maintenance therapy",
-    correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with tuberculosis (TB) is receiving isoniazid (INH) and rifampin (RIF) as part of the treatment regimen. The nurse should teach the patient to report which of the following adverse effects to the health care provider?",
@@ -746,7 +728,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Reddish-orange discoloration of body fluids",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with lung cancer is scheduled for a thoracentesis to remove pleural fluid. The nurse should position the patient in which of the following ways for the procedure?",
@@ -755,7 +737,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Sitting upright and leaning forward over a table",
     optionD: "Lying on the unaffected side with the head of the bed lowered 15 degrees",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with cystic fibrosis (CF) is receiving chest physiotherapy (CPT) to mobilize secretions. The nurse should perform CPT in which of the following times?",
@@ -764,7 +746,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "During meals and after exercise",
     optionD: "Between meals and before exercise",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with pulmonary embolism (PE) is receiving heparin therapy to prevent further clot formation. The nurse should monitor which of the following laboratory values to assess the therapeutic effect of heparin?",
@@ -773,7 +755,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Activated partial thromboplastin time (aPTT)",
     optionD: "Platelet count",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with sleep apnea is prescribed continuous positive airway pressure (CPAP) therapy to improve nighttime breathing. The nurse should teach the patient that CPAP therapy has which of the following benefits?",
@@ -782,7 +764,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Decreases blood pressure and risk of stroke",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with pneumonia has a productive cough, fever, and chills. The nurse should auscultate the patient's lungs for which of the following breath sounds?",
@@ -791,7 +773,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Stridor",
     optionD: "Rhonchi",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with chronic bronchitis has a history of smoking one pack of cigarettes per day for 20 years. The nurse should calculate the patient's pack-year history as which of the following?",
@@ -800,7 +782,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "40 pack-years",
     optionD: "80 pack-years",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with emphysema has dyspnea and pursed-lip breathing. The nurse should explain to the patient that pursed-lip breathing has which of the following effects?",
@@ -809,7 +791,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Increases expiratory pressure and airway patency",
     optionD: "Decreases inspiratory pressure and airway resistance",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with sarcoidosis has granulomatous lesions in the lungs and other organs. The nurse should monitor the patient for which of the following manifestations of sarcoidosis?",
@@ -818,7 +800,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Fatigue and weight loss",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with lung cancer is receiving chemotherapy and radiation therapy. The nurse should assess the patient for which of the following side effects of these treatments?",
@@ -827,7 +809,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Anemia and thrombocytopenia",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of asthma is experiencing an acute exacerbation. The nurse should administer which of the following medications as the first-line treatment for this condition?",
@@ -836,7 +818,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Montelukast",
     optionD: "Prednisone",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a pneumothorax has a chest tube connected to a water-seal drainage system. The nurse should observe the water level in the water-seal chamber for which of the following indications of effective drainage?",
@@ -845,7 +827,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "No bubbling",
     optionD: "Fluctuation with respiration",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with pulmonary fibrosis has a restrictive lung disease that causes decreased lung compliance. The nurse should expect the patient to have which of the following pulmonary function test results?",
@@ -854,7 +836,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Increased total lung capacity",
     optionD: "Decreased total lung capacity",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of allergic rhinitis is exposed to pollen and develops nasal congestion, sneezing, and itching. The nurse should recognize that these symptoms are caused by which of the following immune responses?",
@@ -863,7 +845,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Type III hypersensitivity reaction",
     optionD: "Type IV hypersensitivity reaction",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with influenza is prescribed oseltamivir (Tamiflu) to reduce the duration and severity of symptoms. The nurse should instruct the patient to take oseltamivir in which of the following ways?",
@@ -872,7 +854,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "For 10 days",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a tracheostomy has thick and tenacious secretions. The nurse should perform which of the following interventions to facilitate tracheostomy care and suctioning?",
@@ -881,7 +863,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Use a sterile catheter and gloves for each suctioning attempt",
     optionD: "Limit the suctioning time to 10 seconds or less per attempt",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with acute respiratory distress syndrome (ARDS) has refractory hypoxemia and decreased lung compliance. The nurse should anticipate that the patient may require which of the following interventions?",
@@ -890,7 +872,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Antibiotic therapy with broad-spectrum agents",
     optionD: "Corticosteroid therapy with prednisone",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of chronic sinusitis is scheduled for a sinus surgery. The nurse should teach the patient to avoid which of the following activities after the surgery?",
@@ -899,7 +881,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Applying ice packs to the face",
     optionD: "Elevating the head of the bed",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a pleural effusion has dyspnea, chest pain, and decreased breath sounds on the affected side. The nurse should prepare the patient for which of the following diagnostic tests to confirm the diagnosis and determine the cause of the effusion?",
@@ -908,7 +890,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Pleural biopsy",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with bronchiectasis has chronic dilation and inflammation of the bronchi. The nurse should instruct the patient to perform which of the following self-care measures to manage this condition?",
@@ -917,7 +899,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Perform chest physiotherapy and postural drainage to clear secretions",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with asbestosis has interstitial lung disease caused by inhalation of asbestos fibers. The nurse should monitor the patient for which of the following complications of asbestosis?",
@@ -926,7 +908,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Tuberculosis and fungal infections",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "Which of the following is a function of the pericardium?",
@@ -935,7 +917,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "It secretes hormones that affect blood pressure",
     optionD: "It provides oxygen and nutrients to the myocardium",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the term for the amount of blood ejected by each ventricle in one minute?",
@@ -944,7 +926,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Ejection fraction",
     optionD: "Preload",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "Which of the following is a common cause of sinus bradycardia?",
@@ -953,7 +935,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Hyperthyroidism",
     optionD: "Vagal stimulation",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the most common type of cardiac arrhythmia?",
@@ -962,7 +944,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Premature ventricular contractions",
     optionD: "Sinus tachycardia",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "Which of the following is a characteristic of angina pectoris?",
@@ -971,7 +953,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "It is relieved by nitroglycerin or rest",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the most common cause of coronary artery disease?",
@@ -980,7 +962,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Thrombosis",
     optionD: "Embolism",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the most common complication of myocardial infarction?",
@@ -989,7 +971,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Cardiac arrhythmias",
     optionD: "Pericarditis",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the most common cause of left-sided heart failure?",
@@ -998,7 +980,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Pulmonary embolism",
     optionD: "Right-sided heart failure",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "Which of the following is a sign of left-sided heart failure?",
@@ -1007,7 +989,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Hepatomegaly",
     optionD: "Crackles in the lungs",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the most common cause of right-sided heart failure?",
@@ -1016,7 +998,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Pulmonary hypertension",
     optionD: "Tricuspid regurgitation",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "Which of the following is a sign of right-sided heart failure?",
@@ -1025,7 +1007,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Ascites",
     optionD: "Pulmonary edema",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the term for an abnormally high blood pressure?",
@@ -1034,7 +1016,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Prehypertension",
     optionD: "Normotension",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What are the two main factors that determine blood pressure?",
@@ -1043,7 +1025,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Blood volume and viscosity",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What are the two main types of hypertension?",
@@ -1052,7 +1034,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Malignant and benign",
     optionD: "Essential and nonessential",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What are some common risk factors for hypertension?",
@@ -1061,7 +1043,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Both A and B",
     optionD: "None of the above",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "Which of the following is a common cause of heart failure?",
@@ -1070,7 +1052,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Coronary artery disease",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the term for the amount of blood pumped by the heart in one minute?",
@@ -1079,7 +1061,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Ejection fraction",
     optionD: "Heart rate",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the most common symptom of angina pectoris?",
@@ -1088,7 +1070,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Palpitations",
     optionD: "Syncope",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the name of the procedure that uses a balloon-tipped catheter to dilate narrowed coronary arteries?",
@@ -1097,7 +1079,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Coronary stent placement",
     optionD: "Coronary artery endarterectomy",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the most common complication of myocardial infarction (MI)?",
@@ -1106,7 +1088,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Heart failure",
     optionD: "Pericarditis",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the most common cause of infective endocarditis?",
@@ -1115,7 +1097,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Fungal infection",
     optionD: "Rheumatic fever",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the most common type of valve disorder in adults?",
@@ -1124,7 +1106,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Aortic stenosis",
     optionD: "Aortic regurgitation",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the most common cause of pericarditis?",
@@ -1133,7 +1115,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Trauma",
     optionD: "Idiopathic",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the term for the accumulation of fluid in the pericardial sac that compresses the heart and reduces cardiac output?",
@@ -1142,7 +1124,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Pericardial friction rub",
     optionD: "Pericardial knock",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the most common cause of hypertension?",
@@ -1151,7 +1133,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Essential hypertension",
     optionD: "Pregnancy-induced hypertension",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the most common type of aneurysm?",
@@ -1160,7 +1142,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Cerebral aneurysm",
     optionD: "Peripheral aneurysm",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the most common symptom of peripheral arterial disease (PAD)?",
@@ -1169,7 +1151,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Ulceration",
     optionD: "Gangrene",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the most common cause of venous thromboembolism (VTE)?",
@@ -1178,7 +1160,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Vascular injury",
     optionD: "All of the above",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "What is the term for the inflammation of a vein associated with a thrombus formation?",
@@ -1187,7 +1169,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Varicose veins",
     optionD: "Venous insufficiency",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of hypertension and diabetes mellitus is admitted to the hospital with chest pain and shortness of breath. The nurse suspects that the patient is having a myocardial infarction (MI). Which of the following diagnostic tests is most useful to confirm the diagnosis of MI?",
@@ -1196,7 +1178,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Chest x-ray",
     optionD: "Echocardiogram",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient who had an MI is prescribed aspirin, a beta-blocker, an angiotensin-converting enzyme (ACE) inhibitor, and a statin. What is the rationale for this combination of medications?",
@@ -1205,7 +1187,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "To relieve pain, decrease heart rate, improve renal function, and decrease LDL levels",
     optionD: "To inhibit platelet aggregation, decrease oxygen demand, prevent ventricular remodeling, and reduce atherosclerosis",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of hypertension and diabetes mellitus is admitted to the hospital with chest pain. The nurse suspects that the patient may have a myocardial infarction (MI). Which of the following laboratory tests is most specific and sensitive for diagnosing MI?",
@@ -1214,7 +1196,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Lactate dehydrogenase (LDH)",
     optionD: "Aspartate aminotransferase (AST)",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with aortic stenosis is scheduled for aortic valve replacement surgery. The nurse explains to the patient that the new valve can be either mechanical or bioprosthetic. What is an advantage of a bioprosthetic valve over a mechanical valve?",
@@ -1223,7 +1205,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "It has lower risk of infection",
     optionD: "It has better hemodynamic performance",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with chronic heart failure is prescribed digoxin, a cardiac glycoside, to improve the contractility of the heart. The nurse monitors the patient for signs of digoxin toxicity, which include:",
@@ -1232,7 +1214,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Hypertension, chest pain, palpitations, and dyspnea",
     optionD: "Hypotension, confusion, fatigue, and yellow vision",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with atrial fibrillation is at risk of developing thromboembolism due to the formation of blood clots in the atria. The nurse administers warfarin, an oral anticoagulant, to prevent this complication. What is the therapeutic range of the international normalized ratio (INR) for a patient on warfarin therapy?",
@@ -1241,7 +1223,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "3.5-4.5",
     optionD: "5-6",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with coronary artery disease (CAD) undergoes percutaneous coronary intervention (PCI), a procedure that involves inserting a catheter with a balloon or a stent into the narrowed artery to restore blood flow. The nurse instructs the patient to avoid which of the following activities after the procedure?",
@@ -1250,7 +1232,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Lifting heavy objects or straining",
     optionD: "Walking or doing other mild exercises",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with angina pectoris experiences chest pain that is relieved by rest or nitroglycerin, a vasodilator that reduces the workload of the heart. The nurse teaches the patient how to use sublingual nitroglycerin tablets for acute anginal attacks. Which of the following statements by the patient indicates a need for further teaching?",
@@ -1259,7 +1241,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "\"I should call 911 if the pain does not go away after three tablets\"",
     optionD: "\"I should swallow the tablet with water\"",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with rheumatic fever develops rheumatic heart disease, a condition that affects the valves of the heart. The nurse assesses the patient for signs of valvular dysfunction, such as:",
@@ -1268,7 +1250,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Fever, weight loss, night sweats, and anemia",
     optionD: "Palpitations, arrhythmias, dizziness, and anxiety",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with peripheral arterial disease (PAD) has intermittent claudication, a symptom that causes pain and cramping in the legs due to reduced blood flow. The nurse educates the patient about lifestyle modifications that can improve blood circulation and prevent complications. Which of the following recommendations is appropriate for a patient with PAD?",
@@ -1277,7 +1259,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Leg elevation",
     optionD: "Massage therapy",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with venous insufficiency has chronic venous ulcers on the lower legs that are difficult to heal. The nurse applies moist dressings and compression bandages to promote wound healing and prevent infection. What is another nursing intervention that can help reduce edema and improve venous return in this patient?",
@@ -1286,7 +1268,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Restricting fluid and sodium intake",
     optionD: "Administering diuretics and vasodilators",
     correctAnswer: "B",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with hypertension is prescribed a beta-blocker, a class of drugs that lower blood pressure by reducing the heart rate and contractility. The nurse monitors the patient for adverse effects of beta-blockers, such as:",
@@ -1295,7 +1277,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Nausea, vomiting, diarrhea, and abdominal cramps",
     optionD: "Bradycardia, hypotension, fatigue, and impotence",
     correctAnswer: "D",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with cardiogenic shock has impaired cardiac output and tissue perfusion due to severe damage to the heart muscle. The nurse provides hemodynamic support and oxygen therapy to the patient and observes for signs of improvement, such as:",
@@ -1304,7 +1286,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Increased heart rate, decreased blood pressure, and pale skin",
     optionD: "Decreased cardiac index, increased systemic vascular resistance (SVR), and cyanotic skin",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with infective endocarditis has inflammation of the inner lining of the heart due to a bacterial infection. The nurse administers antibiotics as prescribed and monitors the patient for complications of endocarditis, such as:",
@@ -1313,7 +1295,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Valvular regurgitation, heart failure, and embolism",
     optionD: "Aortic aneurysm, aortic dissection, and rupture",
     correctAnswer: "C",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with a history of smoking and hyperlipidemia is diagnosed with abdominal aortic aneurysm (AAA), a condition that causes a bulging or weakening of the wall of the aorta. The nurse measures the patient's abdominal girth and monitors the patient for signs of rupture or dissection of the aneurysm, such as:",
@@ -1322,7 +1304,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Nausea, vomiting, diarrhea, and fever",
     optionD: "Flank pain, hematuria, oliguria, and anuria",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with Raynaud's phenomenon has episodes of vasospasm in the fingers or toes that cause pain, numbness, and color changes. The nurse instructs the patient to avoid triggers that can precipitate an attack, such as:",
@@ -1331,7 +1313,7 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Sun exposure, infection, aspirin, and steroids",
     optionD: "Trauma, allergy, antihistamines, and decongestants",
     correctAnswer: "A",
-    explanation: ""
+    explanation: "",
   },
   {
     question: "A patient with varicose veins has enlarged and twisted veins in the legs that cause pain, swelling, and cosmetic problems. The nurse advises the patient to wear compression stockings during the day to prevent venous stasis and improve blood flow. What is another nursing intervention that can help relieve the symptoms of varicose veins?",
@@ -1340,6 +1322,33 @@ export const DOC_PART3: RawDocQuestion[] = [
     optionC: "Massaging the legs gently from ankle to knee",
     optionD: "Crossing the legs when sitting or lying down",
     correctAnswer: "B",
-    explanation: ""
-  }
+    explanation: "",
+  },
+  {
+    question: "An arterial blood gas (ABG) showing pH 7.50, PaCO2 28 mmHg, and HCO3- 23 mEq/L in a client experiencing an acute panic hyperventilation attack is:",
+    optionA: "Uncompensated respiratory alkalosis",
+    optionB: "Uncompensated metabolic acidosis",
+    optionC: "Compensated respiratory acidosis",
+    optionD: "Metabolic alkalosis",
+    correctAnswer: "A",
+    explanation: "Hyperventilation blows off carbon dioxide (low PaCO2), raising arterial pH above 7.45, producing uncompensated respiratory alkalosis.",
+  },
+  {
+    question: "A client with protracted, severe vomiting and nasogastric tube drainage loses large volumes of gastric hydrochloric acid. The expected acid-base imbalance is:",
+    optionA: "Respiratory acidosis",
+    optionB: "Metabolic alkalosis with hypokalemia and hypochloremia",
+    optionC: "Metabolic acidosis with hyperkalemia",
+    optionD: "Respiratory alkalosis",
+    correctAnswer: "B",
+    explanation: "Loss of gastric HCl generates excess circulating bicarbonate (metabolic alkalosis) while renal potassium wasting worsens hypokalemia.",
+  },
+  {
+    question: "The normal reference laboratory range for serum sodium in a healthy adult is:",
+    optionA: "115 to 125 mEq/L",
+    optionB: "135 to 145 mEq/L",
+    optionC: "155 to 165 mEq/L",
+    optionD: "3.5 to 5.0 mEq/L",
+    correctAnswer: "B",
+    explanation: "Normal serum sodium is 135 to 145 mEq/L; sodium is the major determinant of extracellular fluid osmolarity.",
+  },
 ];

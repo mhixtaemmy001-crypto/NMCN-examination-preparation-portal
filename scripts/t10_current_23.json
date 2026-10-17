@@ -1,0 +1,232 @@
+[
+  {
+    "number": 1,
+    "question": "A patient with severe pain receives morphine. What is the most important assessment after administration?",
+    "optionA": "Respiratory rate",
+    "optionB": "Hair growth",
+    "optionC": "Vision",
+    "optionD": "Bowel sounds",
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "number": 2,
+    "question": "A drug ordered every 8 hours will be given",
+    "optionA": "Three times daily",
+    "optionB": "Twice daily",
+    "optionC": "Four times daily",
+    "optionD": "Once daily",
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "number": 3,
+    "question": "Which site is commonly used for intradermal injection?",
+    "optionA": "Forearm",
+    "optionB": "Gluteal muscle",
+    "optionC": "Abdomen",
+    "optionD": "Thigh",
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "number": 4,
+    "question": "A patient receiving potassium chloride IV complains of burning. What should the nurse do?",
+    "optionA": "Assess the IV site and slow/stop as appropriate",
+    "optionB": "Increase the rate",
+    "optionC": "Massage the vein",
+    "optionD": "Ignore the complaint",
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "number": 5,
+    "question": "Medication administration requires identification using",
+    "optionA": "Two identifiers",
+    "optionB": "Bed number only",
+    "optionC": "Diagnosis only",
+    "optionD": "Ward name",
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "number": 6,
+    "question": "What is the most effective method of preventing hospital-acquired infection?",
+    "optionA": "Hand hygiene",
+    "optionB": "Antibiotics",
+    "optionC": "Isolation only",
+    "optionD": "Vaccination",
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "number": 7,
+    "question": "A nurse is about to perform a sterile procedure. What is the first step?",
+    "optionA": "Perform hand hygiene",
+    "optionB": "Wear gloves immediately",
+    "optionC": "Open the pack first",
+    "optionD": "Clean the bed",
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "number": 8,
+    "question": "A used needle should be discarded in a",
+    "optionA": "Safety box",
+    "optionB": "Linen bag",
+    "optionC": "Paper bag",
+    "optionD": "Waste basket",
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "number": 9,
+    "question": "A patient with pulmonary tuberculosis should be placed on",
+    "optionA": "Airborne precautions",
+    "optionB": "Contact precautions",
+    "optionC": "Droplet precautions",
+    "optionD": "Standard precautions only",
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "number": 10,
+    "question": "Which waste is disposed of in a safety box?",
+    "optionA": "Sharps",
+    "optionB": "Food remains",
+    "optionC": "Paper",
+    "optionD": "Linen",
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "number": 11,
+    "question": "The purpose of sterilization is to destroy",
+    "optionA": "All microorganisms including spores",
+    "optionB": "Bacteria only",
+    "optionC": "Viruses only",
+    "optionD": "Fungi only",
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "number": 12,
+    "question": "A nurse who touches blood with bare hands should",
+    "optionA": "Wash immediately and follow exposure protocol",
+    "optionB": "Continue working",
+    "optionC": "Apply powder",
+    "optionD": "Ignore it",
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "number": 13,
+    "question": "The most important measure in preventing cross infection is",
+    "optionA": "Hand washing",
+    "optionB": "Mask only",
+    "optionC": "Gloves only",
+    "optionD": "Gown only",
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "number": 14,
+    "question": "A patient with suspected COVID-19 requires",
+    "optionA": "Appropriate respiratory precautions",
+    "optionB": "No precautions",
+    "optionC": "Only gloves",
+    "optionD": "Only apron",
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "number": 15,
+    "question": "Which vaccine is given at birth in Nigeria?",
+    "optionA": "BCG",
+    "optionB": "Measles",
+    "optionC": "Yellow fever",
+    "optionD": "Tetanus",
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "number": 16,
+    "question": "ORS is used mainly to prevent",
+    "optionA": "Dehydration",
+    "optionB": "Fever",
+    "optionC": "Cough",
+    "optionD": "Rash",
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "number": 17,
+    "question": "A community nurse visiting a home should first assess",
+    "optionA": "Safety and health needs",
+    "optionB": "Furniture",
+    "optionC": "Television",
+    "optionD": "Clothing",
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "number": 18,
+    "question": "The most effective way to control malaria is",
+    "optionA": "Vector control and prevention of mosquito bites",
+    "optionB": "Antibiotics",
+    "optionC": "Steroids",
+    "optionD": "Isolation",
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "number": 19,
+    "question": "Which disease is spread by contaminated water?",
+    "optionA": "Cholera",
+    "optionB": "Asthma",
+    "optionC": "Diabetes",
+    "optionD": "Hypertension",
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "number": 20,
+    "question": "A mother should wash hands before",
+    "optionA": "Feeding the baby",
+    "optionB": "Sleeping",
+    "optionC": "Bathing herself only",
+    "optionD": "Going outside",
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "number": 21,
+    "question": "Immunization protects children by",
+    "optionA": "Developing immunity",
+    "optionB": "Increasing appetite",
+    "optionC": "Improving sleep",
+    "optionD": "Reducing weight",
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "number": 22,
+    "question": "The first step in health education is to",
+    "optionA": "Assess learning needs",
+    "optionB": "Give lecture",
+    "optionC": "Distribute drugs",
+    "optionD": "Take attendance",
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "number": 23,
+    "question": "A nurse should report a notifiable disease to",
+    "optionA": "Appropriate public health authority",
+    "optionB": "Neighbors",
+    "optionC": "Media",
+    "optionD": "School only",
+    "correctAnswer": "A",
+    "explanation": ""
+  }
+]
