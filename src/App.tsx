@@ -758,10 +758,10 @@ export default function App() {
                 </button>
               </div>
 
-              {/* Powered by smart tech attribution */}
+              {/* Powered by smach tech attribution */}
               <div className="mt-6 text-center">
                 <span className="text-[11px] sm:text-xs text-white/75 font-medium tracking-wide drop-shadow-xs">
-                  powered by <span className="font-semibold text-white">smart tech</span>
+                  powered by <span className="font-semibold text-white">smach tech</span>
                 </span>
               </div>
             </div>
@@ -1454,7 +1454,7 @@ export default function App() {
       {/* Bottom Footer */}
       <footer className="relative z-10 py-3.5 px-4 text-center border-t border-slate-200/60 dark:border-slate-800/80 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md text-xs text-slate-500 dark:text-slate-400">
         <p className="tracking-wide text-xs">
-          powered by <span className="font-semibold text-slate-700 dark:text-slate-200">smart tech</span>
+          powered by <span className="font-semibold text-slate-700 dark:text-slate-200">smach tech</span>
         </p>
       </footer>
 
