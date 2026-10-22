@@ -39,28 +39,6 @@ export function formatExamDurationText(seconds: number): string {
 
 const STORAGE_KEY_SESSION = 'ascons_nmcn_active_exam_v1';
 const STORAGE_KEY_THEME = 'ascons_nmcn_theme_v1';
-const STORAGE_KEY_NOTICE_START = 'ascons_question_update_notice_start_v1';
-const TWO_DAYS_MS = 2 * 24 * 60 * 60 * 1000;
-
-export function checkNoticeActive(): boolean {
-  try {
-    const stored = localStorage.getItem(STORAGE_KEY_NOTICE_START);
-    let startTime: number;
-    if (!stored) {
-      startTime = Date.now();
-      localStorage.setItem(STORAGE_KEY_NOTICE_START, String(startTime));
-    } else {
-      startTime = parseInt(stored, 10);
-      if (isNaN(startTime)) {
-        startTime = Date.now();
-        localStorage.setItem(STORAGE_KEY_NOTICE_START, String(startTime));
-      }
-    }
-    return Date.now() - startTime < TWO_DAYS_MS;
-  } catch {
-    return true;
-  }
-}
 
 interface Nov3Countdown {
   days: number;
@@ -154,21 +132,13 @@ export default function App() {
   const [bgSlideIndex, setBgSlideIndex] = useState<number>(0);
   const slideDirRef = useRef<1 | -1>(1);
 
-  // 2-day Announcement notice state
-  const [isNoticeActive, setIsNoticeActive] = useState<boolean>(checkNoticeActive);
-
   useEffect(() => {
     const timer = window.setInterval(() => {
       setExamCountdown(getNov3ExamCountdown());
     }, 1000);
 
-    const noticeInterval = window.setInterval(() => {
-      setIsNoticeActive(checkNoticeActive());
-    }, 60000);
-
     return () => {
       window.clearInterval(timer);
-      window.clearInterval(noticeInterval);
     };
   }, []);
 
@@ -467,41 +437,6 @@ export default function App() {
     <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-150">
       {/* Top Bar */}
       <header className="sticky top-0 z-30 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
-        {/* Moving Notice Banner (Active for 2 days) */}
-        {isNoticeActive && (
-          <aside
-            role="region"
-            aria-label="System Notice"
-            className="relative z-40 bg-gradient-to-r from-emerald-800 via-teal-850 to-emerald-900 text-white border-b border-emerald-700/60 shadow-xs overflow-hidden select-none"
-          >
-            <div className="flex items-center h-8 sm:h-8.5">
-              {/* Pinned Badge */}
-              <div className="relative z-10 shrink-0 flex items-center gap-1.5 px-3 sm:px-4 h-full bg-emerald-950/90 backdrop-blur-xs font-bold text-[11px] sm:text-xs tracking-wider uppercase border-r border-emerald-700/60 shadow-md text-emerald-300">
-                <span className="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                <span>NOTICE</span>
-              </div>
-
-              {/* Seamless Moving Marquee */}
-              <div className="relative flex-1 overflow-hidden h-full flex items-center">
-                <div className="animate-marquee whitespace-nowrap flex items-center text-xs sm:text-[13px] font-medium text-emerald-50">
-                  <div className="flex items-center gap-8 px-4">
-                    <span>📢 all repeated questions have been removed and new questions have been updated</span>
-                    <span className="text-emerald-400/80" aria-hidden="true">✦</span>
-                    <span>all repeated questions have been removed and new questions have been updated</span>
-                    <span className="text-emerald-400/80" aria-hidden="true">✦</span>
-                  </div>
-                  <div className="flex items-center gap-8 px-4">
-                    <span>📢 all repeated questions have been removed and new questions have been updated</span>
-                    <span className="text-emerald-400/80" aria-hidden="true">✦</span>
-                    <span>all repeated questions have been removed and new questions have been updated</span>
-                    <span className="text-emerald-400/80" aria-hidden="true">✦</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </aside>
-        )}
-
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-3">
           {/* Zone 1: Home Button + Brand Title */}
           <div className="min-w-0 flex items-center gap-2.5 sm:gap-3">
