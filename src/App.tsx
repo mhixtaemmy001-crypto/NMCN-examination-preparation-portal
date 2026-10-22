@@ -6,7 +6,6 @@ import {
   CheckCircle2,
   XCircle,
   AlertTriangle,
-  Download,
   RotateCcw,
   Grid,
   X,
@@ -21,7 +20,7 @@ import { AppScreen, OptionKey, Question, ActiveExamSession, QuestionSection } fr
 import { QUESTION_TYPES } from './data/questionBank';
 import { NMCN_COLLEGE_LOGO_DATA_URI, NMCN_OFFICIAL_LOGO_DATA_URI } from './data/logoAsset';
 import { PROVOST_LANDSCAPE_DATA_URI, PROVOST_PORTRAIT_DATA_URI } from './data/provostAsset';
-import { generateResultPdf, getOptionText } from './utils/pdfExport';
+import { getOptionText } from './utils/pdfExport';
 
 // Dynamic exam duration: 30 seconds per question (NMCN standard timing)
 export function getExamDurationSeconds(questionCount: number): number {
@@ -170,6 +169,26 @@ export default function App() {
     return () => {
       window.clearInterval(timer);
       window.clearInterval(noticeInterval);
+    };
+  }, []);
+
+  // Intercept and disable print commands (Ctrl+P, Cmd+P, and window print)
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if ((e.ctrlKey || e.metaKey) && (e.key === 'p' || e.key === 'P')) {
+        e.preventDefault();
+        e.stopPropagation();
+      }
+    };
+    const handleBeforePrint = (e: Event) => {
+      e.preventDefault();
+    };
+
+    window.addEventListener('keydown', handleKeyDown, true);
+    window.addEventListener('beforeprint', handleBeforePrint);
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown, true);
+      window.removeEventListener('beforeprint', handleBeforePrint);
     };
   }, []);
 
@@ -1156,25 +1175,8 @@ export default function App() {
                 </div>
               </div>
 
-              {/* Action Buttons: Download Result as PDF & Retry */}
+              {/* Action Buttons: Retry & Navigation */}
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-2">
-                <button
-                  type="button"
-                  onClick={() =>
-                    generateResultPdf({
-                      questionTypeName: currentQuestionType.name,
-                      questions,
-                      answers,
-                      correctCount,
-                      wrongCount,
-                      percentage,
-                    })
-                  }
-                  className="min-h-[48px] px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 dark:bg-white dark:hover:bg-slate-200 text-white dark:text-slate-900 font-semibold text-sm sm:text-base flex items-center justify-center gap-2 transition-colors cursor-pointer"
-                >
-                  <Download className="w-4 h-4 shrink-0" />
-                  <span>DOWNLOAD RESULT AS PDF</span>
-                </button>
 
                 <button
                   type="button"
@@ -1355,26 +1357,8 @@ export default function App() {
                 })}
               </div>
 
-              {/* Bottom Retry / Download Bar */}
+              {/* Bottom Retry & Navigation Bar */}
               <div className="mt-8 pt-6 border-t border-slate-200 dark:border-slate-800 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
-                <button
-                  type="button"
-                  onClick={() =>
-                    generateResultPdf({
-                      questionTypeName: currentQuestionType.name,
-                      questions,
-                      answers,
-                      correctCount,
-                      wrongCount,
-                      percentage,
-                    })
-                  }
-                  className="min-h-[48px] px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 dark:bg-white dark:hover:bg-slate-200 text-white dark:text-slate-900 font-semibold text-sm sm:text-base flex items-center justify-center gap-2 transition-colors cursor-pointer"
-                >
-                  <Download className="w-4 h-4 shrink-0" />
-                  <span>DOWNLOAD RESULT AS PDF</span>
-                </button>
-
                 <button
                   type="button"
                   onClick={() => startFreshExam(selectedTypeId)}
@@ -1382,6 +1366,26 @@ export default function App() {
                 >
                   <RotateCcw className="w-4 h-4 shrink-0" />
                   <span>RETRY</span>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    setScreen('select-type');
+                    window.scrollTo({ top: 0, behavior: 'auto' });
+                  }}
+                  className="min-h-[48px] px-6 py-3 rounded-xl border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 font-medium text-sm transition-colors cursor-pointer"
+                >
+                  Change Question Type
+                </button>
+
+                <button
+                  type="button"
+                  onClick={goToWelcomePage}
+                  className="min-h-[48px] px-6 py-3 rounded-xl border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 font-semibold text-sm flex items-center justify-center gap-2 transition-colors cursor-pointer"
+                >
+                  <Home className="w-4 h-4 shrink-0" />
+                  <span>Home</span>
                 </button>
               </div>
             </section>
