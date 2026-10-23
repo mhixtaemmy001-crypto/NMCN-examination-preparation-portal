@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "user": {
+      "title": "Candidate User",
+      "description": "Registered and verified candidate account for NMCN examination portal",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "description": "Candidate unique ID or UID" },
+        "name": { "type": "string", "description": "Candidate full legal name" },
+        "email": { "type": "string", "format": "email", "description": "Candidate registered email address" },
+        "idNumber": { "type": "string", "description": "College candidate matriculation / index number" },
+        "isVerified": { "type": "boolean", "description": "Whether candidate passed email OTP verification" },
+        "verifiedAt": { "type": "number", "description": "Timestamp of email verification" },
+        "createdAt": { "type": "string", "description": "Creation timestamp" }
+      },
+      "required": ["uid", "name", "email", "isVerified"]
+    },
+    "otpVerification": {
+      "title": "OTP Verification Record",
+      "description": "Secure server-side hashed OTP verification record with expiration and rate limiting",
+      "type": "object",
+      "properties": {
+        "email": { "type": "string", "format": "email", "description": "Candidate email receiving OTP" },
+        "hashedOtp": { "type": "string", "description": "Cryptographic SHA-256 hash of OTP code" },
+        "salt": { "type": "string", "description": "Per-session cryptographic salt" },
+        "attempts": { "type": "number", "description": "Failed verification attempt counter" },
+        "maxAttempts": { "type": "number", "description": "Max allowed incorrect attempts before lock" },
+        "expiresAt": { "type": "number", "description": "Epoch timestamp when OTP expires (5 minutes)" },
+        "verified": { "type": "boolean", "description": "Whether OTP was successfully validated" },
+        "createdAt": { "type": "number", "description": "Creation timestamp" },
+        "updatedAt": { "type": "number", "description": "Last update timestamp" }
+      },
+      "required": ["email", "hashedOtp", "salt", "attempts", "expiresAt", "verified"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "user",
+      "description": "Candidate profiles accessible to owners and server"
+    },
+    "/otp_verifications/{verificationId}": {
+      "schema": "otpVerification",
+      "description": "Backend-only OTP records, denied from direct public client access"
+    }
+  }
+}
