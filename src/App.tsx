@@ -15,26 +15,12 @@ import {
   ChevronUp,
   Home,
   Calendar,
-  User,
-  Mail,
-  LogOut,
-  ShieldCheck,
-  Send,
-  RefreshCw,
-  KeyRound,
-  Smartphone,
 } from 'lucide-react';
-import { AppScreen, OptionKey, Question, ActiveExamSession, QuestionSection, CandidateUser } from './types';
+import { AppScreen, OptionKey, Question, ActiveExamSession, QuestionSection } from './types';
 import { QUESTION_TYPES } from './data/questionBank';
 import { NMCN_COLLEGE_LOGO_DATA_URI, NMCN_OFFICIAL_LOGO_DATA_URI } from './data/logoAsset';
 import { PROVOST_LANDSCAPE_DATA_URI, PROVOST_PORTRAIT_DATA_URI } from './data/provostAsset';
 import { getOptionText } from './utils/pdfExport';
-import {
-  lookupCandidateRoster,
-  CandidateRosterEntry,
-} from './data/candidateRoster';
-import { testConnection } from './firebase';
-import { getOrCreateDeviceId } from './utils/device';
 
 // Dynamic exam duration: 30 seconds per question (NMCN standard timing)
 export function getExamDurationSeconds(questionCount: number): number {
@@ -53,7 +39,28 @@ export function formatExamDurationText(seconds: number): string {
 
 const STORAGE_KEY_SESSION = 'ascons_nmcn_active_exam_v1';
 const STORAGE_KEY_THEME = 'ascons_nmcn_theme_v1';
-const STORAGE_KEY_CANDIDATE = 'ascons_nmcn_candidate_user_v1';
+const STORAGE_KEY_NOTICE_START = 'ascons_question_update_notice_start_v1';
+const TWO_DAYS_MS = 2 * 24 * 60 * 60 * 1000;
+
+export function checkNoticeActive(): boolean {
+  try {
+    const stored = localStorage.getItem(STORAGE_KEY_NOTICE_START);
+    let startTime: number;
+    if (!stored) {
+      startTime = Date.now();
+      localStorage.setItem(STORAGE_KEY_NOTICE_START, String(startTime));
+    } else {
+      startTime = parseInt(stored, 10);
+      if (isNaN(startTime)) {
+        startTime = Date.now();
+        localStorage.setItem(STORAGE_KEY_NOTICE_START, String(startTime));
+      }
+    }
+    return Date.now() - startTime < TWO_DAYS_MS;
+  } catch {
+    return true;
+  }
+}
 
 interface Nov3Countdown {
   days: number;
@@ -147,101 +154,23 @@ export default function App() {
   const [bgSlideIndex, setBgSlideIndex] = useState<number>(0);
   const slideDirRef = useRef<1 | -1>(1);
 
-  // Candidate state (student login with email and ID number)
-  const [candidateUser, setCandidateUser] = useState<CandidateUser | null>(() => {
-    try {
-      const saved = localStorage.getItem(STORAGE_KEY_CANDIDATE);
-      if (saved) {
-        return JSON.parse(saved) as CandidateUser;
-      }
-    } catch {
-      // ignore
-    }
-    return null;
-  });
-
-  // Auth screen mode: 'login' | 'create'
-  const [authMode, setAuthMode] = useState<'login' | 'create'>('create');
-
-  // Login form state (Accredited Name only)
-  const [loginName, setLoginName] = useState<string>(() => candidateUser?.name || '');
-  const [loginError, setLoginError] = useState<string>('');
-
-  // Create account form state (Accredited Full Name only)
-  const [createName, setCreateName] = useState<string>('');
-  const [createError, setCreateError] = useState<string>('');
-  const [deviceNotice, setDeviceNotice] = useState<string>('');
-  const [matchedCandidate, setMatchedCandidate] = useState<CandidateRosterEntry | null>(null);
-
-  // Server-authoritative OTP email verification state
-  const [isVerifyingEmail, setIsVerifyingEmail] = useState<boolean>(false);
-  const [verificationId, setVerificationId] = useState<string>('');
-  const [targetEmail, setTargetEmail] = useState<string>('');
-  const [maskedEmail, setMaskedEmail] = useState<string>('');
-  const [otpInput, setOtpInput] = useState<string>('');
-  const [otpError, setOtpError] = useState<string>('');
-  const [otpInfoMessage, setOtpInfoMessage] = useState<string>('');
-  const [resendCooldown, setResendCooldown] = useState<number>(0);
-  const [otpExpiryTime, setOtpExpiryTime] = useState<number>(0);
-  const [otpRemainingSeconds, setOtpRemainingSeconds] = useState<number>(300);
-  const [isSendingOtp, setIsSendingOtp] = useState<boolean>(false);
-  const [isVerifyingOtp, setIsVerifyingOtp] = useState<boolean>(false);
-  const [remainingAttempts, setRemainingAttempts] = useState<number | null>(null);
-
-  // Enforce device binding on startup: if device token has changed or is missing, require new registration
-  useEffect(() => {
-    const currentDeviceId = getOrCreateDeviceId();
-    if (candidateUser) {
-      if (!candidateUser.deviceId || candidateUser.deviceId !== currentDeviceId) {
-        setCandidateUser(null);
-        try {
-          localStorage.removeItem(STORAGE_KEY_CANDIDATE);
-          localStorage.removeItem(STORAGE_KEY_SESSION);
-        } catch {
-          // ignore
-        }
-        setDeviceNotice('New device detected. For examination security, accessing from a new device requires new registration and email verification.');
-        setAuthMode('create');
-        if (candidateUser.name) {
-          setCreateName(candidateUser.name);
-        }
-      }
-    }
-  }, [candidateUser]);
-
-  // Validate Firestore connection on boot
-  useEffect(() => {
-    testConnection();
-  }, []);
+  // 2-day Announcement notice state
+  const [isNoticeActive, setIsNoticeActive] = useState<boolean>(checkNoticeActive);
 
   useEffect(() => {
     const timer = window.setInterval(() => {
       setExamCountdown(getNov3ExamCountdown());
     }, 1000);
 
+    const noticeInterval = window.setInterval(() => {
+      setIsNoticeActive(checkNoticeActive());
+    }, 60000);
+
     return () => {
       window.clearInterval(timer);
+      window.clearInterval(noticeInterval);
     };
   }, []);
-
-  // Cooldown timer for resending OTP verification code (60-second cooldown)
-  useEffect(() => {
-    if (resendCooldown <= 0) return;
-    const interval = window.setInterval(() => {
-      setResendCooldown((prev) => Math.max(0, prev - 1));
-    }, 1000);
-    return () => window.clearInterval(interval);
-  }, [resendCooldown]);
-
-  // 5-minute unpausable countdown timer for OTP code validity
-  useEffect(() => {
-    if (!isVerifyingEmail || otpExpiryTime <= 0) return;
-    const interval = window.setInterval(() => {
-      const left = Math.max(0, Math.floor((otpExpiryTime - Date.now()) / 1000));
-      setOtpRemainingSeconds(left);
-    }, 1000);
-    return () => window.clearInterval(interval);
-  }, [isVerifyingEmail, otpExpiryTime]);
 
   // Intercept and disable print commands (Ctrl+P, Cmd+P, and window print)
   useEffect(() => {
@@ -439,244 +368,8 @@ export default function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [screen, totalQuestions]);
 
-  // Lookup candidate from roster by name and dispatch real server-side OTP email
-  const handleNameLookupAndSendOtp = async (e?: React.FormEvent) => {
-    if (e) e.preventDefault();
-    const cleanName = createName.trim();
-
-    if (!cleanName) {
-      setCreateError('Please enter your accredited Full Name.');
-      return;
-    }
-    if (cleanName.length < 2) {
-      setCreateError('Name must be at least 2 characters long.');
-      return;
-    }
-
-    const candidate = lookupCandidateRoster(cleanName);
-    if (!candidate) {
-      setCreateError(
-        'Candidate was not found on the accredited BN 55 examination roster. Please check the spelling of your name (e.g. "Nelson Emmanuel Chams" or "Michael Felix") or contact college administration.'
-      );
-      return;
-    }
-
-    const candidateName = candidate.name;
-    const candidateEmail = candidate.email;
-    const currentDeviceId = getOrCreateDeviceId();
-
-    setMatchedCandidate(candidate);
-    setCreateError('');
-    setIsSendingOtp(true);
-    setOtpError('');
-    setOtpInfoMessage('');
-
-    try {
-      const res = await fetch('/api/auth/send-otp', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          name: candidateName,
-          email: candidateEmail,
-          deviceId: currentDeviceId,
-        }),
-      });
-
-      const data = await res.json();
-      if (!res.ok) {
-        throw new Error(data.error || 'Failed to send verification code');
-      }
-
-      setVerificationId(data.verificationId);
-      setTargetEmail(data.email || candidateEmail);
-      setMaskedEmail(data.emailMasked || candidateEmail);
-      setOtpExpiryTime(data.expiresAt || Date.now() + 300000);
-      setOtpRemainingSeconds(300);
-      setResendCooldown(data.cooldownSeconds || 60);
-      setOtpInput('');
-      setRemainingAttempts(null);
-      setIsVerifyingEmail(true);
-      if (data.emailSent) {
-        setOtpInfoMessage(`A 6-digit verification code has been dispatched to ${data.email || candidateEmail}. Please check your inbox and spam folder.`);
-      } else {
-        setOtpInfoMessage(data.message || `Verification code generated for ${data.email || candidateEmail}.`);
-      }
-    } catch (err: unknown) {
-      const msg = err instanceof Error ? err.message : 'Failed to connect to authentication server';
-      setCreateError(msg);
-    } finally {
-      setIsSendingOtp(false);
-    }
-  };
-
-  // Handle verifying the 6-digit OTP code before login via backend and bind device
-  const handleVerifyAndLogin = async (e: React.FormEvent) => {
-    e.preventDefault();
-    const cleanOtp = otpInput.trim().replace(/\D/g, '');
-
-    if (!cleanOtp) {
-      setOtpError('Please input the 6-digit verification code sent to your email.');
-      return;
-    }
-    if (cleanOtp.length !== 6) {
-      setOtpError('The verification code must be exactly 6 digits.');
-      return;
-    }
-
-    if (otpRemainingSeconds <= 0) {
-      setOtpError('Verification code has expired (5-minute limit). Please click Resend.');
-      return;
-    }
-
-    setIsVerifyingOtp(true);
-    setOtpError('');
-    const currentDeviceId = getOrCreateDeviceId();
-
-    try {
-      const candidateName = matchedCandidate ? matchedCandidate.name : createName.trim();
-
-      const res = await fetch('/api/auth/verify-otp', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          verificationId,
-          code: cleanOtp,
-          name: candidateName,
-          deviceId: currentDeviceId,
-        }),
-      });
-
-      const data = await res.json();
-      if (!res.ok) {
-        if (data.remainingAttempts !== undefined) {
-          setRemainingAttempts(data.remainingAttempts);
-        }
-        throw new Error(data.error || 'Verification failed');
-      }
-
-      // Successful server-side verification with bound device!
-      const user: CandidateUser = {
-        email: data.user?.email || targetEmail,
-        name: data.user?.name || candidateName,
-        idNumber: data.user?.idNumber || '',
-        deviceId: currentDeviceId,
-        isVerified: true,
-        loggedInAt: Date.now(),
-      };
-
-      setCandidateUser(user);
-      setDeviceNotice('');
-      try {
-        localStorage.setItem(STORAGE_KEY_CANDIDATE, JSON.stringify(user));
-      } catch {
-        // ignore
-      }
-
-      setIsVerifyingEmail(false);
-      setOpenSection(null);
-      setScreen('select-type');
-      window.scrollTo({ top: 0, behavior: 'auto' });
-    } catch (err: unknown) {
-      const msg = err instanceof Error ? err.message : 'Invalid code or server verification error';
-      setOtpError(msg);
-    } finally {
-      setIsVerifyingOtp(false);
-    }
-  };
-
-  // Handle candidate login with Full Name (with device check)
-  const handleLoginSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    const cleanName = loginName.trim();
-
-    if (!cleanName) {
-      setLoginError('Please enter your accredited Full Name.');
-      return;
-    }
-    if (cleanName.length < 2) {
-      setLoginError('Name must be at least 2 characters.');
-      return;
-    }
-
-    const currentDeviceId = getOrCreateDeviceId();
-
-    try {
-      const res = await fetch('/api/auth/login', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          name: cleanName,
-          deviceId: currentDeviceId,
-        }),
-      });
-
-      const data = await res.json();
-      if (!res.ok) {
-        if (data.requiresNewRegistration) {
-          // A change in device requires new registration!
-          setAuthMode('create');
-          setCreateName(data.candidateName || cleanName);
-          setDeviceNotice(data.error || 'New device detected. Accessing from a new device requires registration and email verification.');
-          setCreateError(data.error || 'New device detected. Please complete registration to bind this device.');
-          return;
-        }
-        throw new Error(data.error || 'Login failed');
-      }
-
-      setLoginError('');
-      setDeviceNotice('');
-      const user: CandidateUser = {
-        email: data.user?.email || '',
-        name: data.user?.name || cleanName,
-        idNumber: data.user?.idNumber || '',
-        deviceId: currentDeviceId,
-        isVerified: true,
-        loggedInAt: Date.now(),
-      };
-      setCandidateUser(user);
-      try {
-        localStorage.setItem(STORAGE_KEY_CANDIDATE, JSON.stringify(user));
-      } catch {
-        // ignore
-      }
-      setOpenSection(null);
-      setScreen('select-type');
-      window.scrollTo({ top: 0, behavior: 'auto' });
-    } catch (err: unknown) {
-      const msg = err instanceof Error ? err.message : 'Login failed';
-      setLoginError(msg);
-    }
-  };
-
-  const handleLogout = () => {
-    setCandidateUser(null);
-    try {
-      localStorage.removeItem(STORAGE_KEY_CANDIDATE);
-      localStorage.removeItem(STORAGE_KEY_SESSION);
-    } catch {
-      // ignore
-    }
-    setLoginName('');
-    setLoginError('');
-    setCreateName('');
-    setMatchedCandidate(null);
-    setCreateError('');
-    setDeviceNotice('');
-    setIsVerifyingEmail(false);
-    setOtpInput('');
-    setOtpError('');
-    setAuthMode('login');
-    setScreen('login');
-    window.scrollTo({ top: 0, behavior: 'auto' });
-  };
-
   // Start a new exam attempt
   const startFreshExam = (typeId: string) => {
-    if (!candidateUser) {
-      setScreen('login');
-      window.scrollTo({ top: 0, behavior: 'auto' });
-      return;
-    }
     const qType = QUESTION_TYPES.find((qt) => qt.id === typeId) || QUESTION_TYPES[0];
     const duration = getExamDurationSeconds(qType.questions.length);
     const now = Date.now();
@@ -774,6 +467,41 @@ export default function App() {
     <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-150">
       {/* Top Bar */}
       <header className="sticky top-0 z-30 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+        {/* Moving Notice Banner (Active for 2 days) */}
+        {isNoticeActive && (
+          <aside
+            role="region"
+            aria-label="System Notice"
+            className="relative z-40 bg-gradient-to-r from-emerald-800 via-teal-850 to-emerald-900 text-white border-b border-emerald-700/60 shadow-xs overflow-hidden select-none"
+          >
+            <div className="flex items-center h-8 sm:h-8.5">
+              {/* Pinned Badge */}
+              <div className="relative z-10 shrink-0 flex items-center gap-1.5 px-3 sm:px-4 h-full bg-emerald-950/90 backdrop-blur-xs font-bold text-[11px] sm:text-xs tracking-wider uppercase border-r border-emerald-700/60 shadow-md text-emerald-300">
+                <span className="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                <span>NOTICE</span>
+              </div>
+
+              {/* Seamless Moving Marquee */}
+              <div className="relative flex-1 overflow-hidden h-full flex items-center">
+                <div className="animate-marquee whitespace-nowrap flex items-center text-xs sm:text-[13px] font-medium text-emerald-50">
+                  <div className="flex items-center gap-8 px-4">
+                    <span>📢 all repeated questions have been removed and new questions have been updated</span>
+                    <span className="text-emerald-400/80" aria-hidden="true">✦</span>
+                    <span>all repeated questions have been removed and new questions have been updated</span>
+                    <span className="text-emerald-400/80" aria-hidden="true">✦</span>
+                  </div>
+                  <div className="flex items-center gap-8 px-4">
+                    <span>📢 all repeated questions have been removed and new questions have been updated</span>
+                    <span className="text-emerald-400/80" aria-hidden="true">✦</span>
+                    <span>all repeated questions have been removed and new questions have been updated</span>
+                    <span className="text-emerald-400/80" aria-hidden="true">✦</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </aside>
+        )}
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-3">
           {/* Zone 1: Home Button + Brand Title */}
           <div className="min-w-0 flex items-center gap-2.5 sm:gap-3">
@@ -858,40 +586,6 @@ export default function App() {
                 </button>
               </>
             )}
-
-            {candidateUser ? (
-              <div className="hidden sm:flex items-center gap-2 pl-2.5 pr-1.5 py-1 rounded-lg border border-slate-200 dark:border-slate-800 bg-slate-100/80 dark:bg-slate-800/80 text-xs">
-                <div className="flex flex-col text-right leading-tight max-w-[140px] lg:max-w-[190px]">
-                  <span className="font-bold text-slate-800 dark:text-slate-100 truncate text-[11px]">
-                    {candidateUser.name}
-                  </span>
-                  <span className="text-[10px] text-slate-500 dark:text-slate-400 truncate">
-                    {candidateUser.email}
-                  </span>
-                </div>
-                <button
-                  type="button"
-                  onClick={handleLogout}
-                  title="Log Out Candidate"
-                  aria-label="Log Out Candidate"
-                  className="p-1 rounded text-slate-400 hover:text-red-600 dark:hover:text-red-400 hover:bg-red-50 dark:hover:bg-red-950/40 transition-colors cursor-pointer"
-                >
-                  <LogOut className="w-3.5 h-3.5" />
-                </button>
-              </div>
-            ) : screen !== 'login' ? (
-              <button
-                type="button"
-                onClick={() => {
-                  setScreen('login');
-                  window.scrollTo({ top: 0, behavior: 'auto' });
-                }}
-                className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-emerald-600/30 bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-300 hover:bg-emerald-100/70 dark:hover:bg-emerald-900/40 text-xs font-semibold transition-colors cursor-pointer"
-              >
-                <User className="w-3.5 h-3.5" />
-                <span>Login</span>
-              </button>
-            ) : null}
 
             <button
               type="button"
@@ -1074,8 +768,7 @@ export default function App() {
                   type="button"
                   onClick={() => {
                     setOpenSection(null);
-                    setScreen('login');
-                    window.scrollTo({ top: 0, behavior: 'auto' });
+                    setScreen('select-type');
                   }}
                   className="w-full sm:w-auto min-h-[50px] px-8 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 text-white font-bold text-base tracking-wide flex items-center justify-center gap-2 transition-colors cursor-pointer shadow-lg"
                 >
@@ -1088,424 +781,6 @@ export default function App() {
               <div className="mt-6 text-center">
                 <span className="text-[11px] sm:text-xs text-white/75 font-medium tracking-wide drop-shadow-xs">
                   powered by <span className="font-semibold text-white">smach tech</span>
-                </span>
-              </div>
-            </div>
-          </section>
-        )}
-
-        {/* SCREEN: CANDIDATE LOGIN & CREATE ACCOUNT WITH OTP VERIFICATION */}
-        {screen === 'login' && (
-          <section className="flex-1 flex items-center justify-center px-4 py-8 sm:py-16">
-            <div className="max-w-md w-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 sm:p-8 shadow-xl">
-              {/* College & Council Badges */}
-              <div className="flex items-center justify-between gap-3 pb-5 mb-5 border-b border-slate-200 dark:border-slate-800">
-                <div className="flex items-center gap-2.5">
-                  <img
-                    src={NMCN_COLLEGE_LOGO_DATA_URI}
-                    alt="ASCONS Yola Logo"
-                    className="h-10 w-auto object-contain rounded-md bg-white p-0.5 border border-slate-200 dark:border-slate-700 shrink-0"
-                  />
-                  <div>
-                    <h2 className="font-display text-sm font-bold text-slate-900 dark:text-white leading-tight">
-                      ASCONS Yola
-                    </h2>
-                    <p className="text-[11px] text-emerald-700 dark:text-emerald-400 font-semibold">
-                      Candidate Examination Portal
-                    </p>
-                  </div>
-                </div>
-                <img
-                  src={NMCN_OFFICIAL_LOGO_DATA_URI}
-                  alt="NMCN Official Logo"
-                  className="h-9 w-auto object-contain rounded-md bg-white p-0.5 border border-slate-200 dark:border-slate-700 shrink-0"
-                />
-              </div>
-
-              {/* Mode Switcher: Create Account or Login */}
-              <div className="flex p-1 mb-6 rounded-xl bg-slate-100 dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700/80">
-                <button
-                  type="button"
-                  onClick={() => {
-                    setAuthMode('login');
-                    setIsVerifyingEmail(false);
-                    setLoginError('');
-                    setCreateError('');
-                  }}
-                  className={`flex-1 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all cursor-pointer ${
-                    authMode === 'login'
-                      ? 'bg-white dark:bg-slate-900 text-slate-900 dark:text-white shadow-xs'
-                      : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
-                  }`}
-                >
-                  Log In
-                </button>
-                <button
-                  type="button"
-                  onClick={() => {
-                    setAuthMode('create');
-                    setIsVerifyingEmail(false);
-                    setLoginError('');
-                    setCreateError('');
-                  }}
-                  className={`flex-1 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all cursor-pointer ${
-                    authMode === 'create'
-                      ? 'bg-white dark:bg-slate-900 text-slate-900 dark:text-white shadow-xs'
-                      : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
-                  }`}
-                >
-                  Create Account
-                </button>
-              </div>
-
-              {/* Active candidate notice if already logged in */}
-              {candidateUser && !isVerifyingEmail && (
-                <div className="mb-5 p-3 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800/70 text-xs text-emerald-900 dark:text-emerald-200 flex items-center justify-between gap-2">
-                  <div className="min-w-0">
-                    <span className="block font-semibold">Currently logged in:</span>
-                    <span className="truncate block font-semibold text-emerald-800 dark:text-emerald-300">
-                      {candidateUser.name} · {candidateUser.email}
-                    </span>
-                  </div>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setOpenSection(null);
-                      setScreen('select-type');
-                      window.scrollTo({ top: 0, behavior: 'auto' });
-                    }}
-                    className="shrink-0 px-2.5 py-1 rounded-lg bg-emerald-600 text-white font-semibold text-[11px] hover:bg-emerald-700 transition-colors cursor-pointer"
-                  >
-                    Proceed →
-                  </button>
-                </div>
-              )}
-
-              {/* Device Verification Notice Banner */}
-              {deviceNotice && (
-                <div
-                  role="alert"
-                  className="mb-5 p-3.5 rounded-xl bg-amber-50 dark:bg-amber-950/60 border border-amber-300 dark:border-amber-800 text-amber-900 dark:text-amber-200 text-xs flex items-start gap-2.5"
-                >
-                  <Smartphone className="w-4 h-4 shrink-0 text-amber-600 dark:text-amber-400 mt-0.5" />
-                  <div className="leading-snug">
-                    <span className="font-bold block uppercase tracking-wider text-[11px]">Device Verification Required</span>
-                    <span>{deviceNotice}</span>
-                  </div>
-                </div>
-              )}
-
-              {/* CASE: CREATE ACCOUNT / REGISTER DEVICE (NAME ONLY) */}
-              {authMode === 'create' ? (
-                <div>
-                  <div className="mb-6">
-                    <h1 className="font-display text-2xl font-bold text-slate-900 dark:text-white mb-1.5">
-                      Register Candidate Device
-                    </h1>
-                    <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
-                      Enter your accredited Full Name. Your official email will be found automatically and an OTP code sent to verify and bind this device.
-                    </p>
-                  </div>
-
-                  {/* Error Banner */}
-                  {createError && (
-                    <div
-                      role="alert"
-                      className="mb-5 p-3 rounded-xl bg-red-50 dark:bg-red-950/50 border border-red-200 dark:border-red-900 text-red-700 dark:text-red-300 text-xs sm:text-sm flex items-start gap-2"
-                    >
-                      <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5" />
-                      <span>{createError}</span>
-                    </div>
-                  )}
-
-                  <div className="space-y-4">
-                    {/* Accredited Name Input */}
-                    <div>
-                      <label
-                        htmlFor="create-name-input"
-                        className="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-1.5"
-                      >
-                        Accredited Full Name <span className="text-red-500">*</span>
-                      </label>
-                      <div className="relative">
-                        <User className="w-4 h-4 text-slate-400 dark:text-slate-500 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none" />
-                        <input
-                          id="create-name-input"
-                          type="text"
-                          required
-                          autoComplete="name"
-                          value={createName}
-                          disabled={isVerifyingEmail || isSendingOtp}
-                          onChange={(e) => {
-                            setCreateName(e.target.value);
-                            if (createError) setCreateError('');
-                          }}
-                          onKeyDown={(e) => {
-                            if (e.key === 'Enter' && !isVerifyingEmail && !isSendingOtp) {
-                              e.preventDefault();
-                              handleNameLookupAndSendOtp();
-                            }
-                          }}
-                          placeholder="e.g. Nelson Emmanuel Chams"
-                          className="w-full min-h-[46px] pl-10 pr-3.5 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white placeholder:text-slate-400 dark:placeholder:text-slate-500 text-sm focus:outline-hidden focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-colors disabled:opacity-70 disabled:bg-slate-100 dark:disabled:bg-slate-800/60"
-                        />
-                      </div>
-                    </div>
-
-                    {/* WHEN IN OTP VERIFICATION MODE */}
-                    {isVerifyingEmail ? (
-                      <div className="space-y-4 pt-1">
-                        {/* Dispatched to Registered Email Banner */}
-                        <div className="p-4 rounded-xl bg-emerald-50/90 dark:bg-emerald-950/60 border border-emerald-300 dark:border-emerald-800 text-xs">
-                          <div className="flex items-center justify-between gap-2 mb-1.5">
-                            <span className="font-bold text-emerald-900 dark:text-emerald-200 uppercase tracking-wider text-[11px] flex items-center gap-1.5">
-                              <Mail className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
-                              Verification Code Sent
-                            </span>
-                            <span className="inline-flex items-center gap-1 text-[11px] font-mono-tabular font-bold px-2 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-900/80 text-emerald-800 dark:text-emerald-200 border border-emerald-300 dark:border-emerald-700">
-                              <Clock className="w-3 h-3" />
-                              {Math.floor(otpRemainingSeconds / 60)}:
-                              {String(otpRemainingSeconds % 60).padStart(2, '0')}
-                            </span>
-                          </div>
-                          <div className="font-semibold text-emerald-950 dark:text-emerald-100 text-sm">
-                            {targetEmail || matchedCandidate?.email}
-                          </div>
-                          <p className="mt-1 text-[11px] text-emerald-800 dark:text-emerald-300 leading-relaxed">
-                            {otpInfoMessage || 'Check your email inbox (and spam/junk folder) for the 6-digit code. Valid for 5 minutes.'}
-                          </p>
-                        </div>
-
-                        {/* Remaining Attempts Warning */}
-                        {remainingAttempts !== null && (
-                          <div
-                            role="alert"
-                            className="p-2.5 rounded-lg bg-amber-50 dark:bg-amber-950/50 border border-amber-200 dark:border-amber-800 text-amber-800 dark:text-amber-300 text-xs flex items-center gap-2"
-                          >
-                            <AlertTriangle className="w-3.5 h-3.5 shrink-0" />
-                            <span>
-                              Incorrect code entered. <strong>{remainingAttempts}</strong> {remainingAttempts === 1 ? 'attempt' : 'attempts'} remaining before lock.
-                            </span>
-                          </div>
-                        )}
-
-                        {/* Place For Insert OTP */}
-                        <form onSubmit={handleVerifyAndLogin} className="space-y-4">
-                          <div>
-                            <label
-                              htmlFor="otp-code-input"
-                              className="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-1.5 text-center"
-                            >
-                              Insert 6-Digit Verification Code <span className="text-red-500">*</span>
-                            </label>
-                            <div className="relative">
-                              <KeyRound className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none" />
-                              <input
-                                id="otp-code-input"
-                                type="text"
-                                inputMode="numeric"
-                                maxLength={6}
-                                autoFocus
-                                value={otpInput}
-                                disabled={isVerifyingOtp}
-                                onChange={(e) => {
-                                  const val = e.target.value.replace(/\D/g, '').slice(0, 6);
-                                  setOtpInput(val);
-                                  if (otpError) setOtpError('');
-                                }}
-                                placeholder="------"
-                                className="w-full min-h-[50px] pl-10 pr-3.5 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white text-center text-2xl font-mono-tabular font-extrabold tracking-[0.35em] focus:outline-hidden focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-colors disabled:opacity-60"
-                              />
-                            </div>
-                            {otpError && (
-                              <p className="mt-1.5 text-xs text-red-600 dark:text-red-400 flex items-center justify-center gap-1 font-medium">
-                                <AlertTriangle className="w-3.5 h-3.5 shrink-0" />
-                                <span>{otpError}</span>
-                              </p>
-                            )}
-                          </div>
-
-                          <button
-                            type="submit"
-                            disabled={isVerifyingOtp || otpRemainingSeconds <= 0}
-                            className="w-full min-h-[48px] px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 text-white font-bold text-sm sm:text-base flex items-center justify-center gap-2 transition-colors cursor-pointer shadow-md disabled:opacity-60 disabled:cursor-not-allowed"
-                          >
-                            {isVerifyingOtp ? (
-                              <RefreshCw className="w-4 h-4 shrink-0 animate-spin" />
-                            ) : (
-                              <CheckCircle2 className="w-4 h-4 shrink-0" />
-                            )}
-                            <span>{isVerifyingOtp ? 'VERIFYING CODE...' : 'VERIFY OTP & BIND THIS DEVICE'}</span>
-                          </button>
-
-                          <div className="flex items-center gap-2">
-                            <button
-                              type="button"
-                              disabled={resendCooldown > 0 || isSendingOtp}
-                              onClick={() => handleNameLookupAndSendOtp()}
-                              className={`flex-1 min-h-[40px] px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 text-xs font-semibold flex items-center justify-center gap-1.5 transition-colors ${
-                                resendCooldown > 0 || isSendingOtp
-                                  ? 'bg-slate-100 dark:bg-slate-800 text-slate-400 cursor-not-allowed'
-                                  : 'bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 cursor-pointer'
-                              }`}
-                            >
-                              <RefreshCw className={`w-3.5 h-3.5 shrink-0 ${isSendingOtp ? 'animate-spin' : ''}`} />
-                              <span>
-                                {resendCooldown > 0 ? `Resend Code (${resendCooldown}s)` : 'Resend Code'}
-                              </span>
-                            </button>
-
-                            <button
-                              type="button"
-                              onClick={() => {
-                                setIsVerifyingEmail(false);
-                                setOtpInput('');
-                                setOtpError('');
-                                setRemainingAttempts(null);
-                              }}
-                              className="flex-1 min-h-[40px] px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 text-xs font-semibold flex items-center justify-center transition-colors cursor-pointer"
-                            >
-                              Change Name
-                            </button>
-                          </div>
-                        </form>
-                      </div>
-                    ) : (
-                      /* Initial State: Candidate Enters Name and Requests Verification */
-                      <div className="pt-2 space-y-2.5">
-                        <button
-                          type="button"
-                          disabled={isSendingOtp}
-                          onClick={() => handleNameLookupAndSendOtp()}
-                          className="w-full min-h-[48px] px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 text-white font-bold text-sm sm:text-base flex items-center justify-center gap-2 transition-colors cursor-pointer shadow-md disabled:opacity-60"
-                        >
-                          {isSendingOtp ? (
-                            <RefreshCw className="w-4 h-4 shrink-0 animate-spin" />
-                          ) : (
-                            <Send className="w-4 h-4 shrink-0" />
-                          )}
-                          <span>{isSendingOtp ? 'SENDING VERIFICATION CODE...' : 'REGISTER & SEND VERIFICATION CODE'}</span>
-                        </button>
-                      </div>
-                    )}
-
-                    <div className="text-center pt-2">
-                      <button
-                        type="button"
-                        onClick={() => {
-                          setAuthMode('login');
-                          setCreateError('');
-                          setIsVerifyingEmail(false);
-                        }}
-                        className="text-xs text-emerald-700 dark:text-emerald-400 font-semibold hover:underline cursor-pointer"
-                      >
-                        Already registered on this device? Switch to Login
-                      </button>
-                    </div>
-
-                    <button
-                      type="button"
-                      onClick={goToWelcomePage}
-                      className="w-full min-h-[44px] px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-semibold text-xs sm:text-sm flex items-center justify-center gap-1.5 transition-colors cursor-pointer"
-                    >
-                      <Home className="w-4 h-4 shrink-0" />
-                      <span>Back to Home</span>
-                    </button>
-                  </div>
-                </div>
-              ) : (
-                /* CASE: LOGIN (NAME ONLY ON REGISTERED DEVICE) */
-                <div>
-                  <div className="mb-6">
-                    <h1 className="font-display text-2xl font-bold text-slate-900 dark:text-white mb-1.5">
-                      Candidate Login
-                    </h1>
-                    <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
-                      Enter your accredited Full Name to log in on this registered device.
-                    </p>
-                  </div>
-
-                  {/* Login Error Banner */}
-                  {loginError && (
-                    <div
-                      role="alert"
-                      className="mb-5 p-3 rounded-xl bg-red-50 dark:bg-red-950/50 border border-red-200 dark:border-red-900 text-red-700 dark:text-red-300 text-xs sm:text-sm flex items-start gap-2"
-                    >
-                      <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5" />
-                      <span>{loginError}</span>
-                    </div>
-                  )}
-
-                  <form onSubmit={handleLoginSubmit} className="space-y-4">
-                    <div>
-                      <label
-                        htmlFor="candidate-login-name"
-                        className="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-1.5"
-                      >
-                        Accredited Full Name <span className="text-red-500">*</span>
-                      </label>
-                      <div className="relative">
-                        <User className="w-4 h-4 text-slate-400 dark:text-slate-500 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none" />
-                        <input
-                          id="candidate-login-name"
-                          type="text"
-                          required
-                          autoComplete="name"
-                          value={loginName}
-                          onChange={(e) => {
-                            setLoginName(e.target.value);
-                            if (loginError) setLoginError('');
-                          }}
-                          placeholder="e.g. Nelson Emmanuel Chams"
-                          className="w-full min-h-[46px] pl-10 pr-3.5 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white placeholder:text-slate-400 dark:placeholder:text-slate-500 text-sm focus:outline-hidden focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-colors"
-                        />
-                      </div>
-                      <p className="mt-1.5 text-[11px] text-slate-500 dark:text-slate-400 flex items-center gap-1.5">
-                        <Smartphone className="w-3.5 h-3.5 text-slate-400 shrink-0" />
-                        <span>A change in device requires new registration and email verification code.</span>
-                      </p>
-                    </div>
-
-                    <div className="pt-2 space-y-2.5">
-                      <button
-                        type="submit"
-                        className="w-full min-h-[48px] px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 text-white font-bold text-sm sm:text-base flex items-center justify-center gap-2 transition-colors cursor-pointer shadow-md"
-                      >
-                        <span>LOGIN ON THIS DEVICE</span>
-                        <ArrowRight className="w-4 h-4 shrink-0" />
-                      </button>
-
-                      <div className="text-center pt-1">
-                        <button
-                          type="button"
-                          onClick={() => {
-                            setAuthMode('create');
-                            setLoginError('');
-                          }}
-                          className="text-xs text-emerald-700 dark:text-emerald-400 font-semibold hover:underline cursor-pointer"
-                        >
-                          New device or new candidate? Register this device
-                        </button>
-                      </div>
-
-                      <button
-                        type="button"
-                        onClick={goToWelcomePage}
-                        className="w-full min-h-[44px] px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-semibold text-xs sm:text-sm flex items-center justify-center gap-1.5 transition-colors cursor-pointer"
-                      >
-                        <Home className="w-4 h-4 shrink-0" />
-                        <span>Back to Home</span>
-                      </button>
-                    </div>
-                  </form>
-                </div>
-              )}
-
-
-              {/* Attribution */}
-              <div className="mt-6 pt-4 border-t border-slate-200 dark:border-slate-800 text-center">
-                <span className="text-[11px] text-slate-500 dark:text-slate-400 font-medium">
-                  powered by <span className="font-semibold text-slate-700 dark:text-slate-300">smach tech</span>
                 </span>
               </div>
             </div>
@@ -1529,36 +804,6 @@ export default function App() {
                   <span>Home</span>
                 </button>
               </div>
-
-              {/* Candidate Info Badge */}
-              {candidateUser && (
-                <div className="mb-5 p-3 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700/60 flex items-center justify-between gap-3 text-xs">
-                  <div className="flex items-center gap-2.5 text-slate-700 dark:text-slate-300 min-w-0">
-                    <div className="w-7 h-7 rounded-full bg-emerald-100 dark:bg-emerald-950/70 text-emerald-700 dark:text-emerald-300 flex items-center justify-center font-bold text-xs shrink-0">
-                      <User className="w-3.5 h-3.5" />
-                    </div>
-                    <div className="truncate leading-tight">
-                      <span className="font-semibold text-slate-900 dark:text-white block truncate">
-                        Candidate: {candidateUser.name}
-                      </span>
-                      <span className="text-[11px] text-slate-500 dark:text-slate-400 block truncate">
-                        {candidateUser.email}
-                      </span>
-                    </div>
-                  </div>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setScreen('login');
-                      window.scrollTo({ top: 0, behavior: 'auto' });
-                    }}
-                    className="shrink-0 text-emerald-700 dark:text-emerald-400 font-semibold hover:underline cursor-pointer"
-                  >
-                    Switch Account
-                  </button>
-                </div>
-              )}
-
               <p className="text-sm text-slate-600 dark:text-slate-400 mb-6">
                 Click on a section below to view its question types, select one, and click Start.
               </p>
@@ -1889,16 +1134,6 @@ export default function App() {
                   >
                     Your Result
                   </h1>
-                  {candidateUser && (
-                    <div className="mt-2 flex flex-wrap items-center gap-2 text-xs text-slate-600 dark:text-slate-300 font-medium">
-                      <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-emerald-50 dark:bg-emerald-950/50 border border-emerald-200 dark:border-emerald-800 text-emerald-800 dark:text-emerald-300">
-                        <User className="w-3.5 h-3.5" />
-                        Candidate: <strong>{candidateUser.name}</strong>
-                      </span>
-                      <span className="text-slate-400">·</span>
-                      <span>{candidateUser.email}</span>
-                    </div>
-                  )}
                 </div>
               </div>
 
