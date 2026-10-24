@@ -298,6 +298,14 @@ export default function App() {
     }
   }, [screen, selectedTypeId, startedAt, answers, currentQuestion, totalExamDuration]);
 
+  // Enforce authentication gate: candidates can only access question selection and exams after registration & login
+  useEffect(() => {
+    if ((screen === 'select-type' || screen === 'exam') && !activeCandidate) {
+      setAuthInitialMode('register');
+      setScreen('candidate-auth');
+    }
+  }, [screen, activeCandidate]);
+
   // Navigate back to the Welcome homepage at any point
   const goToWelcomePage = useCallback(() => {
     try {
@@ -835,8 +843,8 @@ export default function App() {
                             Device Bound ✅
                           </span>
                         </div>
-                        <p className="text-xs text-white/80 font-mono">
-                          Index: {activeCandidate.indexNumber} · {activeCandidate.department}
+                        <p className="text-xs text-white/80">
+                          {activeCandidate.department} {activeCandidate.email ? `· ${activeCandidate.email}` : ''}
                         </p>
                       </div>
                     </div>
@@ -944,31 +952,44 @@ export default function App() {
                 </div>
 
                 <div className="flex items-center gap-2.5">
-                  {!activeCandidate && (
+                  {activeCandidate ? (
                     <button
                       type="button"
                       onClick={() => {
-                        setAuthInitialMode('register');
-                        setScreen('candidate-auth');
+                        setOpenSection(null);
+                        setScreen('select-type');
                       }}
-                      className="w-full sm:w-auto min-h-[50px] px-6 py-3.5 rounded-xl border border-white/40 bg-white/10 hover:bg-white/20 text-white font-bold text-sm tracking-wide flex items-center justify-center gap-2 transition-colors cursor-pointer"
+                      className="w-full sm:w-auto min-h-[50px] px-8 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 text-white font-bold text-base tracking-wide flex items-center justify-center gap-2 transition-colors cursor-pointer shadow-lg"
                     >
-                      <Smartphone className="w-4 h-4 text-emerald-400" />
-                      <span>REGISTER DEVICE / OTP</span>
+                      <span>CONTINUE TO PRACTICE EXAMS</span>
+                      <ArrowRight className="w-4 h-4" />
                     </button>
+                  ) : (
+                    <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 w-full sm:w-auto">
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setAuthInitialMode('register');
+                          setScreen('candidate-auth');
+                        }}
+                        className="w-full sm:w-auto min-h-[50px] px-6 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 text-white font-bold text-sm tracking-wide flex items-center justify-center gap-2 transition-colors cursor-pointer shadow-lg"
+                      >
+                        <ShieldCheck className="w-4 h-4" />
+                        <span>REGISTER TO ACCESS EXAMS</span>
+                        <ArrowRight className="w-4 h-4" />
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setAuthInitialMode('login');
+                          setScreen('candidate-auth');
+                        }}
+                        className="w-full sm:w-auto min-h-[50px] px-5 py-3.5 rounded-xl border border-white/30 bg-white/10 hover:bg-white/20 text-white font-semibold text-sm transition-colors cursor-pointer text-center"
+                      >
+                        <span>LOG IN</span>
+                      </button>
+                    </div>
                   )}
-
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setOpenSection(null);
-                      setScreen('select-type');
-                    }}
-                    className="w-full sm:w-auto min-h-[50px] px-8 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 text-white font-bold text-base tracking-wide flex items-center justify-center gap-2 transition-colors cursor-pointer shadow-lg"
-                  >
-                    <span>CONTINUE</span>
-                    <ArrowRight className="w-4 h-4" />
-                  </button>
                 </div>
               </div>
 
@@ -1012,33 +1033,17 @@ export default function App() {
                 Click on a section below to view its question types, select one, and click Start.
               </p>
 
-              {activeCandidate ? (
+              {activeCandidate && (
                 <div className="mb-6 p-3.5 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-300 dark:border-emerald-800 flex items-center justify-between text-xs">
                   <div className="flex items-center gap-2">
                     <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0" />
                     <span className="font-medium text-slate-800 dark:text-slate-200">
-                      Accredited Candidate: <strong className="text-emerald-700 dark:text-emerald-400">{activeCandidate.fullName}</strong> ({activeCandidate.indexNumber})
+                      Accredited Candidate: <strong className="text-emerald-700 dark:text-emerald-400">{activeCandidate.fullName}</strong>
                     </span>
                   </div>
                   <span className="text-[10px] bg-emerald-200/80 dark:bg-emerald-800 text-emerald-950 dark:text-emerald-100 font-extrabold px-2 py-0.5 rounded-full shrink-0">
                     Device Bound ✅
                   </span>
-                </div>
-              ) : (
-                <div className="mb-6 p-3 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 flex items-center justify-between text-xs">
-                  <span className="text-slate-500 dark:text-slate-400">
-                    Taking practice exam in Guest / Unbound Mode.
-                  </span>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setAuthInitialMode('register');
-                      setScreen('candidate-auth');
-                    }}
-                    className="text-xs font-bold text-emerald-700 dark:text-emerald-400 hover:underline cursor-pointer"
-                  >
-                    Bind Device / OTP
-                  </button>
                 </div>
               )}
 
@@ -1373,7 +1378,7 @@ export default function App() {
                   <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-300 dark:border-emerald-800 text-xs">
                     <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0" />
                     <span className="font-semibold text-slate-800 dark:text-slate-200">
-                      Candidate: <strong className="text-emerald-700 dark:text-emerald-400">{activeCandidate.fullName}</strong> ({activeCandidate.indexNumber})
+                      Candidate: <strong className="text-emerald-700 dark:text-emerald-400">{activeCandidate.fullName}</strong>
                     </span>
                   </div>
                 )}
