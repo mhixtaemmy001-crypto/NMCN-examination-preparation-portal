@@ -20,7 +20,7 @@ export interface QuestionType {
   questions: Question[];
 }
 
-export type AppScreen = 'welcome' | 'select-type' | 'exam' | 'result';
+export type AppScreen = 'welcome' | 'candidate-auth' | 'select-type' | 'exam' | 'result';
 
 export interface ActiveExamSession {
   questionTypeId: string;

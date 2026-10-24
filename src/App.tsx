@@ -15,12 +15,23 @@ import {
   ChevronUp,
   Home,
   Calendar,
+  User,
+  Smartphone,
+  ShieldCheck,
 } from 'lucide-react';
 import { AppScreen, OptionKey, Question, ActiveExamSession, QuestionSection } from './types';
 import { QUESTION_TYPES } from './data/questionBank';
 import { NMCN_COLLEGE_LOGO_DATA_URI, NMCN_OFFICIAL_LOGO_DATA_URI } from './data/logoAsset';
 import { PROVOST_LANDSCAPE_DATA_URI, PROVOST_PORTRAIT_DATA_URI } from './data/provostAsset';
 import { getOptionText } from './utils/pdfExport';
+import CandidateAuthModal from './components/CandidateAuthModal';
+import {
+  CandidateRecord,
+  BoundDevice,
+  getBoundDevice,
+  getActiveCandidate,
+  unbindCandidateDevice,
+} from './data/candidateData';
 
 // Dynamic exam duration: 30 seconds per question (NMCN standard timing)
 export function getExamDurationSeconds(questionCount: number): number {
@@ -138,6 +149,9 @@ export default function App() {
 
   // Active exam restoration or initial state
   const [screen, setScreen] = useState<AppScreen>('welcome');
+  const [boundDevice, setBoundDevice] = useState<BoundDevice | null>(() => getBoundDevice());
+  const [activeCandidate, setActiveCandidate] = useState<CandidateRecord | null>(() => getActiveCandidate());
+  const [authInitialMode, setAuthInitialMode] = useState<'register' | 'login'>('register');
   const [selectedTypeId, setSelectedTypeId] = useState<string>(QUESTION_TYPES[0].id);
   const [openSection, setOpenSection] = useState<QuestionSection | null>(null);
   const [answers, setAnswers] = useState<Record<number, OptionKey>>({});
@@ -299,17 +313,59 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'auto' });
   }, []);
 
-  // Finalize submission (clears active storage so history isn't permanently stored)
+  // Finalize submission (clears active storage and records result in backend)
   const finalizeSubmission = useCallback(() => {
     try {
       localStorage.removeItem(STORAGE_KEY_SESSION);
     } catch {
       // ignore
     }
+
+    // Persist exam attempt to backend API
+    try {
+      const currentQType = QUESTION_TYPES.find((qt) => qt.id === selectedTypeId) || QUESTION_TYPES[0];
+      const totalQ = currentQType.questions.length;
+      const correctC = currentQType.questions.reduce(
+        (acc, q) => (answers[q.number] === q.correctAnswer ? acc + 1 : acc),
+        0
+      );
+      const pct = totalQ > 0 ? Math.round((correctC / totalQ) * 100 * 10) / 10 : 0;
+      const timeSpent = startedAt ? Math.floor((Date.now() - startedAt) / 1000) : 0;
+
+      fetch('/api/exams/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          candidateName: activeCandidate?.fullName || 'Candidate (Guest)',
+          candidateIndex: activeCandidate?.indexNumber || 'ASCONS/NMCN/2026/GUEST',
+          candidateEmail: activeCandidate?.email || '',
+          deviceId: boundDevice?.deviceId || 'DEV-WEB',
+          questionTypeId: selectedTypeId,
+          questionTypeName: `${currentQType.section} — ${currentQType.name}`,
+          score: correctC,
+          totalQuestions: totalQ,
+          percentage: pct,
+          timeSpentSeconds: timeSpent,
+        }),
+      }).catch(() => {
+        // Safe silent fallback
+      });
+    } catch {
+      // Safe fallback
+    }
+
     setShowSubmitConfirmModal(false);
     setMobileNavOpen(false);
     setFiveMinBannerVisible(false);
     setScreen('result');
+    window.scrollTo({ top: 0, behavior: 'auto' });
+  }, [selectedTypeId, answers, startedAt, activeCandidate, boundDevice]);
+
+  // Handle successful candidate registration & device binding with OTP
+  const handleCandidateAuthSuccess = useCallback((cand: CandidateRecord) => {
+    setActiveCandidate(cand);
+    setBoundDevice(getBoundDevice());
+    setScreen('select-type');
     window.scrollTo({ top: 0, behavior: 'auto' });
   }, []);
 
@@ -587,6 +643,34 @@ export default function App() {
               </>
             )}
 
+            {screen !== 'exam' && (
+              activeCandidate ? (
+                <button
+                  type="button"
+                  onClick={() => {
+                    setAuthInitialMode('login');
+                    setScreen('candidate-auth');
+                  }}
+                  className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-emerald-300 dark:border-emerald-800 bg-emerald-50 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 text-xs font-semibold hover:bg-emerald-100 transition-colors cursor-pointer"
+                >
+                  <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                  <span className="truncate max-w-[110px]">{activeCandidate.fullName}</span>
+                </button>
+              ) : (
+                <button
+                  type="button"
+                  onClick={() => {
+                    setAuthInitialMode('register');
+                    setScreen('candidate-auth');
+                  }}
+                  className="hidden sm:flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border border-emerald-600/50 bg-emerald-50 dark:bg-emerald-950/50 hover:bg-emerald-100 dark:hover:bg-emerald-900 text-emerald-800 dark:text-emerald-300 text-xs font-bold transition-colors cursor-pointer"
+                >
+                  <Smartphone className="w-3.5 h-3.5 text-emerald-600" />
+                  <span>Register Device</span>
+                </button>
+              )
+            )}
+
             <button
               type="button"
               onClick={() => setDarkMode((prev) => !prev)}
@@ -734,6 +818,101 @@ export default function App() {
                 )}
               </div>
 
+              {/* Candidate Device Registration & Bound Status Card */}
+              <div className="mb-8 p-4 sm:p-5 rounded-2xl bg-slate-950/75 backdrop-blur-md border border-white/20">
+                {activeCandidate ? (
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-bold shrink-0 shadow-xs">
+                        <User className="w-5 h-5" />
+                      </div>
+                      <div>
+                        <div className="flex items-center gap-2">
+                          <span className="text-white font-extrabold text-sm sm:text-base">
+                            {activeCandidate.fullName}
+                          </span>
+                          <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500 text-white font-bold">
+                            Device Bound ✅
+                          </span>
+                        </div>
+                        <p className="text-xs text-white/80 font-mono">
+                          Index: {activeCandidate.indexNumber} · {activeCandidate.department}
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-2">
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setAuthInitialMode('login');
+                          setScreen('candidate-auth');
+                        }}
+                        className="px-3.5 py-1.5 rounded-lg border border-white/25 bg-white/10 hover:bg-white/20 text-white text-xs font-semibold transition-colors cursor-pointer"
+                      >
+                        Portal Info
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          unbindCandidateDevice();
+                          setActiveCandidate(null);
+                          setBoundDevice(null);
+                        }}
+                        className="px-2.5 py-1.5 rounded-lg bg-red-950/60 hover:bg-red-900 text-red-200 text-xs font-medium transition-colors cursor-pointer"
+                      >
+                        Unbind
+                      </button>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                    <div className="flex items-start sm:items-center gap-3">
+                      <div className="w-10 h-10 rounded-xl bg-emerald-700/80 text-emerald-200 flex items-center justify-center font-bold shrink-0">
+                        <Smartphone className="w-5 h-5" />
+                      </div>
+                      <div>
+                        <div className="flex items-center gap-2">
+                          <span className="text-white font-bold text-sm sm:text-base">
+                            Candidate Device Binding &amp; OTP Portal
+                          </span>
+                          <span className="text-[10px] px-2 py-0.5 rounded-full bg-amber-500 text-slate-950 font-extrabold">
+                            Accredited
+                          </span>
+                        </div>
+                        <p className="text-xs text-white/80 mt-0.5">
+                          Bind your device with secure 6-digit OTP verification.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-2 shrink-0 w-full sm:w-auto">
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setAuthInitialMode('register');
+                          setScreen('candidate-auth');
+                        }}
+                        className="flex-1 sm:flex-none min-h-[40px] px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition-colors cursor-pointer shadow-md flex items-center justify-center gap-1.5"
+                      >
+                        <ShieldCheck className="w-4 h-4" />
+                        <span>REGISTER DEVICE</span>
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setAuthInitialMode('login');
+                          setScreen('candidate-auth');
+                        }}
+                        className="flex-1 sm:flex-none min-h-[40px] px-3.5 py-2 rounded-xl border border-white/30 bg-white/10 hover:bg-white/20 text-white text-xs font-semibold transition-colors cursor-pointer"
+                      >
+                        Log In
+                      </button>
+                    </div>
+                  </div>
+                )}
+              </div>
+
               <div className="pt-5 border-t border-white/25 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                 <div className="flex flex-col sm:flex-row sm:items-center gap-3">
                   <div className="text-xs sm:text-sm font-semibold text-white/90 drop-shadow-xs">
@@ -764,17 +943,33 @@ export default function App() {
                   </div>
                 </div>
 
-                <button
-                  type="button"
-                  onClick={() => {
-                    setOpenSection(null);
-                    setScreen('select-type');
-                  }}
-                  className="w-full sm:w-auto min-h-[50px] px-8 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 text-white font-bold text-base tracking-wide flex items-center justify-center gap-2 transition-colors cursor-pointer shadow-lg"
-                >
-                  <span>CONTINUE</span>
-                  <ArrowRight className="w-4 h-4" />
-                </button>
+                <div className="flex items-center gap-2.5">
+                  {!activeCandidate && (
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setAuthInitialMode('register');
+                        setScreen('candidate-auth');
+                      }}
+                      className="w-full sm:w-auto min-h-[50px] px-6 py-3.5 rounded-xl border border-white/40 bg-white/10 hover:bg-white/20 text-white font-bold text-sm tracking-wide flex items-center justify-center gap-2 transition-colors cursor-pointer"
+                    >
+                      <Smartphone className="w-4 h-4 text-emerald-400" />
+                      <span>REGISTER DEVICE / OTP</span>
+                    </button>
+                  )}
+
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setOpenSection(null);
+                      setScreen('select-type');
+                    }}
+                    className="w-full sm:w-auto min-h-[50px] px-8 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 text-white font-bold text-base tracking-wide flex items-center justify-center gap-2 transition-colors cursor-pointer shadow-lg"
+                  >
+                    <span>CONTINUE</span>
+                    <ArrowRight className="w-4 h-4" />
+                  </button>
+                </div>
               </div>
 
               {/* Powered by smach tech attribution */}
@@ -785,6 +980,15 @@ export default function App() {
               </div>
             </div>
           </section>
+        )}
+
+        {/* CANDIDATE AUTHENTICATION & DEVICE BINDING SCREEN */}
+        {screen === 'candidate-auth' && (
+          <CandidateAuthModal
+            onSuccess={handleCandidateAuthSuccess}
+            onBackToHome={goToWelcomePage}
+            initialMode={authInitialMode}
+          />
         )}
 
         {/* SCREEN 2: QUESTION-TYPE SELECTION */}
@@ -804,9 +1008,39 @@ export default function App() {
                   <span>Home</span>
                 </button>
               </div>
-              <p className="text-sm text-slate-600 dark:text-slate-400 mb-6">
+              <p className="text-sm text-slate-600 dark:text-slate-400 mb-4">
                 Click on a section below to view its question types, select one, and click Start.
               </p>
+
+              {activeCandidate ? (
+                <div className="mb-6 p-3.5 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-300 dark:border-emerald-800 flex items-center justify-between text-xs">
+                  <div className="flex items-center gap-2">
+                    <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0" />
+                    <span className="font-medium text-slate-800 dark:text-slate-200">
+                      Accredited Candidate: <strong className="text-emerald-700 dark:text-emerald-400">{activeCandidate.fullName}</strong> ({activeCandidate.indexNumber})
+                    </span>
+                  </div>
+                  <span className="text-[10px] bg-emerald-200/80 dark:bg-emerald-800 text-emerald-950 dark:text-emerald-100 font-extrabold px-2 py-0.5 rounded-full shrink-0">
+                    Device Bound ✅
+                  </span>
+                </div>
+              ) : (
+                <div className="mb-6 p-3 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 flex items-center justify-between text-xs">
+                  <span className="text-slate-500 dark:text-slate-400">
+                    Taking practice exam in Guest / Unbound Mode.
+                  </span>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setAuthInitialMode('register');
+                      setScreen('candidate-auth');
+                    }}
+                    className="text-xs font-bold text-emerald-700 dark:text-emerald-400 hover:underline cursor-pointer"
+                  >
+                    Bind Device / OTP
+                  </button>
+                </div>
+              )}
 
               <div role="radiogroup" aria-label="Question Type" className="space-y-4 mb-8">
                 {(['Section A', 'Section B', 'Section C'] as const).map((sectionName) => {
@@ -1135,6 +1369,14 @@ export default function App() {
                     Your Result
                   </h1>
                 </div>
+                {activeCandidate && (
+                  <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-300 dark:border-emerald-800 text-xs">
+                    <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0" />
+                    <span className="font-semibold text-slate-800 dark:text-slate-200">
+                      Candidate: <strong className="text-emerald-700 dark:text-emerald-400">{activeCandidate.fullName}</strong> ({activeCandidate.indexNumber})
+                    </span>
+                  </div>
+                )}
               </div>
 
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 my-6">

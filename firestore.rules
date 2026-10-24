@@ -1,0 +1,78 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // 1. Global Safety Net: Default-deny all unlisted paths
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() > 0 && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    // Connection test document for startup health verification
+    match /test/connection {
+      allow read: if true;
+    }
+
+    // OTP verification records: Strictly backend-authoritative.
+    // Client SDK direct read/write is completely blocked to protect OTP hashes and attempt counters.
+    match /otp_verifications/{verificationId} {
+      allow read, write: if false;
+    }
+
+    // Candidate user profiles
+    match /users/{userId} {
+      allow get: if isValidId(userId) && isOwner(userId);
+      allow list: if false;
+      allow create: if isValidId(userId) && isOwner(userId)
+                    && request.resource.data.keys().hasAll(['uid', 'name', 'email', 'isVerified'])
+                    && request.resource.data.keys().hasOnly(['uid', 'name', 'email', 'idNumber', 'department', 'boundDeviceId', 'isVerified', 'verifiedAt', 'createdAt'])
+                    && request.resource.data.uid == userId
+                    && request.resource.data.name is string && request.resource.data.name.size() >= 2 && request.resource.data.name.size() <= 120
+                    && request.resource.data.email is string && request.resource.data.email.size() >= 5 && request.resource.data.email.size() <= 150
+                    && request.resource.data.isVerified is bool;
+      allow update: if isValidId(userId) && isOwner(userId)
+                    && request.resource.data.uid == userId
+                    && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['name', 'idNumber', 'department', 'boundDeviceId', 'updatedAt']);
+      allow delete: if false;
+    }
+
+    // Examination results
+    match /exam_results/{resultId} {
+      allow get: if isValidId(resultId);
+      allow list: if false;
+      allow create: if isValidId(resultId)
+                    && request.resource.data.keys().hasAll(['candidateName', 'candidateIndex', 'questionTypeId', 'score', 'totalQuestions', 'percentage', 'submittedAt'])
+                    && request.resource.data.candidateName is string && request.resource.data.candidateName.size() >= 2 && request.resource.data.candidateName.size() <= 120
+                    && request.resource.data.candidateIndex is string && request.resource.data.candidateIndex.size() >= 3 && request.resource.data.candidateIndex.size() <= 60
+                    && request.resource.data.score is number && request.resource.data.score >= 0
+                    && request.resource.data.totalQuestions is number && request.resource.data.totalQuestions > 0
+                    && request.resource.data.percentage is number && request.resource.data.percentage >= 0 && request.resource.data.percentage <= 100;
+      allow update, delete: if false;
+    }
+
+    // Candidate bound devices
+    match /bound_devices/{deviceId} {
+      allow get: if isValidId(deviceId);
+      allow list: if false;
+      allow create: if isValidId(deviceId)
+                    && request.resource.data.keys().hasAll(['deviceId', 'candidateName', 'candidateIndex', 'boundAt'])
+                    && request.resource.data.deviceId == deviceId
+                    && request.resource.data.candidateName is string && request.resource.data.candidateName.size() >= 2 && request.resource.data.candidateName.size() <= 120
+                    && request.resource.data.candidateIndex is string && request.resource.data.candidateIndex.size() >= 3 && request.resource.data.candidateIndex.size() <= 60;
+      allow update: if isValidId(deviceId)
+                    && request.resource.data.deviceId == deviceId
+                    && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['lastSeenAt', 'deviceName']);
+      allow delete: if false;
+    }
+  }
+}
