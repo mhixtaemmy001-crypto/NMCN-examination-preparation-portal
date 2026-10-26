@@ -13,6 +13,7 @@ import { TYPE11_QUESTIONS } from './type11Questions';
 import { TYPE12_QUESTIONS } from './type12Questions';
 import { TYPE13_QUESTIONS } from './type13Questions';
 import { TYPE14_QUESTIONS } from './type14Questions';
+import { shuffleArray } from '../utils/shuffle';
 
 export const FOUNDATIONS_QUESTIONS: Question[] = [
   {
@@ -2307,18 +2308,22 @@ function assembleAllCurriculumCourses(): QuestionType[] {
   return courseMetaList.map((meta) => {
     const questionsInBucket = buckets[meta.id] || [];
     const seen = new Set<string>();
-    const uniqueQuestions: Question[] = [];
+    const uniqueRawQuestions: Question[] = [];
 
     for (const q of questionsInBucket) {
       const norm = q.question.trim().toLowerCase().replace(/\s+/g, ' ');
       if (!seen.has(norm)) {
         seen.add(norm);
-        uniqueQuestions.push({
-          ...q,
-          number: uniqueQuestions.length + 1,
-        });
+        uniqueRawQuestions.push(q);
       }
     }
+
+    // Thoroughly mix up questions in each curriculum course
+    const mixedQuestions = shuffleArray(uniqueRawQuestions, `course-${meta.id}-mixed`);
+    const uniqueQuestions: Question[] = mixedQuestions.map((q, idx) => ({
+      ...q,
+      number: idx + 1,
+    }));
 
     return {
       id: meta.id,

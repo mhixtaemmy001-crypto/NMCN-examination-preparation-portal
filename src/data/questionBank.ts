@@ -14,6 +14,7 @@ import { TYPE12_QUESTIONS } from './type12Questions';
 import { TYPE13_QUESTIONS } from './type13Questions';
 import { TYPE14_QUESTIONS } from './type14Questions';
 import { CURRICULUM_COURSE_TYPES } from './curriculumCourses';
+import { shuffleArray } from '../utils/shuffle';
 
 interface RawTypeConfig {
   id: string;
@@ -71,7 +72,9 @@ function buildQuestionTypes(): QuestionType[] {
   for (const cfg of typeConfigs) {
     const list = extractUnique(cfg.raw);
     if (list.length > 0) {
-      const questions: Question[] = list.map((item, idx) => ({
+      // Thoroughly mix up questions in each question type
+      const mixedList = shuffleArray(list, `qbank-${cfg.id}-mixed`);
+      const questions: Question[] = mixedList.map((item, idx) => ({
         number: idx + 1,
         question: item.question,
         optionA: item.optionA,
