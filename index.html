@@ -12,6 +12,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script>
+      // Suppress Vite client WebSocket HMR transport errors in cloud preview environments where HMR is disabled
+      window.addEventListener('error', function(e) {
+        var msg = (e && e.message) || '';
+        var stack = (e && e.error && e.error.stack) || '';
+        var file = (e && e.filename) || '';
+        if (
+          msg.includes('WebSocket') ||
+          msg.includes('@vite/client') ||
+          file.includes('@vite/client') ||
+          stack.includes('@vite/client') ||
+          stack.includes('createWebSocketModuleRunnerTransport')
+        ) {
+          e.preventDefault();
+          e.stopImmediatePropagation();
+          return true;
+        }
+      }, true);
+      window.addEventListener('unhandledrejection', function(e) {
+        var reason = e && e.reason;
+        var text = typeof reason === 'string' ? reason : ((reason && (reason.message || reason.stack)) || '');
+        if (
+          text.includes('WebSocket') ||
+          text.includes('@vite/client') ||
+          text.includes('createWebSocketModuleRunnerTransport')
+        ) {
+          e.preventDefault();
+          e.stopImmediatePropagation();
+        }
+      }, true);
+    </script>
   </head>
   <body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 antialiased selection:bg-emerald-600 selection:text-white">
     <div id="root"></div>

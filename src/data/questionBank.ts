@@ -13,6 +13,7 @@ import { TYPE11_QUESTIONS } from './type11Questions';
 import { TYPE12_QUESTIONS } from './type12Questions';
 import { TYPE13_QUESTIONS } from './type13Questions';
 import { TYPE14_QUESTIONS } from './type14Questions';
+import { CURRICULUM_COURSE_TYPES } from './curriculumCourses';
 
 interface RawTypeConfig {
   id: string;
@@ -88,6 +89,11 @@ function buildQuestionTypes(): QuestionType[] {
         questions,
       });
     }
+  }
+
+  // Section D: Nursing Curriculum Courses (grouped by courses on the nursing curriculum)
+  for (const courseType of CURRICULUM_COURSE_TYPES) {
+    result.push(courseType);
   }
 
   return result;
